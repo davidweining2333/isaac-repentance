@@ -5,7 +5,7 @@
  *   - 图标：缓存优先（一旦缓存，断网可用）
  *   - 页面/脚本：网络优先，失败回退缓存
  */
-const V = "isaac-guide-v2";      // 应用外壳（随版本更新）
+const V = "isaac-guide-v8";      // 应用外壳（随版本更新）
 const IMG = "isaac-images-v1";   // 图标（跨版本保留，避免升级后重新下载 4MB）
 
 const CORE = [
@@ -25,7 +25,8 @@ const CORE = [
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches.open(V)
-      .then((c) => c.addAll(CORE))
+      /* cache:"reload" 绕过 HTTP 缓存，确保升级时拿到新脚本而不是旧副本 */
+      .then((c) => c.addAll(CORE.map((u) => new Request(u, { cache: "reload" }))))
       .catch(() => {})
       .then(() => self.skipWaiting())
   );

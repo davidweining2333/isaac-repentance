@@ -44,27 +44,47 @@
   .ctag { display:inline-block; background:#2a3040; color:#aab3c4; border-radius:6px;
           padding:1px 7px; font-size:10.5px; margin:4px 3px 0 0; }
   .ctag.look { background:#33291c; color:#e0a458; }
+  .kindtag { display:inline-block; font-size:10px; line-height:1.5; padding:0 5px; border-radius:5px;
+             background:#263041; color:#9db4d6; margin-right:6px; vertical-align:1px; }
   .quality { display:inline-block; width:18px; height:18px; line-height:18px; text-align:center;
              border-radius:5px; font-size:10px; font-weight:700; float:right; }
   .q0{background:#4b5266}.q1{background:#5b8c3a}.q2{background:#3a7bb0}.q3{background:#8a5bb0}.q4{background:#c08b2e}
   .quality.q0,.quality.q1,.quality.q2,.quality.q3,.quality.q4{color:#fff}
+  .mq { display:inline-block; margin-top:7px; padding:2px 10px; border-radius:7px;
+        font-size:12px; font-weight:750; letter-spacing:.3px; color:#fff; }
+  .mq.q4 { color:#23180a; background:#d9a441; }
   .empty { color:var(--dim); text-align:center; padding:50px 20px; }
   /* 识别 */
   .up { border:2px dashed var(--line); border-radius:14px; padding:26px 16px; text-align:center;
         color:var(--dim); margin-bottom:12px; }
   .up b { color:var(--acc2); }
-  canvas { width:100%; border-radius:12px; background:#0b0d12; touch-action:none; margin-bottom:10px; }
+  canvas { width:100%; max-width:520px; display:block; margin:0 auto 10px; border-radius:12px;
+           background:#0b0d12; touch-action:none; }
   .btn { display:inline-block; padding:11px 18px; border-radius:11px; border:none;
          background:var(--acc); color:#20160a; font-weight:650; font-size:14px; cursor:pointer; }
   .btn.alt { background:var(--panel2); color:var(--fg); border:1px solid var(--line); }
+  .btn:disabled { opacity:.45; cursor:default; }
   .btnrow { display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap; }
+  #recCnt, #recResults { scroll-margin-top:112px; }
+  /* 手机端：竖图限制高度，操作栏固定在底部，避免按钮被画布顶出屏幕 */
+  @media (max-width:640px) {
+    canvas { width:auto; height:auto; max-width:100%; max-height:55vh; max-height:55dvh; }
+    .actions { position:fixed; left:0; right:0; bottom:0; z-index:40; margin:0;
+               padding:9px 14px calc(9px + env(safe-area-inset-bottom));
+               background:rgba(14,16,21,.96); border-top:1px solid var(--line);
+               box-shadow:0 -6px 18px rgba(0,0,0,.25); }
+    .actions .btn { flex:1; padding:11px 8px; white-space:nowrap; }
+    #view-recognize { padding-bottom:96px; }
+  }
   .score { font-size:11px; color:var(--ok); }
   .result { display:flex; gap:11px; background:var(--panel); border:1px solid var(--line);
-            border-radius:12px; padding:10px; margin-bottom:9px; align-items:center; }
+            border-radius:12px; padding:10px; margin-bottom:9px; align-items:center; cursor:pointer; }
+  .result:hover, .result:active { border-color:var(--acc); background:var(--panel2); }
   .result img { width:56px; height:56px; object-fit:contain; border-radius:8px; background:#262b37; flex:none; }
   .badge { display:inline-block; font-size:10px; padding:1px 7px; border-radius:5px;
            background:#33291c; color:#e0a458; margin-left:6px; }
   .hint { color:var(--dim); font-size:12px; margin:10px 2px; }
+  .hint a { color:var(--acc2); text-decoration:none; }
   .detail { margin-top:6px; font-size:12.5px; color:#c3c9d4; white-space:pre-wrap; }
   .thumb.ph { display:flex; align-items:center; justify-content:center; font-size:30px; opacity:.55; }
   /* 详情弹层 */
@@ -100,10 +120,11 @@
 
 <div class="wrap" id="view-search">
   <div class="bar">
-    <input type="search" id="q" placeholder="俗称 / 中文名 / 拼音 / 长相，如：硫磺火、liuhuang、红激光">
+    <input type="search" id="q" placeholder="搜全部类型：俗称 / 中文名 / 拼音 / 长相，如：硫磺火、liuhuang、红激光">
   </div>
   <div class="tabs" style="margin-bottom:10px" id="kindTabs">
-    <div class="tab on" data-kind="items">道具</div>
+    <div class="tab on" data-kind="all">全部</div>
+    <div class="tab" data-kind="items">道具</div>
     <div class="tab" data-kind="trinkets">饰品</div>
     <div class="tab" data-kind="cards">卡牌</div>
     <div class="tab" data-kind="pills">药丸</div>
@@ -118,7 +139,7 @@
     <input type="file" id="file" accept="image/*" capture="environment" hidden>
   </div>
   <canvas id="cv"></canvas>
-  <div class="hint">把道具图标<b>框紧</b>（尽量贴边）再点识别，准确率最高；深色/花纹背景也可以。</div>
+  <div class="hint">先框住<b>一个</b>道具/饰品/卡牌的本体（留一点边，别切掉图标边缘），再点「识别选区」。框大一点、歪一点也能识别；游戏截图请框选，不要用「识别整图」。<b>药丸外观随机，不能靠图识别。</b></div>
   <div class="btnrow" style="align-items:center">
     <select id="backend" style="flex:1;padding:9px 10px;border-radius:10px;background:#191d26;color:#e8eaf0;border:1px solid #2b303c">
       <option value="builtin">① 无模型·像素模板（推荐 / 免联网）</option>
@@ -127,11 +148,11 @@
     </select>
     <input type="file" id="modelFile" accept=".json,application/json" hidden>
   </div>
-  <div class="hint" id="backendHint">当前：内置 998 个图标模板，纯本地运算，无需联网、无模型包。</div>
-  <div class="btnrow">
-    <button class="btn" id="recBtn">识别选区</button>
-    <button class="btn alt" id="recAll">识别整图</button>
-    <button class="btn alt" id="reset">重置</button>
+  <div class="hint" id="backendHint">当前：内置 1000 个图标模板（道具/饰品/卡牌），纯本地运算，无需联网、无模型包。</div>
+  <div class="btnrow actions">
+    <button class="btn" id="recBtn" disabled>识别选区</button>
+    <button class="btn alt" id="recAll" disabled>整图特写</button>
+    <button class="btn alt" id="reset" disabled>重置</button>
   </div>
   <div class="cnt" id="recCnt"></div>
   <div id="recResults"></div>
@@ -142,17 +163,24 @@
     <b>这是什么</b><br>
     面向手机/主机玩家的《以撒的结合：忏悔》图鉴，解决"只能靠肉眼或记名字找道具"的痛点。<br><br>
     <b>怎么用</b><br>
-    · <b>搜索</b>：支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索。<br>
+    · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌 / 药丸，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索。<br>
     · <b>详情</b>：点任意卡片，查看效果、台词、品质、俗称。<br>
-    · <b>拍照识别</b>：上传或拍道具/饰品图片，框选后自动认出是哪个。<br><br>
+    · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；留一点边，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br><br>
     <b>离线使用</b><br>
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
     <div class="hint" id="cacheInfo" style="margin:2px 0 10px">搜索和识别本身完全离线；点此把图标也缓存下来，之后断网也能看。</div><br>
     <b>识别原理（无 AI 模型）</b><br>
-    传统计算机视觉：16×16 彩色模板 + alpha 掩码，配合 3 尺度 × 9 平移搜索，只做本地矩阵比对。免联网、无模型包。清晰框选时实测 Top1 约 88–100%。<br>
+    传统计算机视觉：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时从原图重新高分辨率裁切（不是先用 640px 缩略图），再叠加自动前景框、多圈裁切、5 个旋转 × 9 个平移，约 400 个候选，只比对道具本体像素。免联网、无模型包。<br>
+    实测：清晰截图/常见照片 Top1 稳定；选区偏大 30%+、偏移或裁到图标边缘时，多圈裁切会兜底。单次约 0.3–0.6s（桌面），手机视性能约 1s 左右。结果上方会提示“候选很接近”或“匹配度偏低”，这时请从候选里点开确认。<br>
     另有「本地小模型 / 自定义模型」两个可切换后端，可加载自己的 JSON 模型。<br><br>
     <b>数据</b><br>
-    719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。
+    719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。<br><br>
+    <b>数据来源</b><br>
+    · 名称 / 效果：<a href="https://github.com/wofsauge/External-Item-Descriptions" target="_blank" rel="noopener">External-Item-Descriptions</a>（仓库未附 LICENSE）<br>
+    · 品质 / 标签 / 道具池 / 成就等：<a href="https://bindingofisaacrebirth.wiki.gg" target="_blank" rel="noopener">bindingofisaacrebirth.wiki.gg</a>（CC BY-SA 4.0）<br>
+    · 房间 / 楼层：<a href="https://github.com/wofsauge/Basement-Renovator" target="_blank" rel="noopener">Basement Renovator</a>（All Rights Reserved）<br>
+    · 图标：wiki.gg；游戏素材版权归 Nicalis / Edmund McMillen，本作是非官方粉丝图鉴。<br>
+    · 这不是统一开源许可的数据集；公开再分发前请核对上游授权。
   </div>
 </div>
 

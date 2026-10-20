@@ -595,9 +595,9 @@ dump("isaac_repentance_all.json", {
     "meta": {
         "game": "The Binding of Isaac: Repentance / Repentance+",
         "sources": [
-            "https://github.com/wofsauge/External-Item-Descriptions (GPL-3.0)",
-            "https://bindingofisaacrebirth.wiki.gg (CC BY-SA)",
-            "https://github.com/wofsauge/Basement-Renovator (GPL-3.0)",
+            "https://github.com/wofsauge/External-Item-Descriptions (no LICENSE file; all rights reserved)",
+            "https://bindingofisaacrebirth.wiki.gg (CC BY-SA 4.0)",
+            "https://github.com/wofsauge/Basement-Renovator (LICENSE.md: All Rights Reserved)",
         ],
         "counts": counts,
     },

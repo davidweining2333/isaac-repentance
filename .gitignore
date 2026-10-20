@@ -13,3 +13,4 @@ raw/
 
 # Playwright 临时产物
 *.log
+.playwright-mcp/
