@@ -116,13 +116,15 @@ isaac-repentance/
 
 | 来源 | 用途 | 许可 |
 |---|---|---|
-| [wofsauge/External-Item-Descriptions](https://github.com/wofsauge/External-Item-Descriptions) | 名称、效果描述（中英文） | GPL-3.0 |
-| [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg) | 品质、标签、解锁、道具池、成就、挑战、角色、实体、房间机制 | CC BY-SA |
-| [wofsauge/Basement-Renovator](https://github.com/wofsauge/Basement-Renovator) | 房间类型、楼层定义（游戏 XML） | GPL-3.0 |
+| [wofsauge/External-Item-Descriptions](https://github.com/wofsauge/External-Item-Descriptions) | 名称、效果描述（中英文） | 仓库未附 LICENSE；代码公开但**没有明确开源许可**，默认保留版权 |
+| [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg) | 品质、标签、解锁、道具池、成就、挑战、角色、实体、房间机制 | CC BY-SA 4.0 |
+| [wofsauge/Basement-Renovator](https://github.com/wofsauge/Basement-Renovator) | 房间类型、楼层定义（游戏 XML） | [LICENSE.md](https://github.com/wofsauge/Basement-Renovator/blob/main/LICENSE.md) 写明 All Rights Reserved |
+| [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg) `Special:FilePath` | 道具 / 饰品 / 卡牌等图标 | Wiki 图片；游戏素材版权归 Nicalis / Edmund McMillen，具体图片许可以文件页为准 |
 
 - 中文名称与描述来自 EID 模组的 `zh_cn` 语言包。
 - 「引入版本」`added_in` 由 wiki 页面分类（`Category:Added in X`）判定。
 - 保留上游数据的版权声明；对外再分发时请注明出处与相应许可。
+- **这不是一个统一开源许可的数据集**：wiki 文本是 CC BY-SA 4.0，EID 与 Basement Renovator 并没有明确开源授权。若要公开再分发，请先确认上游授权；游戏图标/美术属于游戏版权方，不属于开源素材。本项目仅作非官方粉丝图鉴使用。
 
 ---
 
@@ -170,24 +172,54 @@ python3 -m http.server 8765
 部署到任意静态托管后，用手机浏览器打开，选择「添加到主屏幕」，即可像 App 一样全屏使用。
 搜索与识别所需数据在首次加载后即全部本地化；在「说明」页点「缓存全部图标（约 4MB）」可把 1000 张图标也存到本地，之后**完全离线可用**。
 
-### 部署
+### 推到 GitHub
 
-**GitHub Pages**
-1. 推送到 GitHub 仓库
-2. Settings → Pages → Source 选 `Deploy from a branch`，分支 `main`、目录 `/ (root)`
-3. 访问 `https://<用户名>.github.io/<仓库名>/`
+```bash
+cd isaac-repentance
+git add -A
+git commit -m "以撒图鉴 PWA"
+git branch -M main
+# 先在 GitHub 新建空仓库（不要勾选 README / .gitignore）
+git remote add origin https://github.com/<用户名>/<仓库名>.git
+git push -u origin main
+```
 
-**Vercel / Netlify**
-- 导入仓库，Framework 选 `Other`，Build Command 留空，Output Directory 填 `.`
+### 部署（PWA）
 
-**任意静态服务器**
-- 把整个仓库目录作为站点根目录（`images/` 必须在根目录下，页面用 `../../images/` 引用）
+> 部署**整个仓库根目录**，不是只部署 `app/web/`。`images/`、`manifest.json`、`sw.js` 都在根目录，缺一不可。
+
+**Vercel（推荐，私有仓库也可）**
+1. Vercel → Add New → Project → 导入刚推的仓库
+2. Framework Preset 选 `Other`
+3. Root Directory `./`；Build Command 留空；Output Directory 填 `.`
+4. Deploy，访问 `https://<项目名>.vercel.app/`
+
+**GitHub Pages（仓库需公开）**
+1. 仓库 Settings → Pages → Source 选 `Deploy from a branch`
+2. 分支选 `main`（或当前的 `master`）、目录 `/ (root)` → Save
+3. 等 1–2 分钟，访问 `https://<用户名>.github.io/<仓库名>/`
+4. 根目录已有 `.nojekyll`，无需额外配置
+
+**Netlify**
+- 导入仓库，Build Command 留空，Publish directory 填 `.`
+
+**部署后自检**
+- 根路径落地页能打开，点「打开图鉴」正常
+- `/manifest.json`、`/sw.js` 都返回 200
+- 桌面浏览器 DevTools → Application：Manifest 显示可安装，Service Worker 为 activated
+- 手机「添加到主屏幕」后开飞行模式：搜索、识别仍可用
+
+> 必须 HTTPS 才能启用 Service Worker / 离线缓存。本地预览用 `python3 -m http.server 8765`。
+
+### 更新
+
+`git push` 后 Vercel / Pages 会自动重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（如 `isaac-guide-v3` → `v4`），强制老用户换新外壳；替换图标时把 `IMG` 加一。
 
 ### 三个识别后端
 
 | 后端 | 状态 | 说明 |
 |---|---|---|
-| ① 无模型·像素模板 | 默认可用 | 16×16 彩色模板 + alpha 掩码 + 3 尺度 × 9 平移搜索；实测框选 Top1 88–100% |
+| ① 无模型·像素模板 | 默认可用 | 16×16 彩色模板 + alpha 掩码（腐蚀 1px）+ 6 尺度 × 5 旋转 × 9 平移 = 270 候选；照片级测试 Top1 5/5，单次 75–100ms |
 | ② 本地小模型 | 加载槽 | 可加载与 `recognition.js` 同格式的 JSON |
 | ③ 用户自定义模型 | 加载槽 | 同上，用于替换 / 扩充图标库 |
 
@@ -200,6 +232,8 @@ python3 -m http.server 8765
 ```
 
 `v` / `m` 由 `app/build_recognition.py` 生成。
+
+> 识别覆盖道具 / 饰品 / 卡牌共 1000 个图标模板；药丸没有固定外观，按设计不参与识别。构图越接近正面、道具占比越大越准；严重透视、反光、遮挡的实拍未做保证。识别结果可以点击打开完整详情。
 
 ### 重新构建前端数据
 
