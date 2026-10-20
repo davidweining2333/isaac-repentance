@@ -1,0 +1,64 @@
+The I AM ERROR room is a rare room that isn't connected to any other room on the floor and is reached through glitches or as a failsafe for an impossible event (like using Blank Card on ? Card, which loops on itself infinitely without a failsafe).
+I AM ERROR rooms are chaotic and often contain multiple items, pickups, beggars, and/or powerful enemies. There are no doors to leave, but always an exit to the next level ( with few exceptions) and at least one unique shopkeeper (pictured above) with a text bubble that reads "I AM ERROR".
+The trapdoor will always be open, even if there are enemies in the room.
+
+
+== Accessing the I AM ERROR room ==
+The only items/effects that can bring Isaac to the I AM ERROR room are Telepills, Undefined, Teleport 2.0, Red Key and Blank Card + ? Card. (This consumes Blank Card and ? Card)
+Undefined is the simplest method, as it has a decent chance to teleport the player there.
+ Using Red Key on the 13x13 boundaries of the map will create a 1-way door to the I AM ERROR room, and displays no icon on the map upon opening.
+No red door outlines will appear on the normal floor's boundary walls, meaning the I AM ERROR room can only be entered from another Red Room. At least 2 uses of Cracked Key are needed to enter if you don't have access to Red Key.
+Doesn't work on the Chest, Dark Room, The Void, Home, Corpse II, or the Dad's Note floor.
+ Using Teleport 2.0 when all rooms on the floor have been explored (including the Secret Room(s), Super Secret Room(s), and the Devil Room or Angel Room) sends you to the I AM ERROR room.
+ The I AM ERROR room can be reached by leaving a Crawl Space through an unintended direction. This will always bring you to an error room, even when all other methods stop working.
+Blank Card + XXI - The World?, Clear Rune + Ehwaz, We Need To Go Deeper!, and Mom's Shovel offer consistent methods of creating crawl spaces.
+Use 4 size downs, 2 speed, and crash into the floor below the entrance ladder or 3 size downs and the left and right walls using flight.
+One makes you smaller is the easiest way to acquire multiple size downs, and although you can exit the crawl space using listed minimums, it sometimes requires a lot of patience. Pluto / Inner Child are equal to 4 uses of the pill.
+It is also possible to exit through an unintended direction using A Pony / White Pony and 1 size down, albeit rarely. Significantly more common with 2 or more size downs. The speed stat does not matter since the charge-speed is a flat velocity.
+You can use Spin to Win, 2 speed & flight just by themselves to exit, bouncing off the far left and right walls and timing turning around after each bounce to build up speed and eventually exit.
+Tainted Forgotten can be thrown outside the Crawl Space provided Tainted Soul builds up enough velocity, resulting in accessing the I AM ERROR room.
+The Forgotten can place his body at the bottom of the entrance ladder, swap to the Soul form, then stretch vertically towards the entrance. Slingshotting yourself downward using the chain can provide some extra speed in order to clip.
+ A trapdoor created in the Lil Portal bedroom with We Need To Go Deeper! or Ehwaz will always lead to the I AM ERROR room.
+
+
+== I AM ERROR room destination ==
+Entering the I AM ERROR room from Womb II, Utero II, Scarred Womb II or ??? will randomly result in a trapdoor or a beam of light. Isaac may have to end his run early in the Cathedral/Sheol if the wrong story item was collected.
+ The second part of each Alt floor shall send Isaac back to the main route. (for example, Downpour II's trapdoor goes to Caves II.)
+ The only way to access the I AM ERROR room on Chest, Dark Room, The Void, Home, Corpse II, or the Dad's Note floor is through glitching out of bounds inside of a Crawl Space. Methods such as Teleport 2.0 will instead create an I am Error Shopkeeper.
+Chest and Dark Room's I AM ERROR room contain a portal to The Void.
+If The Void is not unlocked, it will instead contain a trapdoor that brings Isaac back to the floor.
+This is the same case if Isaac enters the I AM ERROR room when on Mausoleum II via inserting The Polaroid or The Negative into the Strange Door on Depths II. This will simply take Isaac to the starting room instead of taking him to Mausoleum II as to continue to Ascent route.
+Corpse II, Home, The Void, and the Dad's Note floor all have I AM ERROR room which contains a trapdoor that puts Isaac back onto the floor.
+ In the rare event of accessing I AM ERROR on Corpse XL and encountering a trapdoor in that error room, Isaac is taken to a new floor which attempts to load then the game crashes.
+ Entering the I AM ERROR room in Corpse XL will create a trapodoor or a beam of light that sends Isaac to Cathedral or Sheol, similarly to Womb II, Utero II, Scarred Womb II or ???.
+This can be viewed by enabling the LABY RNTH seed and getting into the Corpse XL Error room.
+ Entering the exit of an I AM ERROR room in the Chest or Dark Room will restart the floor.
+ The I AM ERROR room cannot be reached in Chest, Dark Room, or the final floor of the daily challenge.
+ During the Ascent, the I AM ERROR room will contain a beam of light instead.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+Once Isaac arrives at the I AM ERROR room, the only ways out are the trapdoor to the next level or another teleport. As the I AM ERROR room is randomly reached, this could force Isaac to skip Treasure Room and/or Boss Room items if they hadn't been picked up before, and if he cannot teleport again.
+Items in the I AM ERROR room will be from random item pools.
+ Once Corrupted Data is achieved (beating Delirium as Tainted Eden), items that spawn in this room have a 1/16 chance to be randomized as if affected by TMTRAINER.
+If a Crawl Space is spawned in the I AM ERROR room, Isaac will return to the room he was in before being teleported to the I AM ERROR room upon exiting the Crawl Space.
+Using the trapdoor in the I AM ERROR room can allow Isaac to reach levels not yet unlocked, like Sheol or Cathedral.
+ Using the trapdoor in Chest or the Dark Room will restart the level, similar to the effect of the Forget Me Now, and as of patch 1.05, the floor will generate a different layout upon restarting. The door to Mega Satan will be locked if it was previously opened.
+The chests present in the I AM ERROR room while on Chest and Dark Room always contain items.
+Using the Jera in most of these room configurations can allow Isaac to duplicate a very large amount of pickups, making Jera especially effective in this room.
+If Isaac is teleported to a Devil Room or Angel Room from an I AM ERROR room (e. g. by using Joker), exiting the room will return him to the room he was in before entering the I AM ERROR room.
+It is probably not a good idea to go to the I AM ERROR room on Depths/Necropolis/Dank Depths II before getting The Polaroid/The Negative, because then you can't go to the Chest or Dark Room, having to end the run in Sheol or Cathedral.
+Reaching another I AM ERROR room in the above-mentioned levels would allow continuing the run beyond them, even lacking the prerequisite items.
+Note that the 12th reward and onward in a Sacrifice Room has a 50% chance to send Isaac to Dark Room. This may be useful if an I AM ERROR room locked Isaac out of The Negative.
+ This rule also applies to Isaac when trying to reach an alternate floor from a main floor (Downpour II from Basement II, etc.). The I AM ERROR room will always send him to a regular floor (Basement II to Caves I, etc.) and Isaac will not be able to pick up the necessary progression items needed to reach Corpse.
+However, in Mausoleum/Gehenna II, if Isaac kills Mom's Heart first, then enters the I AM ERROR room, the trapdoor inside will lead him to Corpse.
+ There is a rare Closet room in Depths and Necropolis containing an I AM ERROR shopkeeper. This is not an I AM ERROR room, and can be exited normally.
+ There is a Super Secret Room that looks like an I AM ERROR room. This is not an I AM ERROR room, and can be exited normally.
+
+
+== Trivia ==
+The I AM ERROR room is a reference to an infamous quote in the NES game Zelda II: The Adventure of Link, where a citizen from Ruto introduces himself with the sentence "I AM ERROR".

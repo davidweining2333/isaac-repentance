@@ -1,0 +1,584 @@
+﻿id,variant,subtype,name,type,added_in
+,0,0,Buttons,,Rebirth
+,0,0,Buttons,,Rebirth
+,0,0,Buttons,,Rebirth
+,0,0,Buttons,,Rebirth
+,0,0,Buttons,,Rebirth
+,0,0,TNT,,Rebirth
+5,90,1,Batteries,,Rebirth
+5,90,2,Batteries,,Rebirth
+5,90,3,Batteries,,Rebirth
+5,90,4,Batteries,,Rebirth
+5,40,1,Bombs,,Rebirth
+5,40,2,Bombs,,Rebirth
+5,40,3,Bombs,,Rebirth
+5,40,4,Bombs,,Rebirth
+5,40,5,Bombs,,Rebirth
+5,40,6,Bombs,,Rebirth
+5,40,7,Bombs,,Rebirth
+5,41,0,Bombs,,Rebirth
+5,42,0,Bombs,,Rebirth
+5,42,1,Bombs,,Rebirth
+5,50,0,Chests,,Rebirth
+5,51,0,Chests,,Rebirth
+5,52,0,Chests,,Rebirth
+5,53,0,Chests,,Rebirth
+5,54,0,Chests,,Rebirth
+5,55,0,Chests,,Rebirth
+5,56,0,Chests,,Rebirth
+5,57,0,Chests,,Rebirth
+5,58,0,Chests,,Rebirth
+5,60,0,Chests,,Rebirth
+5,360,0,Chests,,Rebirth
+5,390,0,Chests,,Rebirth
+5,20,1,Coins,,Rebirth
+5,20,2,Coins,,Rebirth
+5,20,3,Coins,,Rebirth
+5,20,4,Coins,,Rebirth
+5,20,5,Coins,,Rebirth
+5,20,6,Coins,,Rebirth
+5,20,7,Coins,,Rebirth
+5,30,1,Keys,,Rebirth
+5,30,2,Keys,,Rebirth
+5,30,3,Keys,,Rebirth
+5,30,4,Keys,,Rebirth
+5,69,1,Sacks,,Rebirth
+5,69,2,Sacks,,Rebirth
+6,4,0,Beggar,,Rebirth
+6,5,0,Beggar,,Rebirth
+6,6,0,Beggar,,Rebirth
+6,7,0,Beggar,,Rebirth
+6,9,0,Beggar,,Rebirth
+6,13,0,Beggar,,Rebirth
+6,15,0,Beggar,,Rebirth
+6,18,0,Beggar,,Rebirth
+6,8,0,Donation Machine,,Rebirth
+6,11,0,Greed Donation Machine,,Rebirth
+6,1,0,Machines,,Rebirth
+6,2,0,Machines,,Rebirth
+6,3,0,Machines,,Rebirth
+6,10,0,Machines,,Rebirth
+6,12,0,Machines,,Rebirth
+6,16,0,Machines,,Rebirth
+6,17,0,Machines,,Rebirth
+6,19,0,Machines,,Rebirth
+17,0,0,Shopkeeper,,Rebirth
+17,3,0,Shopkeeper,,Rebirth
+33,0,0,Fire Places,,Rebirth
+33,1,0,Fire Places,,Rebirth
+33,2,0,Fire Places,,Rebirth
+33,3,0,Fire Places,,Rebirth
+33,4,0,Fire Places,,Rebirth
+245,0,0,Poops,,Rebirth
+245,0,0,Poops,,Rebirth
+245,0,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+245,1,0,Poops,,Rebirth
+292,0,0,TNT,,Rebirth
+292,1,0,TNT,,Rebirth
+964,0,0,Dummy,,Rebirth
+19,0,0,Larry Jr.,boss,Rebirth
+19,1,0,The Hollow,boss,Rebirth
+19,3,0,The Shell,boss,Rebirth
+19,2,0,Tuff Twins,boss,Rebirth
+20,0,0,Monstro,boss,Rebirth
+28,1,0,C.H.A.D.,boss,Rebirth
+28,2,0,Carrion Queen,boss,Rebirth
+28,0,0,Chub,boss,Rebirth
+36,0,0,Gurdy,boss,Rebirth
+43,1,0,Gish,boss,Rebirth
+43,0,0,Monstro II,boss,Rebirth
+45,0,0,Mom,boss,Rebirth
+62,0,0,Pin,boss,Rebirth
+62,1,0,Scolex,boss,Rebirth
+62,2,0,The Frail,boss,Rebirth
+62,3,0,Wormwood,boss,Rebirth
+63,0,0,Famine,boss,Rebirth
+64,0,0,Pestilence,boss,Rebirth
+65,1,0,Conquest,boss,Rebirth
+65,0,0,War,boss,Rebirth
+66,0,0,Death (Boss),boss,Rebirth
+67,0,0,The Duke of Flies,boss,Rebirth
+67,1,0,The Husk,boss,Rebirth
+68,0,0,Peep,boss,Rebirth
+68,1,0,The Bloat,boss,Rebirth
+69,0,0,Loki,boss,Rebirth
+69,1,0,Lokii,boss,Rebirth
+71,0,0,Fistula,boss,Rebirth
+71,1,0,Teratoma,boss,Rebirth
+74,0,0,Blastocyst,boss,Rebirth
+78,1,0,It Lives!,boss,Rebirth
+78,0,0,Mom's Heart,boss,Rebirth
+79,2,0,Blighted Ovum,boss,Rebirth
+79,0,0,Gemini,boss,Rebirth
+79,1,0,Steven,boss,Rebirth
+81,0,0,The Fallen,boss,Rebirth
+82,0,0,Headless Horseman,boss,Rebirth
+84,0,0,Satan,boss,Rebirth
+97,0,0,Mask of Infamy,boss,Rebirth
+99,0,0,Gurdy Jr.,boss,Rebirth
+100,1,0,The Wretched,boss,Rebirth
+100,0,0,Widow,boss,Rebirth
+101,0,0,Daddy Long Legs,boss,Rebirth
+101,1,0,Triachnid,boss,Rebirth
+102,1,0,??? (Boss),boss,Rebirth
+102,0,0,Isaac (Boss),boss,Rebirth
+237,1,0,Gurglings,boss,Rebirth
+237,2,0,Turdlings,boss,Rebirth
+260,0,0,The Haunt,boss,Rebirth
+261,1,0,Dangle,boss,Rebirth
+261,0,0,Dingle,boss,Rebirth
+262,0,0,Mega Maw,boss,Rebirth
+263,0,0,The Gate,boss,Rebirth
+264,0,0,Mega Fatty,boss,Rebirth
+265,0,0,The Cage,boss,Rebirth
+266,0,0,Mama Gurdy,boss,Rebirth
+267,0,0,Dark One,boss,Rebirth
+268,0,0,The Adversary,boss,Rebirth
+269,0,0,Polycephalus,boss,Rebirth
+269,1,0,The Pile,boss,Rebirth
+270,0,0,Mr. Fred,boss,Rebirth
+273,0,0,The Lamb,boss,Rebirth
+274,0,0,Mega Satan,boss,Rebirth
+401,0,0,The Stain,boss,Rebirth
+402,0,0,Brownie,boss,Rebirth
+403,0,0,The Forsaken,boss,Rebirth
+404,0,0,Little Horn,boss,Rebirth
+405,0,0,Rag Man,boss,Rebirth
+406,0,0,Ultra Greed,boss,Rebirth
+406,1,0,Ultra Greed,boss,Rebirth
+407,0,0,Hush,boss,Rebirth
+409,0,0,Rag Mega,boss,Rebirth
+410,0,0,Sisters Vis,boss,Rebirth
+411,0,0,Big Horn,boss,Rebirth
+412,0,0,Delirium,boss,Rebirth
+413,0,0,The Matriarch,boss,Rebirth
+900,0,0,Reap Creep,boss,Rebirth
+901,0,0,Lil Blub,boss,Rebirth
+902,0,0,The Rainmaker,boss,Rebirth
+903,0,0,The Visage,boss,Rebirth
+904,0,0,The Siren,boss,Rebirth
+905,0,0,The Heretic,boss,Rebirth
+906,0,0,Hornfel,boss,Rebirth
+907,0,0,Great Gideon,boss,Rebirth
+908,0,0,Baby Plum,boss,Rebirth
+909,0,0,The Scourge,boss,Rebirth
+910,0,0,Chimera,boss,Rebirth
+911,0,0,Rotgut,boss,Rebirth
+912,0,0,Mother,boss,Rebirth
+913,0,0,Min-Min,boss,Rebirth
+914,0,0,Clog,boss,Rebirth
+915,0,0,Singe,boss,Rebirth
+916,0,0,Bumbino,boss,Rebirth
+917,0,0,Colostomia,boss,Rebirth
+918,0,0,Turdlet,boss,Rebirth
+920,0,0,The Horny Boys,boss,Rebirth
+921,0,0,Clutch,boss,Rebirth
+950,0,0,Dogma,boss,Rebirth
+951,0,0,The Beast,boss,Rebirth
+951,40,0,Ultra Death,boss,Rebirth
+951,10,0,Ultra Famine,boss,Rebirth
+951,20,0,Ultra Pestilence,boss,Rebirth
+951,30,0,Ultra War,boss,Rebirth
+46,0,0,Sloth,mini-boss,Rebirth
+46,1,0,Super Sloth,mini-boss,Rebirth
+46,2,0,Ultra Pride,mini-boss,Rebirth
+47,0,0,Lust,mini-boss,Rebirth
+47,1,0,Super Lust,mini-boss,Rebirth
+48,1,0,Super Wrath,mini-boss,Rebirth
+48,0,0,Wrath,mini-boss,Rebirth
+49,0,0,Gluttony,mini-boss,Rebirth
+49,1,0,Super Gluttony,mini-boss,Rebirth
+50,0,0,Greed,mini-boss,Rebirth
+50,1,0,Super Greed,mini-boss,Rebirth
+51,0,0,Envy,mini-boss,Rebirth
+51,1,0,Super Envy,mini-boss,Rebirth
+52,0,0,Pride,mini-boss,Rebirth
+52,1,0,Super Pride,mini-boss,Rebirth
+81,1,0,Krampus,mini-boss,Rebirth
+271,0,0,Angel,mini-boss,Rebirth
+272,0,0,Angel,mini-boss,Rebirth
+866,0,0,Tainted Jacob,mini-boss,Rebirth
+867,1,0,Mother's Shadow,mini-boss,Rebirth
+3,220,0,Siren Minion,monster,Rebirth
+5,10,1,Hearts,monster,Rebirth
+5,10,2,Hearts,monster,Rebirth
+5,10,3,Hearts,monster,Rebirth
+5,10,4,Hearts,monster,Rebirth
+5,10,5,Hearts,monster,Rebirth
+5,10,6,Hearts,monster,Rebirth
+5,10,7,Hearts,monster,Rebirth
+5,10,8,Hearts,monster,Rebirth
+5,10,9,Hearts,monster,Rebirth
+5,10,10,Hearts,monster,Rebirth
+5,10,11,Hearts,monster,Rebirth
+5,10,12,Hearts,monster,Rebirth
+10,0,0,Gaper,monster,Rebirth
+10,1,0,Gaper,monster,Rebirth
+10,2,0,Gaper,monster,Rebirth
+10,3,0,Gaper,monster,Rebirth
+11,0,0,Pacer,monster,Rebirth
+11,1,0,Pacer,monster,Rebirth
+12,0,0,Horf,monster,Rebirth
+13,0,0,Fly,monster,Rebirth
+14,0,0,Pooter,monster,Rebirth
+14,1,0,Pooter,monster,Rebirth
+14,2,0,Pooter,monster,Rebirth
+15,0,0,Clotty,monster,Rebirth
+15,1,0,Clotty,monster,Rebirth
+15,2,0,Clotty,monster,Rebirth
+15,3,0,Clotty,monster,Rebirth
+16,0,0,Mulligan,monster,Rebirth
+16,1,0,Mulligan,monster,Rebirth
+16,2,0,Mulligan,monster,Rebirth
+18,0,0,Fly,monster,Rebirth
+21,0,0,Maggot,monster,Rebirth
+22,0,0,Mulligan,monster,Rebirth
+22,1,0,Mulligan,monster,Rebirth
+22,2,0,Mulligan,monster,Rebirth
+22,3,0,Mulligan,monster,Rebirth
+23,0,0,Charger,monster,Rebirth
+23,1,0,Charger,monster,Rebirth
+23,2,0,Charger,monster,Rebirth
+23,3,0,Charger,monster,Rebirth
+23,0,1,My Shadow,monster,Afterbirth
+24,0,0,Globin,monster,Rebirth
+24,1,0,Globin,monster,Rebirth
+24,2,0,Globin,monster,Rebirth
+24,3,0,Globin,monster,Rebirth
+25,0,0,Boom Fly,monster,Rebirth
+25,1,0,Boom Fly,monster,Rebirth
+25,2,0,Boom Fly,monster,Rebirth
+25,3,0,Boom Fly,monster,Rebirth
+25,3,1,Boom Fly,monster,Rebirth
+25,4,0,Boom Fly,monster,Rebirth
+25,5,0,Boom Fly,monster,Rebirth
+25,6,0,Boom Fly,monster,Rebirth
+26,0,0,Maw,monster,Rebirth
+26,1,0,Maw,monster,Rebirth
+26,2,0,Maw,monster,Rebirth
+27,0,0,Host,monster,Rebirth
+27,1,0,Host,monster,Rebirth
+27,3,0,Host,monster,Rebirth
+29,0,0,Hopper,monster,Rebirth
+29,2,0,Hopper,monster,Rebirth
+29,3,0,Hopper,monster,Rebirth
+29,1,0,Trite,monster,Rebirth
+30,0,0,Boil,monster,Rebirth
+30,1,0,Boil,monster,Rebirth
+30,2,0,Boil,monster,Rebirth
+31,0,0,Spitty,monster,Rebirth
+31,1,0,Spitty,monster,Rebirth
+32,0,0,Brain,monster,Rebirth
+34,0,0,Hopper,monster,Rebirth
+34,1,0,Hopper,monster,Rebirth
+35,0,0,Mr. Maw,monster,Rebirth
+35,2,0,Mr. Maw,monster,Rebirth
+38,0,0,Baby,monster,Rebirth
+38,1,0,Baby,monster,Rebirth
+38,1,1,Baby,monster,Rebirth
+38,3,0,Baby,monster,Rebirth
+39,0,0,Vis,monster,Rebirth
+39,1,0,Vis,monster,Rebirth
+39,2,0,Vis,monster,Rebirth
+39,3,0,Vis,monster,Rebirth
+40,0,0,Guts,monster,Rebirth
+40,1,0,Guts,monster,Rebirth
+40,2,0,Guts,monster,Rebirth
+41,0,0,Knight,monster,Rebirth
+41,1,0,Knight,monster,Rebirth
+41,2,0,Knight,monster,Rebirth
+41,3,0,Knight,monster,Rebirth
+41,4,0,Knight,monster,Rebirth
+42,0,0,Stone Grimace,monster,Rebirth
+42,1,0,Stone Grimace,monster,Rebirth
+42,2,0,Stone Grimace,monster,Rebirth
+44,0,0,Poky,monster,Rebirth
+44,1,0,Poky,monster,Rebirth
+53,0,0,Dople,monster,Rebirth
+53,1,0,Dople,monster,Rebirth
+54,0,0,Hopper,monster,Rebirth
+55,0,0,Leech (Enemy),monster,Rebirth
+55,1,0,Leech (Enemy),monster,Rebirth
+55,2,0,Leech (Enemy),monster,Rebirth
+56,0,0,Lump,monster,Rebirth
+57,0,0,MemBrain,monster,Rebirth
+57,1,0,MemBrain,monster,Rebirth
+57,2,0,MemBrain,monster,Rebirth
+58,0,0,Para-Bite,monster,Rebirth
+58,1,0,Para-Bite,monster,Rebirth
+59,0,0,Fred,monster,Rebirth
+60,0,0,Eye,monster,Rebirth
+60,1,0,Eye,monster,Rebirth
+60,2,0,Eye,monster,Rebirth
+61,0,0,Sucker,monster,Rebirth
+61,1,0,Sucker,monster,Rebirth
+61,2,0,Sucker,monster,Rebirth
+61,3,0,Sucker,monster,Rebirth
+61,4,0,Sucker,monster,Rebirth
+61,5,0,Sucker,monster,Rebirth
+61,6,0,Sucker,monster,Rebirth
+61,7,0,Sucker,monster,Rebirth
+66,10,0,Death Scythe,monster,Rebirth
+68,1,0,Peep Eye,monster,Rebirth
+68,11,0,Peep Eye,monster,Rebirth
+77,0,0,Embryo,monster,Rebirth
+80,0,0,Fly,monster,Rebirth
+85,0,0,Spider,monster,Rebirth
+86,0,0,Keeper (Enemy),monster,Rebirth
+87,0,0,Gaper,monster,Rebirth
+87,1,0,Gaper,monster,Rebirth
+88,0,0,Boil,monster,Rebirth
+88,1,0,Boil,monster,Rebirth
+88,2,0,Boil,monster,Rebirth
+89,0,0,Buttlicker,monster,Rebirth
+90,0,0,Hanger,monster,Rebirth
+91,0,0,Swarmer,monster,Rebirth
+93,0,0,Mask + Heart,monster,Rebirth
+93,1,0,Mask + Heart,monster,Rebirth
+94,0,0,Spider,monster,Rebirth
+96,0,0,Fly,monster,Rebirth
+201,0,0,Stone Grimace,monster,Rebirth
+202,0,0,Stone Grimace,monster,Rebirth
+202,10,0,Stone Grimace,monster,Rebirth
+203,0,0,Stone Grimace,monster,Rebirth
+204,0,0,Host,monster,Rebirth
+205,0,0,Mulligan,monster,Rebirth
+206,0,0,Baby Long Legs,monster,Rebirth
+206,1,0,Baby Long Legs,monster,Rebirth
+207,0,0,Crazy Long Legs,monster,Rebirth
+207,1,0,Crazy Long Legs,monster,Rebirth
+208,0,0,Fatty,monster,Rebirth
+208,1,0,Fatty,monster,Rebirth
+208,2,0,Fatty,monster,Rebirth
+209,0,0,Fatty,monster,Rebirth
+210,0,0,Fatty,monster,Rebirth
+211,0,0,Fatty,monster,Rebirth
+212,0,0,Death's Head,monster,Rebirth
+212,1,0,Death's Head,monster,Rebirth
+212,2,0,Death's Head,monster,Rebirth
+212,3,0,Death's Head,monster,Rebirth
+212,4,0,Death's Head,monster,Rebirth
+213,0,0,Mom's Hand,monster,Rebirth
+214,0,0,lvl2 Fly,monster,Rebirth
+215,0,0,lvl2 Spider,monster,Rebirth
+216,0,0,Mr. Maw,monster,Rebirth
+217,0,0,Dip,monster,Rebirth
+217,1,0,Dip,monster,Rebirth
+217,2,0,Dip,monster,Rebirth
+217,3,0,Dip,monster,Rebirth
+218,0,0,Poky,monster,Rebirth
+219,0,0,Wizoob,monster,Rebirth
+220,0,0,Squirt,monster,Rebirth
+220,1,0,Squirt,monster,Rebirth
+221,0,0,Cod Worm,monster,Rebirth
+222,0,0,Fly,monster,Rebirth
+223,0,0,MemBrain,monster,Rebirth
+224,0,0,Oob,monster,Rebirth
+225,0,0,Oob,monster,Rebirth
+226,0,0,Skinny,monster,Rebirth
+226,1,0,Skinny,monster,Rebirth
+226,2,0,Skinny,monster,Rebirth
+227,0,0,Bony,monster,Rebirth
+227,1,0,Bony,monster,Rebirth
+227,1,0,Bony,monster,Rebirth
+228,0,0,Homunculus,monster,Rebirth
+229,0,0,Tumor,monster,Rebirth
+229,1,0,Tumor,monster,Rebirth
+230,0,0,Tumor,monster,Rebirth
+231,0,0,Nerve Ending,monster,Rebirth
+231,1,0,Nerve Ending,monster,Rebirth
+234,0,0,One Tooth,monster,Rebirth
+235,0,0,Stone Grimace,monster,Rebirth
+236,0,0,Stone Grimace,monster,Rebirth
+237,0,0,Gurgling (Enemy),monster,Rebirth
+238,0,0,Pacer,monster,Rebirth
+239,0,0,Grub,monster,Rebirth
+240,0,0,Wall Creep,monster,Rebirth
+240,1,0,Wall Creep,monster,Rebirth
+240,3,0,Wall Creep,monster,Rebirth
+241,0,0,Wall Creep,monster,Rebirth
+242,0,0,Wall Creep,monster,Rebirth
+243,0,0,Spitty,monster,Rebirth
+244,0,0,Round Worm,monster,Rebirth
+244,1,0,Round Worm,monster,Rebirth
+244,2,0,Round Worm,monster,Rebirth
+244,3,0,Round Worm,monster,Rebirth
+246,0,0,Trite,monster,Rebirth
+246,1,0,Trite,monster,Rebirth
+247,0,0,Host,monster,Rebirth
+248,0,0,Horf,monster,Rebirth
+249,0,0,lvl2 Fly,monster,Rebirth
+250,0,0,lvl2 Spider,monster,Rebirth
+251,0,0,Homunculus,monster,Rebirth
+252,0,0,Gaper,monster,Rebirth
+253,0,0,Tumor,monster,Rebirth
+254,0,0,Knight,monster,Rebirth
+255,0,0,Round Worm,monster,Rebirth
+256,0,0,Fly,monster,Rebirth
+257,0,0,Fatty,monster,Rebirth
+257,1,0,Fatty,monster,Rebirth
+258,0,0,One Tooth,monster,Rebirth
+259,0,0,Baby,monster,Rebirth
+260,0,0,Lil' Haunt,monster,Rebirth
+276,0,0,Round Worm,monster,Rebirth
+278,0,0,Globin,monster,Rebirth
+279,0,0,Brain,monster,Rebirth
+280,0,0,Pacer,monster,Rebirth
+281,0,0,Fly,monster,Rebirth
+282,0,0,MemBrain,monster,Rebirth
+283,0,0,Knight,monster,Rebirth
+284,0,0,Gaper,monster,Rebirth
+285,0,0,Wizoob,monster,Rebirth
+286,0,0,Death's Head,monster,Rebirth
+287,0,0,Mom's Hand,monster,Rebirth
+288,0,0,Dukie,monster,Rebirth
+289,0,0,Round Worm,monster,Rebirth
+290,0,0,Meatball,monster,Rebirth
+291,0,0,Pitfall,monster,Rebirth
+291,1,0,Pitfall,monster,Rebirth
+291,2,0,Pitfall,monster,Rebirth
+293,0,0,Ultra Greed Coin,monster,Rebirth
+293,1,0,Ultra Greed Coin,monster,Rebirth
+293,2,0,Ultra Greed Coin,monster,Rebirth
+293,3,0,Ultra Greed Coin,monster,Rebirth
+295,0,0,Corn Mine,monster,Rebirth
+296,0,0,Fly,monster,Rebirth
+297,0,0,Gaper,monster,Rebirth
+298,0,0,Boil,monster,Rebirth
+299,0,0,Gaper,monster,Rebirth
+300,0,0,Host,monster,Rebirth
+301,0,0,Brain,monster,Rebirth
+302,0,0,Fatty,monster,Rebirth
+302,10,0,Fatty,monster,Rebirth
+303,0,0,Trite,monster,Rebirth
+304,0,0,Wall Creep,monster,Rebirth
+305,0,0,Ministro,monster,Rebirth
+306,0,0,Portal,monster,Rebirth
+306,1,0,Portal,monster,Rebirth
+307,0,0,Lump,monster,Rebirth
+308,0,0,Fistuloid,monster,Rebirth
+309,0,0,Boil,monster,Rebirth
+310,0,0,Mulligan,monster,Rebirth
+310,1,0,Mulligan,monster,Rebirth
+311,0,0,Mr. Maw,monster,Rebirth
+404,1,0,Dark Ball,monster,Rebirth
+409,1,0,Dark Ball,monster,Rebirth
+802,0,0,Blood Puppy,monster,Repentance
+804,0,0,Stone Grimace,monster,Rebirth
+805,0,0,Bishop,monster,Rebirth
+806,0,0,Fatty,monster,Rebirth
+807,0,0,Gaper,monster,Rebirth
+808,0,0,Fly,monster,Rebirth
+809,0,0,Stone Grimace,monster,Rebirth
+810,0,0,Leech (Enemy),monster,Rebirth
+811,0,0,Gaper,monster,Rebirth
+812,0,0,Horf,monster,Rebirth
+812,1,0,Horf,monster,Rebirth
+813,0,0,Gaper,monster,Rebirth
+814,0,0,Spider,monster,Rebirth
+815,0,0,Fissure,monster,Rebirth
+816,0,0,Polty,monster,Rebirth
+816,1,0,Polty,monster,Rebirth
+817,0,0,Mulligan,monster,Rebirth
+817,1,0,Mulligan,monster,Rebirth
+818,0,0,Rock Spider,monster,Rebirth
+818,1,0,Rock Spider,monster,Rebirth
+818,2,0,Rock Spider,monster,Rebirth
+819,0,0,Fly Bomb,monster,Rebirth
+819,1,0,Fly Bomb,monster,Rebirth
+820,0,0,Danny,monster,Rebirth
+820,1,0,Danny,monster,Rebirth
+821,0,0,Blaster,monster,Rebirth
+822,0,0,Mulligan,monster,Rebirth
+823,0,0,Fatty,monster,Rebirth
+824,0,0,Gyro,monster,Rebirth
+824,1,0,Gyro,monster,Rebirth
+825,0,0,Round Worm,monster,Rebirth
+826,0,0,Squirt,monster,Rebirth
+827,0,0,Faceless,monster,Rebirth
+827,1,0,Faceless,monster,Rebirth
+828,0,0,Horf,monster,Rebirth
+829,0,0,Mole,monster,Rebirth
+829,1,0,Mole,monster,Rebirth
+830,0,0,Fatty,monster,Rebirth
+831,20,0,Brain,monster,Rebirth
+831,0,0,Fatty,monster,Rebirth
+831,10,0,Fatty,monster,Rebirth
+832,0,0,Exorcist,monster,Rebirth
+832,1,0,Exorcist,monster,Rebirth
+833,0,0,Candler,monster,Rebirth
+834,0,0,Whipper,monster,Rebirth
+834,1,0,Whipper,monster,Rebirth
+834,2,0,Whipper,monster,Rebirth
+835,0,0,Fatty,monster,Rebirth
+835,10,0,Fatty,monster,Rebirth
+836,0,0,Vis,monster,Rebirth
+837,0,0,Henry,monster,Rebirth
+838,0,0,lvl2 Fly,monster,Rebirth
+840,0,0,Brain,monster,Rebirth
+841,0,0,Bony,monster,Rebirth
+841,1,0,Bony,monster,Rebirth
+844,0,0,Bombgagger,monster,Rebirth
+850,0,0,Gaper,monster,Rebirth
+850,1,0,Horf,monster,Rebirth
+850,2,0,Pacer,monster,Rebirth
+851,0,0,Gaper,monster,Rebirth
+852,0,0,Ball and Chain,monster,Rebirth
+853,0,0,Maggot,monster,Rebirth
+854,0,0,Leech (Enemy),monster,Rebirth
+855,0,0,Charger,monster,Rebirth
+855,1,0,Charger,monster,Rebirth
+856,0,0,Gasbag,monster,Rebirth
+857,0,0,Cohort,monster,Rebirth
+859,0,0,Host,monster,Rebirth
+860,0,0,Baby,monster,Rebirth
+861,0,0,Boil,monster,Rebirth
+862,0,0,Guts,monster,Rebirth
+863,0,0,Morningstar,monster,Rebirth
+864,0,0,Peep Eye,monster,Rebirth
+865,0,0,Vis,monster,Rebirth
+868,0,0,Fly,monster,Rebirth
+869,0,0,lvl2 Spider,monster,Rebirth
+870,0,0,Dip,monster,Rebirth
+871,0,0,Squirt,monster,Rebirth
+872,0,0,Clotty,monster,Rebirth
+873,0,0,Fly Trap,monster,Rebirth
+874,0,0,Mulligan,monster,Rebirth
+875,0,0,Poot Mine,monster,Rebirth
+876,0,0,Dump,monster,Rebirth
+876,1,0,Dump,monster,Rebirth
+877,0,0,Poky,monster,Rebirth
+878,0,0,Buttlicker,monster,Rebirth
+879,0,0,Fatty,monster,Rebirth
+880,0,0,Flesh Maiden,monster,Rebirth
+881,0,0,Needle,monster,Rebirth
+881,1,0,Needle,monster,Rebirth
+882,0,0,Dust,monster,Rebirth
+883,0,0,Baby,monster,Rebirth
+884,0,0,Spider,monster,Rebirth
+885,0,0,Cultist,monster,Rebirth
+885,1,0,Cultist,monster,Rebirth
+886,0,0,Fatty,monster,Rebirth
+886,1,0,Fatty,monster,Rebirth
+887,0,0,Death's Head,monster,Rebirth
+888,0,0,Fatty,monster,Rebirth
+889,0,0,Globin,monster,Rebirth
+890,0,0,Bony,monster,Rebirth
+891,0,0,Goat,monster,Rebirth
+891,1,0,Goat,monster,Rebirth
+892,0,0,Tumor,monster,Rebirth
+893,0,0,Ball and Chain,monster,Rebirth
+903,20,0,Dark Ball,monster,Rebirth
+912,20,0,Gaper,monster,Rebirth
+915,1,0,Ball and Chain,monster,Rebirth
+951,23,0,Dark Ball,monster,Rebirth
+951,41,0,Death Scythe,monster,Rebirth
+951,42,0,Death's Head,monster,Rebirth
+951,11,0,Fly,monster,Rebirth
+951,21,0,Fly,monster,Rebirth
+966,0,0,Siren Minion,monster,Rebirth

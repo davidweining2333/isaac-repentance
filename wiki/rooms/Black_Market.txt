@@ -1,0 +1,27 @@
+Black Markets are unique shops that can be accessed through a Crawl Space. Black Markets are 2 rooms wide. The left side of the Black Market contains a door back to the crawlspace and a trapdoor or beam of light to the next floor (including the Dark Room or Chest, even if they haven't been unlocked yet). The center of the room contains several items from the Shop pool that can all be bought for 1 Red Heart container.  Although these will not be Devil Room items, they still count as Devil deals for Angel Room generation and unlocking Azazel.  This is no longer the case, and Isaac can buy items from the Black Market without affecting the spawn chances of Angel rooms. The rest of the room will be strewn about with Shopkeepers, pickups, and various Beggars and machines.
+Telepills, Undefined, and Cursed Penny  have a very small chance to teleport you to the Black Market, but there will be no door exiting back to a Crawl Space. This means that without another way to teleport, the player will be forced to proceed to the next level, like in an I AM ERROR Room.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing; note that all urns you see will be skulls when encountered in-game. Additionally, the door to the crawlspace will close if there are enemies in the room, but the trapdoor will always be open.
+
+
+== Notes ==
+ Exiting the Black Market through the beam of light in Chest or Dark Room causes the floor to restart (in a similar fashion to Forget Me Now), as there are no floors further than these two. This can come in handy to gather a lot of items. The same applies to I AM ERROR.
+ Black Markets and I AM ERROR can no longer be accessed in Chest or Dark Room.
+ I AM ERROR rooms can be accessed by exiting a Crawl Space in an unintended direction.
+ Black Markets and I AM ERROR can be found in The Void. Using the trapdoor causes the floor to restart (in a similar fashion to Forget Me Now).
+ Players can no longer access the Black Market through the wall glitch. However, it is still possible to access the Black Market using the glitch via special circumstances including having Ipecac and The Inner Eye.
+The Lost can take items from the Black Market for free, just like with regular devil deals.
+ The Lost can take only one item from each selection of items. When an item is taken, the others disappear.
+ If a Black Market is found in the Mirrored World and is populated using a Shop Restock Machine, it will follow the rules of the non-mirrored character. Despite playing as The Lost in this area, multiple items can be purchased, and health will be deducted from the non-mirrored character, possibly resulting in death.
+ When playing as Keeper, the items are sold for money instead, making it no different from a regular Shop.
+ When two crawl spaces lead to a Black Market in the same floor, they lead to the same Black Market.
+ During the Ascent, crawlspaces with Black Markets lead to an I AM ERROR room instead.
+
+
+== Trivia ==
+In the game files, every Black Market room is named "# - The Black Market (Racist Placeholder) (copy)", which can be seen with the "Debug 5" command.
+
+
+== Bugs ==

@@ -1,0 +1,48 @@
+A Challenge Room is a special room that allows Isaac to fight enemies for extra rewards. They will only spawn on a floor if, upon entering the floor, Isaac's total health is greater than or equal to his number of heart containers. There are two kinds of challenge rooms: Normal Challenge Rooms, which appear on the first floor of a chapter or on Curse of the Labyrinth floors, and Boss Challenge Rooms, which appear on the second floor of a chapter. Challenge rooms do not appear in chapter 6.
+
+
+== Normal Challenge Room ==
+
+Normal Challenge Rooms can only be entered via their doors if Isaac's total health (Red, Black, and Soul Hearts) is greater than or equal to his number of heart containers. Picking up its contents will cause three waves of enemies to spawn. While in chapter 4 (Womb/Utero/Scarred Womb), 3 waves of bosses will be spawned, typically from Chapters 1 or 2. Each wave cleared will charge Isaac's active item by 1.
+
+
+=== Waves ===
+The enemies that spawn depend on the current chapter, and each chapter has two different possible sets of enemies:
+
+
+=== Waves (Sorted By Difficulty; Basement, Cellar, and Burning Basement Unused) ===
+
+
+== Boss Challenge Room ==
+
+Boss Challenge Rooms will only spawn if Isaac has full health upon entering the second floor of a chapter, and can also only be entered via their doors if he has one or fewer hearts of health. Picking up its contents will cause two waves of bosses to spawn. Starting on Chapter 4, they use the same waves of bosses as Normal Challenge Rooms. Each wave cleared will charge Isaac's active item by 1. The Boss Challenge Room door only counts Red Hearts in determining whether Isaac is allowed to enter. Soul Hearts are ignored. Boss Challenge Rooms require one or fewer hearts total to enter, counting Soul Hearts. Boss Challenge Rooms will always contain an item from the Boss item pool.
+The bosses that spawn depend on the current chapter. Alternate floors have two possible sets of bosses that could spawn:
+
+
+=== Boss Waves ===
+
+
+=== Boss Waves (Sorted By Difficulty) ===
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.  Note that both normal and boss challenge rooms use the same layouts.  Boss Challenge Rooms layouts always contain an item at the center.
+
+
+== Notes ==
+Temporary Tattoo will cause an additional chest to spawn after a normal Challenge Room is completed as well as cause an additional item from the Boss item pool to spawn after completing a Boss Challenge Room.
+ The waves appear in random orders rather than the orders listed above.
+If Isaac has some way to teleport out of the room, the contents of the Challenge Room can be taken without fighting the enemies.
+If a trigger to start a challenge room is left in the room after teleporting out (such as a chest or active item) or an item is spawned in the room and collected (such as rewards from Beggars or Blood Donation Machines), the challenge room will start over when it is picked up/opened.
+If a Secret Room is next to a Challenge Room, it can be entered by using a bomb in the Secret Room on the wall separating the two rooms. However, the entrance to the Secret Room from the Challenge Room will be closed when waves are active, meaning Isaac cannot escape through the Secret Room entrance.
+If Spiders spawn from a Red Chest before or during a wave, the Spiders have to be killed in order for the waves to start/continue.
+If Spiders spawn from a Red Chest after the challenge room is cleared, Isaac can leave the room without fighting them.
+Because of the health requirements, both types of Challenge Room will always be open for The Lost, Tainted Lost  and ???.
+ As Boss Challenge Rooms now take soul hearts into account, Soul Heart characters are now also forced to be at one heart before being allowed access.
+Doors to challenge rooms can be opened regardless of health with Dad's Key, Get out of Jail Free Card, Mr. ME!, or Soul of Cain.
+Boss Challenge Room doors do not count Bone Hearts as long as they are not filled with Red Hearts, so picking up an item like Brittle Bones will allow entry, despite the player technically having more than one heart of health.
+ Using Glowing Hourglass will re-roll the enemies involved in both variations.
+ In cases in which there are multiple characters on screen (such as when playing Co-op, being Jacob and Esau, etc.), all characters must meet the requirement for the door to open.
+
+
+== Bugs ==

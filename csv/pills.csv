@@ -1,0 +1,91 @@
+﻿id,name,name_zh,description_en,description_zh
+0,Bad Gas,剧毒臭屁,Isaac farts and poisons nearby enemies,角色放屁并使附近敌人中毒
+1,Bad Trip,过激幻觉,"Deals 1 heart of damage to Isaac
+Becomes a Full Health pill at 1 heart or less","对角色造成1心伤害
+不多于1心时, 变为体力回满胶囊"
+2,Balls of Steel,钢铁双蛋,+2 Soul Hearts,+2魂心
+3,Bombs are Key,炸弹变钥匙,"Swaps Isaac's number of bombs and keys
+Golden bombs and keys are also swapped","交换角色持有的炸弹和钥匙的数量
+金炸弹和金钥匙也会交换"
+4,Explosive Diarrhea,爆炸性腹泻,Isaac quickly spawns 5 lit bombs,在角色位置快速生成5个激活的炸弹
+5,Full Health,体力回满,Fully heals all heart containers,回满血
+6,Health Down,体力下降,"-1 Health
+Becomes a Health Up pill at 0 or 1 heart containers","-1心之容器
+不多于1心之容器时, 变为体力上升胶囊"
+7,Health Up,体力上升,+1 Empty heart container,+1空心之容器
+8,I Found Pills,我找到枚怪药,No effect,无效果
+9,Puberty,青春期,"No effect
+Eating 3 grants the Adult transformation:
+ +1 Health","无效果
+吃3个会获得成人套装:
+ +1心之容器"
+10,Pretty Fly,漂亮苍蝇,+1 Fly orbital,+1苍蝇环绕物
+11,Range Down,射程下降,-1 Range,射程-1
+12,Range Up,射程上升,+1.25 Range,射程+1.25
+13,Speed Down,移速下降,-0.12 Speed,移速-0.12
+14,Speed Up,移速上升,+0.15 Speed,移速+0.15
+15,Tears Down,射速下降,-0.28 Tears,射速-0.28
+16,Tears Up,射速上升,+0.35 Tears,射速+0.35
+17,Luck Down,运气下降,-1 Luck,幸运-1
+18,Luck Up,运气上升,+1 Luck,幸运+1
+19,Telepills,传送胶囊,"Teleports Isaac to a random room
+ Small chance to teleport Isaac to the I AM ERROR room","将角色传送至随机房间
+ 小概率传送至错误房"
+20,48 Hour Energy!,48小时能量！,"Fully recharges the active item
+ Spawns 1-2 batteries","将主动道具完全充能
+ 生成1-2电池"
+21,Hematemesis,呕血,"Drains all but one heart container
+ Spawns 1-4 Red Hearts","清空红心但保留1红心
+ 生成1-4红心"
+22,Paralysis,麻痹,Prevents Isaac from moving and shooting for 2 seconds,角色不能移动和发射2秒
+23,I can see forever!,我能永远看清！,Opens all secret room entrances on the floor,打开本层所有隐藏房的入口
+24,Pheromones,信息素,Charms all enemies in the room,魅惑房间中所有敌人
+25,Amnesia,失忆症,Hides the map for the floor,隐藏本层地图
+26,Lemon Party,柠檬派对,Spawns a large puddle on the ground which damages enemies,"生成一大滩水迹, 对敌人造成伤害"
+27,R U A Wizard?,你是巫师吗？,Isaac shoots diagonally for 30 seconds,角色进行对角发射30秒
+28,Percs!,止痛药！,Reduces all damage taken to half a heart for the room,当前房间中受到的伤害均为半心
+29,Addicted!,上瘾！,Increases all damage taken to a full heart for the room,当前房间中受到的伤害均为整心
+30,Re-Lax,放-松,Isaac spawns poop behind him for 2 seconds,"2秒内, 角色在身后生成大便"
+31,???,？？？,Curse of the Maze effect for the floor,本层施加混乱诅咒的效果
+32,One makes you larger,变大胶囊,"Increases Isaac's size
+Doesn't affect his hitbox","角色体型变大
+不影响碰撞箱"
+33,One makes you small,变小胶囊,"Decreases Isaac's size
+Also decreases his hitbox","角色体型变小
+也会使碰撞箱变小"
+34,Infested!,大量滋生！,Spawns 1 blue spider for each poop in the room,房间中每1个大便生成1只蓝蜘蛛
+35,Infested?,大量滋生？,"Spawn 1 blue spider for each enemy in the room
+Spawns 1-3 blue spiders if there are no enemies in the room","房间中每有1个敌人生成1只蓝蜘蛛
+若房间中没有敌人则生成1-3只蓝蜘蛛"
+36,Power Pill!,大力丸！,"Receive for 6.5 seconds:
+Invincibility
+Isaac can't shoot but deals 40 contact damage per second
+ Killing 2 enemies heals half a heart
+ Fears all enemies in the room","在6.5秒内获得:
+无敌
+角色无法发射, 但每秒造成40点接触伤害
+ 每击杀2个敌人治疗半红心
+ 使房间中的所有敌人恐惧"
+37,Retro Vision,复古视野,Pixelates the screen for 30 seconds,屏幕像素化30秒
+38,Friends Till The End!,好朋友一辈子！,Spawns 3 blue flies,生成3只蓝苍蝇
+39,X-Lax,泻药,Spawns a pool of slippery creep,生成一摊打滑水迹
+40,Something's wrong...,哪里不对…,Spawns a pool of slowing creep,生成一摊减速水迹
+41,I'm Drowsy...,好困…,Slows Isaac and all enemies in the room,使房间中所有敌人和角色减速
+42,I'm Excited!!,好兴奋！！！,"Speeds up Isaac and all enemies in the room
+Triggers again after 30 and 60 seconds","使房间中所有敌人和角色加速
+在30秒以及60秒后再触发一次"
+43,Gulp!,咕噜！,Consumes Isaac's trinket and grants its effects permanently,消耗角色的饰品并永久获得其效果
+44,Horf!,呕！,Shoots one Ipecac tear,发射1颗吐根酊泪弹
+45,Feels like I'm walking on sunshine!,感觉像漫步在阳光下！,"Receive for 6 seconds:
+Invincibility
+Isaac can't shoot (No contact damage)","在6秒内获得:
+ 移速+0.28
+无敌
+角色无法发射(也没有接触伤害)"
+46,Vurp!,嗝！,Spawns the last pill used before Vurp!,生成上次使用的胶囊
+47,Shot speed Down,弹速下降,-0.15 Shot speed,弹速-0.15
+48,Shot speed Up,弹速上升,+0.15 Shot speed,弹速+0.15
+49,Experimental Pill,实验性胶囊,"Increases 1 random stat
+Decreases 1 random stat","随机提升1项属性
+随机降低1项属性"
+9999,Golden Pill,金胶囊,,

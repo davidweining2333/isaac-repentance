@@ -1,0 +1,64 @@
+The Bedroom is a special room located behind a double plank door, requiring two bombs to open. It usually contains a bed in a corner and a carpet in the center. Isaac can sleep in the bed once to recover all Red Hearts. If Isaac has no Red Heart containers, the bed will add three Soul Hearts instead.
+Bedrooms have two variants: Clean Bedrooms and Dirty Bedrooms, with each version having a different map icon and color scheme. Which type of Bedroom is not revealed on the map until the room is entered.
+Bedrooms can appear from Chapter 1 to 3. They are more likely to generate if Isaac has low health.
+
+
+== Clean Bedroom ==
+
+
+=== Notes ===
+The trapdoor under the carpet will always lead to a Crawl Space.
+ In addition to healing Isaac, sleeping in the bed will also give one additional charge to his currently held activated item.
+The sleep sequence must be activated to get the charge. If the player wishes to recharge their item while Isaac is at full health, they have to intentionally take at least half a Red Heart damage before doing so.
+
+
+=== Layouts ===
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Dirty Bedroom ==
+
+
+=== Notes ===
+The trapdoor under the carpet will always lead to the next floor.
+
+
+=== Layouts ===
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+If Isaac already has full health when touching the bed, it will not activate the sleep sequence.
+Since they cannot hold Red Hearts, ???, Black Judas, Tainted Judas, Tainted ???, Tainted Forgotten and Tainted Bethany will always gain 3 Soul Hearts when resting in a bed.
+Bedrooms are more likely to appear when playing as The Lost, Tainted Lost, and Tainted Forgotten.
+The bed provides no direct benefit for The Lost and Tainted Lost. Once activated, the sleep sequence will play, but afterward, there will be no notable effect.
+ This will still count towards unlocking the Blanket.
+Using a bed takes no game-tracked time. In spite of the pause in movement and slow fade out, the timer will display the same time when Isaac can move again as it did when he stopped moving.
+Sometimes the carpet can be obstructed by an urn or bed, making it impossible to reveal the trapdoor under it. Even if the urn is blown up, there will be no trapdoor under the carpet.
+ When using a bed with The Forgotten, he will get all Bone Hearts filled  and The Soul will receive 3 Soul Hearts.
+ Soul hearts will be used to charge the Alabaster Box first, as if they were picked up normally.
+Although using the bed as The Lost / Tainted Lost does not give soul hearts as health, they will still count toward charging Alabaster Box.
+ The Home floor will have two unique rooms similar to Bedrooms. One is Isaac's room, which has a clean bed, a carpet (with nothing underneath), and a Locked Chest. The other is Mom's room, which has Mom's Chest and an alternate bed, that triggers the sequence to Dogma's fight once Isaac touches it.
+ When playing Jacob and Esau, the bed will only heal the one that touched the bed.
+ Beds will heal both characters.
+ In multiplayer, beds heal all players, not only the one who touched them.
+
+
+== Unlockable achievements ==
+  Wooden Cross - Sleep in a bed.
+  Blanket - Sleep in 10 beds.
+
+
+== Gallery ==
+
+		
+
+
+== Trivia ==
+The bedroom looks similar to the inside of Link's House in The Legend of Zelda: A Link to the Past.
+Having a trapdoor under the carpet is a reference to the fact that Isaac escapes from his mother by finding one under a carpet in his bedroom. Likewise, the barred door might also allude to the intro, where his mother locks him inside his room.
+Despite being so similar, Clean and Dirty Bedrooms have different room ids (18 and 19 respectively).
+ Bedrooms are the only special rooms that are not automatically identified on the map before entering them, since shops, libraries, vaults, and dice rooms were all given distinctive doors in Repentance, but clean and dirty bedrooms still have the same doors.
+
+
+== Bugs ==

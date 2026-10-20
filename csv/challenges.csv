@@ -1,0 +1,50 @@
+﻿number,name,character,description,goal,unlocks,added_in
+1,Pitch Black,,,,Rune of Hagalaz,Rebirth
+2,High Brow,,,,Rune of Jera,Rebirth
+3,Head Trauma,,,,Rune of Ehwaz,Rebirth
+4,Darkness Falls,,,,Rune of Dagaz,Rebirth
+5,The Tank,,,,Rune of Ansuz,Rebirth
+6,Solar System,,,,Rune of Perthro,Rebirth
+7,Suicide King,,,,Suicide King,Rebirth
+8,Cat Got Your Tongue,,,,Rune of Algiz,Rebirth
+9,Demo Man,,,,Chaos Card,Rebirth
+10,Cursed!,,,,Credit Card,Rebirth
+11,Glass Cannon,,,,Rules Card,Rebirth
+12,When Life Gives You Lemons,,,,Card Against Humanity,Rebirth
+13,Beans!,,,,Burnt Penny,Rebirth
+14,It's in the Cards,,,,SMB Super Fan,Rebirth
+15,Slow Roll,,,,Swallowed Penny,Rebirth
+16,Computer Savvy,,,,Robo-Baby 2.0,Rebirth
+17,Waka Waka,,,,Death's Touch,Rebirth
+18,The Host,,,,Technology .5,Rebirth
+19,The Family Man,,,,Epic Fetus,Rebirth
+20,Purist,,,,Rune of Berkano,Rebirth
+21,XXXXXXXXL,,"Every floor is the size of an XL Womb floor, but does not combine the floors of each chapter.",,Gold Heart,Rebirth
+22,SPEED!,,"Everything is sped up like the Broken Watch effect. After the game timer reaches 16 minutes, Isaac starts taking damage every 10 seconds.",,Get out of Jail Free Card,Rebirth
+23,Blue Bomber,,,,Gold Bomb,Rebirth
+24,PAY TO PLAY,,Every door costs 1 cent to enter. Isaac drops money when hit. Isaac dies if he runs out of money.,,2 new pills,Rebirth
+25,Have a Heart,,Pennies drop instead of Red Hearts. Many items that restore Red Hearts have no effect.,,2 new pills 2,Rebirth
+26,I RULE!,,,,Poker Chip,Rebirth
+27,BRAINS!,,,,Stud Finder,Rebirth
+28,PRIDE DAY!,,Cannot drop or replace Rainbow Worm .,,D8,Rebirth
+29,Onan's Streak,,Missing a shot deals damage to Judas.,,Kidney Stone,Rebirth
+30,The Guardian,,Isaac's Heart will follow Punching Bag instead of Isaac.,,Blank Rune,Rebirth
+31,Backasswards,,"All chapters progress in reverse order, losing 1 item and 1 Red Heart container each floor ascended.",Basement / Cellar / Burning Basement I,Laz Bleeds More!,Rebirth
+32,Aprils Fool,,"The minimap displays the floor's layout accurately but displays Isaac's position inaccurately. Pedestal items and pickups are not what they appear to be. Active items, pills, cards, and rune effects are randomized upon each use, making them very unreliable or deadly (for example Suicide King ). Items with no charge time (i.e. How to Jump , IV Bag , etc) can be used repeatedly for random effects. Stonies have a chance of being replaced by a Cross Stoney. Every boss is The Bloat. Isaac's health is not what it appears to be. Inventory pickups numbers are accurate.",,Maggy Now Holds a Pill!,Rebirth
+33,Pokey Mans,,Each use of Friendly Ball causes a random monster to be spawned. Friendly Ball instantly charges once the spawned monster is killed.,,Charged Key,Rebirth
+34,Ultra Hard,,All enemies spawn as champions if possible. Boss fights will be double trouble if possible. No heart pickups drop.,,Samson Feels Healthy!,Rebirth
+35,Pong,,"Damage fixed at 100, tear rate fixed at Category:Modified in Repentance 150 / Category:Modified in Repentance 0.2.",,Greed's Gullet,Rebirth
+36,Scat Man,,,,Dirty Mind,Rebirth
+37,Bloody Mary,,,,Sigil of Baphomet,Rebirth
+38,Baptism by Fire,,,,Purgatory,Rebirth
+39,Isaac's Awakening,,,,Spirit Sword,Rebirth
+40,Seeing Double,,All enemies and bosses are doubled.,,Broken Glasses,Rebirth
+41,Pica Run,,"All items are replaced by random trinkets.
+ Marbles activates on every hit.",,Ice Cube,Rebirth
+42,Hot Potato,,The Forgotten cannot fire tears and explodes every 2.5 seconds. Explosion timer resets upon entering a room or picking up an item.,,The Chariot,Rebirth
+43,Cantripped!,,"All cards and pills are replaced with item cards. Enemies also have a chance of dropping an item card when killed. The Bag of Crafting now initially holds a maximum of 3 item cards at once. When picked up, each item card shows a preview of a random active item that, when used, activates the effect.
+All boss item drops are replaced with Starter Deck , which increases the max card limit by 1 and drops 3 item cards.",,Justice,Rebirth
+44,Red Redemption,,"The starting room spawns with no rooms connected to it. Rooms spawn in clusters around the map and must be found via the Red Key . While the Red Key can be used an infinite number of times, it has 20 uses before Dark Esau spawns. Each subsequent 5 uses will spawn another Dark Esau if Tainted Jacob has yet to turn into his lost form. The Red Key cannot be used to open doors to I AM ERROR rooms.
+Each floor generates as a Curse of the Labyrinth floor, with one shop, and two item and boss rooms, except the fourth floor, which has only one boss room. All rooms may be from any floor of the current chapter.",,The Hermit,Rebirth
+45,DELETE THIS,,"All items are randomly generated due to TMTRAINER . The theme of each area, its obstacles per area, and music are randomized. Some obstacle sprites are randomized even within a level and sometimes the music may be missing altogether. Occasionally, even the floor texture might glitch out, replacing it with a plain color. Shop item prices range from 1 cent to 99.
+The challenge itself appears under the challenge list without any text, effectively rendering it invisible.",,Temperance,Rebirth

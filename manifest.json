@@ -1,0 +1,18 @@
+{
+  "name": "以撒图鉴 · 忏悔",
+  "short_name": "以撒图鉴",
+  "description": "《以撒的结合：忏悔/忏悔+》道具、饰品、卡牌、药丸查询与拍照识别。免联网、无 AI 模型。",
+  "lang": "zh-CN",
+  "start_url": "./app/web/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#12141a",
+  "theme_color": "#12141a",
+  "categories": ["games", "reference", "utilities"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

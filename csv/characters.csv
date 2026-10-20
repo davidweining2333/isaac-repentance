@@ -1,0 +1,41 @@
+﻿id,name,damage,tears,speed,range,unlocked_by,added_in
+1,Jacob & Esau,,,,,,Rebirth
+2,Cain,3.5 (*1.20),+0,1.3,,,Rebirth
+2,Magdalene,3.5 (*1.00),+0,0.85,,,Rebirth
+3,Judas,3.5 (*1.35),+0,1.0,,,Rebirth
+4,??? (Character),,,,,,Rebirth
+5,Eve,3.5 (*0.75)<br>(*1.00 at a Red Heart),+0,1.23,,,Rebirth
+6,Samson,3.5 (*1.00),-0.1,1.1,,,Rebirth
+7,Azazel,3.5 (*1.50),+0.5; x0.267,1.25,,,Rebirth
+8,Lazarus,3.5 (*1.00),+0,1.0,,,Rebirth
+9,Eden,3.5 ± 1.0 (*1.00),±0.75,1.0 ± 0.15,,,Rebirth
+10,The Lost,3.5 (*1.00),+0,1.0,,,Rebirth
+11,Lazarus,3.5 (*1.00),+0,1.0,,,Rebirth
+12,Judas,3.5 (*1.35),+0,1.0,,,Rebirth
+13,Lilith,3.5 (*1.00),+0,1.0,,,Rebirth
+14,Isaac,3.5 (*1.00),+0,1.0,,,Rebirth
+14,Keeper,3.5 (*1.20),-2,0.85,,,Rebirth
+15,Apollyon,3.5 (*1.00),+0,1.0,,,Rebirth
+16,The Forgotten,3.5 (*1.50),+0; x1/2,1.0,,,Rebirth
+17,The Forgotten,3.5 (*1.50),+0; x1/2,1.0,,,Rebirth
+18,Bethany,3.5 (*1.00),+0,1.0,,,Rebirth
+21,Tainted Isaac,3.5 (*1.00),+0,1.0,,,Rebirth
+22,Tainted Magdalene,3.5 (*0.75),+0,1.0,,,Rebirth
+23,Tainted Cain,3.5 (*1.20),+0,1.30,,,Rebirth
+24,Tainted Judas,3.5 (*1.00),+0,1.23,,,Rebirth
+25,Tainted ???,3.5 (*1.00),-0.35,0.90,,,Rebirth
+26,Tainted Eve,3.5 (×1.20),-0.5; ×0.66,1.0,,,Rebirth
+27,Tainted Samson,3.5 (*1.00),-0.1,1.0,,,Rebirth
+28,Tainted Azazel,3.5 (*1.50),+0; x1/3,1.00,,,Rebirth
+29,Tainted Lazarus,3.5 (*1.00),+0,1.0,,,Rebirth
+30,Tainted Eden,3.5 ± 1.0 (*1.00),+0.75 to -0.515,1.0 ± 0.15,,,Rebirth
+30,Tainted Lazarus,3.5 (*1.00),+0,1.0,,,Rebirth
+31,Tainted Lost,3.50 (* 1.30),+0,1.0,,,Rebirth
+32,Tainted Lilith,3.5 (*1.00),+0,0.85,,,Rebirth
+33,Tainted Keeper,3.5 (*1.00),-2.2,1.0,,,Rebirth
+34,Tainted Apollyon,3.5 (*1.00),-0.5,1.0,,,Rebirth
+35,Tainted Forgotten,3.5 (* 1.50),+0; x1/2,－,,,Rebirth
+36,Tainted Bethany,3.5 (*1.00),+0,1.0,,,Rebirth
+36,Tainted Forgotten,3.5 (* 1.50),+0; x1/2,－,,,Rebirth
+37,Tainted Jacob,3.5 (*1.00),+0.277,1.0,,,Rebirth
+,Jacob & Esau,,,,,,Rebirth

@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Null Room",
+    "type": "0",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Normal Room",
+    "type": "1",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Grave Room",
+    "type": "1",
+    "stage_name": "Special Rooms",
+    "id_range": "(2,9]",
+    "show_in_menu": false
+  },
+  {
+    "name": "Home Room",
+    "type": "1",
+    "stage_name": "Home",
+    "id_range": "",
+    "show_in_menu": false
+  },
+  {
+    "name": "Shop",
+    "type": "2",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Error Room",
+    "type": "3",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Treasure Room",
+    "type": "4",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Boss Room",
+    "type": "5",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Mini-Boss Room",
+    "type": "6",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Secret Room",
+    "type": "7",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Super Secret Room",
+    "type": "8",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Arcade",
+    "type": "9",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Curse Room",
+    "type": "10",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Challenge Room",
+    "type": "11",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Library",
+    "type": "12",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Sacrifice Room",
+    "type": "13",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Devil Room",
+    "type": "14",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Angel Room",
+    "type": "15",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Crawlspace",
+    "type": "16",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Boss Rush Room",
+    "type": "17",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Isaac's Room",
+    "type": "18",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Barren Room",
+    "type": "19",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Chest Room",
+    "type": "20",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Dice Room",
+    "type": "21",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Black Market",
+    "type": "22",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Greed Mode Descent",
+    "type": "23",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Planetarium",
+    "type": "24",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Teleporter",
+    "type": "25",
+    "stage_name": "Mausoleum",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Teleporter Exit",
+    "type": "26",
+    "stage_name": "Mausoleum",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Secret Exit",
+    "type": "27",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Blue Room",
+    "type": "28",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  },
+  {
+    "name": "Ultra Secret Room",
+    "type": "29",
+    "stage_name": "",
+    "id_range": "",
+    "show_in_menu": true
+  }
+]

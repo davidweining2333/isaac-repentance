@@ -1,0 +1,112 @@
+Devil Rooms primarily allow Isaac to make Deals with the Devil, but they can also contain a variety of enemies, pickups, or even a boss battle against Krampus. A Devil Room has a chance to appear in a Boss Room after the boss occupying it has been defeated. If certain criteria are met, a Devil Room can be replaced by an Angel Room. In Greed Mode, Devil Rooms are guaranteed to appear upon completing the optional 11th /  12th (in Greedier Mode) wave of a floor.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing. Note that all urns you see will be skulls when encountered in-game.
+
+
+=== Normal ===
+
+
+=== Greed Mode ===
+
+
+== Deals with the Devil ==
+A Devil Room has a high chance of spawning items that will be put up for sale. Unlike Shops, where Isaac pays with money, to make Deals with the Devil Isaac has to trade Red Heart Containers as payment. All items normally cost either 1 or 2 Red Heart Containers, and their prices roughly correspond to their power.
+When playing as Keeper, the character's coin heart containers are used to trade for Devil Deal items, with items costing the same number of coin heart containers as red heart containers with a different character.
+
+ Instead of coin heart containers, Devil Deal items must be bought using coins. One-heart and two-heart deals cost 15 and 30 cents, respectively. Paying cents for Devil Deals will still remove the Angel room appearance chance in the same way when other characters pay with heart containers.
+The same cost for deals are applied with any character who collected A Pound of Flesh.
+See the Devil Room item pool for a comprehensive list of items offered and their health price.  Additionally, Devil Deal items with the devilsacrifice item tag will have a sacrifice spike cost instead of a Red Heart Container cost. There is a 50% chance to award the item on the first play and 100% chance on the second. Picking up an item from the pedestal spawned this way counts as taking a regular deal and will prevent Angel Rooms from spawning naturally.
+
+
+=== Notes ===
+If Isaac does not have Red Heart Containers upon entering a Devil Room, all items will cost 3 Soul Hearts.
+ If Isaac is presented with 2+ items to buy, but only has enough Red Hearts to buy one, the price of the other(s) will change to 3 Soul Hearts upon spending your Red Hearts.
+ Additionally, if Isaac only has one Red Heart, deals that normally cost 2 Hearts will change to one Red Heart and two Soul Hearts.
+If Isaac does not have enough Soul Hearts for this type, he will still be able to take the Deal. However, if Isaac has no health at all (e. g. he is defying death with Berserk!), he will not be able to take the Deals.
+ If Isaac has less than 3 Soul Hearts, but at least one Bone Heart, he can take a three-Soul-Heart Deal and stay alive because of the bone hearts.
+ Bone hearts are considered Heart Containers. Having at least one bone heart will change the price of a Deal to at least one red heart.
+Two-heart deals can be taken even if Isaac does not have enough Red Hearts to afford them, as long as he has one Red Heart to spend.
+Spending all of his Heart Containers will not kill Isaac as long as he has Soul Hearts, Black Hearts, or Bone Hearts remaining.
+If taking a Deal leaves Isaac with no health remaining, he can still survive if he picks up a Soul Heart, Black Heart, or Bone Heart while holding the item in the air. Also, if he has an active item that grants Soul/Black Hearts, he can take a Deal and then use the active item, leaving him alive with whatever the item gave him. The same is true for consumables that give hearts (e. g. Dagaz).
+ If Isaac takes a Deal for an item that grants an Eternal Heart through the use of Chaos, it will not keep him alive.
+ The temporary heart container granted by XI - Strength cannot be used to purchase a devil deal. However, if Isaac has no other heart containers to spend, then it can be used this way. This also works if the devil deal costs 2 hearts, but Isaac only has 0 or 1 before activating the Strength card.
+ Temporary heart containers can be used for devil deals with no restrictions.
+ Some items may cost Soul Hearts even if Isaac still has Red Hearts.
+An item's price may change from Red Hearts to Soul Hearts if Isaac visits the Devil Room before obtaining enough Soul Hearts and returning to the Devil Room.
+
+
+=== Angel Rooms ===
+Refusing to make Deals with the Devil will give Isaac the chance of an Angel Room replacing the Devil Room on subsequent floors. If any Deal with the Devil is taken, Angel Rooms will not spawn for the remainder of the run.
+ Trading Heart Containers for items in a Black Market counts as taking a Deal with the Devil for Angel Room generation purposes.
+Only the act of paying health (Red Hearts or Soul Hearts) for an item in a Devil Room counts as a Deal with the Devil. Taking Black Hearts, opening Red Chests, and taking items that weren't paid for (such as those obtained from Red Chests, Krampus, Beggars, Pandora's Box, or made free by using Credit Card) do not count as Deals taken, allowing Isaac to still see Angel Rooms.
+ If the first offered Devil Room is not entered at all, the next offer is guaranteed to be an Angel Room. If the player uses the Joker it will take you to the Angel Room without removing the guarantee.
+
+
+== Conditions to Make Devil Rooms Appear ==
+A Devil Room can only open on floors between the second floor of Chapter 1 and Chapter 4.
+There is only a 1% base chance for the Devil Room door to open. This chance can be modified in various ways:
+
+For example, if Isaac has avoided taking Red Heart damage and has blown up a Shopkeeper, he will have a (1+35+99+10)% = 145% base Deal with the Devil chance which will be displayed 100%, which will then go down to 36.25% once he sees the Devil Room.
+
+
+== Notes ==
+If the player enters a Devil Room without the entrance door appearing (by teleporting in), the chance to receive a Devil Room will not be reduced. Because of this, if a Devil Room is seen this way and the player does not want to enter it again, intentionally taking red heart damage will reduce the chance of seeing it after the boss fight, which can prevent the penalty from seeing the Devil Room door from applying to the next floor.
+The chance that the Devil Room or Angel Room door will remain open after re-entering the Boss Room is based on the current Deal with the Devil chance, which gains the x0.25 multiplier from seeing the Devil Room door less than two floors ago. Due to its high chance of disappearing, it is recommended to go directly into the Devil Room when offered,  unless it's the first time one is seen and the player wants to get a guaranteed Angel deal.
+Once a Devil Room door closes for the floor, it cannot be re-opened without picking up Goat Head or Eucharist.
+On XL floors, the Devil Room door can only appear after completing the second Boss Room.
+On XL floors, not seeing a Devil Room will count as not seeing a Devil Room for two floors, and seeing it will count as not seeing a Devil Room for one floor.
+Taking Soul Heart, Black Heart, Eternal Heart, Bone Heart, or Rotten Heart damage does not decrease the chance to open a Devil Room; only Red Hearts count.
+Taking red heart damage from a Devil Beggar, Blood Donation Machine, IV Bag, Blood Rights, Razor Blade, Shard of Glass or Sharp Plug does not decrease the chance to open a Devil Room.
+ Sacrifice Rooms also count as self-damage and do not lower the Devil Room chance.
+ The Bad Trip pill effect or damage from Curse Room doors still counts as Red Heart damage.
+ Losing a Bone Heart container as The Forgotten counts as Red Heart damage.
+Tainted Magdalene's leaking Red Hearts being damaged does not count as Red Heart damage, regardless of the damage source.
+There are additional ways to enter a Devil Room on any floor:
+Red Chests have a chance of teleporting Isaac into the Devil Room upon being opened.
+Using Joker will teleport Isaac into the room.
+ Using Teleport 2.0 after all other rooms on the floor (excluding the I AM ERROR room) have been visited.
+Teleport!, Undefined, and Telepills cannot transport Isaac to the Devil Room.
+ If a deal would deal lethal damage to The Soul, quickly switching to The Forgotten will keep him alive. This can even be done to take 3-heart deals for one soul heart.
+If The Soul has no Hearts, switching to The Soul is disabled until another Soul or Black Heart is acquired.
+ The same can be done "in reverse" - take a deal as The Forgotten and quickly switch to The Soul. However, this will usually cause a softlock unless Birthright is obtained since switching to The Forgotten will be disabled while he has no Hearts, and The Soul is chained to The Forgotten and thus is incapable of traversing rooms.
+ The Lost can take all Deals with the Devil for free.
+ The Lost, Tainted Lost, and Tainted Jacob in ghost form are allowed to take one of the offered Deals for free; the others will vanish afterward.
+The same applies to any character turned into ghost form via Soul of the Lost or by touching a White Fire Place.
+ ??? pays for Devil Deals with Soul Hearts for prices equal to their Red heart equivalent; ie, one or two Soul Hearts depending on the item, rather than the normal three. No other character has this effect, including Tainted ???.
+ The rock behind the Devil can rarely be a Tinted Rock.
+ An Angel statue can rarely substitute the Satan statue and can be awoken with an explosion as usual.
+Angels spawned in this way do not drop Key Pieces, however.
+The highest possible Devil Room chance without Goat Head is 204% in Afterbirth, or 326.9% in Repentance.
+ It is possible to have a guaranteed Deal Chance without Goat Head or Eucharist if enough Satanic Bible wisps are produced and all chance-increasing effects take place. However, this is extremely difficult to achieve since only up to 8 Satanic Bible wisps can exist simultaneously (certain items such as Jar of Wisps ignore this).
+Teleporting into a deal without beating the floor boss can generate a different deal than the one you'd receive after beating it. This can be observed by having a Red Chest teleport or using a Joker while holding on to a Glowing Hourglass, using it to undo the teleport and then accessing the deal after defeating the floor boss, even if the deal door does not open by itself.
+This can be observed even in the starting floor of the game. It however no longer happens after Womb 2.
+Once a deal has been generated in any manner, it can not be changed or influenced.
+For example collecting Eucharist after a Devil Deal door had opened, will not result into changing the current floor deal to an Angel Deal even if the Devil Deal was not visited.
+It is possible to "undo" a deal door opening after beating the floor boss with Glowing Hourglass (provided the natural chance for the deal was not 100%) by entering the deal door and using the hourglass inside the room. If that happens, the game considers the current deal as not having opened at all, and will not apply a deal chance penalty for the next floor. This can be useful if the deal did not offer anything the player wanted.
+This can be repeated as many times as necessary until the door closes by itself, and as long as Isaac directly visits the deal and does not leave it himself but only by using the hourglass.
+
+
+== Gallery ==
+
+		
+
+
+== Unlockable Achievements ==
+  Azazel - Make 3 Deals with the Devil in one run.
+  Krampus - Take 20 items from Devil Rooms.
+  Death's List - Take 25 Deals with the Devil.
+  Sacrificial Altar - Take 50 Deals with the Devil.
+
+
+== Trivia ==
+In the original The Binding of Isaac, the Devil Rooms were somewhat less forgiving; if Isaac had an Eternal Heart, taking a Devil Deal would remove it.
+Furthermore, if Isaac has at least one Soul Heart and one Red Heart Container, and he takes a Devil Deal, Isaac would die. Isaac's last will will show a pentagram or a goat head as a result.
+Purchasing something worth two Red Heart Containers with one Red Heart Container and at least one Soul Heart will also remove the Soul Heart. Strangely, this will not kill Isaac, but the next hit he takes will, similar to The Lost.
+
+
+== Bugs ==
+
+
+== References ==

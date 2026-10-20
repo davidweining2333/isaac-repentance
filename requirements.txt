@@ -1,0 +1,4 @@
+# 构建/抓取脚本依赖（Python 3.13）
+pillow>=13.0
+pypinyin>=0.55
+numpy>=2.5

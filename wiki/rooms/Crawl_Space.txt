@@ -1,0 +1,61 @@
+Crawl Spaces are small secret rooms that can be entered by touching trapdoors with ladders in them. They can be found by:
+
+Using We Need To Go Deeper!  randomly (8% chance)/ on certain patterned tiles (100% chance once per floor)
+Using Ehwaz  randomly (10% chance)/ on certain patterned tiles (100% chance once per floor)
+Bombing a Clean Bedroom rug (100% chance)
+Destroying a rock (see below)
+ Using Chaos Card on Great Gideon (100% chance)
+ Using XXI - The World? (100% chance)
+These rooms are viewed from the side, rather than from above like the rest of the game, and Isaac will experience gravity pulling him to the floor while he is not walking on top of one of the ladders. Under the effects of flight, this gravity has no effects. However, Isaac cannot fly over the walls or floor. Items spawned inside are generated from the Treasure Room Item Pool.
+
+
+== Mechanics ==
+When entering a room pre-determined to contain a Crawl Space entrance, an RNG roll is made using the floor seed. This value will be shifted and divided, until its final result is in the grid range for the current room (ie: 128 tiles for 1x1 rooms, or 16x8). If said tile value is tied to a simple rock (not tinted, not a prop), then access to the Crawl Space will be granted upon destroying that rock. Only one room per floor has the right to spawn a Crawl Space, and not every floor is given one during the initial generation, even though every floor has also a Crawl Space and a Black Market ready in queue. The tile value can also be tied to props (empty tiles, doors, pots, void tiles, spikes, metal blocks, ...), but the Crawl Space won't spawn unless it's below a simple rock.
+
+This makes the rocks contained in ??? have a significantly increased chance of spawning a crawl space.
+ Crawl spaces may spawn under variants of rocks.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+There is only one Crawl Space room per floor. Thus, if Isaac finds two trapdoors with ladders on the same floor, they will lead to the same Crawl Space. When Isaac exits the Crawl Space, he will come out from the entrance he came in from.  Creating a Crawl Space within a Crawl Space with XXI - The World? will just take Isaac back to the original one.
+Entering a Crawl Space in the Boss Rush room and exiting it after the time limit has expired will transport Isaac back to the Mom Boss room.
+There is no map in the Crawl Space, similar to the Black Market, the I AM ERROR room, the Devil Room, and the Angel Room.
+This is because the Crawl Space does not technically occupy a fixed location on the floor relative to other rooms; Isaac is, in a sense, teleported to the Crawl Space when he touches the trapdoor. Possibly related to this, should Isaac enter a crawl space from a Devil Room, upon exiting he will emerge back in the regular map.
+Be careful when using The Poop, as in certain situations, The Poop can block the exit and trap Isaac.
+Crawl spaces can appear in Greed mode as well.
+It is possible to enter Black Markets through a Crawl Space even when there is no path to it. By using two bombs, Isaac can clip out of bounds and then walk underneath the Crawl Space room.
+ Leaving a Crawl Space from any side where no exit exists brings Isaac to I AM ERROR instead. It is now significantly more difficult to clip out of bounds, and can't be done with just two bombs.
+ With Continuum, if Isaac shoots downward in a Crawl Space, his tears will continuously accelerate and may loop many times (over 20), regardless of his range.
+ Rocks with Crawl Spaces under them will flash while holding the Shiny Rock.
+ The trinket Stud Finder adds an additional 1 in 200 chance for a Crawl Space to appear when a rock is destroyed.
+With Mom's Box or a Golden Trinket it becomes 1 in 100.
+ The Crawl Space that appears by using a Chaos Card on Great Gideon always has the same design even if another Crawl Space was encountered.
+ One Crawl Space layout contains two items, one of which is entirely enclosed by walls. The following are ways to obtain the seemingly off-limits item:
+Teleport to it with Stitches;
+Grab it with Mr. ME!;
+Jump through the wall with How to Jump;
+Using Void with Birthright when playing as Apollyon has a 10% chance to create a copy of the item after being absorbed by Void;
+Absorb it with Moving Box, then place it in another room;
+Clipping through the wall with Pluto;
+Cloning the item using Diplopia and grabbing the copy created underneath.
+This applies as well for Crooked Penny.
+ Crawl Spaces can be found during the Mother's Shadow sequence. She will follow Isaac into them, so care must still be taken to avoid her charge.
+The sequence may contain key blocks, usually with a key nearby. If a key is in your inventory when entering the crawl space, it will get transferred to your key pool, rendering a nearby key block impossible to remove.
+ Crawl spaces can still be found on floors during the Ascent to Home.
+
+
+== Gallery ==
+
+		
+
+
+== Trivia ==
+The layout of the Crawl Space is a direct visual reference to the treasure rooms in the Legend of Zelda for the NES.
+Crawl Spaces are referred to within the game files as "Item Dungeons".
+
+
+== Bugs ==

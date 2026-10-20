@@ -1,0 +1,63 @@
+with Devil's Crown
+A Treasure Room, or Item Room, is a room that contains items from the Treasure Room item pool. They appear in chapters 1, 2, and 3 (and 4 if Isaac holds Bloody Crown, 5 with Holy Crown or Wicked Crown). Two also appear in the ???. A Treasure Room can be identified by the gold edges of the door. When the current floor is under the effect of Curse of the Labyrinth, making a floor an XL floor, there will be two Treasure Rooms on the floor instead of one.
+Treasure Rooms on the first floor of any run do not require a key to open, even under the effect of Curse of the Labyrinth. Treasure Rooms never border more than a single regular room, but there may be a Secret Room adjacent to it. In Greed Mode, Treasure Rooms appear in Chapters 1, 2, 3, 4, and 5, and are always locked. Silver Treasure Rooms appear next to these rooms, they give items from the Boss Room item pool but are always unlocked.
+
+
+== Variations ==
+ There is a rare chance that a Treasure Room might contain two items, only one of which can be taken.
+ Occasionally, both items can be taken. In this case, the treasure room will have a unique layout with 8 "special" obstacles (Urns in Basement, Mushrooms in Caves and so on).
+Golden Horse Shoe will increase the chance for a Treasure Room to become a double Treasure Room, and More Options will cause every Treasure Room to become a double Treasure Room.
+ If the Treasure Room was unexplored, Tarot Cloth + XVII - The Stars will make the Treasure Room a double Treasure Room.
+ Treasure Rooms in Downpour, Dross, Mines, Ashpit, Mausoleum, Gehenna, and Corpse will always contain two items. One item will be hidden with a non-removable Curse of the Blind effect.
+ If a Treasure Room on the alt path spawns with an extra item, it will have three items. One can be taken freely while the other two are still a choice. There is no visual indication which is which, although one of the choice items is still hidden.
+Broken Glasses have a chance to add a hidden item choice to regular Treasure Rooms, or reveal the hidden choice in alt Treasure Rooms.
+ Treasure Rooms may contain a Shop Restock Machine, allowing Isaac to re-roll offered items if he has coins or bombs.
+Pay to Win guarantees a Shop Restock Machine in newly generated Treasure Rooms.
+ 2-3 Greed Gapers may appear in some rooms.
+ 1-3 Bulbs may appear in some rooms.
+ Some themed enemies from their respective floors may appear in some alt path Treasure Rooms.
+Treasure Rooms have a few very rare layouts that do not spawn items. Instead, they spawn:
+ Poop surrounded by a trinket, five pickups, and Attack Flies.
+ A trinket surrounded by eight pickups.
+ (Downpour only) A trinket surrounded by four Blue Fire Places, with two pairs of Pills, Cards or Runes.
+ (Mines only) Eight various pickups in the middle of the room, with additional pickups surrounded by rocks and a fireplace at each corner.
+ (Ashpit only) A Key Master, with keys surrounded by spiked rocks on the top left and bottom right of the room.
+ (Mausoleum and Gehenna only) Spikes surrounded by a trinket, two Golden Chests, one Stone Chest, a trinket, and a random heart, bomb, key and pill.
+ (Corpse only) A Rotten Beggar and a random coin at each room corner.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing. Note that some urns you see will be the themed obstacle from the corresponding floor when encountered in-game.
+
+
+=== Normal path layouts ===
+
+
+=== Greed mode layouts ===
+
+
+=== Downpour layouts ===
+
+
+=== Dross layouts ===
+
+
+=== Mines layouts ===
+
+
+=== Ashpit layouts ===
+
+
+=== Mausoleum layouts ===
+
+
+=== Gehenna layouts ===
+
+
+=== Corpse layouts ===
+
+
+=== Sheol layouts ===
+
+
+=== Cathedral layouts ===

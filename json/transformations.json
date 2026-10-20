@@ -1,0 +1,213 @@
+[
+  {
+    "id": 0,
+    "name": "Guppy",
+    "items": [],
+    "wiki_page": "Guppy",
+    "image": "images/transformation/guppy.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Guppy_appearance.png"
+  },
+  {
+    "id": 1,
+    "name": "Beelzebub",
+    "items": [
+      665
+    ],
+    "wiki_page": "Beelzebub",
+    "image": "images/transformation/beelzebub.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Beelzebub_appearance.png"
+  },
+  {
+    "id": 2,
+    "name": "Fun Guy",
+    "items": [
+      553,
+      582,
+      625
+    ],
+    "wiki_page": "Fun Guy",
+    "image": "images/transformation/fun_guy.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Fun_Guy_appearance.png"
+  },
+  {
+    "id": 3,
+    "name": "Seraphim (Transformation)",
+    "items": [
+      9,
+      248,
+      461,
+      492,
+      581,
+      629,
+      649,
+      650,
+      693
+    ],
+    "wiki_page": "Seraphim (Transformation)",
+    "image": "",
+    "image_url": ""
+  },
+  {
+    "id": 4,
+    "name": "Bob",
+    "items": [
+      95,
+      112,
+      113,
+      163,
+      174,
+      188,
+      265,
+      267,
+      275,
+      360,
+      363,
+      390,
+      404,
+      431,
+      435,
+      472,
+      491,
+      518,
+      607,
+      608,
+      652,
+      661,
+      679,
+      698
+    ],
+    "wiki_page": "Bob",
+    "image": "images/transformation/bob.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Bob_appearance.png"
+  },
+  {
+    "id": 5,
+    "name": "Spun",
+    "items": [],
+    "wiki_page": "Spun",
+    "image": "images/transformation/spun.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Spun_appearance.png"
+  },
+  {
+    "id": 6,
+    "name": "Yes Mother?",
+    "items": [
+      439,
+      604,
+      732
+    ],
+    "wiki_page": "Yes Mother?",
+    "image": "images/transformation/yes_mother.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Yes_Mother%3F_appearance.png"
+  },
+  {
+    "id": 7,
+    "name": "Conjoined",
+    "items": [
+      9,
+      209,
+      378,
+      504,
+      543,
+      576,
+      680
+    ],
+    "wiki_page": "Conjoined",
+    "image": "images/transformation/conjoined.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Conjoined_appearance.png"
+  },
+  {
+    "id": 8,
+    "name": "Leviathan",
+    "items": [],
+    "wiki_page": "Leviathan",
+    "image": "images/transformation/leviathan.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Leviathan_appearance.png"
+  },
+  {
+    "id": 9,
+    "name": "Oh Crap",
+    "items": [
+      82,
+      118,
+      556,
+      572
+    ],
+    "wiki_page": "Oh Crap",
+    "image": "images/transformation/oh_crap.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Oh_Crap_appearance.png"
+  },
+  {
+    "id": 10,
+    "name": "Bookworm",
+    "items": [
+      142,
+      162,
+      182,
+      331,
+      374,
+      568,
+      573,
+      643,
+      691,
+      696
+    ],
+    "wiki_page": "Bookworm",
+    "image": "images/transformation/bookworm.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Bookworm_appearance.png"
+  },
+  {
+    "id": 11,
+    "name": "Adult",
+    "items": [],
+    "wiki_page": "Adult",
+    "image": "images/transformation/adult.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Adult_appearance.png"
+  },
+  {
+    "id": 12,
+    "name": "Spider Baby (Transformation)",
+    "items": [
+      584,
+      712
+    ],
+    "wiki_page": "Spider Baby (Transformation)",
+    "image": "",
+    "image_url": ""
+  },
+  {
+    "id": 13,
+    "name": "Stompy",
+    "items": [
+      170,
+      234,
+      248,
+      266,
+      280,
+      367,
+      377,
+      461,
+      575,
+      717
+    ],
+    "wiki_page": "Stompy",
+    "image": "images/transformation/stompy.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Stompy_appearance.png"
+  },
+  {
+    "id": 15,
+    "name": "Necromancer",
+    "items": [],
+    "wiki_page": "Necromancer",
+    "image": "images/transformation/necromancer.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Necromancer_appearance.png"
+  },
+  {
+    "id": 1000,
+    "name": "Super Bum",
+    "items": [],
+    "wiki_page": "Super Bum",
+    "image": "images/transformation/super_bum.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Transformation_Super_Bum_appearance.png"
+  }
+]

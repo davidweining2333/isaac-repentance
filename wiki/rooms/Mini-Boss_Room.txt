@@ -1,0 +1,13 @@
+The Mini-Boss Room is a Special Room in which Isaac battles against one of a number of mini-bosses, namely the Seven Deadly Sins, their Super variants, and Ultra Pride.  The Super Sins cannot be encountered in Basement or its variants; they only appear in Mini-Boss Rooms starting from Caves and beyond. If a Red Room created by Red Key (etc.) is a Mini-Boss Room, all Sins and their variants, as well as Krampus, can be found within, even in the Basement.
+As opposed to most other Special Rooms, Isaac can't tell this type of room from the appearance of the door without items that reveal this information, like The Compass or Spelunker Hat, making the encounter a surprise. Once entered, all doors will be barred with two horizontal wood planks and metal, making it impossible to escape by blasting them open with bombs.
+It has three properties that are shared with many special rooms:
+
+Not every floor contains a Mini-Boss Room.
+No floor may contain more than one.
+It is always a dead end, except for a fight against Greed or Super Greed in a Secret Room.
+Standard Mini-Boss Rooms can spawn on any floor up to Chapter 5. In Chapter 6, Mini-Boss Rooms do not appear except for Greed or Super Greed in the Secret Room. However, mini-bosses are frequently encountered as regular enemies.
+
+
+== Notes ==
+A door leading to a Mini-Boss Room cannot be bombed open.
+Using Dad's Key, a Get out of Jail Free Card or Mr. ME! can open the door.

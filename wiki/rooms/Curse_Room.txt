@@ -1,0 +1,29 @@
+Curse Rooms feature teeth-like spikes on the door that hurt Isaac when entering and exiting the room.
+Curse rooms can appear from Chapter 1 to 5. Taking damage from the spikes doesn't reduce the odds of getting a Devil or Angel room.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing. In Downpour and Dross, Spiders will be replaced by Striders.
+
+
+=== Voodoo Head's layouts ===
+
+
+=== Greed mode layouts ===
+
+
+== Notes ==
+Items that grant flight allow Isaac to avoid damage taken upon entering a Curse Room, but do not prevent damage taken upon leaving.
+Any item that gives Isaac a shield or invulnerability will prevent damage taken when passing through a Curse Room Door, including Holy Mantle.
+If a Secret Room is next to a Curse Room, it can be entered without taking any damage by bombing the wall between these rooms from the Secret Room.
+The damage done by the Curse Room's door is applied when touching the door. This means that Isaac can be damaged by it without actually going through the door, and any effects that occur upon taking damage will occur in the current room and not the room that the door leads to.
+During Cursed! (challenge #10), all doors except for special types turn into this type of door.
+Damage taken from entering a Curse Room doesn't count for the purposes of score calculation.
+ Holding Flat File will remove the spikes from Curse Room doors, allowing them to be entered without taking damage.
+
+
+== Trivia ==
+The Curse Room's icon is similar to the icon of Whore of Babylon.
+
+
+== Bugs ==

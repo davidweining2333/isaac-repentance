@@ -1,0 +1,17 @@
+A Library is a room that must be opened with a key. Items from the Library item pool can be found within, among other things, such as cards and/or runes or even enemies. Libraries have a 5% chance of appearing each floor. Certain Library layouts can only appear after unlocking certain store upgrades from donating to the Donation Machine.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+ From the outside, the library is identical in appearance to the Shop. One of the ways they can be distinguished is if Isaac has a mapping item such as Spelunker Hat or The Compass. Generally, the library will be closer to the starting room than the Shop.
+ The library now has its own unique door.
+Once all items in the Library item pool have been picked up, items from the Treasure Room item pool will appear instead.
+Libraries are particularly useful for acquiring the Bookworm transformation.
+NO! now replaces all activated items inside the Library with passive items, which prevents all Library items other than Book of Virtues from appearing.
+
+
+== Trivia ==
+The music that plays in the Library is the same as the one played in ending 14.

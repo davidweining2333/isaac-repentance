@@ -1,0 +1,20 @@
+Vaults  are special rooms that contain a variety of pickups/chests (or occasional lack thereof). Vaults require two keys to be opened, unlike most other special rooms. For a Vault to spawn, the following has to happen.
+
+ An Arcade has to be able to spawn that floor. This requires that both:
+Isaac is holding five or more pennies
+The floor Isaac is going to is the second floor of a chapter
+ Once the game determines an Arcade will spawn, a Vault has a 1/10 chance to replace that Arcade. This chance increases to 4/10 if Isaac has two or more keys.
+ The floor Isaac is going to is the second floor of a chapter or the first floor of an alternate chapter ( Downpour,  Dross,  Mines,  Ashpit,  Mausoleum,  Gehenna and  Corpse)
+ If Isaac has 2 or more keys, a Vault has a 1/3 chance to spawn. This chance increases to 4/10 if Isaac has five or more pennies, and will replace the Arcade.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+The texture Vaults use for their rooms are the same as Chest.
+Dad's Key, Get out of Jail Free Card, and Mr. ME! open Vaults in one use, despite the fact that they require two keys.
+Many vaults contain locked chests or key blocks, further increasing the required number of keys to fully utilize them. Make sure you have enough keys if you choose to enter one.
+Due to how Vault generation works, a floor cannot have both an Arcade and Vault on it; they are mutually exclusive.
+If an Arcade is especially valuable to your run, it may be worth limiting your keys to one going into a floor with an Arcade on it to reduce the chances of it becoming a vault.

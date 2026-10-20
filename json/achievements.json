@@ -1,0 +1,6412 @@
+[
+  {
+    "id": 1,
+    "name": "Magdalene",
+    "description": "Unlocked a new character.",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Magdalene",
+    "wiki_page": ""
+  },
+  {
+    "id": 2,
+    "name": "Cain",
+    "description": "Unlocked a new character.",
+    "requirements": "Hold 55 Coins at one time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cain",
+    "wiki_page": ""
+  },
+  {
+    "id": 3,
+    "name": "Judas",
+    "description": "Unlocked a new character.",
+    "requirements": "Defeat Satan",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Judas",
+    "wiki_page": ""
+  },
+  {
+    "id": 4,
+    "name": "The Womb",
+    "description": "Chapter 4 - The Womb unlocked.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Womb",
+    "wiki_page": ""
+  },
+  {
+    "id": 5,
+    "name": "The Harbingers",
+    "description": "The horsemen are loose.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Harbingers",
+    "wiki_page": ""
+  },
+  {
+    "id": 6,
+    "name": "A Cube of Meat",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cube of Meat",
+    "wiki_page": ""
+  },
+  {
+    "id": 7,
+    "name": "The Book of Revelations",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat a Harbinger",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Book of Revelations",
+    "wiki_page": ""
+  },
+  {
+    "id": 8,
+    "name": "A Noose",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 3 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Transcendence",
+    "wiki_page": ""
+  },
+  {
+    "id": 9,
+    "name": "The Nail",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Nail",
+    "wiki_page": ""
+  },
+  {
+    "id": 10,
+    "name": "A Quarter",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 8 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "A Quarter",
+    "wiki_page": ""
+  },
+  {
+    "id": 11,
+    "name": "A Fetus in a Jar",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 9 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dr. Fetus",
+    "wiki_page": ""
+  },
+  {
+    "id": 12,
+    "name": "A Small Rock",
+    "description": "Unlocked a new item.",
+    "requirements": "Destroy 100 Tinted Rocks",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Small Rock",
+    "wiki_page": ""
+  },
+  {
+    "id": 13,
+    "name": "Monstro's Tooth",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 1",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Monstro's Tooth",
+    "wiki_page": ""
+  },
+  {
+    "id": 14,
+    "name": "Lil' Chubby",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 2",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Little Chubby",
+    "wiki_page": ""
+  },
+  {
+    "id": 15,
+    "name": "Loki's Horns",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Lokii",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Loki's Horns",
+    "wiki_page": ""
+  },
+  {
+    "id": 16,
+    "name": "Something From The Future",
+    "description": "New boss in the basement!",
+    "requirements": "Beat Basement 40 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Steven",
+    "wiki_page": ""
+  },
+  {
+    "id": 17,
+    "name": "Something Cute",
+    "description": "New boss in the caves!",
+    "requirements": "Beat Chapter 2 30 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "C.H.A.D.",
+    "wiki_page": ""
+  },
+  {
+    "id": 18,
+    "name": "Something Sticky",
+    "description": "New boss in the depths!",
+    "requirements": "Beat Chapter 3 20 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gish",
+    "wiki_page": ""
+  },
+  {
+    "id": 19,
+    "name": "A Bandage",
+    "description": "Unlocked a new item.",
+    "requirements": "Make a Super Bandage Girl by picking up 4 copies of Ball of Bandages in one run",
+    "notes": "See Unlocking Super Meat Boy & Super Bandage Girl",
+    "added_in": "Rebirth",
+    "link": "Super Bandage",
+    "wiki_page": ""
+  },
+  {
+    "id": 20,
+    "name": "A Cross",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Relic",
+    "wiki_page": ""
+  },
+  {
+    "id": 21,
+    "name": "A Bag of Pennies",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sack of Pennies",
+    "wiki_page": ""
+  },
+  {
+    "id": 22,
+    "name": "The Book of Sin",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat all 7 Deadly Sins",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Book of Sin",
+    "wiki_page": ""
+  },
+  {
+    "id": 23,
+    "name": "Little Gish",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Gish",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Little Gish",
+    "wiki_page": ""
+  },
+  {
+    "id": 24,
+    "name": "Little Steven",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Steven",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Little Steven",
+    "wiki_page": ""
+  },
+  {
+    "id": 25,
+    "name": "Little C.H.A.D.",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat C.H.A.D.",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Little C.H.A.D.",
+    "wiki_page": ""
+  },
+  {
+    "id": 26,
+    "name": "A Gamekid",
+    "description": "Unlocked a new item.",
+    "requirements": "Visit 10 Arcades",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Gamekid",
+    "wiki_page": ""
+  },
+  {
+    "id": 27,
+    "name": "A Halo",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom, Mom's Heart, or It Lives! using The Bible or XV - The Devil?",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Halo",
+    "wiki_page": ""
+  },
+  {
+    "id": 28,
+    "name": "Mr. Mega",
+    "description": "Unlocked a new item.",
+    "requirements": "Destroy 10 Tinted Rocks",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mr. Mega",
+    "wiki_page": ""
+  },
+  {
+    "id": 29,
+    "name": "The D6",
+    "description": "Isaac now holds the D6!",
+    "requirements": "Defeat Isaac as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The D6",
+    "wiki_page": ""
+  },
+  {
+    "id": 30,
+    "name": "The Scissors",
+    "description": "Unlocked a new item.",
+    "requirements": "Die 100 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Scissors",
+    "wiki_page": ""
+  },
+  {
+    "id": 31,
+    "name": "The Parasite",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up 2 dead-related items in a single run",
+    "notes": "Dead-related items are Bob's Rotten Head , Dead Cat , Cricket's Head , and Tammy's Head Dead-related items have the 'dead' item tag",
+    "added_in": "Rebirth",
+    "link": "The Parasite",
+    "wiki_page": ""
+  },
+  {
+    "id": 32,
+    "name": "???",
+    "description": "Unlocked a new character.",
+    "requirements": "Defeat Mom's Heart 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "??? (Character)",
+    "wiki_page": ""
+  },
+  {
+    "id": 33,
+    "name": "Everything Is Terrible!!!",
+    "description": "The game just got harder!",
+    "requirements": "Defeat Mom's Heart 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Everything is terrible",
+    "wiki_page": ""
+  },
+  {
+    "id": 34,
+    "name": "It Lives!",
+    "description": "Your future's past waits.",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "It Lives!",
+    "wiki_page": ""
+  },
+  {
+    "id": 35,
+    "name": "Mom's Contact",
+    "description": "Unlocked a new item.",
+    "requirements": "Obtain three Yes Mother? items in one run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mom's Contacts",
+    "wiki_page": ""
+  },
+  {
+    "id": 36,
+    "name": "The Necronomicon",
+    "description": "Unlocked a new item.",
+    "requirements": "Use XIII - Death 4 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Necronomicon",
+    "wiki_page": ""
+  },
+  {
+    "id": 37,
+    "name": "Basement Boy",
+    "description": "Beat basement without taking damage.",
+    "requirements": "Beat Chapter 1 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 38,
+    "name": "Spelunker Boy",
+    "description": "Beat caves without taking damage.",
+    "requirements": "Beat Chapter 2 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 39,
+    "name": "Dark Boy",
+    "description": "Beat depths without taking damage.",
+    "requirements": "Beat Chapter 3 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 40,
+    "name": "Mama's Boy",
+    "description": "Beat womb without taking damage.",
+    "requirements": "Beat Chapter 4 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 41,
+    "name": "Golden God!",
+    "description": "You are the best!!",
+    "requirements": "Defeat ??? and The Lamb",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 42,
+    "name": "Eve",
+    "description": "Unlocked a new character.",
+    "requirements": "Don't pick up any hearts for 2 floors in a row",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eve",
+    "wiki_page": ""
+  },
+  {
+    "id": 43,
+    "name": "Mom's Knife",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mom's Knife",
+    "wiki_page": ""
+  },
+  {
+    "id": 44,
+    "name": "The Razor",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Razor Blade",
+    "wiki_page": ""
+  },
+  {
+    "id": 45,
+    "name": "Guardian Angel",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Guardian Angel",
+    "wiki_page": ""
+  },
+  {
+    "id": 46,
+    "name": "A Bag of Bombs",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bomb Bag",
+    "wiki_page": ""
+  },
+  {
+    "id": 47,
+    "name": "Demon Baby",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Demon Baby",
+    "wiki_page": ""
+  },
+  {
+    "id": 48,
+    "name": "Forget Me Now",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Forget Me Now",
+    "wiki_page": ""
+  },
+  {
+    "id": 49,
+    "name": "The D20",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D20",
+    "wiki_page": ""
+  },
+  {
+    "id": 50,
+    "name": "Celtic Cross",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Celtic Cross",
+    "wiki_page": ""
+  },
+  {
+    "id": 51,
+    "name": "Abel",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Abel",
+    "wiki_page": ""
+  },
+  {
+    "id": 52,
+    "name": "Curved Horn",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Curved Horn",
+    "wiki_page": ""
+  },
+  {
+    "id": 53,
+    "name": "Sacrificial Dagger",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sacrificial Dagger",
+    "wiki_page": ""
+  },
+  {
+    "id": 54,
+    "name": "Bloody Lust",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bloody Lust",
+    "wiki_page": ""
+  },
+  {
+    "id": 55,
+    "name": "Blood Penny",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bloody Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 56,
+    "name": "Blood Rights",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blood Rights",
+    "wiki_page": ""
+  },
+  {
+    "id": 57,
+    "name": "The Polaroid",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Polaroid",
+    "wiki_page": ""
+  },
+  {
+    "id": 58,
+    "name": "Dad's Key",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up both Key Pieces from the Angels in one run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dad's Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 59,
+    "name": "Blue Candle",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 900 coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Candle",
+    "wiki_page": ""
+  },
+  {
+    "id": 60,
+    "name": "Burnt Penny",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Beans! (challenge #13)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Burnt Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 61,
+    "name": "Lucky Toe",
+    "description": "Unlocked a new item.",
+    "requirements": "Blow up 20 Shopkeepers",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lucky Toe",
+    "wiki_page": ""
+  },
+  {
+    "id": 62,
+    "name": "Epic Fetus",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete The Family Man (challenge #19)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Epic Fetus",
+    "wiki_page": ""
+  },
+  {
+    "id": 63,
+    "name": "SMB Super Fan",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete It's in the Cards (challenge #14)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "SMB Super Fan",
+    "wiki_page": ""
+  },
+  {
+    "id": 64,
+    "name": "Counterfeit Coin",
+    "description": "Unlocked a new item.",
+    "requirements": "Play either Shell Game or Hell Game 100 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Counterfeit Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 65,
+    "name": "Guppy's Hairball",
+    "description": "Unlocked a new item.",
+    "requirements": "Become Guppy",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Guppy's Hairball",
+    "wiki_page": ""
+  },
+  {
+    "id": 66,
+    "name": "A Forgotten Horseman",
+    "description": "Unlocked a new boss!",
+    "requirements": "Take 10 Angel Room items",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Conquest",
+    "wiki_page": ""
+  },
+  {
+    "id": 67,
+    "name": "Samson",
+    "description": "Unlocked a new character.",
+    "requirements": "Complete 2 floors in a row without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Samson",
+    "wiki_page": ""
+  },
+  {
+    "id": 68,
+    "name": "Something Icky",
+    "description": "New boss in the womb!",
+    "requirements": "Defeat Isaac 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Triachnid",
+    "wiki_page": ""
+  },
+  {
+    "id": 69,
+    "name": "!Platinum God!",
+    "description": "OMG!",
+    "requirements": "Collect all non-DLC items, and unlock all non-DLC secrets and endings (minus The Lost and his 6 unlockable items)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 70,
+    "name": "Isaac's Head",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Isaac's Head",
+    "wiki_page": ""
+  },
+  {
+    "id": 71,
+    "name": "Maggy's Faith",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Maggy's Faith",
+    "wiki_page": ""
+  },
+  {
+    "id": 72,
+    "name": "Judas' Tongue",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Judas' Tongue",
+    "wiki_page": ""
+  },
+  {
+    "id": 73,
+    "name": "???'s Soul",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "???'s Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 74,
+    "name": "Samson's Lock",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Samson's Lock",
+    "wiki_page": ""
+  },
+  {
+    "id": 75,
+    "name": "Cain's Eye",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cain's Eye",
+    "wiki_page": ""
+  },
+  {
+    "id": 76,
+    "name": "Eve's Bird Foot",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eve's Bird Foot",
+    "wiki_page": ""
+  },
+  {
+    "id": 77,
+    "name": "The Left Hand",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Pride as any character, or ??? as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Left Hand",
+    "wiki_page": ""
+  },
+  {
+    "id": 78,
+    "name": "The Negative",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Negative",
+    "wiki_page": ""
+  },
+  {
+    "id": 79,
+    "name": "Azazel",
+    "description": "Unlocked a new character.",
+    "requirements": "Make 3 Deals with the Devil in one run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Azazel",
+    "wiki_page": ""
+  },
+  {
+    "id": 80,
+    "name": "Lazarus",
+    "description": "Unlocked a new character.",
+    "requirements": "Have 4 or more Soul Hearts at one time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lazarus",
+    "wiki_page": ""
+  },
+  {
+    "id": 81,
+    "name": "Eden",
+    "description": "Unlocked a new character.",
+    "requirements": "Complete Chapter 4",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eden",
+    "wiki_page": ""
+  },
+  {
+    "id": 82,
+    "name": "The Lost",
+    "description": "Unlocked a new character.",
+    "requirements": "It's complicated Die in a Sacrifice Room while holding Missing Poster",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Lost",
+    "wiki_page": ""
+  },
+  {
+    "id": 83,
+    "name": "Dead Boy",
+    "description": "Beat Chest or Dark Room without taking damage.",
+    "requirements": "Complete Chapter 6 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 84,
+    "name": "The Real Platinum God",
+    "description": "111% now stop playing!",
+    "requirements": "Collect all non-DLC items, and unlock all non-DLC secrets and endings",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 85,
+    "name": "Lucky Rock",
+    "description": "Destroy 100 rocks.",
+    "requirements": "Destroy 100 rocks",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lucky Rock",
+    "wiki_page": ""
+  },
+  {
+    "id": 86,
+    "name": "The Cellar",
+    "description": "Alt stage to the basement.",
+    "requirements": "Beat all Basement bosses",
+    "notes": "Except Baby Plum Not restricted to beating bosses in The Basement",
+    "added_in": "Rebirth",
+    "link": "The Cellar",
+    "wiki_page": ""
+  },
+  {
+    "id": 87,
+    "name": "The Catacombs",
+    "description": "Alt stage to the caves.",
+    "requirements": "Beat all Caves bosses",
+    "notes": "Except Bumbino Not restricted to beating bosses in The Caves",
+    "added_in": "Rebirth",
+    "link": "The Catacombs",
+    "wiki_page": ""
+  },
+  {
+    "id": 88,
+    "name": "The Necropolis",
+    "description": "Alt stage to the depths.",
+    "requirements": "Beat all Depths bosses",
+    "notes": "Except Reap Creep Not restricted to beating bosses in The Depths",
+    "added_in": "Rebirth",
+    "link": "Necropolis",
+    "wiki_page": ""
+  },
+  {
+    "id": 89,
+    "name": "Rune of Hagalaz",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Pitch Black (challenge #1)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 90,
+    "name": "Rune of Jera",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete High Brow (challenge #2)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 91,
+    "name": "Rune of Ehwaz",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Head Trauma (challenge #3)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 92,
+    "name": "Rune of Dagaz",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Darkness Falls (challenge #4)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 93,
+    "name": "Rune of Ansuz",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete The Tank (challenge #5)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 94,
+    "name": "Rune of Perthro",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Solar System (challenge #6)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 95,
+    "name": "Rune of Berkano",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Purist (challenge #20)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 96,
+    "name": "Rune of Algiz",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Cat Got Your Tongue (challenge #8)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Runes",
+    "wiki_page": ""
+  },
+  {
+    "id": 97,
+    "name": "Chaos Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Demo Man (challenge #9)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Chaos Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 98,
+    "name": "Credit Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Cursed! (challenge #10)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Credit Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 99,
+    "name": "Rules Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Glass Cannon (challenge #11)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rules Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 100,
+    "name": "Card Against Humanity",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete When Life Gives You Lemons (challenge #12)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "A Card Against Humanity",
+    "wiki_page": ""
+  },
+  {
+    "id": 101,
+    "name": "Swallowed Penny",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Slow Roll (challenge #15)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Swallowed Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 102,
+    "name": "Robo-Baby 2.0",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Computer Savvy (challenge #16)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Robo-Baby 2.0",
+    "wiki_page": ""
+  },
+  {
+    "id": 103,
+    "name": "Death's Touch",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Waka Waka (challenge #17)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Death's Touch",
+    "wiki_page": ""
+  },
+  {
+    "id": 104,
+    "name": "Technology .5",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete The Host (challenge #18)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tech.5",
+    "wiki_page": ""
+  },
+  {
+    "id": 105,
+    "name": "Missing No.",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Missing No.",
+    "wiki_page": ""
+  },
+  {
+    "id": 106,
+    "name": "Isaac's Tears",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Isaac's Tears",
+    "wiki_page": ""
+  },
+  {
+    "id": 107,
+    "name": "Guillotine",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Guillotine",
+    "wiki_page": ""
+  },
+  {
+    "id": 108,
+    "name": "Judas' Shadow",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Judas' Shadow",
+    "wiki_page": ""
+  },
+  {
+    "id": 109,
+    "name": "Maggy's Bow",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Maggy's Bow",
+    "wiki_page": ""
+  },
+  {
+    "id": 110,
+    "name": "Cain's Other Eye",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cain's Other Eye",
+    "wiki_page": ""
+  },
+  {
+    "id": 111,
+    "name": "Black Lipstick",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Lipstick",
+    "wiki_page": ""
+  },
+  {
+    "id": 112,
+    "name": "Eve's Mascara",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eve's Mascara",
+    "wiki_page": ""
+  },
+  {
+    "id": 113,
+    "name": "Fate",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Fate",
+    "wiki_page": ""
+  },
+  {
+    "id": 114,
+    "name": "???'s Only Friend",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "???'s Only Friend",
+    "wiki_page": ""
+  },
+  {
+    "id": 115,
+    "name": "Samson's Chains",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Samson's Chains",
+    "wiki_page": ""
+  },
+  {
+    "id": 116,
+    "name": "Lazarus' Rags",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lazarus' Rags",
+    "wiki_page": ""
+  },
+  {
+    "id": 117,
+    "name": "Broken Ankh",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Broken Ankh",
+    "wiki_page": ""
+  },
+  {
+    "id": 118,
+    "name": "Store Credit",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Store Credit",
+    "wiki_page": ""
+  },
+  {
+    "id": 119,
+    "name": "Pandora's Box",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pandora's Box",
+    "wiki_page": ""
+  },
+  {
+    "id": 120,
+    "name": "Suicide King",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Suicide King (challenge #7)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Suicide King",
+    "wiki_page": ""
+  },
+  {
+    "id": 121,
+    "name": "Blank Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blank Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 122,
+    "name": "Book of Secrets",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Book of Secrets",
+    "wiki_page": ""
+  },
+  {
+    "id": 123,
+    "name": "Mysterious Paper",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mysterious Paper",
+    "wiki_page": ""
+  },
+  {
+    "id": 124,
+    "name": "Mystery Sack",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mystery Sack",
+    "wiki_page": ""
+  },
+  {
+    "id": 125,
+    "name": "Undefined",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Undefined",
+    "wiki_page": ""
+  },
+  {
+    "id": 126,
+    "name": "Satanic Bible",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Satanic Bible",
+    "wiki_page": ""
+  },
+  {
+    "id": 127,
+    "name": "Daemon's Tail",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Daemon's Tail",
+    "wiki_page": ""
+  },
+  {
+    "id": 128,
+    "name": "Abaddon",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Abaddon",
+    "wiki_page": ""
+  },
+  {
+    "id": 129,
+    "name": "Isaac's Heart",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Isaac's Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 130,
+    "name": "The Mind",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Mind",
+    "wiki_page": ""
+  },
+  {
+    "id": 131,
+    "name": "The Body",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Body",
+    "wiki_page": ""
+  },
+  {
+    "id": 132,
+    "name": "The Soul",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 133,
+    "name": "The D100",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D100",
+    "wiki_page": ""
+  },
+  {
+    "id": 134,
+    "name": "Blue Map",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 10 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blue Map",
+    "wiki_page": ""
+  },
+  {
+    "id": 135,
+    "name": "There's Options",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 50 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "There's Options",
+    "wiki_page": ""
+  },
+  {
+    "id": 136,
+    "name": "Black Candle",
+    "description": "Unlocked a new item",
+    "requirements": "Donate 150 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Candle",
+    "wiki_page": ""
+  },
+  {
+    "id": 137,
+    "name": "Red Candle",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 400 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Red Candle",
+    "wiki_page": ""
+  },
+  {
+    "id": 138,
+    "name": "Stop Watch",
+    "description": "Unlocked a new item",
+    "requirements": "Donate 999 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Stop Watch",
+    "wiki_page": ""
+  },
+  {
+    "id": 139,
+    "name": "Wire Coat Hanger",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 4 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wire Coat Hanger",
+    "wiki_page": ""
+  },
+  {
+    "id": 140,
+    "name": "Ipecac",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 6 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ipecac",
+    "wiki_page": ""
+  },
+  {
+    "id": 141,
+    "name": "Experimental Treatment",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 7 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Experimental Treatment",
+    "wiki_page": ""
+  },
+  {
+    "id": 142,
+    "name": "Krampus",
+    "description": "Unlocked another miniboss!",
+    "requirements": "Take 20 items from Devil Rooms",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Krampus",
+    "wiki_page": ""
+  },
+  {
+    "id": 143,
+    "name": "Head of Krampus",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Krampus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Head of Krampus",
+    "wiki_page": ""
+  },
+  {
+    "id": 144,
+    "name": "Super Meat Boy",
+    "description": "Built him out of meat cubes.",
+    "requirements": "Make a Super Meat Boy by picking up 4 copies of Cube of Meat in one run",
+    "notes": "See Unlocking Super Meat Boy & Super Bandage Girl",
+    "added_in": "Rebirth",
+    "link": "Cube of Meat",
+    "wiki_page": ""
+  },
+  {
+    "id": 145,
+    "name": "Butter Bean",
+    "description": "Unlocked a new item.",
+    "requirements": "Destroy 100 poops",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Butter Bean",
+    "wiki_page": ""
+  },
+  {
+    "id": 146,
+    "name": "Little Baggy",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up 2 syringe-related items in a single run",
+    "notes": "Syringe-related items are Roid Rage , The Virus , Growth Hormones , Experimental Treatment , and Speed Ball Syringe-related items have the 'syringe' item tag",
+    "added_in": "Rebirth",
+    "link": "Little Baggy",
+    "wiki_page": ""
+  },
+  {
+    "id": 147,
+    "name": "Blood Bag",
+    "description": "Unlocked a new item.",
+    "requirements": "Use the Blood Donation Machine 30 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blood Bag",
+    "wiki_page": ""
+  },
+  {
+    "id": 148,
+    "name": "The D4",
+    "description": "Unlocked a new item.",
+    "requirements": "Blow up 30 Slot Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D4",
+    "wiki_page": ""
+  },
+  {
+    "id": 149,
+    "name": "Missing Poster",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Missing Poster",
+    "wiki_page": ""
+  },
+  {
+    "id": 150,
+    "name": "Rubber Cement",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart 2 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rubber Cement",
+    "wiki_page": ""
+  },
+  {
+    "id": 151,
+    "name": "Store Upgrade lv.1",
+    "description": "Donated 20 pennies to the shop.",
+    "requirements": "Donate 20 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Shop#Layouts",
+    "wiki_page": ""
+  },
+  {
+    "id": 152,
+    "name": "Store Upgrade lv.2",
+    "description": "Donated 100 pennies to the shop.",
+    "requirements": "Donate 100 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Shop#Layouts",
+    "wiki_page": ""
+  },
+  {
+    "id": 153,
+    "name": "Store Upgrade lv.3",
+    "description": "Donated 200 pennies to the shop.",
+    "requirements": "Donate 200 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Shop#Layouts",
+    "wiki_page": ""
+  },
+  {
+    "id": 154,
+    "name": "Store Upgrade lv.4",
+    "description": "Donated 600 pennies to the shop.",
+    "requirements": "Donate 600 Coins to the Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Shop#Layouts",
+    "wiki_page": ""
+  },
+  {
+    "id": 155,
+    "name": "Angels",
+    "description": "They are waiting.",
+    "requirements": "Complete Chapter 6",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Angel",
+    "wiki_page": ""
+  },
+  {
+    "id": 156,
+    "name": "Godhead",
+    "description": "Unlocked a new item.",
+    "requirements": "Earn all 6 / 9 / 10 / 12 Completion Marks on Hard mode as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Godhead",
+    "wiki_page": ""
+  },
+  {
+    "id": 157,
+    "name": "Darkness Falls",
+    "description": "Unlocked Challenge #4.",
+    "requirements": "Defeat Mom's Heart 11 times and unlock Eve Defeat Mom's Heart 11 times and defeat ??? as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Darkness Falls",
+    "wiki_page": ""
+  },
+  {
+    "id": 158,
+    "name": "The Tank",
+    "description": "Unlocked Challenge #5.",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Tank",
+    "wiki_page": ""
+  },
+  {
+    "id": 159,
+    "name": "Solar System",
+    "description": "Unlocked Challenge #6.",
+    "requirements": "Defeat Mom's Heart 3 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Solar System",
+    "wiki_page": ""
+  },
+  {
+    "id": 160,
+    "name": "Suicide King",
+    "description": "Unlocked Challenge #7.",
+    "requirements": "Defeat Mom's Heart 11 times and unlock Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Suicide King (Challenge)",
+    "wiki_page": ""
+  },
+  {
+    "id": 161,
+    "name": "Cat Got Your Tongue",
+    "description": "Unlocked Challenge #8.",
+    "requirements": "Become Guppy",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cat Got Your Tongue",
+    "wiki_page": ""
+  },
+  {
+    "id": 162,
+    "name": "Demo Man",
+    "description": "Unlocked Challenge #9.",
+    "requirements": "Defeat Mom's Heart 9 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Demo Man",
+    "wiki_page": ""
+  },
+  {
+    "id": 163,
+    "name": "Cursed!",
+    "description": "Unlocked Challenge #10.",
+    "requirements": "Have 7 or more Red Heart Containers at one time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cursed!",
+    "wiki_page": ""
+  },
+  {
+    "id": 164,
+    "name": "Glass Cannon",
+    "description": "Unlocked Challenge #11.",
+    "requirements": "Beat The Family Man (challenge #19), defeat Lokii, and unlock Judas and It Lives!",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Glass Cannon (Challenge)",
+    "wiki_page": ""
+  },
+  {
+    "id": 165,
+    "name": "The Family Man",
+    "description": "Unlocked Challenge #19.",
+    "requirements": "Pick up both Key Pieces from the Angels in one run and defeat Mom's Heart 11 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Family Man",
+    "wiki_page": ""
+  },
+  {
+    "id": 166,
+    "name": "Purist",
+    "description": "Unlocked Challenge #20.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Purist",
+    "wiki_page": ""
+  },
+  {
+    "id": 167,
+    "name": "Lost Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 168,
+    "name": "Cute Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 169,
+    "name": "Crow Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 170,
+    "name": "Shadow Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 171,
+    "name": "Glass Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 172,
+    "name": "Wrapped Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Azazel Defeat Mom's Heart or It Lives! on Hard mode as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 173,
+    "name": "Begotten Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Lazarus Defeat Mom's Heart or It Lives! on Hard mode as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 174,
+    "name": "Dead Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 175,
+    "name": "-0- Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 176,
+    "name": "Glitch Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 177,
+    "name": "Fighting Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 178,
+    "name": "Lord of the Flies",
+    "description": "You became Lord of the Flies.",
+    "requirements": "Become Beelzebub",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Beelzebub",
+    "wiki_page": ""
+  },
+  {
+    "id": 179,
+    "name": "Fart Baby",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Farting Baby",
+    "wiki_page": ""
+  },
+  {
+    "id": 180,
+    "name": "Purity",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Purity",
+    "wiki_page": ""
+  },
+  {
+    "id": 181,
+    "name": "D12",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D12",
+    "wiki_page": ""
+  },
+  {
+    "id": 182,
+    "name": "Betrayal",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Betrayal",
+    "wiki_page": ""
+  },
+  {
+    "id": 183,
+    "name": "Fate's Reward",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Fate's Reward",
+    "wiki_page": ""
+  },
+  {
+    "id": 184,
+    "name": "Athame",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Athame",
+    "wiki_page": ""
+  },
+  {
+    "id": 185,
+    "name": "Blind Rage",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blind Rage",
+    "wiki_page": ""
+  },
+  {
+    "id": 186,
+    "name": "Maw of the Void",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Maw Of The Void",
+    "wiki_page": ""
+  },
+  {
+    "id": 187,
+    "name": "Empty Vessel",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Empty Vessel",
+    "wiki_page": ""
+  },
+  {
+    "id": 188,
+    "name": "Eden's Blessing",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eden's Blessing",
+    "wiki_page": ""
+  },
+  {
+    "id": 189,
+    "name": "Sworn Protector",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sworn Protector",
+    "wiki_page": ""
+  },
+  {
+    "id": 190,
+    "name": "Incubus",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Incubus",
+    "wiki_page": ""
+  },
+  {
+    "id": 191,
+    "name": "Keeper now holds... A Penny!",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 192,
+    "name": "Lil' Chest",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Chest",
+    "wiki_page": ""
+  },
+  {
+    "id": 193,
+    "name": "Censer",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Censer",
+    "wiki_page": ""
+  },
+  {
+    "id": 194,
+    "name": "Evil Eye",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Evil Eye",
+    "wiki_page": ""
+  },
+  {
+    "id": 195,
+    "name": "My Shadow",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "My Shadow",
+    "wiki_page": ""
+  },
+  {
+    "id": 196,
+    "name": "Cracked Dice",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cracked Dice",
+    "wiki_page": ""
+  },
+  {
+    "id": 197,
+    "name": "Black Feather",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Feather",
+    "wiki_page": ""
+  },
+  {
+    "id": 198,
+    "name": "Lusty Blood",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lusty Blood",
+    "wiki_page": ""
+  },
+  {
+    "id": 199,
+    "name": "Lilith",
+    "description": "Unlocked a new character.",
+    "requirements": "Defeat Ultra Greed as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lilith",
+    "wiki_page": ""
+  },
+  {
+    "id": 200,
+    "name": "Key Bum",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Key Bum",
+    "wiki_page": ""
+  },
+  {
+    "id": 201,
+    "name": "GB Bug",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "GB Bug",
+    "wiki_page": ""
+  },
+  {
+    "id": 202,
+    "name": "Zodiac",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Zodiac",
+    "wiki_page": ""
+  },
+  {
+    "id": 203,
+    "name": "Box of Friends",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Box of Friends",
+    "wiki_page": ""
+  },
+  {
+    "id": 204,
+    "name": "Rib of Greed",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rib of Greed",
+    "wiki_page": ""
+  },
+  {
+    "id": 205,
+    "name": "Cry Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 206,
+    "name": "Red Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 207,
+    "name": "Green Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 208,
+    "name": "Brown Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 209,
+    "name": "Blue Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 210,
+    "name": "Lil' Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 211,
+    "name": "Rage Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 212,
+    "name": "Black Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 213,
+    "name": "Long Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 214,
+    "name": "Yellow Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 215,
+    "name": "White Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 216,
+    "name": "Big Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 217,
+    "name": "Noose Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 218,
+    "name": "Rune Bag",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rune Bag",
+    "wiki_page": ""
+  },
+  {
+    "id": 219,
+    "name": "Cambion Conception",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cambion Conception",
+    "wiki_page": ""
+  },
+  {
+    "id": 220,
+    "name": "Serpent's Kiss",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Serpent's Kiss",
+    "wiki_page": ""
+  },
+  {
+    "id": 221,
+    "name": "Succubus",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Succubus",
+    "wiki_page": ""
+  },
+  {
+    "id": 222,
+    "name": "Immaculate Conception",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Immaculate Conception",
+    "wiki_page": ""
+  },
+  {
+    "id": 223,
+    "name": "Goat Head Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 224,
+    "name": "Gold Heart",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete XXXXXXXXL (challenge #21)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hearts",
+    "wiki_page": ""
+  },
+  {
+    "id": 225,
+    "name": "Get out of Jail Free Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete SPEED! (challenge #22)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Get out of Jail Free Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 226,
+    "name": "Gold Bomb",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Blue Bomber (challenge #23)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gold Bomb",
+    "wiki_page": ""
+  },
+  {
+    "id": 227,
+    "name": "2 new pills",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete PAY TO PLAY (challenge #24)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Percs!",
+    "wiki_page": ""
+  },
+  {
+    "id": 228,
+    "name": "2 new pills",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Have a Heart (challenge #25)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Re-Lax",
+    "wiki_page": ""
+  },
+  {
+    "id": 229,
+    "name": "Poker Chip",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete I RULE! (challenge #26)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Poker Chip",
+    "wiki_page": ""
+  },
+  {
+    "id": 230,
+    "name": "Stud Finder",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete BRAINS! (challenge #27)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Stud Finder",
+    "wiki_page": ""
+  },
+  {
+    "id": 231,
+    "name": "D8",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete PRIDE DAY! (challenge #28)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D8",
+    "wiki_page": ""
+  },
+  {
+    "id": 232,
+    "name": "Kidney Stone",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete The Guardian (challenge #30) Complete Onan's Streak (challenge #29)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Kidney Stone",
+    "wiki_page": ""
+  },
+  {
+    "id": 233,
+    "name": "Blank Rune",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Onan's Streak (challenge #29) Complete The Guardian (challenge #30)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blank Rune (Achievement)",
+    "wiki_page": ""
+  },
+  {
+    "id": 234,
+    "name": "Blue Womb",
+    "description": "Unlocked a hidden chapter.",
+    "requirements": "Defeat Mom's Heart 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blue Womb",
+    "wiki_page": ""
+  },
+  {
+    "id": 235,
+    "name": "1001%",
+    "description": "Nerd x 1000000",
+    "requirements": "Unlock all Afterbirth secrets and endings, and collect every Afterbirth item Unlock 275 random achievements and have at least 510 items in the collection page",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 236,
+    "name": "Keeper holds Wooden Nickel",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Defeat Isaac as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 237,
+    "name": "Keeper holds Store Key",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Defeat Satan as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 238,
+    "name": "Deep Pockets",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Deep Pockets",
+    "wiki_page": ""
+  },
+  {
+    "id": 239,
+    "name": "Karma",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Karma",
+    "wiki_page": ""
+  },
+  {
+    "id": 240,
+    "name": "Sticky Nickels",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sticky nickel",
+    "wiki_page": ""
+  },
+  {
+    "id": 241,
+    "name": "Super Greed Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 242,
+    "name": "Lucky Pennies",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 2 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lucky penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 243,
+    "name": "Special Hanging Shopkeepers",
+    "description": "Unlocked a secret.",
+    "requirements": "Donate 14 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Special shopkeeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 244,
+    "name": "Wooden Nickel",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 33 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wooden Nickel",
+    "wiki_page": ""
+  },
+  {
+    "id": 245,
+    "name": "Cain holds Paperclip",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Donate 68 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cain",
+    "wiki_page": ""
+  },
+  {
+    "id": 246,
+    "name": "Everything is Terrible 2!!!",
+    "description": "Greed just got harder!",
+    "requirements": "Donate 111 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ultra Greed",
+    "wiki_page": ""
+  },
+  {
+    "id": 247,
+    "name": "Special Shopkeepers",
+    "description": "Unlocked a secret.",
+    "requirements": "Donate 234 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Special shopkeeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 248,
+    "name": "Eve now holds Razor Blade",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Donate 439 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eve",
+    "wiki_page": ""
+  },
+  {
+    "id": 249,
+    "name": "Store Key",
+    "description": "Unlocked a new item.",
+    "requirements": "Donate 666 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Store Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 250,
+    "name": "Lost holds Holy Mantle",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Donate 879 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Lost",
+    "wiki_page": ""
+  },
+  {
+    "id": 251,
+    "name": "Keeper",
+    "description": "Unlocked a new character.",
+    "requirements": "Donate 1000 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 252,
+    "name": "Hive Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 253,
+    "name": "Buddy Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 254,
+    "name": "Colorful Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 255,
+    "name": "Whore Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 256,
+    "name": "Cracked Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 257,
+    "name": "Dripping Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 258,
+    "name": "Blinding Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Use Blank Card while holding XIX - The Sun",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 259,
+    "name": "Sucky Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 260,
+    "name": "Dark Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 261,
+    "name": "Picky Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 262,
+    "name": "Revenge Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 263,
+    "name": "Belial Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 264,
+    "name": "Sale Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 265,
+    "name": "XXXXXXXXL",
+    "description": "Unlocked Challenge #21.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XXXXXXXXL",
+    "wiki_page": ""
+  },
+  {
+    "id": 266,
+    "name": "SPEED!",
+    "description": "Unlocked Challenge #22.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "SPEED!",
+    "wiki_page": ""
+  },
+  {
+    "id": 267,
+    "name": "Blue Bomber",
+    "description": "Unlocked Challenge #23.",
+    "requirements": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blue Bomber",
+    "wiki_page": ""
+  },
+  {
+    "id": 268,
+    "name": "PAY TO PLAY",
+    "description": "Unlocked Challenge #24.",
+    "requirements": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "PAY TO PLAY",
+    "wiki_page": ""
+  },
+  {
+    "id": 269,
+    "name": "Have a Heart",
+    "description": "Unlocked Challenge #25.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Have a Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 270,
+    "name": "I RULE!",
+    "description": "Unlocked Challenge #26.",
+    "requirements": "Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative Defeat ??? or The Lamb, and defeat Satan as Isaac Defeat Mega Satan and unlock The Negative",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "I RULE!",
+    "wiki_page": ""
+  },
+  {
+    "id": 271,
+    "name": "BRAINS!",
+    "description": "Unlocked Challenge #27.",
+    "requirements": "Defeat Isaac 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "BRAINS!",
+    "wiki_page": ""
+  },
+  {
+    "id": 272,
+    "name": "PRIDE DAY!",
+    "description": "Unlocked Challenge #28.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "PRIDE DAY!",
+    "wiki_page": ""
+  },
+  {
+    "id": 273,
+    "name": "Onan's Streak",
+    "description": "Unlocked Challenge #29.",
+    "requirements": "Defeat Mom Unlock Judas and It Lives!",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Onan's Streak",
+    "wiki_page": ""
+  },
+  {
+    "id": 274,
+    "name": "The Guardian",
+    "description": "Unlocked Challenge #30.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Guardian",
+    "wiki_page": ""
+  },
+  {
+    "id": 275,
+    "name": "Generosity",
+    "description": "If only everyone was as generous as you are...",
+    "requirements": "Donate 999 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Greed machine",
+    "wiki_page": ""
+  },
+  {
+    "id": 276,
+    "name": "Mega",
+    "description": "Unlocked...",
+    "requirements": "Defeat Mega Satan as every character ( except tainted characters)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mega Blast",
+    "wiki_page": ""
+  },
+  {
+    "id": 277,
+    "name": "Backasswards",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat ??? or The Lamb Defeat Mega Satan and unlock The Negative",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Backasswards",
+    "wiki_page": ""
+  },
+  {
+    "id": 278,
+    "name": "Aprils fool",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Aprils Fool",
+    "wiki_page": ""
+  },
+  {
+    "id": 279,
+    "name": "Pokey Mans",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pokey Mans",
+    "wiki_page": ""
+  },
+  {
+    "id": 280,
+    "name": "Ultra Hard",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat ??? or The Lamb Defeat Mega Satan and unlock The Negative",
+    "notes": "Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room",
+    "added_in": "Rebirth",
+    "link": "Ultra Hard",
+    "wiki_page": ""
+  },
+  {
+    "id": 281,
+    "name": "PONG",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Isaac 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pong",
+    "wiki_page": ""
+  },
+  {
+    "id": 282,
+    "name": "D infinity",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D infinity",
+    "wiki_page": ""
+  },
+  {
+    "id": 283,
+    "name": "Eucharist",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eucharist",
+    "wiki_page": ""
+  },
+  {
+    "id": 284,
+    "name": "Silver Dollar",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Silver Dollar",
+    "wiki_page": ""
+  },
+  {
+    "id": 285,
+    "name": "Shade",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Shade",
+    "wiki_page": ""
+  },
+  {
+    "id": 286,
+    "name": "King Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Delirium as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "King Baby",
+    "wiki_page": ""
+  },
+  {
+    "id": 287,
+    "name": "Bloody Crown",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bloody Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 288,
+    "name": "Dull Razor",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dull Razor",
+    "wiki_page": ""
+  },
+  {
+    "id": 289,
+    "name": "Eden's Soul",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eden's Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 290,
+    "name": "Dark Prince's Crown",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dark Prince's Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 291,
+    "name": "Compound Fracture",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Compound Fracture",
+    "wiki_page": ""
+  },
+  {
+    "id": 292,
+    "name": "Euthanasia",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Euthanasia",
+    "wiki_page": ""
+  },
+  {
+    "id": 293,
+    "name": "Holy Card",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Holy Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 294,
+    "name": "Crooked Penny",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Crooked Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 295,
+    "name": "Void",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Void",
+    "wiki_page": ""
+  },
+  {
+    "id": 296,
+    "name": "D1",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "D1",
+    "wiki_page": ""
+  },
+  {
+    "id": 297,
+    "name": "Glyph of Balance",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Glyph of Balance",
+    "wiki_page": ""
+  },
+  {
+    "id": 298,
+    "name": "Sack of Sacks",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sack of Sacks",
+    "wiki_page": ""
+  },
+  {
+    "id": 299,
+    "name": "Eye of Belial",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eye of Belial",
+    "wiki_page": ""
+  },
+  {
+    "id": 300,
+    "name": "Meconium",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Meconium",
+    "wiki_page": ""
+  },
+  {
+    "id": 301,
+    "name": "Stem Cell",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Stem Cell",
+    "wiki_page": ""
+  },
+  {
+    "id": 302,
+    "name": "Crow Heart",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Crow Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 303,
+    "name": "Metronome",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Metronome",
+    "wiki_page": ""
+  },
+  {
+    "id": 304,
+    "name": "Bat Wing",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bat Wing",
+    "wiki_page": ""
+  },
+  {
+    "id": 305,
+    "name": "Plan C",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Plan C",
+    "wiki_page": ""
+  },
+  {
+    "id": 306,
+    "name": "Duality",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Duality",
+    "wiki_page": ""
+  },
+  {
+    "id": 307,
+    "name": "Dad's Lost Coin",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dad's Lost Coin",
+    "wiki_page": ""
+  },
+  {
+    "id": 308,
+    "name": "Eye of Greed",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eye of Greed",
+    "wiki_page": ""
+  },
+  {
+    "id": 309,
+    "name": "Black Rune",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Rune",
+    "wiki_page": ""
+  },
+  {
+    "id": 310,
+    "name": "Locust of Wrath",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Locust of War",
+    "wiki_page": ""
+  },
+  {
+    "id": 311,
+    "name": "Locust of Pestilence",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Locust of Pestilence",
+    "wiki_page": ""
+  },
+  {
+    "id": 312,
+    "name": "Locust of Famine",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Locust of Famine",
+    "wiki_page": ""
+  },
+  {
+    "id": 313,
+    "name": "Locust of Death",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Locust of Death",
+    "wiki_page": ""
+  },
+  {
+    "id": 314,
+    "name": "Locust of Conquest",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Locust of Conquest",
+    "wiki_page": ""
+  },
+  {
+    "id": 315,
+    "name": "Hushy",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hushy",
+    "wiki_page": ""
+  },
+  {
+    "id": 316,
+    "name": "Brown Nugget",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Brown Nugget",
+    "wiki_page": ""
+  },
+  {
+    "id": 317,
+    "name": "Mort Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 318,
+    "name": "Smelter",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Smelter",
+    "wiki_page": ""
+  },
+  {
+    "id": 319,
+    "name": "Apollyon Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 320,
+    "name": "New Area",
+    "description": "Unlocked a new area.",
+    "requirements": "Defeat Hush",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Void",
+    "wiki_page": ""
+  },
+  {
+    "id": 321,
+    "name": "Once More with Feeling!",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete a Victory Lap by defeating The Lamb",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gulp!",
+    "wiki_page": ""
+  },
+  {
+    "id": 322,
+    "name": "Hat trick!",
+    "description": "Unlocked a new item.",
+    "requirements": "Get a 3-win streak",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ace of Clubs",
+    "wiki_page": ""
+  },
+  {
+    "id": 323,
+    "name": "5 Nights at Mom's",
+    "description": "Unlocked super special rocks.",
+    "requirements": "Get a 5-win streak, using a different character each time",
+    "notes": "This number can be reduced to 3, see the notes section",
+    "added_in": "Rebirth",
+    "link": "Super special rock",
+    "wiki_page": ""
+  },
+  {
+    "id": 324,
+    "name": "Sin collector",
+    "description": "Unlocked a new item.",
+    "requirements": "Collect every entry in the Bestiary",
+    "notes": "Bugged v190 - Mobs that don't exist in the bestiary are being counted. This allows Sin Collector to be unlocked without a complete bestiary",
+    "added_in": "Rebirth",
+    "link": "Feels Like I'm Walking on Sunshine!",
+    "wiki_page": ""
+  },
+  {
+    "id": 325,
+    "name": "Dedication",
+    "description": "Unlocked a new item.",
+    "requirements": "Participate in 31 Daily Challenges",
+    "notes": "They don't have to be consecutive; it will still count if Isaac dies in the first room",
+    "added_in": "Rebirth",
+    "link": "Horf!",
+    "wiki_page": ""
+  },
+  {
+    "id": 326,
+    "name": "ZIP!",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb in under 20 minutes",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ace of Diamonds",
+    "wiki_page": ""
+  },
+  {
+    "id": 327,
+    "name": "It's the Key",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb without taking Hearts, Coins, or Bombs through the entire run",
+    "notes": "Letting certain familiars (e.g. Bum Friend , Dark Bum , Bumbo or Lil Portal ) or bosses (e.g. Bumbino) pick up the consumables fails this condition as well",
+    "added_in": "Rebirth",
+    "link": "Ace of Spades (Card)",
+    "wiki_page": ""
+  },
+  {
+    "id": 328,
+    "name": "Mr. Resetter!",
+    "description": "Unlocked a new item.",
+    "requirements": "Reset 7 times in a row Switch PS 4 Get a minus 10-win streak",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hearts#Scared_Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 329,
+    "name": "Living on the edge",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete a Chapter (floors I and II) after Basement, start-to-finish, with only half a Heart total (can use The Lost)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ace of Hearts",
+    "wiki_page": ""
+  },
+  {
+    "id": 330,
+    "name": "U Broke It!",
+    "description": "Unlocked a new item.",
+    "requirements": "Obtain 50 items in a run",
+    "notes": "Duplicate passive items/familiars count towards the total, e.g., multiple Breakfast",
+    "added_in": "Rebirth",
+    "link": "Vurp!",
+    "wiki_page": ""
+  },
+  {
+    "id": 331,
+    "name": "Laz Bleeds More!",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Complete Backasswards (challenge #31)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lazarus",
+    "wiki_page": ""
+  },
+  {
+    "id": 332,
+    "name": "Maggy Now Holds a Pill!",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Complete Aprils Fool (challenge #32)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Magdalene",
+    "wiki_page": ""
+  },
+  {
+    "id": 333,
+    "name": "Charged Key",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Pokey Mans (challenge #33)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Charged Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 334,
+    "name": "Samson Feels Healthy!",
+    "description": "Unlocked a new starting item.",
+    "requirements": "Complete Ultra Hard (challenge #34)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Samson",
+    "wiki_page": ""
+  },
+  {
+    "id": 335,
+    "name": "Greed's Gullet",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete Pong (challenge #35)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Greed's Gullet",
+    "wiki_page": ""
+  },
+  {
+    "id": 336,
+    "name": "The Marathon",
+    "description": "Unlocked a new item.",
+    "requirements": "Get a 5-win streak in the Daily Challenges",
+    "notes": "They don't have to be consecutive days, only the runs you play are counted",
+    "added_in": "Rebirth",
+    "link": "Cracked Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 337,
+    "name": "RERUN",
+    "description": "Unlocked the power of RERUN.",
+    "requirements": "Complete 3 Victory Laps by defeating The Lamb",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "RERUN",
+    "wiki_page": ""
+  },
+  {
+    "id": 338,
+    "name": "Delirious",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Delirious",
+    "wiki_page": ""
+  },
+  {
+    "id": 339,
+    "name": "1000000%",
+    "description": "Just Stop!",
+    "requirements": "Collect every item in the game, unlock all secrets and endings, and complete the Bestiary Unlock 402 random achievements and have at least 510 items in the collection page",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 340,
+    "name": "Apollyon",
+    "description": "Unlocked a new character.",
+    "requirements": "Defeat Mega Satan",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Apollyon",
+    "wiki_page": ""
+  },
+  {
+    "id": 341,
+    "name": "Greedier!",
+    "description": "New mode unlocked!",
+    "requirements": "Donate 500 Coins to the Greed Donation Machine",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Greedier Mode",
+    "wiki_page": ""
+  },
+  {
+    "id": 342,
+    "name": "Burning Basement",
+    "description": "Alt stage to the basement.",
+    "requirements": "Defeat Mom's Heart 11 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Burning Basement",
+    "wiki_page": ""
+  },
+  {
+    "id": 343,
+    "name": "Flooded Caves",
+    "description": "Alt stage to the caves.",
+    "requirements": "Defeat Mom's Heart/It Lives! 16 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Flooded Caves",
+    "wiki_page": ""
+  },
+  {
+    "id": 344,
+    "name": "Dank Depths",
+    "description": "Alt stage to the depths.",
+    "requirements": "Defeat Mom's Heart/It Lives! 21 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dank Depths",
+    "wiki_page": ""
+  },
+  {
+    "id": 345,
+    "name": "Scarred Womb",
+    "description": "Alt stage to the womb.",
+    "requirements": "Defeat Mom's Heart/It Lives! 30 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Scarred Womb",
+    "wiki_page": ""
+  },
+  {
+    "id": 346,
+    "name": "Something wicked this way comes!",
+    "description": "Unlocked new bosses!",
+    "requirements": "Defeat ??? as 3 different Characters",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Something wicked this way comes!",
+    "wiki_page": ""
+  },
+  {
+    "id": 347,
+    "name": "Something wicked this way comes+!",
+    "description": "Unlocked even more bosses!",
+    "requirements": "Defeat ??? as 6 different Characters",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Something wicked this way comes+!",
+    "wiki_page": ""
+  },
+  {
+    "id": 348,
+    "name": "The gate is open!",
+    "description": "Unlocked new enemies!",
+    "requirements": "Defeat The Lamb",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Portal",
+    "wiki_page": ""
+  },
+  {
+    "id": 349,
+    "name": "Black Hole",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat 20 Portals",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Hole",
+    "wiki_page": ""
+  },
+  {
+    "id": 350,
+    "name": "Mystery Gift",
+    "description": "Unlocked a new item.",
+    "requirements": "Destroy 500 rocks",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mystery Gift",
+    "wiki_page": ""
+  },
+  {
+    "id": 351,
+    "name": "Sprinkler",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 1 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sprinkler",
+    "wiki_page": ""
+  },
+  {
+    "id": 352,
+    "name": "Angry Fly",
+    "description": "Unlocked a new item.",
+    "requirements": "Become Beelzebub",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Angry Fly",
+    "wiki_page": ""
+  },
+  {
+    "id": 353,
+    "name": "Bozo",
+    "description": "Unlocked a new item.",
+    "requirements": "Destroy 5 rainbow poops",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bozo",
+    "wiki_page": ""
+  },
+  {
+    "id": 354,
+    "name": "Broken Modem",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete 7 Daily Challenges (by touching the trophy at the end)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Broken Modem",
+    "wiki_page": ""
+  },
+  {
+    "id": 355,
+    "name": "Buddy in a Box",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up 5 familiars in a single run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Buddy in a Box",
+    "wiki_page": ""
+  },
+  {
+    "id": 356,
+    "name": "Fast Bombs",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Little Horn 20 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Fast Bombs",
+    "wiki_page": ""
+  },
+  {
+    "id": 357,
+    "name": "Lil Delirium",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium for the 1st time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Delirium",
+    "wiki_page": ""
+  },
+  {
+    "id": 358,
+    "name": "Hairpin",
+    "description": "Unlocked a new item.",
+    "requirements": "Recharge using Lil' Batteries 20 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hairpin",
+    "wiki_page": ""
+  },
+  {
+    "id": 359,
+    "name": "Wooden Cross",
+    "description": "Unlocked a new item.",
+    "requirements": "Sleep in a bed",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wooden Cross",
+    "wiki_page": ""
+  },
+  {
+    "id": 360,
+    "name": "Butter!",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete 2 Victory Laps by defeating The Lamb",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Butter!",
+    "wiki_page": ""
+  },
+  {
+    "id": 361,
+    "name": "Huge Growth",
+    "description": "Unlocked a new item.",
+    "requirements": "Be 3 times larger than the starting size. Depending on the item/card/pill size's multiplier, 5 to 7 size increases will be required.",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Huge Growth",
+    "wiki_page": ""
+  },
+  {
+    "id": 362,
+    "name": "Ancient Recall",
+    "description": "Unlocked a new item.",
+    "requirements": "Use Cards and Runes 20 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ancient Recall",
+    "wiki_page": ""
+  },
+  {
+    "id": 363,
+    "name": "Era Walk",
+    "description": "Unlocked a new item.",
+    "requirements": "Add both the Broken Watch and the Stop Watch to your collection",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Era Walk",
+    "wiki_page": ""
+  },
+  {
+    "id": 364,
+    "name": "Coupon",
+    "description": "Unlocked a new item.",
+    "requirements": "Purchase anything from Shops, Devil Rooms, and/or Black Markets 50 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Coupon",
+    "wiki_page": ""
+  },
+  {
+    "id": 365,
+    "name": "Telekinesis",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 2 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Telekinesis",
+    "wiki_page": ""
+  },
+  {
+    "id": 366,
+    "name": "Moving Box",
+    "description": "Unlocked a new item.",
+    "requirements": "Use Pandora's Box in Dark Room",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Moving Box",
+    "wiki_page": ""
+  },
+  {
+    "id": 367,
+    "name": "Jumper Cables",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up 2 battery-related items in a single run",
+    "notes": "Battery-related items are 9 Volt , The Battery , and Car Battery Battery-related items have the 'battery' item tag)",
+    "added_in": "Rebirth",
+    "link": "Jumper Cables",
+    "wiki_page": ""
+  },
+  {
+    "id": 368,
+    "name": "Leprosy",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 3 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Leprosy",
+    "wiki_page": ""
+  },
+  {
+    "id": 369,
+    "name": "Technology Zero",
+    "description": "Unlocked a new item.",
+    "requirements": "Pick up 2 technology-related items in a single run",
+    "notes": "Technology-related items have the 'tech' item tag",
+    "added_in": "Rebirth",
+    "link": "Technology Zero",
+    "wiki_page": ""
+  },
+  {
+    "id": 370,
+    "name": "Filigree Feather",
+    "description": "Unlocked a new item.",
+    "requirements": "Acquire both Key Piece 1 and Key Piece 2",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Filigree Feather",
+    "wiki_page": ""
+  },
+  {
+    "id": 371,
+    "name": "Mr. ME!",
+    "description": "Unlocked a new item.",
+    "requirements": "Open 20 Locked Chests",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mr. ME!",
+    "wiki_page": ""
+  },
+  {
+    "id": 372,
+    "name": "7 Seals",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat all 5 Harbingers",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "7 Seals",
+    "wiki_page": ""
+  },
+  {
+    "id": 373,
+    "name": "Angelic Prism",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat an Angel 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Angelic Prism",
+    "wiki_page": ""
+  },
+  {
+    "id": 374,
+    "name": "Pop!",
+    "description": "Unlocked a new item.",
+    "requirements": "Beat Chapter 4 without taking damage",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pop!",
+    "wiki_page": ""
+  },
+  {
+    "id": 375,
+    "name": "Door Stop",
+    "description": "Unlocked a new item.",
+    "requirements": "Blow up doors and Secret Room walls 50 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Door Stop",
+    "wiki_page": ""
+  },
+  {
+    "id": 376,
+    "name": "Death's List",
+    "description": "Unlocked a new item.",
+    "requirements": "Take 25 Deals with the Devil",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Death's List",
+    "wiki_page": ""
+  },
+  {
+    "id": 377,
+    "name": "Haemolacria",
+    "description": "Unlocked a new item.",
+    "requirements": "Acquire Blood Clot 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Haemolacria",
+    "wiki_page": ""
+  },
+  {
+    "id": 378,
+    "name": "Lachryphagy",
+    "description": "Unlocked a new item.",
+    "requirements": "Collect 10 \"Tears Up\" items or pills in one run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lachryphagy",
+    "wiki_page": ""
+  },
+  {
+    "id": 379,
+    "name": "Schoolbag",
+    "description": "Unlocked a new item.",
+    "requirements": "Enter 6 Shops in one run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Schoolbag",
+    "wiki_page": ""
+  },
+  {
+    "id": 380,
+    "name": "Trisagion",
+    "description": "Unlocked a new item.",
+    "requirements": "Take 25 Angel Rooms items",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Trisagion",
+    "wiki_page": ""
+  },
+  {
+    "id": 381,
+    "name": "Extension Cord",
+    "description": "Unlocked a new item.",
+    "requirements": "Have The Battery , 9 Volt , and Car Battery in Isaac's collection",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Extension Cord",
+    "wiki_page": ""
+  },
+  {
+    "id": 382,
+    "name": "Flat Stone",
+    "description": "Unlocked a new item.",
+    "requirements": "Acquire Rubber Cement 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Flat Stone",
+    "wiki_page": ""
+  },
+  {
+    "id": 383,
+    "name": "Sacrificial Altar",
+    "description": "Unlocked a new item.",
+    "requirements": "Take 50 Deals with the Devil",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sacrificial Altar",
+    "wiki_page": ""
+  },
+  {
+    "id": 384,
+    "name": "Lil Spewer",
+    "description": "Unlocked a new item.",
+    "requirements": "Have Isaac die to his own explosion from any explosive and poisoned tear ( Ipecac , Bob's Rotten Head , Fire Mind / Explosivo + Scorpio , or a Horf! pill)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Spewer",
+    "wiki_page": ""
+  },
+  {
+    "id": 385,
+    "name": "Blanket",
+    "description": "Unlocked a new item.",
+    "requirements": "Sleep in 10 beds",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blanket",
+    "wiki_page": ""
+  },
+  {
+    "id": 386,
+    "name": "Marbles",
+    "description": "Unlocked a new item.",
+    "requirements": "Use 5 Gulp! pills in one run",
+    "notes": "Placebo uses count",
+    "added_in": "Rebirth",
+    "link": "Marbles",
+    "wiki_page": ""
+  },
+  {
+    "id": 387,
+    "name": "Mystery Egg",
+    "description": "Unlocked a new item.",
+    "requirements": "Spawn three charmed enemies in the same room",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mystery Egg",
+    "wiki_page": ""
+  },
+  {
+    "id": 388,
+    "name": "Rotten Penny",
+    "description": "Unlocked a new item.",
+    "requirements": "Have 20 Blue Flies at the same time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rotten Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 389,
+    "name": "Baby-Bender",
+    "description": "Unlocked a new item.",
+    "requirements": "Use I - The Magician or Telepathy For Dummies while already having homing tears",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Baby-Bender",
+    "wiki_page": ""
+  },
+  {
+    "id": 390,
+    "name": "The Forgotten",
+    "description": "Unlocked a new character.",
+    "requirements": "It's complicated",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Forgotten",
+    "wiki_page": ""
+  },
+  {
+    "id": 391,
+    "name": "Bone Heart",
+    "description": "Unlocked a new item.",
+    "requirements": "It's complicated",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hearts (Pickup)",
+    "wiki_page": ""
+  },
+  {
+    "id": 392,
+    "name": "Marrow",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Marrow",
+    "wiki_page": ""
+  },
+  {
+    "id": 393,
+    "name": "Slipped Rib",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Isaac as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Slipped Rib",
+    "wiki_page": ""
+  },
+  {
+    "id": 394,
+    "name": "Pointy Rib",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Satan as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pointy Rib",
+    "wiki_page": ""
+  },
+  {
+    "id": 395,
+    "name": "Jaw Bone",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat ??? as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Jaw Bone",
+    "wiki_page": ""
+  },
+  {
+    "id": 396,
+    "name": "Brittle Bones",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat The Lamb as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Brittle Bones",
+    "wiki_page": ""
+  },
+  {
+    "id": 397,
+    "name": "Divorce Papers",
+    "description": "Unlocked a new item.",
+    "requirements": "Complete the Boss Rush as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Divorce Papers",
+    "wiki_page": ""
+  },
+  {
+    "id": 398,
+    "name": "Hallowed Ground",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Hush as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hallowed Ground",
+    "wiki_page": ""
+  },
+  {
+    "id": 399,
+    "name": "Finger Bone",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greed as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Finger Bone",
+    "wiki_page": ""
+  },
+  {
+    "id": 400,
+    "name": "Dad's Ring",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Ultra Greedier as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dad's Ring",
+    "wiki_page": ""
+  },
+  {
+    "id": 401,
+    "name": "Book of the Dead",
+    "description": "Unlocked a new item.",
+    "requirements": "Defeat Delirium as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Book of the Dead",
+    "wiki_page": ""
+  },
+  {
+    "id": 402,
+    "name": "Bone Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Earn all Hard mode Completion Marks as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 403,
+    "name": "Bound Baby",
+    "description": "Unlocked a new co-player baby.",
+    "requirements": "Defeat Mega Satan as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 404,
+    "name": "Bethany",
+    "description": "Beat Hard mode as Lazarus without losing a life",
+    "requirements": "Defeat Mom's Heart or It Lives! on hard mode as Lazarus, without dying at all",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bethany",
+    "wiki_page": ""
+  },
+  {
+    "id": 405,
+    "name": "Jacob and Esau",
+    "description": "You are just like your father...",
+    "requirements": "Defeat Mother",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Jacob and Esau",
+    "wiki_page": ""
+  },
+  {
+    "id": 406,
+    "name": "The Planetarium",
+    "description": "Kids shouldn't believe in fortunes...",
+    "requirements": "Collect any 3 items with the 'stars' item tag in a single run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Planetarium",
+    "wiki_page": ""
+  },
+  {
+    "id": 407,
+    "name": "A Secret Exit",
+    "description": "Complete ??? 3 times.",
+    "requirements": "Defeat Hush 3 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Downpour",
+    "wiki_page": ""
+  },
+  {
+    "id": 408,
+    "name": "Forgotten Lullaby",
+    "description": "Get that song out of her head.",
+    "requirements": "Blow up The Siren's skull after defeating her",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Forgotten Lullaby",
+    "wiki_page": ""
+  },
+  {
+    "id": 409,
+    "name": "Fruity Plum",
+    "description": "Defeat Baby Plum 10 times.",
+    "requirements": "Defeat Baby Plum 10 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Fruity Plum",
+    "wiki_page": ""
+  },
+  {
+    "id": 410,
+    "name": "Plum Flute",
+    "description": "Make a new friend!",
+    "requirements": "Allow Baby Plum to escape instead of defeating her",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Plum Flute",
+    "wiki_page": ""
+  },
+  {
+    "id": 411,
+    "name": "Rotten Heart",
+    "description": "Enter the Corpse...",
+    "requirements": "Enter Corpse for the first time",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rotten Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 412,
+    "name": "Dross",
+    "description": "Defeat all bosses in Downpour.",
+    "requirements": "Defeat all bosses in Downpour",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dross",
+    "wiki_page": ""
+  },
+  {
+    "id": 413,
+    "name": "Ashpit",
+    "description": "Defeat all bosses in the Mines.",
+    "requirements": "Defeat all bosses in Mines",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ashpit",
+    "wiki_page": ""
+  },
+  {
+    "id": 414,
+    "name": "Gehenna",
+    "description": "Defeat all bosses in the Mausoleum.",
+    "requirements": "Defeat all bosses in Mausoleum",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gehenna",
+    "wiki_page": ""
+  },
+  {
+    "id": 415,
+    "name": "Red Key",
+    "description": "The other side is calling...",
+    "requirements": "Open Mom's Chest in Home",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Red Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 416,
+    "name": "Wisp Baby",
+    "description": "Beat the game in Hard mode with Bethany.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 417,
+    "name": "Book of Virtues",
+    "description": "Complete the Cathedral with Bethany.",
+    "requirements": "Defeat Isaac as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Book of Virtues",
+    "wiki_page": ""
+  },
+  {
+    "id": 418,
+    "name": "Urn of Souls",
+    "description": "Complete Sheol with Bethany.",
+    "requirements": "Defeat Satan as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Urn of Souls",
+    "wiki_page": ""
+  },
+  {
+    "id": 419,
+    "name": "Blessed Penny",
+    "description": "Complete the Chest with Bethany.",
+    "requirements": "Defeat ??? as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blessed Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 420,
+    "name": "Alabaster Box",
+    "description": "Complete the Dark Room with Bethany.",
+    "requirements": "Defeat The Lamb as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Alabaster Box",
+    "wiki_page": ""
+  },
+  {
+    "id": 421,
+    "name": "Beth's Faith",
+    "description": "Complete Boss Rush with Bethany.",
+    "requirements": "Complete the Boss Rush as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Beth's Faith",
+    "wiki_page": ""
+  },
+  {
+    "id": 422,
+    "name": "Soul Locket",
+    "description": "Beat Greed mode with Bethany.",
+    "requirements": "Defeat Ultra Greed as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul Locket",
+    "wiki_page": ""
+  },
+  {
+    "id": 423,
+    "name": "Divine Intervention",
+    "description": "Complete ??? with Bethany.",
+    "requirements": "Defeat Hush as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Divine Intervention",
+    "wiki_page": ""
+  },
+  {
+    "id": 424,
+    "name": "Vade Retro",
+    "description": "Beat Greedier mode with Bethany.",
+    "requirements": "Defeat Ultra Greedier as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Vade Retro",
+    "wiki_page": ""
+  },
+  {
+    "id": 425,
+    "name": "Star of Bethlehem",
+    "description": "Beat the Void with Bethany.",
+    "requirements": "Defeat Delirium as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Star of Bethlehem",
+    "wiki_page": ""
+  },
+  {
+    "id": 426,
+    "name": "Hope Baby",
+    "description": "Beat everything in Hard mode with Bethany.",
+    "requirements": "Earn all Hard mode Completion Marks as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 427,
+    "name": "Glowing Baby",
+    "description": "Defeat Mega Satan with Bethany.",
+    "requirements": "Defeat Mega Satan as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 428,
+    "name": "Double Baby",
+    "description": "Beat the game in Hard mode with Jacob and Esau.",
+    "requirements": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 429,
+    "name": "The Stairway",
+    "description": "Complete the Cathedral with Jacob and Esau.",
+    "requirements": "Defeat Isaac as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Stairway",
+    "wiki_page": ""
+  },
+  {
+    "id": 430,
+    "name": "Red Stew",
+    "description": "Complete Sheol with Jacob and Esau.",
+    "requirements": "Defeat Satan as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Red Stew",
+    "wiki_page": ""
+  },
+  {
+    "id": 431,
+    "name": "Birthright",
+    "description": "Complete the Chest with Jacob and Esau.",
+    "requirements": "Defeat ??? as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Birthright",
+    "wiki_page": ""
+  },
+  {
+    "id": 432,
+    "name": "Damocles",
+    "description": "Complete the Dark Room with Jacob and Esau.",
+    "requirements": "Defeat The Lamb as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Damocles",
+    "wiki_page": ""
+  },
+  {
+    "id": 433,
+    "name": "Rock Bottom",
+    "description": "Complete Boss Rush with Jacob and Esau.",
+    "requirements": "Complete Boss Rush as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rock Bottom",
+    "wiki_page": ""
+  },
+  {
+    "id": 434,
+    "name": "Inner Child",
+    "description": "Beat Greed mode with Jacob and Esau.",
+    "requirements": "Defeat Ultra Greed as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Inner Child",
+    "wiki_page": ""
+  },
+  {
+    "id": 435,
+    "name": "Vanishing Twin",
+    "description": "Complete ??? with Jacob and Esau.",
+    "requirements": "Defeat Hush as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Vanishing Twin",
+    "wiki_page": ""
+  },
+  {
+    "id": 436,
+    "name": "Genesis",
+    "description": "Beat Greedier mode with Jacob and Esau.",
+    "requirements": "Defeat Ultra Greedier as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Genesis",
+    "wiki_page": ""
+  },
+  {
+    "id": 437,
+    "name": "Suplex!",
+    "description": "Complete the Void with Jacob and Esau.",
+    "requirements": "Defeat Delirium as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Suplex!",
+    "wiki_page": ""
+  },
+  {
+    "id": 438,
+    "name": "Solomon's Baby",
+    "description": "Beat everything in Hard mode with Jacob and Esau.",
+    "requirements": "Earn all Hard mode Completion Marks as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 439,
+    "name": "Illusion Baby",
+    "description": "Defeat Mega Satan with Jacob and Esau.",
+    "requirements": "Defeat Mega Satan as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Co-op#Repentance babies",
+    "wiki_page": ""
+  },
+  {
+    "id": 440,
+    "name": "Meat Cleaver",
+    "description": "Complete the Corpse with Isaac.",
+    "requirements": "Defeat Mother as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Meat Cleaver",
+    "wiki_page": ""
+  },
+  {
+    "id": 441,
+    "name": "Options?",
+    "description": "Complete the final chapter with Isaac.",
+    "requirements": "Defeat The Beast as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Options?",
+    "wiki_page": ""
+  },
+  {
+    "id": 442,
+    "name": "Yuck Heart",
+    "description": "Complete the Corpse with Magdalene.",
+    "requirements": "Defeat Mother as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Yuck Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 443,
+    "name": "Candy Heart",
+    "description": "Complete the final chapter with Magdalene.",
+    "requirements": "Defeat The Beast as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Candy Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 444,
+    "name": "Guppy's Eye",
+    "description": "Complete the Corpse with Cain.",
+    "requirements": "Defeat Mother as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Guppy's Eye",
+    "wiki_page": ""
+  },
+  {
+    "id": 445,
+    "name": "A Pound of Flesh",
+    "description": "Complete the final chapter with Cain.",
+    "requirements": "Defeat The Beast as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "A Pound of Flesh",
+    "wiki_page": ""
+  },
+  {
+    "id": 446,
+    "name": "Akeldama",
+    "description": "Complete the Corpse with Judas.",
+    "requirements": "Defeat Mother as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Akeldama",
+    "wiki_page": ""
+  },
+  {
+    "id": 447,
+    "name": "Redemption",
+    "description": "Complete the final chapter with Judas.",
+    "requirements": "Defeat The Beast as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Redemption",
+    "wiki_page": ""
+  },
+  {
+    "id": 448,
+    "name": "Eternal D6",
+    "description": "Complete the Corpse with ???.",
+    "requirements": "Defeat Mother as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Eternal D6",
+    "wiki_page": ""
+  },
+  {
+    "id": 449,
+    "name": "Montezuma's Revenge",
+    "description": "Complete the final chapter with ???.",
+    "requirements": "Defeat The Beast as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Montezuma's Revenge",
+    "wiki_page": ""
+  },
+  {
+    "id": 450,
+    "name": "Bird Cage",
+    "description": "Complete the Corpse with Eve.",
+    "requirements": "Defeat Mother as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bird Cage",
+    "wiki_page": ""
+  },
+  {
+    "id": 451,
+    "name": "Cracked Orb",
+    "description": "Complete the final chapter with Eve.",
+    "requirements": "Defeat The Beast as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cracked Orb",
+    "wiki_page": ""
+  },
+  {
+    "id": 452,
+    "name": "Bloody Gust",
+    "description": "Complete the Corpse with Samson.",
+    "requirements": "Defeat Mother as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bloody Gust",
+    "wiki_page": ""
+  },
+  {
+    "id": 453,
+    "name": "Empty Heart",
+    "description": "Complete the final chapter with Samson.",
+    "requirements": "Defeat The Beast as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Empty Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 454,
+    "name": "Devil's Crown",
+    "description": "Complete the Corpse with Azazel.",
+    "requirements": "Defeat Mother as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Devil's Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 455,
+    "name": "Lil Abaddon",
+    "description": "Complete the final chapter with Azazel.",
+    "requirements": "Defeat The Beast as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Abaddon",
+    "wiki_page": ""
+  },
+  {
+    "id": 456,
+    "name": "Tinytoma",
+    "description": "Complete the Corpse with Lazarus.",
+    "requirements": "Defeat Mother as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tinytoma",
+    "wiki_page": ""
+  },
+  {
+    "id": 457,
+    "name": "Astral Projection",
+    "description": "Complete the final chapter with Lazarus.",
+    "requirements": "Defeat The Beast as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Astral Projection",
+    "wiki_page": ""
+  },
+  {
+    "id": 458,
+    "name": "'M",
+    "description": "Complete the Corpse with Eden.",
+    "requirements": "Defeat Mother as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "'M",
+    "wiki_page": ""
+  },
+  {
+    "id": 459,
+    "name": "Everything Jar",
+    "description": "Complete the final chapter with Eden.",
+    "requirements": "Defeat The Beast as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Everything Jar",
+    "wiki_page": ""
+  },
+  {
+    "id": 460,
+    "name": "Lost Soul",
+    "description": "Complete the Corpse with the Lost.",
+    "requirements": "Defeat Mother as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lost Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 461,
+    "name": "Hungry Soul",
+    "description": "Complete the final chapter with the Lost.",
+    "requirements": "Defeat The Beast as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hungry Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 462,
+    "name": "Blood Puppy",
+    "description": "Complete the Corpse with Lilith.",
+    "requirements": "Defeat Mother as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blood Puppy",
+    "wiki_page": ""
+  },
+  {
+    "id": 463,
+    "name": "C Section",
+    "description": "Complete the final chapter with Lilith.",
+    "requirements": "Defeat The Beast as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "C Section",
+    "wiki_page": ""
+  },
+  {
+    "id": 464,
+    "name": "Keeper's Sack",
+    "description": "Complete the Corpse with Keeper.",
+    "requirements": "Defeat Mother as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper's Sack",
+    "wiki_page": ""
+  },
+  {
+    "id": 465,
+    "name": "Keeper's Box",
+    "description": "Complete the final chapter with Keeper.",
+    "requirements": "Defeat The Beast as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper's Box",
+    "wiki_page": ""
+  },
+  {
+    "id": 466,
+    "name": "Lil Portal",
+    "description": "Complete the Corpse with Apollyon.",
+    "requirements": "Defeat Mother as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Portal",
+    "wiki_page": ""
+  },
+  {
+    "id": 467,
+    "name": "Worm Friend",
+    "description": "Complete the final chapter with Apollyon.",
+    "requirements": "Defeat The Beast as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Worm Friend",
+    "wiki_page": ""
+  },
+  {
+    "id": 468,
+    "name": "Bone Spurs",
+    "description": "Complete the Corpse with the Forgotten.",
+    "requirements": "Defeat Mother as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bone Spurs",
+    "wiki_page": ""
+  },
+  {
+    "id": 469,
+    "name": "Spirit Shackles",
+    "description": "Complete the final chapter with the Forgotten.",
+    "requirements": "Defeat The Beast as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Spirit Shackles",
+    "wiki_page": ""
+  },
+  {
+    "id": 470,
+    "name": "Revelation",
+    "description": "Complete the Corpse with Bethany.",
+    "requirements": "Defeat Mother as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Revelation",
+    "wiki_page": ""
+  },
+  {
+    "id": 471,
+    "name": "Jar of Wisps",
+    "description": "Complete the final chapter with Bethany.",
+    "requirements": "Defeat The Beast as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Jar of Wisps",
+    "wiki_page": ""
+  },
+  {
+    "id": 472,
+    "name": "Magic Skin",
+    "description": "Complete the Corpse with Jacob and Esau.",
+    "requirements": "Defeat Mother as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Magic Skin",
+    "wiki_page": ""
+  },
+  {
+    "id": 473,
+    "name": "Friend Finder",
+    "description": "Complete the final chapter with Jacob and Esau.",
+    "requirements": "Defeat The Beast as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Friend Finder",
+    "wiki_page": ""
+  },
+  {
+    "id": 474,
+    "name": "The Broken",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Isaac",
+    "wiki_page": ""
+  },
+  {
+    "id": 475,
+    "name": "The Dauntless",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Magdalene",
+    "wiki_page": ""
+  },
+  {
+    "id": 476,
+    "name": "The Hoarder",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Cain",
+    "wiki_page": ""
+  },
+  {
+    "id": 477,
+    "name": "The Deceiver",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Judas",
+    "wiki_page": ""
+  },
+  {
+    "id": 478,
+    "name": "The Soiled",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted ???",
+    "wiki_page": ""
+  },
+  {
+    "id": 479,
+    "name": "The Curdled",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Eve",
+    "wiki_page": ""
+  },
+  {
+    "id": 480,
+    "name": "The Savage",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Samson",
+    "wiki_page": ""
+  },
+  {
+    "id": 481,
+    "name": "The Benighted",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Azazel",
+    "wiki_page": ""
+  },
+  {
+    "id": 482,
+    "name": "The Enigma",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Lazarus",
+    "wiki_page": ""
+  },
+  {
+    "id": 483,
+    "name": "The Capricious",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Eden",
+    "wiki_page": ""
+  },
+  {
+    "id": 484,
+    "name": "The Baleful",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Lost",
+    "wiki_page": ""
+  },
+  {
+    "id": 485,
+    "name": "The Harlot",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Lilith",
+    "wiki_page": ""
+  },
+  {
+    "id": 486,
+    "name": "The Miser",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 487,
+    "name": "The Empty",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Apollyon",
+    "wiki_page": ""
+  },
+  {
+    "id": 488,
+    "name": "The Fettered",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Forgotten",
+    "wiki_page": ""
+  },
+  {
+    "id": 489,
+    "name": "The Zealot",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Bethany",
+    "wiki_page": ""
+  },
+  {
+    "id": 490,
+    "name": "The Deserter",
+    "description": "???",
+    "requirements": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Tainted Jacob",
+    "wiki_page": ""
+  },
+  {
+    "id": 491,
+    "name": "Glitched Crown",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Glitched Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 492,
+    "name": "Belly Jelly",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Belly Jelly",
+    "wiki_page": ""
+  },
+  {
+    "id": 493,
+    "name": "Blue Key",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Blue Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 494,
+    "name": "Sanguine Bond",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sanguine Bond",
+    "wiki_page": ""
+  },
+  {
+    "id": 495,
+    "name": "The Swarm",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Swarm",
+    "wiki_page": ""
+  },
+  {
+    "id": 496,
+    "name": "Heartbreak",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Heartbreak",
+    "wiki_page": ""
+  },
+  {
+    "id": 497,
+    "name": "Larynx",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Larynx",
+    "wiki_page": ""
+  },
+  {
+    "id": 498,
+    "name": "Azazel's Rage",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Azazel's Rage",
+    "wiki_page": ""
+  },
+  {
+    "id": 499,
+    "name": "Salvation",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Salvation",
+    "wiki_page": ""
+  },
+  {
+    "id": 500,
+    "name": "TMTRAINER",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "TMTRAINER",
+    "wiki_page": ""
+  },
+  {
+    "id": 501,
+    "name": "Sacred Orb",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sacred Orb",
+    "wiki_page": ""
+  },
+  {
+    "id": 502,
+    "name": "Twisted Pair",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Twisted Pair",
+    "wiki_page": ""
+  },
+  {
+    "id": 503,
+    "name": "Strawman",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Strawman",
+    "wiki_page": ""
+  },
+  {
+    "id": 504,
+    "name": "Echo Chamber",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Echo Chamber",
+    "wiki_page": ""
+  },
+  {
+    "id": 505,
+    "name": "Isaac's Tomb",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Isaac's Tomb",
+    "wiki_page": ""
+  },
+  {
+    "id": 506,
+    "name": "Vengeful Spirit",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Vengeful Spirit",
+    "wiki_page": ""
+  },
+  {
+    "id": 507,
+    "name": "Esau Jr.",
+    "description": "???",
+    "requirements": "Defeat The Beast as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Esau Jr.",
+    "wiki_page": ""
+  },
+  {
+    "id": 508,
+    "name": "Bloody Mary",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Unlock Bethany, Blood Bag , and It Lives!",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bloody Mary",
+    "wiki_page": ""
+  },
+  {
+    "id": 509,
+    "name": "Baptism by Fire",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Baptism by Fire",
+    "wiki_page": ""
+  },
+  {
+    "id": 510,
+    "name": "Isaac's Awakening",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Mother",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Isaac's Awakening",
+    "wiki_page": ""
+  },
+  {
+    "id": 511,
+    "name": "Seeing Double",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Mother",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Seeing Double",
+    "wiki_page": ""
+  },
+  {
+    "id": 512,
+    "name": "Pica Run",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Defeat Mom's Heart 11 times and unlock Marbles",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pica Run",
+    "wiki_page": ""
+  },
+  {
+    "id": 513,
+    "name": "Hot Potato",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Unlock Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hot Potato",
+    "wiki_page": ""
+  },
+  {
+    "id": 514,
+    "name": "Cantripped!",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Unlock Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cantripped!",
+    "wiki_page": ""
+  },
+  {
+    "id": 515,
+    "name": "Red Redemption",
+    "description": "Unlocked a new challenge.",
+    "requirements": "Unlock Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Red Redemption",
+    "wiki_page": ""
+  },
+  {
+    "id": 516,
+    "name": "DELETE THIS",
+    "description": "TODO: remove this achievement",
+    "requirements": "Unlock Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "DELETE THIS",
+    "wiki_page": ""
+  },
+  {
+    "id": 517,
+    "name": "Dirty Mind",
+    "description": "Complete Challenge 36.",
+    "requirements": "Complete Scat Man (challenge #36)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dirty Mind",
+    "wiki_page": ""
+  },
+  {
+    "id": 518,
+    "name": "Sigil of Baphomet",
+    "description": "Complete Challenge 37.",
+    "requirements": "Complete Bloody Mary (challenge #37)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sigil of Baphomet",
+    "wiki_page": ""
+  },
+  {
+    "id": 519,
+    "name": "Purgatory",
+    "description": "Complete Challenge 38.",
+    "requirements": "Complete Baptism by Fire (challenge #38)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Purgatory",
+    "wiki_page": ""
+  },
+  {
+    "id": 520,
+    "name": "Spirit Sword",
+    "description": "Complete Challenge 39.",
+    "requirements": "Complete Isaac's Awakening (challenge #39)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Spirit Sword",
+    "wiki_page": ""
+  },
+  {
+    "id": 521,
+    "name": "Broken Glasses",
+    "description": "Complete Challenge 40.",
+    "requirements": "Complete Seeing Double (challenge #40)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Broken Glasses",
+    "wiki_page": ""
+  },
+  {
+    "id": 522,
+    "name": "Ice Cube",
+    "description": "Complete Challenge 41.",
+    "requirements": "Complete Pica Run (challenge #41)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ice Cube",
+    "wiki_page": ""
+  },
+  {
+    "id": 523,
+    "name": "Charged Penny",
+    "description": "They will charge you up... for a small fee.",
+    "requirements": "Donate to Battery Bums until they pay out with an item 5 times",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Charged Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 524,
+    "name": "The Fool",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "0 - The Fool?",
+    "wiki_page": ""
+  },
+  {
+    "id": 525,
+    "name": "The Magician",
+    "description": "I - The Magician?",
+    "requirements": "Defeat Ultra Greedier as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Reverse tarot cards",
+    "wiki_page": ""
+  },
+  {
+    "id": 526,
+    "name": "The High Priestess",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "II - The High Priestess?",
+    "wiki_page": ""
+  },
+  {
+    "id": 527,
+    "name": "The Empress",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "III - The Empress?",
+    "wiki_page": ""
+  },
+  {
+    "id": 528,
+    "name": "The Emperor",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "IV - The Emperor?",
+    "wiki_page": ""
+  },
+  {
+    "id": 529,
+    "name": "The Hierophant",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "V - The Hierophant?",
+    "wiki_page": ""
+  },
+  {
+    "id": 530,
+    "name": "The Lovers",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "VI - The Lovers?",
+    "wiki_page": ""
+  },
+  {
+    "id": 531,
+    "name": "The Chariot",
+    "description": "Complete Challenge 42.",
+    "requirements": "Complete Hot Potato (challenge #42)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "VII - The Chariot?",
+    "wiki_page": ""
+  },
+  {
+    "id": 532,
+    "name": "Justice",
+    "description": "Complete Challenge 43.",
+    "requirements": "Complete Cantripped (challenge #43)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "VIII - Justice?",
+    "wiki_page": ""
+  },
+  {
+    "id": 533,
+    "name": "The Hermit",
+    "description": "Complete Challenge 44.",
+    "requirements": "Complete Red Redemption (challenge #44)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "IX - The Hermit?",
+    "wiki_page": ""
+  },
+  {
+    "id": 534,
+    "name": "Wheel of Fortune",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "X - Wheel of Fortune?",
+    "wiki_page": ""
+  },
+  {
+    "id": 535,
+    "name": "Strength",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XI - Strength?",
+    "wiki_page": ""
+  },
+  {
+    "id": 536,
+    "name": "The Hanged Man",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XII - The Hanged Man?",
+    "wiki_page": ""
+  },
+  {
+    "id": 537,
+    "name": "Death",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XIII - Death?",
+    "wiki_page": ""
+  },
+  {
+    "id": 538,
+    "name": "Temperance",
+    "description": "???",
+    "requirements": "Complete DELETE THIS (challenge #45)",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XIV - Temperance?",
+    "wiki_page": ""
+  },
+  {
+    "id": 539,
+    "name": "The Devil",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XV - The Devil?",
+    "wiki_page": ""
+  },
+  {
+    "id": 540,
+    "name": "The Tower",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XVI - The Tower?",
+    "wiki_page": ""
+  },
+  {
+    "id": 541,
+    "name": "The Stars",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XVII - The Stars?",
+    "wiki_page": ""
+  },
+  {
+    "id": 542,
+    "name": "The Sun and the Moon",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XVIII - The Moon?",
+    "wiki_page": ""
+  },
+  {
+    "id": 543,
+    "name": "Judgement",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XX - Judgement?",
+    "wiki_page": ""
+  },
+  {
+    "id": 544,
+    "name": "The World",
+    "description": "???",
+    "requirements": "Defeat Ultra Greedier as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "XXI - The World?",
+    "wiki_page": ""
+  },
+  {
+    "id": 545,
+    "name": "Old Capacitor",
+    "description": "Kill 10 Battery Bums.",
+    "requirements": "Kill 10 Battery Bums",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Old Capacitor",
+    "wiki_page": ""
+  },
+  {
+    "id": 546,
+    "name": "Brimstone Bombs",
+    "description": "Kill Hornfel before he escapes!",
+    "requirements": "After breaking Hornfel's minecart, kill him before he can escape",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Brimstone Bombs",
+    "wiki_page": ""
+  },
+  {
+    "id": 547,
+    "name": "Mega Mush",
+    "description": "Beat everything in Hard Mode as every character.",
+    "requirements": "Earn all Hard mode Completion Marks for all non-Tainted characters",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mega Mush",
+    "wiki_page": ""
+  },
+  {
+    "id": 548,
+    "name": "Mom's Lock",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mom's Lock",
+    "wiki_page": ""
+  },
+  {
+    "id": 549,
+    "name": "Dice Bag",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dice Bag",
+    "wiki_page": ""
+  },
+  {
+    "id": 550,
+    "name": "Holy Crown",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Holy Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 551,
+    "name": "Mother's Kiss",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mother's Kiss",
+    "wiki_page": ""
+  },
+  {
+    "id": 552,
+    "name": "Gilded Key",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gilded Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 553,
+    "name": "Lucky Sack",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lucky Sack",
+    "wiki_page": ""
+  },
+  {
+    "id": 554,
+    "name": "Your Soul",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Your Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 555,
+    "name": "Number Magnet",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Number Magnet",
+    "wiki_page": ""
+  },
+  {
+    "id": 556,
+    "name": "Dingle Berry",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dingle Berry",
+    "wiki_page": ""
+  },
+  {
+    "id": 557,
+    "name": "Ring Cap",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ring Cap",
+    "wiki_page": ""
+  },
+  {
+    "id": 558,
+    "name": "Strange Key",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Strange Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 559,
+    "name": "Lil Clot",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lil Clot",
+    "wiki_page": ""
+  },
+  {
+    "id": 560,
+    "name": "Temporary Tattoo",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Temporary Tattoo",
+    "wiki_page": ""
+  },
+  {
+    "id": 561,
+    "name": "Swallowed M80",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Swallowed M80",
+    "wiki_page": ""
+  },
+  {
+    "id": 562,
+    "name": "Wicked Crown",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wicked Crown",
+    "wiki_page": ""
+  },
+  {
+    "id": 563,
+    "name": "Azazel's Stump",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Azazel's Stump",
+    "wiki_page": ""
+  },
+  {
+    "id": 564,
+    "name": "Torn Pocket",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Torn Pocket",
+    "wiki_page": ""
+  },
+  {
+    "id": 565,
+    "name": "Torn Card",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Torn Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 566,
+    "name": "Nuh Uh!",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Nuh Uh!",
+    "wiki_page": ""
+  },
+  {
+    "id": 567,
+    "name": "Modeling Clay",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Modeling Clay",
+    "wiki_page": ""
+  },
+  {
+    "id": 568,
+    "name": "Kid's Drawing",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Kid's Drawing",
+    "wiki_page": ""
+  },
+  {
+    "id": 569,
+    "name": "Crystal Key",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Crystal Key",
+    "wiki_page": ""
+  },
+  {
+    "id": 570,
+    "name": "The Twins",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "The Twins",
+    "wiki_page": ""
+  },
+  {
+    "id": 571,
+    "name": "Adoption Papers",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Adoption Papers",
+    "wiki_page": ""
+  },
+  {
+    "id": 572,
+    "name": "Keeper's Bargain",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper's Bargain",
+    "wiki_page": ""
+  },
+  {
+    "id": 573,
+    "name": "Cursed Penny",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cursed Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 574,
+    "name": "Cricket Leg",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Cricket Leg",
+    "wiki_page": ""
+  },
+  {
+    "id": 575,
+    "name": "Apollyon's Best Friend",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Apollyon's Best Friend",
+    "wiki_page": ""
+  },
+  {
+    "id": 576,
+    "name": "Polished Bone",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Polished Bone",
+    "wiki_page": ""
+  },
+  {
+    "id": 577,
+    "name": "Hollow Heart",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hollow Heart",
+    "wiki_page": ""
+  },
+  {
+    "id": 578,
+    "name": "Expansion Pack",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Expansion Pack",
+    "wiki_page": ""
+  },
+  {
+    "id": 579,
+    "name": "Beth's Essence",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Beth's Essence",
+    "wiki_page": ""
+  },
+  {
+    "id": 580,
+    "name": "RC Remote",
+    "description": "???",
+    "requirements": "Defeat Isaac, ???, Satan, and The Lamb as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "RC Remote",
+    "wiki_page": ""
+  },
+  {
+    "id": 581,
+    "name": "Found Soul",
+    "description": "???",
+    "requirements": "Defeat Mother as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Found Soul",
+    "wiki_page": ""
+  },
+  {
+    "id": 582,
+    "name": "Member Card",
+    "description": "Spend 40+ pennies in a single shop.",
+    "requirements": "Spend 40+ coins in a single Shop",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Member Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 583,
+    "name": "Golden Razor",
+    "description": "Obtain 99 pennies. Then spend every single one of them.",
+    "requirements": "In a single run, obtain 99 Coins, then spend all of them",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Golden Razor",
+    "wiki_page": ""
+  },
+  {
+    "id": 584,
+    "name": "Spindown Dice",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Spindown Dice",
+    "wiki_page": ""
+  },
+  {
+    "id": 585,
+    "name": "Hypercoagulation",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hypercoagulation",
+    "wiki_page": ""
+  },
+  {
+    "id": 586,
+    "name": "Bag of Crafting",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Bag of Crafting",
+    "wiki_page": ""
+  },
+  {
+    "id": 587,
+    "name": "Dark Arts",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Dark Arts",
+    "wiki_page": ""
+  },
+  {
+    "id": 588,
+    "name": "IBS",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "IBS",
+    "wiki_page": ""
+  },
+  {
+    "id": 589,
+    "name": "Sumptorium",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Sumptorium",
+    "wiki_page": ""
+  },
+  {
+    "id": 590,
+    "name": "Berserk!",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Berserk!",
+    "wiki_page": ""
+  },
+  {
+    "id": 591,
+    "name": "Hemoptysis",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hemoptysis",
+    "wiki_page": ""
+  },
+  {
+    "id": 592,
+    "name": "Flip",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Flip",
+    "wiki_page": ""
+  },
+  {
+    "id": 593,
+    "name": "Corrupted Data",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Corrupted Data",
+    "wiki_page": ""
+  },
+  {
+    "id": 594,
+    "name": "Ghost Bombs",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Ghost Bombs",
+    "wiki_page": ""
+  },
+  {
+    "id": 595,
+    "name": "Gello",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Gello",
+    "wiki_page": ""
+  },
+  {
+    "id": 596,
+    "name": "Keeper's Kin",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Keeper's Kin",
+    "wiki_page": ""
+  },
+  {
+    "id": 597,
+    "name": "Abyss",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Abyss",
+    "wiki_page": ""
+  },
+  {
+    "id": 598,
+    "name": "Decap Attack",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Decap Attack",
+    "wiki_page": ""
+  },
+  {
+    "id": 599,
+    "name": "Lemegeton",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Lemegeton",
+    "wiki_page": ""
+  },
+  {
+    "id": 600,
+    "name": "Anima Sola",
+    "description": "???",
+    "requirements": "Defeat Delirium as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Anima Sola",
+    "wiki_page": ""
+  },
+  {
+    "id": 601,
+    "name": "Mega Chest",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Mega Chest",
+    "wiki_page": ""
+  },
+  {
+    "id": 602,
+    "name": "Queen of Hearts",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Queen of Hearts",
+    "wiki_page": ""
+  },
+  {
+    "id": 603,
+    "name": "Gold Pill",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pills#Gold_Pills",
+    "wiki_page": ""
+  },
+  {
+    "id": 604,
+    "name": "Black Sack",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Black Sack",
+    "wiki_page": ""
+  },
+  {
+    "id": 605,
+    "name": "Charming Poop",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Charming Poop",
+    "wiki_page": ""
+  },
+  {
+    "id": 606,
+    "name": "Horse Pill",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Pills#Horse_Pills",
+    "wiki_page": ""
+  },
+  {
+    "id": 607,
+    "name": "Crane Game",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Crane Game",
+    "wiki_page": ""
+  },
+  {
+    "id": 608,
+    "name": "Hell Game",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Hell Game",
+    "wiki_page": ""
+  },
+  {
+    "id": 609,
+    "name": "Wooden Chest",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wooden Chest",
+    "wiki_page": ""
+  },
+  {
+    "id": 610,
+    "name": "Wild Card",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Wild Card",
+    "wiki_page": ""
+  },
+  {
+    "id": 611,
+    "name": "Haunted Chest",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Haunted Chest",
+    "wiki_page": ""
+  },
+  {
+    "id": 612,
+    "name": "Fool's Gold",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Fool's Gold",
+    "wiki_page": ""
+  },
+  {
+    "id": 613,
+    "name": "Golden Penny",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Golden Penny",
+    "wiki_page": ""
+  },
+  {
+    "id": 614,
+    "name": "Rotten Beggar",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Rotten Beggar",
+    "wiki_page": ""
+  },
+  {
+    "id": 615,
+    "name": "Golden Battery",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Golden Battery",
+    "wiki_page": ""
+  },
+  {
+    "id": 616,
+    "name": "Confessional",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Confessional",
+    "wiki_page": ""
+  },
+  {
+    "id": 617,
+    "name": "Golden Trinket",
+    "description": "???",
+    "requirements": "Defeat Mega Satan as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Golden Trinket",
+    "wiki_page": ""
+  },
+  {
+    "id": 618,
+    "name": "Soul of Isaac",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Isaac",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Isaac",
+    "wiki_page": ""
+  },
+  {
+    "id": 619,
+    "name": "Soul of Magdalene",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Magdalene",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Magdalene",
+    "wiki_page": ""
+  },
+  {
+    "id": 620,
+    "name": "Soul of Cain",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Cain",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Cain",
+    "wiki_page": ""
+  },
+  {
+    "id": 621,
+    "name": "Soul of Judas",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Judas",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Judas",
+    "wiki_page": ""
+  },
+  {
+    "id": 622,
+    "name": "Soul of ???",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted ???",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of ???",
+    "wiki_page": ""
+  },
+  {
+    "id": 623,
+    "name": "Soul of Eve",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Eve",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Eve",
+    "wiki_page": ""
+  },
+  {
+    "id": 624,
+    "name": "Soul of Samson",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Samson",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Samson",
+    "wiki_page": ""
+  },
+  {
+    "id": 625,
+    "name": "Soul of Azazel",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Azazel",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Azazel",
+    "wiki_page": ""
+  },
+  {
+    "id": 626,
+    "name": "Soul of Lazarus",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lazarus",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Lazarus",
+    "wiki_page": ""
+  },
+  {
+    "id": 627,
+    "name": "Soul of Eden",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Eden",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Eden",
+    "wiki_page": ""
+  },
+  {
+    "id": 628,
+    "name": "Soul of the Lost",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lost",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of the Lost",
+    "wiki_page": ""
+  },
+  {
+    "id": 629,
+    "name": "Soul of Lilith",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Lilith",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Lilith",
+    "wiki_page": ""
+  },
+  {
+    "id": 630,
+    "name": "Soul of the Keeper",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Keeper",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of the Keeper",
+    "wiki_page": ""
+  },
+  {
+    "id": 631,
+    "name": "Soul of Apollyon",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Apollyon",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Apollyon",
+    "wiki_page": ""
+  },
+  {
+    "id": 632,
+    "name": "Soul of the Forgotten",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Forgotten",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of the Forgotten",
+    "wiki_page": ""
+  },
+  {
+    "id": 633,
+    "name": "Soul of Bethany",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Bethany",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Bethany",
+    "wiki_page": ""
+  },
+  {
+    "id": 634,
+    "name": "Soul of Jacob and Esau",
+    "description": "???",
+    "requirements": "Defeat Hush and Boss Rush as Tainted Jacob",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Soul of Jacob and Esau",
+    "wiki_page": ""
+  },
+  {
+    "id": 635,
+    "name": "A Strange Door",
+    "description": "Where could it lead to?",
+    "requirements": "Defeat Mother",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "A Strange Door",
+    "wiki_page": ""
+  },
+  {
+    "id": 636,
+    "name": "Death Certificate",
+    "description": "...",
+    "requirements": "Earn all Hard mode Completion Marks for all characters, including tainted ones",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "Death Certificate",
+    "wiki_page": ""
+  },
+  {
+    "id": 637,
+    "name": "Dead God",
+    "description": "",
+    "requirements": "Unlock all the other achievements ( including the 4 Repentance+ achievements) and collect every item in the game",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 638,
+    "name": "Play Online",
+    "description": "Played Online",
+    "requirements": "Play an Online game",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 639,
+    "name": "Win Online",
+    "description": "Won Online",
+    "requirements": "Win an Online run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 640,
+    "name": "Win Online Daily",
+    "description": "Won Online Daily",
+    "requirements": "Win an Online Daily run",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  },
+  {
+    "id": 641,
+    "name": "Item Descriptions",
+    "description": "Read Up!",
+    "requirements": "Defeat Mom",
+    "notes": "",
+    "added_in": "Rebirth",
+    "link": "",
+    "wiki_page": ""
+  }
+]

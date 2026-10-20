@@ -1,0 +1,247 @@
+﻿id,name,name_zh,description_en,description_zh,added_in
+1,0 - The Fool,0-愚者,Teleports Isaac to the first room of the floor,将角色传送至本层初始房间,Rebirth
+2,I - The Magician,I-魔术师,"Receive for the room:
+ +3 Range
+Homing tears","当前房间中获得:
+追踪泪弹
+ 射程+3",Rebirth
+3,II - The High Priestess,II-女祭司,"Mom's Foot stomps on an enemy
+Mom's Foot stomps Isaac if there are no enemies","妈腿会践踏1个敌人
+对敌人造成300点接触伤害
+若没有敌人则会践踏角色",Rebirth
+4,III - The Empress,III-皇后,"Receive for the room:
+ +0.3 Speed
+ +1.5 Damage","当前房间中获得:
+ 移速+0.3
+ 伤害+1.5",Rebirth
+5,IV - The Emperor,IV-皇帝,Teleports Isaac to the Boss Room,将角色传送至头目房,Rebirth
+6,V - The Hierophant,V-教皇,Spawns 2 Soul Hearts,生成2魂心,Rebirth
+7,VI - The Lovers,VI-恋人,Spawns 2 Red Hearts,生成2红心,Rebirth
+8,VII - The Chariot,VII-战车,"Receive for 6 seconds:
+ +0.28 Speed
+Invincibility
+Isaac can't shoot but deals 40 contact damage per second","在6秒内获得:
+ 移速+0.28
+无敌
+角色无法发射泪弹, 但每秒造成40点接触伤害",Rebirth
+9,VIII - Justice,VIII-正义,"Spawns a random heart, coin, bomb and key","生成1随机心, 1硬币, 1炸弹, 1钥匙",Rebirth
+10,IX - The Hermit,IX-隐者,Teleports Isaac to the Shop,将角色传送至商店,Rebirth
+11,X - Wheel of Fortune,X-命运之轮,"Spawns a Slot Machine
+ 24% chance for it to be a Fortune Telling Machine
+ 1% chance for it to be a Crane Game","生成1台赌博机
+ 24%概率为预言机
+ 1%概率为夹娃娃机",Rebirth
+12,XI - Strength,XI-力量,"Receive for the room:
+ +1 Health
+ +0.3 Speed
+ +0.3 Damage
+ x1.5 Damage multiplier
+ +2.5 Range","当前房间中获得:
+ +1心之容器
+ 移速+0.3
+ 伤害+0.3
+ 伤害修正x1.5
+ 射程+2.5",Rebirth
+13,XII - The Hanged Man,XII-倒吊人,Flight for the room,当前房间中获得飞行,Rebirth
+14,XIII - Death,XIII-死亡,Deals 40 damage to all enemies in the room,对房间中所有敌人造成40点伤害,Rebirth
+15,XIV - Temperance,XIV-节制,Spawns a Blood Donation Machine,生成1台献血机,Rebirth
+16,XV - The Devil,XV-恶魔,"Receive for the room:
+ +2 Damage","当前房间中获得:
+ 伤害+2",Rebirth
+17,XVI - The Tower,XVI-塔,Spawns 6 Troll Bombs,生成6个即爆炸弹,Rebirth
+18,XVII - The Stars,XVII-星星,"Teleports Isaac to the Treasure Room
+ If there is a Planetarium, it teleports there instead","将角色传送至宝箱房
+ 若当前层有星象房, 则改为传送至星象房",Rebirth
+19,XVIII - The Moon,XVIII-月亮,Teleports Isaac to the Secret Room,将角色传送至隐藏房,Rebirth
+20,XIX - The Sun,XIX-太阳,"Full health
+Deals 100 damage to all enemies
+ Full mapping effect for the floor (except Super / Ultra Secret Room)
+ Removes Curse of Darkness","回满血
+对所有敌人造成100点伤害
+ 揭示本层全图并显示房间类型, 超级隐藏房/究极隐藏房除外
+ 移除黑暗诅咒",Rebirth
+21,XX - Judgement,XX-审判,"Spawns a Beggar
+ 33% chance for it to be a Devil Beggar
+5% chance for it to be a Key Master, Bomb Bum, Battery Bum, or Rotten Beggar","生成1个乞丐
+ 33%概率为恶魔乞丐
+5%概率为钥匙大师/炸弹乞丐/腐烂乞丐",Rebirth
+22,XXI - The World,XXI-世界,Full mapping effect for the floor (except Super / Ultra Secret Room),"揭示本层全图并显示房间类型
+无法揭示超级隐藏房的位置",Rebirth
+23,2 of Clubs,梅花2,Doubles Isaac's number of bombs,使角色持有的炸弹翻倍,Rebirth
+24,2 of Diamonds,方片2,Doubles Isaac's number of coins,使角色持有的硬币翻倍,Rebirth
+25,2 of Spades,黑桃2,Doubles Isaac's number of keys,使角色持有的钥匙翻倍,Rebirth
+26,2 of Hearts,红桃2,Doubles Isaac's number of Red Hearts (not containers),使角色的红心翻倍(并非心之容器),Rebirth
+27,Ace of Clubs,梅花A,"Turns all pickups, chests and non-boss enemies into random bombs","将所有掉落物, 箱子和非头目敌人变成炸弹",Afterbirth+
+28,Ace of Diamonds,方片A,"Turns all pickups, chests and non-boss enemies into random coins","将所有掉落物, 箱子和非头目敌人变成硬币",Afterbirth+
+29,Ace of Spades,黑桃A,"Turns all pickups, chests and non-boss enemies into random keys","将所有掉落物, 箱子和非头目敌人变成钥匙",Afterbirth+
+30,Ace of Hearts,红桃A,"Turns all pickups, chests and non-boss enemies into random hearts","将所有掉落物, 箱子和非头目敌人变成随机心",Afterbirth+
+31,Joker,鬼牌,Teleports Isaac to the Devil or Angel Room,将角色传送至恶魔房/天使房,Rebirth
+32,Hagalaz,冰雹符文,Destroy all rocks and stone enemies in the room,摧毁房间中所有石头与石头类敌人,Rebirth
+33,Jera,收获符文,Duplicates all pickups in room,复制房间中所有掉落物,Rebirth
+34,Ehwaz,马骑符文,"Spawns a trapdoor to the next floor
+ Spawns a crawlspace if used on a decorative floor tile (grass, small rocks, papers, gems, etc.)","生成1个前往下一层的活板门
+ 在有装饰(草/碎石/纸/宝石等)的地板上使用时, 改为生成暗门",Rebirth
+35,Dagaz,朝夕符文,"+1 Soul Heart
+ Removes all curses for the floor","+1魂心
+ 移除本层的所有诅咒",Rebirth
+36,Ansuz,诸神符文,Full mapping effect for the floor,本层获得完整的地图效果,Rebirth
+37,Perthro,签筒符文,Rerolls all pedestal items in the room,重置房间中所有底座道具,Rebirth
+38,Berkano,桦木符文,Summons 3 Abyss locusts for the room,当前房间中召唤3个无底坑蝗虫,Rebirth
+39,Algiz,保护符文,Makes Isaac invincible for 20 seconds,角色无敌20秒,Rebirth
+40,Blank Rune,空白符文,"Triggers a random rune effect
+25% chance to duplicate itself when used","随机符文效果
+使用后, 25%概率再掉落自身",Afterbirth
+41,Black Rune,黑符文,"Deals 40 damage to all enemies
+Converts all pedestal items in the room into random stat ups
+Converts all pickups in the room into blue flies","对所有敌人造成40点伤害
+将房间中所有底座道具变为随机属性提升
+将所有掉落物变成蓝苍蝇",Afterbirth+
+42,Chaos Card,混沌卡,"Using the card throws it in the direction Isaac is moving
+Instantly kills ANY enemy it touches (except Delirium or the Beast)","使用时, 向角色移动方向投出
+立即击杀接触到的任何敌人(精神错乱和祸兽除外)",Rebirth
+43,Credit Card,信用卡,Makes all items and pickups in a Shop or Devil Room free,使商店/恶魔房的所有道具和掉落物免费,Rebirth
+44,Rules Card,规则卡,"Displays ""helpful"" tips on use","使用时, 显示""有帮助的""提示",Rebirth
+45,A Card Against Humanity,反人类卡,Fills the whole room with poop,整个房间中填满大便,Rebirth
+46,Suicide King,自杀之王,"Instantly kills Isaac and spawns 10 pickups or items on the floor
+Spawned items will use the current room's item pool","立即击杀角色并在地上生成10个掉落物或道具
+生成的道具使用当前房间的道具池",Rebirth
+47,Get Out Of Jail Free Card,免费保释卡,Open all doors in the room,打开当前房间中所有的门,Afterbirth
+48,? Card,？卡,Uses Isaac's active item for free,免费激活1次角色的主动道具,Afterbirth
+49,Dice Shard,骰子碎片,Rerolls all item pedestals and pickups in the room,重置房间中所有底座道具和掉落物,Afterbirth
+50,Emergency Contact,紧急联系电话,Two of Mom's Hands come down and grab an enemy each,2个妈妈的手落下并抓住2个敌人,Afterbirth
+51,Holy Card,神圣卡,A one-use Holy Mantle shield (prevents damage once),一次性神圣屏障护盾(阻挡1次伤害),Afterbirth+
+52,Huge Growth,变巨术,"Receive for the room:
+ +7 Damage
+ +3 Range
+Size up
+Allows Isaac to destroy rocks by walking into them","当前房间中获得:
+ 伤害+7
+ 射程+3
+体型变大
+角色可粉碎接触的石头",Afterbirth+
+53,Ancient Recall,先祖召唤,Spawns 3 random cards,生成3随机卡牌,Afterbirth+
+54,Era Walk,时空漫步,"Receive for the room:
+ +0.5 Speed
+ -1 Shot speed
+ Slow down enemies","当前房间中获得:
+ 移速+0.5
+ 弹速-1
+ 使敌人减速",Afterbirth+
+55,Rune Shard,符文碎片,"Activates a random rune effect
+The rune effect is weaker","随机符文效果
+触发的符文效果较弱",Repentance
+56,0 - The Fool?,0-愚者？,"Drops all of Isaac's hearts but one and all of his pickups on the floor
+Coins and bombs are dropped as The Quarter or Boom! if possible","将角色的所有心(留半心)和掉落物掉在地上
+若数量充足, 可作为25美分和轰! 等道具生成",Repentance
+57,I - The Magician?,I-魔术师？,Grants an aura that repels enemies and projectiles for 60 seconds,"获得排斥敌人和弹幕的光环, 持续60秒",Repentance
+58,II - The High Priestess?,II-女祭司？,Mom's Foot tries to stomp Isaac for 60 seconds,"妈腿持续尝试践踏角色, 持续60秒",Repentance
+59,III - The Empress?,III-皇后？,"Receive for 60 seconds:
+ +2 Health
+ +1.5 Fire rate
+ -0.1 Speed","在60秒内获得:
+ +2心之容器
+ 射速修正+1.5
+ 移速-0.1",Repentance
+60,IV - The Emperor?,IV-皇帝？,"Teleports Isaac to an extra Boss room that can be defeated for an item
+The boss is chosen from two floors deeper than the current one","传送至额外头目房, 清理后可获得道具
+生成的头目来自下一章节",Repentance
+61,V - The Hierophant?,V-教皇？,Spawns 2 Bone Hearts,生成2骨心,Repentance
+62,VI - The Lovers?,VI-恋人？,"Spawns an item from the current room's item pool
+ Converts 1 heart container or 2 Soul Hearts into a Broken Heart","生成当前房间道具池的1个道具
+ 将1心之容器或2魂心转换为1碎心",Repentance
+63,VII - The Chariot?,VII-战车？,"Receive for 10 seconds:
+ x4 Fire rate multiplier
+Invincible but can't move","在10秒内获得:
+ 射速修正x4
+无敌, 但不能移动",Repentance
+64,VIII - Justice?,VIII-正义？,Spawns 2-4 golden chests,生成2-4个金箱子,Repentance
+65,IX - The Hermit?,IX-隐者？,"Turns all pickups and items in the room into a number of coins equal to their Shop value
+If there is nothing to turn, spawns a Penny instead","将房间中掉落物和道具转换成其商店价值的硬币
+若没有东西转换, 则改为生成1硬币",Repentance
+66,X - Wheel of Fortune?,X-命运之轮？,Triggers a random Dice Room effect,触发1次随机骰子房效果,Repentance
+67,XI - Strength?,XI-力量？,Enemies in the room are slowed and take double damage for 30 seconds,"房间中的敌人被减速, 受到的伤害翻倍, 持续30秒",Repentance
+68,XII - The Hanged Man?,XII-倒吊人？,"Receive for 30 seconds:
+ -0.1 Speed
+Triple shot
+ Killed enemies drop coins","在30秒内获得:
+ 移速-0.1
+三重泪弹
+ 击杀的敌人掉落硬币",Repentance
+69,XIII - Death?,XIII-死亡？,"Activates Book of the Dead
+ Spawns friendly Bone entities for each enemy killed in room","产生亡者之书的效果
+ 即, 当前房间中每击杀1个敌人, 生成1个骨头实体",Repentance
+70,XIV - Temperance?,XIV-节制？,Forces Isaac to eat 5 random pills,立即触发5次随机胶囊效果,Repentance
+71,XV - The Devil?,XV-恶魔？,"Receive for 30 seconds:
+ Activates The Bible (flight)
+ Seraphim familiar
+ Kills Mom's Foot and Mom's Heart instantly
+ Kills Isaac when used on Satan","在30秒内获得:
+ 撒拉弗跟班
+ 圣经的效果:
+飞行
+ 立即击杀妈腿和妈心
+ 当对撒但使用时, 角色会死亡",Repentance
+72,XVI - The Tower?,XVI-塔？,"Spawns 7 clusters of random rocks and obstacles
+Clusters often contain Tinted Rocks","生成7堆随机石头和障碍物
+其中经常会有标记石头",Repentance
+73,XVII - The Stars?,XVII-星星？,"Removes Isaac's oldest collected passive item (ignoring starting items)
+Spawns 2 random items from the current room's item pool","移除角色最早收集的1个被动道具(初始道具除外)
+生成当前房间道具池的2个道具",Repentance
+74,XVIII - The Moon?,XVIII-月亮？,"Teleports Isaac to the Ultra Secret Room
+Pathway back will be made of red rooms","将角色传送至究极隐藏房
+返回的路由红色房间构成",Repentance
+75,XIX - The Sun?,XIX-太阳？,"Receive for the floor:
+ +1.5 Damage
+Flight and spectral tears
+ Converts heart containers into Bone Hearts (reverts)
+ Curse of Darkness","在当前层获得:
+ 伤害+1.5
+飞行和灵体泪弹
+ 心之容器变为骨心(可恢复)
+ 黑暗诅咒",Repentance
+76,XX - Judgement?,XX-审判？,Spawns a Restock Machine,生成1个补货机,Repentance
+77,XXI - The World?,XXI-世界？,Spawns a trapdoor to a crawlspace,生成1个暗门,Repentance
+78,Cracked Key,红钥匙碎片,Single-use Red Key,一次性的红钥匙,Repentance
+79,Queen of Hearts,红桃Q,Spawns 1-20 Red Hearts,生成1-20红心,Repentance
+80,Wild Card,万用牌,"Copies the effect of your most recently used pill, card, rune, soul stone or activated item",复制最近使用过的胶囊/卡牌/符文/魂石/主动道具的效果,Repentance
+81,Soul of Isaac,以撒的魂石,Makes all item pedestals in the room cycle between two different items,使房间中所有底座道具在2个道具之间切换,Repentance
+82,Soul of Magdalene,抹大拉的魂石,"Effect lasts for the room:
+ Enemies killed drop half Red Hearts that disappear after 2 seconds","在当前房间中:
+ 被击杀的敌人掉落2秒后消失的半红心",Repentance
+83,Soul of Cain,该隐的魂石,"Opens all doors in the room
+ Creates red rooms on every wall possible","打开房间中所有的门
+ 尽可能在每面墙上创造红色房间",Repentance
+84,Soul of Judas,犹大的魂石,"Activates Dark Arts with a 3 second duration
+Temporary damage up for every enemy/projectile hit","激活暗仪刺刀3秒
+每击中1个敌人/弹幕, 都有 暂时伤害提升",Repentance
+85,Soul of ???,???的魂石,"Causes 8 poison farts with brown creep, then quickly spawns 7 Butt Bombs
+Standing on the creep grants:
+ +1.5 Fire rate
+ +1 Damage","产生8团毒气并留下棕色水迹, 然后快速生成7屁股炸弹
+站在水迹中获得:
+ 射速修正+1.5
+ 伤害+1",Repentance
+86,Soul of Eve,夏娃的魂石,14 Dead Bird familiars fly in and attack enemies for the room,在当前房间中生成14只死鸟跟班追击敌人,Repentance
+87,Soul of Samson,参孙的魂石,"Activates Berserk! for 10 seconds
+ Each kill increases the duration by 1 second","激活狂怒! 10秒
+ 每次击杀使效果延长1秒",Repentance
+88,Soul of Azazel,阿撒泻勒的魂石,Fires a Mega Blast beam for 7.5 seconds,发射超级喷射7.5秒,Repentance
+89,Soul of Lazarus,拉撒路的魂石,"Isaac dies and immediately revives at half a heart
+This item is automatically used upon taking fatal damage (acts as an extra life)","角色死亡并立即以半心复活
+致死时自动使用此物品(相当于多一条命)",Repentance
+90,Soul of Eden,伊甸的魂石,"Rerolls item pedestals and pickups in the room
+The rerolled items come from random item pools","重置当前房间中的底座道具和掉落物
+重置的道具来自随机道具池",Repentance
+91,Soul of the Lost,游魂的魂石,"Turns the player into The Lost for the room
+Allows taking one Devil Room item for free
+Allows entering the Mausoleum or Gehenna door for free","在当前房间中, 角色变为游魂
+允许免费在恶魔房拿1个道具
+可以免费直接进入陵墓或炼狱",Repentance
+92,Soul of Lilith,莉莉丝的魂石,Permanently grants a random familiar,永久获得1个随机跟班,Repentance
+93,Soul of the Keeper,店主的魂石,Spawns 1-25 random coins,生成1-25随机硬币,Repentance
+94,Soul of Apollyon,亚玻伦的魂石,Spawns 15 random locusts,生成15只随机蝗虫,Repentance
+95,Soul of the Forgotten,遗骸的魂石,Spawns The Forgotten as a secondary character for the room,在当前房间中生成遗骸作为副角色,Repentance
+96,Soul of Bethany,伯大尼的魂石,Spawns 6 random Book of Virtues wisps,生成6个随机的美德之书魂火,Repentance
+97,Soul of Jacob and Esau,雅各与以扫的魂石,"Spawns Esau as a secondary character for the room
+He spawns with as many passive items as the player","在当前房间中生成以扫作为副角色
+以扫含有与角色等量的被动道具",Repentance

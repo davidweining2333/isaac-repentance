@@ -1,0 +1,926 @@
+{
+  "_note": "开发期生成的卡牌俗称/象形。key 为卡牌英文名（精确）。nick=玩家俗称，look=像什么/类别。",
+  "cards": {
+    "0 - The Fool": {
+      "nick": [
+        "傻瓜卡",
+        "愚人",
+        "0号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "0 - The Fool?": {
+      "nick": [
+        "愚者？",
+        "问号愚者"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "I - The Magician": {
+      "nick": [
+        "法师",
+        "1号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "I - The Magician?": {
+      "nick": [
+        "魔术师？",
+        "问号魔术师"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "II - The High Priestess": {
+      "nick": [
+        "祭司",
+        "2号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "II - The High Priestess?": {
+      "nick": [
+        "女祭司？",
+        "问号女祭司"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "III - The Empress": {
+      "nick": [
+        "皇后牌",
+        "3号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "III - The Empress?": {
+      "nick": [
+        "皇后？",
+        "问号皇后"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "IV - The Emperor": {
+      "nick": [
+        "皇帝牌",
+        "4号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "IV - The Emperor?": {
+      "nick": [
+        "皇帝？",
+        "问号皇帝"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "V - The Hierophant": {
+      "nick": [
+        "教宗",
+        "5号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "V - The Hierophant?": {
+      "nick": [
+        "教皇？",
+        "问号教皇"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "VI - The Lovers": {
+      "nick": [
+        "恋人牌",
+        "6号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "VI - The Lovers?": {
+      "nick": [
+        "恋人？",
+        "问号恋人"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "VII - The Chariot": {
+      "nick": [
+        "战车牌",
+        "7号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "VII - The Chariot?": {
+      "nick": [
+        "战车？",
+        "问号战车"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "VIII - Justice": {
+      "nick": [
+        "正义牌",
+        "8号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "VIII - Justice?": {
+      "nick": [
+        "正义？",
+        "问号正义"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "IX - The Hermit": {
+      "nick": [
+        "隐士",
+        "9号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "IX - The Hermit?": {
+      "nick": [
+        "隐者？",
+        "问号隐者"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "X - Wheel of Fortune": {
+      "nick": [
+        "命运轮",
+        "转盘卡",
+        "轮盘",
+        "10号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "X - Wheel of Fortune?": {
+      "nick": [
+        "命运之轮？",
+        "问号命运之轮"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XI - Strength": {
+      "nick": [
+        "力量牌",
+        "11号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XI - Strength?": {
+      "nick": [
+        "力量？",
+        "问号力量"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XII - The Hanged Man": {
+      "nick": [
+        "倒吊男",
+        "12号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XII - The Hanged Man?": {
+      "nick": [
+        "倒吊人？",
+        "问号倒吊人"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XIII - Death": {
+      "nick": [
+        "死神",
+        "13号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XIII - Death?": {
+      "nick": [
+        "死亡？",
+        "问号死亡"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XIV - Temperance": {
+      "nick": [
+        "节制牌",
+        "14号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XIV - Temperance?": {
+      "nick": [
+        "节制？",
+        "问号节制"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XV - The Devil": {
+      "nick": [
+        "魔鬼",
+        "15号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XV - The Devil?": {
+      "nick": [
+        "恶魔？",
+        "问号恶魔"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XVI - The Tower": {
+      "nick": [
+        "高塔",
+        "16号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XVI - The Tower?": {
+      "nick": [
+        "塔？",
+        "问号塔"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XVII - The Stars": {
+      "nick": [
+        "星星牌",
+        "17号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XVII - The Stars?": {
+      "nick": [
+        "星星？",
+        "问号星星"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XVIII - The Moon": {
+      "nick": [
+        "月亮牌",
+        "18号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XVIII - The Moon?": {
+      "nick": [
+        "月亮？",
+        "问号月亮"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XIX - The Sun": {
+      "nick": [
+        "太阳牌",
+        "19号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XIX - The Sun?": {
+      "nick": [
+        "太阳？",
+        "问号太阳"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XX - Judgement": {
+      "nick": [
+        "审判牌",
+        "20号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XX - Judgement?": {
+      "nick": [
+        "审判？",
+        "问号审判"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "XXI - The World": {
+      "nick": [
+        "世界牌",
+        "21号牌"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "XXI - The World?": {
+      "nick": [
+        "世界？",
+        "问号世界"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "2 of Clubs": {
+      "nick": [
+        "梅花二"
+      ],
+      "look": [
+        "扑克牌",
+        "梅花"
+      ]
+    },
+    "2 of Diamonds": {
+      "nick": [
+        "方片二"
+      ],
+      "look": [
+        "扑克牌",
+        "方片"
+      ]
+    },
+    "2 of Spades": {
+      "nick": [
+        "黑桃二"
+      ],
+      "look": [
+        "扑克牌",
+        "黑桃"
+      ]
+    },
+    "2 of Hearts": {
+      "nick": [
+        "红桃二"
+      ],
+      "look": [
+        "扑克牌",
+        "红桃"
+      ]
+    },
+    "Ace of Clubs": {
+      "nick": [
+        "梅花幺"
+      ],
+      "look": [
+        "扑克牌",
+        "梅花"
+      ]
+    },
+    "Ace of Diamonds": {
+      "nick": [
+        "方片幺"
+      ],
+      "look": [
+        "扑克牌",
+        "方片"
+      ]
+    },
+    "Ace of Spades": {
+      "nick": [
+        "黑桃幺"
+      ],
+      "look": [
+        "扑克牌",
+        "黑桃"
+      ]
+    },
+    "Ace of Hearts": {
+      "nick": [
+        "红桃幺"
+      ],
+      "look": [
+        "扑克牌",
+        "红桃"
+      ]
+    },
+    "Hagalaz": {
+      "nick": [
+        "冰雹符",
+        "哈格拉兹"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Jera": {
+      "nick": [
+        "收获符",
+        "果实符文"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Ehwaz": {
+      "nick": [
+        "马骑符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Dagaz": {
+      "nick": [
+        "朝夕符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Ansuz": {
+      "nick": [
+        "诸神符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Perthro": {
+      "nick": [
+        "签筒符",
+        "骰子符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Berkano": {
+      "nick": [
+        "桦木符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Algiz": {
+      "nick": [
+        "保护符"
+      ],
+      "look": [
+        "符文石"
+      ]
+    },
+    "Blank Rune": {
+      "nick": [
+        "白符",
+        "空白符",
+        "空符文"
+      ],
+      "look": [
+        "符文石",
+        "白色"
+      ]
+    },
+    "Black Rune": {
+      "nick": [
+        "黑符",
+        "黑色符文"
+      ],
+      "look": [
+        "符文石",
+        "黑色"
+      ]
+    },
+    "Soul of Isaac": {
+      "nick": [
+        "Isaac魂石",
+        "Isaac魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Magdalene": {
+      "nick": [
+        "Magdalene魂石",
+        "Magdalene魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Cain": {
+      "nick": [
+        "Cain魂石",
+        "Cain魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Judas": {
+      "nick": [
+        "Judas魂石",
+        "Judas魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of ???": {
+      "nick": [
+        "???魂石",
+        "???魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Eve": {
+      "nick": [
+        "Eve魂石",
+        "Eve魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Samson": {
+      "nick": [
+        "Samson魂石",
+        "Samson魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Azazel": {
+      "nick": [
+        "Azazel魂石",
+        "Azazel魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Lazarus": {
+      "nick": [
+        "Lazarus魂石",
+        "Lazarus魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Eden": {
+      "nick": [
+        "Eden魂石",
+        "Eden魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of the Lost": {
+      "nick": [
+        "Lost魂石",
+        "Lost魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Lilith": {
+      "nick": [
+        "Lilith魂石",
+        "Lilith魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of the Keeper": {
+      "nick": [
+        "Keeper魂石",
+        "Keeper魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Apollyon": {
+      "nick": [
+        "Apollyon魂石",
+        "Apollyon魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of the Forgotten": {
+      "nick": [
+        "Forgotten魂石",
+        "Forgotten魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Bethany": {
+      "nick": [
+        "Bethany魂石",
+        "Bethany魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Soul of Jacob and Esau": {
+      "nick": [
+        "Jacob and Esau魂石",
+        "Jacob and Esau魂"
+      ],
+      "look": [
+        "魂石"
+      ]
+    },
+    "Joker": {
+      "nick": [
+        "小丑",
+        "小丑牌",
+        "百搭"
+      ],
+      "look": [
+        "塔罗牌",
+        "小丑"
+      ]
+    },
+    "Chaos Card": {
+      "nick": [
+        "斩杀卡",
+        "秒杀卡",
+        "混沌斩杀"
+      ],
+      "look": [
+        "塔罗牌",
+        "恶魔"
+      ]
+    },
+    "Credit Card": {
+      "nick": [
+        "白嫖卡",
+        "赊账卡",
+        "刷爆"
+      ],
+      "look": [
+        "塔罗牌",
+        "蓝色"
+      ]
+    },
+    "Rules Card": {
+      "nick": [
+        "说明书",
+        "规则说明"
+      ],
+      "look": [
+        "塔罗牌",
+        "纸片"
+      ]
+    },
+    "A Card Against Humanity": {
+      "nick": [
+        "臭卡",
+        "屎卡"
+      ],
+      "look": [
+        "塔罗牌",
+        "棕色"
+      ]
+    },
+    "Suicide King": {
+      "nick": [
+        "自杀卡",
+        "红心K"
+      ],
+      "look": [
+        "扑克牌",
+        "红心"
+      ]
+    },
+    "Get Out Of Jail Free Card": {
+      "nick": [
+        "保释卡",
+        "出狱卡",
+        "免罪卡"
+      ],
+      "look": [
+        "塔罗牌"
+      ]
+    },
+    "? Card": {
+      "nick": [
+        "问号卡",
+        "复制卡",
+        "问号牌"
+      ],
+      "look": [
+        "塔罗牌",
+        "问号"
+      ]
+    },
+    "Dice Shard": {
+      "nick": [
+        "骰子片",
+        "骰子碎片"
+      ],
+      "look": [
+        "碎片",
+        "蓝色"
+      ]
+    },
+    "Emergency Contact": {
+      "nick": [
+        "紧急电话",
+        "喊妈妈",
+        "打电话"
+      ],
+      "look": [
+        "手机",
+        "电话"
+      ]
+    },
+    "Holy Card": {
+      "nick": [
+        "圣卡",
+        "无敌卡"
+      ],
+      "look": [
+        "塔罗牌",
+        "白色",
+        "十字"
+      ]
+    },
+    "Huge Growth": {
+      "nick": [
+        "巨人卡",
+        "变大卡"
+      ],
+      "look": [
+        "塔罗牌",
+        "巨大"
+      ]
+    },
+    "Ancient Recall": {
+      "nick": [
+        "回忆卡",
+        "回溯卡"
+      ],
+      "look": [
+        "塔罗牌",
+        "复古"
+      ]
+    },
+    "Era Walk": {
+      "nick": [
+        "时间卡",
+        "减速卡",
+        "时空漫步"
+      ],
+      "look": [
+        "塔罗牌",
+        "沙漏"
+      ]
+    },
+    "Rune Shard": {
+      "nick": [
+        "符文片",
+        "小符文"
+      ],
+      "look": [
+        "碎片",
+        "符文"
+      ]
+    },
+    "Cracked Key": {
+      "nick": [
+        "裂缝钥匙",
+        "红钥匙碎片"
+      ],
+      "look": [
+        "钥匙",
+        "红色"
+      ]
+    },
+    "Queen of Hearts": {
+      "nick": [
+        "红桃皇后",
+        "皇后牌"
+      ],
+      "look": [
+        "扑克牌",
+        "红心"
+      ]
+    },
+    "Wild Card": {
+      "nick": [
+        "百搭牌",
+        "万能牌"
+      ],
+      "look": [
+        "扑克牌",
+        "彩虹"
+      ]
+    }
+  }
+}

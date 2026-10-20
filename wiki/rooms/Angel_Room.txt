@@ -1,0 +1,71 @@
+Angel Rooms are the divine equivalent of the Devil Room. They feature an angel and 0-4 free items. Taking one of these items causes all other free items to disappear. (Tainted Keeper still needs to pay for these items, and buying any of them causes all of the others to disappear. Some of these items cost 30 pennies to buy.)
+Every time the Devil Room is spawned/entered, there's a chance for it to be replaced by the Angel Room if certain conditions are met. After beating the Dark Room or Chest once, an Angel can be awoken by planting a bomb near the statue (or destroying it with Leo or similar items). This will begin an angel boss fight and allow Isaac to charge his active item and pick up Key Piece 1 or Key Piece 2. Both pieces are needed to get through the Golden Door in Chest or Dark Room to fight Mega Satan.
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing. Note that, unlike Devil rooms, items in Angel rooms cost nothing to take, but if there are multiple items, taking one will cause the others to disappear.
+
+
+=== Normal ===
+
+
+=== Greed Mode ===
+
+
+=== Angel Shops ===
+Angel shops are special angel rooms accessed via The Stairway. The player can buy pickups and items with coins.
+The beggars have a very low chance to be replaced by another type of beggar.
+
+
+== Conditions to Make Angel Rooms Appear ==
+For the player to have a chance to get an Angel Room after killing a boss (or with a Joker card / Red Chest teleport), some conditions must be met:
+
+A Devil Room door has spawned on any previous floor.
+Teleporting to a Devil Room with a Joker card or a Red Chest doesn't count.
+ Book of Virtues and the "You feel blessed!" fortune from Confessionals make the first deal to appear in a run to be an Angel Room.
+No Deals with the Devil have been made throughout the run.
+Taking Red Chest items, using Credit Card, using Coupon, or collecting an item from Krampus do not count.
+Even though it technically doesn't cost any health, taking a Devil Deal with The Lost will still prevent Angel Rooms from appearing.
+ Paying for Devil Room items from Boss Rooms after using Satanic Bible will still prevent Angel Rooms from spawning.
+ Book of Virtues and Act of Contrition allow for Angel Rooms to spawn even if a Devil Deal was taken previously, as well as allowing to take Devil Deals without being locked out of Angel Rooms.
+ The "You feel blessed!" fortune from Confessionals allow for Angel Rooms to spawn even if a Devil Deal was taken previously, but only for the current floor.
+
+
+=== Sacrifice Room Exception ===
+On the 3rd and 5th sacrifice in a Sacrifice Room, there is a 66% chance that the player will receive the "You feel blessed!" effect. This will increase the chances of the Angel Room spawning even if the previous conditions have not been met.
+On the 6th sacrifice in a Sacrifice Room, there is a 33% chance that the player will be teleported to the Angel Room if they haven't already visited or opened the Devil Room for that floor. This will occur even if the previous conditions have not been met.
+
+
+== Angel Room Generation Chance ==
+The selection between Angel Room and Devil Room is made upon opening the door after defeating the floor's boss (or upon teleporting to the room using a Joker card or a Red Chest).
+The game makes a series of coin flips to determine if an Angel Room will appear or not. If one of these coin flips succeeds, an Angel Room is generated (except for the Devil beggar coin flip). If all the coin flips fail or no coin flips are done, a Devil Room is generated. Satisfying certain conditions gives additional coin flips with varying probabilities:
+
+** These conditions share the same "coin flip chance" in Rebirth.
+
+
+=== Examples ===
+If Isaac meets the prerequisites and has Key Piece 1 with him, the game will make two coin flips to determine if he gets an Angel Room or not. The first coin flip has a 50% success chance and the second one has a 25% success chance. Isaac will only get a Devil Room if both coin flips fail, and he will get an Angel Room if one of the coin flips succeeds. The chance of failure is 0.5 * 0.75 = 0.375, which means the chance of success is 1 - 0.375 = 0.625. Thus, Isaac has a 62.5% chance to get an Angel Room—take note that the result is not simply the sum of the coin flip probabilities 50% + 25% for 75%.
+If Isaac meets the prerequisites, has Key Piece 1, and a Beggar paid on the current floor, the chance to fail all coin flips (and get a Devil Room) become 0.5 * 0.75 * 0.75 = 0.28125, which means that the chance of success is 1 - 0.28125 = 0.71875. Thus, Isaac has a 71.875% chance to get an Angel Room.
+
+
+== Notes ==
+The highest Angel Room chance is 95.25% in Rebirth and 98.34% in Afterbirth (with the Sacrifice Room blessings).
+If an Angel Room spawns after the player defeats Mom's Heart or It Lives!, instead of items or pickups, a beam of light will appear. Touching this beam of light will take the player to the Cathedral. The Angel can still be awoken by destroying the statue in this room. The beam of light will disappear for the duration of the fight.
+ Angel Rooms that spawn after Isaac defeats It Lives! will be normal Angel Rooms with items or pickups.
+ The rock behind the Angel statue can rarely be a Tinted Rock.
+ Two angel statues can appear in the same room, allowing Isaac to fight both Uriel and Gabriel. It is possible to get both Key Pieces if Isaac awakes and fights each of them one by one; however, fighting both at once will only spawn one Key Piece corresponding to the last defeated angel.
+ Both angels can be fought at once, and will drop their corresponding Key Pieces as they die.
+Contrary to popular belief, the Bible Tract doesn't allow Angel Rooms to appear after paying for a Devil Deal.
+
+
+== Unlockable Achievements ==
+  A Forgotten Horseman - Take 10 Angel Room items.
+  Trisagion - Take 25 Angel Rooms items.
+
+
+== Gallery ==
+
+		
+
+
+== Bugs ==

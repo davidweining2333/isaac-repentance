@@ -1,0 +1,55 @@
+Not to be confused with The Shop, a floor in Greed mode. 
+A Shop is a Special Room that sells various pickups and items in exchange for Pennies. Shops require a Key to open, unless Isaac holds Store Key ( except on floor 1, where Shops are always initially unlocked), and appear in every Chapter prior to Womb or including The Womb if Isaac holds Silver Dollar.  Additionally, a single Shop always spawns adjacent to the ??? starting room.
+Only one shop will ever appear on a floor at a time, even while under the effect of Curse of the Labyrinth.
+Shops have a chance of being replaced by a Mini-Boss Room containing Greed or Super Greed once entered, starting on the second floor of Chapter 2. Once both mini-bosses has been defeated in a Shop or Secret Room, they will not appear in either for the rest of the run.
+
+Greed will always spawn first, followed by Super Greed.
+ If any mini-boss is encountered on the floor, including Greed/Super Greed in the secret room, Greed or Super Greed will not appear in the shop on that floor.
+Rib of Greed prevents both Greed and Super Greed from appearing in Shops while held.
+
+
+=== Greed Mode ===
+In Greed Mode, Shops are twice as wide as usual and do not require a key to enter. They always contain a Key, a Red Heart, an item from the Greed Mode Shop item pool, an item from the Greed Mode Boss Room item pool, and two random pickups, trinkets, or items from the Greed Mode Treasure Room item pool. The effect of Restock is always active inside of Shops in this mode ( prices will not increase continuously like they normally would when Isaac has Restock).
+Shops will never be replaced by Greed or Super Greed in Greed Mode.
+Layouts can be found here.
+
+
+== Merchandise ==
+Shops can sell Red Hearts for 3 . They can also sell Soul Hearts, Bombs, Keys, Lil' Batteries, Pills, and Cards for 5  each.
+ Also: Grab Bags for 7 .
+Shops can sell items for 15 , from among those found in the Shop item pool.
+ Certain active items are sold for 10 .
+Any purchasable item has a chance to be discounted, which will cut its price in half.
+Discounted items have red price tags instead of white price tags.
+If a discount leaves the price of an item at a number that is not an integer, items and Grab Bags will round their price down while pickups will round their price up.
+Steam Sale will halve all prices in the Shop (and anywhere else items are bought for coins),  including discounted ones.
+ Two Steam Sales will make every item free, which can be combined with Restock to allow infinite purchasing power. This also holds true in Greed Mode.
+
+
+== Layouts ==
+Shops start at level 0 and can be upgraded by donating Coins to the Donation Machine, which can be found in Shops and sometimes in Arcades, Vaults, Black Markets, rare normal/special room layouts, and from pressing Reward Plates. Each level increases the number of items for sale and visually fills the walls of the Shop. Normal mode will always feature the highest unlocked level of Shop. In hard mode, any level of shop that has been unlocked can appear. The room has 1/256 chance to be a rare shop (layouts 5, 6, 12, 13), then the weight determines which layout will be chosen. 
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+== Notes ==
+The Shop can also be accessed through the usage of IX - The Hermit, a Golden Key, Curse of the Maze, Dad's Key, bombing an adjacent Secret Room wall, or Store Key, without spending a Key.
+ The Shop has a door that is identical to a Library as well as an identical symbol on the minimap. The Shop can never appear adjacent to the starting room (with the exception of the first floor), meaning that any one-key door that spawns adjacent to the starting room is a Library and not a Shop.
+Store Key will not open Library doors, which reveals which room the locked door will lead to.
+Using a Credit Card in the shop will make everything for sale free, spawning item pedestals and removing all listed prices.
+Restock only replenishes items that are bought for a listed price (including 0 ); therefore, Credit Card negates the effect of Restock for that Shop.
+Holding Store Credit will reduce the price of all items to 0 . It will be consumed once an item is purchased. Unlike the Credit Card, Restock will restock the bought item.
+ If the Store Credit effect is gained through the effects of Error, it will not be consumed upon making a purchase; this can be combined with Restock to infinitely purchase items.
+ Only 1 item can be bought for free without losing the trinket, even if Error is dropped and picked up again.
+Diplopia and Jera function as expected in Shops, generating free pickups/items.
+The Shopkeeper that spawns in the Shop can be bombed for potential rewards.
+Special Shopkeeper can replace the regular shopkeeper at a chance, which can drop better rewards.
+ A total of 9 Shops maximum can be entered during a normal run — two in Basement/etc., two in Caves/etc., two in Depths/etc., two in Womb/etc. with the Silver Dollar, and one in ???.
+ This is increased to 10 if Isaac additionally holds Holy Crown or Wicked Crown in Cathedral or Sheol respectively, and Isaac can theoretically encounter many more Red Shops with Red Key.
+Multiple different shops can also be entered in one floor through resetting effects such as Forget Me Now or R Key.
+ Items will increase in price the more bought with Restock until maxing out at 99 cents.
+
+
+== Unlockable achievements ==
+  Coupon - Purchase anything from Shops, Devil Rooms, and/or Black Markets 50 times.
+  Schoolbag - Enter 6 Shops in one run.
+  Member Card - Spend 40+ coins in a single Shop.

@@ -1,0 +1,498 @@
+﻿id,name,name_zh,quote,description_en,description_zh,tags,unlocked_by,added_in,wiki_page
+1,Swallowed Penny,被吞下的硬币,Gulp!,Taking damage spawns 1 coin,"受伤时, 生成1硬币",,,Rebirth,Swallowed Penny
+2,Petrified Poop,石化大便,It feels lucky?,50% chance to get drops from poop,大便50%概率掉落掉落物,,,Rebirth,Petrified Poop
+3,AAA Battery,7号电池,Trickle charge,-1 Charge needed for active items,主动道具所需充能-1,battery,,Rebirth,AAA Battery
+4,Broken Remote,损坏的遥控器,It's broken,Using an active item teleports Isaac to a random room,"使用主动道具时, 将角色传送至随机房间",,,Rebirth,Broken Remote
+5,Purple Heart,紫心奖章,Challenge up,"2x chance for champion enemies
+50% chance for champion enemies to drop loot
+Doubles champion enemy loot","出现精英怪的概率变为2倍
+精英怪掉落掉落物的概率变为50%
+精英怪掉落掉落物翻倍",,,Rebirth,Purple Heart
+6,Broken Magnet,断掉的磁铁,It kinda works!,Attracts coins to Isaac,角色吸引硬币,,,Rebirth,Broken Magnet
+7,Rosary Bead,念珠段,Faith up,"Higher chance to find The Bible in Shops and Libraries
+Forces Devil Deals to be Angel Deals","在商店和图书馆出现圣经的概率更高
+强制恶魔房变为天使房",lazarussharedglobal,,Rebirth,Rosary Bead
+8,Cartridge,游戏卡带,I remember these,"5% chance upon taking damage to receive for 6.5 seconds:
+Invincibility
+Isaac can't shoot but deals 40 contact damage per second
+ Killing 2 enemies heals half a heart
+ Fears all enemies in the room","受伤时, 5%概率在6.5秒内获得:
+无敌
+角色无法发射, 但每秒造成40点接触伤害
+ 每击杀2个敌人治疗半红心
+ 使房间中的所有敌人恐惧",,,Rebirth,Cartridge
+9,Pulse Worm,波动虫,Wub wub!,"Isaac's tears pulsate
+Affects tear hitbox","角色的泪弹波动
+影响泪弹碰撞箱",,,Rebirth,Pulse Worm
+10,Wiggle Worm,扭扭虫,Wiggle waggle!,"+0.4 Tears
+Spectral tears
+Isaac's tears move in waves","射速+0.4
+灵体泪弹
+角色的泪弹波形前进",,,Rebirth,Wiggle Worm
+11,Ring Worm,环形虫,Woop woop!,"+0.4 Tears
+Spectral tears
+Isaac's tears move in spirals with high speed","射速+0.4
+灵体泪弹
+角色的泪弹高速螺旋前进",,,Rebirth,Ring Worm
+12,Flat Worm,扁形虫,Blub blub!,"50% wider tears
+Increases knockback","泪弹宽50%
+提高击退力",,,Rebirth,Flat Worm
+13,Store Credit,商店积分,YES!,Allows Isaac to take 1 Shop item for free,允许角色免费拿1个商店道具,,,Rebirth,Store Credit
+14,Callus,老茧,Your feet feel stronger,Immune to creep and floor spikes,不再受到水迹和地刺的伤害,,,Rebirth,Callus
+15,Lucky Rock,幸运石,There's something inside it,Destroying rocks has a 33% chance to spawn a coin,摧毁石头有33%概率生成1硬币,,,Rebirth,Lucky Rock
+16,Mom's Toenail,妈妈的脚趾甲,???,Dropping the trinket in hostile rooms will cause Mom's Foot to stomp its location,在战斗中扔下会导致妈腿落在该位置,mom,,Rebirth,Mom's Toenail
+17,Black Lipstick,黑色口红,Evil Up,+10% chance for random Soul Hearts to spawn as Black Hearts,魂心生成为黑心的概率+10%,nogreed,,Rebirth,Black Lipstick
+18,Bible Tract,圣经小册,Faith up,+3% chance for Eternal Hearts,永恒之心概率+3%,nogreed,,Rebirth,Bible Tract
+19,Paper Clip,回形针,Master of lockpicking,Gold chests can be opened for free,金箱子可不消耗钥匙打开,,,Rebirth,Paper Clip
+20,Monkey Paw,猴爪,Wish granted,"Spawns 1 Black Heart when Isaac's health is damaged down to half a heart
+ Disappears after spawning 3 Black Hearts","受伤至不多于半心时, 生成1黑心
+ 生成3次后消失",,,Rebirth,Monkey Paw
+21,Mysterious Paper,神秘纸片,???,"Randomly grants the effect of: 
+ The Polaroid
+ The Negative
+ A Missing Page
+ Missing Poster","随机获得效果:
+ 全家福
+ 底片
+ 遗失的书页
+ 寻人启事",,,Rebirth,Mysterious Paper
+22,Daemon's Tail,恶魔的尾巴,Evil up,"Decreases spawn rate of hearts to 20%
+ All Heart pickups turn into Black Hearts
+ Increases the drop chance of keys","心掉落物生成率降至20%
+ 所有心掉落物变为黑心
+ 提升钥匙掉落概率",,,Rebirth,Daemon's Tail
+23,Missing Poster,寻人启事,???,"Respawn as The Lost on death
+ 33% chance to reveal Super Secret Room on new floor","死亡时, 以游魂重生
+ 进入新层时, 33%概率揭示新一层的超级隐藏房",nochallenge,,Rebirth,Missing Poster
+24,Butt Penny,屁股硬币,Wealth of gas,"20% higher chance for coins to spawn from poop
+ Picking up coins makes Isaac fart, which poisons and knocks back enemies and projectiles","大便产生硬币的概率+20%
+ 角色拾起硬币时放屁, 使敌人中毒并击退敌人和弹幕",,,Rebirth,Butt Penny
+25,Mysterious Candy,神秘糖果,Uh-oh!,Isaac farts or spawns poop every 30 seconds,角色每30秒放屁或生成大便,,,Rebirth,Mysterious Candy
+26,Hook Worm,钩形虫,Zip zoop!,"+0.4 Tears
+ +1.5 Range
+Spectral tears
+Isaac's tears move in angular patterns","射速+0.4
+ 射程+1.5
+灵体泪弹
+泪弹直角前进",,,Rebirth,Hook Worm
+27,Whip Worm,鞭形虫,Wooosh!,+0.5 Shot speed,弹速+0.5,,,Rebirth,Whip Worm
+28,Broken Ankh,碎安卡十字,Eternal life?,22% chance to respawn as ??? (Blue Baby) on death,"死亡时, 22%概率以???(小蓝人)重生",nochallenge,,Rebirth,Broken Ankh
+29,Fish Head,鱼头,It stinks,Taking damage spawns 1-2 blue flies,"受伤时, 生成1-2只蓝苍蝇",,,Rebirth,Fish Head
+30,Pinky Eye,角膜炎,Poison shots,"10% chance to shoot poison tears
+ 100% chance at 18 luck","10%概率发射有毒泪弹
+ 幸运18: 100%概率",,,Rebirth,Pinky Eye
+31,Push Pin,图钉,Piercing shots,"10% chance to shoot piercing + spectral tears
+ 100% chance at 18 luck","10%概率发射穿刺灵体泪弹
+ 幸运18: 100%概率",,,Rebirth,Push Pin
+32,Liberty Cap,裸盖蘑菇,"Touch Fuzzy, Get Dizzy",25% chance for a random mushroom effect per room,每个房间25%概率获得随机蘑菇效果,,,Rebirth,Liberty Cap
+33,Umbilical Cord,脐带,Fetal Protection,"Having half a Red Heart or less grants Little Steven
+ Taking damage has a high chance to spawn a Gemini familiar for the room","不多于半红心时, 获得史蒂文宝宝
+ 受伤时高概率在当前房间中生成双子座跟班",,,Rebirth,Umbilical Cord
+34,Child's Heart,小孩的心脏,It calls out to its brothers,"10% chance for the room clear reward to be a random heart
+ 33% chance for a bonus heart from chests, tinted rocks, and destroyed machines","10%概率房间清理奖励为1随机心
+ 33%概率在箱子, 标记石头, 炸毁的机器中额外出现心",nogreed,,Rebirth,Child's Heart
+35,Curved Horn,弯羊角,DMG up,+2 Damage,伤害+2,,,Rebirth,Curved Horn
+36,Rusted Key,生锈的钥匙,It feels lucky?,"10% chance for the room clear reward to be a key
+ 33% chance for a bonus key from chests, tinted rocks, and destroyed machines","10%概率房间清理奖励为1钥匙
+ 33%概率在箱子, 标记石头, 炸毁的机器中额外出现钥匙",,,Rebirth,Rusted Key
+37,Goat Hoof,山羊蹄,Speed up,+0.15 Speed,移速+0.15,,,Rebirth,Goat Hoof
+38,Mom's Pearl,妈妈的珍珠,It emanates purity,"+10% chance for heart drops to be Soul Hearts, Black Hearts or Bone Hearts","随机心掉落为魂心, 黑心, 骨心的概率+10%",mom / nogreed,,Rebirth,Mom's Pearl
+39,Cancer,癌症,,+1 Fire rate,射速修正+1,,,Rebirth,Cancer (Trinket)
+40,Red Patch,红补丁,Your rage grows,"Taking damage has a 20% chance to grant +1.8 damage for the room
+ 100% chance at 16 luck","受伤时, 20%概率在当前房间中获得:
+ 伤害+1.8
+ 幸运16: 100%概率",,,Rebirth,Red Patch
+41,Match Stick,火柴棍,Tastes like burning,"10% chance for the room clear reward to be a bomb
+ 33% chance for a bonus bomb from chests, tinted rocks, and destroyed machines
+ Removes Tick","10%概率房间清理奖励为1炸弹
+ 33%概率在箱子, 标记石头, 炸毁的机器中额外出现炸弹
+ 能够移除血虱",nogreed,,Rebirth,Match Stick
+42,Lucky Toe,幸运脚趾,Luck up!,"+1 Luck
++8% room clear reward chance
+33% chance for an extra pickup from chests, tinted rocks, and destroyed machines","幸运+1
+房间清理奖励概率+8%
+33%概率在箱子, 标记石头, 炸毁的机器中有额外掉落物",,,Rebirth,Lucky Toe
+43,Cursed Skull,诅咒的头骨,Cursed?,"When damaged down to half a heart or less, Isaac is teleported to a random room","受伤至不多于半心时, 将角色传送至随机房间",,,Rebirth,Cursed Skull
+44,Safety Cap,保险瓶盖,Don't swallow it,"10% chance for the room clear reward to be a pill
+ 33% chance for a bonus pill from chests, tinted rocks, and destroyed machines","10%概率房间清理奖励为1胶囊
+ 33%概率在箱子, 标记石头, 炸毁的机器中额外出现胶囊",nogreed,,Rebirth,Safety Cap
+45,Ace of Spades,黑桃A,Luck of the draw,"10% chance for the room clear reward to be a card
+ 33% chance for a bonus card from chests, tinted rocks, and destroyed machines","10%概率房间清理奖励为1卡牌
+ 33%概率在箱子, 标记石头, 炸毁的机器中额外出现卡牌",nogreed,,Rebirth,Ace of Spades
+46,Isaac's Fork,以撒的叉子,Consume thy enemy,"Clearing a room has a 10% chance to heal half a heart
+ 100% chance at 18 luck","清理房间后, 10%概率治疗半红心
+ 幸运18: 100%概率",,,Rebirth,Isaac's Fork
+48,A Missing Page,遗失的书页,It glows with power,"Taking damage has a 5% chance to deal 80 damage to all enemies in the room
+ Black Hearts and Necronomicon-like effects deal double damage","受伤时有5%概率对房间中所有敌人造成80点伤害
+黑心和类似死灵之书的效果造成双倍伤害",,,Rebirth,A Missing Page
+49,Bloody Penny,染血硬币,Wealth of health,"Picking up a coin has a 25% chance to spawn a half Red Heart
+Higher chance from nickels and dimes","拾起硬币时, 25%概率生成1半红心
+镍币和铸币生成红心概率更高",,,Rebirth,Bloody Penny
+50,Burnt Penny,焦灼硬币,Wealth of chaos,"Picking up a coin has a 25% chance to spawn a bomb
+Higher chance from nickels and dimes","拾起硬币时, 25%概率生成1炸弹
+镍币和铸币生成炸弹概率更高",,,Rebirth,Burnt Penny
+51,Flat Penny,扁平硬币,Wealth of answers,"Picking up a coin has a 25% chance to spawn a key
+Higher chance from nickels and dimes","拾起硬币时, 25%概率生成1钥匙
+镍币和铸币生成钥匙概率更高",,,Rebirth,Flat Penny
+52,Counterfeit Penny,假币,Wealth of wealth,Picking up a coin has a 50% chance to add another coin to the counter,"拾起硬币时, 有50%概率再获得1硬币",,,Rebirth,Counterfeit Penny
+53,Tick,血虱,"Well, that's not coming off","Heals 1 heart when entering a Boss Room
+-15% boss health
+ Once picked up, it can't be removed
+Only removeable with Match Stick, A Lighter or gulping","进入头目房时, 治疗1红心
+头目血量-15%
+ 捡起后, 无法被其他饰品替换
+只能被火柴棍, 打火机移除或吞下",,,Rebirth,Tick
+54,Isaac's Head,以撒的头,Dead friend,"Familiar with piercing tears
+Deals 3.5 damage per tear","发射穿刺泪弹的跟班
+泪弹造成3.5点伤害",,,Rebirth,Isaac's Head
+55,Maggy's Faith,抹大拉的信仰,Faith's reward,Entering a new floor grants +1 Eternal Heart,每层一开始获得1永恒之心,,,Rebirth,Maggy's Faith
+56,Judas' Tongue,犹大的舌头,Payment Received,"Reduces all devil deal prices to 1 heart container
+Doesn't reduce 3 Soul Heart prices","降低恶魔房交易价格为1心之容器
+不降低3魂心的价格",,,Rebirth,Judas' Tongue
+57,???'s Soul,???的灵魂,Imaginary Friend,"Familiar that bounces around the room
+Shoots in the same direction as Isaac
+Deals 3.5 damage per tear","在房间中四处漂浮的跟班
+发射方向与角色相同
+泪弹造成3.5点伤害",,,Rebirth,???'s Soul
+58,Samson's Lock,参孙的发髻,Your rage grows,"Killing an enemy has a 6.66% chance to grant +0.5 damage for the room
+ 100% chance at 10 luck","击杀敌人时, 6.66%概率在当前房间中获得:
+ 伤害+0.5
+ 幸运10: 100%概率",,,Rebirth,Samson's Lock
+59,Cain's Eye,该隐的眼睛,May you see your destination,"Entering a new floor has a 25% chance to reveal map icons
+ 100% chance at 3 luck","25%概率揭示新一层的地图图标
+ 幸运3: 100%概率",nogreed,,Rebirth,Cain's Eye
+60,Eve's Bird Foot,夏娃的鸟爪,Revenge from beyond,"Killing an enemy has a 5% chance to spawn a Dead Bird
+ 100% chance at 8 luck","击杀敌人时, 5%概率生成死鸟
+ 幸运8: 100%概率",,,Rebirth,Eve's Bird Foot
+61,The Left Hand,左断手,The left-hand path reaps dark rewards,Turns all chests into Red Chests,将所有箱子变成红箱子,,,Rebirth,The Left Hand
+62,Shiny Rock,闪亮岩石,It shines for its brothers,Crawlspace rocks and tinted rocks blink every 10 seconds,暗门石头和标记石头每10秒闪烁一次,,,Afterbirth,Shiny Rock
+63,Safety Scissors,安全剪刀,Fuse Cutter,Turns Troll Bombs into bomb pickups,将即爆炸弹变成炸弹掉落物,,,Afterbirth,Safety Scissors
+64,Rainbow Worm,彩虹虫,Bleep Bloop Blop,Grants a random worm effect every 3 seconds,每3秒获得随机蠕虫效果,,,Afterbirth,Rainbow Worm
+65,Tape Worm,长条虫,Floooooooooop!,+3 Range,射程+3,,,Afterbirth,Tape Worm
+66,Lazy Worm,懒懒虫,Pft,"+0.5 Damage
+ -0.5 Shot speed","伤害+0.5
+ 弹速-0.5",,,Afterbirth,Lazy Worm
+67,Cracked Dice,碎裂六面骰,You feel cursed... kinda.,"Taking damage has a 50% chance to trigger one of these effects:
+ D6
+ D8
+ D10
+ D12
+ D20","受伤时, 50%概率触发以下骰子效果之一:
+ 六面骰
+ 八面骰
+ 十面骰
+ 十二面骰
+ 二十面骰",,,Afterbirth,Cracked Dice
+68,Super Magnet,超级磁铁,It Pulls,Isaac attracts pickups and enemies,角色吸引掉落物和敌人,,,Afterbirth,Super Magnet
+69,Faded Polaroid,褪色的全家福,You feel faded,"Randomly camouflages Isaac
+ Confuses enemies
+Can be used to open the ""Strange Door"" in ""Depths II""","随机使角色伪装
+ 使敌人混乱
+可以用于打开""深牢II""的""奇怪的门""",,,Afterbirth,Faded Polaroid
+70,Louse,虱子,"Itchy, tasty...","Spawns a blue spider every 30 seconds in hostile rooms
+Spawns a blue spider on room clear","在有敌人的房间里每30秒生成1只蓝蜘蛛
+清理房间后生成1只蓝蜘蛛",,,Afterbirth,Louse
+71,Bob's Bladder,鲍勃的膀胱,Creepy bombs,Isaac's bombs leave damaging creep,角色的炸弹会留下造成伤害的水迹,bob,,Afterbirth,Bob's Bladder
+72,Watch Battery,钮扣电池,Lil charge,"6.66% chance for the room clear reward to be a battery
+ +10% chance for random pickups to be a battery
+ 5% chance to add 1 charge to held active item when clearing a room","6.66%概率房间清理奖励为1电池
+ 随机掉落物为电池的概率+10%
+ 清理房间后, 5%概率为持有的主动道具充能1格",battery / nogreed,,Afterbirth,Watch Battery
+73,Blasting Cap,雷管,Pop! Pop!,10% chance for exploding bombs to drop a bomb pickup,爆炸的炸弹有10%概率产生炸弹掉落物,,,Afterbirth,Blasting Cap
+74,Stud Finder,饰钉定位器,The ground below feels hollow...,0.5% chance to reveal a crawlspace when breaking a rock,"摧毁石头时, 0.5%概率生成暗门",,,Afterbirth,Stud Finder
+75,Error,错误,Effect not found?,Grants a random trinket effect every room,每个房间获得随机饰品效果,,,Afterbirth,Error
+76,Poker Chip,筹码,It's double down time!,"50% chance for chests to spawn extra pickups
+50% chance for chests to contain a single fly
+Increases payout odds of slots and other machines
+Swaps 0-2 quality items from chests with higher quality ones
+Chest content can occasionally be items outside the golden chest item pool","箱子有50%概率生成额外掉落物
+箱子有50%概率只有1只红苍蝇
+提升赌博机等机器获胜几率
+若箱子含有品质为0-2的道具, 将其替换为品质更高的道具
+箱子偶尔会含有金箱子道具池之外的道具",,,Afterbirth,Poker Chip
+77,Blister,水疱,Bounce back!,Increases knockback,提高击退力,,,Afterbirth,Blister
+78,Second Hand,秒针,Extended stat effect time!,Status effects applied to enemies last 2 times as long,状态效果影响敌人2倍久,,,Afterbirth,Second Hand
+79,Endless Nameless,无名无尽,I'm stuck in a loop...,"Using a rune, card or pill has a 25% chance to spawn a copy of that rune, card or pill","使用符文, 卡牌, 胶囊时, 25%概率生成其复制",,,Afterbirth,Endless Nameless
+80,Black Feather,黑色羽毛,With darkness comes power,"+0.5 Damage for each ""Evil up"" item held","每持有1个""邪恶上升""道具, 伤害+0.5",,,Afterbirth,Black Feather
+81,Blind Rage,盲目的怒火,Blind to damage,Invincibility frames after taking damage last 2 times as long,受伤后的无敌变为2倍久,,,Afterbirth,Blind Rage
+82,Golden Horse Shoe,黄金马蹄铁,Feel lucky?,Future Treasure Rooms have +15% chance to let Isaac choose between two items,后续层宝箱房能道具二选一的概率+15%,lazarussharedglobal,,Afterbirth,Golden Horse Shoe
+83,Store Key,商店钥匙,Stores are open,Lets Isaac open Shops for free,免费开启商店,nogreed,,Afterbirth,Store Key
+84,Rib of Greed,贪婪的肋骨,Feels greedy,"5% more coins and fewer hearts from room clear rewards
+Greed and Super Greed no longer appear in Shops or Secret Rooms","提高房间清理奖励中硬币的概率, 降低心的概率
+商店和隐藏房不再出现贪婪和超级贪婪",lazarussharedglobal / nogreed,,Afterbirth,Rib of Greed
+85,Karma,业报,Karma up,"Using any type of Donation Machine has a 33% chance to:
+ Heal 1 heart (40%)
+ Give 1 coin (40%)
+ Grant +1 luck (15%)
+ Spawn a Beggar (5%)
+ Donation machines are less likely to jam
+Also affects Beggar donations and Restock machines","使用捐款机时, 33%概率:
+ 治疗1红心(40%)
+ 给予1硬币(40%)
+ 幸运+1(15%)
+ 生成1个乞丐(5%)
+ 捐款机卡币概率降低
+也会影响乞丐捐款和补货机",nogreed,,Afterbirth,Karma
+86,Lil Larva,小幼虫,The poop is moving...,Destroying poop spawns 1 blue fly,"摧毁大便时, 生成1只蓝苍蝇",,,Afterbirth,Lil Larva
+87,Mom's Locket,妈妈的吊坠,You feel her love,"Using a key heals half a heart
+ Turns half hearts into full hearts","使用钥匙时, 治疗半红心
+ 将半红心变成整心",,,Afterbirth,Mom's Locket
+88,NO!,不！,Never again!,Prevents active items from spawning,阻止主动道具生成,,,Afterbirth,NO!
+89,Child Leash,儿童栓绳,Keep your friends close...,"Familiars stay closer to Isaac
+ 25% Increased familiar damage","跟班离角色更近
+ 跟班获得伤害修正+25%",,,Afterbirth,Child Leash
+90,Brown Cap,棕色雷管,Fartoom!,Poop explodes for 100 damage when destroyed,"大便摧毁时爆炸, 造成100点伤害",,,Afterbirth,Brown Cap
+91,Meconium,胎粪,Eww,"33% chance for Black Poops to spawn
+ Destroying Black Poop has a 5% chance to spawn a Black Heart","33%概率生成黑大便
+ 摧毁黑大便时, 5%概率生成1黑心",,,Afterbirth+,Meconium
+92,Cracked Crown,碎裂的王冠,Stat booster,"x1.2 Stat multiplier for the stats that are above 1 speed, 2.73 tears, 3.5 damage, 6.5 range, 1 shot speed","高于移速1, 射速2.73, 伤害3.5, 射程6.5, 弹速1的部分修正x1.2",,,Afterbirth+,Cracked Crown
+93,Used Diaper,用过的尿布,You stink,"33% chance per room for all fly enemies to become friendly
+Spawns 1 blue fly when entering a new room","每房间33%概率使所有苍蝇敌人变得友好
+进入新房间时生成1蓝苍蝇",,,Afterbirth+,Used Diaper
+94,Fish Tail,鱼尾,It also stinks!,Doubles all blue fly / locust spawns,使蓝苍蝇/蝗虫的生成量翻倍,,,Afterbirth+,Fish Tail
+95,Black Tooth,黑牙,It looks dead,"3% chance to shoot poison tooth tears
+The tooth deals 2x Isaac's damage","3%概率发射有毒牙齿
+牙齿造成2x角色伤害",,,Afterbirth+,Black Tooth
+96,Ouroboros Worm,衔尾虫,Foop foop!,"+0.4 Tears
+ +1.5 Range
+Spectral tears
+10% Chance for homing tears
+ 100% chance at 9 luck
+Isaac's tears move quickly in a spiral pattern","射速+0.4
+ 射程+1.5
+灵体泪弹
+10%概率为追踪泪弹
+ 幸运9: 100%概率
+角色的泪弹螺旋快速前进",,,Afterbirth+,Ouroboros Worm
+97,Tonsil,扁桃体,Sick...,"Taking damage 6-12 times spawns a projectile blocking familiar
+Disappears after spawning 2 familiars","受伤6-12次后, 获得阻挡弹幕的跟班
+最多2个跟班, 之后该饰品消失",,,Afterbirth+,Tonsil
+98,Nose Goblin,鼻涕泡,Seems magic...,"10% chance to shoot a sticky tear
+50% chance for it to be homing
+ Boogers deal Isaac's damage once per second
+Boogers stick for 10 seconds","5%概率发射追踪粘性泪弹
+ 每秒造成1x角色伤害
+能粘住10秒",,,Afterbirth+,Nose Goblin
+99,Super Ball,超级弹球,Boing!,"10% chance to shoot bouncing tears
+ 100% chance at 18 luck",10%概率发射弹性泪弹,,,Afterbirth+,Super Ball
+100,Vibrant Bulb,亮灯泡,It needs power,"Holding a fully charged active item grants:
+ +0.25 Speed
+ +0.2 Tears
+ +0.5 Damage
+ +0.75 Range
+ +0.1 Shot speed
+ +1 Luck","持有完全充能的主动道具时:
+ 移速+0.25
+ 射速+0.2
+ 伤害+0.5
+ 射程+0.75
+ 弹速+0.1
+ 幸运+1",,,Afterbirth+,Vibrant Bulb
+101,Dim Bulb,暗灯泡,I think it's broken,"Holding a completely uncharged active item grants:
+ +0.5 Speed
+ +0.5 Tears
+ +1.5 Damage
+ +1.5 Range
+ +0.3 Shot speed
+ +2 Luck","持有完全未充能的主动道具时:
+ 移速+0.5
+ 射速+0.5
+ 伤害+1.5
+ 射程+1.5
+ 弹速+0.3
+ 幸运+2",,,Afterbirth+,Dim Bulb
+102,Fragmented Card,塔罗牌残片,Double moon,+1 extra Secret Room per floor while held,"持有时, 每层+1个隐藏房",lazarussharedglobal / nogreed,,Afterbirth+,Fragmented Card
+103,Equality!,等号！,=,"When Isaac's coin, bomb and key counts are equal:
+ +2 Fire rate","当角色的硬币, 炸弹和钥匙数量相等时:
+ 射速修正+2",,,Afterbirth+,Equality!
+104,Wish Bone,许愿骨,Make a wish,5% chance to get destroyed and spawn a pedestal item when hit,"受伤时, 5%概率被摧毁并生成1底座道具",,,Afterbirth+,Wish Bone
+105,Bag Lunch,午餐袋,I wonder what it is,5% chance to get destroyed and spawn Lunch when hit,"受伤时, 5%概率被摧毁并生成午餐",,,Afterbirth+,Bag Lunch
+106,Lost Cork,丢失的瓶塞,Uncorked,Increases the radius of friendly creep,提高角色和跟班产生的水迹范围,,,Afterbirth+,Lost Cork
+107,Crow Heart,乌鸦的心,Drain me,"Taking damage depletes Red Hearts before Soul/Black Hearts
+ Taking Red Heart damage will reduce Devil/Angel Room chance","受伤时, 首先消耗红心, 然后消耗魂心/黑心
+ 红心伤害会降低恶魔房/天使房概率",,,Afterbirth+,Crow Heart
+108,Walnut,核桃,That's a hard nut to crack!,"Getting hit by explosions has a 33% chance to destroy the trinket and drops a random heart, coin, key and trinket
+Taking damage isn't required","受到爆炸后, 33%概率摧毁该饰品并生成1随机心, 1随机硬币, 1随机钥匙和1随机饰品
+不必要受伤",,,Afterbirth+,Walnut
+109,Duct Tape,胶带,Stuck!,Familiars are stuck in place relative to Isaac's position,"跟班被粘住, 随角色同步移动",,,Afterbirth+,Duct Tape
+110,Silver Dollar,银币,Feels lucky...,Shops appear in the Womb and Corpse,商店会出现在子宫和尸宫中,lazarussharedglobal / nogreed,,Afterbirth+,Silver Dollar
+111,Bloody Crown,染血王冠,Drips with blood...,Treasure Rooms appear in the Womb and Corpse,宝箱房会出现在子宫和尸宫中,lazarussharedglobal / nogreed,,Afterbirth+,Bloody Crown
+112,Pay To Win,充钱游戏,...,Restock boxes always spawn in Treasure Rooms,宝箱房永远生成补货机,lazarussharedglobal,,Afterbirth+,Pay to Win
+113,Locust of War,战争蝗虫,I bring War,"Entering a hostile room spawns an exploding attack fly 
+The fly deals 2x Isaac's damage + explosion damage","进入有敌人的房间时, 生成1只爆炸攻击的蝗虫
+蝗虫造成2x角色伤害+60点爆炸伤害",,,Afterbirth+,Locust of War
+114,Locust of Pestilence,瘟疫蝗虫,I bring Pestilence,"Entering a hostile room spawns a poison attack fly
+The fly deals 2x Isaac's damage","进入有敌人的房间时, 生成1只有毒攻击的蝗虫
+蝗虫造成2x角色伤害",,,Afterbirth+,Locust of Pestilence
+115,Locust of Famine,饥荒蝗虫,I bring Famine,"Entering a hostile room spawns a slowing attack fly
+The fly deals 2x Isaac's damage","进入有敌人的房间时, 生成1只减速攻击的蝗虫
+蝗虫造成2x角色伤害",,,Afterbirth+,Locust of Famine
+116,Locust of Death,死亡蝗虫,I bring Death,"Entering a hostile room spawns an attack fly
+The fly deals 4x Isaac's damage","进入有敌人的房间时, 生成1只攻击蝗虫
+蝗虫造成4x角色伤害",,,Afterbirth+,Locust of Death
+117,Locust of Conquest,征服蝗虫,I bring Conquest,"Entering a hostile room spawns 1-4 attack flies
+Each fly deals 2x Isaac's damage","进入有敌人的房间时, 生成1-4只攻击蝗虫
+每只蝗虫造成2x角色伤害",,,Afterbirth+,Locust of Conquest
+118,Bat Wing,蝙蝠翅膀,They are growing...,Killing an enemy has a 5% chance to grant flight for the room,"击杀敌人后, 5%概率在当前房间中获得飞行",,,Afterbirth+,Bat Wing
+119,Stem Cell,干细胞,Regen!,"Entering a new floor heals half of Isaac's empty Red/Bone Hearts
+ Heals half a heart minimum","进入新层时, 治疗一半空心之容器/空骨心
+ 至少治疗半红心",,,Afterbirth+,Stem Cell
+120,Hairpin,发夹,Danger charge,Entering an uncleared boss room fully recharges active items,头目战开始时将主动道具充能,nogreed,,Afterbirth+,Hairpin
+121,Wooden Cross,木十字架,My faith protects me,Grants a Holy shield that prevents damage once per floor,阻挡每层第一次受到的伤害,,,Afterbirth+,Wooden Cross
+122,Butter!,黄油！,Can't hold it!,"Using an active item drops it on a pedestal on the ground
+Taking damage has a 2% chance to drop one of Isaac's passive items","使用主动道具会使其以底座道具的形式掉在地上
+受伤时, 2%概率掉落角色持有的被动道具",,,Afterbirth+,Butter!
+123,Filigree Feather,银丝羽毛,Angelic spoils,Angel bosses drop angel items instead of Key Pieces,天使头目掉落天使房道具而不是钥匙碎片,,,Afterbirth+,Filigree Feather
+124,Door Stop,门挡,Hold the door,The last door used stays open,最后经过的门保持打开,,,Afterbirth+,Door Stop
+125,Extension Cord,扩接电线,Charged friends,"Connects all familiars with beams of electricity
+The beams deal 6 damage","使跟班以电束相连
+电束造成6点伤害",,,Afterbirth+,Extension Cord
+126,Rotten Penny,腐烂硬币,Wealth of flies,Picking up a coin spawns a blue fly,"拾起硬币时, 生成1只蓝苍蝇",,,Afterbirth+,Rotten Penny
+127,Baby-Bender,儿童弯勺,Feed them magic!,Grants all familiars homing shots,跟班的泪弹获得追踪效果,,,Afterbirth+,Baby-Bender
+128,Finger Bone,指骨,It looks brittle,Taking damage has a 4% chance to grant a Bone Heart,"受伤时, 4%概率获得骨心",,,Afterbirth+,Finger Bone
+129,Jawbreaker,崩掉牙,Don't chew on it,"10% chance to shoot teeth that deal 3.2x Isaac's damage
+ 100% chance at 9 luck","10%概率发射牙齿, 造成3.2x角色伤害
+ 幸运9: 100%概率",,,Repentance,Jawbreaker
+130,Chewed Pen,嚼烂的笔,It's leaking,"10% chance to shoot slowing tears
+ 100% chance at 18 luck","10%概率发射减速泪弹
+ 幸运18: 100%概率",,,Repentance,Chewed Pen
+131,Blessed Penny,神圣硬币,Wealth of purity,"Picking up a coin has a 17% chance to spawn a half Soul Heart
+Higher chance from nickels and dimes","拾起硬币时, 17%概率生成半魂心
+镍币和铸币生成半魂心概率更高",,,Repentance,Blessed Penny
+132,Broken Syringe,损坏的注射器,Mystery medicine,25% chance to get a random syringe effect each room,25%概率在当前房间中获得随机药剂效果,,,Repentance,Broken Syringe
+133,Short Fuse,短引线,Faster explosions,"Isaac's bombs explode faster
+Bombs deal 15% more damage","角色的炸弹爆炸更快
+炸弹造成的伤害提高15%",,,Repentance,Short Fuse
+134,Gigante Bean,巨豆,Mega farts,Increases fart size,增加屁的大小,,,Repentance,Gigante Bean
+135,A Lighter,打火机,Watch the world burn,"Entering a room has a 20% chance to burn random enemies
+ Removes Tick","进入房间有20%概率点燃随机敌人
+ 会移除血虱",nogreed,,Repentance,A Lighter
+136,Broken Padlock,损坏的挂锁,Bombs are key,"Doors, key blocks and golden chests can be opened with explosions
+Explosions can also open the ""Strange Door"" in ""Depths II""","门, 钥匙方块和金箱子可以用爆炸打开
+爆炸也可打开""深牢II""的""奇怪的门""",,,Repentance,Broken Padlock
+137,Myosotis,勿忘草,Forget me not...,Entering a new floor spawns up to 4 uncollected pickups from the previous floor in the starting room,"进入新层时, 上一层未收集的最多4个掉落物在初始房间生成",lazarussharedglobal,,Repentance,Myosotis
+138,'M,'M,t&apos;s broken9Reroll your dest,Using an active item rerolls it,"使用主动道具后, 将该主动道具重置",,,Repentance,'M
+139,Teardrop Charm,泪滴护符,It feels lucky,+4 Luck towards luck-based tear effects,"对基于幸运的泪弹效果, 幸运+4",,,Repentance,Teardrop Charm
+140,Apple of Sodom,所多玛之果,It feels empty,"Picking up Red Hearts have a 50% chance to convert them into blue spiders
+Works even while at full health
+Effect may consume hearts needed for healing","拾起红心时, 50%概率将其变成蓝蜘蛛
+满血时改为100%",,,Repentance,Apple of Sodom
+141,Forgotten Lullaby,失落摇篮曲,Sing for your friends,2x Fire rate for familiars,跟班的射速变为2倍,,,Repentance,Forgotten Lullaby
+142,Beth's Faith,伯大尼的信仰,My faith protects me,Entering a new floor spawns 4 Book of Virtues wisps,"进入新层时, 生成4美德之书魂火",,,Repentance,Beth's Faith
+143,Old Capacitor,老旧电容,Voltage starving,"Prevents active item from charging by clearing a room
+ Clearing a room has a 20% chance to spawn a battery
+ 33% chance at 5 luck","阻止主动道具通过清理房间充能
+ 清理房间后, 20%概率生成1电池
+ 幸运5: 33%",nogreed,,Repentance,Old Capacitor
+144,Brain Worm,脑形虫,Ding!,Tears turn 90 degrees to target enemies that they may have missed,"泪弹若会打不中敌人, 则90度转向敌人",,,Repentance,Brain Worm
+145,Perfection,满分考卷,Luck way up. Don't lose it!,"+10 Luck
+Taking damage destroys the trinket","幸运+10
+受伤时摧毁此饰品",,,Repentance,Perfection
+146,Devil's Crown,恶魔王冠,His special customer,Treasure Room items are replaced with devil deals,宝箱房道具由恶魔交易取代,,,Repentance,Devil's Crown
+147,Charged Penny,充能硬币,Wealth of power,"Picking up a coin has a 17% chance to add 1 charge to the active item
+Higher chance from nickels and dimes","拾起硬币时, 17%概率对主动道具充能1格
+镍币和铸币的充能概率更高",,,Repentance,Charged Penny
+148,Friendship Necklace,友谊项链,Gather round,All familiars orbit around Isaac,使所有跟班环绕角色,,,Repentance,Friendship Necklace
+149,Panic Button,紧急按钮,Push in case of emergency,"Right before taking damage, uses the active item if it is charged","即将受伤时, 若主动道具已充能, 则使用主动道具",,,Repentance,Panic Button
+150,Blue Key,蓝钥匙,Look between the rooms,"Locked doors can be opened for free, but Isaac has to clear a room from the Hush floor before accessing the room behind them","锁住的门可以免费打开, 但角色需要在进入房间前清理一个死寂层的房间",,,Repentance,Blue Key
+151,Flat File,扁锉,No more spikes,"Retracts most spikes, rendering them harmless
+Also affects Curse Room doors, mimics and any spike obstacle","尖刺全部缩回, 不造成伤害
+也影响诅咒房的门, 刺箱子和任何尖刺障碍物",,,Repentance,Flat File
+152,Telescope Lens,望远镜片,Seek the stars,"+9% Planetarium chance
+Additional +15% chance if a Planetarium hasn't been entered yet
+Planetariums can spawn in the Womb and Corpse","星象房基础概率+9%
+ 第一次进入星象房前, 概率额外+15%
+星象房会出现在子宫和尸宫中",lazarussharedglobal / nogreed,,Repentance,Telescope Lens
+153,Mom's Lock,妈妈的发髻,A piece of her love,25% chance for a random Mom item effect each room,每个房间有25%概率获得随机妈妈道具的效果,mom,,Repentance,Mom's Lock
+154,Dice Bag,骰子袋,Bonus roll,"50% chance per new room to grant a single use die consumable item
+The die disappears when leaving
+The die does not take up a pill/card slot","每个新房间有50%概率获得1个一次性的随机骰子
+骰子在离开房间后消失
+骰子不占用胶囊/卡牌位",,,Repentance,Dice Bag
+155,Holy Crown,神圣王冠,Walk the path of the saint,Spawns a Treasure Room and Shop in Cathedral,在教堂中生成宝箱房和商店,lazarussharedglobal / nogreed,,Repentance,Holy Crown
+156,Mother's Kiss,母亲的吻,HP up,+1 Heart container while held,持有时+1心之容器,mom,,Repentance,Mother's Kiss
+157,Torn Card,扑克牌残片,Death awaits,"Every 15 shots, Isaac shoots an Ipecac + My Reflection tear with a very high range value","每发射15次, 发射1颗吐根酊+我的镜像效果的泪弹, 其射程极高",,,Repentance,Torn Card
+158,Torn Pocket,破损的口袋,A hole in your pocket,"Taking damage makes Isaac drop 2 of his coins, keys or bombs
+The pickups can be replaced with other variants, such as golden keys, nickels, dimes, etc.","受伤时, 角色掉落持有的2硬币/钥匙/炸弹
+该掉落物可能会变为变体, 比如金钥匙, 镍币, 铸币等",,,Repentance,Torn Pocket
+159,Gilded Key,镀金钥匙,Less is more,"+1 Key on pickup
+ Replaces all chests (except Old/Mega) with golden chests
+ Golden chests can contain extra cards, pills or trinkets","首次拾起时+1钥匙
+ 所有新生成的箱子(除了旧箱子和大箱子)由金箱子取代
+ 金箱子可能含有额外的卡牌/胶囊/饰品",,,Repentance,Gilded Key
+160,Lucky Sack,幸运袋,Free goodies!,Entering a new floor spawns a sack,进入新层时生成1福袋,,,Repentance,Lucky Sack
+161,Wicked Crown,邪恶王冠,Walk the path of the wicked,Spawns a Treasure Room and Shop in Sheol,在阴间中生成宝箱房和商店,lazarussharedglobal / nogreed,,Repentance,Wicked Crown
+162,Azazel's Stump,阿撒泻勒的残角,Unleash your inner demon,"Clearing a room has a 33% chance to turn the player into Azazel
+ Effect lasts until clearing and leaving another room","清理房间后有33%概率变为阿撒泻勒
+ 效果持续到清理并离开另一个房间",,,Repentance,Azazel's Stump
+163,Dingle Berry,粪蛋,Oops!,"All Dip (small poop) enemies are friendly
+Clearing a room spawns 1 random Dip","所有粪滴敌人友好
+清理房间后生成1个随机粪滴",,,Repentance,Dingle Berry
+164,Ring Cap,火药圈,Twice the bang!,Spawns 1 extra bomb for each bomb placed,放置炸弹时生成1额外炸弹,,,Repentance,Ring Cap
+165,Nuh Uh!,滚啊！,Don't want!,"On Womb and beyond, replaces all coin and key spawns with a bomb, heart, pill, card, trinket, battery, or enemy fly","在子宫及以后中, 所有硬币和钥匙由炸弹/心/胶囊/卡牌/饰品/电池/红苍蝇取代",,,Repentance,Nuh Uh!
+166,Modeling Clay,塑型黏土,???,50% chance to grant the effect of a random passive item each room,每个房间有50%概率获得随机被动道具的效果,,,Repentance,Modeling Clay
+167,Polished Bone,抛光骨头,Friends from beyond,Clearing a room has a 25% chance to spawn a friendly Bony,"清理房间后, 25%概率生成友好的骷髅仔",,,Repentance,Polished Bone
+168,Hollow Heart,空壳心,A brittle blessing,Entering a new floor grants +1 Bone Heart,进入新层时+1骨心,,,Repentance,Hollow Heart
+169,Kid's Drawing,儿童涂鸦,Looks familiar...,Counts as 1 item towards the Guppy transformation while held,持有时算作1个嗝屁猫套装道具,,,Repentance,Kid's Drawing
+170,Crystal Key,水晶钥匙,Call to the other side,"Clearing a room has a 33% chance to create a Red Key room
+Lower chance to occur when in a red room","清理房间后, 33%概率产生红钥匙房间
+红色房间中触发概率降低",nogreed,,Repentance,Crystal Key
+171,Keeper's Bargain,店主的协议,Money talks,50% chance for devil deals to cost coins instead of hearts,50%概率使恶魔交易花费硬币而不是心,,,Repentance,Keeper's Bargain
+172,Cursed Penny,诅咒硬币,Wealth of misery,"Picking up a coin teleports Isaac to a random room
+Can teleport to secret rooms
+The type of coin affects the selected room type","拾起硬币时, 将角色传送至随机房间
+可以传送至隐藏房
+硬币类型影响传送的房间类型",,,Repentance,Cursed Penny
+173,Your Soul,你的灵魂,Give it to me,"Allows Isaac to take 1 Devil Room item for free
+ The free Devil deal still affects Angel Room chance","允许免费进行一次恶魔交易
+ 免费交易也会影响天使房概率",,,Repentance,Your Soul
+174,Number Magnet,数字冰箱贴,6,"+10% Devil Room chance
+Prevents Krampus from appearing in Devil Rooms
+Devil Rooms are special variants with more deals, Black Hearts and enemies","恶魔房概率+10%
+防止恶魔房中出现坎卜斯
+恶魔房变为特殊房间布局, 有更多的交易, 黑心和敌人",lazarussharedglobal,,Repentance,Number Magnet
+175,Strange Key,奇怪的钥匙,What could it open?,"Opens the door to the Hush floor regardless of the timer
+Using Pandora's Box consumes the key and spawns 6 items from random pools","无论时间, 打开死寂的门
+使用潘多拉的盒子时, 从随机道具池生成6个道具",lazarussharedglobal,,Repentance,Strange Key
+176,Lil Clot,小血团,Mini friend,"Spawns a blood clot that mimics Isaac's movement
+Copies Isaac's stats, tear effects and 35% of his damage
+Respawns each room","生成1个血块跟班, 模仿角色的行动
+复制角色的属性和泪弹效果, 造成35%角色伤害
+每个房间重生",,,Repentance,Lil Clot
+177,Temporary Tattoo,纹身贴,You feel braver,"Clearing a Challenge Room spawns a chest
+Clearing a Boss Challenge Room spawns an item","清理挑战房后, 生成1箱子
+清理头目挑战房, 生成1道具",lazarussharedglobal / nogreed,,Repentance,Temporary Tattoo
+178,Swallowed M80,被吞下的M80鞭炮,Bang!,"Taking damage has a 50% chance for Isaac to explode
+Doesn't destroy Blood Donation Machines or Confessionals, while spawning pickups as if it did","受伤时角色有50%概率爆炸
+不会摧毁交互中的献血机或忏悔室, 但会生成摧毁时的掉落物",,,Repentance,Swallowed M80
+179,RC Remote,赛车遥控器,Controllable buddies!,"Familiars mimic Isaac's movement
+Hold the drop button () to keep the familiars in place","跟班模仿角色的移动
+按住掉落键()使跟班留在原地",,,Repentance,RC Remote
+180,Found Soul,复得游魂,Finally!,"Follows Isaac's movement and shoots spectral tears
+Copies Isaac's stats, tear effects and 50% of his damage
+Uses most active items when Isaac does
+Dies in one hit
+Respawns each floor","精确跟随角色移动, 发射灵体泪弹
+复制角色的属性和泪弹效果, 造成50%角色伤害
+使用角色使用的大多数主动道具
+复得游魂受伤即死
+每层重生",,,Repentance,Found Soul
+181,Expansion Pack,扩展电路板,Fun extras,Using an active item triggers the effect of an additional 1-2 charge active item,"使用主动道具时, 额外触发随机1-2充能的主动道具",,,Repentance,Expansion Pack
+182,Beth's Essence,伯大尼的精华,Virtue's reward,"Entering an Angel Room spawns 5 wisps
+Donating to Beggars has a 25% chance to spawn a wisp","进入天使房时, 生成5魂火
+向乞丐捐钱时, 25%概率生成1魂火",,,Repentance,Beth's Essence
+183,The Twins,双胞胎,I'm seeing double...,"50% chance to duplicate a familiar each room
+Grants Brother Bobby or Sister Maggy if Isaac has no familiars","每个房间有50%概率复制1个跟班
+若角色没有跟班, 则获得波比兄弟或玛姬姐妹",,,Repentance,The Twins
+184,Adoption Papers,领养协议书,Give them a home,Shops sell familiars for 10 coins,"商店的道具由跟班取代, 售价10硬币",,,Repentance,Adoption Papers
+185,Cricket Leg,蟋蟀腿,Infested,Killing an enemy has a 17% chance to spawn a random locust,"杀死敌人时, 17%概率生成1只随机蝗虫",,,Repentance,Cricket Leg
+186,Apollyon's Best Friend,亚玻伦的挚友,Attack buddy,Grants 1 Abyss locust,生成1只无底坑蝗虫,,,Repentance,Apollyon's Best Friend
+187,Broken Glasses,碎掉的眼镜,Double vision?,"50% chance of adding an extra blind item in Treasure Rooms
+50% chance to reveal the blind item in alt path Treasure Rooms","50%概率在宝箱房添加1个额外的问号道具
+ 50%概率揭示替代章节的问号道具",lazarussharedglobal,,Repentance,Broken Glasses
+188,Ice Cube,冰块,Stay frosty,"Entering a room has a 20% chance to petrify random enemies
+ Killing a petrified enemy freezes it","进入房间时, 20%概率石化1个敌人
+ 击杀石化的敌人可将其冻结",nogreed,,Repentance,Ice Cube
+189,Sigil of Baphomet,巴风特之印,Revel in death,"Killing an enemy makes Isaac invincible for 1 second
+Invincibility stacks with successive enemy kills, up to 5 seconds","击杀敌人时, 使角色获得1秒护盾
+期间击杀敌人可以累加, 最多5秒",,,Repentance,Sigil of Baphomet

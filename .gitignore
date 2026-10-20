@@ -1,0 +1,15 @@
+# Python 虚拟环境（本机专用，不提交）
+.venv/
+__pycache__/
+*.pyc
+
+# 抓取缓存 / 原始 wiki 数据（可重新下载，见 README）
+raw/
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+
+# Playwright 临时产物
+*.log

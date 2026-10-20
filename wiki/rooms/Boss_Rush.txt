@@ -1,0 +1,133 @@
+The Boss Rush is an optional room that becomes available by beating Mom in Depths, Necropolis, or Dank Depths within 20 minutes, or  beating her in Mausoleum or Gehenna within 25 minutes.
+In the center of a large room, there will be 4 ( 2 or 4 /  2, 4 or 8) random items to choose from, which are picked from the Treasure Room item pool. Picking up an item will cause the rest of them to disappear and start the Boss Rush. Completing the Boss Rush will also reward 1 more item, separate from the others seen when first entering the room.
+
+
+== Waves ==
+The Boss Rush consists of 15 waves with 2 bosses per wave. The next wave does not spawn until both bosses from the previous wave have been killed, and any lingering monsters from previous waves will not prevent the next wave from spawning.
+Occasionally, all the bosses fought in the Boss Rush will be their Champion variants, if they have one.
+
+
+=== Rebirth ===
+All 15 waves are predetermined.
+
+Wave 1: Blighted Ovum and Gurdy Jr.
+Wave 2: Carrion Queen and The Wretched
+Wave 3: Peep and The Duke of Flies
+Wave 4: Blastocyst and Loki
+Wave 5: Steven and Gemini
+Wave 6: 3x Larry Jr. and Fistula
+Wave 7: C.H.A.D. and Monstro
+Wave 8: Gurdy and Chub
+Wave 9: Monstro II and Gish
+Wave 10: Widow and Pin
+Wave 11: 3x The Hollow and The Husk
+Wave 12: Mask of Infamy and The Bloat
+Wave 13: Pestilence and Famine
+Wave 14: Death and War
+Wave 15: The Fallen and Headless Horseman
+
+
+=== Afterbirth ===
+All 15 waves are randomized, with each wave spawning two random bosses from the list. Each boss can only appear once per Boss Rush, meaning that out of all the 50 bosses, Isaac will face 30 of them.
+
+Note that none of the chapter 4 bosses (except Blastocyst and Death) are present in the Boss Rush:
+
+Scolex (62.1)
+Conquest (65.1)
+Lokii (69.1)
+Teratoma (71.1)
+Daddy Long Legs (101.0)
+Triachnid (101.1)
+Mama Gurdy (266.0)
+Mr. Fred (270.0)
+Furthermore, some other bosses are not present in the Boss Rush:
+
+All final bosses
+All Sins and Super Sins
+Krampus (81.1)
+Fallen Uriel (271.1)
+Fallen Gabriel (272.2)
+ All Afterbirth † Bosses
+ All Repentance Bosses
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing. Note that the urns you see will be replaced by skulls.
+
+
+== Notes ==
+If Mom is beaten within 20 minutes and Isaac enters the Devil Room, he must return to the boss room before 20 minutes have passed; otherwise, the Boss Rush entrance will be closed.
+If Isaac is teleported to the Devil Room while inside the Boss Rush room (for example, using a Joker card), exiting the Devil Room will lead him to Mom's Boss Room.
+If Isaac dies during the Boss Rush, but is able to respawn, the entrance to the Boss Rush room will still be open if the timer is still under 20 minutes. If the Boss Rush entrance has closed, the room can still be re-entered by dying in the Mom boss fight room at the cost of another life.
+The Boss Rush can only be retried by picking up an item off a pedestal in its room. If the item Isaac originally picked from the room was an active item and Isaac had another item to swap it for, the pedestal and item it was swapped out for will still be there. Swapping the items again will restart the fight. Alternatively, a new pedestal can be created, such as through a XX - Judgement card,  or dropping your active item via Butter! and taking its item will also restart the fight.  Also, having Broken Shovel in your possession will automatically start the Boss Rush if left and entered again.
+ If a Grab Bag spawns for whatever reason, picking it up will start the Boss Rush. The player can still pick up one of the pedestal items.
+The boss rush does not unlock anything if beaten in a challenge.
+ Using Void, Black Rune, Abyss, or Moving Box will start the Boss Rush.
+If a chest is opened in the Boss Rush room, it will start the Boss Rush.
+Mama Mega! / Mega Bean will open the Boss Rush room even if the time limit has expired. Leaving the room will cause the door to close if the time limit has expired.
+ Holding Broken Shovel will also open the Boss Rush room, ignoring the time limit, to complete Mom's Shovel.
+If a Crawl Space is entered from within the Boss Rush room, exiting the Crawl Space will not return the player to the Boss Rush room, but will instead place the player back in the Mom Boss Room.
+ When Suplex! is used to grab an entity while a Berserk! effect is about to end, Isaac lands with an explosion similar to Mama Mega!. This explosion can open the boss rush door after the time limit has expired.
+Dad's Key can't open the door from the outside, but can open it from the inside, which can be used for taking an item, then leaving without fighting the bosses, for example.
+Despite being similar to a Mama Mega explosion, Giga Bombs can't open the boss rush door.
+
+
+== Tips ==
+The player's playtime can be checked at any moment by pressing TAB (or long-pressing SELECT on the controller), enabling Extra HUD in the options menu, or by simply looking down to the bottom screen on the 3DS version, where it is shown on the map.
+Each boss will always drop hearts on normal difficulty,  and sometimes on hard difficulty (which means with bad enough luck, you won't get any heart drops). Dark Bum can turn red hearts from these drops into Soul Hearts/Black Hearts, providing loads of extra health.
+Take out Carrion Queen quickly, as its Red Poops will remain for the rest of the boss rush. They can be advantageous though, as other bosses can also take damage from these poops. In particular, bouncing bosses like The Hollow and The Husk can quickly kill themselves on contact.
+All bosses with a Brimstone laser attack could severely hurt or even one-shot-kill each other, especially The Gate. It may be beneficial to focus on the other boss before killing them.
+ Wave 9 can be quite difficult, as Monstro II (he always spawns on the left side) can catch the player off-guard with an offscreen Brimstone laser. The black creep left by Gish will remain until he is killed.
+The Bloat + Mask of Infamy is one of the hardest waves, but The Bloat can be baited into destroying both the heart and the mask itself of the Mask of Infamy with its Brimstone lasers.
+Any teleport effect (such as cards, activated items, Telepills, etc) can be used to leave the Boss Rush. This can be used to gain one item without having to fight any bosses.
+ After unlocking A Strange Door, Marked Skulls will always appear on Depths II and will always drop 0 - The Fool, providing a guaranteed way to escape Boss Rush.
+
+
+== Unlockable Achievements ==
+  Isaac's Head - Complete the Boss Rush as Isaac.
+  Maggy's Bow - Complete the Boss Rush as Magdalene.
+  Cain's Other Eye - Complete the Boss Rush as Cain.
+  Judas' Shadow - Complete the Boss Rush as Judas.
+  ???'s Only Friend - Complete the Boss Rush as ???.
+  Eve's Mascara - Complete the Boss Rush as Eve.
+  Samson's Chains - Complete the Boss Rush as Samson.
+  The Nail - Complete the Boss Rush as Azazel.
+  Missing No. - Complete the Boss Rush as Lazarus.
+  Undefined - Complete the Boss Rush as Eden.
+  The D100 - Complete the Boss Rush as The Lost.
+  Immaculate Conception - Complete the Boss Rush as Lilith.
+  Sticky Nickels - Complete the Boss Rush as Keeper.
+  Locust of Conquest - Complete the Boss Rush as Apollyon.
+  Divorce Papers - Complete the Boss Rush as The Forgotten.
+  Beth's Faith - Complete the Boss Rush as Bethany.
+  Rock Bottom - Complete Boss Rush as Jacob and Esau.
+  Soul of Isaac - Defeat Hush and Boss Rush as Tainted Isaac.
+  Soul of Magdalene - Defeat Hush and Boss Rush as Tainted Magdalene.
+  Soul of Cain - Defeat Hush and Boss Rush as Tainted Cain.
+  Soul of Judas - Defeat Hush and Boss Rush as Tainted Judas.
+  Soul of ??? - Defeat Hush and Boss Rush as Tainted ???.
+  Soul of Eve - Defeat Hush and Boss Rush as Tainted Eve.
+  Soul of Samson - Defeat Hush and Boss Rush as Tainted Samson.
+  Soul of Azazel - Defeat Hush and Boss Rush as Tainted Azazel.
+  Soul of Lazarus - Defeat Hush and Boss Rush as Tainted Lazarus.
+  Soul of Eden - Defeat Hush and Boss Rush as Tainted Eden.
+  Soul of the Lost - Defeat Hush and Boss Rush as Tainted Lost.
+  Soul of Lilith - Defeat Hush and Boss Rush as Tainted Lilith.
+  Soul of the Keeper - Defeat Hush and Boss Rush as Tainted Keeper.
+  Soul of Apollyon - Defeat Hush and Boss Rush as Tainted Apollyon.
+  Soul of the Forgotten - Defeat Hush and Boss Rush as Tainted Forgotten.
+  Soul of Bethany - Defeat Hush and Boss Rush as Tainted Bethany.
+  Soul of Jacob and Esau - Defeat Hush and Boss Rush as Tainted Jacob.
+
+
+== Gallery ==
+
+		
+
+
+== Trivia ==
+Despite the Timer seen between level transitions appearing, Boss Rush cannot be done the first time the player defeats Mom. Instead, the game will cut directly to the Epilogue.
+ Armageddon is the theme for the Boss Rush added in The Binding of Isaac: Repentance.
+
+
+== Bugs ==

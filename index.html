@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#12141a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="以撒图鉴">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icons/favicon.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<title>以撒图鉴 · 忏悔/忏悔+</title>
+<style>
+  :root { --bg:#12141a; --panel:#1b1e27; --line:#2c3140; --fg:#e9ebf1; --dim:#98a0b0; --acc:#e0a458; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; min-height:100vh; background:radial-gradient(1200px 600px at 50% -10%, #1d2230 0%, var(--bg) 60%);
+         color:var(--fg); font:15px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+         display:flex; flex-direction:column; align-items:center; justify-content:center; padding:28px 20px; }
+  .logo { width:96px; height:96px; border-radius:24px; box-shadow:0 10px 40px rgba(224,164,88,.18); }
+  h1 { font-size:27px; margin:18px 0 4px; letter-spacing:1px; }
+  .sub { color:var(--dim); font-size:13px; margin-bottom:26px; text-align:center; }
+  .buttons { display:flex; flex-direction:column; gap:12px; width:100%; max-width:380px; }
+  a.btn { display:block; text-align:center; text-decoration:none; padding:14px 18px; border-radius:13px;
+          background:var(--acc); color:#20160a; font-weight:700; font-size:15.5px; }
+  a.btn.alt { background:var(--panel); color:var(--fg); border:1px solid var(--line); font-weight:600; }
+  .hint { color:var(--dim); font-size:12.5px; max-width:400px; text-align:center; margin-top:26px; line-height:1.8; }
+  .hint b { color:#c9d0dc; }
+  .meta { margin-top:22px; color:#5f6879; font-size:11.5px; text-align:center; }
+</style>
+</head>
+<body>
+  <img class="logo" src="./icons/icon-192.png" alt="以撒图鉴">
+  <h1>以撒图鉴</h1>
+  <div class="sub">《以撒的结合：忏悔 / 忏悔+》<br>719 道具 · 188 饰品 · 97 卡牌 · 51 药丸</div>
+
+  <div class="buttons">
+    <a class="btn" href="./app/web/index.html">打开图鉴（搜索 + 拍照识别）</a>
+    <a class="btn alt" href="./viewer.html">数据查看器（全数据集）</a>
+  </div>
+
+  <div class="hint">
+    手机浏览器打开后点「分享 → 添加到主屏幕」，即可像 App 一样使用。<br>
+    搜索和识别<b>全部在本地运行</b>：不联网也能搜、能识别，无 AI 模型包。
+  </div>
+
+  <div class="meta">非官方粉丝作品 · 数据来自社区 Wiki</div>
+
+<script>
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    navigator.serviceWorker.register("./sw.js").catch(() => {});
+  }
+</script>
+</body>
+</html>

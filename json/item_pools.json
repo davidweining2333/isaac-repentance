@@ -1,0 +1,9436 @@
+[
+  {
+    "name": "Angel Room",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "7 Seals",
+        "weight": 1
+      },
+      {
+        "name": "Act of Contrition",
+        "weight": 1
+      },
+      {
+        "name": "Angelic Prism",
+        "weight": 1
+      },
+      {
+        "name": "Blood of the Martyr",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of Virtues",
+        "weight": "0.5"
+      },
+      {
+        "name": "Breath of Life",
+        "weight": 1
+      },
+      {
+        "name": "Celtic Cross",
+        "weight": 1
+      },
+      {
+        "name": "Censer",
+        "weight": 1
+      },
+      {
+        "name": "Circle of Protection",
+        "weight": 1
+      },
+      {
+        "name": "Crown Of Light",
+        "weight": 1
+      },
+      {
+        "name": "Dead Dove",
+        "weight": 1
+      },
+      {
+        "name": "Dead Sea Scrolls",
+        "weight": 1
+      },
+      {
+        "name": "Delirious",
+        "weight": "0.4"
+      },
+      {
+        "name": "Divine Intervention",
+        "weight": 1
+      },
+      {
+        "name": "Duality",
+        "weight": 1
+      },
+      {
+        "name": "Eden's Soul",
+        "weight": 1
+      },
+      {
+        "name": "Eucharist",
+        "weight": 1
+      },
+      {
+        "name": "Genesis",
+        "weight": 1
+      },
+      {
+        "name": "Glyph of Balance",
+        "weight": 1
+      },
+      {
+        "name": "Godhead",
+        "weight": 1
+      },
+      {
+        "name": "Guardian Angel",
+        "weight": 1
+      },
+      {
+        "name": "Habit",
+        "weight": 1
+      },
+      {
+        "name": "Hallowed Ground",
+        "weight": 1
+      },
+      {
+        "name": "Holy Grail",
+        "weight": 1
+      },
+      {
+        "name": "Holy Light",
+        "weight": 1
+      },
+      {
+        "name": "Holy Mantle",
+        "weight": 1
+      },
+      {
+        "name": "Holy Water",
+        "weight": 1
+      },
+      {
+        "name": "Immaculate Conception",
+        "weight": 1
+      },
+      {
+        "name": "Immaculate Heart",
+        "weight": 1
+      },
+      {
+        "name": "Jar of Wisps",
+        "weight": 1
+      },
+      {
+        "name": "Jesus Juice",
+        "weight": 1
+      },
+      {
+        "name": "Lazarus' Rags",
+        "weight": 1
+      },
+      {
+        "name": "Lil Delirium",
+        "weight": 1
+      },
+      {
+        "name": "Mitre",
+        "weight": 1
+      },
+      {
+        "name": "Monstrance",
+        "weight": 1
+      },
+      {
+        "name": "Paschal Candle",
+        "weight": 1
+      },
+      {
+        "name": "Prayer Card",
+        "weight": 1
+      },
+      {
+        "name": "Purgatory",
+        "weight": 1
+      },
+      {
+        "name": "Purity",
+        "weight": 1
+      },
+      {
+        "name": "Revelation",
+        "weight": 1
+      },
+      {
+        "name": "Rosary",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Heart",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Orb",
+        "weight": "0.5"
+      },
+      {
+        "name": "Salvation",
+        "weight": 1
+      },
+      {
+        "name": "Scapular",
+        "weight": 1
+      },
+      {
+        "name": "Seraphim",
+        "weight": 1
+      },
+      {
+        "name": "Soul Locket",
+        "weight": 1
+      },
+      {
+        "name": "Spear Of Destiny",
+        "weight": 1
+      },
+      {
+        "name": "Spirit Sword",
+        "weight": 1
+      },
+      {
+        "name": "Star of Bethlehem",
+        "weight": 1
+      },
+      {
+        "name": "Stigmata",
+        "weight": 1
+      },
+      {
+        "name": "Sworn Protector",
+        "weight": 1
+      },
+      {
+        "name": "The Bible",
+        "weight": 1
+      },
+      {
+        "name": "The Body",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "The Mind",
+        "weight": 1
+      },
+      {
+        "name": "The Relic",
+        "weight": 1
+      },
+      {
+        "name": "The Soul",
+        "weight": 1
+      },
+      {
+        "name": "The Stairway",
+        "weight": 1
+      },
+      {
+        "name": "The Wafer",
+        "weight": 1
+      },
+      {
+        "name": "Trinity Shield",
+        "weight": 1
+      },
+      {
+        "name": "Trisagion",
+        "weight": 1
+      },
+      {
+        "name": "Urn of Souls",
+        "weight": 1
+      },
+      {
+        "name": "Vade Retro",
+        "weight": 1
+      },
+      {
+        "name": "Void",
+        "weight": "0.5"
+      },
+      {
+        "name": "Void",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/angel_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Angel_Room.png"
+  },
+  {
+    "name": "Baby Shop",
+    "is_greed": false,
+    "price_type": "coins",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "???'s Only Friend",
+        "weight": 1
+      },
+      {
+        "name": "Abel",
+        "weight": 1
+      },
+      {
+        "name": "Acid Baby",
+        "weight": 1
+      },
+      {
+        "name": "Angry Fly",
+        "weight": 1
+      },
+      {
+        "name": "BBF",
+        "weight": 1
+      },
+      {
+        "name": "Ball of Bandages",
+        "weight": 1
+      },
+      {
+        "name": "Best Bud",
+        "weight": 1
+      },
+      {
+        "name": "Big Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Big Fan",
+        "weight": 1
+      },
+      {
+        "name": "Bird Cage",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Bloodshot Eye",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Boiled Baby",
+        "weight": 1
+      },
+      {
+        "name": "Bot Fly",
+        "weight": 1
+      },
+      {
+        "name": "Brother Bobby",
+        "weight": 1
+      },
+      {
+        "name": "Buddy in a Box",
+        "weight": 1
+      },
+      {
+        "name": "Bum Friend",
+        "weight": 1
+      },
+      {
+        "name": "Bumbo",
+        "weight": 1
+      },
+      {
+        "name": "Charged Baby",
+        "weight": 1
+      },
+      {
+        "name": "Cube Baby",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Daddy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Dark Bum",
+        "weight": 1
+      },
+      {
+        "name": "Dead Bird",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Distant Admiration",
+        "weight": 1
+      },
+      {
+        "name": "Dry Baby",
+        "weight": 1
+      },
+      {
+        "name": "Farting Baby",
+        "weight": 1
+      },
+      {
+        "name": "Fate's Reward",
+        "weight": 1
+      },
+      {
+        "name": "Forever alone",
+        "weight": 1
+      },
+      {
+        "name": "Freezer Baby",
+        "weight": 1
+      },
+      {
+        "name": "Friend Zone",
+        "weight": 1
+      },
+      {
+        "name": "Fruity Plum",
+        "weight": 1
+      },
+      {
+        "name": "Gello",
+        "weight": "0.5"
+      },
+      {
+        "name": "Gemini",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Baby",
+        "weight": 1
+      },
+      {
+        "name": "Guardian Angel",
+        "weight": 1
+      },
+      {
+        "name": "Halo of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Harlequin Baby",
+        "weight": 1
+      },
+      {
+        "name": "Headless Baby",
+        "weight": 1
+      },
+      {
+        "name": "Hushy",
+        "weight": 1
+      },
+      {
+        "name": "Incubus",
+        "weight": 1
+      },
+      {
+        "name": "Juicy Sack",
+        "weight": 1
+      },
+      {
+        "name": "Key Bum",
+        "weight": 1
+      },
+      {
+        "name": "King Baby",
+        "weight": 1
+      },
+      {
+        "name": "Leech",
+        "weight": 1
+      },
+      {
+        "name": "Lil Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Lil Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Lil Delirium",
+        "weight": 1
+      },
+      {
+        "name": "Lil Dumpy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Gurdy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Haunt",
+        "weight": 1
+      },
+      {
+        "name": "Lil Loki",
+        "weight": 1
+      },
+      {
+        "name": "Lil Monstro",
+        "weight": 1
+      },
+      {
+        "name": "Lil Spewer",
+        "weight": 1
+      },
+      {
+        "name": "Little C.H.A.D.",
+        "weight": 1
+      },
+      {
+        "name": "Little Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Little Gish",
+        "weight": 1
+      },
+      {
+        "name": "Little Steven",
+        "weight": 1
+      },
+      {
+        "name": "Lost Fly",
+        "weight": 1
+      },
+      {
+        "name": "Lost Soul",
+        "weight": 1
+      },
+      {
+        "name": "Mongo Baby",
+        "weight": 1
+      },
+      {
+        "name": "Multidimensional Baby",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Egg",
+        "weight": 1
+      },
+      {
+        "name": "Obsessed Fan",
+        "weight": 1
+      },
+      {
+        "name": "Papa Fly",
+        "weight": 1
+      },
+      {
+        "name": "Psy Fly",
+        "weight": 1
+      },
+      {
+        "name": "Punching Bag",
+        "weight": 1
+      },
+      {
+        "name": "Quints",
+        "weight": 1
+      },
+      {
+        "name": "Rainbow Baby",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby 2.0",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "weight": 1
+      },
+      {
+        "name": "Seraphim",
+        "weight": 1
+      },
+      {
+        "name": "Shade",
+        "weight": 1
+      },
+      {
+        "name": "Sissy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Smart Fly",
+        "weight": 1
+      },
+      {
+        "name": "Spider Mod",
+        "weight": 1
+      },
+      {
+        "name": "Stitches",
+        "weight": 1
+      },
+      {
+        "name": "Succubus",
+        "weight": 1
+      },
+      {
+        "name": "Sworn Protector",
+        "weight": 1
+      },
+      {
+        "name": "The Intruder",
+        "weight": 1
+      },
+      {
+        "name": "The Peeper",
+        "weight": 1
+      },
+      {
+        "name": "Tinytoma",
+        "weight": 1
+      },
+      {
+        "name": "Twisted Pair",
+        "weight": 1
+      },
+      {
+        "name": "Vanishing Twin",
+        "weight": "0.5"
+      },
+      {
+        "name": "Worm Friend",
+        "weight": 1
+      },
+      {
+        "name": "YO LISTEN!",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/baby_shop.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Baby_Shop.png"
+  },
+  {
+    "name": "Battery Bum",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "120 Volt",
+        "weight": "0.1"
+      },
+      {
+        "name": "4.5 Volt",
+        "weight": 1
+      },
+      {
+        "name": "9 Volt",
+        "weight": 1
+      },
+      {
+        "name": "Battery Pack",
+        "weight": 1
+      },
+      {
+        "name": "Car Battery",
+        "weight": 1
+      },
+      {
+        "name": "Charged Baby",
+        "weight": 1
+      },
+      {
+        "name": "Jacob's Ladder",
+        "weight": "0.1"
+      },
+      {
+        "name": "Jumper Cables",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Plug",
+        "weight": 1
+      },
+      {
+        "name": "The Battery",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/battery_bum.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Battery_Bum.png"
+  },
+  {
+    "name": "Beggar",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Blue Map",
+        "weight": 1
+      },
+      {
+        "name": "Box",
+        "weight": 1
+      },
+      {
+        "name": "Breakfast",
+        "weight": 1
+      },
+      {
+        "name": "Bum Friend",
+        "weight": 1
+      },
+      {
+        "name": "Bumbo",
+        "weight": 1
+      },
+      {
+        "name": "Butter Bean",
+        "weight": 1
+      },
+      {
+        "name": "Crooked Penny",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Lost Coin",
+        "weight": 1
+      },
+      {
+        "name": "Dessert",
+        "weight": 1
+      },
+      {
+        "name": "Dinner",
+        "weight": 1
+      },
+      {
+        "name": "Fanny Pack",
+        "weight": 1
+      },
+      {
+        "name": "Lil Chest",
+        "weight": 1
+      },
+      {
+        "name": "Linger Bean",
+        "weight": 1
+      },
+      {
+        "name": "Lucky Foot",
+        "weight": 1
+      },
+      {
+        "name": "Lunch",
+        "weight": 1
+      },
+      {
+        "name": "Midnight Snack",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Portable Slot",
+        "weight": 1
+      },
+      {
+        "name": "Restock",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Meat",
+        "weight": 1
+      },
+      {
+        "name": "Supper",
+        "weight": 1
+      },
+      {
+        "name": "The Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Black Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Compass",
+        "weight": 1
+      },
+      {
+        "name": "Treasure Map",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/beggar.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Beggar.png"
+  },
+  {
+    "name": "Bomb Bum",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "BOGO Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Curse",
+        "weight": 1
+      },
+      {
+        "name": "Bobby-Bomb",
+        "weight": 1
+      },
+      {
+        "name": "Bomb Bag",
+        "weight": 1
+      },
+      {
+        "name": "Bomber Boy",
+        "weight": "0.2"
+      },
+      {
+        "name": "Bomber Boy",
+        "weight": 1
+      },
+      {
+        "name": "Boom!",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone Bombs",
+        "weight": "0.2"
+      },
+      {
+        "name": "Butt Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Fast Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Glitter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Hot Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Mama Mega!",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Boom",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Mega",
+        "weight": 1
+      },
+      {
+        "name": "Nancy Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Pyro",
+        "weight": "0.2"
+      },
+      {
+        "name": "Pyro",
+        "weight": 1
+      },
+      {
+        "name": "Pyromaniac",
+        "weight": "0.2"
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Rocket in a Jar",
+        "weight": 1
+      },
+      {
+        "name": "Sad Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Scatter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Sticky Bombs",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/bomb_bum.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Bomb_Bum.png"
+  },
+  {
+    "name": "Boss",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "<3",
+        "weight": 1
+      },
+      {
+        "name": "A Bar of Soap",
+        "weight": 1
+      },
+      {
+        "name": "A Snack",
+        "weight": 1
+      },
+      {
+        "name": "Belly Button",
+        "weight": 1
+      },
+      {
+        "name": "Binky",
+        "weight": 1
+      },
+      {
+        "name": "Blood Clot",
+        "weight": 1
+      },
+      {
+        "name": "Blue Cap",
+        "weight": 1
+      },
+      {
+        "name": "Booster Pack",
+        "weight": 1
+      },
+      {
+        "name": "Box",
+        "weight": 1
+      },
+      {
+        "name": "Breakfast",
+        "weight": 1
+      },
+      {
+        "name": "Caffeine Pill",
+        "weight": 1
+      },
+      {
+        "name": "Cat-o-nine-tails",
+        "weight": 1
+      },
+      {
+        "name": "Consolation Prize",
+        "weight": 1
+      },
+      {
+        "name": "Crack Jacks",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Lost Coin",
+        "weight": 1
+      },
+      {
+        "name": "Dessert",
+        "weight": 1
+      },
+      {
+        "name": "Dinner",
+        "weight": 1
+      },
+      {
+        "name": "Divorce Papers",
+        "weight": 1
+      },
+      {
+        "name": "Experimental Treatment",
+        "weight": 1
+      },
+      {
+        "name": "Eye Drops",
+        "weight": 1
+      },
+      {
+        "name": "Glass Eye",
+        "weight": 1
+      },
+      {
+        "name": "Growth Hormones",
+        "weight": 1
+      },
+      {
+        "name": "Jesus Juice",
+        "weight": 1
+      },
+      {
+        "name": "Latch Key",
+        "weight": 1
+      },
+      {
+        "name": "Little Steven",
+        "weight": 1
+      },
+      {
+        "name": "Lunch",
+        "weight": 1
+      },
+      {
+        "name": "MEAT!",
+        "weight": 1
+      },
+      {
+        "name": "Magic 8 Ball",
+        "weight": 1
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": 1
+      },
+      {
+        "name": "Magic Scab",
+        "weight": 1
+      },
+      {
+        "name": "Marbles",
+        "weight": 1
+      },
+      {
+        "name": "Marrow",
+        "weight": 1
+      },
+      {
+        "name": "Match Book",
+        "weight": 1
+      },
+      {
+        "name": "Midnight Snack",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Heels",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Lipstick",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pearls",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Underwear",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Dolly",
+        "weight": 1
+      },
+      {
+        "name": "Old Bandage",
+        "weight": 1
+      },
+      {
+        "name": "PJs",
+        "weight": "0.5"
+      },
+      {
+        "name": "PJs",
+        "weight": 1
+      },
+      {
+        "name": "Pageant Boy",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Placenta",
+        "weight": 1
+      },
+      {
+        "name": "Polydactyly",
+        "weight": 1
+      },
+      {
+        "name": "Roid Rage",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Meat",
+        "weight": 1
+      },
+      {
+        "name": "Safety Pin",
+        "weight": 1
+      },
+      {
+        "name": "Screw",
+        "weight": 1
+      },
+      {
+        "name": "Speed Ball",
+        "weight": 1
+      },
+      {
+        "name": "Squeezy",
+        "weight": 1
+      },
+      {
+        "name": "Stapler",
+        "weight": 1
+      },
+      {
+        "name": "Stem Cells",
+        "weight": 1
+      },
+      {
+        "name": "Stye",
+        "weight": 1
+      },
+      {
+        "name": "Super Bandage",
+        "weight": "0.5"
+      },
+      {
+        "name": "Super Bandage",
+        "weight": 1
+      },
+      {
+        "name": "Supper",
+        "weight": 1
+      },
+      {
+        "name": "Synthoil",
+        "weight": 1
+      },
+      {
+        "name": "The Belt",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "Tooth Picks",
+        "weight": 1
+      },
+      {
+        "name": "Torn Photo",
+        "weight": 1
+      },
+      {
+        "name": "Tropicamide",
+        "weight": 1
+      },
+      {
+        "name": "Wire Coat Hanger",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Spoon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/boss.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Boss.png"
+  },
+  {
+    "name": "Crane Game",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "9 Volt",
+        "weight": 1
+      },
+      {
+        "name": "Analog Stick",
+        "weight": 1
+      },
+      {
+        "name": "Best Friend",
+        "weight": 1
+      },
+      {
+        "name": "Binky",
+        "weight": 1
+      },
+      {
+        "name": "Booster Pack",
+        "weight": 1
+      },
+      {
+        "name": "Bot Fly",
+        "weight": 1
+      },
+      {
+        "name": "Box of Friends",
+        "weight": 1
+      },
+      {
+        "name": "Broken Watch",
+        "weight": 1
+      },
+      {
+        "name": "Buddy in a Box",
+        "weight": 1
+      },
+      {
+        "name": "Champion Belt",
+        "weight": 1
+      },
+      {
+        "name": "Clear Rune",
+        "weight": 1
+      },
+      {
+        "name": "Consolation Prize",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Head",
+        "weight": 1
+      },
+      {
+        "name": "Cupid's Arrow",
+        "weight": 1
+      },
+      {
+        "name": "D1",
+        "weight": 1
+      },
+      {
+        "name": "D10",
+        "weight": 1
+      },
+      {
+        "name": "D100",
+        "weight": 1
+      },
+      {
+        "name": "D12",
+        "weight": 1
+      },
+      {
+        "name": "D20",
+        "weight": 1
+      },
+      {
+        "name": "D4",
+        "weight": 1
+      },
+      {
+        "name": "D7",
+        "weight": 1
+      },
+      {
+        "name": "D8",
+        "weight": 1
+      },
+      {
+        "name": "Deck of Cards",
+        "weight": 1
+      },
+      {
+        "name": "Doctor's Remote",
+        "weight": 1
+      },
+      {
+        "name": "Eraser",
+        "weight": 1
+      },
+      {
+        "name": "Eternal D6",
+        "weight": 1
+      },
+      {
+        "name": "Everything Jar",
+        "weight": 1
+      },
+      {
+        "name": "Friend Finder",
+        "weight": 1
+      },
+      {
+        "name": "Friendly Ball",
+        "weight": 1
+      },
+      {
+        "name": "Fruity Plum",
+        "weight": 1
+      },
+      {
+        "name": "Glass Cannon",
+        "weight": 1
+      },
+      {
+        "name": "Glass Eye",
+        "weight": 1
+      },
+      {
+        "name": "Glowing Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Jacob's Ladder",
+        "weight": 1
+      },
+      {
+        "name": "Lead Pencil",
+        "weight": 1
+      },
+      {
+        "name": "Lil Chest",
+        "weight": 1
+      },
+      {
+        "name": "Lodestone",
+        "weight": 1
+      },
+      {
+        "name": "Lucky Foot",
+        "weight": 1
+      },
+      {
+        "name": "Magic 8 Ball",
+        "weight": 1
+      },
+      {
+        "name": "Marbles",
+        "weight": 1
+      },
+      {
+        "name": "Metronome",
+        "weight": 1
+      },
+      {
+        "name": "Mine Crafter",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bracelet",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Dolly",
+        "weight": 1
+      },
+      {
+        "name": "Mr. ME!",
+        "weight": 1
+      },
+      {
+        "name": "Mutant Spider",
+        "weight": 1
+      },
+      {
+        "name": "My Little Unicorn",
+        "weight": 1
+      },
+      {
+        "name": "My Reflection",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Gift",
+        "weight": 1
+      },
+      {
+        "name": "Night Light",
+        "weight": 1
+      },
+      {
+        "name": "Notched Axe",
+        "weight": 1
+      },
+      {
+        "name": "Pause",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Piggy Bank",
+        "weight": 1
+      },
+      {
+        "name": "Poke Go",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby 2.0",
+        "weight": 1
+      },
+      {
+        "name": "SMB Super Fan",
+        "weight": 1
+      },
+      {
+        "name": "Screw",
+        "weight": 1
+      },
+      {
+        "name": "Shoop da Whoop!",
+        "weight": 1
+      },
+      {
+        "name": "Spelunker Hat",
+        "weight": 1
+      },
+      {
+        "name": "Spider Bite",
+        "weight": 1
+      },
+      {
+        "name": "Spider Mod",
+        "weight": 1
+      },
+      {
+        "name": "Spin to Win",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": 1
+      },
+      {
+        "name": "Spoon Bender",
+        "weight": 1
+      },
+      {
+        "name": "Sprinkler",
+        "weight": 1
+      },
+      {
+        "name": "Squeezy",
+        "weight": 1
+      },
+      {
+        "name": "Starter Deck",
+        "weight": 1
+      },
+      {
+        "name": "Stop Watch",
+        "weight": 1
+      },
+      {
+        "name": "Suplex!",
+        "weight": 1
+      },
+      {
+        "name": "Tammy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "Tear Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Tech X",
+        "weight": 1
+      },
+      {
+        "name": "Tech.5",
+        "weight": 1
+      },
+      {
+        "name": "Technology",
+        "weight": 1
+      },
+      {
+        "name": "Technology 2",
+        "weight": 1
+      },
+      {
+        "name": "Technology Zero",
+        "weight": 1
+      },
+      {
+        "name": "Teleport 2.0",
+        "weight": 1
+      },
+      {
+        "name": "Teleport!",
+        "weight": 1
+      },
+      {
+        "name": "The Battery",
+        "weight": 1
+      },
+      {
+        "name": "The Boomerang",
+        "weight": 1
+      },
+      {
+        "name": "The Compass",
+        "weight": 1
+      },
+      {
+        "name": "The D6",
+        "weight": 1
+      },
+      {
+        "name": "The Gamekid",
+        "weight": 1
+      },
+      {
+        "name": "The Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "The Sad Onion",
+        "weight": 1
+      },
+      {
+        "name": "The Small Rock",
+        "weight": 1
+      },
+      {
+        "name": "Tractor Beam",
+        "weight": 1
+      },
+      {
+        "name": "Voodoo Head",
+        "weight": 1
+      },
+      {
+        "name": "Wire Coat Hanger",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/crane_game.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Crane_Game.png"
+  },
+  {
+    "name": "Curse Room",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Athame",
+        "weight": 1
+      },
+      {
+        "name": "Black Candle",
+        "weight": 1
+      },
+      {
+        "name": "Blood Oath",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Ceremonial Robes",
+        "weight": 1
+      },
+      {
+        "name": "Contract From Below",
+        "weight": 1
+      },
+      {
+        "name": "Curse of the Tower",
+        "weight": 1
+      },
+      {
+        "name": "Dark Prince's Crown",
+        "weight": 1
+      },
+      {
+        "name": "Dead Cat",
+        "weight": 1
+      },
+      {
+        "name": "Euthanasia",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": "0.5"
+      },
+      {
+        "name": "Flip",
+        "weight": 1
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Goat Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Paw",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Tail",
+        "weight": 1
+      },
+      {
+        "name": "Heartbreak",
+        "weight": "0.5"
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Magic Skin",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Razor",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Red Key",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Altar",
+        "weight": 1
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Shade",
+        "weight": 1
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "Vanishing Twin",
+        "weight": "0.5"
+      },
+      {
+        "name": "Vengeful Spirit",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/curse_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Curse_Room.png"
+  },
+  {
+    "name": "Devil Beggar",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "A Pound of Flesh",
+        "weight": "0.5"
+      },
+      {
+        "name": "Abaddon",
+        "weight": "0.2"
+      },
+      {
+        "name": "Acid Baby",
+        "weight": 1
+      },
+      {
+        "name": "Adrenaline",
+        "weight": 1
+      },
+      {
+        "name": "Black Powder",
+        "weight": 1
+      },
+      {
+        "name": "Caffeine Pill",
+        "weight": 1
+      },
+      {
+        "name": "Ceremonial Robes",
+        "weight": 1
+      },
+      {
+        "name": "Contract From Below",
+        "weight": 1
+      },
+      {
+        "name": "Dark Bum",
+        "weight": 1
+      },
+      {
+        "name": "Dark Matter",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Empty Heart",
+        "weight": 1
+      },
+      {
+        "name": "Empty Vessel",
+        "weight": 1
+      },
+      {
+        "name": "Euthanasia",
+        "weight": 1
+      },
+      {
+        "name": "Experimental Treatment",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": "0.5"
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Growth Hormones",
+        "weight": 1
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Loki's Horns",
+        "weight": 1
+      },
+      {
+        "name": "Lord of the Pit",
+        "weight": "0.2"
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Potato Peeler",
+        "weight": 1
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Roid Rage",
+        "weight": 1
+      },
+      {
+        "name": "Speed Ball",
+        "weight": 1
+      },
+      {
+        "name": "Spirit of the Night",
+        "weight": "0.2"
+      },
+      {
+        "name": "Succubus",
+        "weight": 1
+      },
+      {
+        "name": "Synthoil",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Nail",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "The Virus",
+        "weight": 1
+      },
+      {
+        "name": "Whore of Babylon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/devil_beggar.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Devil_Beggar.png"
+  },
+  {
+    "name": "Devil Room",
+    "is_greed": false,
+    "price_type": "health",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "2Spooky",
+        "weight": 1
+      },
+      {
+        "name": "7 Seals",
+        "weight": 1
+      },
+      {
+        "name": "A Pound of Flesh",
+        "weight": 1
+      },
+      {
+        "name": "A Quarter",
+        "weight": 1
+      },
+      {
+        "name": "Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Abyss",
+        "weight": "0.5"
+      },
+      {
+        "name": "Athame",
+        "weight": 1
+      },
+      {
+        "name": "Azazel's Rage",
+        "weight": 1
+      },
+      {
+        "name": "Backstabber",
+        "weight": 1
+      },
+      {
+        "name": "Berserk!",
+        "weight": "0.5"
+      },
+      {
+        "name": "Betrayal",
+        "weight": 1
+      },
+      {
+        "name": "Black Powder",
+        "weight": 1
+      },
+      {
+        "name": "Blood Oath",
+        "weight": 1
+      },
+      {
+        "name": "Blood Rights",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Gust",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Lust",
+        "weight": 1
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Brother Bobby",
+        "weight": 1
+      },
+      {
+        "name": "Cambion Conception",
+        "weight": 1
+      },
+      {
+        "name": "Ceremonial Robes",
+        "weight": 1
+      },
+      {
+        "name": "Contract From Below",
+        "weight": 1
+      },
+      {
+        "name": "Damocles",
+        "weight": 1
+      },
+      {
+        "name": "Dark Arts",
+        "weight": "0.5"
+      },
+      {
+        "name": "Dark Bum",
+        "weight": 1
+      },
+      {
+        "name": "Dark Matter",
+        "weight": 1
+      },
+      {
+        "name": "Dark Prince's Crown",
+        "weight": 1
+      },
+      {
+        "name": "Dead Cat",
+        "weight": 1
+      },
+      {
+        "name": "Death's List",
+        "weight": 1
+      },
+      {
+        "name": "Death's Touch",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Dry Baby",
+        "weight": 1
+      },
+      {
+        "name": "Duality",
+        "weight": 1
+      },
+      {
+        "name": "Empty Vessel",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Belial",
+        "weight": 1
+      },
+      {
+        "name": "Eye of the Occult",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": "0.2"
+      },
+      {
+        "name": "Gello",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Baby",
+        "weight": 1
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Goat Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Hairball",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Paw",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Tail",
+        "weight": 1
+      },
+      {
+        "name": "Headless Baby",
+        "weight": 1
+      },
+      {
+        "name": "Heartbreak",
+        "weight": "0.5"
+      },
+      {
+        "name": "Hungry Soul",
+        "weight": 1
+      },
+      {
+        "name": "Incubus",
+        "weight": 1
+      },
+      {
+        "name": "Judas' Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Lemegeton",
+        "weight": "0.5"
+      },
+      {
+        "name": "Lil Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Lil Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Lil Delirium",
+        "weight": 1
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Lord of the Pit",
+        "weight": 1
+      },
+      {
+        "name": "Lusty Blood",
+        "weight": 1
+      },
+      {
+        "name": "Maw Of The Void",
+        "weight": 1
+      },
+      {
+        "name": "Mega Blast",
+        "weight": "0.2"
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": 1
+      },
+      {
+        "name": "Money Power",
+        "weight": 1
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Multidimensional Baby",
+        "weight": 1
+      },
+      {
+        "name": "My Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Ocular Rift",
+        "weight": 1
+      },
+      {
+        "name": "Ouija Board",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Purgatory",
+        "weight": 1
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Altar",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "weight": 1
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Satanic Bible",
+        "weight": 1
+      },
+      {
+        "name": "Shade",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Spirit of the Night",
+        "weight": 1
+      },
+      {
+        "name": "Succubus",
+        "weight": 1
+      },
+      {
+        "name": "Sulfur",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Belial",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Nail",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "Twisted Pair",
+        "weight": 1
+      },
+      {
+        "name": "Vengeful Spirit",
+        "weight": 1
+      },
+      {
+        "name": "Void",
+        "weight": "0.5"
+      },
+      {
+        "name": "Void",
+        "weight": 1
+      },
+      {
+        "name": "We Need To Go Deeper!",
+        "weight": 1
+      },
+      {
+        "name": "Whore of Babylon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/devil_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Devil_Room.png"
+  },
+  {
+    "name": "Golden Chest",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "A Quarter",
+        "weight": 1
+      },
+      {
+        "name": "Abel",
+        "weight": 1
+      },
+      {
+        "name": "Binky",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bag",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Rotten Head",
+        "weight": 1
+      },
+      {
+        "name": "Bomb Bag",
+        "weight": 1
+      },
+      {
+        "name": "Consolation Prize",
+        "weight": 1
+      },
+      {
+        "name": "Crack Jacks",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Head",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Lost Coin",
+        "weight": 1
+      },
+      {
+        "name": "Fate",
+        "weight": "0.5"
+      },
+      {
+        "name": "Fate",
+        "weight": 1
+      },
+      {
+        "name": "Fate's Reward",
+        "weight": 1
+      },
+      {
+        "name": "Glass Eye",
+        "weight": 1
+      },
+      {
+        "name": "Goat Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Head of the Keeper",
+        "weight": 1
+      },
+      {
+        "name": "IV Bag",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Latch Key",
+        "weight": 1
+      },
+      {
+        "name": "Lead Pencil",
+        "weight": "0.1"
+      },
+      {
+        "name": "Little Baggy",
+        "weight": 1
+      },
+      {
+        "name": "Magic 8 Ball",
+        "weight": 1
+      },
+      {
+        "name": "Match Book",
+        "weight": 1
+      },
+      {
+        "name": "Midnight Snack",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pearls",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Ring",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Underwear",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Dolly",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Orphan Socks",
+        "weight": "0.1"
+      },
+      {
+        "name": "PJs",
+        "weight": "0.5"
+      },
+      {
+        "name": "Rune Bag",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Pennies",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Sacks",
+        "weight": 1
+      },
+      {
+        "name": "Schoolbag",
+        "weight": "0.5"
+      },
+      {
+        "name": "Screw",
+        "weight": 1
+      },
+      {
+        "name": "Squeezy",
+        "weight": 1
+      },
+      {
+        "name": "Stapler",
+        "weight": 1
+      },
+      {
+        "name": "Steven",
+        "weight": 1
+      },
+      {
+        "name": "Tammy's Head",
+        "weight": 1
+      },
+      {
+        "name": "The Belt",
+        "weight": 1
+      },
+      {
+        "name": "Torn Photo",
+        "weight": 1
+      },
+      {
+        "name": "Wire Coat Hanger",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/golden_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Golden_Chest.png"
+  },
+  {
+    "name": "Greed Angel Room",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "7 Seals",
+        "weight": 1
+      },
+      {
+        "name": "Act of Contrition",
+        "weight": 1
+      },
+      {
+        "name": "Angelic Prism",
+        "weight": 1
+      },
+      {
+        "name": "Blood of the Martyr",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of Virtues",
+        "weight": "0.5"
+      },
+      {
+        "name": "Breath of Life",
+        "weight": 1
+      },
+      {
+        "name": "Celtic Cross",
+        "weight": 1
+      },
+      {
+        "name": "Censer",
+        "weight": 1
+      },
+      {
+        "name": "Circle of Protection",
+        "weight": 1
+      },
+      {
+        "name": "Crown Of Light",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Dead Dove",
+        "weight": 1
+      },
+      {
+        "name": "Dead Sea Scrolls",
+        "weight": 1
+      },
+      {
+        "name": "Delirious",
+        "weight": "0.4"
+      },
+      {
+        "name": "Divine Intervention",
+        "weight": 1
+      },
+      {
+        "name": "Eden's Soul",
+        "weight": 1
+      },
+      {
+        "name": "Eucharist",
+        "weight": 1
+      },
+      {
+        "name": "Genesis",
+        "weight": 1
+      },
+      {
+        "name": "Glyph of Balance",
+        "weight": 1
+      },
+      {
+        "name": "Godhead",
+        "weight": 1
+      },
+      {
+        "name": "Guardian Angel",
+        "weight": 1
+      },
+      {
+        "name": "Hallowed Ground",
+        "weight": 1
+      },
+      {
+        "name": "Holy Grail",
+        "weight": 1
+      },
+      {
+        "name": "Holy Light",
+        "weight": 1
+      },
+      {
+        "name": "Holy Mantle",
+        "weight": 1
+      },
+      {
+        "name": "Holy Water",
+        "weight": 1
+      },
+      {
+        "name": "Immaculate Conception",
+        "weight": 1
+      },
+      {
+        "name": "Immaculate Heart",
+        "weight": 1
+      },
+      {
+        "name": "Jar of Wisps",
+        "weight": 1
+      },
+      {
+        "name": "Jesus Juice",
+        "weight": 1
+      },
+      {
+        "name": "Lazarus' Rags",
+        "weight": 1
+      },
+      {
+        "name": "Lil Delirium",
+        "weight": 1
+      },
+      {
+        "name": "Mitre",
+        "weight": 1
+      },
+      {
+        "name": "Monstrance",
+        "weight": 1
+      },
+      {
+        "name": "Paschal Candle",
+        "weight": 1
+      },
+      {
+        "name": "Prayer Card",
+        "weight": 1
+      },
+      {
+        "name": "Purgatory",
+        "weight": 1
+      },
+      {
+        "name": "Purity",
+        "weight": 1
+      },
+      {
+        "name": "Revelation",
+        "weight": 1
+      },
+      {
+        "name": "Rosary",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Heart",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Orb",
+        "weight": "0.5"
+      },
+      {
+        "name": "Salvation",
+        "weight": 1
+      },
+      {
+        "name": "Scapular",
+        "weight": 1
+      },
+      {
+        "name": "Seraphim",
+        "weight": 1
+      },
+      {
+        "name": "Soul Locket",
+        "weight": 1
+      },
+      {
+        "name": "Spear Of Destiny",
+        "weight": 1
+      },
+      {
+        "name": "Spirit Sword",
+        "weight": 1
+      },
+      {
+        "name": "Star of Bethlehem",
+        "weight": 1
+      },
+      {
+        "name": "Stigmata",
+        "weight": 1
+      },
+      {
+        "name": "Sworn Protector",
+        "weight": 1
+      },
+      {
+        "name": "The Bible",
+        "weight": 1
+      },
+      {
+        "name": "The Body",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "The Mind",
+        "weight": 1
+      },
+      {
+        "name": "The Relic",
+        "weight": 1
+      },
+      {
+        "name": "The Soul",
+        "weight": 1
+      },
+      {
+        "name": "The Stairway",
+        "weight": 1
+      },
+      {
+        "name": "The Wafer",
+        "weight": 1
+      },
+      {
+        "name": "Trinity Shield",
+        "weight": 1
+      },
+      {
+        "name": "Trisagion",
+        "weight": 1
+      },
+      {
+        "name": "Urn of Souls",
+        "weight": 1
+      },
+      {
+        "name": "Vade Retro",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_angel_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Angel_Room.png"
+  },
+  {
+    "name": "Greed Boss",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "1up!",
+        "weight": 1
+      },
+      {
+        "name": "<3",
+        "weight": 1
+      },
+      {
+        "name": "A Bar of Soap",
+        "weight": 1
+      },
+      {
+        "name": "A Lump of Coal",
+        "weight": 1
+      },
+      {
+        "name": "A Snack",
+        "weight": 1
+      },
+      {
+        "name": "Ball of Bandages",
+        "weight": 1
+      },
+      {
+        "name": "Belly Button",
+        "weight": 1
+      },
+      {
+        "name": "Binky",
+        "weight": 1
+      },
+      {
+        "name": "Blood Clot",
+        "weight": 1
+      },
+      {
+        "name": "Blue Cap",
+        "weight": 1
+      },
+      {
+        "name": "Booster Pack",
+        "weight": 1
+      },
+      {
+        "name": "Box",
+        "weight": 1
+      },
+      {
+        "name": "Breakfast",
+        "weight": 1
+      },
+      {
+        "name": "Caffeine Pill",
+        "weight": 1
+      },
+      {
+        "name": "Cat-o-nine-tails",
+        "weight": 1
+      },
+      {
+        "name": "Consolation Prize",
+        "weight": 1
+      },
+      {
+        "name": "Crack Jacks",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Lost Coin",
+        "weight": 1
+      },
+      {
+        "name": "Dessert",
+        "weight": 1
+      },
+      {
+        "name": "Dinner",
+        "weight": 1
+      },
+      {
+        "name": "Divorce Papers",
+        "weight": 1
+      },
+      {
+        "name": "Experimental Treatment",
+        "weight": 1
+      },
+      {
+        "name": "Eye Drops",
+        "weight": 1
+      },
+      {
+        "name": "Glass Eye",
+        "weight": 1
+      },
+      {
+        "name": "Growth Hormones",
+        "weight": 1
+      },
+      {
+        "name": "Jesus Juice",
+        "weight": 1
+      },
+      {
+        "name": "Latch Key",
+        "weight": 1
+      },
+      {
+        "name": "Lunch",
+        "weight": 1
+      },
+      {
+        "name": "MEAT!",
+        "weight": 1
+      },
+      {
+        "name": "Magic 8 Ball",
+        "weight": 1
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": "0.2"
+      },
+      {
+        "name": "Magic Scab",
+        "weight": 1
+      },
+      {
+        "name": "Marbles",
+        "weight": 1
+      },
+      {
+        "name": "Marrow",
+        "weight": 1
+      },
+      {
+        "name": "Match Book",
+        "weight": 1
+      },
+      {
+        "name": "Midnight Snack",
+        "weight": 1
+      },
+      {
+        "name": "Mini Mush",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Heels",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Lipstick",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pearls",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Underwear",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Dolly",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Large)",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Thin)",
+        "weight": 1
+      },
+      {
+        "name": "Old Bandage",
+        "weight": 1
+      },
+      {
+        "name": "PJs",
+        "weight": "0.5"
+      },
+      {
+        "name": "PJs",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Placenta",
+        "weight": 1
+      },
+      {
+        "name": "Polydactyly",
+        "weight": 1
+      },
+      {
+        "name": "Raw Liver",
+        "weight": "0.2"
+      },
+      {
+        "name": "Raw Liver",
+        "weight": 1
+      },
+      {
+        "name": "Roid Rage",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Meat",
+        "weight": 1
+      },
+      {
+        "name": "Safety Pin",
+        "weight": 1
+      },
+      {
+        "name": "Screw",
+        "weight": 1
+      },
+      {
+        "name": "Speed Ball",
+        "weight": 1
+      },
+      {
+        "name": "Squeezy",
+        "weight": 1
+      },
+      {
+        "name": "Stapler",
+        "weight": 1
+      },
+      {
+        "name": "Stem Cells",
+        "weight": 1
+      },
+      {
+        "name": "Stye",
+        "weight": 1
+      },
+      {
+        "name": "Super Bandage",
+        "weight": "0.5"
+      },
+      {
+        "name": "Supper",
+        "weight": 1
+      },
+      {
+        "name": "Synthoil",
+        "weight": 1
+      },
+      {
+        "name": "The Belt",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": "0.5"
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "Thunder Thighs",
+        "weight": 1
+      },
+      {
+        "name": "Tooth Picks",
+        "weight": 1
+      },
+      {
+        "name": "Torn Photo",
+        "weight": 1
+      },
+      {
+        "name": "Tropicamide",
+        "weight": 1
+      },
+      {
+        "name": "Wire Coat Hanger",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Spoon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_boss.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Boss.png"
+  },
+  {
+    "name": "Greed Curse Room",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Athame",
+        "weight": 1
+      },
+      {
+        "name": "Black Candle",
+        "weight": 1
+      },
+      {
+        "name": "Blood Oath",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Ceremonial Robes",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Curse of the Tower",
+        "weight": 1
+      },
+      {
+        "name": "Dark Prince's Crown",
+        "weight": 1
+      },
+      {
+        "name": "Dead Cat",
+        "weight": 1
+      },
+      {
+        "name": "Euthanasia",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": "0.5"
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Paw",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Tail",
+        "weight": 1
+      },
+      {
+        "name": "Heartbreak",
+        "weight": "0.5"
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Magic Skin",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Altar",
+        "weight": 1
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Shade",
+        "weight": 1
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "Vengeful Spirit",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_curse_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Curse_Room.png"
+  },
+  {
+    "name": "Greed Devil Room",
+    "is_greed": true,
+    "price_type": "health",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "2Spooky",
+        "weight": 1
+      },
+      {
+        "name": "7 Seals",
+        "weight": 1
+      },
+      {
+        "name": "A Lump of Coal",
+        "weight": 1
+      },
+      {
+        "name": "A Quarter",
+        "weight": 1
+      },
+      {
+        "name": "Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Abyss",
+        "weight": "0.5"
+      },
+      {
+        "name": "Athame",
+        "weight": 1
+      },
+      {
+        "name": "Azazel's Rage",
+        "weight": 1
+      },
+      {
+        "name": "Backstabber",
+        "weight": 1
+      },
+      {
+        "name": "Berserk!",
+        "weight": "0.5"
+      },
+      {
+        "name": "Betrayal",
+        "weight": 1
+      },
+      {
+        "name": "Black Powder",
+        "weight": 1
+      },
+      {
+        "name": "Blood Oath",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Gust",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Lust",
+        "weight": 1
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Cambion Conception",
+        "weight": 1
+      },
+      {
+        "name": "Ceremonial Robes",
+        "weight": 1
+      },
+      {
+        "name": "Contract From Below",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Damocles",
+        "weight": 1
+      },
+      {
+        "name": "Dark Arts",
+        "weight": "0.5"
+      },
+      {
+        "name": "Dark Matter",
+        "weight": 1
+      },
+      {
+        "name": "Dark Prince's Crown",
+        "weight": 1
+      },
+      {
+        "name": "Dead Bird",
+        "weight": 1
+      },
+      {
+        "name": "Dead Cat",
+        "weight": 1
+      },
+      {
+        "name": "Death's Touch",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Dry Baby",
+        "weight": 1
+      },
+      {
+        "name": "Empty Vessel",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Belial",
+        "weight": 1
+      },
+      {
+        "name": "Eye of the Occult",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": 1
+      },
+      {
+        "name": "Gello",
+        "weight": 1
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Hairball",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Paw",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Tail",
+        "weight": 1
+      },
+      {
+        "name": "Headless Baby",
+        "weight": 1
+      },
+      {
+        "name": "Heartbreak",
+        "weight": "0.5"
+      },
+      {
+        "name": "Hungry Soul",
+        "weight": 1
+      },
+      {
+        "name": "Incubus",
+        "weight": 1
+      },
+      {
+        "name": "Judas' Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Leech",
+        "weight": 1
+      },
+      {
+        "name": "Lemegeton",
+        "weight": "0.5"
+      },
+      {
+        "name": "Lil Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Lil Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Lil Delirium",
+        "weight": 1
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Lord of the Pit",
+        "weight": 1
+      },
+      {
+        "name": "Lusty Blood",
+        "weight": 1
+      },
+      {
+        "name": "Maw Of The Void",
+        "weight": 1
+      },
+      {
+        "name": "Mega Blast",
+        "weight": "0.2"
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": 1
+      },
+      {
+        "name": "Money Power",
+        "weight": 1
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Multidimensional Baby",
+        "weight": 1
+      },
+      {
+        "name": "My Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Ocular Rift",
+        "weight": 1
+      },
+      {
+        "name": "Ouija Board",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Purgatory",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Altar",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "weight": 1
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Satanic Bible",
+        "weight": 1
+      },
+      {
+        "name": "Shade",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Spirit of the Night",
+        "weight": 1
+      },
+      {
+        "name": "Succubus",
+        "weight": 1
+      },
+      {
+        "name": "Sulfur",
+        "weight": 1
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "Technology",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Book of Belial",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Nail",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "Twisted Pair",
+        "weight": 1
+      },
+      {
+        "name": "Vengeful Spirit",
+        "weight": 1
+      },
+      {
+        "name": "Whore of Babylon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_devil_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Devil_Room.png"
+  },
+  {
+    "name": "Greed Golden Chest",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Abel",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Rotten Head",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Head",
+        "weight": 1
+      },
+      {
+        "name": "Fate",
+        "weight": 1
+      },
+      {
+        "name": "Fate's Reward",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Steven",
+        "weight": 1
+      },
+      {
+        "name": "Tammy's Head",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_golden_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Golden_Chest.png"
+  },
+  {
+    "name": "Greed Library",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Anarchist Cookbook",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of Secrets",
+        "weight": 1
+      },
+      {
+        "name": "Book of Shadows",
+        "weight": 1
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Satanic Bible",
+        "weight": 1
+      },
+      {
+        "name": "Telepathy For Dummies",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Belial",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_library.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Library.png"
+  },
+  {
+    "name": "Greed Secret Room",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "1up!",
+        "weight": 1
+      },
+      {
+        "name": "Astral Projection",
+        "weight": 1
+      },
+      {
+        "name": "Binge Eater",
+        "weight": 1
+      },
+      {
+        "name": "Black Lotus",
+        "weight": 1
+      },
+      {
+        "name": "Blank Card",
+        "weight": 1
+      },
+      {
+        "name": "Chaos",
+        "weight": 1
+      },
+      {
+        "name": "Clear Rune",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Cursed Eye",
+        "weight": 1
+      },
+      {
+        "name": "D infinity",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Ring",
+        "weight": 1
+      },
+      {
+        "name": "Death Certificate",
+        "weight": 1
+      },
+      {
+        "name": "Echo Chamber",
+        "weight": 1
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": 1
+      },
+      {
+        "name": "Eternal D6",
+        "weight": 1
+      },
+      {
+        "name": "Evil Charm",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Greed",
+        "weight": 1
+      },
+      {
+        "name": "Flip",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": 1
+      },
+      {
+        "name": "GB Bug",
+        "weight": 1
+      },
+      {
+        "name": "Glitched Crown",
+        "weight": 1
+      },
+      {
+        "name": "Greed's Gullet",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Inner Child",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Tomb",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Box",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Kin",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Sack",
+        "weight": 1
+      },
+      {
+        "name": "Lost Contact",
+        "weight": 1
+      },
+      {
+        "name": "Lost Soul",
+        "weight": 1
+      },
+      {
+        "name": "Mega Mush",
+        "weight": 1
+      },
+      {
+        "name": "Missing No.",
+        "weight": 1
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Large)",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Thin)",
+        "weight": 1
+      },
+      {
+        "name": "Orphan Socks",
+        "weight": 1
+      },
+      {
+        "name": "Placebo",
+        "weight": 1
+      },
+      {
+        "name": "Pyro",
+        "weight": 1
+      },
+      {
+        "name": "R Key",
+        "weight": 1
+      },
+      {
+        "name": "Raw Liver",
+        "weight": 1
+      },
+      {
+        "name": "Rock Bottom",
+        "weight": 1
+      },
+      {
+        "name": "Rune Bag",
+        "weight": 1
+      },
+      {
+        "name": "Sack Head",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Sacks",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Orb",
+        "weight": "0.5"
+      },
+      {
+        "name": "Samson's Chains",
+        "weight": 1
+      },
+      {
+        "name": "Sausage",
+        "weight": 1
+      },
+      {
+        "name": "Skeleton Key",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": 1
+      },
+      {
+        "name": "Spirit Shackles",
+        "weight": 1
+      },
+      {
+        "name": "Strawman",
+        "weight": 1
+      },
+      {
+        "name": "TMTRAINER",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      },
+      {
+        "name": "Transcendence",
+        "weight": 1
+      },
+      {
+        "name": "Wavy Cap",
+        "weight": 1
+      },
+      {
+        "name": "We Need To Go Deeper!",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_secret_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Secret_Room.png"
+  },
+  {
+    "name": "Greed Shop",
+    "is_greed": true,
+    "price_type": "coins",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "1up!",
+        "weight": "0.1"
+      },
+      {
+        "name": "1up!",
+        "weight": 1
+      },
+      {
+        "name": "4.5 Volt",
+        "weight": 1
+      },
+      {
+        "name": "9 Volt",
+        "weight": 1
+      },
+      {
+        "name": "Alabaster Box",
+        "weight": 1
+      },
+      {
+        "name": "Anima Sola",
+        "weight": "0.1"
+      },
+      {
+        "name": "BFFS!",
+        "weight": 1
+      },
+      {
+        "name": "Battery Pack",
+        "weight": 1
+      },
+      {
+        "name": "Birthright",
+        "weight": 1
+      },
+      {
+        "name": "Black Candle",
+        "weight": 1
+      },
+      {
+        "name": "Black Hole",
+        "weight": 1
+      },
+      {
+        "name": "Blank Card",
+        "weight": "0.5"
+      },
+      {
+        "name": "Blank Card",
+        "weight": 1
+      },
+      {
+        "name": "Blanket",
+        "weight": 1
+      },
+      {
+        "name": "Blue Map",
+        "weight": 1
+      },
+      {
+        "name": "Booster Pack",
+        "weight": 1
+      },
+      {
+        "name": "Buddy in a Box",
+        "weight": 1
+      },
+      {
+        "name": "Car Battery",
+        "weight": 1
+      },
+      {
+        "name": "Champion Belt",
+        "weight": 1
+      },
+      {
+        "name": "Chaos",
+        "weight": "0.5"
+      },
+      {
+        "name": "Chaos",
+        "weight": 1
+      },
+      {
+        "name": "Charged Baby",
+        "weight": 1
+      },
+      {
+        "name": "Clicker",
+        "weight": 1
+      },
+      {
+        "name": "Converter",
+        "weight": 1
+      },
+      {
+        "name": "Coupon",
+        "weight": 1
+      },
+      {
+        "name": "Crooked Penny",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "D infinity",
+        "weight": "0.1"
+      },
+      {
+        "name": "D infinity",
+        "weight": 1
+      },
+      {
+        "name": "D1",
+        "weight": 1
+      },
+      {
+        "name": "D10",
+        "weight": 1
+      },
+      {
+        "name": "D100",
+        "weight": 1
+      },
+      {
+        "name": "D12",
+        "weight": 1
+      },
+      {
+        "name": "D20",
+        "weight": "0.1"
+      },
+      {
+        "name": "D20",
+        "weight": 1
+      },
+      {
+        "name": "D4",
+        "weight": 1
+      },
+      {
+        "name": "D8",
+        "weight": 1
+      },
+      {
+        "name": "Dataminer",
+        "weight": 1
+      },
+      {
+        "name": "Deep Pockets",
+        "weight": 1
+      },
+      {
+        "name": "Diplopia",
+        "weight": 1
+      },
+      {
+        "name": "Dream Catcher",
+        "weight": 1
+      },
+      {
+        "name": "Dull Razor",
+        "weight": 1
+      },
+      {
+        "name": "Echo Chamber",
+        "weight": "0.1"
+      },
+      {
+        "name": "Eraser",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": "0.1"
+      },
+      {
+        "name": "Eternal D6",
+        "weight": "0.5"
+      },
+      {
+        "name": "Fanny Pack",
+        "weight": 1
+      },
+      {
+        "name": "Flip",
+        "weight": "0.1"
+      },
+      {
+        "name": "GB Bug",
+        "weight": 1
+      },
+      {
+        "name": "Glitched Crown",
+        "weight": "0.1"
+      },
+      {
+        "name": "Habit",
+        "weight": 1
+      },
+      {
+        "name": "Hive Mind",
+        "weight": 1
+      },
+      {
+        "name": "Host Hat",
+        "weight": 1
+      },
+      {
+        "name": "Inner Child",
+        "weight": "0.1"
+      },
+      {
+        "name": "Isaac's Tomb",
+        "weight": "0.1"
+      },
+      {
+        "name": "Jar of Flies",
+        "weight": 1
+      },
+      {
+        "name": "King Baby",
+        "weight": 1
+      },
+      {
+        "name": "Little Baggy",
+        "weight": 1
+      },
+      {
+        "name": "Lucky Foot",
+        "weight": 1
+      },
+      {
+        "name": "Mama Mega!",
+        "weight": "0.5"
+      },
+      {
+        "name": "Mama Mega!",
+        "weight": 1
+      },
+      {
+        "name": "Metronome",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bracelet",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Ring",
+        "weight": 1
+      },
+      {
+        "name": "More Options",
+        "weight": 1
+      },
+      {
+        "name": "Mr. ME!",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Gift",
+        "weight": 1
+      },
+      {
+        "name": "Notched Axe",
+        "weight": 1
+      },
+      {
+        "name": "PHD",
+        "weight": 1
+      },
+      {
+        "name": "Pandora's Box",
+        "weight": 1
+      },
+      {
+        "name": "Pause",
+        "weight": 1
+      },
+      {
+        "name": "Pay To Play",
+        "weight": 1
+      },
+      {
+        "name": "Placebo",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Poke Go",
+        "weight": 1
+      },
+      {
+        "name": "Potato Peeler",
+        "weight": 1
+      },
+      {
+        "name": "R Key",
+        "weight": "0.1"
+      },
+      {
+        "name": "Red Candle",
+        "weight": 1
+      },
+      {
+        "name": "Red Stew",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Sacks",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Orb",
+        "weight": "0.1"
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Schoolbag",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Key",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Plug",
+        "weight": 1
+      },
+      {
+        "name": "Smelter",
+        "weight": 1
+      },
+      {
+        "name": "Spelunker Hat",
+        "weight": 1
+      },
+      {
+        "name": "Spider Mod",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": "0.1"
+      },
+      {
+        "name": "Spirit Shackles",
+        "weight": "0.1"
+      },
+      {
+        "name": "Sprinkler",
+        "weight": 1
+      },
+      {
+        "name": "Starter Deck",
+        "weight": 1
+      },
+      {
+        "name": "Stop Watch",
+        "weight": "0.1"
+      },
+      {
+        "name": "Strawman",
+        "weight": "0.1"
+      },
+      {
+        "name": "TMTRAINER",
+        "weight": "0.1"
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "The Battery",
+        "weight": 1
+      },
+      {
+        "name": "The Boomerang",
+        "weight": 1
+      },
+      {
+        "name": "The Candle",
+        "weight": 1
+      },
+      {
+        "name": "The D6",
+        "weight": 1
+      },
+      {
+        "name": "The Jar",
+        "weight": 1
+      },
+      {
+        "name": "Void",
+        "weight": 1
+      },
+      {
+        "name": "We Need To Go Deeper!",
+        "weight": 1
+      },
+      {
+        "name": "X-Ray Vision",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_shop.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Shop.png"
+  },
+  {
+    "name": "Greed Treasure Room",
+    "is_greed": true,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "120 Volt",
+        "weight": 1
+      },
+      {
+        "name": "20/20",
+        "weight": 1
+      },
+      {
+        "name": "3 Dollar Bill",
+        "weight": 1
+      },
+      {
+        "name": "8 Inch Nails",
+        "weight": 1
+      },
+      {
+        "name": "<3",
+        "weight": 1
+      },
+      {
+        "name": "???'s Only Friend",
+        "weight": 1
+      },
+      {
+        "name": "A Lump of Coal",
+        "weight": 1
+      },
+      {
+        "name": "Abel",
+        "weight": 1
+      },
+      {
+        "name": "Acid Baby",
+        "weight": 1
+      },
+      {
+        "name": "Adrenaline",
+        "weight": 1
+      },
+      {
+        "name": "Akeldama",
+        "weight": 1
+      },
+      {
+        "name": "Almond Milk",
+        "weight": 1
+      },
+      {
+        "name": "Analog Stick",
+        "weight": 1
+      },
+      {
+        "name": "Anarchist Cookbook",
+        "weight": 1
+      },
+      {
+        "name": "Anemic",
+        "weight": 1
+      },
+      {
+        "name": "Anima Sola",
+        "weight": "0.1"
+      },
+      {
+        "name": "Anima Sola",
+        "weight": "0.5"
+      },
+      {
+        "name": "Ankh",
+        "weight": 1
+      },
+      {
+        "name": "Anti-Gravity",
+        "weight": 1
+      },
+      {
+        "name": "Apple!",
+        "weight": 1
+      },
+      {
+        "name": "Aquarius",
+        "weight": 1
+      },
+      {
+        "name": "Aries",
+        "weight": 1
+      },
+      {
+        "name": "Astral Projection",
+        "weight": "0.5"
+      },
+      {
+        "name": "BBF",
+        "weight": 1
+      },
+      {
+        "name": "BOGO Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Backstabber",
+        "weight": 1
+      },
+      {
+        "name": "Bag of Crafting",
+        "weight": 1
+      },
+      {
+        "name": "Ball of Tar",
+        "weight": 1
+      },
+      {
+        "name": "Belly Button",
+        "weight": 1
+      },
+      {
+        "name": "Belly Jelly",
+        "weight": 1
+      },
+      {
+        "name": "Best Bud",
+        "weight": 1
+      },
+      {
+        "name": "Best Friend",
+        "weight": 1
+      },
+      {
+        "name": "Betrayal",
+        "weight": 1
+      },
+      {
+        "name": "Big Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Big Fan",
+        "weight": 1
+      },
+      {
+        "name": "Bird Cage",
+        "weight": 1
+      },
+      {
+        "name": "Bird's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Black Lotus",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Blood Clot",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Blood Rights",
+        "weight": 1
+      },
+      {
+        "name": "Blood of the Martyr",
+        "weight": 1
+      },
+      {
+        "name": "Bloodshot Eye",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Gust",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Lust",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Curse",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Rotten Head",
+        "weight": 1
+      },
+      {
+        "name": "Bobby-Bomb",
+        "weight": 1
+      },
+      {
+        "name": "Boiled Baby",
+        "weight": 1
+      },
+      {
+        "name": "Bomb Bag",
+        "weight": 1
+      },
+      {
+        "name": "Bomber Boy",
+        "weight": 1
+      },
+      {
+        "name": "Bone Spurs",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "Boom!",
+        "weight": 1
+      },
+      {
+        "name": "Bot Fly",
+        "weight": 1
+      },
+      {
+        "name": "Box of Friends",
+        "weight": 1
+      },
+      {
+        "name": "Box of Spiders",
+        "weight": 1
+      },
+      {
+        "name": "Bozo",
+        "weight": 1
+      },
+      {
+        "name": "Brittle Bones",
+        "weight": 1
+      },
+      {
+        "name": "Broken Modem",
+        "weight": 1
+      },
+      {
+        "name": "Brother Bobby",
+        "weight": 1
+      },
+      {
+        "name": "Brown Nugget",
+        "weight": 1
+      },
+      {
+        "name": "Bucket of Lard",
+        "weight": 1
+      },
+      {
+        "name": "Bursting Sack",
+        "weight": 1
+      },
+      {
+        "name": "Butt Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Butter Bean",
+        "weight": 1
+      },
+      {
+        "name": "C Section",
+        "weight": 1
+      },
+      {
+        "name": "Cain's Other Eye",
+        "weight": 1
+      },
+      {
+        "name": "Camo Undies",
+        "weight": 1
+      },
+      {
+        "name": "Cancer",
+        "weight": 1
+      },
+      {
+        "name": "Candy Heart",
+        "weight": 1
+      },
+      {
+        "name": "Capricorn",
+        "weight": 1
+      },
+      {
+        "name": "Celtic Cross",
+        "weight": 1
+      },
+      {
+        "name": "Charm of the Vampire",
+        "weight": 1
+      },
+      {
+        "name": "Chemical Peel",
+        "weight": 1
+      },
+      {
+        "name": "Chocolate Milk",
+        "weight": 1
+      },
+      {
+        "name": "Compound Fracture",
+        "weight": 1
+      },
+      {
+        "name": "Cone Head",
+        "weight": 1
+      },
+      {
+        "name": "Contagion",
+        "weight": 1
+      },
+      {
+        "name": "Continuum",
+        "weight": 1
+      },
+      {
+        "name": "Crack the Sky",
+        "weight": 1
+      },
+      {
+        "name": "Cracked Orb",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Body",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Head",
+        "weight": 1
+      },
+      {
+        "name": "Cube Baby",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "Cupid's Arrow",
+        "weight": 1
+      },
+      {
+        "name": "Curse of the Tower",
+        "weight": 1
+      },
+      {
+        "name": "Cursed Eye",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Key",
+        "weight": 1
+      },
+      {
+        "name": "Daddy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Dead Bird",
+        "weight": 1
+      },
+      {
+        "name": "Dead Eye",
+        "weight": 1
+      },
+      {
+        "name": "Dead Onion",
+        "weight": 1
+      },
+      {
+        "name": "Dead Sea Scrolls",
+        "weight": 1
+      },
+      {
+        "name": "Dead Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Death's Touch",
+        "weight": "0.2"
+      },
+      {
+        "name": "Death's Touch",
+        "weight": 1
+      },
+      {
+        "name": "Decap Attack",
+        "weight": 1
+      },
+      {
+        "name": "Deck of Cards",
+        "weight": 1
+      },
+      {
+        "name": "Deep Pockets",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Depression",
+        "weight": 1
+      },
+      {
+        "name": "Dirty Mind",
+        "weight": 1
+      },
+      {
+        "name": "Distant Admiration",
+        "weight": 1
+      },
+      {
+        "name": "Doctor's Remote",
+        "weight": 1
+      },
+      {
+        "name": "Dog Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Dr. Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Dry Baby",
+        "weight": 1
+      },
+      {
+        "name": "E. Coli",
+        "weight": 1
+      },
+      {
+        "name": "Eden's Blessing",
+        "weight": 1
+      },
+      {
+        "name": "Empty Heart",
+        "weight": 1
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": "0.1"
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Epiphora",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": "0.5"
+      },
+      {
+        "name": "Eternal D6",
+        "weight": "0.5"
+      },
+      {
+        "name": "Euthanasia",
+        "weight": 1
+      },
+      {
+        "name": "Eve's Mascara",
+        "weight": 1
+      },
+      {
+        "name": "Everything Jar",
+        "weight": 1
+      },
+      {
+        "name": "Evil Eye",
+        "weight": 1
+      },
+      {
+        "name": "Explosivo",
+        "weight": 1
+      },
+      {
+        "name": "Eye Sore",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Greed",
+        "weight": 1
+      },
+      {
+        "name": "Farting Baby",
+        "weight": 1
+      },
+      {
+        "name": "Fate's Reward",
+        "weight": 1
+      },
+      {
+        "name": "Finger!",
+        "weight": 1
+      },
+      {
+        "name": "Fire Mind",
+        "weight": 1
+      },
+      {
+        "name": "Flat Stone",
+        "weight": 1
+      },
+      {
+        "name": "Flush!",
+        "weight": 1
+      },
+      {
+        "name": "Forever alone",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": 1
+      },
+      {
+        "name": "Fortune Cookie",
+        "weight": 1
+      },
+      {
+        "name": "Free Lemonade",
+        "weight": 1
+      },
+      {
+        "name": "Freezer Baby",
+        "weight": 1
+      },
+      {
+        "name": "Friend Finder",
+        "weight": 1
+      },
+      {
+        "name": "Friend Zone",
+        "weight": 1
+      },
+      {
+        "name": "Friendly Ball",
+        "weight": 1
+      },
+      {
+        "name": "Fruit Cake",
+        "weight": 1
+      },
+      {
+        "name": "Fruity Plum",
+        "weight": 1
+      },
+      {
+        "name": "Gello",
+        "weight": "0.5"
+      },
+      {
+        "name": "Gemini",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Baby",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Pepper",
+        "weight": 1
+      },
+      {
+        "name": "Giant Cell",
+        "weight": 1
+      },
+      {
+        "name": "Glass Cannon",
+        "weight": 1
+      },
+      {
+        "name": "Glaucoma",
+        "weight": 1
+      },
+      {
+        "name": "Glitter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Glowing Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "Gnawed Leaf",
+        "weight": 1
+      },
+      {
+        "name": "God's Flesh",
+        "weight": 1
+      },
+      {
+        "name": "Godhead",
+        "weight": 1
+      },
+      {
+        "name": "Golden Razor",
+        "weight": 1
+      },
+      {
+        "name": "Guillotine",
+        "weight": 1
+      },
+      {
+        "name": "Haemolacria",
+        "weight": 1
+      },
+      {
+        "name": "Hallowed Ground",
+        "weight": 1
+      },
+      {
+        "name": "Halo of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Harlequin Baby",
+        "weight": 1
+      },
+      {
+        "name": "Headless Baby",
+        "weight": 1
+      },
+      {
+        "name": "Hemoptysis",
+        "weight": 1
+      },
+      {
+        "name": "Holy Light",
+        "weight": "0.2"
+      },
+      {
+        "name": "Holy Light",
+        "weight": 1
+      },
+      {
+        "name": "Holy Water",
+        "weight": 1
+      },
+      {
+        "name": "Host Hat",
+        "weight": 1
+      },
+      {
+        "name": "Hot Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Humbleing Bundle",
+        "weight": "0.2"
+      },
+      {
+        "name": "Hushy",
+        "weight": 1
+      },
+      {
+        "name": "Hypercoagulation",
+        "weight": 1
+      },
+      {
+        "name": "IBS",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Infestation",
+        "weight": 1
+      },
+      {
+        "name": "Infestation 2",
+        "weight": 1
+      },
+      {
+        "name": "Ipecac",
+        "weight": 1
+      },
+      {
+        "name": "Iron Bar",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Heart",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Tears",
+        "weight": 1
+      },
+      {
+        "name": "It Hurts",
+        "weight": 1
+      },
+      {
+        "name": "Jacob's Ladder",
+        "weight": 1
+      },
+      {
+        "name": "Jar of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Jaw Bone",
+        "weight": 1
+      },
+      {
+        "name": "Judas' Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Juicy Sack",
+        "weight": 1
+      },
+      {
+        "name": "Jumper Cables",
+        "weight": 1
+      },
+      {
+        "name": "Kamikaze!",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Box",
+        "weight": "0.2"
+      },
+      {
+        "name": "Keeper's Kin",
+        "weight": "0.2"
+      },
+      {
+        "name": "Keeper's Sack",
+        "weight": "0.2"
+      },
+      {
+        "name": "Kidney Bean",
+        "weight": 1
+      },
+      {
+        "name": "Kidney Stone",
+        "weight": 1
+      },
+      {
+        "name": "Knockout Drops",
+        "weight": 1
+      },
+      {
+        "name": "Lachryphagy",
+        "weight": 1
+      },
+      {
+        "name": "Large Zit",
+        "weight": 1
+      },
+      {
+        "name": "Larynx",
+        "weight": 1
+      },
+      {
+        "name": "Lazarus' Rags",
+        "weight": 1
+      },
+      {
+        "name": "Lead Pencil",
+        "weight": 1
+      },
+      {
+        "name": "Leech",
+        "weight": 1
+      },
+      {
+        "name": "Lemon Mishap",
+        "weight": 1
+      },
+      {
+        "name": "Leo",
+        "weight": 1
+      },
+      {
+        "name": "Leprosy",
+        "weight": 1
+      },
+      {
+        "name": "Libra",
+        "weight": 1
+      },
+      {
+        "name": "Lil Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Lil Chest",
+        "weight": 1
+      },
+      {
+        "name": "Lil Dumpy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Gurdy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Haunt",
+        "weight": 1
+      },
+      {
+        "name": "Lil Loki",
+        "weight": 1
+      },
+      {
+        "name": "Lil Monstro",
+        "weight": 1
+      },
+      {
+        "name": "Lil Portal",
+        "weight": 1
+      },
+      {
+        "name": "Lil Spewer",
+        "weight": 1
+      },
+      {
+        "name": "Linger Bean",
+        "weight": 1
+      },
+      {
+        "name": "Little C.H.A.D.",
+        "weight": 1
+      },
+      {
+        "name": "Little Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Little Gish",
+        "weight": 1
+      },
+      {
+        "name": "Little Horn",
+        "weight": 1
+      },
+      {
+        "name": "Little Steven",
+        "weight": 1
+      },
+      {
+        "name": "Lodestone",
+        "weight": 1
+      },
+      {
+        "name": "Loki's Horns",
+        "weight": 1
+      },
+      {
+        "name": "Lost Contact",
+        "weight": 1
+      },
+      {
+        "name": "Lost Fly",
+        "weight": 1
+      },
+      {
+        "name": "Lost Soul",
+        "weight": 1
+      },
+      {
+        "name": "Lusty Blood",
+        "weight": 1
+      },
+      {
+        "name": "Maggy's Bow",
+        "weight": 1
+      },
+      {
+        "name": "Magic Fingers",
+        "weight": 1
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": "0.5"
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": 1
+      },
+      {
+        "name": "Marked",
+        "weight": 1
+      },
+      {
+        "name": "Meat Cleaver",
+        "weight": 1
+      },
+      {
+        "name": "Mega Bean",
+        "weight": 1
+      },
+      {
+        "name": "Mega Mush",
+        "weight": "0.5"
+      },
+      {
+        "name": "Member Card",
+        "weight": 1
+      },
+      {
+        "name": "Metal Plate",
+        "weight": 1
+      },
+      {
+        "name": "Midas' Touch",
+        "weight": 1
+      },
+      {
+        "name": "Milk!",
+        "weight": 1
+      },
+      {
+        "name": "Mine Crafter",
+        "weight": 1
+      },
+      {
+        "name": "Missing No.",
+        "weight": "0.1"
+      },
+      {
+        "name": "Missing No.",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bra",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Contacts",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eyeshadow",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": "0.2"
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pad",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Perfume",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Razor",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Wig",
+        "weight": 1
+      },
+      {
+        "name": "Mongo Baby",
+        "weight": 1
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Monstro's Lung",
+        "weight": 1
+      },
+      {
+        "name": "Monstro's Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Montezuma's Revenge",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Boom",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Mega",
+        "weight": 1
+      },
+      {
+        "name": "Mucormycosis",
+        "weight": 1
+      },
+      {
+        "name": "Multidimensional Baby",
+        "weight": 1
+      },
+      {
+        "name": "Mutant Spider",
+        "weight": 1
+      },
+      {
+        "name": "My Little Unicorn",
+        "weight": 1
+      },
+      {
+        "name": "My Reflection",
+        "weight": 1
+      },
+      {
+        "name": "Mysterious Liquid",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Egg",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Nancy Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Night Light",
+        "weight": 1
+      },
+      {
+        "name": "No. 2",
+        "weight": 1
+      },
+      {
+        "name": "Number One",
+        "weight": 1
+      },
+      {
+        "name": "Obsessed Fan",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Large)",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Thin)",
+        "weight": 1
+      },
+      {
+        "name": "Ouija Board",
+        "weight": 1
+      },
+      {
+        "name": "Papa Fly",
+        "weight": 1
+      },
+      {
+        "name": "Parasitoid",
+        "weight": 1
+      },
+      {
+        "name": "Pay To Play",
+        "weight": 1
+      },
+      {
+        "name": "Pisces",
+        "weight": 1
+      },
+      {
+        "name": "Playdough Cookie",
+        "weight": 1
+      },
+      {
+        "name": "Plum Flute",
+        "weight": "0.5"
+      },
+      {
+        "name": "Pointy Rib",
+        "weight": 1
+      },
+      {
+        "name": "Polydactyly",
+        "weight": 1
+      },
+      {
+        "name": "Polyphemus",
+        "weight": 1
+      },
+      {
+        "name": "Pop!",
+        "weight": 1
+      },
+      {
+        "name": "Prayer Card",
+        "weight": 1
+      },
+      {
+        "name": "Proptosis",
+        "weight": 1
+      },
+      {
+        "name": "Psy Fly",
+        "weight": 1
+      },
+      {
+        "name": "Punching Bag",
+        "weight": 1
+      },
+      {
+        "name": "Pupula Duplex",
+        "weight": 1
+      },
+      {
+        "name": "Purity",
+        "weight": 1
+      },
+      {
+        "name": "Pyro",
+        "weight": "0.1"
+      },
+      {
+        "name": "Pyro",
+        "weight": 1
+      },
+      {
+        "name": "Pyromaniac",
+        "weight": 1
+      },
+      {
+        "name": "Quints",
+        "weight": 1
+      },
+      {
+        "name": "Rainbow Baby",
+        "weight": 1
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby 2.0",
+        "weight": 1
+      },
+      {
+        "name": "Rocket in a Jar",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Tomato",
+        "weight": 1
+      },
+      {
+        "name": "Rubber Cement",
+        "weight": 1
+      },
+      {
+        "name": "Rune Bag",
+        "weight": 1
+      },
+      {
+        "name": "SMB Super Fan",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Pennies",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "weight": 1
+      },
+      {
+        "name": "Sad Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Sagittarius",
+        "weight": 1
+      },
+      {
+        "name": "Samson's Chains",
+        "weight": 1
+      },
+      {
+        "name": "Scapular",
+        "weight": 1
+      },
+      {
+        "name": "Scatter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Scissors",
+        "weight": 1
+      },
+      {
+        "name": "Scorpio",
+        "weight": 1
+      },
+      {
+        "name": "Seraphim",
+        "weight": 1
+      },
+      {
+        "name": "Serpent's Kiss",
+        "weight": 1
+      },
+      {
+        "name": "Shard of Glass",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Straw",
+        "weight": 1
+      },
+      {
+        "name": "Shoop da Whoop!",
+        "weight": 1
+      },
+      {
+        "name": "Sinus Infection",
+        "weight": 1
+      },
+      {
+        "name": "Sissy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Skeleton Key",
+        "weight": "0.1"
+      },
+      {
+        "name": "Slipped Rib",
+        "weight": 1
+      },
+      {
+        "name": "Smart Fly",
+        "weight": 1
+      },
+      {
+        "name": "Soy Milk",
+        "weight": 1
+      },
+      {
+        "name": "Spider Bite",
+        "weight": 1
+      },
+      {
+        "name": "Spider Butt",
+        "weight": 1
+      },
+      {
+        "name": "Spiderbaby",
+        "weight": 1
+      },
+      {
+        "name": "Spin to Win",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": "0.1"
+      },
+      {
+        "name": "Spoon Bender",
+        "weight": 1
+      },
+      {
+        "name": "Sprinkler",
+        "weight": 1
+      },
+      {
+        "name": "Steam Sale",
+        "weight": 1
+      },
+      {
+        "name": "Steven",
+        "weight": 1
+      },
+      {
+        "name": "Sticky Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Stigmata",
+        "weight": 1
+      },
+      {
+        "name": "Stitches",
+        "weight": 1
+      },
+      {
+        "name": "Strange Attractor",
+        "weight": 1
+      },
+      {
+        "name": "Strawman",
+        "weight": "0.5"
+      },
+      {
+        "name": "Sulfuric Acid",
+        "weight": 1
+      },
+      {
+        "name": "Sumptorium",
+        "weight": 1
+      },
+      {
+        "name": "Super Bandage",
+        "weight": 1
+      },
+      {
+        "name": "Suplex!",
+        "weight": 1
+      },
+      {
+        "name": "TMTRAINER",
+        "weight": "0.1"
+      },
+      {
+        "name": "Tammy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Taurus",
+        "weight": 1
+      },
+      {
+        "name": "Tear Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Tech X",
+        "weight": 1
+      },
+      {
+        "name": "Tech.5",
+        "weight": 1
+      },
+      {
+        "name": "Technology",
+        "weight": 1
+      },
+      {
+        "name": "Technology 2",
+        "weight": 1
+      },
+      {
+        "name": "Technology Zero",
+        "weight": 1
+      },
+      {
+        "name": "Telekinesis",
+        "weight": 1
+      },
+      {
+        "name": "Telepathy For Dummies",
+        "weight": 1
+      },
+      {
+        "name": "The Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Black Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Body",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Body",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Belial",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Common Cold",
+        "weight": 1
+      },
+      {
+        "name": "The Gamekid",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": "0.5"
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "The Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "The Inner Eye",
+        "weight": 1
+      },
+      {
+        "name": "The Intruder",
+        "weight": 1
+      },
+      {
+        "name": "The Ludovico Technique",
+        "weight": 1
+      },
+      {
+        "name": "The Mind",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Mind",
+        "weight": 1
+      },
+      {
+        "name": "The Mulligan",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      },
+      {
+        "name": "The Parasite",
+        "weight": 1
+      },
+      {
+        "name": "The Peeper",
+        "weight": 1
+      },
+      {
+        "name": "The Pinking Shears",
+        "weight": 1
+      },
+      {
+        "name": "The Poop",
+        "weight": 1
+      },
+      {
+        "name": "The Relic",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Relic",
+        "weight": 1
+      },
+      {
+        "name": "The Sad Onion",
+        "weight": 1
+      },
+      {
+        "name": "The Scooper",
+        "weight": 1
+      },
+      {
+        "name": "The Soul",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Soul",
+        "weight": 1
+      },
+      {
+        "name": "The Swarm",
+        "weight": 1
+      },
+      {
+        "name": "The Virus",
+        "weight": 1
+      },
+      {
+        "name": "The Wafer",
+        "weight": 1
+      },
+      {
+        "name": "The Wiz",
+        "weight": 1
+      },
+      {
+        "name": "Thunder Thighs",
+        "weight": 1
+      },
+      {
+        "name": "Tiny Planet",
+        "weight": 1
+      },
+      {
+        "name": "Tinytoma",
+        "weight": 1
+      },
+      {
+        "name": "Tooth and Nail",
+        "weight": 1
+      },
+      {
+        "name": "Tough Love",
+        "weight": 1
+      },
+      {
+        "name": "Tractor Beam",
+        "weight": 1
+      },
+      {
+        "name": "Varicose Veins",
+        "weight": 1
+      },
+      {
+        "name": "Vasculitis",
+        "weight": 1
+      },
+      {
+        "name": "Virgo",
+        "weight": 1
+      },
+      {
+        "name": "Wait What?",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Nickel",
+        "weight": 1
+      },
+      {
+        "name": "Worm Friend",
+        "weight": 1
+      },
+      {
+        "name": "YO LISTEN!",
+        "weight": 1
+      },
+      {
+        "name": "Yuck Heart",
+        "weight": 1
+      },
+      {
+        "name": "Yum Heart",
+        "weight": 1
+      },
+      {
+        "name": "Zodiac",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/greed_treasure_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Treasure_Room.png"
+  },
+  {
+    "name": "Key Master",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "???'s Only Friend",
+        "weight": 1
+      },
+      {
+        "name": "Angry Fly",
+        "weight": 1
+      },
+      {
+        "name": "BBF",
+        "weight": 1
+      },
+      {
+        "name": "Best Bud",
+        "weight": 1
+      },
+      {
+        "name": "Big Fan",
+        "weight": 1
+      },
+      {
+        "name": "Bot Fly",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Key",
+        "weight": 1
+      },
+      {
+        "name": "Distant Admiration",
+        "weight": 1
+      },
+      {
+        "name": "Forever alone",
+        "weight": 1
+      },
+      {
+        "name": "Friend Zone",
+        "weight": 1
+      },
+      {
+        "name": "Fruity Plum",
+        "weight": 1
+      },
+      {
+        "name": "Halo of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Key Bum",
+        "weight": 1
+      },
+      {
+        "name": "Latch Key",
+        "weight": 1
+      },
+      {
+        "name": "Lost Fly",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mr. ME!",
+        "weight": 1
+      },
+      {
+        "name": "Obsessed Fan",
+        "weight": 1
+      },
+      {
+        "name": "Papa Fly",
+        "weight": 1
+      },
+      {
+        "name": "Psy Fly",
+        "weight": 1
+      },
+      {
+        "name": "Red Key",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Key",
+        "weight": 1
+      },
+      {
+        "name": "Skeleton Key",
+        "weight": "0.2"
+      },
+      {
+        "name": "Smart Fly",
+        "weight": 1
+      },
+      {
+        "name": "The Swarm",
+        "weight": 1
+      },
+      {
+        "name": "YO LISTEN!",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/key_master.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Key_Master.png"
+  },
+  {
+    "name": "Library",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Anarchist Cookbook",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of Secrets",
+        "weight": 1
+      },
+      {
+        "name": "Book of Shadows",
+        "weight": 1
+      },
+      {
+        "name": "Book of Virtues",
+        "weight": "0.2"
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "How to Jump",
+        "weight": 1
+      },
+      {
+        "name": "Lemegeton",
+        "weight": "0.2"
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Satanic Bible",
+        "weight": 1
+      },
+      {
+        "name": "Telepathy For Dummies",
+        "weight": 1
+      },
+      {
+        "name": "The Bible",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Belial",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/library.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Library.png"
+  },
+  {
+    "name": "Mom's Chest",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bra",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Contacts",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eyeshadow",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Heels",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": "0.1"
+      },
+      {
+        "name": "Mom's Lipstick",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pad",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pearls",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Perfume",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Razor",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Ring",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Underwear",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Wig",
+        "weight": 1
+      },
+      {
+        "name": "Red Key",
+        "weight": "0.5"
+      }
+    ],
+    "image": "images/pool/mom_s_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Mom%27s_Chest.png"
+  },
+  {
+    "name": "Old Chest",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Dad's Key",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Lost Coin",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Ring",
+        "weight": "0.2"
+      },
+      {
+        "name": "Divorce Papers",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bra",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bracelet",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Contacts",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eyeshadow",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Heels",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": "0.2"
+      },
+      {
+        "name": "Mom's Lipstick",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pad",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pearls",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Perfume",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Razor",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Ring",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Underwear",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Wig",
+        "weight": 1
+      },
+      {
+        "name": "Torn Photo",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/old_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Old_Chest.png"
+  },
+  {
+    "name": "Planetarium",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Jupiter",
+        "weight": 1
+      },
+      {
+        "name": "Luna",
+        "weight": 1
+      },
+      {
+        "name": "Mars",
+        "weight": 1
+      },
+      {
+        "name": "Mercurius",
+        "weight": 1
+      },
+      {
+        "name": "Neptunus",
+        "weight": 1
+      },
+      {
+        "name": "Pluto",
+        "weight": 1
+      },
+      {
+        "name": "Saturnus",
+        "weight": 1
+      },
+      {
+        "name": "Sol",
+        "weight": 1
+      },
+      {
+        "name": "Terra",
+        "weight": 1
+      },
+      {
+        "name": "Uranus",
+        "weight": 1
+      },
+      {
+        "name": "Venus",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/planetarium.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Planetarium.png"
+  },
+  {
+    "name": "Red Chest",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Blood Puppy",
+        "weight": "0.5"
+      },
+      {
+        "name": "Bob's Curse",
+        "weight": 1
+      },
+      {
+        "name": "Curse of the Tower",
+        "weight": 1
+      },
+      {
+        "name": "Cursed Eye",
+        "weight": 1
+      },
+      {
+        "name": "Dead Cat",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": "0.2"
+      },
+      {
+        "name": "Goat Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Collar",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Paw",
+        "weight": 1
+      },
+      {
+        "name": "Guppy's Tail",
+        "weight": 1
+      },
+      {
+        "name": "Magic Skin",
+        "weight": 1
+      },
+      {
+        "name": "Pandora's Box",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.1"
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Red Key",
+        "weight": "0.1"
+      }
+    ],
+    "image": "images/pool/red_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Red_Chest.png"
+  },
+  {
+    "name": "Rotten Beggar",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Curse",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Rotten Head",
+        "weight": 1
+      },
+      {
+        "name": "Compost",
+        "weight": 1
+      },
+      {
+        "name": "Dead Onion",
+        "weight": "0.5"
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Meat",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Tomato",
+        "weight": "0.5"
+      },
+      {
+        "name": "Yuck Heart",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/rotten_beggar.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Rotten_Beggar.png"
+  },
+  {
+    "name": "Secret Room",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "1up!",
+        "weight": 1
+      },
+      {
+        "name": "A Quarter",
+        "weight": 1
+      },
+      {
+        "name": "Astral Projection",
+        "weight": 1
+      },
+      {
+        "name": "Binge Eater",
+        "weight": 1
+      },
+      {
+        "name": "Black Lotus",
+        "weight": 1
+      },
+      {
+        "name": "Blank Card",
+        "weight": 1
+      },
+      {
+        "name": "Bomb Bag",
+        "weight": 1
+      },
+      {
+        "name": "Book of Secrets",
+        "weight": 1
+      },
+      {
+        "name": "Chaos",
+        "weight": 1
+      },
+      {
+        "name": "Clear Rune",
+        "weight": 1
+      },
+      {
+        "name": "Compost",
+        "weight": 1
+      },
+      {
+        "name": "Cracked Orb",
+        "weight": 1
+      },
+      {
+        "name": "Cursed Eye",
+        "weight": 1
+      },
+      {
+        "name": "D infinity",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Ring",
+        "weight": 1
+      },
+      {
+        "name": "Death Certificate",
+        "weight": 1
+      },
+      {
+        "name": "Echo Chamber",
+        "weight": 1
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": 1
+      },
+      {
+        "name": "Eternal D6",
+        "weight": 1
+      },
+      {
+        "name": "Evil Charm",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Greed",
+        "weight": 1
+      },
+      {
+        "name": "Flip",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": 1
+      },
+      {
+        "name": "GB Bug",
+        "weight": 1
+      },
+      {
+        "name": "Glitched Crown",
+        "weight": 1
+      },
+      {
+        "name": "Greed's Gullet",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Inner Child",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Tomb",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Box",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Kin",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Sack",
+        "weight": 1
+      },
+      {
+        "name": "Key Bum",
+        "weight": 1
+      },
+      {
+        "name": "Lost Contact",
+        "weight": 1
+      },
+      {
+        "name": "Lost Soul",
+        "weight": 1
+      },
+      {
+        "name": "Mega Mush",
+        "weight": 1
+      },
+      {
+        "name": "Missing No.",
+        "weight": 1
+      },
+      {
+        "name": "Missing Page 2",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Mega",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Large)",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Thin)",
+        "weight": 1
+      },
+      {
+        "name": "Orphan Socks",
+        "weight": 1
+      },
+      {
+        "name": "Placebo",
+        "weight": 1
+      },
+      {
+        "name": "Pyro",
+        "weight": 1
+      },
+      {
+        "name": "R Key",
+        "weight": 1
+      },
+      {
+        "name": "Raw Liver",
+        "weight": 1
+      },
+      {
+        "name": "Red Key",
+        "weight": 1
+      },
+      {
+        "name": "Rock Bottom",
+        "weight": 1
+      },
+      {
+        "name": "Rune Bag",
+        "weight": 1
+      },
+      {
+        "name": "Sack Head",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Pennies",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Sacks",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Orb",
+        "weight": "0.5"
+      },
+      {
+        "name": "Samson's Chains",
+        "weight": 1
+      },
+      {
+        "name": "Sausage",
+        "weight": 1
+      },
+      {
+        "name": "Skeleton Key",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": 1
+      },
+      {
+        "name": "Spirit Shackles",
+        "weight": 1
+      },
+      {
+        "name": "Strawman",
+        "weight": 1
+      },
+      {
+        "name": "TMTRAINER",
+        "weight": 1
+      },
+      {
+        "name": "The Necronomicon",
+        "weight": 1
+      },
+      {
+        "name": "Transcendence",
+        "weight": 1
+      },
+      {
+        "name": "Vanishing Twin",
+        "weight": "0.5"
+      },
+      {
+        "name": "Wavy Cap",
+        "weight": 1
+      },
+      {
+        "name": "We Need To Go Deeper!",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/secret_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Secret_Room.png"
+  },
+  {
+    "name": "Shell Game",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Brown Nugget",
+        "weight": 1
+      },
+      {
+        "name": "Butt Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Dirty Mind",
+        "weight": 1
+      },
+      {
+        "name": "No. 2",
+        "weight": 1
+      },
+      {
+        "name": "Skatole",
+        "weight": 1
+      },
+      {
+        "name": "The Poop",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/shell_game.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Shell_Game.png"
+  },
+  {
+    "name": "Shop",
+    "is_greed": false,
+    "price_type": "coins",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "4.5 Volt",
+        "weight": 1
+      },
+      {
+        "name": "9 Volt",
+        "weight": 1
+      },
+      {
+        "name": "Alabaster Box",
+        "weight": 1
+      },
+      {
+        "name": "BFFS!",
+        "weight": 1
+      },
+      {
+        "name": "BOGO Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Battery Pack",
+        "weight": 1
+      },
+      {
+        "name": "Birthright",
+        "weight": 1
+      },
+      {
+        "name": "Black Candle",
+        "weight": 1
+      },
+      {
+        "name": "Blank Card",
+        "weight": "0.5"
+      },
+      {
+        "name": "Blank Card",
+        "weight": 1
+      },
+      {
+        "name": "Blanket",
+        "weight": 1
+      },
+      {
+        "name": "Blue Map",
+        "weight": 1
+      },
+      {
+        "name": "Booster Pack",
+        "weight": 1
+      },
+      {
+        "name": "Box of Friends",
+        "weight": 1
+      },
+      {
+        "name": "Broken Modem",
+        "weight": 1
+      },
+      {
+        "name": "Broken Watch",
+        "weight": 1
+      },
+      {
+        "name": "Buddy in a Box",
+        "weight": 1
+      },
+      {
+        "name": "Car Battery",
+        "weight": 1
+      },
+      {
+        "name": "Card Reading",
+        "weight": "0.5"
+      },
+      {
+        "name": "Champion Belt",
+        "weight": 1
+      },
+      {
+        "name": "Chaos",
+        "weight": "0.5"
+      },
+      {
+        "name": "Chaos",
+        "weight": 1
+      },
+      {
+        "name": "Charged Baby",
+        "weight": 1
+      },
+      {
+        "name": "Compost",
+        "weight": 1
+      },
+      {
+        "name": "Converter",
+        "weight": 1
+      },
+      {
+        "name": "Coupon",
+        "weight": 1
+      },
+      {
+        "name": "Crooked Penny",
+        "weight": "0.5"
+      },
+      {
+        "name": "Crooked Penny",
+        "weight": 1
+      },
+      {
+        "name": "Deck of Cards",
+        "weight": 1
+      },
+      {
+        "name": "Deep Pockets",
+        "weight": 1
+      },
+      {
+        "name": "Diplopia",
+        "weight": 1
+      },
+      {
+        "name": "Dream Catcher",
+        "weight": 1
+      },
+      {
+        "name": "Dull Razor",
+        "weight": 1
+      },
+      {
+        "name": "Eraser",
+        "weight": 1
+      },
+      {
+        "name": "Fanny Pack",
+        "weight": 1
+      },
+      {
+        "name": "Glowing Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "Habit",
+        "weight": 1
+      },
+      {
+        "name": "Hive Mind",
+        "weight": 1
+      },
+      {
+        "name": "Humbleing Bundle",
+        "weight": 1
+      },
+      {
+        "name": "Jar of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Jumper Cables",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Box",
+        "weight": "0.5"
+      },
+      {
+        "name": "Keeper's Sack",
+        "weight": 1
+      },
+      {
+        "name": "King Baby",
+        "weight": 1
+      },
+      {
+        "name": "Little Baggy",
+        "weight": 1
+      },
+      {
+        "name": "Magic Fingers",
+        "weight": 1
+      },
+      {
+        "name": "Magic Skin",
+        "weight": "0.1"
+      },
+      {
+        "name": "Mama Mega!",
+        "weight": "0.5"
+      },
+      {
+        "name": "Mama Mega!",
+        "weight": 1
+      },
+      {
+        "name": "Member Card",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bracelet",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Coin Purse",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Key",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Purse",
+        "weight": 1
+      },
+      {
+        "name": "More Options",
+        "weight": 1
+      },
+      {
+        "name": "Moving Box",
+        "weight": 1
+      },
+      {
+        "name": "Mr. ME!",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Gift",
+        "weight": 1
+      },
+      {
+        "name": "Night Light",
+        "weight": 1
+      },
+      {
+        "name": "Notched Axe",
+        "weight": 1
+      },
+      {
+        "name": "Options?",
+        "weight": 1
+      },
+      {
+        "name": "PHD",
+        "weight": 1
+      },
+      {
+        "name": "Pandora's Box",
+        "weight": 1
+      },
+      {
+        "name": "Pay To Play",
+        "weight": 1
+      },
+      {
+        "name": "Piggy Bank",
+        "weight": 1
+      },
+      {
+        "name": "Placebo",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": "0.2"
+      },
+      {
+        "name": "Poke Go",
+        "weight": 1
+      },
+      {
+        "name": "Portable Slot",
+        "weight": 1
+      },
+      {
+        "name": "Potato Peeler",
+        "weight": 1
+      },
+      {
+        "name": "Red Candle",
+        "weight": 1
+      },
+      {
+        "name": "Red Stew",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Restock",
+        "weight": 1
+      },
+      {
+        "name": "Sack Head",
+        "weight": "0.5"
+      },
+      {
+        "name": "Sack Head",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Sacks",
+        "weight": 1
+      },
+      {
+        "name": "Schoolbag",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Key",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Plug",
+        "weight": 1
+      },
+      {
+        "name": "Smelter",
+        "weight": 1
+      },
+      {
+        "name": "Spider Mod",
+        "weight": 1
+      },
+      {
+        "name": "Starter Deck",
+        "weight": 1
+      },
+      {
+        "name": "Steam Sale",
+        "weight": 1
+      },
+      {
+        "name": "Stop Watch",
+        "weight": 1
+      },
+      {
+        "name": "Tarot Cloth",
+        "weight": 1
+      },
+      {
+        "name": "Tear Detonator",
+        "weight": 1
+      },
+      {
+        "name": "The Battery",
+        "weight": 1
+      },
+      {
+        "name": "The Bible",
+        "weight": 1
+      },
+      {
+        "name": "The Boomerang",
+        "weight": 1
+      },
+      {
+        "name": "The Candle",
+        "weight": 1
+      },
+      {
+        "name": "The Compass",
+        "weight": 1
+      },
+      {
+        "name": "The Jar",
+        "weight": 1
+      },
+      {
+        "name": "The Ladder",
+        "weight": 1
+      },
+      {
+        "name": "There's Options",
+        "weight": 1
+      },
+      {
+        "name": "Treasure Map",
+        "weight": 1
+      },
+      {
+        "name": "Ventricle Razor",
+        "weight": 1
+      },
+      {
+        "name": "Voodoo Head",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Nickel",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/shop.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Shop.png"
+  },
+  {
+    "name": "Treasure Room",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "120 Volt",
+        "weight": 1
+      },
+      {
+        "name": "20/20",
+        "weight": 1
+      },
+      {
+        "name": "3 Dollar Bill",
+        "weight": 1
+      },
+      {
+        "name": "8 Inch Nails",
+        "weight": 1
+      },
+      {
+        "name": "<3",
+        "weight": 1
+      },
+      {
+        "name": "???'s Only Friend",
+        "weight": 1
+      },
+      {
+        "name": "A Quarter",
+        "weight": 1
+      },
+      {
+        "name": "Abel",
+        "weight": 1
+      },
+      {
+        "name": "Acid Baby",
+        "weight": 1
+      },
+      {
+        "name": "Adrenaline",
+        "weight": 1
+      },
+      {
+        "name": "Akeldama",
+        "weight": 1
+      },
+      {
+        "name": "Almond Milk",
+        "weight": 1
+      },
+      {
+        "name": "Analog Stick",
+        "weight": 1
+      },
+      {
+        "name": "Anarchist Cookbook",
+        "weight": 1
+      },
+      {
+        "name": "Anemic",
+        "weight": 1
+      },
+      {
+        "name": "Angry Fly",
+        "weight": 1
+      },
+      {
+        "name": "Anima Sola",
+        "weight": 1
+      },
+      {
+        "name": "Ankh",
+        "weight": 1
+      },
+      {
+        "name": "Anti-Gravity",
+        "weight": 1
+      },
+      {
+        "name": "Apple!",
+        "weight": 1
+      },
+      {
+        "name": "Aquarius",
+        "weight": 1
+      },
+      {
+        "name": "Aries",
+        "weight": 1
+      },
+      {
+        "name": "Astral Projection",
+        "weight": "0.2"
+      },
+      {
+        "name": "BBF",
+        "weight": 1
+      },
+      {
+        "name": "Backstabber",
+        "weight": 1
+      },
+      {
+        "name": "Bag of Crafting",
+        "weight": 1
+      },
+      {
+        "name": "Ball of Tar",
+        "weight": 1
+      },
+      {
+        "name": "Belly Button",
+        "weight": 1
+      },
+      {
+        "name": "Belly Jelly",
+        "weight": 1
+      },
+      {
+        "name": "Best Bud",
+        "weight": 1
+      },
+      {
+        "name": "Best Friend",
+        "weight": 1
+      },
+      {
+        "name": "Betrayal",
+        "weight": 1
+      },
+      {
+        "name": "Big Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Big Fan",
+        "weight": 1
+      },
+      {
+        "name": "Bird Cage",
+        "weight": 1
+      },
+      {
+        "name": "Bird's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Black Hole",
+        "weight": 1
+      },
+      {
+        "name": "Blank Card",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Blood Rights",
+        "weight": 1
+      },
+      {
+        "name": "Blood of the Martyr",
+        "weight": 1
+      },
+      {
+        "name": "Bloodshot Eye",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Gust",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Lust",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Brain",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Curse",
+        "weight": 1
+      },
+      {
+        "name": "Bob's Rotten Head",
+        "weight": 1
+      },
+      {
+        "name": "Bobby-Bomb",
+        "weight": 1
+      },
+      {
+        "name": "Boiled Baby",
+        "weight": 1
+      },
+      {
+        "name": "Bomb Bag",
+        "weight": 1
+      },
+      {
+        "name": "Bomber Boy",
+        "weight": 1
+      },
+      {
+        "name": "Bone Spurs",
+        "weight": 1
+      },
+      {
+        "name": "Book of Revelations",
+        "weight": 1
+      },
+      {
+        "name": "Book of Secrets",
+        "weight": 1
+      },
+      {
+        "name": "Book of Shadows",
+        "weight": 1
+      },
+      {
+        "name": "Book of the Dead",
+        "weight": 1
+      },
+      {
+        "name": "Boom!",
+        "weight": 1
+      },
+      {
+        "name": "Bot Fly",
+        "weight": 1
+      },
+      {
+        "name": "Box of Spiders",
+        "weight": 1
+      },
+      {
+        "name": "Bozo",
+        "weight": 1
+      },
+      {
+        "name": "Brittle Bones",
+        "weight": 1
+      },
+      {
+        "name": "Brother Bobby",
+        "weight": 1
+      },
+      {
+        "name": "Brown Nugget",
+        "weight": 1
+      },
+      {
+        "name": "Bucket of Lard",
+        "weight": 1
+      },
+      {
+        "name": "Bum Friend",
+        "weight": 1
+      },
+      {
+        "name": "Bumbo",
+        "weight": 1
+      },
+      {
+        "name": "Bursting Sack",
+        "weight": 1
+      },
+      {
+        "name": "Butt Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Butter Bean",
+        "weight": 1
+      },
+      {
+        "name": "C Section",
+        "weight": 1
+      },
+      {
+        "name": "Cain's Other Eye",
+        "weight": 1
+      },
+      {
+        "name": "Camo Undies",
+        "weight": 1
+      },
+      {
+        "name": "Cancer",
+        "weight": 1
+      },
+      {
+        "name": "Candy Heart",
+        "weight": 1
+      },
+      {
+        "name": "Capricorn",
+        "weight": 1
+      },
+      {
+        "name": "Celtic Cross",
+        "weight": 1
+      },
+      {
+        "name": "Charm of the Vampire",
+        "weight": 1
+      },
+      {
+        "name": "Chemical Peel",
+        "weight": 1
+      },
+      {
+        "name": "Chocolate Milk",
+        "weight": 1
+      },
+      {
+        "name": "Clicker",
+        "weight": 1
+      },
+      {
+        "name": "Compound Fracture",
+        "weight": 1
+      },
+      {
+        "name": "Cone Head",
+        "weight": 1
+      },
+      {
+        "name": "Contagion",
+        "weight": 1
+      },
+      {
+        "name": "Continuum",
+        "weight": 1
+      },
+      {
+        "name": "Crack the Sky",
+        "weight": 1
+      },
+      {
+        "name": "Cracked Orb",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Body",
+        "weight": 1
+      },
+      {
+        "name": "Cricket's Head",
+        "weight": 1
+      },
+      {
+        "name": "Crooked Penny",
+        "weight": 1
+      },
+      {
+        "name": "Crystal Ball",
+        "weight": 1
+      },
+      {
+        "name": "Cube Baby",
+        "weight": 1
+      },
+      {
+        "name": "Cupid's Arrow",
+        "weight": 1
+      },
+      {
+        "name": "Curse of the Tower",
+        "weight": 1
+      },
+      {
+        "name": "Cursed Eye",
+        "weight": 1
+      },
+      {
+        "name": "D infinity",
+        "weight": 1
+      },
+      {
+        "name": "D1",
+        "weight": 1
+      },
+      {
+        "name": "D10",
+        "weight": 1
+      },
+      {
+        "name": "D100",
+        "weight": 1
+      },
+      {
+        "name": "D12",
+        "weight": 1
+      },
+      {
+        "name": "D20",
+        "weight": 1
+      },
+      {
+        "name": "D4",
+        "weight": 1
+      },
+      {
+        "name": "D7",
+        "weight": 1
+      },
+      {
+        "name": "D8",
+        "weight": 1
+      },
+      {
+        "name": "Dad's Key",
+        "weight": 1
+      },
+      {
+        "name": "Daddy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Dark Bum",
+        "weight": 1
+      },
+      {
+        "name": "Dataminer",
+        "weight": 1
+      },
+      {
+        "name": "Dead Bird",
+        "weight": 1
+      },
+      {
+        "name": "Dead Eye",
+        "weight": 1
+      },
+      {
+        "name": "Dead Onion",
+        "weight": 1
+      },
+      {
+        "name": "Dead Sea Scrolls",
+        "weight": 1
+      },
+      {
+        "name": "Dead Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Death's Touch",
+        "weight": "0.2"
+      },
+      {
+        "name": "Death's Touch",
+        "weight": 1
+      },
+      {
+        "name": "Decap Attack",
+        "weight": 1
+      },
+      {
+        "name": "Deck of Cards",
+        "weight": 1
+      },
+      {
+        "name": "Demon Baby",
+        "weight": 1
+      },
+      {
+        "name": "Depression",
+        "weight": 1
+      },
+      {
+        "name": "Dirty Mind",
+        "weight": 1
+      },
+      {
+        "name": "Distant Admiration",
+        "weight": 1
+      },
+      {
+        "name": "Doctor's Remote",
+        "weight": 1
+      },
+      {
+        "name": "Dog Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Dr. Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Dry Baby",
+        "weight": 1
+      },
+      {
+        "name": "E. Coli",
+        "weight": 1
+      },
+      {
+        "name": "Eden's Blessing",
+        "weight": 1
+      },
+      {
+        "name": "Empty Heart",
+        "weight": 1
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": "0.1"
+      },
+      {
+        "name": "Epic Fetus",
+        "weight": 1
+      },
+      {
+        "name": "Epiphora",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": "0.5"
+      },
+      {
+        "name": "Eternal D6",
+        "weight": "0.5"
+      },
+      {
+        "name": "Euthanasia",
+        "weight": 1
+      },
+      {
+        "name": "Eve's Mascara",
+        "weight": 1
+      },
+      {
+        "name": "Everything Jar",
+        "weight": 1
+      },
+      {
+        "name": "Evil Eye",
+        "weight": 1
+      },
+      {
+        "name": "Experimental Treatment",
+        "weight": 1
+      },
+      {
+        "name": "Explosivo",
+        "weight": 1
+      },
+      {
+        "name": "Eye Sore",
+        "weight": 1
+      },
+      {
+        "name": "Farting Baby",
+        "weight": 1
+      },
+      {
+        "name": "Fast Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Fate's Reward",
+        "weight": 1
+      },
+      {
+        "name": "Finger!",
+        "weight": 1
+      },
+      {
+        "name": "Fire Mind",
+        "weight": 1
+      },
+      {
+        "name": "Flat Stone",
+        "weight": 1
+      },
+      {
+        "name": "Flush!",
+        "weight": 1
+      },
+      {
+        "name": "Forever alone",
+        "weight": 1
+      },
+      {
+        "name": "Forget Me Now",
+        "weight": 1
+      },
+      {
+        "name": "Fortune Cookie",
+        "weight": 1
+      },
+      {
+        "name": "Free Lemonade",
+        "weight": 1
+      },
+      {
+        "name": "Freezer Baby",
+        "weight": 1
+      },
+      {
+        "name": "Friend Finder",
+        "weight": 1
+      },
+      {
+        "name": "Friend Zone",
+        "weight": 1
+      },
+      {
+        "name": "Friendly Ball",
+        "weight": 1
+      },
+      {
+        "name": "Fruit Cake",
+        "weight": 1
+      },
+      {
+        "name": "Fruity Plum",
+        "weight": 1
+      },
+      {
+        "name": "GB Bug",
+        "weight": 1
+      },
+      {
+        "name": "Gello",
+        "weight": "0.5"
+      },
+      {
+        "name": "Gemini",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Baby",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Ghost Pepper",
+        "weight": 1
+      },
+      {
+        "name": "Giant Cell",
+        "weight": 1
+      },
+      {
+        "name": "Gimpy",
+        "weight": 1
+      },
+      {
+        "name": "Glass Cannon",
+        "weight": 1
+      },
+      {
+        "name": "Glaucoma",
+        "weight": 1
+      },
+      {
+        "name": "Glitter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Glowing Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "Gnawed Leaf",
+        "weight": 1
+      },
+      {
+        "name": "God's Flesh",
+        "weight": 1
+      },
+      {
+        "name": "Golden Razor",
+        "weight": 1
+      },
+      {
+        "name": "Guillotine",
+        "weight": 1
+      },
+      {
+        "name": "Haemolacria",
+        "weight": 1
+      },
+      {
+        "name": "Hallowed Ground",
+        "weight": 1
+      },
+      {
+        "name": "Halo of Flies",
+        "weight": 1
+      },
+      {
+        "name": "Harlequin Baby",
+        "weight": 1
+      },
+      {
+        "name": "Headless Baby",
+        "weight": 1
+      },
+      {
+        "name": "Hemoptysis",
+        "weight": 1
+      },
+      {
+        "name": "Holy Light",
+        "weight": "0.2"
+      },
+      {
+        "name": "Holy Light",
+        "weight": 1
+      },
+      {
+        "name": "Holy Mantle",
+        "weight": "0.2"
+      },
+      {
+        "name": "Holy Mantle",
+        "weight": 1
+      },
+      {
+        "name": "Holy Water",
+        "weight": 1
+      },
+      {
+        "name": "Host Hat",
+        "weight": 1
+      },
+      {
+        "name": "Hot Bombs",
+        "weight": 1
+      },
+      {
+        "name": "How to Jump",
+        "weight": 1
+      },
+      {
+        "name": "Hushy",
+        "weight": 1
+      },
+      {
+        "name": "Hypercoagulation",
+        "weight": 1
+      },
+      {
+        "name": "IBS",
+        "weight": 1
+      },
+      {
+        "name": "Infamy",
+        "weight": 1
+      },
+      {
+        "name": "Infestation",
+        "weight": 1
+      },
+      {
+        "name": "Infestation 2",
+        "weight": 1
+      },
+      {
+        "name": "Ipecac",
+        "weight": 1
+      },
+      {
+        "name": "Iron Bar",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Heart",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Tears",
+        "weight": 1
+      },
+      {
+        "name": "It Hurts",
+        "weight": 1
+      },
+      {
+        "name": "Jacob's Ladder",
+        "weight": 1
+      },
+      {
+        "name": "Jaw Bone",
+        "weight": 1
+      },
+      {
+        "name": "Judas' Shadow",
+        "weight": 1
+      },
+      {
+        "name": "Juicy Sack",
+        "weight": 1
+      },
+      {
+        "name": "Kamikaze!",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Kin",
+        "weight": 1
+      },
+      {
+        "name": "Key Bum",
+        "weight": 1
+      },
+      {
+        "name": "Kidney Bean",
+        "weight": 1
+      },
+      {
+        "name": "Kidney Stone",
+        "weight": 1
+      },
+      {
+        "name": "Knockout Drops",
+        "weight": 1
+      },
+      {
+        "name": "Lachryphagy",
+        "weight": 1
+      },
+      {
+        "name": "Large Zit",
+        "weight": 1
+      },
+      {
+        "name": "Larynx",
+        "weight": 1
+      },
+      {
+        "name": "Lazarus' Rags",
+        "weight": 1
+      },
+      {
+        "name": "Lead Pencil",
+        "weight": 1
+      },
+      {
+        "name": "Leech",
+        "weight": 1
+      },
+      {
+        "name": "Lemon Mishap",
+        "weight": 1
+      },
+      {
+        "name": "Leo",
+        "weight": 1
+      },
+      {
+        "name": "Leprosy",
+        "weight": 1
+      },
+      {
+        "name": "Libra",
+        "weight": 1
+      },
+      {
+        "name": "Lil Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "Lil Chest",
+        "weight": 1
+      },
+      {
+        "name": "Lil Dumpy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Gurdy",
+        "weight": 1
+      },
+      {
+        "name": "Lil Haunt",
+        "weight": 1
+      },
+      {
+        "name": "Lil Loki",
+        "weight": 1
+      },
+      {
+        "name": "Lil Monstro",
+        "weight": 1
+      },
+      {
+        "name": "Lil Portal",
+        "weight": 1
+      },
+      {
+        "name": "Lil Spewer",
+        "weight": 1
+      },
+      {
+        "name": "Linger Bean",
+        "weight": 1
+      },
+      {
+        "name": "Little C.H.A.D.",
+        "weight": 1
+      },
+      {
+        "name": "Little Chubby",
+        "weight": 1
+      },
+      {
+        "name": "Little Gish",
+        "weight": 1
+      },
+      {
+        "name": "Little Steven",
+        "weight": 1
+      },
+      {
+        "name": "Lodestone",
+        "weight": 1
+      },
+      {
+        "name": "Loki's Horns",
+        "weight": 1
+      },
+      {
+        "name": "Lost Contact",
+        "weight": 1
+      },
+      {
+        "name": "Lost Fly",
+        "weight": 1
+      },
+      {
+        "name": "Lost Soul",
+        "weight": 1
+      },
+      {
+        "name": "Lucky Foot",
+        "weight": 1
+      },
+      {
+        "name": "Lusty Blood",
+        "weight": 1
+      },
+      {
+        "name": "Maggy's Bow",
+        "weight": 1
+      },
+      {
+        "name": "Magic Fingers",
+        "weight": 1
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": "0.5"
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": 1
+      },
+      {
+        "name": "Magneto",
+        "weight": 1
+      },
+      {
+        "name": "Marked",
+        "weight": 1
+      },
+      {
+        "name": "Meat Cleaver",
+        "weight": 1
+      },
+      {
+        "name": "Mega Bean",
+        "weight": 1
+      },
+      {
+        "name": "Mega Mush",
+        "weight": "0.1"
+      },
+      {
+        "name": "Metal Plate",
+        "weight": 1
+      },
+      {
+        "name": "Metronome",
+        "weight": 1
+      },
+      {
+        "name": "Midas' Touch",
+        "weight": 1
+      },
+      {
+        "name": "Milk!",
+        "weight": 1
+      },
+      {
+        "name": "Mine Crafter",
+        "weight": 1
+      },
+      {
+        "name": "Mini Mush",
+        "weight": 1
+      },
+      {
+        "name": "Mitre",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bottle of Pills",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Bra",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Contacts",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Eyeshadow",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": "0.2"
+      },
+      {
+        "name": "Mom's Knife",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Pad",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Perfume",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Razor",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Wig",
+        "weight": 1
+      },
+      {
+        "name": "Money Power",
+        "weight": 1
+      },
+      {
+        "name": "Mongo Baby",
+        "weight": 1
+      },
+      {
+        "name": "Monster Manual",
+        "weight": 1
+      },
+      {
+        "name": "Monstro's Lung",
+        "weight": 1
+      },
+      {
+        "name": "Monstro's Tooth",
+        "weight": 1
+      },
+      {
+        "name": "Montezuma's Revenge",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Boom",
+        "weight": 1
+      },
+      {
+        "name": "Mr. Mega",
+        "weight": 1
+      },
+      {
+        "name": "Mucormycosis",
+        "weight": 1
+      },
+      {
+        "name": "Multidimensional Baby",
+        "weight": 1
+      },
+      {
+        "name": "Mutant Spider",
+        "weight": 1
+      },
+      {
+        "name": "My Little Unicorn",
+        "weight": 1
+      },
+      {
+        "name": "My Reflection",
+        "weight": 1
+      },
+      {
+        "name": "Mysterious Liquid",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Egg",
+        "weight": 1
+      },
+      {
+        "name": "Mystery Sack",
+        "weight": 1
+      },
+      {
+        "name": "Nancy Bombs",
+        "weight": 1
+      },
+      {
+        "name": "No. 2",
+        "weight": 1
+      },
+      {
+        "name": "Notched Axe",
+        "weight": 1
+      },
+      {
+        "name": "Number One",
+        "weight": 1
+      },
+      {
+        "name": "Obsessed Fan",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Large)",
+        "weight": 1
+      },
+      {
+        "name": "Odd Mushroom (Thin)",
+        "weight": 1
+      },
+      {
+        "name": "Ouija Board",
+        "weight": 1
+      },
+      {
+        "name": "PHD",
+        "weight": 1
+      },
+      {
+        "name": "Papa Fly",
+        "weight": 1
+      },
+      {
+        "name": "Parasitoid",
+        "weight": 1
+      },
+      {
+        "name": "Pause",
+        "weight": 1
+      },
+      {
+        "name": "Piggy Bank",
+        "weight": 1
+      },
+      {
+        "name": "Pisces",
+        "weight": 1
+      },
+      {
+        "name": "Playdough Cookie",
+        "weight": 1
+      },
+      {
+        "name": "Plum Flute",
+        "weight": "0.5"
+      },
+      {
+        "name": "Pointy Rib",
+        "weight": 1
+      },
+      {
+        "name": "Polydactyly",
+        "weight": 1
+      },
+      {
+        "name": "Polyphemus",
+        "weight": 1
+      },
+      {
+        "name": "Pop!",
+        "weight": 1
+      },
+      {
+        "name": "Prayer Card",
+        "weight": 1
+      },
+      {
+        "name": "Proptosis",
+        "weight": 1
+      },
+      {
+        "name": "Psy Fly",
+        "weight": 1
+      },
+      {
+        "name": "Punching Bag",
+        "weight": 1
+      },
+      {
+        "name": "Pupula Duplex",
+        "weight": 1
+      },
+      {
+        "name": "Purity",
+        "weight": 1
+      },
+      {
+        "name": "Pyro",
+        "weight": "0.1"
+      },
+      {
+        "name": "Pyro",
+        "weight": 1
+      },
+      {
+        "name": "Pyromaniac",
+        "weight": 1
+      },
+      {
+        "name": "Quints",
+        "weight": 1
+      },
+      {
+        "name": "Rainbow Baby",
+        "weight": 1
+      },
+      {
+        "name": "Razor Blade",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby",
+        "weight": 1
+      },
+      {
+        "name": "Robo-Baby 2.0",
+        "weight": 1
+      },
+      {
+        "name": "Rocket in a Jar",
+        "weight": 1
+      },
+      {
+        "name": "Roid Rage",
+        "weight": 1
+      },
+      {
+        "name": "Rosary",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Baby",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Tomato",
+        "weight": 1
+      },
+      {
+        "name": "Rubber Cement",
+        "weight": 1
+      },
+      {
+        "name": "Rune Bag",
+        "weight": 1
+      },
+      {
+        "name": "SMB Super Fan",
+        "weight": 1
+      },
+      {
+        "name": "Sack of Pennies",
+        "weight": 1
+      },
+      {
+        "name": "Sacrificial Dagger",
+        "weight": 1
+      },
+      {
+        "name": "Sad Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Sagittarius",
+        "weight": 1
+      },
+      {
+        "name": "Samson's Chains",
+        "weight": 1
+      },
+      {
+        "name": "Satanic Bible",
+        "weight": 1
+      },
+      {
+        "name": "Scapular",
+        "weight": 1
+      },
+      {
+        "name": "Scatter Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Scissors",
+        "weight": 1
+      },
+      {
+        "name": "Scorpio",
+        "weight": 1
+      },
+      {
+        "name": "Seraphim",
+        "weight": 1
+      },
+      {
+        "name": "Serpent's Kiss",
+        "weight": 1
+      },
+      {
+        "name": "Shard of Glass",
+        "weight": 1
+      },
+      {
+        "name": "Sharp Straw",
+        "weight": 1
+      },
+      {
+        "name": "Shoop da Whoop!",
+        "weight": 1
+      },
+      {
+        "name": "Sinus Infection",
+        "weight": 1
+      },
+      {
+        "name": "Sissy Longlegs",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Skeleton Key",
+        "weight": "0.1"
+      },
+      {
+        "name": "Slipped Rib",
+        "weight": 1
+      },
+      {
+        "name": "Smart Fly",
+        "weight": 1
+      },
+      {
+        "name": "Soy Milk",
+        "weight": 1
+      },
+      {
+        "name": "Speed Ball",
+        "weight": 1
+      },
+      {
+        "name": "Spelunker Hat",
+        "weight": 1
+      },
+      {
+        "name": "Spider Bite",
+        "weight": 1
+      },
+      {
+        "name": "Spider Butt",
+        "weight": 1
+      },
+      {
+        "name": "Spiderbaby",
+        "weight": 1
+      },
+      {
+        "name": "Spin to Win",
+        "weight": 1
+      },
+      {
+        "name": "Spindown Dice",
+        "weight": "0.1"
+      },
+      {
+        "name": "Spoon Bender",
+        "weight": 1
+      },
+      {
+        "name": "Sprinkler",
+        "weight": 1
+      },
+      {
+        "name": "Stem Cells",
+        "weight": 1
+      },
+      {
+        "name": "Sticky Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Stigmata",
+        "weight": 1
+      },
+      {
+        "name": "Stitches",
+        "weight": 1
+      },
+      {
+        "name": "Strange Attractor",
+        "weight": 1
+      },
+      {
+        "name": "Sulfuric Acid",
+        "weight": 1
+      },
+      {
+        "name": "Sumptorium",
+        "weight": 1
+      },
+      {
+        "name": "Super Bandage",
+        "weight": 1
+      },
+      {
+        "name": "Suplex!",
+        "weight": 1
+      },
+      {
+        "name": "Tammy's Head",
+        "weight": 1
+      },
+      {
+        "name": "Taurus",
+        "weight": 1
+      },
+      {
+        "name": "Tech X",
+        "weight": 1
+      },
+      {
+        "name": "Tech.5",
+        "weight": 1
+      },
+      {
+        "name": "Technology",
+        "weight": 1
+      },
+      {
+        "name": "Technology 2",
+        "weight": 1
+      },
+      {
+        "name": "Technology Zero",
+        "weight": 1
+      },
+      {
+        "name": "Telekinesis",
+        "weight": 1
+      },
+      {
+        "name": "Telepathy For Dummies",
+        "weight": 1
+      },
+      {
+        "name": "Teleport 2.0",
+        "weight": 1
+      },
+      {
+        "name": "Teleport!",
+        "weight": 1
+      },
+      {
+        "name": "The Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Black Bean",
+        "weight": 1
+      },
+      {
+        "name": "The Body",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Body",
+        "weight": 1
+      },
+      {
+        "name": "The Book of Sin",
+        "weight": 1
+      },
+      {
+        "name": "The Common Cold",
+        "weight": 1
+      },
+      {
+        "name": "The D6",
+        "weight": 1
+      },
+      {
+        "name": "The Gamekid",
+        "weight": 1
+      },
+      {
+        "name": "The Halo",
+        "weight": "0.5"
+      },
+      {
+        "name": "The Halo",
+        "weight": 1
+      },
+      {
+        "name": "The Hourglass",
+        "weight": 1
+      },
+      {
+        "name": "The Inner Eye",
+        "weight": 1
+      },
+      {
+        "name": "The Intruder",
+        "weight": 1
+      },
+      {
+        "name": "The Ludovico Technique",
+        "weight": 1
+      },
+      {
+        "name": "The Mind",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Mind",
+        "weight": 1
+      },
+      {
+        "name": "The Mulligan",
+        "weight": 1
+      },
+      {
+        "name": "The Parasite",
+        "weight": 1
+      },
+      {
+        "name": "The Peeper",
+        "weight": 1
+      },
+      {
+        "name": "The Pinking Shears",
+        "weight": 1
+      },
+      {
+        "name": "The Poop",
+        "weight": 1
+      },
+      {
+        "name": "The Relic",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Relic",
+        "weight": 1
+      },
+      {
+        "name": "The Sad Onion",
+        "weight": 1
+      },
+      {
+        "name": "The Scooper",
+        "weight": 1
+      },
+      {
+        "name": "The Soul",
+        "weight": "0.2"
+      },
+      {
+        "name": "The Soul",
+        "weight": 1
+      },
+      {
+        "name": "The Swarm",
+        "weight": 1
+      },
+      {
+        "name": "The Virus",
+        "weight": 1
+      },
+      {
+        "name": "The Wafer",
+        "weight": 1
+      },
+      {
+        "name": "The Wiz",
+        "weight": 1
+      },
+      {
+        "name": "Thunder Thighs",
+        "weight": 1
+      },
+      {
+        "name": "Tiny Planet",
+        "weight": 1
+      },
+      {
+        "name": "Tinytoma",
+        "weight": 1
+      },
+      {
+        "name": "Tooth and Nail",
+        "weight": 1
+      },
+      {
+        "name": "Tough Love",
+        "weight": 1
+      },
+      {
+        "name": "Toxic Shock",
+        "weight": 1
+      },
+      {
+        "name": "Tractor Beam",
+        "weight": 1
+      },
+      {
+        "name": "Undefined",
+        "weight": 1
+      },
+      {
+        "name": "Unicorn Stump",
+        "weight": 1
+      },
+      {
+        "name": "Varicose Veins",
+        "weight": 1
+      },
+      {
+        "name": "Vasculitis",
+        "weight": 1
+      },
+      {
+        "name": "Virgo",
+        "weight": 1
+      },
+      {
+        "name": "Wait What?",
+        "weight": 1
+      },
+      {
+        "name": "Worm Friend",
+        "weight": 1
+      },
+      {
+        "name": "X-Ray Vision",
+        "weight": 1
+      },
+      {
+        "name": "YO LISTEN!",
+        "weight": 1
+      },
+      {
+        "name": "Yuck Heart",
+        "weight": 1
+      },
+      {
+        "name": "Yum Heart",
+        "weight": 1
+      },
+      {
+        "name": "Zodiac",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/treasure_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Treasure_Room.png"
+  },
+  {
+    "name": "Ultra Secret Room",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "2Spooky",
+        "weight": 1
+      },
+      {
+        "name": "<3",
+        "weight": 1
+      },
+      {
+        "name": "Abaddon",
+        "weight": 1
+      },
+      {
+        "name": "Abyss",
+        "weight": 1
+      },
+      {
+        "name": "Anemic",
+        "weight": 1
+      },
+      {
+        "name": "Angry Fly",
+        "weight": 1
+      },
+      {
+        "name": "Apple!",
+        "weight": 1
+      },
+      {
+        "name": "BFFS!",
+        "weight": 1
+      },
+      {
+        "name": "Backstabber",
+        "weight": 1
+      },
+      {
+        "name": "Berserk!",
+        "weight": 1
+      },
+      {
+        "name": "Bird's Eye",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bag",
+        "weight": 1
+      },
+      {
+        "name": "Blood Bombs",
+        "weight": 1
+      },
+      {
+        "name": "Blood Clot",
+        "weight": 1
+      },
+      {
+        "name": "Blood Puppy",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Gust",
+        "weight": 1
+      },
+      {
+        "name": "Bloody Lust",
+        "weight": 1
+      },
+      {
+        "name": "Boiled Baby",
+        "weight": 1
+      },
+      {
+        "name": "Brimstone",
+        "weight": 1
+      },
+      {
+        "name": "C Section",
+        "weight": 1
+      },
+      {
+        "name": "Cambion Conception",
+        "weight": 1
+      },
+      {
+        "name": "Candy Heart",
+        "weight": 1
+      },
+      {
+        "name": "Champion Belt",
+        "weight": 1
+      },
+      {
+        "name": "Contagion",
+        "weight": 1
+      },
+      {
+        "name": "Cube of Meat",
+        "weight": 1
+      },
+      {
+        "name": "D20",
+        "weight": 1
+      },
+      {
+        "name": "Dark Arts",
+        "weight": 1
+      },
+      {
+        "name": "Dataminer",
+        "weight": 1
+      },
+      {
+        "name": "Dead Eye",
+        "weight": 1
+      },
+      {
+        "name": "Echo Chamber",
+        "weight": 1
+      },
+      {
+        "name": "Esau Jr.",
+        "weight": 1
+      },
+      {
+        "name": "Eye of Belial",
+        "weight": 1
+      },
+      {
+        "name": "Eye of the Occult",
+        "weight": 1
+      },
+      {
+        "name": "False PHD",
+        "weight": 1
+      },
+      {
+        "name": "Flip",
+        "weight": 1
+      },
+      {
+        "name": "Gello",
+        "weight": 1
+      },
+      {
+        "name": "Haemolacria",
+        "weight": 1
+      },
+      {
+        "name": "Harlequin Baby",
+        "weight": 1
+      },
+      {
+        "name": "Heartbreak",
+        "weight": 1
+      },
+      {
+        "name": "Hemoptysis",
+        "weight": 1
+      },
+      {
+        "name": "Hungry Soul",
+        "weight": 1
+      },
+      {
+        "name": "Hypercoagulation",
+        "weight": 1
+      },
+      {
+        "name": "IV Bag",
+        "weight": 1
+      },
+      {
+        "name": "Immaculate Heart",
+        "weight": 1
+      },
+      {
+        "name": "Isaac's Heart",
+        "weight": 1
+      },
+      {
+        "name": "Kamikaze!",
+        "weight": 1
+      },
+      {
+        "name": "Kidney Bean",
+        "weight": 1
+      },
+      {
+        "name": "Knockout Drops",
+        "weight": 1
+      },
+      {
+        "name": "Lil Loki",
+        "weight": 1
+      },
+      {
+        "name": "Little C.H.A.D.",
+        "weight": 1
+      },
+      {
+        "name": "Lord of the Pit",
+        "weight": 1
+      },
+      {
+        "name": "Lusty Blood",
+        "weight": 1
+      },
+      {
+        "name": "MEAT!",
+        "weight": 1
+      },
+      {
+        "name": "Magic Mushroom",
+        "weight": 1
+      },
+      {
+        "name": "Magic Scab",
+        "weight": 1
+      },
+      {
+        "name": "Magneto",
+        "weight": 1
+      },
+      {
+        "name": "Marked",
+        "weight": 1
+      },
+      {
+        "name": "Marrow",
+        "weight": 1
+      },
+      {
+        "name": "Maw Of The Void",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Contacts",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Heels",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Lipstick",
+        "weight": 1
+      },
+      {
+        "name": "Money Power",
+        "weight": 1
+      },
+      {
+        "name": "Ocular Rift",
+        "weight": 1
+      },
+      {
+        "name": "Pentagram",
+        "weight": 1
+      },
+      {
+        "name": "Plan C",
+        "weight": 1
+      },
+      {
+        "name": "Plum Flute",
+        "weight": 1
+      },
+      {
+        "name": "Portable Slot",
+        "weight": 1
+      },
+      {
+        "name": "Proptosis",
+        "weight": 1
+      },
+      {
+        "name": "Red Candle",
+        "weight": 1
+      },
+      {
+        "name": "Red Key",
+        "weight": 1
+      },
+      {
+        "name": "Red Stew",
+        "weight": 1
+      },
+      {
+        "name": "Remote Detonator",
+        "weight": 1
+      },
+      {
+        "name": "Rosary",
+        "weight": 1
+      },
+      {
+        "name": "Rotten Tomato",
+        "weight": 1
+      },
+      {
+        "name": "Sacred Heart",
+        "weight": 1
+      },
+      {
+        "name": "Sanguine Bond",
+        "weight": 1
+      },
+      {
+        "name": "Shoop da Whoop!",
+        "weight": 1
+      },
+      {
+        "name": "Sister Maggy",
+        "weight": 1
+      },
+      {
+        "name": "Spirit of the Night",
+        "weight": 1
+      },
+      {
+        "name": "Stem Cells",
+        "weight": 1
+      },
+      {
+        "name": "Sulfur",
+        "weight": 1
+      },
+      {
+        "name": "The Body",
+        "weight": 1
+      },
+      {
+        "name": "The D6",
+        "weight": 1
+      },
+      {
+        "name": "The Mark",
+        "weight": 1
+      },
+      {
+        "name": "The Pact",
+        "weight": 1
+      },
+      {
+        "name": "The Virus",
+        "weight": 1
+      },
+      {
+        "name": "Varicose Veins",
+        "weight": 1
+      },
+      {
+        "name": "Vasculitis",
+        "weight": 1
+      },
+      {
+        "name": "Vengeful Spirit",
+        "weight": 1
+      },
+      {
+        "name": "Whore of Babylon",
+        "weight": 1
+      },
+      {
+        "name": "Worm Friend",
+        "weight": 1
+      },
+      {
+        "name": "Yum Heart",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/ultra_secret_room.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Ultra_Secret_Room.png"
+  },
+  {
+    "name": "Wooden Chest",
+    "is_greed": false,
+    "price_type": "",
+    "decrease": "1",
+    "items": [
+      {
+        "name": "Blood of the Martyr",
+        "weight": 1
+      },
+      {
+        "name": "Keeper's Box",
+        "weight": 1
+      },
+      {
+        "name": "Lil Chest",
+        "weight": 1
+      },
+      {
+        "name": "Metronome",
+        "weight": 1
+      },
+      {
+        "name": "Mom's Box",
+        "weight": 1
+      },
+      {
+        "name": "Mr. ME!",
+        "weight": 1
+      },
+      {
+        "name": "Stigmata",
+        "weight": 1
+      },
+      {
+        "name": "The Ladder",
+        "weight": 1
+      },
+      {
+        "name": "Tooth Picks",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Nickel",
+        "weight": 1
+      },
+      {
+        "name": "Wooden Spoon",
+        "weight": 1
+      }
+    ],
+    "image": "images/pool/wooden_chest.png",
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Item_Pool_Wooden_Chest.png"
+  }
+]

@@ -1,0 +1,22 @@
+An Arcade is a special room that can only spawn on an even-numbered floor (Basement II, Caves II, Depths II, Womb II) if you have 5 coins or more when you leave the previous floor. Arcades require one coin to be opened. They can be replaced with a Vault if Isaac is carrying two keys or more.
+
+Arcades cannot spawn on XL floors.
+ Unless it is on an alt path floor.
+ Arcades can spawn on the first floor of the alternate chapters (Downpour I, Mines I, Mausoleum I, Corpse I).
+
+
+== Layouts ==
+The following room maps were made using Basement Renovator for cleaner viewing.
+
+
+=== Cain's Birthright layouts ===
+
+
+== Unlockable Achievements ==
+  A Gamekid - Visit 10 Arcades.
+  The D4 - Blow up 30 Slot Machine.
+
+
+== Trivia ==
+The posters that can appear on the arcade's walls are pictures of games that Edmund McMillen has worked on, such as Gish, Super Meat Boy, and Time Fcuk.
+In the original Binding of Isaac, the arcade's icon was a 6-sided dice. In Rebirth, this icon was changed to a joystick.
