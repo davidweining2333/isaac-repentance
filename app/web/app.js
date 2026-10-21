@@ -4,6 +4,14 @@
   const IMG = (r) => r.image ? "../../" + r.image : (r.image_url || "");
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => document.querySelectorAll(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  /* 顶部导航是 sticky，搜索栏要吸在它下面；高度由 JS 实测后写入 CSS 变量 */
+  const hdr = document.querySelector("header");
+  const syncHeaderH = () => document.documentElement.style.setProperty("--header-h", hdr.offsetHeight + "px");
+  syncHeaderH();
+  window.addEventListener("resize", syncHeaderH);
+  if (window.ResizeObserver) new ResizeObserver(syncHeaderH).observe(hdr);
 
   /* ---------- 顶部标签切换 ---------- */
   $$(".tabs .tab[data-view]").forEach(t => t.onclick = () => {
@@ -21,10 +29,12 @@
     { key: "cards", label: KIND_LABEL.cards },
     { key: "pills", label: KIND_LABEL.pills }
   ];
-  let kind = "all", query = "";
+  const PAGE_SIZE = 40;
+  let kind = "all", query = "", page = 1;
 
   function setKind(k) {
     kind = k;
+    page = 1;
     $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
     render();
   }
@@ -32,6 +42,7 @@
   $("#q").addEventListener("input", e => {
     const had = !!query;
     query = e.target.value.trim().toLowerCase();
+    page = 1;
     /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制 */
     if (query && !had && kind !== "all") setKind("all");
     else render();
@@ -52,18 +63,11 @@
   }
 
   function cardHTML(r, i, groupKey) {
-    const q = r.quality != null ? `<span class="quality q${r.quality}">${r.quality}</span>` : "";
-    const tags = [...(r.nick || []).slice(0, 3), ...(r.look || []).slice(0, 3)]
-      .map((t, k) => `<span class="ctag${k >= (r.nick || []).slice(0, 3).length ? " look" : ""}">${t}</span>`).join("");
+    const name = r.name_zh || r.name || "";
     const thumb = (r.image || r.image_url)
-      ? `<img class="thumb" src="${IMG(r)}" onerror="this.classList.add('noimg');this.src='${r.image_url || ""}'">`
-      : `<div class="thumb ph">💊</div>`;
-    const kindTag = kind === "all" ? `<span class="kindtag">${KIND_LABEL[groupKey] || ""}</span>` : "";
-    return `<div class="card" data-idx="${i}" data-kind="${groupKey}">
-      ${q}${thumb}
-      <div class="cname">${kindTag}<span class="czh">${r.name_zh || r.name}</span></div>
-      <div class="cname" style="color:#8b93a3;font-size:11.5px">${r.name || ""}</div>
-      ${tags}</div>`;
+      ? `<img class="thumb" src="${IMG(r)}" alt="${esc(name)}" loading="lazy" onerror="this.classList.add('noimg');this.src='${r.image_url || ""}'">`
+      : `<div class="thumb ph" aria-label="${esc(name)}">💊</div>`;
+    return `<div class="card k-${groupKey}" data-idx="${i}" data-kind="${groupKey}" title="${esc(name)}" aria-label="${esc(name)}">${thumb}</div>`;
   }
 
   let lastList = [];
@@ -71,22 +75,18 @@
   function render() {
     const groups = kind === "all" ? SEARCH_KINDS : SEARCH_KINDS.filter(g => g.key === kind);
     const buckets = [];
-    let matched = 0;
 
     for (const g of groups) {
       const all = G[g.key] || [];
-      let rows = all.map(r => ({ r, k: g.key, s: score(r, query) }))
+      const rows = all.map(r => ({ r, k: g.key, s: score(r, query) }))
         .filter(x => x.s > 0)
         .sort((a, b) => b.s - a.s);
-      matched += rows.length;
-      /* 不搜索时按分类浏览：全部类型各展示 12 条，单分类保持原数量 */
-      if (!query) rows = rows.slice(0, kind === "all" ? 12 : (g.key === "pills" ? 60 : 40));
       buckets.push(rows);
     }
 
     const picked = [];
     if (!query && kind === "all") {
-      /* 「全部」浏览时四类交替出现，避免第一屏看起来仍然只有道具 */
+      /* 「全部」浏览时四类交替出现，再统一分页 */
       const max = Math.max(0, ...buckets.map(b => b.length));
       for (let i = 0; i < max; i++) {
         for (const b of buckets) if (b[i]) picked.push(b[i]);
@@ -95,16 +95,34 @@
       for (const b of buckets) picked.push(...b);
     }
     if (query) picked.sort((a, b) => b.s - a.s);
-    lastList = picked.slice(0, query ? 80 : 200);
 
-    const shown = lastList.length;
-    let txt = `${shown} 条`;
-    if (shown < matched) txt += query ? ` / 命中 ${matched} 条` : ` / 共 ${matched} 条`;
+    const pages = Math.max(1, Math.ceil(picked.length / PAGE_SIZE));
+    if (page > pages) page = pages;
+    if (page < 1) page = 1;
+    const start = (page - 1) * PAGE_SIZE;
+    lastList = picked.slice(start, start + PAGE_SIZE);
+
+    let txt = `${picked.length} 条`;
+    if (pages > 1) txt += ` · 第 ${page}/${pages} 页`;
     if (query) txt += ` · “${query}”`;
     else if (kind === "all") txt += " · 全部类型";
     $("#searchCnt").textContent = txt;
     $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">没找到，换个俗称/拼音/长相试试</div>`;
+    $("#pager").style.display = pages > 1 ? "flex" : "none";
+    $("#prevPage").disabled = page <= 1;
+    $("#nextPage").disabled = page >= pages;
+    $("#pageInfo").textContent = pages > 1 ? `第 ${page} / ${pages} 页` : "";
   }
+
+  function goPage(step) {
+    const next = page + step;
+    if (next < 1) return;
+    page = next;
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  $("#prevPage").onclick = () => goPage(-1);
+  $("#nextPage").onclick = () => goPage(1);
 
   /* 卡片详情弹层 */
   function openDetail(r, kindKey) {

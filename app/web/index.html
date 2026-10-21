@@ -27,25 +27,44 @@
          background:var(--panel); color:var(--dim); font-size:14px; border:1px solid var(--line); }
   .tab.on { background:var(--acc); color:#20160a; font-weight:650; border-color:var(--acc); }
   .wrap { padding:14px 14px 60px; }
-  .bar { display:flex; gap:8px; margin-bottom:12px; }
+  /* 搜索栏和分类在顶部导航下方吸顶，滚动时始终可用 */
+  .search-fixed { position:sticky; top:var(--header-h, 96px); z-index:20;
+                  background:var(--bg); margin:0 -14px 8px; padding:7px 14px;
+                  border-bottom:1px solid rgba(44,49,64,.8); }
+  .bar { display:flex; gap:8px; margin-bottom:8px; }
   input[type=search], input[type=text] { flex:1; padding:11px 14px; border-radius:11px;
     border:1px solid var(--line); background:var(--panel); color:var(--fg); font-size:15px; }
   input:focus { outline:none; border-color:var(--acc2); }
   .cnt { color:var(--dim); font-size:12px; margin:0 2px 10px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:10px; }
-  .card { background:var(--panel); border:1px solid var(--line); border-radius:13px;
-          padding:11px; cursor:pointer; transition:.12s; }
-  .card:hover, .card:active { border-color:var(--acc); background:var(--panel2); }
-  .thumb { width:100%; height:88px; object-fit:contain; border-radius:9px;
-           background:#262b37; display:block; margin-bottom:8px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(96px,1fr)); gap:8px; }
+  .card { background:var(--panel); border:2px solid var(--line); border-radius:12px;
+          padding:5px; cursor:pointer; transition:.12s; overflow:hidden; }
+  .card:hover, .card:active { background:var(--panel2); transform:translateY(-1px); }
+  /* 卡片只显示图标，类型靠边框颜色区分 */
+  .card.k-items { border-color:#b58343; }
+  .card.k-trinkets { border-color:#5bb97a; }
+  .card.k-cards { border-color:#7aa2f7; }
+  .card.k-pills { border-color:#d97a9e; }
+  .thumb { width:100%; height:auto; aspect-ratio:1/1; object-fit:contain; border-radius:8px;
+           background:#262b37; display:block; }
   .thumb.noimg { opacity:.25; }
   .cname { font-weight:600; font-size:14px; line-height:1.35; }
   .czh { color:var(--acc); }
   .ctag { display:inline-block; background:#2a3040; color:#aab3c4; border-radius:6px;
           padding:1px 7px; font-size:10.5px; margin:4px 3px 0 0; }
   .ctag.look { background:#33291c; color:#e0a458; }
-  .kindtag { display:inline-block; font-size:10px; line-height:1.5; padding:0 5px; border-radius:5px;
-             background:#263041; color:#9db4d6; margin-right:6px; vertical-align:1px; }
+  /* 分类标签上的小圆点对应卡片边框颜色 */
+  #kindTabs .tab[data-kind="items"]::before,
+  #kindTabs .tab[data-kind="trinkets"]::before,
+  #kindTabs .tab[data-kind="cards"]::before,
+  #kindTabs .tab[data-kind="pills"]::before {
+    content:""; display:inline-block; width:6px; height:6px; border-radius:50%;
+    margin-right:5px; vertical-align:1px;
+  }
+  #kindTabs .tab[data-kind="items"]::before { background:#b58343; }
+  #kindTabs .tab[data-kind="trinkets"]::before { background:#5bb97a; }
+  #kindTabs .tab[data-kind="cards"]::before { background:#7aa2f7; }
+  #kindTabs .tab[data-kind="pills"]::before { background:#d97a9e; }
   .quality { display:inline-block; width:18px; height:18px; line-height:18px; text-align:center;
              border-radius:5px; font-size:10px; font-weight:700; float:right; }
   .q0{background:#4b5266}.q1{background:#5b8c3a}.q2{background:#3a7bb0}.q3{background:#8a5bb0}.q4{background:#c08b2e}
@@ -54,6 +73,12 @@
         font-size:12px; font-weight:750; letter-spacing:.3px; color:#fff; }
   .mq.q4 { color:#23180a; background:#d9a441; }
   .empty { color:var(--dim); text-align:center; padding:50px 20px; }
+  .pager { display:none; align-items:center; justify-content:center; gap:12px; margin:16px 0 8px; }
+  .pg { padding:9px 14px; border-radius:9px; border:1px solid var(--line);
+        background:var(--panel); color:var(--fg); font-size:13px; cursor:pointer; }
+  .pg:active:not(:disabled) { border-color:var(--acc); }
+  .pg:disabled { opacity:.4; cursor:default; }
+  #pageInfo { color:var(--dim); font-size:12px; min-width:92px; text-align:center; }
   /* 识别 */
   .up { border:2px dashed var(--line); border-radius:14px; padding:26px 16px; text-align:center;
         color:var(--dim); margin-bottom:12px; }
@@ -68,6 +93,10 @@
   #recCnt, #recResults { scroll-margin-top:112px; }
   /* 手机端：竖图限制高度，操作栏固定在底部，避免按钮被画布顶出屏幕 */
   @media (max-width:640px) {
+    header { padding:9px 14px 8px; }
+    h1 { font-size:16px; margin-bottom:7px; }
+    .tab { padding:7px; }
+    .search-fixed { padding-top:6px; padding-bottom:7px; }
     canvas { width:auto; height:auto; max-width:100%; max-height:55vh; max-height:55dvh; }
     .actions { position:fixed; left:0; right:0; bottom:0; z-index:40; margin:0;
                padding:9px 14px calc(9px + env(safe-area-inset-bottom));
@@ -119,18 +148,25 @@
 </header>
 
 <div class="wrap" id="view-search">
-  <div class="bar">
-    <input type="search" id="q" placeholder="搜全部类型：俗称 / 中文名 / 拼音 / 长相，如：硫磺火、liuhuang、红激光">
-  </div>
-  <div class="tabs" style="margin-bottom:10px" id="kindTabs">
-    <div class="tab on" data-kind="all">全部</div>
-    <div class="tab" data-kind="items">道具</div>
-    <div class="tab" data-kind="trinkets">饰品</div>
-    <div class="tab" data-kind="cards">卡牌</div>
-    <div class="tab" data-kind="pills">药丸</div>
+  <div class="search-fixed" id="searchFixed">
+    <div class="bar">
+      <input type="search" id="q" placeholder="搜全部类型：俗称 / 中文名 / 拼音 / 长相">
+    </div>
+    <div class="tabs" id="kindTabs">
+      <div class="tab on" data-kind="all">全部</div>
+      <div class="tab" data-kind="items">道具</div>
+      <div class="tab" data-kind="trinkets">饰品</div>
+      <div class="tab" data-kind="cards">卡牌</div>
+      <div class="tab" data-kind="pills">药丸</div>
+    </div>
   </div>
   <div class="cnt" id="searchCnt"></div>
   <div class="grid" id="results"></div>
+  <div class="pager" id="pager">
+    <button class="pg" id="prevPage" type="button">上一页</button>
+    <span id="pageInfo"></span>
+    <button class="pg" id="nextPage" type="button">下一页</button>
+  </div>
 </div>
 
 <div class="wrap" id="view-recognize" style="display:none">
@@ -163,8 +199,8 @@
     <b>这是什么</b><br>
     面向手机/主机玩家的《以撒的结合：忏悔》图鉴，解决"只能靠肉眼或记名字找道具"的痛点。<br><br>
     <b>怎么用</b><br>
-    · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌 / 药丸，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索。<br>
-    · <b>详情</b>：点任意卡片，查看效果、台词、品质、俗称。<br>
+    · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌 / 药丸，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；搜索栏和分类栏吸顶，每页 40 条可翻页。<br>
+    · <b>详情</b>：列表只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸）；点任意图标查看效果、台词、品质、俗称等完整信息。<br>
     · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；留一点边，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br><br>
     <b>离线使用</b><br>
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
