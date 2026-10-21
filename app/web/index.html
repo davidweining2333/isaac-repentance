@@ -41,10 +41,19 @@
           padding:5px; cursor:pointer; transition:.12s; overflow:hidden; }
   .card:hover, .card:active { background:var(--panel2); transform:translateY(-1px); }
   /* 卡片只显示图标，类型靠边框颜色区分 */
-  .card.k-items { border-color:#b58343; }
+  .card.k-items { border-color:#b58343; position:relative; }
+  /* 道具双层边框：金色外层 + 主动/被动内层 */
+  .card.k-items::after { content:""; position:absolute; inset:4px; border:2px solid var(--item-inner,#7f8798);
+                         border-radius:8px; pointer-events:none; }
+  .card.k-items.active { --item-inner:#e8654f; }
+  .card.k-items.passive { --item-inner:#5aa9e6; }
   .card.k-trinkets { border-color:#5bb97a; }
   .card.k-cards { border-color:#7aa2f7; }
   .card.k-pills { border-color:#d97a9e; }
+  /* 药丸没有固定图标，卡片直接显示名称和效果 */
+  .card.k-pills { grid-column:1/-1; padding:10px 12px; }
+  .pill-name { font-weight:650; font-size:13.5px; line-height:1.35; color:#f0b4c8; }
+  .pill-desc { color:#c3c9d4; font-size:12.5px; line-height:1.5; margin-top:2px; }
   .thumb { width:100%; height:auto; aspect-ratio:1/1; object-fit:contain; border-radius:8px;
            background:#262b37; display:block; }
   .thumb.noimg { opacity:.25; }
@@ -65,20 +74,15 @@
   #kindTabs .tab[data-kind="trinkets"]::before { background:#5bb97a; }
   #kindTabs .tab[data-kind="cards"]::before { background:#7aa2f7; }
   #kindTabs .tab[data-kind="pills"]::before { background:#d97a9e; }
-  .quality { display:inline-block; width:18px; height:18px; line-height:18px; text-align:center;
-             border-radius:5px; font-size:10px; font-weight:700; float:right; }
+  .quality { position:absolute; z-index:2; top:4px; right:4px; width:18px; height:18px;
+             line-height:16px; text-align:center; border-radius:50%; font-size:10px;
+             font-weight:800; color:#fff; border:2px solid #12141a; box-shadow:0 1px 3px #0008; }
   .q0{background:#4b5266}.q1{background:#5b8c3a}.q2{background:#3a7bb0}.q3{background:#8a5bb0}.q4{background:#c08b2e}
   .quality.q0,.quality.q1,.quality.q2,.quality.q3,.quality.q4{color:#fff}
   .mq { display:inline-block; margin-top:7px; padding:2px 10px; border-radius:7px;
         font-size:12px; font-weight:750; letter-spacing:.3px; color:#fff; }
   .mq.q4 { color:#23180a; background:#d9a441; }
   .empty { color:var(--dim); text-align:center; padding:50px 20px; }
-  .pager { display:none; align-items:center; justify-content:center; gap:12px; margin:16px 0 8px; }
-  .pg { padding:9px 14px; border-radius:9px; border:1px solid var(--line);
-        background:var(--panel); color:var(--fg); font-size:13px; cursor:pointer; }
-  .pg:active:not(:disabled) { border-color:var(--acc); }
-  .pg:disabled { opacity:.4; cursor:default; }
-  #pageInfo { color:var(--dim); font-size:12px; min-width:92px; text-align:center; }
   /* 识别 */
   .up { border:2px dashed var(--line); border-radius:14px; padding:26px 16px; text-align:center;
         color:var(--dim); margin-bottom:12px; }
@@ -97,6 +101,14 @@
     h1 { font-size:16px; margin-bottom:7px; }
     .tab { padding:7px; }
     .search-fixed { padding-top:6px; padding-bottom:7px; }
+    /* 手机端图标缩到约当前的四分之一面积（约 48px），一屏能看到更多条目 */
+    .grid { grid-template-columns:repeat(auto-fill,minmax(52px,1fr)); gap:5px; }
+    .card { padding:2px; border-width:1px; border-radius:8px; }
+    .card.k-items::after { inset:1px; border-width:1px; border-radius:6px; }
+    .thumb { border-radius:5px; }
+    .quality { top:2px; right:2px; width:13px; height:13px; line-height:11px;
+               font-size:8px; border-width:1px; }
+    .card.k-pills { padding:9px 10px; border-width:2px; }
     canvas { width:auto; height:auto; max-width:100%; max-height:55vh; max-height:55dvh; }
     .actions { position:fixed; left:0; right:0; bottom:0; z-index:40; margin:0;
                padding:9px 14px calc(9px + env(safe-area-inset-bottom));
@@ -129,6 +141,8 @@
   .mhead img, .mph { width:64px; height:64px; object-fit:contain; background:#262b37;
                      border-radius:10px; flex:none; }
   .mph { display:flex; align-items:center; justify-content:center; font-size:30px; opacity:.7; }
+  .pillph { font-size:13px; font-weight:650; color:#f0b4c8; opacity:1; border:1px solid #d97a9e;
+            background:#2a2027; }
   .mtitle { font-size:17px; font-weight:700; color:var(--acc); }
   .msub { font-size:12px; color:var(--dim); }
   .mquote { color:#e0a458; font-style:italic; font-size:13px; margin:8px 0 0; }
@@ -150,7 +164,7 @@
 <div class="wrap" id="view-search">
   <div class="search-fixed" id="searchFixed">
     <div class="bar">
-      <input type="search" id="q" placeholder="搜全部类型：俗称 / 中文名 / 拼音 / 长相">
+      <input type="search" id="q" placeholder="搜道具 / 饰品 / 卡牌：俗称 / 中文名 / 拼音 / 长相">
     </div>
     <div class="tabs" id="kindTabs">
       <div class="tab on" data-kind="all">全部</div>
@@ -162,11 +176,6 @@
   </div>
   <div class="cnt" id="searchCnt"></div>
   <div class="grid" id="results"></div>
-  <div class="pager" id="pager">
-    <button class="pg" id="prevPage" type="button">上一页</button>
-    <span id="pageInfo"></span>
-    <button class="pg" id="nextPage" type="button">下一页</button>
-  </div>
 </div>
 
 <div class="wrap" id="view-recognize" style="display:none">
@@ -199,23 +208,26 @@
     <b>这是什么</b><br>
     面向手机/主机玩家的《以撒的结合：忏悔》图鉴，解决"只能靠肉眼或记名字找道具"的痛点。<br><br>
     <b>怎么用</b><br>
-    · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌 / 药丸，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；搜索栏和分类栏吸顶，每页 40 条可翻页。<br>
-    · <b>详情</b>：列表只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸）；点任意图标查看效果、台词、品质、俗称等完整信息。<br>
-    · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；留一点边，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br><br>
+    · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；药丸请切到「药丸」分类搜索。搜索栏和分类栏吸顶，结果一次全部显示，不再分页。<br>
+    · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸），道具图标右上角显示品质等级；道具卡是双层边框，红色内框=主动、蓝色内框=被动。药丸没有固定图标，卡片直接显示名称和效果。<br>
+    · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；留一点边，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br>
+    · <b>卡片边框</b>：道具外框金色；主动道具内框红色，被动道具内框蓝色。<br><br>
     <b>离线使用</b><br>
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
     <div class="hint" id="cacheInfo" style="margin:2px 0 10px">搜索和识别本身完全离线；点此把图标也缓存下来，之后断网也能看。</div><br>
     <b>识别原理（无 AI 模型）</b><br>
-    传统计算机视觉：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时从原图重新高分辨率裁切（不是先用 640px 缩略图），再叠加自动前景框、多圈裁切、5 个旋转 × 9 个平移，约 400 个候选，只比对道具本体像素。免联网、无模型包。<br>
-    实测：清晰截图/常见照片 Top1 稳定；选区偏大 30%+、偏移或裁到图标边缘时，多圈裁切会兜底。单次约 0.3–0.6s（桌面），手机视性能约 1s 左右。结果上方会提示“候选很接近”或“匹配度偏低”，这时请从候选里点开确认。<br>
+    传统计算机视觉：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时从原图重新高分辨率裁切（不是先用 640px 缩略图），再叠加自动前景框、中心裁切、多圈裁切、5 个旋转 × 9 个平移，并对偏色照片额外生成按通道标准化的副本，最多约 1200 个候选，只比对道具本体像素。免联网、无模型包。<br>
+    实测：清晰截图/常见照片 Top1 稳定；选区偏大 30%+、偏移、偏色或裁到图标边缘时，多圈裁切/颜色归一化会兜底。单次约 0.4–0.9s（桌面，难例约 1.5s），手机视性能约 2–4s。结果上方会提示“候选很接近”或“匹配度偏低”，这时请从候选里点开确认。<br>
+    开源模型评估：试过 MediaPipe/MobileNetV3、DINOv2（Apache 2.0）等通用方案，实拍小图标上不如现有模板稳定；Isaac 专用 YOLO 权重没有明确许可证，暂不打包。若需要深度学习识别，需要更多实拍训练数据。<br>
     另有「本地小模型 / 自定义模型」两个可切换后端，可加载自己的 JSON 模型。<br><br>
     <b>数据</b><br>
     719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。<br><br>
     <b>数据来源</b><br>
     · 名称 / 效果：<a href="https://github.com/wofsauge/External-Item-Descriptions" target="_blank" rel="noopener">External-Item-Descriptions</a>（仓库未附 LICENSE）<br>
     · 品质 / 标签 / 道具池 / 成就等：<a href="https://bindingofisaacrebirth.wiki.gg" target="_blank" rel="noopener">bindingofisaacrebirth.wiki.gg</a>（CC BY-SA 4.0）<br>
+    · 中文成就 / 怪物 / 角色 / 楼层 / 套装译名与部分图标：<a href="https://isaac.huijiwiki.com/" target="_blank" rel="noopener">以撒的结合中文维基（灰机 Wiki）</a>（CC BY-NC-SA 3.0，非商业使用）<br>
     · 房间 / 楼层：<a href="https://github.com/wofsauge/Basement-Renovator" target="_blank" rel="noopener">Basement Renovator</a>（All Rights Reserved）<br>
-    · 图标：wiki.gg；游戏素材版权归 Nicalis / Edmund McMillen，本作是非官方粉丝图鉴。<br>
+    · 图标：wiki.gg 与灰机 Wiki；游戏素材版权归 Nicalis / Edmund McMillen，本作是非官方粉丝图鉴。<br>
     · 这不是统一开源许可的数据集；公开再分发前请核对上游授权。
   </div>
 </div>

@@ -5,7 +5,7 @@
  *   - 图标：缓存优先（一旦缓存，断网可用）
  *   - 页面/脚本：网络优先，失败回退缓存
  */
-const V = "isaac-guide-v9";      // 应用外壳（随版本更新）
+const V = "isaac-guide-v14";     // 应用外壳（随版本更新）
 const IMG = "isaac-images-v1";   // 图标（跨版本保留，避免升级后重新下载 4MB）
 
 const CORE = [

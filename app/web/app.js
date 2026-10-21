@@ -23,18 +23,19 @@
 
   /* ---------- 模糊搜索：默认全类型 ---------- */
   const KIND_LABEL = { items: "道具", trinkets: "饰品", cards: "卡牌", pills: "药丸" };
+  const TYPE_LABEL = { active: "主动道具", passive: "被动道具" };
   const SEARCH_KINDS = [
     { key: "items", label: KIND_LABEL.items },
     { key: "trinkets", label: KIND_LABEL.trinkets },
     { key: "cards", label: KIND_LABEL.cards },
     { key: "pills", label: KIND_LABEL.pills }
   ];
-  const PAGE_SIZE = 40;
-  let kind = "all", query = "", page = 1;
+  /* 「全部」只混合道具/饰品/卡牌；药丸只有切到药丸分类才显示 */
+  const ALL_KINDS = SEARCH_KINDS.filter(g => g.key !== "pills");
+  let kind = "all", query = "";
 
   function setKind(k) {
     kind = k;
-    page = 1;
     $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
     render();
   }
@@ -42,9 +43,9 @@
   $("#q").addEventListener("input", e => {
     const had = !!query;
     query = e.target.value.trim().toLowerCase();
-    page = 1;
-    /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制 */
-    if (query && !had && kind !== "all") setKind("all");
+    /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制；
+       药丸分类除外，否则在药丸页输入会立刻跳到不含药丸的「全部」。 */
+    if (query && !had && kind !== "all" && kind !== "pills") setKind("all");
     else render();
   });
 
@@ -64,16 +65,33 @@
 
   function cardHTML(r, i, groupKey) {
     const name = r.name_zh || r.name || "";
+    /* 药丸外观随机，没有固定图标；直接展示名称和效果，避免无意义的占位图标 */
+    if (groupKey === "pills") {
+      const effect = r.desc_zh || "（暂无效果描述）";
+      return `<div class="card k-pills pill-card" data-idx="${i}" data-kind="${groupKey}"
+        title="${esc(name)}：${esc(effect)}" aria-label="${esc(name)}，${esc(effect)}">
+        <div class="pill-name">${esc(name)}</div>
+        <div class="pill-desc">${esc(effect)}</div>
+      </div>`;
+    }
     const thumb = (r.image || r.image_url)
       ? `<img class="thumb" src="${IMG(r)}" alt="${esc(name)}" loading="lazy" onerror="this.classList.add('noimg');this.src='${r.image_url || ""}'">`
-      : `<div class="thumb ph" aria-label="${esc(name)}">💊</div>`;
-    return `<div class="card k-${groupKey}" data-idx="${i}" data-kind="${groupKey}" title="${esc(name)}" aria-label="${esc(name)}">${thumb}</div>`;
+      : `<div class="thumb ph" aria-label="${esc(name)}">?</div>`;
+    /* 道具卡双层边框：外层金边表示道具，内层颜色表示主动/被动 */
+    const typeClass = groupKey === "items" && r.type ? " " + r.type : "";
+    const label = groupKey === "items" && TYPE_LABEL[r.type]
+      ? `${TYPE_LABEL[r.type]} · ${name}`
+      : name;
+    const qual = groupKey === "items" && r.quality != null
+      ? `<span class="quality q${r.quality}" title="品质 ${r.quality}" aria-label="品质 ${r.quality}">${r.quality}</span>`
+      : "";
+    return `<div class="card k-${groupKey}${typeClass}" data-idx="${i}" data-kind="${groupKey}" title="${esc(label)}" aria-label="${esc(label)}">${thumb}${qual}</div>`;
   }
 
   let lastList = [];
 
   function render() {
-    const groups = kind === "all" ? SEARCH_KINDS : SEARCH_KINDS.filter(g => g.key === kind);
+    const groups = kind === "all" ? ALL_KINDS : SEARCH_KINDS.filter(g => g.key === kind);
     const buckets = [];
 
     for (const g of groups) {
@@ -86,7 +104,7 @@
 
     const picked = [];
     if (!query && kind === "all") {
-      /* 「全部」浏览时四类交替出现，再统一分页 */
+      /* 「全部」浏览时三类交替出现；药丸只在药丸分类显示 */
       const max = Math.max(0, ...buckets.map(b => b.length));
       for (let i = 0; i < max; i++) {
         for (const b of buckets) if (b[i]) picked.push(b[i]);
@@ -96,45 +114,27 @@
     }
     if (query) picked.sort((a, b) => b.s - a.s);
 
-    const pages = Math.max(1, Math.ceil(picked.length / PAGE_SIZE));
-    if (page > pages) page = pages;
-    if (page < 1) page = 1;
-    const start = (page - 1) * PAGE_SIZE;
-    lastList = picked.slice(start, start + PAGE_SIZE);
+    lastList = picked;
 
     let txt = `${picked.length} 条`;
-    if (pages > 1) txt += ` · 第 ${page}/${pages} 页`;
     if (query) txt += ` · “${query}”`;
-    else if (kind === "all") txt += " · 全部类型";
+    else if (kind === "all") txt += " · 全部类型（不含药丸）";
     $("#searchCnt").textContent = txt;
     $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">没找到，换个俗称/拼音/长相试试</div>`;
-    $("#pager").style.display = pages > 1 ? "flex" : "none";
-    $("#prevPage").disabled = page <= 1;
-    $("#nextPage").disabled = page >= pages;
-    $("#pageInfo").textContent = pages > 1 ? `第 ${page} / ${pages} 页` : "";
   }
-
-  function goPage(step) {
-    const next = page + step;
-    if (next < 1) return;
-    page = next;
-    render();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-  $("#prevPage").onclick = () => goPage(-1);
-  $("#nextPage").onclick = () => goPage(1);
 
   /* 卡片详情弹层 */
   function openDetail(r, kindKey) {
     const quality = r.quality != null ? `<span class="mq q${r.quality}">品质 ${r.quality}</span>` : "";
     const head = (r.image || r.image_url)
       ? `<img src="${IMG(r)}" onerror="this.style.display='none'">`
-      : `<div class="mph">💊</div>`;
+      : `<div class="mph pillph">药丸</div>`;
     const tags = [...(r.nick || []), ...(r.look || [])];
+    const sub = [r.name || "", TYPE_LABEL[r.type] || ""].filter(Boolean).join(" · ");
     $("#modal .mbody").innerHTML = `
       <div class="mhead">${head}
         <div><div class="mtitle">${r.name_zh || r.name}</div>
-        <div class="msub">${r.name || ""}${r.type ? " · " + r.type : ""}</div>
+        <div class="msub">${sub}</div>
         ${quality}</div>
       </div>
       ${r.quote ? `<div class="mquote">“${r.quote}”</div>` : ""}
@@ -316,6 +316,33 @@
     return { x: bx, y: by, w: bw, h: bh };
   }
 
+  /* 手机照片常见偏色/白平衡漂移：额外生成一份按通道标准化的副本，
+     与原图候选一起匹配，避免整张图偏黄/偏蓝时模板直接失效。 */
+  function normalizedSource(src) {
+    const c = document.createElement("canvas");
+    c.width = src.width; c.height = src.height;
+    const cc = c.getContext("2d", { willReadFrequently: true });
+    cc.drawImage(src, 0, 0);
+    const im = cc.getImageData(0, 0, c.width, c.height);
+    const d = im.data, n = c.width * c.height;
+    let sr = 0, sg = 0, sb = 0, qr = 0, qg = 0, qb = 0;
+    for (let i = 0; i < d.length; i += 4) {
+      const r = d[i], g = d[i + 1], b = d[i + 2];
+      sr += r; sg += g; sb += b; qr += r * r; qg += g * g; qb += b * b;
+    }
+    const mr = sr / n, mg = sg / n, mb = sb / n;
+    const dr = Math.sqrt(Math.max(qr / n - mr * mr, 1e-6)) || 1;
+    const dg = Math.sqrt(Math.max(qg / n - mg * mg, 1e-6)) || 1;
+    const db = Math.sqrt(Math.max(qb / n - mb * mb, 1e-6)) || 1;
+    for (let i = 0; i < d.length; i += 4) {
+      d[i] = Math.max(0, Math.min(255, (d[i] - mr) / dr * 48 + 128));
+      d[i + 1] = Math.max(0, Math.min(255, (d[i + 1] - mg) / dg * 48 + 128));
+      d[i + 2] = Math.max(0, Math.min(255, (d[i + 2] - mb) / db * 48 + 128));
+    }
+    cc.putImageData(im, 0, 0);
+    return c;
+  }
+
   function candidates(src) {
     const S = META.S, out = [];
     const ANGLES = [-14, -7, 0, 7, 14];
@@ -338,36 +365,48 @@
         });
       }
     }
+    /* 中心裁切：图标通常位于选框中央；背景纹理/网格会让 autoBox 偏掉时兜底 */
+    const side = Math.min(src.width, src.height);
+    for (const frac of [0.34, 0.46, 0.60, 0.76]) {
+      const s = side * frac;
+      bases.push({
+        x: (src.width - s) / 2, y: (src.height - s) / 2, w: s, h: s
+      });
+    }
     const c = document.createElement("canvas"); c.width = S; c.height = S;
     const cc = c.getContext("2d", { willReadFrequently: true });
     const seen = new Set();
-    for (const b of bases) {
-      const bw = Math.max(8, b.w), bh = Math.max(8, b.h);
-      for (const fx of SHIFTS) for (const fy of SHIFTS) {
-        const cw = Math.min(src.width, Math.max(8, Math.round(bw)));
-        const ch = Math.min(src.height, Math.max(8, Math.round(bh)));
-        let x0 = Math.round(b.x + bw * fx);
-        let y0 = Math.round(b.y + bh * fy);
-        x0 = Math.max(0, Math.min(x0, src.width - cw));
-        y0 = Math.max(0, Math.min(y0, src.height - ch));
-        const key = x0 + "," + y0 + "," + cw + "," + ch;
-        if (seen.has(key)) continue;
-        seen.add(key);
-        for (const ang of ANGLES) {
-          cc.clearRect(0, 0, S, S);
-          cc.save();
-          cc.translate(S / 2, S / 2);
-          cc.rotate(ang * Math.PI / 180);
-          cc.drawImage(src, x0, y0, cw, ch, -S / 2, -S / 2, S, S);
-          cc.restore();
-          const d = cc.getImageData(0, 0, S, S).data;
-          const f = new Float32Array(S * S * 3);
-          for (let i = 0, j = 0; i < S * S; i++) {
-            f[j++] = d[i * 4] / 255; f[j++] = d[i * 4 + 1] / 255; f[j++] = d[i * 4 + 2] / 255;
+    const sources = [src, normalizedSource(src)];
+    for (let si = 0; si < sources.length; si++) {
+      const source = sources[si];
+      for (const b of bases) {
+        const bw = Math.max(8, b.w), bh = Math.max(8, b.h);
+        for (const fx of SHIFTS) for (const fy of SHIFTS) {
+          const cw = Math.min(source.width, Math.max(8, Math.round(bw)));
+          const ch = Math.min(source.height, Math.max(8, Math.round(bh)));
+          let x0 = Math.round(b.x + bw * fx);
+          let y0 = Math.round(b.y + bh * fy);
+          x0 = Math.max(0, Math.min(x0, source.width - cw));
+          y0 = Math.max(0, Math.min(y0, source.height - ch));
+          const key = si + ":" + x0 + "," + y0 + "," + cw + "," + ch;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          for (const ang of ANGLES) {
+            cc.clearRect(0, 0, S, S);
+            cc.save();
+            cc.translate(S / 2, S / 2);
+            cc.rotate(ang * Math.PI / 180);
+            cc.drawImage(source, x0, y0, cw, ch, -S / 2, -S / 2, S, S);
+            cc.restore();
+            const d = cc.getImageData(0, 0, S, S).data;
+            const f = new Float32Array(S * S * 3);
+            for (let i = 0, j = 0; i < S * S; i++) {
+              f[j++] = d[i * 4] / 255; f[j++] = d[i * 4 + 1] / 255; f[j++] = d[i * 4 + 2] / 255;
+            }
+            /* 只保留极轻的大裁切偏好：中心裁切/小图标候选不应因为面积小而吃亏 */
+            const prior = 0.012 * (1 - Math.min(1, (cw * ch) / (src.width * src.height)));
+            out.push({ f, prior });
           }
-          /* 轻微偏好大一点的裁切：避免从图标内部的一小块高光/图案匹配到别的道具 */
-          const prior = 0.10 * (1 - Math.min(1, (cw * ch) / (src.width * src.height)));
-          out.push({ f, prior });
         }
       }
     }

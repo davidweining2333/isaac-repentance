@@ -1,0 +1,5855 @@
+{
+ "_meta": {
+  "language": "zh-CN",
+  "source": "以撒的结合中文维基（灰机 wiki） / EID",
+  "source_url": "https://isaac.huijiwiki.com/",
+  "note": "中文为社区译名/说明；英文原文字段始终保留在数据集中。"
+ },
+ "achievements": {
+  "1": {
+   "name_zh": "抹大拉",
+   "description_zh": "你解锁了“抹大拉”",
+   "requirements_zh": "在一局游戏中，同时拥有七个心之容器。",
+   "reward_zh": "抹大拉",
+   "image": "images/achievement/1.png"
+  },
+  "2": {
+   "name_zh": "该隐",
+   "description_zh": "你解锁了“该隐”",
+   "requirements_zh": "在一局游戏中，同时拥有55枚硬币。",
+   "reward_zh": "该隐",
+   "image": "images/achievement/2.png"
+  },
+  "3": {
+   "name_zh": "犹大",
+   "description_zh": "你解锁了“犹大”",
+   "requirements_zh": "击败撒但1次。",
+   "reward_zh": "犹大",
+   "image": "images/achievement/3.png"
+  },
+  "4": {
+   "name_zh": "子宫",
+   "description_zh": "你解锁了子宫！",
+   "requirements_zh": "击败妈妈1次。",
+   "reward_zh": "第四章",
+   "image": "images/achievement/4.png"
+  },
+  "5": {
+   "name_zh": "天启骑士",
+   "description_zh": "你解锁了“天启骑士”\n骑士们蠢蠢欲动。",
+   "requirements_zh": "击败妈妈1次。",
+   "reward_zh": "饥荒骑士\n瘟疫骑士\n战争骑士\n死亡骑士",
+   "image": "images/achievement/5.png"
+  },
+  "6": {
+   "name_zh": "肉块",
+   "description_zh": "“肉块”+“绷带球”已出现在地下室",
+   "requirements_zh": "击败妈妈1次。",
+   "reward_zh": "肉块\n 绷带球",
+   "image": "images/achievement/6.png"
+  },
+  "7": {
+   "name_zh": "启示录",
+   "description_zh": "“启示录”已出现在地下室",
+   "requirements_zh": "击败饥荒骑士、瘟疫骑士、战争骑士或死亡骑士1次。",
+   "reward_zh": "启示录",
+   "image": "images/achievement/7.png"
+  },
+  "8": {
+   "name_zh": "超凡升天",
+   "description_zh": "“超凡升天”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏3次。",
+   "reward_zh": "超凡升天",
+   "image": "images/achievement/8.png"
+  },
+  "9": {
+   "name_zh": "钉子",
+   "description_zh": "“钉子”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得Boss Rush通关标记。",
+   "reward_zh": "钉子",
+   "image": "images/achievement/9.png"
+  },
+  "10": {
+   "name_zh": "25美分",
+   "description_zh": "“25美分”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏8次。",
+   "reward_zh": "25美分",
+   "image": "images/achievement/10.png"
+  },
+  "11": {
+   "name_zh": "胎儿博士",
+   "description_zh": "“胎儿博士”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏9次。",
+   "reward_zh": "胎儿博士",
+   "image": "images/achievement/11.png"
+  },
+  "12": {
+   "name_zh": "小石头",
+   "description_zh": "“小石头”已出现在地下室",
+   "requirements_zh": "摧毁标记石头100次。",
+   "reward_zh": "小石头",
+   "image": "images/achievement/12.png"
+  },
+  "13": {
+   "name_zh": "萌死戳的牙",
+   "description_zh": "“萌死戳的牙”已出现在地下室",
+   "requirements_zh": "通过第一章1次。",
+   "reward_zh": "萌死戳的牙",
+   "image": "images/achievement/13.png"
+  },
+  "14": {
+   "name_zh": "小胖蛆",
+   "description_zh": "“小胖蛆”已出现在地下室",
+   "requirements_zh": "通过第二章1次。",
+   "reward_zh": "小胖蛆",
+   "image": "images/achievement/14.png"
+  },
+  "15": {
+   "name_zh": "洛基的角",
+   "description_zh": "“洛基的角”已出现在地下室",
+   "requirements_zh": "击败分身洛基1次。",
+   "reward_zh": "洛基的角",
+   "image": "images/achievement/15.png"
+  },
+  "16": {
+   "name_zh": "来自未来的家伙！",
+   "description_zh": "你解锁了“来自未来的家伙！”\n已出现在地下室",
+   "requirements_zh": "通过地下室40次。",
+   "reward_zh": "史蒂文",
+   "image": "images/achievement/16.png"
+  },
+  "17": {
+   "name_zh": "可爱的家伙",
+   "description_zh": "你解锁了“可爱的家伙”\n已出现在深牢",
+   "requirements_zh": "通过第二章30次。",
+   "reward_zh": "查德",
+   "image": "images/achievement/17.png"
+  },
+  "18": {
+   "name_zh": "粘粘的家伙",
+   "description_zh": "你解锁了“粘粘的家伙”\n已出现在深牢",
+   "requirements_zh": "通过深牢20次。",
+   "reward_zh": "吉什",
+   "image": "images/achievement/18.png"
+  },
+  "19": {
+   "name_zh": "超级绷带女孩",
+   "description_zh": "你拼齐了超级绷带女孩！",
+   "requirements_zh": "生成1个4级的 绷带妹。",
+   "reward_zh": "超级绷带",
+   "image": "images/achievement/19.png"
+  },
+  "20": {
+   "name_zh": "圣遗物",
+   "description_zh": "“圣遗物”已出现在地下室",
+   "requirements_zh": "用抹大拉获得以撒通关标记。",
+   "reward_zh": "圣遗物",
+   "image": "images/achievement/20.png"
+  },
+  "21": {
+   "name_zh": "硬币袋",
+   "description_zh": "“硬币袋”已出现在地下室",
+   "requirements_zh": "用该隐获得以撒通关标记。",
+   "reward_zh": "硬币袋",
+   "image": "images/achievement/21.png"
+  },
+  "22": {
+   "name_zh": "七原罪之书",
+   "description_zh": "“七原罪之书”已出现在地下室",
+   "requirements_zh": "击败懒惰、色欲、愤怒、暴食、贪婪、嫉妒和傲慢各1次。",
+   "reward_zh": "七原罪之书",
+   "image": "images/achievement/22.png"
+  },
+  "23": {
+   "name_zh": "吉什宝宝",
+   "description_zh": "“吉什宝宝”已出现在地下室",
+   "requirements_zh": "击败吉什1次。",
+   "reward_zh": "吉什宝宝",
+   "image": "images/achievement/23.png"
+  },
+  "24": {
+   "name_zh": "史蒂文宝宝",
+   "description_zh": "“史蒂文宝宝”已出现在地下室",
+   "requirements_zh": "击败史蒂文1次。",
+   "reward_zh": "史蒂文宝宝",
+   "image": "images/achievement/24.png"
+  },
+  "25": {
+   "name_zh": "查德宝宝",
+   "description_zh": "“查德宝宝”已出现在地下室\n亲亲！",
+   "requirements_zh": "击败查德1次。",
+   "reward_zh": "查德宝宝",
+   "image": "images/achievement/25.png"
+  },
+  "26": {
+   "name_zh": "游戏掌机",
+   "description_zh": "“游戏掌机”已出现在地下室\n耶！好玩！",
+   "requirements_zh": "进入10个赌博房。",
+   "reward_zh": "游戏掌机",
+   "image": "images/achievement/26.png"
+  },
+  "27": {
+   "name_zh": "光环",
+   "description_zh": "“光环”已出现在地下室",
+   "requirements_zh": "使用 圣经击败妈妈、妈妈的心脏或它还活着。",
+   "reward_zh": "光环",
+   "image": "images/achievement/27.png"
+  },
+  "28": {
+   "name_zh": "大爆弹先生",
+   "description_zh": "“大爆弹先生”已出现在地下室",
+   "requirements_zh": "摧毁标记石头10次。",
+   "reward_zh": "大爆弹先生",
+   "image": "images/achievement/28.png"
+  },
+  "29": {
+   "name_zh": "六面骰",
+   "description_zh": "以撒获得了…“六面骰！”",
+   "requirements_zh": "用???获得以撒通关标记。",
+   "reward_zh": "六面骰\n以撒初始携带 六面骰",
+   "image": "images/achievement/29.png"
+  },
+  "30": {
+   "name_zh": "剪刀",
+   "description_zh": "“剪刀”已出现在地下室",
+   "requirements_zh": "统计数据中的死亡次数达到100次。",
+   "reward_zh": "剪刀",
+   "image": "images/achievement/30.png"
+  },
+  "31": {
+   "name_zh": "寄生虫",
+   "description_zh": "“寄生虫”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取2个标签“死亡”的道具。",
+   "reward_zh": "寄生虫",
+   "image": "images/achievement/31.png"
+  },
+  "32": {
+   "name_zh": "？？？",
+   "description_zh": "你解锁了“???”\n这啥啊？！",
+   "requirements_zh": "击败妈妈的心脏10次。",
+   "reward_zh": "???",
+   "image": "images/achievement/32.png"
+  },
+  "33": {
+   "name_zh": "一切都好可怕！！！",
+   "description_zh": "一切都好可怕！！！\n游戏变困难了！",
+   "requirements_zh": "击败妈妈的心脏5次。",
+   "reward_zh": "普通模式与困难模式难度增加\n半魂心",
+   "image": "images/achievement/33.png"
+  },
+  "34": {
+   "name_zh": "它还活着！",
+   "description_zh": "“它还活着！”你未来的过去正在等待",
+   "requirements_zh": "击败妈妈的心脏11次。",
+   "reward_zh": "它还活着",
+   "image": "images/achievement/34.png"
+  },
+  "35": {
+   "name_zh": "妈妈的美瞳",
+   "description_zh": "“妈妈的美瞳”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取3个标签“妈妈”的道具。",
+   "reward_zh": "妈妈的美瞳",
+   "image": "images/achievement/35.png"
+  },
+  "36": {
+   "name_zh": "死灵之书",
+   "description_zh": "“死灵之书”已出现在地下室",
+   "requirements_zh": "使用 XIII-死亡4次。",
+   "reward_zh": "死灵之书",
+   "image": "images/achievement/36.png"
+  },
+  "37": {
+   "name_zh": "地下室小子",
+   "description_zh": "“地下室小子”成就达成\n真棒！",
+   "requirements_zh": "在不受到伤害的情况下，通过第一章。",
+   "image": "images/achievement/37.png"
+  },
+  "38": {
+   "name_zh": "探窟小子",
+   "description_zh": "“探窟小子”成就达成\n酷啊！哇哦！",
+   "requirements_zh": "在不受到伤害的情况下，通过第二章。",
+   "image": "images/achievement/38.png"
+  },
+  "39": {
+   "name_zh": "黑暗小子",
+   "description_zh": "“黑暗小子”成就达成\n秀！酷啊！干得好！",
+   "requirements_zh": "在不受到伤害的情况下，通过第三章。",
+   "image": "images/achievement/39.png"
+  },
+  "40": {
+   "name_zh": "妈宝小子",
+   "description_zh": "♡“妈宝小子”成就达成♡\n卧槽！哇！什么鬼！！你最行！",
+   "requirements_zh": "在不受到伤害的情况下，通过第四章。",
+   "image": "images/achievement/40.png"
+  },
+  "41": {
+   "name_zh": "黄金大神",
+   "description_zh": "☆“黄金大神”达成☆\n你最行！你最棒！",
+   "requirements_zh": "击败???和羔羊各1次。",
+   "image": "images/achievement/41.png"
+  },
+  "42": {
+   "name_zh": "夏娃",
+   "description_zh": "你解锁了“夏娃”",
+   "requirements_zh": "在不拾取心的情况下，连续通过两层。",
+   "reward_zh": "夏娃",
+   "image": "images/achievement/42.png"
+  },
+  "43": {
+   "name_zh": "妈妈的菜刀",
+   "description_zh": "“妈妈的菜刀”已出现在地下室",
+   "requirements_zh": "用以撒获得撒但通关标记。",
+   "reward_zh": "妈妈的菜刀",
+   "image": "images/achievement/43.png"
+  },
+  "44": {
+   "name_zh": "剃刀片",
+   "description_zh": "“剃刀片”已出现在地下室",
+   "requirements_zh": "用夏娃获得撒但通关标记。",
+   "reward_zh": "剃刀片",
+   "image": "images/achievement/44.png"
+  },
+  "45": {
+   "name_zh": "守护天使",
+   "description_zh": "“守护天使”已出现在地下室",
+   "requirements_zh": "用抹大拉获得撒但通关标记。",
+   "reward_zh": "守护天使",
+   "image": "images/achievement/45.png"
+  },
+  "46": {
+   "name_zh": "炸弹袋",
+   "description_zh": "“炸弹袋”已出现在地下室",
+   "requirements_zh": "用该隐获得撒但通关标记。",
+   "reward_zh": "炸弹袋",
+   "image": "images/achievement/46.png"
+  },
+  "47": {
+   "name_zh": "恶魔宝宝",
+   "description_zh": "“恶魔宝宝”已出现在地下室\n↖超邪恶！",
+   "requirements_zh": "用阿撒泻勒获得羔羊通关标记。",
+   "reward_zh": "恶魔宝宝",
+   "image": "images/achievement/47.png"
+  },
+  "48": {
+   "name_zh": "遗忘药",
+   "description_zh": "“遗忘药”已出现在地下室",
+   "requirements_zh": "用???获得撒但通关标记。",
+   "reward_zh": "遗忘药",
+   "image": "images/achievement/48.png"
+  },
+  "49": {
+   "name_zh": "二十面骰！",
+   "description_zh": "“二十面骰！”已出现在地下室\n死宅！",
+   "requirements_zh": "用以撒获得???通关标记。",
+   "reward_zh": "二十面骰",
+   "image": "images/achievement/49.png"
+  },
+  "50": {
+   "name_zh": "凯尔特十字",
+   "description_zh": "“凯尔特十字”已出现在地下室",
+   "requirements_zh": "用抹大拉获得???通关标记。",
+   "reward_zh": "凯尔特十字",
+   "image": "images/achievement/50.png"
+  },
+  "51": {
+   "name_zh": "亚伯",
+   "description_zh": "“亚伯”已出现在地下室",
+   "requirements_zh": "用该隐获得羔羊通关标记。",
+   "reward_zh": "亚伯",
+   "image": "images/achievement/51.png"
+  },
+  "52": {
+   "name_zh": "弯羊角",
+   "description_zh": "“弯羊角”已出现在地下室",
+   "requirements_zh": "用犹大获得羔羊通关标记。",
+   "reward_zh": "弯羊角",
+   "image": "images/achievement/52.png"
+  },
+  "53": {
+   "name_zh": "献祭匕首",
+   "description_zh": "“献祭匕首”已出现在地下室",
+   "requirements_zh": "用夏娃获得???通关标记。",
+   "reward_zh": "献祭匕首",
+   "image": "images/achievement/53.png"
+  },
+  "54": {
+   "name_zh": "嗜血",
+   "description_zh": "“嗜血”已出现在地下室",
+   "requirements_zh": "用参孙获得以撒通关标记。",
+   "reward_zh": "嗜血",
+   "image": "images/achievement/54.png"
+  },
+  "55": {
+   "name_zh": "染血硬币",
+   "description_zh": "“染血硬币”已出现在地下室",
+   "requirements_zh": "用参孙获得???通关标记。",
+   "reward_zh": "染血硬币",
+   "image": "images/achievement/55.png"
+  },
+  "56": {
+   "name_zh": "血之权利",
+   "description_zh": "“血之权利”已出现在地下室",
+   "requirements_zh": "用参孙获得撒但通关标记。",
+   "reward_zh": "血之权利",
+   "image": "images/achievement/56.png"
+  },
+  "57": {
+   "name_zh": "全家福",
+   "description_zh": "“全家福”已出现在地下室",
+   "requirements_zh": "击败以撒5次。",
+   "reward_zh": "全家福",
+   "image": "images/achievement/57.png"
+  },
+  "58": {
+   "name_zh": "爸爸的钥匙",
+   "description_zh": "“爸爸的钥匙”已出现在地下室",
+   "requirements_zh": "在一局游戏中，同时拥有 钥匙碎片1和 钥匙碎片2。",
+   "reward_zh": "爸爸的钥匙",
+   "image": "images/achievement/58.png"
+  },
+  "59": {
+   "name_zh": "蓝蜡烛",
+   "description_zh": "“蓝蜡烛”已出现在地下室",
+   "requirements_zh": "捐献900枚硬币给捐款机。",
+   "reward_zh": "蓝蜡烛",
+   "image": "images/achievement/59.png"
+  },
+  "60": {
+   "name_zh": "焦灼硬币",
+   "description_zh": "“焦灼硬币”已出现在地下室",
+   "requirements_zh": "通过挑战#13：豆子！。",
+   "reward_zh": "焦灼硬币",
+   "image": "images/achievement/60.png"
+  },
+  "61": {
+   "name_zh": "幸运脚趾！",
+   "description_zh": "“幸运脚趾！”已出现在地下室",
+   "requirements_zh": "消灭商店店主20次。",
+   "reward_zh": "幸运脚趾",
+   "image": "images/achievement/61.png"
+  },
+  "62": {
+   "name_zh": "史诗胎儿博士",
+   "description_zh": "“史诗胎儿博士”已出现在地下室",
+   "requirements_zh": "通过挑战#19：顾家男人。",
+   "reward_zh": "史诗胎儿博士",
+   "image": "images/achievement/62.png"
+  },
+  "63": {
+   "name_zh": "超级食肉男孩死忠粉",
+   "description_zh": "“超级食肉男孩死忠粉”已出现在地下室",
+   "requirements_zh": "通过挑战#14：尽在卡牌中。",
+   "reward_zh": "超级食肉男孩死忠粉",
+   "image": "images/achievement/63.png"
+  },
+  "64": {
+   "name_zh": "假币",
+   "description_zh": "“假币”已出现在地下室",
+   "requirements_zh": "在赌博乞丐处赌博100次。",
+   "reward_zh": "假币",
+   "image": "images/achievement/64.png"
+  },
+  "65": {
+   "name_zh": "嗝屁猫的毛球",
+   "description_zh": "“嗝屁猫的毛球”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取3个标签“嗝屁猫”的道具。",
+   "reward_zh": "嗝屁猫的毛球",
+   "image": "images/achievement/65.png"
+  },
+  "66": {
+   "name_zh": "被遗忘的骑士",
+   "description_zh": "你解锁了“被遗忘的骑士”\n已出现在子宫",
+   "requirements_zh": "在天使房中，拾取10个道具。",
+   "reward_zh": "征服骑士",
+   "image": "images/achievement/66.png"
+  },
+  "67": {
+   "name_zh": "参孙",
+   "description_zh": "你解锁了“参孙”",
+   "requirements_zh": "在不受到伤害的情况下，连续通过两层。",
+   "reward_zh": "参孙",
+   "image": "images/achievement/67.png"
+  },
+  "68": {
+   "name_zh": "恶心的家伙！",
+   "description_zh": "你解锁了“恶心的家伙！”\n已出现在血宫",
+   "requirements_zh": "击败以撒10次。",
+   "reward_zh": "三腿蜘蛛",
+   "image": "images/achievement/68.png"
+  },
+  "69": {
+   "name_zh": "白金大神！",
+   "description_zh": "白金大神！\n我的天呐！110%别玩了！",
+   "requirements_zh": "解锁重生版本中除游魂及其相关成就以外的所有道具、结局和成就。",
+   "image": "images/achievement/69.png"
+  },
+  "70": {
+   "name_zh": "以撒的头",
+   "description_zh": "“以撒的头”已出现在地下室",
+   "requirements_zh": "用以撒获得Boss Rush通关标记。",
+   "reward_zh": "以撒的头",
+   "image": "images/achievement/70.png"
+  },
+  "71": {
+   "name_zh": "抹大拉的信仰",
+   "description_zh": "“抹大拉的信仰”已出现在地下室",
+   "requirements_zh": "用抹大拉获得羔羊通关标记。",
+   "reward_zh": "抹大拉的信仰",
+   "image": "images/achievement/71.png"
+  },
+  "72": {
+   "name_zh": "犹大的舌头",
+   "description_zh": "“犹大的舌头”已出现在地下室",
+   "requirements_zh": "用犹大获得撒但通关标记。",
+   "reward_zh": "犹大的舌头",
+   "image": "images/achievement/72.png"
+  },
+  "73": {
+   "name_zh": "???的灵魂",
+   "description_zh": "“???的灵魂”已出现在地下室",
+   "requirements_zh": "用???获得羔羊通关标记。",
+   "reward_zh": "???的灵魂",
+   "image": "images/achievement/73.png"
+  },
+  "74": {
+   "name_zh": "参孙的发髻",
+   "description_zh": "“参孙的发髻”已出现在地下室",
+   "requirements_zh": "用参孙获得羔羊通关标记。",
+   "reward_zh": "参孙的发髻",
+   "image": "images/achievement/74.png"
+  },
+  "75": {
+   "name_zh": "该隐的眼睛",
+   "description_zh": "“该隐的眼睛”已出现在地下室",
+   "requirements_zh": "用该隐获得???通关标记。",
+   "reward_zh": "该隐的眼睛",
+   "image": "images/achievement/75.png"
+  },
+  "76": {
+   "name_zh": "夏娃的鸟爪",
+   "description_zh": "“夏娃的鸟爪”已出现在地下室",
+   "requirements_zh": "用夏娃获得以撒通关标记。",
+   "reward_zh": "夏娃的鸟爪",
+   "image": "images/achievement/76.png"
+  },
+  "77": {
+   "name_zh": "左断手",
+   "description_zh": "“左断手”已出现在地下室",
+   "requirements_zh": "用犹大获得???通关标记。\n或者击败究极傲慢1次。",
+   "reward_zh": "左断手",
+   "image": "images/achievement/77.png"
+  },
+  "78": {
+   "name_zh": "底片",
+   "description_zh": "“底片”已出现在地下室",
+   "requirements_zh": "击败撒但5次。",
+   "reward_zh": "底片",
+   "image": "images/achievement/78.png"
+  },
+  "79": {
+   "name_zh": "阿撒泻勒",
+   "description_zh": "你解锁了“阿撒泻勒”",
+   "requirements_zh": "在一局游戏中，进行3次恶魔交易。",
+   "reward_zh": "阿撒泻勒",
+   "image": "images/achievement/79.png"
+  },
+  "80": {
+   "name_zh": "拉撒路",
+   "description_zh": "你解锁了“拉撒路”",
+   "requirements_zh": "在一局游戏中，拥有四颗魂心。",
+   "reward_zh": "拉撒路",
+   "image": "images/achievement/80.png"
+  },
+  "81": {
+   "name_zh": "伊甸",
+   "description_zh": "你解锁了“伊甸”",
+   "requirements_zh": "击败妈妈的心脏1次。",
+   "reward_zh": "伊甸",
+   "image": "images/achievement/81.png"
+  },
+  "82": {
+   "name_zh": "游魂",
+   "description_zh": "你解锁了“游魂”",
+   "requirements_zh": "角色在献祭房死亡，且拥有 寻人启事。",
+   "reward_zh": "游魂",
+   "image": "images/achievement/82.png"
+  },
+  "83": {
+   "name_zh": "死亡小子",
+   "description_zh": "“死亡小子”成就达成",
+   "requirements_zh": "在不受到伤害的情况下，通过第六章。",
+   "image": "images/achievement/83.png"
+  },
+  "84": {
+   "name_zh": "真·白金大神！",
+   "description_zh": "真·白金大神！\n111%别玩了！",
+   "requirements_zh": "收集所有道具并解锁所有结局。",
+   "image": "images/achievement/84.png"
+  },
+  "85": {
+   "name_zh": "幸运石",
+   "description_zh": "“幸运石”已出现在地下室",
+   "requirements_zh": "摧毁100个石头。",
+   "reward_zh": "幸运石",
+   "image": "images/achievement/85.png"
+  },
+  "86": {
+   "name_zh": "地窖",
+   "description_zh": "你解锁了地窖！",
+   "requirements_zh": "击败地下室中的所有头目各1次。",
+   "reward_zh": "地窖",
+   "image": "images/achievement/86.png"
+  },
+  "87": {
+   "name_zh": "墓穴",
+   "description_zh": "你解锁了墓穴！",
+   "requirements_zh": "击败洞穴中的所有头目各1次。",
+   "reward_zh": "墓穴",
+   "image": "images/achievement/87.png"
+  },
+  "88": {
+   "name_zh": "坟场",
+   "description_zh": "你解锁了坟场！",
+   "requirements_zh": "击败深牢中的所有头目各1次。",
+   "reward_zh": "坟场",
+   "image": "images/achievement/88.png"
+  },
+  "89": {
+   "name_zh": "冰雹符文",
+   "description_zh": "“冰雹符文”已出现在地下室",
+   "requirements_zh": "通过挑战#1：漆黑一片。",
+   "reward_zh": "冰雹符文",
+   "image": "images/achievement/89.png"
+  },
+  "90": {
+   "name_zh": "收获符文",
+   "description_zh": "“收获符文”已出现在地下室",
+   "requirements_zh": "通过挑战#2：格调高雅。",
+   "reward_zh": "收获符文",
+   "image": "images/achievement/90.png"
+  },
+  "91": {
+   "name_zh": "马骑符文",
+   "description_zh": "“马骑符文”已出现在地下室",
+   "requirements_zh": "通过挑战#3：头部创伤。",
+   "reward_zh": "马骑符文",
+   "image": "images/achievement/91.png"
+  },
+  "92": {
+   "name_zh": "朝夕符文",
+   "description_zh": "“朝夕符文”已出现在地下室",
+   "requirements_zh": "通过挑战#4：黑暗降临。",
+   "reward_zh": "朝夕符文",
+   "image": "images/achievement/92.png"
+  },
+  "93": {
+   "name_zh": "诸神符文",
+   "description_zh": "“诸神符文”已出现在地下室",
+   "requirements_zh": "通过挑战#5：坦克。",
+   "reward_zh": "诸神符文",
+   "image": "images/achievement/93.png"
+  },
+  "94": {
+   "name_zh": "签筒符文",
+   "description_zh": "“签筒符文”已出现在地下室",
+   "requirements_zh": "通过挑战#6：太阳系。",
+   "reward_zh": "签筒符文",
+   "image": "images/achievement/94.png"
+  },
+  "95": {
+   "name_zh": "桦木符文",
+   "description_zh": "“桦木符文”已出现在地下室",
+   "requirements_zh": "通过挑战#20：返璞归真。",
+   "reward_zh": "桦木符文",
+   "image": "images/achievement/95.png"
+  },
+  "96": {
+   "name_zh": "保护符文",
+   "description_zh": "“保护符文”已出现在地下室",
+   "requirements_zh": "通过挑战#8：好奇害死猫。",
+   "reward_zh": "保护符文",
+   "image": "images/achievement/96.png"
+  },
+  "97": {
+   "name_zh": "混沌卡",
+   "description_zh": "“混沌卡”已出现在地下室",
+   "requirements_zh": "通过挑战#9：拆迁办。",
+   "reward_zh": "混沌卡",
+   "image": "images/achievement/97.png"
+  },
+  "98": {
+   "name_zh": "信用卡",
+   "description_zh": "“信用卡”已出现在地下室",
+   "requirements_zh": "通过挑战#10：诅咒！。",
+   "reward_zh": "信用卡",
+   "image": "images/achievement/98.png"
+  },
+  "99": {
+   "name_zh": "规则卡",
+   "description_zh": "“规则卡”已出现在地下室",
+   "requirements_zh": "通过挑战#11：玻璃大炮。",
+   "reward_zh": "规则卡",
+   "image": "images/achievement/99.png"
+  },
+  "100": {
+   "name_zh": "反人类卡",
+   "description_zh": "“反人类卡”已出现在地下室",
+   "requirements_zh": "通过挑战#12：当生活充满酸意。",
+   "reward_zh": "反人类卡",
+   "image": "images/achievement/100.png"
+  },
+  "101": {
+   "name_zh": "被吞下的硬币",
+   "description_zh": "“被吞下的硬币”已出现在地下室",
+   "requirements_zh": "通过挑战#15：慢吞吞。",
+   "reward_zh": "被吞下的硬币",
+   "image": "images/achievement/101.png"
+  },
+  "102": {
+   "name_zh": "机器宝宝2.0！",
+   "description_zh": "“机器宝宝2.0！”已出现在地下室",
+   "requirements_zh": "通过挑战#16：技术宅。",
+   "reward_zh": "机器宝宝2.0",
+   "image": "images/achievement/102.png"
+  },
+  "103": {
+   "name_zh": "死神之触",
+   "description_zh": "“死神之触”已出现在地下室",
+   "requirements_zh": "通过挑战#17：吐豆人。",
+   "reward_zh": "死神之触",
+   "image": "images/achievement/103.png"
+  },
+  "104": {
+   "name_zh": "科技0.5",
+   "description_zh": "“科技0.5”已出现在地下室",
+   "requirements_zh": "通过挑战#18：宿主。",
+   "reward_zh": "科技0.5",
+   "image": "images/achievement/104.png"
+  },
+  "105": {
+   "name_zh": "编号丢失",
+   "description_zh": "“编号丢失”已出现在地下室",
+   "requirements_zh": "用拉撒路获得Boss Rush通关标记。",
+   "reward_zh": "编号丢失",
+   "image": "images/achievement/105.png"
+  },
+  "106": {
+   "name_zh": "以撒的泪盆",
+   "description_zh": "“以撒的泪盆”已出现在地下室",
+   "requirements_zh": "用以撒获得以撒通关标记。",
+   "reward_zh": "以撒的泪盆",
+   "image": "images/achievement/106.png"
+  },
+  "107": {
+   "name_zh": "断头台",
+   "description_zh": "“断头台”已出现在地下室",
+   "requirements_zh": "用犹大获得以撒通关标记。",
+   "reward_zh": "断头台",
+   "image": "images/achievement/107.png"
+  },
+  "108": {
+   "name_zh": "犹大的影子",
+   "description_zh": "“犹大的影子”已出现在地下室",
+   "requirements_zh": "用犹大获得Boss Rush通关标记。",
+   "reward_zh": "犹大的影子",
+   "image": "images/achievement/108.png"
+  },
+  "109": {
+   "name_zh": "抹大拉的蝴蝶结",
+   "description_zh": "“抹大拉的蝴蝶结”已出现在地下室",
+   "requirements_zh": "用抹大拉获得Boss Rush通关标记。",
+   "reward_zh": "抹大拉的蝴蝶结",
+   "image": "images/achievement/109.png"
+  },
+  "110": {
+   "name_zh": "该隐的另一只眼",
+   "description_zh": "“该隐的另一只眼”已出现在地下室",
+   "requirements_zh": "用该隐获得Boss Rush通关标记。",
+   "reward_zh": "该隐的另一只眼",
+   "image": "images/achievement/110.png"
+  },
+  "111": {
+   "name_zh": "黑色口红",
+   "description_zh": "“黑色口红”已出现在地下室",
+   "requirements_zh": "用夏娃获得羔羊通关标记。",
+   "reward_zh": "黑色口红",
+   "image": "images/achievement/111.png"
+  },
+  "112": {
+   "name_zh": "夏娃的睫毛膏",
+   "description_zh": "“夏娃的睫毛膏”已出现在地下室",
+   "requirements_zh": "用夏娃获得Boss Rush通关标记。",
+   "reward_zh": "夏娃的睫毛膏",
+   "image": "images/achievement/112.png"
+  },
+  "113": {
+   "name_zh": "宿命",
+   "description_zh": "“宿命”已出现在地下室",
+   "requirements_zh": "用???获得???通关标记。",
+   "reward_zh": "宿命",
+   "image": "images/achievement/113.png"
+  },
+  "114": {
+   "name_zh": "???唯一的朋友",
+   "description_zh": "“???唯一的\n朋友”已出现在地下室",
+   "requirements_zh": "用???获得Boss Rush通关标记。",
+   "reward_zh": "???唯一的朋友",
+   "image": "images/achievement/114.png"
+  },
+  "115": {
+   "name_zh": "参孙的脚镣",
+   "description_zh": "“参孙的脚镣”已出现在地下室",
+   "requirements_zh": "用参孙获得Boss Rush通关标记。",
+   "reward_zh": "参孙的脚镣",
+   "image": "images/achievement/115.png"
+  },
+  "116": {
+   "name_zh": "拉撒路的绷带",
+   "description_zh": "“拉撒路的绷带”已出现在地下室",
+   "requirements_zh": "用拉撒路获得以撒通关标记。",
+   "reward_zh": "拉撒路的绷带",
+   "image": "images/achievement/116.png"
+  },
+  "117": {
+   "name_zh": "碎安卡十字",
+   "description_zh": "“碎安卡十字”已出现在地下室",
+   "requirements_zh": "用拉撒路获得撒但通关标记。",
+   "reward_zh": "碎安卡十字",
+   "image": "images/achievement/117.png"
+  },
+  "118": {
+   "name_zh": "商店积分",
+   "description_zh": "“商店积分”已出现在地下室",
+   "requirements_zh": "用拉撒路获得???通关标记。",
+   "reward_zh": "商店积分",
+   "image": "images/achievement/118.png"
+  },
+  "119": {
+   "name_zh": "潘多拉魔盒",
+   "description_zh": "“潘多拉魔盒”已出现在地下室",
+   "requirements_zh": "用拉撒路获得羔羊通关标记。",
+   "reward_zh": "潘多拉魔盒",
+   "image": "images/achievement/119.png"
+  },
+  "120": {
+   "name_zh": "自杀之王",
+   "description_zh": "“自杀之王”已出现在地下室",
+   "requirements_zh": "通过挑战#7：自杀之王。",
+   "reward_zh": "自杀之王",
+   "image": "images/achievement/120.png"
+  },
+  "121": {
+   "name_zh": "空白卡牌",
+   "description_zh": "“空白卡牌”已出现在地下室",
+   "requirements_zh": "用伊甸获得以撒通关标记。",
+   "reward_zh": "空白卡牌",
+   "image": "images/achievement/121.png"
+  },
+  "122": {
+   "name_zh": "秘密之书",
+   "description_zh": "“秘密之书”已出现在地下室",
+   "requirements_zh": "用伊甸获得撒但通关标记。",
+   "reward_zh": "秘密之书",
+   "image": "images/achievement/122.png"
+  },
+  "123": {
+   "name_zh": "神秘纸片",
+   "description_zh": "“神秘纸片”已出现在地下室",
+   "requirements_zh": "用伊甸获得???通关标记。",
+   "reward_zh": "神秘纸片",
+   "image": "images/achievement/123.png"
+  },
+  "124": {
+   "name_zh": "神秘的袋子",
+   "description_zh": "“神秘的袋子”已出现在地下室",
+   "requirements_zh": "用伊甸获得羔羊通关标记。",
+   "reward_zh": "神秘的袋子",
+   "image": "images/achievement/124.png"
+  },
+  "125": {
+   "name_zh": "未定义",
+   "description_zh": "“未定义”已出现在地下室",
+   "requirements_zh": "用伊甸获得Boss Rush通关标记。",
+   "reward_zh": "未定义",
+   "image": "images/achievement/125.png"
+  },
+  "126": {
+   "name_zh": "撒但圣经",
+   "description_zh": "“撒但圣经”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得以撒通关标记。",
+   "reward_zh": "撒但圣经",
+   "image": "images/achievement/126.png"
+  },
+  "127": {
+   "name_zh": "恶魔的尾巴",
+   "description_zh": "“恶魔的尾巴”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得撒但通关标记。",
+   "reward_zh": "恶魔的尾巴",
+   "image": "images/achievement/127.png"
+  },
+  "128": {
+   "name_zh": "亚巴顿",
+   "description_zh": "“亚巴顿”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得???通关标记。",
+   "reward_zh": "亚巴顿",
+   "image": "images/achievement/128.png"
+  },
+  "129": {
+   "name_zh": "以撒的心脏",
+   "description_zh": "“以撒的心脏”已出现在地下室",
+   "requirements_zh": "用游魂获得以撒通关标记。",
+   "reward_zh": "以撒的心脏",
+   "image": "images/achievement/129.png"
+  },
+  "130": {
+   "name_zh": "思想",
+   "description_zh": "“思想”已出现在地下室",
+   "requirements_zh": "用游魂获得撒但通关标记。",
+   "reward_zh": "思想",
+   "image": "images/achievement/130.png"
+  },
+  "131": {
+   "name_zh": "肉体",
+   "description_zh": "“肉体”已出现在地下室",
+   "requirements_zh": "用游魂获得???通关标记。",
+   "reward_zh": "肉体",
+   "image": "images/achievement/131.png"
+  },
+  "132": {
+   "name_zh": "灵魂",
+   "description_zh": "“灵魂”已出现在地下室",
+   "requirements_zh": "用游魂获得羔羊通关标记。",
+   "reward_zh": "灵魂",
+   "image": "images/achievement/132.png"
+  },
+  "133": {
+   "name_zh": "一百面骰！",
+   "description_zh": "“一百面骰！”已出现在地下室\n宅死了！",
+   "requirements_zh": "用游魂获得Boss Rush通关标记。",
+   "reward_zh": "一百面骰",
+   "image": "images/achievement/133.png"
+  },
+  "134": {
+   "name_zh": "蓝地图",
+   "description_zh": "“蓝地图”已出现在地下室",
+   "requirements_zh": "捐献10枚硬币给捐款机。",
+   "reward_zh": "蓝地图",
+   "image": "images/achievement/134.png"
+  },
+  "135": {
+   "name_zh": "额外选择",
+   "description_zh": "“额外选择”已出现在地下室",
+   "requirements_zh": "捐献50枚硬币给捐款机。",
+   "reward_zh": "额外选择\n 更多选择",
+   "image": "images/achievement/135.png"
+  },
+  "136": {
+   "name_zh": "黑蜡烛",
+   "description_zh": "“黑蜡烛”已出现在地下室",
+   "requirements_zh": "捐献150枚硬币给捐款机。",
+   "reward_zh": "黑蜡烛",
+   "image": "images/achievement/136.png"
+  },
+  "137": {
+   "name_zh": "红蜡烛",
+   "description_zh": "“红蜡烛”已出现在地下室",
+   "requirements_zh": "捐献400枚硬币给捐款机。",
+   "reward_zh": "红蜡烛",
+   "image": "images/achievement/137.png"
+  },
+  "138": {
+   "name_zh": "怀表",
+   "description_zh": "“怀表”已出现在地下室",
+   "requirements_zh": "捐献999枚硬币给捐款机。",
+   "reward_zh": "怀表",
+   "image": "images/achievement/138.png"
+  },
+  "139": {
+   "name_zh": "铁丝衣架",
+   "description_zh": "“铁丝衣架”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏4次。",
+   "reward_zh": "铁丝衣架",
+   "image": "images/achievement/139.png"
+  },
+  "140": {
+   "name_zh": "吐根酊",
+   "description_zh": "“吐根酊”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏6次。",
+   "reward_zh": "吐根酊",
+   "image": "images/achievement/140.png"
+  },
+  "141": {
+   "name_zh": "实验性疗法",
+   "description_zh": "“实验性疗法”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏7次。",
+   "reward_zh": "实验性疗法",
+   "image": "images/achievement/141.png"
+  },
+  "142": {
+   "name_zh": "坎卜斯",
+   "description_zh": "你解锁了“坎卜斯”\n好耶！\n已出现在恶魔房",
+   "requirements_zh": "进行20次恶魔交易。",
+   "reward_zh": "坎卜斯",
+   "image": "images/achievement/142.png"
+  },
+  "143": {
+   "name_zh": "坎卜斯的头",
+   "description_zh": "“坎卜斯的头”已出现在地下室",
+   "requirements_zh": "击败坎卜斯1次。",
+   "reward_zh": "坎卜斯的头",
+   "image": "images/achievement/143.png"
+  },
+  "144": {
+   "name_zh": "超级食肉男孩！",
+   "description_zh": "你拼齐了超级食肉男孩！",
+   "requirements_zh": "生成1个4级的 肉块。",
+   "image": "images/achievement/144.png"
+  },
+  "145": {
+   "name_zh": "棉豆",
+   "description_zh": "“棉豆”已出现在地下室",
+   "requirements_zh": "摧毁100个大便 (障碍物)。",
+   "reward_zh": "棉豆",
+   "image": "images/achievement/145.png"
+  },
+  "146": {
+   "name_zh": "小药袋",
+   "description_zh": "“小药袋”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取2个标签“注射器”的道具。",
+   "reward_zh": "小药袋",
+   "image": "images/achievement/146.png"
+  },
+  "147": {
+   "name_zh": "血袋",
+   "description_zh": "“血袋”已出现在地下室",
+   "requirements_zh": "使用献血机30次。",
+   "reward_zh": "血袋",
+   "image": "images/achievement/147.png"
+  },
+  "148": {
+   "name_zh": "四面骰！",
+   "description_zh": "“四面骰！”已出现在地下室",
+   "requirements_zh": "摧毁赌博机30次。",
+   "reward_zh": "四面骰",
+   "image": "images/achievement/148.png"
+  },
+  "149": {
+   "name_zh": "寻人启事",
+   "description_zh": "“寻人启事”已出现在地下室",
+   "requirements_zh": "用以撒获得羔羊通关标记。",
+   "reward_zh": "寻人启事",
+   "image": "images/achievement/149.png"
+  },
+  "150": {
+   "name_zh": "橡胶胶水",
+   "description_zh": "“橡胶胶水”已出现在地下室",
+   "requirements_zh": "击败妈妈的心脏2次。",
+   "reward_zh": "橡胶胶水",
+   "image": "images/achievement/150.png"
+  },
+  "151": {
+   "name_zh": "商店升级",
+   "description_zh": "“商店升级”一级",
+   "requirements_zh": "捐献20枚硬币给捐款机。",
+   "reward_zh": "商店将会出售3个物品",
+   "image": "images/achievement/151.png"
+  },
+  "152": {
+   "name_zh": "商店升级",
+   "description_zh": "“商店升级”二级",
+   "requirements_zh": "捐献100枚硬币给捐款机。",
+   "reward_zh": "商店将会出售4个物品",
+   "image": "images/achievement/152.png"
+  },
+  "153": {
+   "name_zh": "商店升级",
+   "description_zh": "“商店升级”三级",
+   "requirements_zh": "捐献200枚硬币给捐款机。",
+   "reward_zh": "商店将会出售5个物品",
+   "image": "images/achievement/153.png"
+  },
+  "154": {
+   "name_zh": "商店升级",
+   "description_zh": "“商店升级”四级",
+   "requirements_zh": "捐献600枚硬币给捐款机。",
+   "reward_zh": "商店将会出售6个物品",
+   "image": "images/achievement/154.png"
+  },
+  "155": {
+   "name_zh": "天使",
+   "description_zh": "天使们正在等待！",
+   "requirements_zh": "击败???或羔羊1次。",
+   "reward_zh": "乌列\n加百列",
+   "image": "images/achievement/155.png"
+  },
+  "156": {
+   "name_zh": "神性",
+   "description_zh": "“神性”已出现在地下室",
+   "requirements_zh": "用游魂获得所有困难模式通关标记。",
+   "reward_zh": "神性",
+   "image": "images/achievement/156.png"
+  },
+  "157": {
+   "name_zh": "黑暗降临",
+   "description_zh": "你解锁了挑战#4黑暗降临",
+   "requirements_zh": "解锁 献祭匕首和它还活着。",
+   "reward_zh": "挑战#4：黑暗降临",
+   "image": "images/achievement/157.png"
+  },
+  "158": {
+   "name_zh": "坦克",
+   "description_zh": "你解锁了挑战#5坦克",
+   "requirements_zh": "解锁抹大拉。",
+   "reward_zh": "挑战#5：坦克",
+   "image": "images/achievement/158.png"
+  },
+  "159": {
+   "name_zh": "太阳系",
+   "description_zh": "你解锁了挑战#6太阳系",
+   "requirements_zh": "解锁 超凡升天。",
+   "reward_zh": "挑战#6：太阳系",
+   "image": "images/achievement/159.png"
+  },
+  "160": {
+   "name_zh": "自杀之王",
+   "description_zh": "你解锁了挑战#7自杀之王",
+   "requirements_zh": "解锁它还活着。",
+   "reward_zh": "挑战#7：自杀之王",
+   "image": "images/achievement/160.png"
+  },
+  "161": {
+   "name_zh": "好奇害死猫",
+   "description_zh": "你解锁了挑战#8好奇害死猫",
+   "requirements_zh": "解锁 嗝屁猫的毛球。",
+   "reward_zh": "挑战#8：好奇害死猫",
+   "image": "images/achievement/161.png"
+  },
+  "162": {
+   "name_zh": "拆迁办",
+   "description_zh": "你解锁了挑战#9拆迁办",
+   "requirements_zh": "解锁 胎儿博士。",
+   "reward_zh": "挑战#9：拆迁办",
+   "image": "images/achievement/162.png"
+  },
+  "163": {
+   "name_zh": "诅咒！",
+   "description_zh": "你解锁了挑战#10诅咒！",
+   "requirements_zh": "解锁抹大拉。",
+   "reward_zh": "挑战#10：诅咒！",
+   "image": "images/achievement/163.png"
+  },
+  "164": {
+   "name_zh": "玻璃大炮",
+   "description_zh": "你解锁了挑战#11玻璃大炮",
+   "requirements_zh": "解锁 史诗胎儿博士和 洛基的角。",
+   "reward_zh": "挑战#11：玻璃大炮",
+   "image": "images/achievement/164.png"
+  },
+  "165": {
+   "name_zh": "顾家男人",
+   "description_zh": "你解锁了挑战#19顾家男人",
+   "requirements_zh": "解锁 爸爸的钥匙和它还活着。",
+   "reward_zh": "挑战#19：顾家男人",
+   "image": "images/achievement/165.png"
+  },
+  "166": {
+   "name_zh": "返璞归真",
+   "description_zh": "你解锁了挑战#20返璞归真",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#20：返璞归真",
+   "image": "images/achievement/166.png"
+  },
+  "167": {
+   "name_zh": "失身宝宝",
+   "description_zh": "你解锁了失身宝宝",
+   "requirements_zh": "用以撒获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "失身宝宝",
+   "image": "images/achievement/167.png"
+  },
+  "168": {
+   "name_zh": "可爱宝宝",
+   "description_zh": "你解锁了可爱宝宝",
+   "requirements_zh": "用抹大拉获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "可爱宝宝",
+   "image": "images/achievement/168.png"
+  },
+  "169": {
+   "name_zh": "乌鸦宝宝",
+   "description_zh": "你解锁了乌鸦宝宝",
+   "requirements_zh": "用夏娃获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "乌鸦宝宝",
+   "image": "images/achievement/169.png"
+  },
+  "170": {
+   "name_zh": "影子宝宝",
+   "description_zh": "你解锁了影子宝宝",
+   "requirements_zh": "用犹大获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "影子宝宝",
+   "image": "images/achievement/170.png"
+  },
+  "171": {
+   "name_zh": "玻璃宝宝",
+   "description_zh": "你解锁了玻璃宝宝",
+   "requirements_zh": "用该隐获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "玻璃宝宝",
+   "image": "images/achievement/171.png"
+  },
+  "172": {
+   "name_zh": "绷带宝宝",
+   "description_zh": "你解锁了绷带宝宝",
+   "requirements_zh": "用拉撒路获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "绷带宝宝",
+   "image": "images/achievement/172.png"
+  },
+  "173": {
+   "name_zh": "受生魔宝宝",
+   "description_zh": "你解锁了受生魔宝宝",
+   "requirements_zh": "用阿撒泻勒获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "受生魔宝宝",
+   "image": "images/achievement/173.png"
+  },
+  "174": {
+   "name_zh": "死尸宝宝",
+   "description_zh": "你解锁了死尸宝宝",
+   "requirements_zh": "用???获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "死尸宝宝",
+   "image": "images/achievement/174.png"
+  },
+  "175": {
+   "name_zh": "〇",
+   "description_zh": "你解锁了“O”",
+   "requirements_zh": "用游魂获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "〇",
+   "image": "images/achievement/175.png"
+  },
+  "176": {
+   "name_zh": "错误宝宝",
+   "description_zh": "你解锁了错误宝宝",
+   "requirements_zh": "用伊甸获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "错误宝宝",
+   "image": "images/achievement/176.png"
+  },
+  "177": {
+   "name_zh": "格斗宝宝",
+   "description_zh": "你解锁了格斗宝宝",
+   "requirements_zh": "用参孙获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "格斗宝宝",
+   "image": "images/achievement/177.png"
+  },
+  "178": {
+   "name_zh": "苍蝇领主！",
+   "description_zh": "你变成了...苍蝇领主！",
+   "requirements_zh": "在一局游戏中，拾取3个标签“苍蝇”的道具。",
+   "image": "images/achievement/178.png"
+  },
+  "179": {
+   "name_zh": "放屁宝宝",
+   "description_zh": "“放屁宝宝”已出现在地下室",
+   "requirements_zh": "用以撒获得死寂通关标记。",
+   "reward_zh": "放屁宝宝",
+   "image": "images/achievement/179.png"
+  },
+  "180": {
+   "name_zh": "纯洁",
+   "description_zh": "“纯洁”已出现在地下室",
+   "requirements_zh": "用抹大拉获得死寂通关标记。",
+   "reward_zh": "纯洁",
+   "image": "images/achievement/180.png"
+  },
+  "181": {
+   "name_zh": "十二面骰",
+   "description_zh": "“十二面骰”已出现在地下室",
+   "requirements_zh": "用该隐获得死寂通关标记。",
+   "reward_zh": "十二面骰",
+   "image": "images/achievement/181.png"
+  },
+  "182": {
+   "name_zh": "背叛",
+   "description_zh": "“背叛”已出现在地下室",
+   "requirements_zh": "用犹大获得死寂通关标记。",
+   "reward_zh": "背叛",
+   "image": "images/achievement/182.png"
+  },
+  "183": {
+   "name_zh": "宿命的报答",
+   "description_zh": "“宿命的报答”已出现在地下室",
+   "requirements_zh": "用???获得死寂通关标记。",
+   "reward_zh": "宿命的报答",
+   "image": "images/achievement/183.png"
+  },
+  "184": {
+   "name_zh": "祭祀之刃",
+   "description_zh": "“祭祀之刃”已出现在地下室",
+   "requirements_zh": "用夏娃获得死寂通关标记。",
+   "reward_zh": "祭祀之刃",
+   "image": "images/achievement/184.png"
+  },
+  "185": {
+   "name_zh": "盲目的怒火",
+   "description_zh": "“盲目的怒火”已出现在地下室",
+   "requirements_zh": "用参孙获得死寂通关标记。",
+   "reward_zh": "盲目的怒火",
+   "image": "images/achievement/185.png"
+  },
+  "186": {
+   "name_zh": "虚空之喉",
+   "description_zh": "“虚空之喉”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得死寂通关标记。",
+   "reward_zh": "虚空之喉",
+   "image": "images/achievement/186.png"
+  },
+  "187": {
+   "name_zh": "空容器",
+   "description_zh": "“空容器”已出现在地下室",
+   "requirements_zh": "用拉撒路获得死寂通关标记。",
+   "reward_zh": "空容器",
+   "image": "images/achievement/187.png"
+  },
+  "188": {
+   "name_zh": "伊甸的祝福",
+   "description_zh": "“伊甸的祝福”已出现在地下室",
+   "requirements_zh": "用伊甸获得死寂通关标记。",
+   "reward_zh": "伊甸的祝福",
+   "image": "images/achievement/188.png"
+  },
+  "189": {
+   "name_zh": "宣誓守护者",
+   "description_zh": "“宣誓守护者”已出现在地下室",
+   "requirements_zh": "用游魂获得死寂通关标记。",
+   "reward_zh": "宣誓守护者",
+   "image": "images/achievement/189.png"
+  },
+  "190": {
+   "name_zh": "淫魔",
+   "description_zh": "“淫魔”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得死寂通关标记。",
+   "reward_zh": "淫魔",
+   "image": "images/achievement/190.png"
+  },
+  "191": {
+   "name_zh": "一枚硬币！",
+   "description_zh": "店主获得了…“一枚硬币！”",
+   "requirements_zh": "用店主获得死寂通关标记。",
+   "reward_zh": "店主初始携带1枚硬币\n店主初始额外拥有一个心之容器",
+   "image": "images/achievement/191.png"
+  },
+  "192": {
+   "name_zh": "小箱子",
+   "description_zh": "“小箱子”已出现在地下室",
+   "requirements_zh": "用以撒获得贪婪模式通关标记。",
+   "reward_zh": "小箱子",
+   "image": "images/achievement/192.png"
+  },
+  "193": {
+   "name_zh": "香炉",
+   "description_zh": "“香炉”已出现在地下室",
+   "requirements_zh": "用抹大拉获得贪婪模式通关标记。",
+   "reward_zh": "香炉",
+   "image": "images/achievement/193.png"
+  },
+  "194": {
+   "name_zh": "邪恶之眼",
+   "description_zh": "“邪恶之眼”已出现在地下室",
+   "requirements_zh": "用该隐获得贪婪模式通关标记。",
+   "reward_zh": "邪恶之眼",
+   "image": "images/achievement/194.png"
+  },
+  "195": {
+   "name_zh": "我的影子",
+   "description_zh": "“我的影子”已出现在地下室",
+   "requirements_zh": "用犹大获得贪婪模式通关标记。",
+   "reward_zh": "我的影子",
+   "image": "images/achievement/195.png"
+  },
+  "196": {
+   "name_zh": "碎裂六面骰",
+   "description_zh": "“碎裂六面骰”已出现在地下室",
+   "requirements_zh": "用???获得贪婪模式通关标记。",
+   "reward_zh": "碎裂六面骰",
+   "image": "images/achievement/196.png"
+  },
+  "197": {
+   "name_zh": "黑色羽毛",
+   "description_zh": "“黑色羽毛”已出现在地下室",
+   "requirements_zh": "用夏娃获得贪婪模式通关标记。",
+   "reward_zh": "黑色羽毛",
+   "image": "images/achievement/197.png"
+  },
+  "198": {
+   "name_zh": "血嗜",
+   "description_zh": "“血嗜”已出现在地下室",
+   "requirements_zh": "用参孙获得贪婪模式通关标记。",
+   "reward_zh": "血嗜",
+   "image": "images/achievement/198.png"
+  },
+  "199": {
+   "name_zh": "莉莉丝",
+   "description_zh": "你解锁了“莉莉丝”",
+   "requirements_zh": "用阿撒泻勒获得贪婪模式通关标记。",
+   "reward_zh": "莉莉丝",
+   "image": "images/achievement/199.png"
+  },
+  "200": {
+   "name_zh": "钥匙乞丐",
+   "description_zh": "“钥匙乞丐”已出现在地下室",
+   "requirements_zh": "用拉撒路获得贪婪模式通关标记。",
+   "reward_zh": "钥匙乞丐",
+   "image": "images/achievement/200.png"
+  },
+  "201": {
+   "name_zh": "恶性漏洞",
+   "description_zh": "“恶性漏洞”已出现在地下室",
+   "requirements_zh": "用伊甸获得贪婪模式通关标记。",
+   "reward_zh": "恶性漏洞",
+   "image": "images/achievement/201.png"
+  },
+  "202": {
+   "name_zh": "黄道十二宫",
+   "description_zh": "“黄道十二宫”已出现在地下室",
+   "requirements_zh": "用游魂获得贪婪模式通关标记。",
+   "reward_zh": "黄道十二宫",
+   "image": "images/achievement/202.png"
+  },
+  "203": {
+   "name_zh": "朋友盒",
+   "description_zh": "“朋友盒”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得贪婪模式通关标记。",
+   "reward_zh": "朋友盒",
+   "image": "images/achievement/203.png"
+  },
+  "204": {
+   "name_zh": "贪婪的肋骨",
+   "description_zh": "“贪婪的肋骨”已出现在地下室",
+   "requirements_zh": "用店主获得贪婪模式通关标记。",
+   "reward_zh": "贪婪的肋骨",
+   "image": "images/achievement/204.png"
+  },
+  "205": {
+   "name_zh": "爱哭宝宝",
+   "description_zh": "“爱哭宝宝”已出现在地下室",
+   "requirements_zh": "用以撒获得超级撒但通关标记。",
+   "reward_zh": "爱哭宝宝",
+   "image": "images/achievement/205.png"
+  },
+  "206": {
+   "name_zh": "红宝宝",
+   "description_zh": "“红宝宝”已出现在地下室",
+   "requirements_zh": "用抹大拉获得超级撒但通关标记。",
+   "reward_zh": "红宝宝",
+   "image": "images/achievement/206.png"
+  },
+  "207": {
+   "name_zh": "绿宝宝",
+   "description_zh": "“绿宝宝”已出现在地下室",
+   "requirements_zh": "用该隐获得超级撒但通关标记。",
+   "reward_zh": "绿宝宝",
+   "image": "images/achievement/207.png"
+  },
+  "208": {
+   "name_zh": "棕宝宝",
+   "description_zh": "“棕宝宝”已出现在地下室",
+   "requirements_zh": "用犹大获得超级撒但通关标记。",
+   "reward_zh": "棕宝宝",
+   "image": "images/achievement/208.png"
+  },
+  "209": {
+   "name_zh": "蓝宝宝",
+   "description_zh": "“蓝宝宝”已出现在地下室",
+   "requirements_zh": "用???获得超级撒但通关标记。",
+   "reward_zh": "蓝宝宝",
+   "image": "images/achievement/209.png"
+  },
+  "210": {
+   "name_zh": "小宝宝",
+   "description_zh": "“小宝宝”已出现在地下室",
+   "requirements_zh": "用夏娃获得超级撒但通关标记。",
+   "reward_zh": "小宝宝",
+   "image": "images/achievement/210.png"
+  },
+  "211": {
+   "name_zh": "愤怒宝宝",
+   "description_zh": "“愤怒宝宝”已出现在地下室",
+   "requirements_zh": "用参孙获得超级撒但通关标记。",
+   "reward_zh": "愤怒宝宝",
+   "image": "images/achievement/211.png"
+  },
+  "212": {
+   "name_zh": "黑宝宝",
+   "description_zh": "“黑宝宝”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得超级撒但通关标记。",
+   "reward_zh": "黑宝宝",
+   "image": "images/achievement/212.png"
+  },
+  "213": {
+   "name_zh": "长宝宝",
+   "description_zh": "“长宝宝”已出现在地下室",
+   "requirements_zh": "用拉撒路获得超级撒但通关标记。",
+   "reward_zh": "长宝宝",
+   "image": "images/achievement/213.png"
+  },
+  "214": {
+   "name_zh": "黄宝宝",
+   "description_zh": "“黄宝宝”已出现在地下室",
+   "requirements_zh": "用伊甸获得超级撒但通关标记。",
+   "reward_zh": "黄宝宝",
+   "image": "images/achievement/214.png"
+  },
+  "215": {
+   "name_zh": "白宝宝",
+   "description_zh": "“白宝宝”已出现在地下室",
+   "requirements_zh": "用游魂获得超级撒但通关标记。",
+   "reward_zh": "白宝宝",
+   "image": "images/achievement/215.png"
+  },
+  "216": {
+   "name_zh": "大宝宝",
+   "description_zh": "“大宝宝”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得超级撒但通关标记。",
+   "reward_zh": "大宝宝",
+   "image": "images/achievement/216.png"
+  },
+  "217": {
+   "name_zh": "上吊绳宝宝",
+   "description_zh": "“上吊绳宝宝”已出现在地下室",
+   "requirements_zh": "用店主获得超级撒但通关标记。",
+   "reward_zh": "上吊绳宝宝",
+   "image": "images/achievement/217.png"
+  },
+  "218": {
+   "name_zh": "符文袋",
+   "description_zh": "“符文袋”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得以撒通关标记。",
+   "reward_zh": "符文袋",
+   "image": "images/achievement/218.png"
+  },
+  "219": {
+   "name_zh": "恶魔受胎",
+   "description_zh": "“恶魔受胎”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得???通关标记。",
+   "reward_zh": "恶魔受胎\n莉莉丝初始携带 恶魔受胎",
+   "image": "images/achievement/219.png"
+  },
+  "220": {
+   "name_zh": "蛇蝎之吻",
+   "description_zh": "“蛇蝎之吻”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得撒但通关标记。",
+   "reward_zh": "蛇蝎之吻",
+   "image": "images/achievement/220.png"
+  },
+  "221": {
+   "name_zh": "魅魔",
+   "description_zh": "“魅魔”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得羔羊通关标记。",
+   "reward_zh": "魅魔",
+   "image": "images/achievement/221.png"
+  },
+  "222": {
+   "name_zh": "圣灵受胎",
+   "description_zh": "“圣灵受胎”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得Boss Rush通关标记。",
+   "reward_zh": "圣灵受胎",
+   "image": "images/achievement/222.png"
+  },
+  "223": {
+   "name_zh": "羊头宝宝",
+   "description_zh": "“羊头宝宝”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "羊头宝宝",
+   "image": "images/achievement/223.png"
+  },
+  "224": {
+   "name_zh": "金心",
+   "description_zh": "“金心”已出现在地下室",
+   "requirements_zh": "通过挑战#21：超超超超超大层。",
+   "reward_zh": "金心",
+   "image": "images/achievement/224.png"
+  },
+  "225": {
+   "name_zh": "免费保释卡",
+   "description_zh": "免费保释卡已出现在地下室",
+   "requirements_zh": "通过挑战#22：快马加鞭！。",
+   "reward_zh": "免费保释卡",
+   "image": "images/achievement/225.png"
+  },
+  "226": {
+   "name_zh": "金炸弹",
+   "description_zh": "“金炸弹”已出现在地下室",
+   "requirements_zh": "通过挑战#23：蓝色炸弹人。",
+   "reward_zh": "金炸弹",
+   "image": "images/achievement/226.png"
+  },
+  "227": {
+   "name_zh": "2枚新胶囊",
+   "description_zh": "2枚新胶囊出现了！！",
+   "requirements_zh": "通过挑战#24：充钱游戏。",
+   "reward_zh": "止痛药！\n 上瘾！",
+   "image": "images/achievement/227.png"
+  },
+  "228": {
+   "name_zh": "2枚新胶囊",
+   "description_zh": "2枚新胶囊出现了！！",
+   "requirements_zh": "通过挑战#25：没心没肺。",
+   "reward_zh": "放-松\n ???",
+   "image": "images/achievement/228.png"
+  },
+  "229": {
+   "name_zh": "筹码",
+   "description_zh": "“筹码”已出现在地下室",
+   "requirements_zh": "通过挑战#26：以撒传说！。",
+   "reward_zh": "筹码",
+   "image": "images/achievement/229.png"
+  },
+  "230": {
+   "name_zh": "饰钉定位器",
+   "description_zh": "“饰钉定位器”已出现在地下室",
+   "requirements_zh": "通过挑战#27：脑子！。",
+   "reward_zh": "饰钉定位器",
+   "image": "images/achievement/230.png"
+  },
+  "231": {
+   "name_zh": "八面骰",
+   "description_zh": "“八面骰”已出现在地下室",
+   "requirements_zh": "通过挑战#28：彩虹日！。",
+   "reward_zh": "八面骰",
+   "image": "images/achievement/231.png"
+  },
+  "232": {
+   "name_zh": "肾结石",
+   "description_zh": "“肾结石”已出现在地下室",
+   "requirements_zh": "通过挑战#29：俄南连击。",
+   "reward_zh": "肾结石",
+   "image": "images/achievement/232.png"
+  },
+  "233": {
+   "name_zh": "空白符文",
+   "description_zh": "“空白符文”已出现在地下室",
+   "requirements_zh": "通过挑战#30：守护者。",
+   "reward_zh": "空白符文\n 透明符文",
+   "image": "images/achievement/233.png"
+  },
+  "234": {
+   "name_zh": "蓝子宫！",
+   "description_zh": "你解锁了蓝子宫！",
+   "requirements_zh": "击败妈妈的心脏10次。",
+   "reward_zh": "???",
+   "image": "images/achievement/234.png"
+  },
+  "235": {
+   "name_zh": "1001%！！",
+   "description_zh": "死宅x1000000",
+   "requirements_zh": "收集图鉴中的所有道具并解锁重生和胎衣版本中所有成就和结局。",
+   "image": "images/achievement/235.png"
+  },
+  "236": {
+   "name_zh": "木制镍币",
+   "description_zh": "店主获得了...“木制镍币”",
+   "requirements_zh": "用店主获得以撒通关标记。",
+   "reward_zh": "店主初始携带 木制镍币",
+   "image": "images/achievement/236.png"
+  },
+  "237": {
+   "name_zh": "商店钥匙",
+   "description_zh": "店主获得了...“商店钥匙”",
+   "requirements_zh": "用店主获得撒但通关标记。",
+   "reward_zh": "店主初始携带 商店钥匙",
+   "image": "images/achievement/237.png"
+  },
+  "238": {
+   "name_zh": "深口袋",
+   "description_zh": "“深口袋”已出现在地下室",
+   "requirements_zh": "用店主获得???通关标记。",
+   "reward_zh": "深口袋",
+   "image": "images/achievement/238.png"
+  },
+  "239": {
+   "name_zh": "业报",
+   "description_zh": "“业报”已出现在地下室",
+   "requirements_zh": "用店主获得羔羊通关标记。",
+   "reward_zh": "业报",
+   "image": "images/achievement/239.png"
+  },
+  "240": {
+   "name_zh": "黏性镍币",
+   "description_zh": "“黏性镍币”已出现在地下室",
+   "requirements_zh": "用店主获得Boss Rush通关标记。",
+   "reward_zh": "黏性镍币",
+   "image": "images/achievement/240.png"
+  },
+  "241": {
+   "name_zh": "超级贪婪宝宝",
+   "description_zh": "“超级贪婪宝宝”已出现在地下室",
+   "requirements_zh": "用店主获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "超级贪婪宝宝",
+   "image": "images/achievement/241.png"
+  },
+  "242": {
+   "name_zh": "幸运硬币",
+   "description_zh": "“幸运硬币”已出现在地下室",
+   "requirements_zh": "捐献2枚硬币给贪婪机。",
+   "reward_zh": "幸运硬币",
+   "image": "images/achievement/242.png"
+  },
+  "243": {
+   "name_zh": "特殊上吊店主！",
+   "description_zh": "你解锁了特殊上吊店主！",
+   "requirements_zh": "捐献14枚硬币给贪婪机。",
+   "reward_zh": "特殊隐藏房店主",
+   "image": "images/achievement/243.png"
+  },
+  "244": {
+   "name_zh": "木制镍币",
+   "description_zh": "“木制镍币”已出现在地下室",
+   "requirements_zh": "捐献33枚硬币给贪婪机。",
+   "reward_zh": "木制镍币",
+   "image": "images/achievement/244.png"
+  },
+  "245": {
+   "name_zh": "回形针",
+   "description_zh": "该隐获得了...“回形针”",
+   "requirements_zh": "捐献68枚硬币给贪婪机。",
+   "reward_zh": "该隐初始携带 回形针",
+   "image": "images/achievement/245.png"
+  },
+  "246": {
+   "name_zh": "一切都好可怕2！！！",
+   "description_zh": "一切都好可怕2！！！\n贪婪模式越来越难了！",
+   "requirements_zh": "捐献111枚硬币给贪婪机。",
+   "reward_zh": "贪婪模式和困难贪婪模式难度增加",
+   "image": "images/achievement/246.png"
+  },
+  "247": {
+   "name_zh": "特殊店主！",
+   "description_zh": "你解锁了特殊店主！",
+   "requirements_zh": "捐献234枚硬币给贪婪机。",
+   "reward_zh": "特殊商店店主",
+   "image": "images/achievement/247.png"
+  },
+  "248": {
+   "name_zh": "剃刀片",
+   "description_zh": "夏娃获得了...“剃刀片”",
+   "requirements_zh": "捐献439枚硬币给贪婪机。",
+   "reward_zh": "夏娃初始携带 剃刀片",
+   "image": "images/achievement/248.png"
+  },
+  "249": {
+   "name_zh": "商店钥匙",
+   "description_zh": "“商店钥匙”已出现在地下室",
+   "requirements_zh": "捐献666枚硬币给贪婪机。",
+   "reward_zh": "商店钥匙",
+   "image": "images/achievement/249.png"
+  },
+  "250": {
+   "name_zh": "神圣屏障",
+   "description_zh": "游魂获得了...“神圣屏障”",
+   "requirements_zh": "捐献879枚硬币给贪婪机。",
+   "reward_zh": "游魂初始携带 神圣屏障",
+   "image": "images/achievement/250.png"
+  },
+  "251": {
+   "name_zh": "店主",
+   "description_zh": "你解锁了“店主”",
+   "requirements_zh": "捐献1000枚硬币给贪婪机。",
+   "reward_zh": "店主",
+   "image": "images/achievement/251.png"
+  },
+  "252": {
+   "name_zh": "虫巢宝宝",
+   "description_zh": "“虫巢宝宝”已出现在地下室",
+   "requirements_zh": "用???获得所有困难通关标记",
+   "reward_zh": "虫巢宝宝",
+   "image": "images/achievement/252.png"
+  },
+  "253": {
+   "name_zh": "无头宝宝",
+   "description_zh": "“无头宝宝”已出现在地下室",
+   "requirements_zh": "用以撒获得所有困难通关标记",
+   "reward_zh": "无头宝宝",
+   "image": "images/achievement/253.png"
+  },
+  "254": {
+   "name_zh": "彩色宝宝",
+   "description_zh": "“彩色宝宝”已出现在地下室",
+   "requirements_zh": "用抹大拉获得所有困难通关标记",
+   "reward_zh": "彩色宝宝",
+   "image": "images/achievement/254.png"
+  },
+  "255": {
+   "name_zh": "淫妇宝宝",
+   "description_zh": "“淫妇宝宝”已出现在地下室",
+   "requirements_zh": "用夏娃获得所有困难通关标记",
+   "reward_zh": "淫妇宝宝",
+   "image": "images/achievement/255.png"
+  },
+  "256": {
+   "name_zh": "碎裂宝宝",
+   "description_zh": "“碎裂宝宝”已出现在地下室",
+   "requirements_zh": "用伊甸获得所有困难通关标记",
+   "reward_zh": "碎裂宝宝",
+   "image": "images/achievement/256.png"
+  },
+  "257": {
+   "name_zh": "滴血宝宝",
+   "description_zh": "“滴血宝宝”已出现在地下室",
+   "requirements_zh": "用拉撒路获得所有困难通关标记",
+   "reward_zh": "滴血宝宝",
+   "image": "images/achievement/257.png"
+  },
+  "258": {
+   "name_zh": "亮瞎宝宝",
+   "description_zh": "“亮瞎宝宝”已出现在地下室",
+   "requirements_zh": "使用 空白卡牌触发 XIX-太阳。",
+   "reward_zh": "亮瞎宝宝",
+   "image": "images/achievement/258.png"
+  },
+  "259": {
+   "name_zh": "魅魔宝宝",
+   "description_zh": "“魅魔宝宝”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得所有困难通关标记",
+   "reward_zh": "魅魔宝宝",
+   "image": "images/achievement/259.png"
+  },
+  "260": {
+   "name_zh": "黑暗宝宝",
+   "description_zh": "“黑暗宝宝”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得所有困难通关标记",
+   "reward_zh": "黑暗宝宝",
+   "image": "images/achievement/260.png"
+  },
+  "261": {
+   "name_zh": "衣架宝宝",
+   "description_zh": "“衣架宝宝”已出现在地下室",
+   "requirements_zh": "用该隐获得所有困难通关标记",
+   "reward_zh": "衣架宝宝",
+   "image": "images/achievement/261.png"
+  },
+  "262": {
+   "name_zh": "复仇宝宝",
+   "description_zh": "“复仇宝宝”已出现在地下室",
+   "requirements_zh": "用参孙获得所有困难通关标记",
+   "reward_zh": "复仇宝宝",
+   "image": "images/achievement/262.png"
+  },
+  "263": {
+   "name_zh": "彼列宝宝",
+   "description_zh": "“彼列宝宝”已出现在地下室",
+   "requirements_zh": "用犹大获得所有困难通关标记",
+   "reward_zh": "彼列宝宝",
+   "image": "images/achievement/263.png"
+  },
+  "264": {
+   "name_zh": "折扣宝宝",
+   "description_zh": "“折扣宝宝”已出现在地下室",
+   "requirements_zh": "用店主获得所有困难通关标记",
+   "reward_zh": "折扣宝宝",
+   "image": "images/achievement/264.png"
+  },
+  "265": {
+   "name_zh": "超超超超超大层",
+   "description_zh": "你解锁了挑战#21超超超超超大层",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#21：超超超超超大层",
+   "image": "images/achievement/265.png"
+  },
+  "266": {
+   "name_zh": "快马加鞭！",
+   "description_zh": "你解锁了挑战#22快马加鞭！",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#22：快马加鞭！",
+   "image": "images/achievement/266.png"
+  },
+  "267": {
+   "name_zh": "蓝色炸弹人",
+   "description_zh": "你解锁了挑战#23蓝色炸弹人",
+   "requirements_zh": "解锁???、它还活着和 大爆弹先生。",
+   "reward_zh": "挑战#23：蓝色炸弹人",
+   "image": "images/achievement/267.png"
+  },
+  "268": {
+   "name_zh": "充钱游戏",
+   "description_zh": "你解锁了挑战#24充钱游戏",
+   "requirements_zh": "解锁 硬币袋,它还活着和 大爆弹先生。",
+   "reward_zh": "挑战#24：充钱游戏",
+   "image": "images/achievement/268.png"
+  },
+  "269": {
+   "name_zh": "没心没肺",
+   "description_zh": "你解锁了挑战#25没心没肺",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#25：没心没肺",
+   "image": "images/achievement/269.png"
+  },
+  "270": {
+   "name_zh": "以撒传说！",
+   "description_zh": "你解锁了挑战#26以撒传说！",
+   "requirements_zh": "击败超级撒但1次。",
+   "reward_zh": "挑战#26：以撒传说！",
+   "image": "images/achievement/270.png"
+  },
+  "271": {
+   "name_zh": "脑子！",
+   "description_zh": "你解锁了挑战#27脑子！",
+   "requirements_zh": "解锁 全家福。",
+   "reward_zh": "挑战#27：脑子！",
+   "image": "images/achievement/271.png"
+  },
+  "272": {
+   "name_zh": "彩虹日！",
+   "description_zh": "你解锁了挑战#28彩虹日！",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#28：彩虹日！",
+   "image": "images/achievement/272.png"
+  },
+  "273": {
+   "name_zh": "俄南连击",
+   "description_zh": "你解锁了挑战#29俄南连击",
+   "requirements_zh": "解锁犹大和它还活着。",
+   "reward_zh": "挑战#29：俄南连击",
+   "image": "images/achievement/273.png"
+  },
+  "274": {
+   "name_zh": "守护者",
+   "description_zh": "你解锁了挑战#30守护者",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#30：守护者",
+   "image": "images/achievement/274.png"
+  },
+  "275": {
+   "name_zh": "慷慨",
+   "description_zh": "如果每个人都像你一样慷慨就好了…",
+   "requirements_zh": "捐献999枚硬币给贪婪机。",
+   "image": "images/achievement/275.png"
+  },
+  "276": {
+   "name_zh": "超级喷射！",
+   "description_zh": "“超级喷射！”已出现在地下室",
+   "requirements_zh": "用所有非堕化人物获得超级撒但通关标记。",
+   "reward_zh": "超级喷射",
+   "image": "images/achievement/276.png"
+  },
+  "277": {
+   "name_zh": "本末倒置",
+   "description_zh": "你解锁了挑战#31本末倒置",
+   "requirements_zh": "击败超级撒但1次。",
+   "reward_zh": "挑战#31：本末倒置",
+   "image": "images/achievement/277.png"
+  },
+  "278": {
+   "name_zh": "愚人节",
+   "description_zh": "你解锁了挑战#32愚人节",
+   "requirements_zh": "解锁第四章。",
+   "reward_zh": "挑战#32：愚人节",
+   "image": "images/achievement/278.png"
+  },
+  "279": {
+   "name_zh": "宝可萌",
+   "description_zh": "你解锁了挑战#33宝可萌",
+   "requirements_zh": "解锁它还活着。",
+   "reward_zh": "挑战#33：宝可萌",
+   "image": "images/achievement/279.png"
+  },
+  "280": {
+   "name_zh": "终极困难",
+   "description_zh": "你解锁了挑战#34终极困难",
+   "requirements_zh": "解锁 底片并击败超级撒但1次。",
+   "reward_zh": "挑战#34：终极困难",
+   "image": "images/achievement/280.png"
+  },
+  "281": {
+   "name_zh": "乒乓",
+   "description_zh": "你解锁了挑战#35乒乓",
+   "requirements_zh": "解锁 全家福。",
+   "reward_zh": "挑战#35：乒乓",
+   "image": "images/achievement/281.png"
+  },
+  "282": {
+   "name_zh": "∞面骰",
+   "description_zh": "“无限面骰”已出现在地下室",
+   "requirements_zh": "用以撒获得精神错乱通关标记。",
+   "reward_zh": "无限面骰",
+   "image": "images/achievement/282.png"
+  },
+  "283": {
+   "name_zh": "圣餐",
+   "description_zh": "“圣餐”已出现在地下室",
+   "requirements_zh": "用抹大拉获得精神错乱通关标记。",
+   "reward_zh": "圣餐",
+   "image": "images/achievement/283.png"
+  },
+  "284": {
+   "name_zh": "银币",
+   "description_zh": "“银币”已出现在地下室",
+   "requirements_zh": "用该隐获得精神错乱通关标记。",
+   "reward_zh": "银币",
+   "image": "images/achievement/284.png"
+  },
+  "285": {
+   "name_zh": "阴影",
+   "description_zh": "“阴影”已出现在地下室",
+   "requirements_zh": "用犹大获得精神错乱通关标记。",
+   "reward_zh": "阴影",
+   "image": "images/achievement/285.png"
+  },
+  "286": {
+   "name_zh": "国王宝宝",
+   "description_zh": "“国王宝宝”已出现在地下室",
+   "requirements_zh": "用???获得精神错乱通关标记。",
+   "reward_zh": "国王宝宝",
+   "image": "images/achievement/286.png"
+  },
+  "287": {
+   "name_zh": "染血王冠",
+   "description_zh": "“染血王冠”已出现在地下室",
+   "requirements_zh": "用参孙获得精神错乱通关标记。",
+   "reward_zh": "染血王冠",
+   "image": "images/achievement/287.png"
+  },
+  "288": {
+   "name_zh": "钝剃刀片",
+   "description_zh": "“钝剃刀片”已出现在地下室",
+   "requirements_zh": "用夏娃获得精神错乱难通关标记。",
+   "reward_zh": "钝剃刀片",
+   "image": "images/achievement/288.png"
+  },
+  "289": {
+   "name_zh": "伊甸的灵魂",
+   "description_zh": "“伊甸的灵魂”已出现在地下室",
+   "requirements_zh": "用伊甸获得精神错乱通关标记。",
+   "reward_zh": "伊甸的灵魂",
+   "image": "images/achievement/289.png"
+  },
+  "290": {
+   "name_zh": "黑王子之冠",
+   "description_zh": "“黑王子之冠”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得精神错乱通关标记。",
+   "reward_zh": "黑王子之冠",
+   "image": "images/achievement/290.png"
+  },
+  "291": {
+   "name_zh": "复杂性骨折",
+   "description_zh": "“复杂性骨折”已出现在地下室",
+   "requirements_zh": "用拉撒路获得精神错乱通关标记。",
+   "reward_zh": "复杂性骨折",
+   "image": "images/achievement/291.png"
+  },
+  "292": {
+   "name_zh": "安乐死",
+   "description_zh": "“安乐死”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得精神错乱通关标记。",
+   "reward_zh": "安乐死",
+   "image": "images/achievement/292.png"
+  },
+  "293": {
+   "name_zh": "神圣卡",
+   "description_zh": "“神圣卡”已出现在地下室",
+   "requirements_zh": "用游魂获得精神错乱通关标记。",
+   "reward_zh": "神圣卡",
+   "image": "images/achievement/293.png"
+  },
+  "294": {
+   "name_zh": "被掰弯的硬币",
+   "description_zh": "“被掰弯的硬币”已出现在地下室",
+   "requirements_zh": "用店主获得精神错乱通关标记。",
+   "reward_zh": "被掰弯的硬币",
+   "image": "images/achievement/294.png"
+  },
+  "295": {
+   "name_zh": "虚空",
+   "description_zh": "“虚空”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得精神错乱通关标记。",
+   "reward_zh": "虚空",
+   "image": "images/achievement/295.png"
+  },
+  "296": {
+   "name_zh": "一面骰",
+   "description_zh": "“一面骰”已出现在地下室",
+   "requirements_zh": "用以撒获得困难贪婪模式通关标记。",
+   "reward_zh": "一面骰",
+   "image": "images/achievement/296.png"
+  },
+  "297": {
+   "name_zh": "平衡符号",
+   "description_zh": "“平衡符号”已出现在地下室",
+   "requirements_zh": "用抹大拉获得困难贪婪模式通关标记。",
+   "reward_zh": "平衡符号",
+   "image": "images/achievement/297.png"
+  },
+  "298": {
+   "name_zh": "袋中袋",
+   "description_zh": "“袋中袋”已出现在地下室",
+   "requirements_zh": "用该隐获得困难贪婪模式通关标记。",
+   "reward_zh": "袋中袋",
+   "image": "images/achievement/298.png"
+  },
+  "299": {
+   "name_zh": "彼列之眼",
+   "description_zh": "“彼列之眼”已出现在地下室",
+   "requirements_zh": "用犹大获得困难贪婪模式通关标记。",
+   "reward_zh": "彼列之眼",
+   "image": "images/achievement/299.png"
+  },
+  "300": {
+   "name_zh": "胎粪",
+   "description_zh": "“胎粪”已出现在地下室",
+   "requirements_zh": "用???获得困难贪婪模式通关标记。",
+   "reward_zh": "胎粪",
+   "image": "images/achievement/300.png"
+  },
+  "301": {
+   "name_zh": "干细胞",
+   "description_zh": "“干细胞”已出现在地下室",
+   "requirements_zh": "用参孙获得困难贪婪模式通关标记。",
+   "reward_zh": "干细胞",
+   "image": "images/achievement/301.png"
+  },
+  "302": {
+   "name_zh": "乌鸦的心",
+   "description_zh": "“乌鸦的心”已出现在地下室",
+   "requirements_zh": "用夏娃获得困难贪婪模式通关标记。",
+   "reward_zh": "乌鸦的心",
+   "image": "images/achievement/302.png"
+  },
+  "303": {
+   "name_zh": "节拍器",
+   "description_zh": "“节拍器”已出现在地下室",
+   "requirements_zh": "用伊甸获得困难贪婪模式通关标记。",
+   "reward_zh": "节拍器",
+   "image": "images/achievement/303.png"
+  },
+  "304": {
+   "name_zh": "蝙蝠翅膀",
+   "description_zh": "“蝙蝠翅膀”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得困难贪婪模式通关标记。",
+   "reward_zh": "蝙蝠翅膀",
+   "image": "images/achievement/304.png"
+  },
+  "305": {
+   "name_zh": "计划C",
+   "description_zh": "“计划C”已出现在地下室",
+   "requirements_zh": "用拉撒路获得困难贪婪模式通关标记。",
+   "reward_zh": "计划C",
+   "image": "images/achievement/305.png"
+  },
+  "306": {
+   "name_zh": "二元性",
+   "description_zh": "“二元性”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得困难贪婪模式通关标记。",
+   "reward_zh": "二元性",
+   "image": "images/achievement/306.png"
+  },
+  "307": {
+   "name_zh": "爸爸丢失的硬币",
+   "description_zh": "“爸爸丢失的硬币”已出现在地下室",
+   "requirements_zh": "用游魂获得困难贪婪模式通关标记。",
+   "reward_zh": "爸爸丢失的硬币",
+   "image": "images/achievement/307.png"
+  },
+  "308": {
+   "name_zh": "贪婪的眼睛",
+   "description_zh": "“贪婪的眼睛”已出现在地下室",
+   "requirements_zh": "用店主获得困难贪婪模式通关标记。",
+   "reward_zh": "贪婪的眼睛",
+   "image": "images/achievement/308.png"
+  },
+  "309": {
+   "name_zh": "黑符文",
+   "description_zh": "“黑符文”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得困难贪婪模式通关标记。",
+   "reward_zh": "黑符文",
+   "image": "images/achievement/309.png"
+  },
+  "310": {
+   "name_zh": "战争蝗虫",
+   "description_zh": "“战争蝗虫”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得以撒通关标记。",
+   "reward_zh": "战争蝗虫",
+   "image": "images/achievement/310.png"
+  },
+  "311": {
+   "name_zh": "瘟疫蝗虫",
+   "description_zh": "“瘟疫蝗虫”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得撒但通关标记。",
+   "reward_zh": "瘟疫蝗虫",
+   "image": "images/achievement/311.png"
+  },
+  "312": {
+   "name_zh": "饥荒蝗虫",
+   "description_zh": "“饥荒蝗虫”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得???通关标记。",
+   "reward_zh": "饥荒蝗虫",
+   "image": "images/achievement/312.png"
+  },
+  "313": {
+   "name_zh": "死亡蝗虫",
+   "description_zh": "“死亡蝗虫”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得羔羊通关标记。",
+   "reward_zh": "死亡蝗虫",
+   "image": "images/achievement/313.png"
+  },
+  "314": {
+   "name_zh": "征服蝗虫",
+   "description_zh": "“征服蝗虫”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得Boss Rush通关标记。",
+   "reward_zh": "征服蝗虫",
+   "image": "images/achievement/314.png"
+  },
+  "315": {
+   "name_zh": "小死寂",
+   "description_zh": "“小死寂”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得死寂通关标记。",
+   "reward_zh": "死寂宝宝",
+   "image": "images/achievement/315.png"
+  },
+  "316": {
+   "name_zh": "棕色粪块",
+   "description_zh": "“棕色粪块”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得贪婪模式通关标记。",
+   "reward_zh": "棕色粪块",
+   "image": "images/achievement/316.png"
+  },
+  "317": {
+   "name_zh": "烂尸宝宝",
+   "description_zh": "“烂尸宝宝”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得超级撒但通关标记。",
+   "reward_zh": "烂尸宝宝",
+   "image": "images/achievement/317.png"
+  },
+  "318": {
+   "name_zh": "熔炉",
+   "description_zh": "“熔炉”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "熔炉",
+   "image": "images/achievement/318.png"
+  },
+  "319": {
+   "name_zh": "亚玻伦宝宝",
+   "description_zh": "“亚玻伦宝宝”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得所有困难通关标记。",
+   "reward_zh": "亚玻伦宝宝",
+   "image": "images/achievement/319.png"
+  },
+  "320": {
+   "name_zh": "虚空",
+   "description_zh": "你解锁了虚空！",
+   "requirements_zh": "击败死寂1次。",
+   "reward_zh": "虚空",
+   "image": "images/achievement/320.png"
+  },
+  "321": {
+   "name_zh": "再次心动！",
+   "description_zh": "1枚新胶囊出现了！！",
+   "requirements_zh": "完成跑圈1次。",
+   "reward_zh": "咕噜！",
+   "image": "images/achievement/321.png"
+  },
+  "322": {
+   "name_zh": "帽子戏法！",
+   "description_zh": "“梅花A”已出现在地下室",
+   "requirements_zh": "完成3连胜1次。",
+   "reward_zh": "梅花A",
+   "image": "images/achievement/322.png"
+  },
+  "323": {
+   "name_zh": "超级标记石头",
+   "description_zh": "“超级标记石头”已出现在地下室",
+   "requirements_zh": "用5个不同的人物完成5连胜1次。参见成就/323。",
+   "reward_zh": "超级标记石头",
+   "image": "images/achievement/323.png"
+  },
+  "324": {
+   "name_zh": "罪恶收藏家",
+   "description_zh": "1枚新胶囊出现了！！",
+   "requirements_zh": "探索怪物图鉴中的所有怪物。",
+   "reward_zh": "感觉像漫步在阳光下！",
+   "image": "images/achievement/324.png"
+  },
+  "325": {
+   "name_zh": "献身",
+   "description_zh": "1枚新胶囊出现了！！",
+   "requirements_zh": "累计参加31天的每日挑战。",
+   "reward_zh": "呕！",
+   "image": "images/achievement/325.png"
+  },
+  "326": {
+   "name_zh": "冲！",
+   "description_zh": "“方片A”已出现在地下室",
+   "requirements_zh": "在20分钟内击败羔羊。",
+   "reward_zh": "方片A",
+   "image": "images/achievement/326.png"
+  },
+  "327": {
+   "name_zh": "这就是钥匙",
+   "description_zh": "“黑桃A”已出现在地下室",
+   "requirements_zh": "在不拾取心、硬币和炸弹的情况下，击败羔羊。",
+   "reward_zh": "黑桃A",
+   "image": "images/achievement/327.png"
+  },
+  "328": {
+   "name_zh": "重开先生！",
+   "description_zh": "“胆小的红心”已出现在地下室",
+   "requirements_zh": "连续重新开始游戏7次（PC）/达到-10连胜（NS、PS4）。",
+   "reward_zh": "胆小的红心",
+   "image": "images/achievement/328.png"
+  },
+  "329": {
+   "name_zh": "刀刃上生存",
+   "description_zh": "“红桃A”已出现在地下室",
+   "requirements_zh": "在只拥有半颗心的情况下，完成一层（第一层除外）。",
+   "reward_zh": "红桃A",
+   "image": "images/achievement/329.png"
+  },
+  "330": {
+   "name_zh": "你弄坏了！",
+   "description_zh": "1枚新胶囊出现了！！",
+   "requirements_zh": "在一局游戏中，拥有50个以上的道具。",
+   "reward_zh": "嗝！",
+   "image": "images/achievement/330.png"
+  },
+  "331": {
+   "name_zh": "拉撒路大出血！",
+   "description_zh": "拉撒路大出血！",
+   "requirements_zh": "通过挑战#31：本末倒置。",
+   "reward_zh": "拉撒路初始携带 贫血",
+   "image": "images/achievement/331.png"
+  },
+  "332": {
+   "name_zh": "一枚胶囊！",
+   "description_zh": "抹大拉获得了...“一枚胶囊”！",
+   "requirements_zh": "通过挑战#32：愚人节。",
+   "reward_zh": "抹大拉初始携带 体力回满",
+   "image": "images/achievement/332.png"
+  },
+  "333": {
+   "name_zh": "充能钥匙",
+   "description_zh": "“充能钥匙”已出现在地下室",
+   "requirements_zh": "通过挑战#33：宝可萌。",
+   "reward_zh": "充能钥匙",
+   "image": "images/achievement/333.png"
+  },
+  "334": {
+   "name_zh": "参孙感觉很健康！",
+   "description_zh": "参孙感觉很健康！",
+   "requirements_zh": "通过挑战#34：终极困难。",
+   "reward_zh": "参孙初始携带 小孩的心脏",
+   "image": "images/achievement/334.png"
+  },
+  "335": {
+   "name_zh": "贪婪的胃袋",
+   "description_zh": "“贪婪的胃袋”已出现在地下室",
+   "requirements_zh": "通过挑战#35：乒乓。",
+   "reward_zh": "贪婪的胃袋",
+   "image": "images/achievement/335.png"
+  },
+  "336": {
+   "name_zh": "碎裂的王冠",
+   "description_zh": "“碎裂的王冠”已出现在地下室",
+   "requirements_zh": "每日挑战完成5连胜，且分数大于0（不必连续5天）。",
+   "reward_zh": "碎裂的王冠",
+   "image": "images/achievement/336.png"
+  },
+  "337": {
+   "name_zh": "续关",
+   "description_zh": "你解锁了续关！",
+   "requirements_zh": "在一局游戏中，完成跑圈3次。",
+   "reward_zh": "续关",
+   "image": "images/achievement/337.png"
+  },
+  "338": {
+   "name_zh": "精神错乱",
+   "description_zh": "“精神错乱”已出现在地下室",
+   "requirements_zh": "击败精神错乱1次。",
+   "reward_zh": "精神错乱",
+   "image": "images/achievement/338.png"
+  },
+  "339": {
+   "name_zh": "1000000%",
+   "description_zh": "别玩了！",
+   "image": "images/achievement/339.png"
+  },
+  "340": {
+   "name_zh": "亚玻伦",
+   "description_zh": "你解锁了“亚玻伦”",
+   "requirements_zh": "击败超级撒但1次。",
+   "reward_zh": "亚玻伦",
+   "image": "images/achievement/340.png"
+  },
+  "341": {
+   "name_zh": "更加贪婪！",
+   "description_zh": "你已变得更加贪婪！",
+   "requirements_zh": "捐献500枚硬币给贪婪机。",
+   "reward_zh": "困难贪婪模式",
+   "image": "images/achievement/341.png"
+  },
+  "342": {
+   "name_zh": "燃烧！",
+   "description_zh": "地下室在燃烧！",
+   "requirements_zh": "击败妈妈的心脏11次。",
+   "reward_zh": "燃烧地下室",
+   "image": "images/achievement/342.png"
+  },
+  "343": {
+   "name_zh": "水淹！",
+   "description_zh": "洞穴被水淹了！",
+   "requirements_zh": "击败它还活着16次。",
+   "reward_zh": "淹水洞穴",
+   "image": "images/achievement/343.png"
+  },
+  "344": {
+   "name_zh": "阴冷！",
+   "description_zh": "深牢变阴湿了！",
+   "requirements_zh": "击败它还活着21次。",
+   "reward_zh": "阴湿深牢",
+   "image": "images/achievement/344.png"
+  },
+  "345": {
+   "name_zh": "瘢痕！",
+   "description_zh": "子宫里结痂了！",
+   "requirements_zh": "击败它还活着30次。",
+   "reward_zh": "结痂子宫",
+   "image": "images/achievement/345.png"
+  },
+  "346": {
+   "name_zh": "邪恶的怪物正在接近！",
+   "description_zh": "邪恶的怪物正在接近！",
+   "requirements_zh": "用非堕化人物获得3个???通关标记。",
+   "reward_zh": "脆皮虫\n粪山幼崽\n滑坨坨\n血痕畸胎\n布朗尼\n被遗弃者\n小角恶魔\n绷带人",
+   "image": "images/achievement/346.png"
+  },
+  "347": {
+   "name_zh": "邪恶的怪物正在接近+！",
+   "description_zh": "邪恶的怪物正在接近+！",
+   "requirements_zh": "用非堕化人物获得6个???通关标记。",
+   "reward_zh": "骨堆畸胎\n超级绷带人\n开膛姐妹\n巨角恶魔\n胖蛆族母\n裂面爬墙蛛\n糖梅宝宝\n大乞丐宝",
+   "image": "images/achievement/347.png"
+  },
+  "348": {
+   "name_zh": "大门是开着的！",
+   "description_zh": "大门是开着的！",
+   "requirements_zh": "击败羔羊1次。",
+   "reward_zh": "神经末梢2\n黑洞",
+   "image": "images/achievement/348.png"
+  },
+  "349": {
+   "name_zh": "黑洞",
+   "description_zh": "“黑洞”已出现在地下室",
+   "requirements_zh": "击败黑洞20次。",
+   "reward_zh": "黑洞",
+   "image": "images/achievement/349.png"
+  },
+  "350": {
+   "name_zh": "神秘礼物",
+   "description_zh": "“神秘礼物”已出现在地下室",
+   "requirements_zh": "摧毁500个石头。",
+   "reward_zh": "神秘礼物",
+   "image": "images/achievement/350.png"
+  },
+  "351": {
+   "name_zh": "洒水器",
+   "description_zh": "“洒水器”已出现在地下室",
+   "requirements_zh": "在不受到伤害的情况下，通过第一章。",
+   "reward_zh": "洒水器",
+   "image": "images/achievement/351.png"
+  },
+  "352": {
+   "name_zh": "愤怒苍蝇",
+   "description_zh": "“愤怒苍蝇”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取3个标签“苍蝇”的道具。",
+   "reward_zh": "愤怒苍蝇",
+   "image": "images/achievement/352.png"
+  },
+  "353": {
+   "name_zh": "派对帽",
+   "description_zh": "“派对帽”已出现在地下室",
+   "requirements_zh": "摧毁5个彩虹大便。",
+   "reward_zh": "派对帽",
+   "image": "images/achievement/353.png"
+  },
+  "354": {
+   "name_zh": "损坏的调制解调器",
+   "description_zh": "“损坏的调制解调器”已出现在地下室",
+   "requirements_zh": "每日挑战胜利7次。",
+   "reward_zh": "损坏的调制解调器",
+   "image": "images/achievement/354.png"
+  },
+  "355": {
+   "name_zh": "伙伴盲盒",
+   "description_zh": "“伙伴盲盒”已出现在地下室",
+   "requirements_zh": "在一局游戏中，获得5个跟班。",
+   "reward_zh": "伙伴盲盒",
+   "image": "images/achievement/355.png"
+  },
+  "356": {
+   "name_zh": "快速炸弹",
+   "description_zh": "“快速炸弹”已出现在地下室",
+   "requirements_zh": "击败小角恶魔20次。",
+   "reward_zh": "快速炸弹",
+   "image": "images/achievement/356.png"
+  },
+  "357": {
+   "name_zh": "精神错乱宝宝",
+   "description_zh": "“精神错乱宝宝”已出现在地下室",
+   "requirements_zh": "击败精神错乱1次。",
+   "reward_zh": "精神错乱宝宝",
+   "image": "images/achievement/357.png"
+  },
+  "358": {
+   "name_zh": "发夹",
+   "description_zh": "“发夹”已出现在地下室",
+   "requirements_zh": "拾取电池20次。",
+   "reward_zh": "发夹",
+   "image": "images/achievement/358.png"
+  },
+  "359": {
+   "name_zh": "木十字架",
+   "description_zh": "“木十字架”已出现在地下室",
+   "requirements_zh": "使用床1次。",
+   "reward_zh": "木十字架",
+   "image": "images/achievement/359.png"
+  },
+  "360": {
+   "name_zh": "黄油！",
+   "description_zh": "“黄油！”已出现在地下室",
+   "requirements_zh": "在一局游戏中，完成跑圈2次。",
+   "reward_zh": "黄油！",
+   "image": "images/achievement/360.png"
+  },
+  "361": {
+   "name_zh": "卡牌变巨术",
+   "description_zh": "“卡牌变巨术”已出现在地下室",
+   "requirements_zh": "在一局游戏中，让角色体型达到3.00以上。",
+   "reward_zh": "变巨术",
+   "image": "images/achievement/361.png"
+  },
+  "362": {
+   "name_zh": "卡牌先祖召唤",
+   "description_zh": "“卡牌先祖召唤”已出现在地下室",
+   "requirements_zh": "使用卡牌20次。",
+   "reward_zh": "先祖召唤",
+   "image": "images/achievement/362.png"
+  },
+  "363": {
+   "name_zh": "卡牌时空漫步",
+   "description_zh": "“卡牌时空漫步”已出现在地下室",
+   "requirements_zh": "收集图鉴中的 怀表和 损坏的怀表。",
+   "reward_zh": "时空漫步",
+   "image": "images/achievement/363.png"
+  },
+  "364": {
+   "name_zh": "代金券",
+   "description_zh": "“代金券”已出现在地下室",
+   "requirements_zh": "进行商店交易和恶魔交易共50次。",
+   "reward_zh": "代金券",
+   "image": "images/achievement/364.png"
+  },
+  "365": {
+   "name_zh": "念力",
+   "description_zh": "“念力”已出现在地下室",
+   "requirements_zh": "在不受到伤害的情况下，通过第二章。",
+   "reward_zh": "念力",
+   "image": "images/achievement/365.png"
+  },
+  "366": {
+   "name_zh": "搬家盒",
+   "description_zh": "“搬家盒”已出现在地下室",
+   "requirements_zh": "在暗室中，使用 潘多拉魔盒。",
+   "reward_zh": "搬家盒",
+   "image": "images/achievement/366.png"
+  },
+  "367": {
+   "name_zh": "跨接电缆",
+   "description_zh": "“跨接电缆”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取2个标签“电池”的物品。",
+   "reward_zh": "跨接电缆",
+   "image": "images/achievement/367.png"
+  },
+  "368": {
+   "name_zh": "麻风病",
+   "description_zh": "“麻风病”已出现在地下室",
+   "requirements_zh": "在不受到伤害的情况下，通过第三章。",
+   "reward_zh": "麻风病",
+   "image": "images/achievement/368.png"
+  },
+  "369": {
+   "name_zh": "科技零",
+   "description_zh": "“科技零”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取2个标签“科技”的道具。",
+   "reward_zh": "科技零",
+   "image": "images/achievement/369.png"
+  },
+  "370": {
+   "name_zh": "银丝羽毛",
+   "description_zh": "“银丝羽毛”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取 钥匙碎片1和 钥匙碎片2。",
+   "reward_zh": "银丝羽毛",
+   "image": "images/achievement/370.png"
+  },
+  "371": {
+   "name_zh": "自我先生！",
+   "description_zh": "“自我先生！”已出现在地下室",
+   "requirements_zh": "打开金箱子和永恒箱子共20次。",
+   "reward_zh": "自我先生！",
+   "image": "images/achievement/371.png"
+  },
+  "372": {
+   "name_zh": "七印",
+   "description_zh": "“七印”已出现在地下室",
+   "requirements_zh": "击败饥荒骑士、瘟疫骑士、战争骑士、征服骑士和死亡骑士各1次。",
+   "reward_zh": "七印",
+   "image": "images/achievement/372.png"
+  },
+  "373": {
+   "name_zh": "天使棱镜",
+   "description_zh": "“天使棱镜”已出现在地下室",
+   "requirements_zh": "击败乌列和加百列共20次。",
+   "reward_zh": "天使棱镜",
+   "image": "images/achievement/373.png"
+  },
+  "374": {
+   "name_zh": "噗！",
+   "description_zh": "“噗！”已出现在地下室",
+   "requirements_zh": "在不受到伤害的情况下，通过第四章。",
+   "reward_zh": "噗！",
+   "image": "images/achievement/374.png"
+  },
+  "375": {
+   "name_zh": "门挡",
+   "description_zh": "“门挡”已出现在地下室",
+   "requirements_zh": "炸开房间的门或隐藏房50次。",
+   "reward_zh": "门挡",
+   "image": "images/achievement/375.png"
+  },
+  "376": {
+   "name_zh": "死神名册",
+   "description_zh": "“死神名册”已出现在地下室",
+   "requirements_zh": "进行恶魔交易25次。",
+   "reward_zh": "死神名册",
+   "image": "images/achievement/376.png"
+  },
+  "377": {
+   "name_zh": "泪血症",
+   "description_zh": "“泪血症”已出现在地下室",
+   "requirements_zh": "拾取 血块10次。",
+   "reward_zh": "泪血症",
+   "image": "images/achievement/377.png"
+  },
+  "378": {
+   "name_zh": "食泪症",
+   "description_zh": "“食泪症”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拾取10个标签“射速上升”的道具。",
+   "reward_zh": "食泪症",
+   "image": "images/achievement/378.png"
+  },
+  "379": {
+   "name_zh": "书包",
+   "description_zh": "“书包”已出现在地下室",
+   "requirements_zh": "在一局游戏中，进入6个商店。",
+   "reward_zh": "书包",
+   "image": "images/achievement/379.png"
+  },
+  "380": {
+   "name_zh": "三圣颂",
+   "description_zh": "“三圣颂”已出现在地下室",
+   "requirements_zh": "在天使房中，拾取道具25次。",
+   "reward_zh": "三圣颂",
+   "image": "images/achievement/380.png"
+  },
+  "381": {
+   "name_zh": "扩接电线",
+   "description_zh": "“扩接电线”已出现在地下室",
+   "requirements_zh": "收集图鉴中的 蓄电池、 9伏特、 车载电池。",
+   "reward_zh": "扩接电线",
+   "image": "images/achievement/381.png"
+  },
+  "382": {
+   "name_zh": "扁石",
+   "description_zh": "“扁石”已出现在地下室",
+   "requirements_zh": "拾取 橡胶胶水5次。",
+   "reward_zh": "扁石",
+   "image": "images/achievement/382.png"
+  },
+  "383": {
+   "name_zh": "祭坛",
+   "description_zh": "“祭坛”已出现在地下室",
+   "requirements_zh": "进行恶魔交易50次。",
+   "reward_zh": "祭坛",
+   "image": "images/achievement/383.png"
+  },
+  "384": {
+   "name_zh": "呕吐虫宝宝",
+   "description_zh": "“呕吐虫宝宝”已出现在地下室",
+   "requirements_zh": "被角色自己的爆炸眼泪炸死。",
+   "reward_zh": "呕吐虫宝宝",
+   "image": "images/achievement/384.png"
+  },
+  "385": {
+   "name_zh": "毛毯",
+   "description_zh": "“毛毯”已出现在地下室",
+   "requirements_zh": "使用床10次。",
+   "reward_zh": "毛毯",
+   "image": "images/achievement/385.png"
+  },
+  "386": {
+   "name_zh": "弹珠袋",
+   "description_zh": "“弹珠袋”已出现在地下室",
+   "requirements_zh": "在一局游戏中，使用 咕噜！5次。",
+   "reward_zh": "弹珠袋",
+   "image": "images/achievement/386.png"
+  },
+  "387": {
+   "name_zh": "神秘的卵",
+   "description_zh": "“神秘的卵”已出现在地下室",
+   "requirements_zh": "在一个房间中，同时拥有3个具有魅惑状态的敌人。",
+   "reward_zh": "神秘的卵",
+   "image": "images/achievement/387.png"
+  },
+  "388": {
+   "name_zh": "腐烂硬币",
+   "description_zh": "“腐烂硬币”已出现在地下室",
+   "requirements_zh": "在一局游戏中，同时拥有20个蓝苍蝇。",
+   "reward_zh": "腐烂硬币",
+   "image": "images/achievement/388.png"
+  },
+  "389": {
+   "name_zh": "儿童弯勺",
+   "description_zh": "“儿童弯勺”已出现在地下室",
+   "requirements_zh": "叠加2层追踪效果。",
+   "reward_zh": "儿童弯勺",
+   "image": "images/achievement/389.png"
+  },
+  "390": {
+   "name_zh": "遗骸",
+   "description_zh": "你解锁了“遗骸”",
+   "requirements_zh": "使用 妈妈的铲子挖开碎土块。",
+   "reward_zh": "遗骸",
+   "image": "images/achievement/390.png"
+  },
+  "391": {
+   "name_zh": "骨心",
+   "description_zh": "“骨头心”已出现在地下室",
+   "requirements_zh": "解锁遗骸。",
+   "reward_zh": "骨心",
+   "image": "images/achievement/391.png"
+  },
+  "392": {
+   "name_zh": "骨髓",
+   "description_zh": "“骨髓”已出现在地下室",
+   "requirements_zh": "用遗骸获得困难妈妈的心脏通关标记。",
+   "reward_zh": "骨髓",
+   "image": "images/achievement/392.png"
+  },
+  "393": {
+   "name_zh": "滑肋骨",
+   "description_zh": "“滑肋骨”已出现在地下室",
+   "requirements_zh": "用遗骸获得以撒通关标记。",
+   "reward_zh": "滑肋骨",
+   "image": "images/achievement/393.png"
+  },
+  "394": {
+   "name_zh": "尖肋骨",
+   "description_zh": "“尖肋骨”已出现在地下室",
+   "requirements_zh": "用遗骸获得撒但通关标记。",
+   "reward_zh": "尖肋骨",
+   "image": "images/achievement/394.png"
+  },
+  "395": {
+   "name_zh": "颌骨",
+   "description_zh": "“颌骨”已出现在地下室",
+   "requirements_zh": "用遗骸获得???通关标记。",
+   "reward_zh": "颌骨",
+   "image": "images/achievement/395.png"
+  },
+  "396": {
+   "name_zh": "成骨不全症",
+   "description_zh": "“成骨不全症”已出现在地下室",
+   "requirements_zh": "用遗骸获得羔羊通关标记。",
+   "reward_zh": "脆骨症",
+   "image": "images/achievement/396.png"
+  },
+  "397": {
+   "name_zh": "离婚协议书",
+   "description_zh": "“离婚协议书”已出现在地下室",
+   "requirements_zh": "用遗骸获得Boss Rush通关标记。",
+   "reward_zh": "离婚协议书",
+   "image": "images/achievement/397.png"
+  },
+  "398": {
+   "name_zh": "圣地大便",
+   "description_zh": "“圣地大便”已出现在地下室",
+   "requirements_zh": "用遗骸获得死寂通关标记。",
+   "reward_zh": "圣地大便",
+   "image": "images/achievement/398.png"
+  },
+  "399": {
+   "name_zh": "指骨",
+   "description_zh": "“指骨”已出现在地下室",
+   "requirements_zh": "用遗骸获得贪婪模式通关标记。",
+   "reward_zh": "指骨",
+   "image": "images/achievement/399.png"
+  },
+  "400": {
+   "name_zh": "爸爸的戒指",
+   "description_zh": "“爸爸的戒指”已出现在地下室",
+   "requirements_zh": "用遗骸获得困难贪婪模式通关标记。",
+   "reward_zh": "爸爸的戒指",
+   "image": "images/achievement/400.png"
+  },
+  "401": {
+   "name_zh": "亡者之书",
+   "description_zh": "“亡者之书”已出现在地下室",
+   "requirements_zh": "用遗骸获得精神错乱通关标记。",
+   "reward_zh": "亡者之书",
+   "image": "images/achievement/401.png"
+  },
+  "402": {
+   "name_zh": "骨头宝宝",
+   "description_zh": "“骨头宝宝”已出现在地下室",
+   "requirements_zh": "用遗骸在困难模式下获得所有通关标记。",
+   "reward_zh": "骨头宝宝",
+   "image": "images/achievement/402.png"
+  },
+  "403": {
+   "name_zh": "羁绊宝宝",
+   "description_zh": "“羁绊宝宝”已出现在地下室",
+   "requirements_zh": "用遗骸获得超级撒但通关标记。",
+   "reward_zh": "羁绊宝宝",
+   "image": "images/achievement/403.png"
+  },
+  "404": {
+   "name_zh": "伯大尼",
+   "description_zh": "你解锁了“伯大尼”",
+   "requirements_zh": "用拉撒路在困难模式下通关第四章且未死亡过。",
+   "reward_zh": "伯大尼",
+   "image": "images/achievement/404.png"
+  },
+  "405": {
+   "name_zh": "雅各和以扫",
+   "description_zh": "你解锁了“雅各&以扫”",
+   "requirements_zh": "击败母亲1次。",
+   "reward_zh": "雅各和以扫",
+   "image": "images/achievement/405.png"
+  },
+  "406": {
+   "name_zh": "星象房",
+   "description_zh": "星辰在召唤…",
+   "requirements_zh": "在一局游戏中，拾取3个标签“星星”的道具。",
+   "reward_zh": "星象房",
+   "image": "images/achievement/406.png"
+  },
+  "407": {
+   "name_zh": "秘密出口",
+   "description_zh": "你解锁了“秘密出口”\n你的命运出现了分支",
+   "requirements_zh": "击败死寂3次。",
+   "reward_zh": "秘密出口",
+   "image": "images/achievement/407.png"
+  },
+  "408": {
+   "name_zh": "失落摇篮曲",
+   "description_zh": "“失落摇篮曲”已出现在地下室",
+   "requirements_zh": "炸开塞壬的头颅。",
+   "reward_zh": "失落摇篮曲",
+   "image": "images/achievement/408.png"
+  },
+  "409": {
+   "name_zh": "果味甜蝇宝",
+   "description_zh": "“果味甜蝇宝”已出现在地下室",
+   "requirements_zh": "击败糖梅宝宝10次。",
+   "reward_zh": "甜甜糖梅宝",
+   "image": "images/achievement/409.png"
+  },
+  "410": {
+   "name_zh": "甜蝇溜溜笛",
+   "description_zh": "“甜蝇溜溜笛”已出现在地下室",
+   "requirements_zh": "让糖梅宝宝逃跑。",
+   "reward_zh": "糖梅溜溜笛",
+   "image": "images/achievement/410.png"
+  },
+  "411": {
+   "name_zh": "腐心",
+   "description_zh": "“腐心”已出现在地下室",
+   "requirements_zh": "进入尸宫1次。",
+   "reward_zh": "腐心",
+   "image": "images/achievement/411.png"
+  },
+  "412": {
+   "name_zh": "污水井",
+   "description_zh": "你解锁了“污水井”",
+   "requirements_zh": "击败下水道中的所有头目。",
+   "reward_zh": "污水井",
+   "image": "images/achievement/412.png"
+  },
+  "413": {
+   "name_zh": "灰坑",
+   "description_zh": "你解锁了“灰坑”",
+   "requirements_zh": "击败矿洞中的所有头目。",
+   "reward_zh": "灰坑",
+   "image": "images/achievement/413.png"
+  },
+  "414": {
+   "name_zh": "炼狱",
+   "description_zh": "你解锁了“炼狱”",
+   "requirements_zh": "击败陵墓中的所有头目。",
+   "reward_zh": "炼狱",
+   "image": "images/achievement/414.png"
+  },
+  "415": {
+   "name_zh": "红钥匙",
+   "description_zh": "“红钥匙”已出现在地下室",
+   "requirements_zh": "打开妈妈的箱子。",
+   "reward_zh": "红钥匙\n 红钥匙碎片",
+   "image": "images/achievement/415.png"
+  },
+  "416": {
+   "name_zh": "魂火宝宝",
+   "description_zh": "你解锁了“魂火宝宝”",
+   "requirements_zh": "用伯大尼获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "魂火宝宝",
+   "image": "images/achievement/416.png"
+  },
+  "417": {
+   "name_zh": "美德之书",
+   "description_zh": "“美德之书”已出现在地下室",
+   "requirements_zh": "用伯大尼获得以撒通关标记。",
+   "reward_zh": "美德之书",
+   "image": "images/achievement/417.png"
+  },
+  "418": {
+   "name_zh": "灵魂之瓮",
+   "description_zh": "“灵魂之瓮”已出现在地下室",
+   "requirements_zh": "用伯大尼获得撒但通关标记。",
+   "reward_zh": "灵魂之瓮",
+   "image": "images/achievement/418.png"
+  },
+  "419": {
+   "name_zh": "神圣硬币",
+   "description_zh": "“神圣硬币”已出现在地下室",
+   "requirements_zh": "用伯大尼获得???通关标记。",
+   "reward_zh": "神圣硬币",
+   "image": "images/achievement/419.png"
+  },
+  "420": {
+   "name_zh": "白玉香膏盒",
+   "description_zh": "“白玉香膏盒”已出现在地下室",
+   "requirements_zh": "用伯大尼获得羔羊通关标记。",
+   "reward_zh": "白玉香膏盒",
+   "image": "images/achievement/420.png"
+  },
+  "421": {
+   "name_zh": "伯大尼的信仰",
+   "description_zh": "“伯大尼的信仰”已出现在地下室",
+   "requirements_zh": "用伯大尼获得Boss Rush通关标记。",
+   "reward_zh": "伯大尼的信仰",
+   "image": "images/achievement/421.png"
+  },
+  "422": {
+   "name_zh": "灵魂吊坠",
+   "description_zh": "“灵魂吊坠”已出现在地下室",
+   "requirements_zh": "用伯大尼获得贪婪模式通关标记。",
+   "reward_zh": "灵魂吊坠",
+   "image": "images/achievement/422.png"
+  },
+  "423": {
+   "name_zh": "神圣干预",
+   "description_zh": "“神圣干预”已出现在地下室",
+   "requirements_zh": "用伯大尼获得死寂通关标记。",
+   "reward_zh": "神圣干预",
+   "image": "images/achievement/423.png"
+  },
+  "424": {
+   "name_zh": "驱魔护符",
+   "description_zh": "“驱魔护符”已出现在地下室",
+   "requirements_zh": "用伯大尼获得困难贪婪模式通关标记。",
+   "reward_zh": "驱魔护符",
+   "image": "images/achievement/424.png"
+  },
+  "425": {
+   "name_zh": "伯列恒之星",
+   "description_zh": "“伯列恒之星”已出现在地下室",
+   "requirements_zh": "用伯大尼获得精神错乱通关标记。",
+   "reward_zh": "伯列恒之星",
+   "image": "images/achievement/425.png"
+  },
+  "426": {
+   "name_zh": "希望宝宝",
+   "description_zh": "你解锁了“希望宝宝”",
+   "requirements_zh": "用伯大尼获得所有困难通关标记。",
+   "reward_zh": "希望宝宝",
+   "image": "images/achievement/426.png"
+  },
+  "427": {
+   "name_zh": "发光宝宝",
+   "description_zh": "你解锁了“发光宝宝”",
+   "requirements_zh": "用伯大尼获得超级撒但通关标记。",
+   "reward_zh": "发光宝宝",
+   "image": "images/achievement/427.png"
+  },
+  "428": {
+   "name_zh": "连体宝宝",
+   "description_zh": "你解锁了“连体宝宝”",
+   "requirements_zh": "用雅各和以扫获得困难模式妈妈的心脏通关标记。",
+   "reward_zh": "连体宝宝",
+   "image": "images/achievement/428.png"
+  },
+  "429": {
+   "name_zh": "天堂阶梯",
+   "description_zh": "“天堂阶梯”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得以撒通关标记。",
+   "reward_zh": "天堂阶梯",
+   "image": "images/achievement/429.png"
+  },
+  "430": {
+   "name_zh": "红豆汤",
+   "description_zh": "“红豆汤”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得撒但通关标记。",
+   "reward_zh": "红豆汤",
+   "image": "images/achievement/430.png"
+  },
+  "431": {
+   "name_zh": "长子名分",
+   "description_zh": "“长子名分”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得???通关标记。",
+   "reward_zh": "长子名分",
+   "image": "images/achievement/431.png"
+  },
+  "432": {
+   "name_zh": "达摩克里斯之剑",
+   "description_zh": "“达摩克里斯之剑”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得羔羊通关标记。",
+   "reward_zh": "达摩克里斯之剑",
+   "image": "images/achievement/432.png"
+  },
+  "433": {
+   "name_zh": "谷底石",
+   "description_zh": "“谷底石”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得Boss Rush通关标记。",
+   "reward_zh": "谷底石",
+   "image": "images/achievement/433.png"
+  },
+  "434": {
+   "name_zh": "内在孩童",
+   "description_zh": "“内在孩童”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得贪婪模式通关标记。",
+   "reward_zh": "内在孩童",
+   "image": "images/achievement/434.png"
+  },
+  "435": {
+   "name_zh": "消失的胞胎",
+   "description_zh": "“消失的胞胎”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得死寂通关标记。",
+   "reward_zh": "消失的胞胎",
+   "image": "images/achievement/435.png"
+  },
+  "436": {
+   "name_zh": "创世记",
+   "description_zh": "“创世记”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得困难贪婪模式通关标记。",
+   "reward_zh": "创世记",
+   "image": "images/achievement/436.png"
+  },
+  "437": {
+   "name_zh": "背摔！",
+   "description_zh": "“背摔！”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得精神错乱通关标记。",
+   "reward_zh": "背摔！",
+   "image": "images/achievement/437.png"
+  },
+  "438": {
+   "name_zh": "所罗门宝宝",
+   "description_zh": "你解锁了“所罗门宝宝”",
+   "requirements_zh": "用雅各和以扫获得所有困难通关标记。",
+   "reward_zh": "所罗门宝宝A\n\n所罗门宝宝B",
+   "image": "images/achievement/438.png"
+  },
+  "439": {
+   "name_zh": "幻象宝宝",
+   "description_zh": "你解锁了“幻象宝宝”",
+   "requirements_zh": "用雅各和以扫获得超级撒但通关标记。",
+   "reward_zh": "幻象宝宝",
+   "image": "images/achievement/439.png"
+  },
+  "440": {
+   "name_zh": "切肉刀",
+   "description_zh": "“切肉刀”已出现在地下室",
+   "requirements_zh": "用以撒获得母亲通关标记。",
+   "reward_zh": "切肉刀",
+   "image": "images/achievement/440.png"
+  },
+  "441": {
+   "name_zh": "选择？",
+   "description_zh": "“选择？”已出现在地下室",
+   "requirements_zh": "用以撒获得祸兽通关标记。",
+   "reward_zh": "选择？",
+   "image": "images/achievement/441.png"
+  },
+  "442": {
+   "name_zh": "难吃的心",
+   "description_zh": "“难吃的心”已出现在地下室",
+   "requirements_zh": "用抹大拉获得母亲通关标记。",
+   "reward_zh": "难吃的心",
+   "image": "images/achievement/442.png"
+  },
+  "443": {
+   "name_zh": "糖心",
+   "description_zh": "“糖心”已出现在地下室",
+   "requirements_zh": "用抹大拉获得祸兽通关标记。",
+   "reward_zh": "糖心",
+   "image": "images/achievement/443.png"
+  },
+  "444": {
+   "name_zh": "嗝屁猫的眼睛",
+   "description_zh": "“嗝屁猫的眼睛”已出现在地下室",
+   "requirements_zh": "用该隐获得母亲通关标记。",
+   "reward_zh": "嗝屁猫的眼睛",
+   "image": "images/achievement/444.png"
+  },
+  "445": {
+   "name_zh": "一磅肉",
+   "description_zh": "“一磅肉”已出现在地下室",
+   "requirements_zh": "用该隐获得祸兽通关标记。",
+   "reward_zh": "一磅肉",
+   "image": "images/achievement/445.png"
+  },
+  "446": {
+   "name_zh": "血田",
+   "description_zh": "“血田”已出现在地下室",
+   "requirements_zh": "用犹大获得母亲通关标记。",
+   "reward_zh": "血田",
+   "image": "images/achievement/446.png"
+  },
+  "447": {
+   "name_zh": "赎罪",
+   "description_zh": "“赎罪”已出现在地下室",
+   "requirements_zh": "用犹大获得祸兽通关标记。",
+   "reward_zh": "赎罪",
+   "image": "images/achievement/447.png"
+  },
+  "448": {
+   "name_zh": "永恒六面骰",
+   "description_zh": "“永恒六面骰”已出现在地下室",
+   "requirements_zh": "用???获得母亲通关标记。",
+   "reward_zh": "永恒六面骰",
+   "image": "images/achievement/448.png"
+  },
+  "449": {
+   "name_zh": "水土不服症",
+   "description_zh": "“水土不服症”已出现在地下室",
+   "requirements_zh": "用???获得祸兽通关标记。",
+   "reward_zh": "水土不服症",
+   "image": "images/achievement/449.png"
+  },
+  "450": {
+   "name_zh": "鸟肥笼",
+   "description_zh": "“鸟肥笼”已出现在地下室",
+   "requirements_zh": "用夏娃获得母亲通关标记。",
+   "reward_zh": "鸟肥笼",
+   "image": "images/achievement/450.png"
+  },
+  "451": {
+   "name_zh": "碎裂的宝珠",
+   "description_zh": "“碎裂的宝珠”已出现在地下室",
+   "requirements_zh": "用夏娃获得祸兽通关标记。",
+   "reward_zh": "碎裂的宝珠",
+   "image": "images/achievement/451.png"
+  },
+  "452": {
+   "name_zh": "嗜血腥风",
+   "description_zh": "“嗜血腥风”已出现在地下室",
+   "requirements_zh": "用参孙获得母亲通关标记。",
+   "reward_zh": "嗜血腥风",
+   "image": "images/achievement/452.png"
+  },
+  "453": {
+   "name_zh": "空虚之心",
+   "description_zh": "“空虚之心”已出现在地下室",
+   "requirements_zh": "用参孙获得祸兽通关标记。",
+   "reward_zh": "空虚之心",
+   "image": "images/achievement/453.png"
+  },
+  "454": {
+   "name_zh": "恶魔王冠",
+   "description_zh": "“恶魔王冠”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得母亲通关标记。",
+   "reward_zh": "恶魔王冠",
+   "image": "images/achievement/454.png"
+  },
+  "455": {
+   "name_zh": "亚巴顿宝宝",
+   "description_zh": "“亚巴顿宝宝”已出现在地下室",
+   "requirements_zh": "用阿撒泻勒获得祸兽通关标记。",
+   "reward_zh": "亚巴顿宝宝",
+   "image": "images/achievement/455.png"
+  },
+  "456": {
+   "name_zh": "小畸胎瘤",
+   "description_zh": "“小畸胎瘤”已出现在地下室",
+   "requirements_zh": "用拉撒路获得母亲通关标记。",
+   "reward_zh": "小畸胎瘤",
+   "image": "images/achievement/456.png"
+  },
+  "457": {
+   "name_zh": "灵魂出窍",
+   "description_zh": "“灵魂出窍”已出现在地下室",
+   "requirements_zh": "用拉撒路获得祸兽通关标记。",
+   "reward_zh": "灵魂出窍",
+   "image": "images/achievement/457.png"
+  },
+  "458": {
+   "name_zh": "'M",
+   "description_zh": "“'M”已出现在地下室",
+   "requirements_zh": "用伊甸获得母亲通关标记。",
+   "reward_zh": "'M",
+   "image": "images/achievement/458.png"
+  },
+  "459": {
+   "name_zh": "百宝罐",
+   "description_zh": "“百宝罐”已出现在地下室",
+   "requirements_zh": "用伊甸获得祸兽通关标记。",
+   "reward_zh": "百宝罐",
+   "image": "images/achievement/459.png"
+  },
+  "460": {
+   "name_zh": "迷失游魂",
+   "description_zh": "“迷失游魂”已出现在地下室",
+   "requirements_zh": "用游魂获得母亲通关标记。",
+   "reward_zh": "迷失游魂",
+   "image": "images/achievement/460.png"
+  },
+  "461": {
+   "name_zh": "饥饿幽魂",
+   "description_zh": "“饥饿幽魂”已出现在地下室",
+   "requirements_zh": "用游魂获得祸兽通关标记。",
+   "reward_zh": "饥饿幽魂",
+   "image": "images/achievement/461.png"
+  },
+  "462": {
+   "name_zh": "嗜血小宠",
+   "description_zh": "“嗜血小宠”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得母亲通关标记。",
+   "reward_zh": "嗜血小宠",
+   "image": "images/achievement/462.png"
+  },
+  "463": {
+   "name_zh": "剖腹产",
+   "description_zh": "“剖腹产”已出现在地下室",
+   "requirements_zh": "用莉莉丝获得祸兽通关标记。",
+   "reward_zh": "剖腹产",
+   "image": "images/achievement/463.png"
+  },
+  "464": {
+   "name_zh": "店主的胯袋",
+   "description_zh": "“店主的胯袋”已出现在地下室",
+   "requirements_zh": "用店主获得母亲通关标记。",
+   "reward_zh": "店主的胯袋",
+   "image": "images/achievement/464.png"
+  },
+  "465": {
+   "name_zh": "店主的盒子",
+   "description_zh": "“店主的盒子”已出现在地下室",
+   "requirements_zh": "用店主获得祸兽通关标记。",
+   "reward_zh": "店主的盒子",
+   "image": "images/achievement/465.png"
+  },
+  "466": {
+   "name_zh": "黑洞宝宝",
+   "description_zh": "“黑洞宝宝”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得母亲通关标记。",
+   "reward_zh": "黑洞宝宝",
+   "image": "images/achievement/466.png"
+  },
+  "467": {
+   "name_zh": "触手朋友",
+   "description_zh": "“触手朋友”已出现在地下室",
+   "requirements_zh": "用亚玻伦获得祸兽通关标记。",
+   "reward_zh": "触手朋友",
+   "image": "images/achievement/467.png"
+  },
+  "468": {
+   "name_zh": "骨刺",
+   "description_zh": "“骨刺”已出现在地下室",
+   "requirements_zh": "用遗骸获得母亲通关标记。",
+   "reward_zh": "骨刺",
+   "image": "images/achievement/468.png"
+  },
+  "469": {
+   "name_zh": "灵魂枷锁",
+   "description_zh": "“灵魂枷锁”已出现在地下室",
+   "requirements_zh": "用遗骸获得祸兽通关标记。",
+   "reward_zh": "灵魂枷锁",
+   "image": "images/achievement/469.png"
+  },
+  "470": {
+   "name_zh": "终末天启",
+   "description_zh": "“终末天启”已出现在地下室",
+   "requirements_zh": "用伯大尼获得母亲通关标记。",
+   "reward_zh": "终末天启",
+   "image": "images/achievement/470.png"
+  },
+  "471": {
+   "name_zh": "魂火罐",
+   "description_zh": "“魂火罐”已出现在地下室",
+   "requirements_zh": "用伯大尼获得祸兽通关标记。",
+   "reward_zh": "魂火罐",
+   "image": "images/achievement/471.png"
+  },
+  "472": {
+   "name_zh": "玄奇驴皮",
+   "description_zh": "“玄奇驴皮”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得母亲通关标记。",
+   "reward_zh": "玄奇驴皮",
+   "image": "images/achievement/472.png"
+  },
+  "473": {
+   "name_zh": "寻友护符",
+   "description_zh": "“寻友护符”已出现在地下室",
+   "requirements_zh": "用雅各和以扫获得祸兽通关标记。",
+   "reward_zh": "寻友护符",
+   "image": "images/achievement/473.png"
+  },
+  "474": {
+   "name_zh": "神伤者",
+   "description_zh": "你解锁了“以撒”",
+   "requirements_zh": "用以撒在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化以撒",
+   "image": "images/achievement/474.png"
+  },
+  "475": {
+   "name_zh": "无畏者",
+   "description_zh": "你解锁了“抹大拉”",
+   "requirements_zh": "用抹大拉在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化抹大拉",
+   "image": "images/achievement/475.png"
+  },
+  "476": {
+   "name_zh": "囤积者",
+   "description_zh": "你解锁了“该隐”",
+   "requirements_zh": "用该隐在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化该隐",
+   "image": "images/achievement/476.png"
+  },
+  "477": {
+   "name_zh": "背叛者",
+   "description_zh": "你解锁了“犹大”",
+   "requirements_zh": "用犹大在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化犹大",
+   "image": "images/achievement/477.png"
+  },
+  "478": {
+   "name_zh": "污秽者",
+   "description_zh": "你解锁了“???”",
+   "requirements_zh": "用???在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化???",
+   "image": "images/achievement/478.png"
+  },
+  "479": {
+   "name_zh": "血凝者",
+   "description_zh": "你解锁了“夏娃”",
+   "requirements_zh": "用夏娃在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化夏娃",
+   "image": "images/achievement/479.png"
+  },
+  "480": {
+   "name_zh": "残暴者",
+   "description_zh": "你解锁了“参孙”",
+   "requirements_zh": "用参孙在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化参孙",
+   "image": "images/achievement/480.png"
+  },
+  "481": {
+   "name_zh": "堕落者",
+   "description_zh": "你解锁了“阿撒泻勒”",
+   "requirements_zh": "用阿撒泻勒在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化阿撒泻勒",
+   "image": "images/achievement/481.png"
+  },
+  "482": {
+   "name_zh": "迷离者",
+   "description_zh": "你解锁了“拉撒路”",
+   "requirements_zh": "用拉撒路在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化拉撒路",
+   "image": "images/achievement/482.png"
+  },
+  "483": {
+   "name_zh": "无常者",
+   "description_zh": "你解锁了“伊甸”",
+   "requirements_zh": "用伊甸在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化伊甸",
+   "image": "images/achievement/483.png"
+  },
+  "484": {
+   "name_zh": "受难者",
+   "description_zh": "你解锁了“游魂”",
+   "requirements_zh": "用游魂在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化游魂",
+   "image": "images/achievement/484.png"
+  },
+  "485": {
+   "name_zh": "浪荡者",
+   "description_zh": "你解锁了“莉莉丝”",
+   "requirements_zh": "用莉莉丝在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化莉莉丝",
+   "image": "images/achievement/485.png"
+  },
+  "486": {
+   "name_zh": "吝财者",
+   "description_zh": "你解锁了“店主”",
+   "requirements_zh": "用店主在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化店主",
+   "image": "images/achievement/486.png"
+  },
+  "487": {
+   "name_zh": "空虚者",
+   "description_zh": "你解锁了“亚玻伦”",
+   "requirements_zh": "用亚玻伦在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化亚玻伦",
+   "image": "images/achievement/487.png"
+  },
+  "488": {
+   "name_zh": "受缚者",
+   "description_zh": "你解锁了“遗骸”",
+   "requirements_zh": "用遗骸在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化遗骸",
+   "image": "images/achievement/488.png"
+  },
+  "489": {
+   "name_zh": "狂信者",
+   "description_zh": "你解锁了“伯大尼”",
+   "requirements_zh": "用伯大尼在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化伯大尼",
+   "image": "images/achievement/489.png"
+  },
+  "490": {
+   "name_zh": "流亡者",
+   "description_zh": "你解锁了“雅各”",
+   "requirements_zh": "用雅各和以扫在家的红色贮藏室中唤醒自己。",
+   "reward_zh": "堕化雅各",
+   "image": "images/achievement/490.png"
+  },
+  "491": {
+   "name_zh": "错误王冠",
+   "description_zh": "“错误王冠”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得祸兽通关标记。",
+   "reward_zh": "错误王冠",
+   "image": "images/achievement/491.png"
+  },
+  "492": {
+   "name_zh": "肚肚软糖",
+   "description_zh": "“肚肚软糖”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得祸兽通关标记。",
+   "reward_zh": "肚肚软糖",
+   "image": "images/achievement/492.png"
+  },
+  "493": {
+   "name_zh": "蓝钥匙",
+   "description_zh": "“蓝钥匙”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得祸兽通关标记。",
+   "reward_zh": "蓝钥匙",
+   "image": "images/achievement/493.png"
+  },
+  "494": {
+   "name_zh": "血色羁绊",
+   "description_zh": "“血色羁绊”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得祸兽通关标记。",
+   "reward_zh": "血色羁绊",
+   "image": "images/achievement/494.png"
+  },
+  "495": {
+   "name_zh": "虫群",
+   "description_zh": "“虫群”已出现在地下室",
+   "requirements_zh": "用堕化???获得祸兽通关标记。",
+   "reward_zh": "虫群",
+   "image": "images/achievement/495.png"
+  },
+  "496": {
+   "name_zh": "心碎",
+   "description_zh": "“心碎”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得祸兽通关标记。",
+   "reward_zh": "心碎",
+   "image": "images/achievement/496.png"
+  },
+  "497": {
+   "name_zh": "声带",
+   "description_zh": "“声带”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得祸兽通关标记。",
+   "reward_zh": "声带",
+   "image": "images/achievement/497.png"
+  },
+  "498": {
+   "name_zh": "阿撒泻勒之怒",
+   "description_zh": "“阿撒泻勒之怒”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得祸兽通关标记。",
+   "reward_zh": "阿撒泻勒之怒",
+   "image": "images/achievement/498.png"
+  },
+  "499": {
+   "name_zh": "救恩",
+   "description_zh": "“救恩”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得祸兽通关标记。",
+   "reward_zh": "救恩",
+   "image": "images/achievement/499.png"
+  },
+  "500": {
+   "name_zh": "错误技",
+   "description_zh": "“错误技”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得祸兽通关标记。",
+   "reward_zh": "错误技",
+   "image": "images/achievement/500.png"
+  },
+  "501": {
+   "name_zh": "十字圣球",
+   "description_zh": "“十字圣球”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得祸兽通关标记。",
+   "reward_zh": "十字圣球",
+   "image": "images/achievement/501.png"
+  },
+  "502": {
+   "name_zh": "作孽双子",
+   "description_zh": "“作孽双子”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得祸兽通关标记。",
+   "reward_zh": "作孽双子",
+   "image": "images/achievement/502.png"
+  },
+  "503": {
+   "name_zh": "稻草人",
+   "description_zh": "“稻草人”已出现在地下室",
+   "requirements_zh": "用堕化店主获得祸兽通关标记。",
+   "reward_zh": "稻草人",
+   "image": "images/achievement/503.png"
+  },
+  "504": {
+   "name_zh": "回声室",
+   "description_zh": "“回声室”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得祸兽通关标记。",
+   "reward_zh": "回声室",
+   "image": "images/achievement/504.png"
+  },
+  "505": {
+   "name_zh": "以撒的坟墓",
+   "description_zh": "“以撒的坟墓”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得祸兽通关标记。",
+   "reward_zh": "以撒的坟墓",
+   "image": "images/achievement/505.png"
+  },
+  "506": {
+   "name_zh": "复仇之魂",
+   "description_zh": "“复仇之魂”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得祸兽通关标记。",
+   "reward_zh": "复仇之魂",
+   "image": "images/achievement/506.png"
+  },
+  "507": {
+   "name_zh": "小以扫",
+   "description_zh": "“小以扫”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得祸兽通关标记。",
+   "reward_zh": "小以扫",
+   "image": "images/achievement/507.png"
+  },
+  "508": {
+   "name_zh": "血腥玛丽",
+   "description_zh": "你解锁了挑战#37血腥玛丽",
+   "requirements_zh": "解锁它还活着、伯大尼和 血袋。",
+   "reward_zh": "挑战#37：血腥玛丽",
+   "image": "images/achievement/508.png"
+  },
+  "509": {
+   "name_zh": "圣火洗礼",
+   "description_zh": "你解锁了挑战#38圣火洗礼",
+   "requirements_zh": "解锁它还活着、 灵魂之瓮和 抹大拉的信仰。",
+   "reward_zh": "挑战#38：圣火洗礼",
+   "image": "images/achievement/509.png"
+  },
+  "510": {
+   "name_zh": "以撒织梦岛",
+   "description_zh": "你解锁了挑战#39以撒织梦岛",
+   "requirements_zh": "击败母亲1次。",
+   "reward_zh": "挑战#39：以撒织梦岛",
+   "image": "images/achievement/510.png"
+  },
+  "511": {
+   "name_zh": "重影幻视",
+   "description_zh": "你解锁了挑战#40重影幻视",
+   "requirements_zh": "解锁雅各和以扫。",
+   "reward_zh": "挑战#40：重影幻视",
+   "image": "images/achievement/511.png"
+  },
+  "512": {
+   "name_zh": "异食游戏",
+   "description_zh": "你解锁了挑战#41异食游戏",
+   "requirements_zh": "解锁它还活着和 弹珠袋。",
+   "reward_zh": "挑战#41：异食游戏",
+   "image": "images/achievement/512.png"
+  },
+  "513": {
+   "name_zh": "烫手山芋",
+   "description_zh": "你解锁了挑战#42烫手山芋",
+   "requirements_zh": "解锁堕化遗骸。",
+   "reward_zh": "挑战#42：烫手山芋",
+   "image": "images/achievement/513.png"
+  },
+  "514": {
+   "name_zh": "大量过牌！",
+   "description_zh": "你解锁了挑战#43大量过牌！",
+   "requirements_zh": "解锁堕化该隐。",
+   "reward_zh": "挑战#43：大量过牌！",
+   "image": "images/achievement/514.png"
+  },
+  "515": {
+   "name_zh": "赤键救赎",
+   "description_zh": "你解锁了挑战#44赤键救赎",
+   "requirements_zh": "解锁堕化雅各。",
+   "reward_zh": "挑战#44：赤键救赎",
+   "image": "images/achievement/515.png"
+  },
+  "516": {
+   "name_zh": "删了这个",
+   "description_zh": "你解锁了挑战#45",
+   "requirements_zh": "解锁堕化伊甸。",
+   "reward_zh": "挑战#45：",
+   "image": "images/achievement/516.png"
+  },
+  "517": {
+   "name_zh": "龌龊之心",
+   "description_zh": "“龌龊之心”已出现在地下室",
+   "requirements_zh": "通过挑战#36：掏粪男孩。",
+   "reward_zh": "龌龊之心",
+   "image": "images/achievement/517.png"
+  },
+  "518": {
+   "name_zh": "巴风特之印",
+   "description_zh": "“巴风特之印”已出现在地下室",
+   "requirements_zh": "通过挑战#37：血腥玛丽。",
+   "reward_zh": "巴风特之印",
+   "image": "images/achievement/518.png"
+  },
+  "519": {
+   "name_zh": "炼狱恶鬼",
+   "description_zh": "“炼狱恶鬼”已出现在地下室",
+   "requirements_zh": "通过挑战#38：圣火洗礼。",
+   "reward_zh": "炼狱恶鬼",
+   "image": "images/achievement/519.png"
+  },
+  "520": {
+   "name_zh": "英灵剑",
+   "description_zh": "“英灵剑”已出现在地下室",
+   "requirements_zh": "通过挑战#39：以撒织梦岛。",
+   "reward_zh": "英灵剑",
+   "image": "images/achievement/520.png"
+  },
+  "521": {
+   "name_zh": "碎掉的眼镜",
+   "description_zh": "“碎掉的眼镜”已出现在地下室",
+   "requirements_zh": "通过挑战#40：重影幻视。",
+   "reward_zh": "碎掉的眼镜",
+   "image": "images/achievement/521.png"
+  },
+  "522": {
+   "name_zh": "冰块",
+   "description_zh": "“冰块”已出现在地下室",
+   "requirements_zh": "通过挑战#41：异食游戏。",
+   "reward_zh": "冰块",
+   "image": "images/achievement/522.png"
+  },
+  "523": {
+   "name_zh": "充能硬币",
+   "description_zh": "“充能硬币”已出现在地下室",
+   "requirements_zh": "向电池乞丐捐赠，使其奖励道具5次。",
+   "reward_zh": "充能硬币",
+   "image": "images/achievement/523.png"
+  },
+  "524": {
+   "name_zh": "愚者",
+   "description_zh": "“愚者”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得困难贪婪模式通关标记。",
+   "reward_zh": "0-愚者？",
+   "image": "images/achievement/524.png"
+  },
+  "525": {
+   "name_zh": "魔术师",
+   "description_zh": "“魔术师”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得困难贪婪模式通关标记。",
+   "reward_zh": "I-魔术师？",
+   "image": "images/achievement/525.png"
+  },
+  "526": {
+   "name_zh": "女祭司",
+   "description_zh": "“女祭司”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得困难贪婪模式通关标记。",
+   "reward_zh": "II-女祭司？",
+   "image": "images/achievement/526.png"
+  },
+  "527": {
+   "name_zh": "皇后",
+   "description_zh": "“皇后”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得困难贪婪模式通关标记。",
+   "reward_zh": "III-皇后？",
+   "image": "images/achievement/527.png"
+  },
+  "528": {
+   "name_zh": "皇帝",
+   "description_zh": "“皇帝”已出现在地下室",
+   "requirements_zh": "用堕化???获得困难贪婪模式通关标记。",
+   "reward_zh": "IV-皇帝？",
+   "image": "images/achievement/528.png"
+  },
+  "529": {
+   "name_zh": "教皇",
+   "description_zh": "“教皇”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得困难贪婪模式通关标记。",
+   "reward_zh": "V-教皇？",
+   "image": "images/achievement/529.png"
+  },
+  "530": {
+   "name_zh": "恋人",
+   "description_zh": "“恋人”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得困难贪婪模式通关标记。",
+   "reward_zh": "VI-恋人？",
+   "image": "images/achievement/530.png"
+  },
+  "531": {
+   "name_zh": "战车",
+   "description_zh": "“战车”已出现在地下室",
+   "requirements_zh": "通过挑战#42：烫手山芋。",
+   "reward_zh": "VII-战车？",
+   "image": "images/achievement/531.png"
+  },
+  "532": {
+   "name_zh": "正义",
+   "description_zh": "“正义”已出现在地下室",
+   "requirements_zh": "通过挑战#43：大量过牌！。",
+   "reward_zh": "VIII-正义？",
+   "image": "images/achievement/532.png"
+  },
+  "533": {
+   "name_zh": "隐者",
+   "description_zh": "“隐者”已出现在地下室",
+   "requirements_zh": "通过挑战#44：赤键救赎。",
+   "reward_zh": "IX-隐者？",
+   "image": "images/achievement/533.png"
+  },
+  "534": {
+   "name_zh": "命运之轮",
+   "description_zh": "“命运之轮”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得困难贪婪模式通关标记。",
+   "reward_zh": "X-命运之轮？",
+   "image": "images/achievement/534.png"
+  },
+  "535": {
+   "name_zh": "力量",
+   "description_zh": "“力量”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得困难贪婪模式通关标记。",
+   "reward_zh": "XI-力量？",
+   "image": "images/achievement/535.png"
+  },
+  "536": {
+   "name_zh": "倒吊人",
+   "description_zh": "“倒吊人”已出现在地下室",
+   "requirements_zh": "用堕化店主获得困难贪婪模式通关标记。",
+   "reward_zh": "XII-倒吊人？",
+   "image": "images/achievement/536.png"
+  },
+  "537": {
+   "name_zh": "死亡",
+   "description_zh": "“死亡”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得困难贪婪模式通关标记。",
+   "reward_zh": "XIII-死亡？",
+   "image": "images/achievement/537.png"
+  },
+  "538": {
+   "name_zh": "节制",
+   "description_zh": "“节制”已出现在地下室",
+   "requirements_zh": "通过挑战#45：　　　　。",
+   "reward_zh": "XIV-节制？",
+   "image": "images/achievement/538.png"
+  },
+  "539": {
+   "name_zh": "恶魔",
+   "description_zh": "“恶魔”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得困难贪婪模式通关标记。",
+   "reward_zh": "XV-恶魔？",
+   "image": "images/achievement/539.png"
+  },
+  "540": {
+   "name_zh": "塔",
+   "description_zh": "“塔”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得困难贪婪模式通关标记。",
+   "reward_zh": "XVI-塔？",
+   "image": "images/achievement/540.png"
+  },
+  "541": {
+   "name_zh": "星星",
+   "description_zh": "“星星”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得困难贪婪模式通关标记。",
+   "reward_zh": "XVII-星星？",
+   "image": "images/achievement/541.png"
+  },
+  "542": {
+   "name_zh": "太阳与月亮",
+   "description_zh": "“太阳&月亮”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得困难贪婪模式通关标记。",
+   "reward_zh": "XVIII-月亮？\n XIX-太阳？",
+   "image": "images/achievement/542.png"
+  },
+  "543": {
+   "name_zh": "审判",
+   "description_zh": "“审判”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得困难贪婪模式通关标记。",
+   "reward_zh": "XX-审判？",
+   "image": "images/achievement/543.png"
+  },
+  "544": {
+   "name_zh": "世界",
+   "description_zh": "“世界”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得困难贪婪模式通关标记。",
+   "reward_zh": "XXI-世界？",
+   "image": "images/achievement/544.png"
+  },
+  "545": {
+   "name_zh": "老旧电容",
+   "description_zh": "“老旧电容”已出现在地下室",
+   "requirements_zh": "消灭电池乞丐10次。",
+   "reward_zh": "老旧电容",
+   "image": "images/achievement/545.png"
+  },
+  "546": {
+   "name_zh": "硫磺火炸弹",
+   "description_zh": "“硫磺火炸弹”已出现在地下室",
+   "requirements_zh": "在岩角恶魔逃跑前消灭它。",
+   "reward_zh": "硫磺火炸弹",
+   "image": "images/achievement/546.png"
+  },
+  "547": {
+   "name_zh": "超级蘑菇",
+   "description_zh": "“超级蘑菇”已出现在地下室",
+   "requirements_zh": "用所有非堕化人物获得所有困难通关标记。",
+   "reward_zh": "超级蘑菇",
+   "image": "images/achievement/547.png"
+  },
+  "548": {
+   "name_zh": "妈妈的发髻",
+   "description_zh": "“妈妈的发髻”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "妈妈的发髻",
+   "image": "images/achievement/548.png"
+  },
+  "549": {
+   "name_zh": "骰子袋",
+   "description_zh": "“骰子袋”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得母亲通关标记。",
+   "reward_zh": "骰子袋",
+   "image": "images/achievement/549.png"
+  },
+  "550": {
+   "name_zh": "神圣王冠",
+   "description_zh": "“神圣王冠”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "神圣王冠",
+   "image": "images/achievement/550.png"
+  },
+  "551": {
+   "name_zh": "母亲的吻",
+   "description_zh": "“母亲的吻”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得母亲通关标记。",
+   "reward_zh": "母亲的吻",
+   "image": "images/achievement/551.png"
+  },
+  "552": {
+   "name_zh": "镀金钥匙",
+   "description_zh": "“镀金钥匙”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "镀金钥匙",
+   "image": "images/achievement/552.png"
+  },
+  "553": {
+   "name_zh": "幸运袋",
+   "description_zh": "“幸运袋”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得母亲通关标记。",
+   "reward_zh": "幸运袋",
+   "image": "images/achievement/553.png"
+  },
+  "554": {
+   "name_zh": "你的灵魂",
+   "description_zh": "“你的灵魂”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "你的灵魂",
+   "image": "images/achievement/554.png"
+  },
+  "555": {
+   "name_zh": "数字冰箱贴",
+   "description_zh": "“数字冰箱贴”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得母亲通关标记。",
+   "reward_zh": "数字冰箱贴",
+   "image": "images/achievement/555.png"
+  },
+  "556": {
+   "name_zh": "粪蛋",
+   "description_zh": "“粪蛋”已出现在地下室",
+   "requirements_zh": "用堕化???获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "粪蛋",
+   "image": "images/achievement/556.png"
+  },
+  "557": {
+   "name_zh": "火药圈",
+   "description_zh": "“火药圈”已出现在地下室",
+   "requirements_zh": "用堕化???获得母亲通关标记。",
+   "reward_zh": "火药圈",
+   "image": "images/achievement/557.png"
+  },
+  "558": {
+   "name_zh": "奇怪的钥匙",
+   "description_zh": "“奇怪的钥匙”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "奇怪的钥匙",
+   "image": "images/achievement/558.png"
+  },
+  "559": {
+   "name_zh": "小血团",
+   "description_zh": "“小血团”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得母亲通关标记。",
+   "reward_zh": "小血团",
+   "image": "images/achievement/559.png"
+  },
+  "560": {
+   "name_zh": "纹身贴",
+   "description_zh": "“纹身贴”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "纹身贴",
+   "image": "images/achievement/560.png"
+  },
+  "561": {
+   "name_zh": "被吞下的M80鞭炮",
+   "description_zh": "“被吞下的M80鞭炮”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得母亲通关标记。",
+   "reward_zh": "被吞下的M80鞭炮",
+   "image": "images/achievement/561.png"
+  },
+  "562": {
+   "name_zh": "邪恶王冠",
+   "description_zh": "“邪恶王冠”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "邪恶王冠",
+   "image": "images/achievement/562.png"
+  },
+  "563": {
+   "name_zh": "阿撒泻勒的残角",
+   "description_zh": "“阿撒泻勒的残角”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得母亲通关标记。",
+   "reward_zh": "阿撒泻勒的残角",
+   "image": "images/achievement/563.png"
+  },
+  "564": {
+   "name_zh": "破损的口袋",
+   "description_zh": "“破损的口袋”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "破损的口袋",
+   "image": "images/achievement/564.png"
+  },
+  "565": {
+   "name_zh": "扑克牌残片",
+   "description_zh": "“扑克牌残片”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得母亲通关标记。",
+   "reward_zh": "扑克牌残片",
+   "image": "images/achievement/565.png"
+  },
+  "566": {
+   "name_zh": "滚啊！",
+   "description_zh": "“滚啊！”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "滚啊！",
+   "image": "images/achievement/566.png"
+  },
+  "567": {
+   "name_zh": "塑型黏土",
+   "description_zh": "“塑型黏土”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得母亲通关标记。",
+   "reward_zh": "塑型黏土",
+   "image": "images/achievement/567.png"
+  },
+  "568": {
+   "name_zh": "儿童涂鸦",
+   "description_zh": "“儿童涂鸦”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "儿童涂鸦",
+   "image": "images/achievement/568.png"
+  },
+  "569": {
+   "name_zh": "水晶钥匙",
+   "description_zh": "“水晶钥匙”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得母亲通关标记。",
+   "reward_zh": "水晶钥匙",
+   "image": "images/achievement/569.png"
+  },
+  "570": {
+   "name_zh": "双胞胎",
+   "description_zh": "“双胞胎”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "双胞胎",
+   "image": "images/achievement/570.png"
+  },
+  "571": {
+   "name_zh": "领养协议书",
+   "description_zh": "“领养协议书”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得母亲通关标记。",
+   "reward_zh": "领养协议书",
+   "image": "images/achievement/571.png"
+  },
+  "572": {
+   "name_zh": "店主的协议",
+   "description_zh": "“店主的协议”已出现在地下室",
+   "requirements_zh": "用堕化店主获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "店主的协议",
+   "image": "images/achievement/572.png"
+  },
+  "573": {
+   "name_zh": "诅咒硬币",
+   "description_zh": "“诅咒硬币”已出现在地下室",
+   "requirements_zh": "用堕化店主获得母亲通关标记。",
+   "reward_zh": "诅咒硬币",
+   "image": "images/achievement/573.png"
+  },
+  "574": {
+   "name_zh": "蟋蟀腿",
+   "description_zh": "“蟋蟀腿”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "蟋蟀腿",
+   "image": "images/achievement/574.png"
+  },
+  "575": {
+   "name_zh": "亚玻伦的挚友",
+   "description_zh": "“亚玻伦的挚友”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得母亲通关标记。",
+   "reward_zh": "亚玻伦的挚友",
+   "image": "images/achievement/575.png"
+  },
+  "576": {
+   "name_zh": "抛光骨头",
+   "description_zh": "“抛光骨头”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "抛光骨头",
+   "image": "images/achievement/576.png"
+  },
+  "577": {
+   "name_zh": "空壳心",
+   "description_zh": "“空壳心”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得母亲通关标记。",
+   "reward_zh": "空壳心",
+   "image": "images/achievement/577.png"
+  },
+  "578": {
+   "name_zh": "扩展电路板",
+   "description_zh": "“扩展电路板”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "扩展电路板",
+   "image": "images/achievement/578.png"
+  },
+  "579": {
+   "name_zh": "伯大尼的精华",
+   "description_zh": "“伯大尼的精华”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得母亲通关标记。",
+   "reward_zh": "伯大尼的精华",
+   "image": "images/achievement/579.png"
+  },
+  "580": {
+   "name_zh": "赛车遥控器",
+   "description_zh": "“赛车遥控器”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得以撒、???、撒但和羔羊通关标记。",
+   "reward_zh": "赛车遥控器",
+   "image": "images/achievement/580.png"
+  },
+  "581": {
+   "name_zh": "复得游魂",
+   "description_zh": "“复得游魂”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得母亲通关标记。",
+   "reward_zh": "复得游魂",
+   "image": "images/achievement/581.png"
+  },
+  "582": {
+   "name_zh": "会员卡",
+   "description_zh": "“会员卡”已出现在地下室",
+   "requirements_zh": "在单个商店中，消费40个以上的硬币。",
+   "reward_zh": "会员卡",
+   "image": "images/achievement/582.png"
+  },
+  "583": {
+   "name_zh": "金剃刀片",
+   "description_zh": "“金剃刀片”已出现在地下室",
+   "requirements_zh": "在一局游戏中，拥有99硬币，然后全部花光。",
+   "reward_zh": "金剃刀片",
+   "image": "images/achievement/583.png"
+  },
+  "584": {
+   "name_zh": "计数二十面骰",
+   "description_zh": "“计数二十面骰”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得精神错乱通关标记。",
+   "reward_zh": "计数二十面骰",
+   "image": "images/achievement/584.png"
+  },
+  "585": {
+   "name_zh": "高凝血",
+   "description_zh": "“高凝血”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得精神错乱通关标记。",
+   "reward_zh": "高凝血",
+   "image": "images/achievement/585.png"
+  },
+  "586": {
+   "name_zh": "合成宝袋",
+   "description_zh": "“合成宝袋”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得精神错乱通关标记。",
+   "reward_zh": "合成宝袋",
+   "image": "images/achievement/586.png"
+  },
+  "587": {
+   "name_zh": "暗仪刺刀",
+   "description_zh": "“暗仪刺刀”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得精神错乱通关标记。",
+   "reward_zh": "暗仪刺刀",
+   "image": "images/achievement/587.png"
+  },
+  "588": {
+   "name_zh": "大肠激躁症",
+   "description_zh": "“大肠激躁症”已出现在地下室",
+   "requirements_zh": "用堕化???获得精神错乱通关标记。",
+   "reward_zh": "大肠激躁症",
+   "image": "images/achievement/588.png"
+  },
+  "589": {
+   "name_zh": "圣血吸管",
+   "description_zh": "“圣血吸管”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得精神错乱通关标记。",
+   "reward_zh": "圣血吸管",
+   "image": "images/achievement/589.png"
+  },
+  "590": {
+   "name_zh": "狂怒！",
+   "description_zh": "“狂怒！”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得精神错乱通关标记。",
+   "reward_zh": "狂怒！",
+   "image": "images/achievement/590.png"
+  },
+  "591": {
+   "name_zh": "咯血症",
+   "description_zh": "“咯血症”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得精神错乱通关标记。",
+   "reward_zh": "咯血症",
+   "image": "images/achievement/591.png"
+  },
+  "592": {
+   "name_zh": "生死逆转",
+   "description_zh": "“生死逆转”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得精神错乱通关标记。",
+   "reward_zh": "生死逆转",
+   "image": "images/achievement/592.png"
+  },
+  "593": {
+   "name_zh": "存档错误",
+   "description_zh": "“存档错误”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得精神错乱通关标记。",
+   "reward_zh": "隐藏房和错误房生成的道具有概率变为错误道具",
+   "image": "images/achievement/593.png"
+  },
+  "594": {
+   "name_zh": "幽灵炸弹",
+   "description_zh": "“幽灵炸弹”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得精神错乱通关标记。",
+   "reward_zh": "幽灵炸弹",
+   "image": "images/achievement/594.png"
+  },
+  "595": {
+   "name_zh": "格罗",
+   "description_zh": "“格罗”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得精神错乱通关标记。",
+   "reward_zh": "格罗",
+   "image": "images/achievement/595.png"
+  },
+  "596": {
+   "name_zh": "店主的亲友",
+   "description_zh": "“店主的亲友”已出现在地下室",
+   "requirements_zh": "用堕化店主获得精神错乱通关标记。",
+   "reward_zh": "店主的亲友",
+   "image": "images/achievement/596.png"
+  },
+  "597": {
+   "name_zh": "无底坑",
+   "description_zh": "“无底坑”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得精神错乱通关标记。",
+   "reward_zh": "无底坑",
+   "image": "images/achievement/597.png"
+  },
+  "598": {
+   "name_zh": "飞头攻击",
+   "description_zh": "“飞头攻击”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得精神错乱通关标记。",
+   "reward_zh": "飞头攻击",
+   "image": "images/achievement/598.png"
+  },
+  "599": {
+   "name_zh": "所罗门魔典",
+   "description_zh": "“所罗门魔典”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得精神错乱通关标记。",
+   "reward_zh": "所罗门魔典",
+   "image": "images/achievement/599.png"
+  },
+  "600": {
+   "name_zh": "孤魂铁索",
+   "description_zh": "“孤魂铁索”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得精神错乱通关标记。",
+   "reward_zh": "孤魂铁索",
+   "image": "images/achievement/600.png"
+  },
+  "601": {
+   "name_zh": "大箱子",
+   "description_zh": "“大箱子”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得超级撒但通关标记。",
+   "reward_zh": "大箱子",
+   "image": "images/achievement/601.png"
+  },
+  "602": {
+   "name_zh": "红桃Q",
+   "description_zh": "“红桃Q”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得超级撒但通关标记。",
+   "reward_zh": "红桃Q",
+   "image": "images/achievement/602.png"
+  },
+  "603": {
+   "name_zh": "金胶囊",
+   "description_zh": "“金胶囊”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得超级撒但通关标记。",
+   "reward_zh": "金胶囊",
+   "image": "images/achievement/603.png"
+  },
+  "604": {
+   "name_zh": "黑福袋",
+   "description_zh": "“黑福袋”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得超级撒但通关标记。",
+   "reward_zh": "黑福袋",
+   "image": "images/achievement/604.png"
+  },
+  "605": {
+   "name_zh": "友好大便",
+   "description_zh": "“友好大便”已出现在地下室",
+   "requirements_zh": "用堕化???获得超级撒但通关标记。",
+   "reward_zh": "友好大便",
+   "image": "images/achievement/605.png"
+  },
+  "606": {
+   "name_zh": "大胶囊",
+   "description_zh": "“大胶囊”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得超级撒但通关标记。",
+   "reward_zh": "大胶囊",
+   "image": "images/achievement/606.png"
+  },
+  "607": {
+   "name_zh": "夹娃娃机",
+   "description_zh": "“夹娃娃机”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得超级撒但通关标记。",
+   "reward_zh": "夹娃娃机",
+   "image": "images/achievement/607.png"
+  },
+  "608": {
+   "name_zh": "地狱抽奖",
+   "description_zh": "“地狱抽奖”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得超级撒但通关标记。",
+   "reward_zh": "地狱抽奖",
+   "image": "images/achievement/608.png"
+  },
+  "609": {
+   "name_zh": "木箱子",
+   "description_zh": "“木箱子”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得超级撒但通关标记。",
+   "reward_zh": "木箱子",
+   "image": "images/achievement/609.png"
+  },
+  "610": {
+   "name_zh": "万用牌",
+   "description_zh": "“万用牌”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得超级撒但通关标记。",
+   "reward_zh": "万用牌",
+   "image": "images/achievement/610.png"
+  },
+  "611": {
+   "name_zh": "闹鬼箱子",
+   "description_zh": "“闹鬼箱子”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得超级撒但通关标记。",
+   "reward_zh": "闹鬼箱子",
+   "image": "images/achievement/611.png"
+  },
+  "612": {
+   "name_zh": "愚人金",
+   "description_zh": "“愚人金”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得超级撒但通关标记。",
+   "reward_zh": "愚人金",
+   "image": "images/achievement/612.png"
+  },
+  "613": {
+   "name_zh": "金硬币",
+   "description_zh": "“金硬币”已出现在地下室",
+   "requirements_zh": "用堕化店主获得超级撒但通关标记。",
+   "reward_zh": "金硬币",
+   "image": "images/achievement/613.png"
+  },
+  "614": {
+   "name_zh": "腐烂乞丐",
+   "description_zh": "“腐烂乞丐”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得超级撒但通关标记。",
+   "reward_zh": "腐烂乞丐",
+   "image": "images/achievement/614.png"
+  },
+  "615": {
+   "name_zh": "金电池",
+   "description_zh": "“金电池”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得超级撒但通关标记。",
+   "reward_zh": "金电池",
+   "image": "images/achievement/615.png"
+  },
+  "616": {
+   "name_zh": "忏悔室",
+   "description_zh": "“忏悔室”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得超级撒但通关标记。",
+   "reward_zh": "忏悔室",
+   "image": "images/achievement/616.png"
+  },
+  "617": {
+   "name_zh": "金饰品",
+   "description_zh": "“金饰品”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得超级撒但通关标记。",
+   "reward_zh": "金饰品",
+   "image": "images/achievement/617.png"
+  },
+  "618": {
+   "name_zh": "以撒的魂石",
+   "description_zh": "“以撒的魂石”已出现在地下室",
+   "requirements_zh": "用堕化以撒获得Boss Rush和死寂通关标记。",
+   "reward_zh": "以撒的魂石",
+   "image": "images/achievement/618.png"
+  },
+  "619": {
+   "name_zh": "抹大拉的魂石",
+   "description_zh": "“抹大拉的魂石”已出现在地下室",
+   "requirements_zh": "用堕化抹大拉获得Boss Rush和死寂通关标记。",
+   "reward_zh": "抹大拉的魂石",
+   "image": "images/achievement/619.png"
+  },
+  "620": {
+   "name_zh": "该隐的魂石",
+   "description_zh": "“该隐的魂石”已出现在地下室",
+   "requirements_zh": "用堕化该隐获得Boss Rush和死寂通关标记。",
+   "reward_zh": "该隐的魂石",
+   "image": "images/achievement/620.png"
+  },
+  "621": {
+   "name_zh": "犹大的魂石",
+   "description_zh": "“犹大的魂石”已出现在地下室",
+   "requirements_zh": "用堕化犹大获得Boss Rush和死寂通关标记。",
+   "reward_zh": "犹大的魂石",
+   "image": "images/achievement/621.png"
+  },
+  "622": {
+   "name_zh": "???的魂石",
+   "description_zh": "“???的魂石”已出现在地下室",
+   "requirements_zh": "用堕化???获得Boss Rush和死寂通关标记。",
+   "reward_zh": "???的魂石",
+   "image": "images/achievement/622.png"
+  },
+  "623": {
+   "name_zh": "夏娃的魂石",
+   "description_zh": "“夏娃的魂石”已出现在地下室",
+   "requirements_zh": "用堕化夏娃获得Boss Rush和死寂通关标记。",
+   "reward_zh": "夏娃的魂石",
+   "image": "images/achievement/623.png"
+  },
+  "624": {
+   "name_zh": "参孙的魂石",
+   "description_zh": "“参孙的魂石”已出现在地下室",
+   "requirements_zh": "用堕化参孙获得Boss Rush和死寂通关标记。",
+   "reward_zh": "参孙的魂石",
+   "image": "images/achievement/624.png"
+  },
+  "625": {
+   "name_zh": "阿撒泻勒的魂石",
+   "description_zh": "“阿撒泻勒的魂石”已出现在地下室",
+   "requirements_zh": "用堕化阿撒泻勒获得Boss Rush和死寂通关标记。",
+   "reward_zh": "阿撒泻勒的魂石",
+   "image": "images/achievement/625.png"
+  },
+  "626": {
+   "name_zh": "拉撒路的魂石",
+   "description_zh": "“拉撒路的魂石”已出现在地下室",
+   "requirements_zh": "用堕化拉撒路获得Boss Rush和死寂通关标记。",
+   "reward_zh": "拉撒路的魂石",
+   "image": "images/achievement/626.png"
+  },
+  "627": {
+   "name_zh": "伊甸的魂石",
+   "description_zh": "“伊甸的魂石”已出现在地下室",
+   "requirements_zh": "用堕化伊甸获得Boss Rush和死寂通关标记。",
+   "reward_zh": "伊甸的魂石",
+   "image": "images/achievement/627.png"
+  },
+  "628": {
+   "name_zh": "游魂的魂石",
+   "description_zh": "“游魂的魂石”已出现在地下室",
+   "requirements_zh": "用堕化游魂获得Boss Rush和死寂通关标记。",
+   "reward_zh": "游魂的魂石",
+   "image": "images/achievement/628.png"
+  },
+  "629": {
+   "name_zh": "莉莉丝的魂石",
+   "description_zh": "“莉莉丝的魂石”已出现在地下室",
+   "requirements_zh": "用堕化莉莉丝获得Boss Rush和死寂通关标记。",
+   "reward_zh": "莉莉丝的魂石",
+   "image": "images/achievement/629.png"
+  },
+  "630": {
+   "name_zh": "店主的魂石",
+   "description_zh": "“店主的魂石”已出现在地下室",
+   "requirements_zh": "用堕化店主获得Boss Rush和死寂通关标记。",
+   "reward_zh": "店主的魂石",
+   "image": "images/achievement/630.png"
+  },
+  "631": {
+   "name_zh": "亚玻伦的魂石",
+   "description_zh": "“亚玻伦的魂石”已出现在地下室",
+   "requirements_zh": "用堕化亚玻伦获得Boss Rush和死寂通关标记。",
+   "reward_zh": "亚玻伦的魂石",
+   "image": "images/achievement/631.png"
+  },
+  "632": {
+   "name_zh": "遗骸的魂石",
+   "description_zh": "“遗骸的魂石”已出现在地下室",
+   "requirements_zh": "用堕化遗骸获得Boss Rush和死寂通关标记。",
+   "reward_zh": "遗骸的魂石",
+   "image": "images/achievement/632.png"
+  },
+  "633": {
+   "name_zh": "伯大尼的魂石",
+   "description_zh": "“伯大尼的魂石”已出现在地下室",
+   "requirements_zh": "用堕化伯大尼获得Boss Rush和死寂通关标记。",
+   "reward_zh": "伯大尼的魂石",
+   "image": "images/achievement/633.png"
+  },
+  "634": {
+   "name_zh": "雅各与以扫的魂石",
+   "description_zh": "“雅各\n+以扫的魂石”已出现在地下室",
+   "requirements_zh": "用堕化雅各获得Boss Rush和死寂通关标记。",
+   "reward_zh": "雅各与以扫的魂石",
+   "image": "images/achievement/634.png"
+  },
+  "635": {
+   "name_zh": "奇怪的门",
+   "description_zh": "一扇奇怪的门在深牢出现",
+   "requirements_zh": "击败母亲1次。",
+   "reward_zh": "奇怪的门",
+   "image": "images/achievement/635.png"
+  },
+  "636": {
+   "name_zh": "死亡证明",
+   "description_zh": "“死亡证明”已出现在地下室",
+   "requirements_zh": "用所有人物获得所有困难通关标记。",
+   "reward_zh": "死亡证明",
+   "image": "images/achievement/636.png"
+  },
+  "637": {
+   "name_zh": "弑神大神",
+   "description_zh": "弑神大神！",
+   "requirements_zh": "解锁所有其他成就并收集所有物品。",
+   "image": "images/achievement/637.png"
+  },
+  "638": {
+   "name_zh": "游玩联机模式",
+   "description_zh": "游玩联机模式",
+   "requirements_zh": "游玩一次联机模式。",
+   "image": "images/achievement/638.png"
+  },
+  "639": {
+   "name_zh": "通关联机模式",
+   "description_zh": "通关联机模式",
+   "requirements_zh": "通关一次联机模式。",
+   "image": "images/achievement/639.png"
+  },
+  "640": {
+   "name_zh": "通关联机每日挑战",
+   "description_zh": "通关联机每日挑战",
+   "requirements_zh": "通关一次联机每日挑战。",
+   "image": "images/achievement/640.png"
+  },
+  "641": {
+   "name_zh": "读它！",
+   "description_zh": "道具描述！",
+   "requirements_zh": "击败妈妈。",
+   "image": "images/achievement/641.png"
+  }
+ },
+ "entities": {
+  "10.0.0": "皱眉裂口尸",
+  "10.1.0": "裂口尸",
+  "10.2.0": "燃烧裂口尸",
+  "10.3.0": "腐烂裂口尸",
+  "11.0.0": "喷血尸",
+  "11.1.0": "漫步尸",
+  "12.0.0": "呕血头",
+  "13.0.0": "苍蝇",
+  "14.0.0": "狙击蝇",
+  "14.1.0": "超级狙击蝇",
+  "14.2.0": "堕化狙击蝇",
+  "15.0.0": "肉团",
+  "15.1.0": "焦油团",
+  "15.2.0": "以撒肉团",
+  "15.3.0": "烤肉团",
+  "16.0.0": "棉花怪",
+  "16.1.0": "灰棉花怪",
+  "16.2.0": "炸弹棉花怪",
+  "18.0.0": "红苍蝇",
+  "21.0.0": "蝇蛆",
+  "22.0.0": "蝇巢",
+  "22.1.0": "溺水蝇巢",
+  "22.2.0": "神圣棉花怪",
+  "22.3.0": "堕化棉花怪",
+  "23.0.0": "冲刺蝇蛆",
+  "23.1.0": "溺水冲刺蝇蛆",
+  "23.2.0": "阴湿冲刺蝇蛆",
+  "23.3.0": "腐蛆公主",
+  "24.0.0": "血红尸",
+  "24.1.0": "窥眼血红尸",
+  "24.2.0": "阴湿血红尸",
+  "24.3.0": "诅咒血红尸",
+  "25.0.0": "炸弹苍蝇",
+  "25.1.0": "红色炸弹苍蝇",
+  "25.2.0": "溺水炸弹苍蝇",
+  "25.3.0": "龙头苍蝇",
+  "25.4.0": "骷髅苍蝇",
+  "25.5.0": "病态炸弹苍蝇",
+  "25.6.0": "堕化炸弹苍蝇",
+  "26.0.0": "大嘴头",
+  "26.1.0": "红色大嘴头",
+  "26.2.0": "灵能大嘴头",
+  "27.0.0": "寄居骷髅",
+  "27.1.0": "血肉寄居骷髅",
+  "27.3.0": "化石寄居骷髅",
+  "29.0.0": "跳跳尸",
+  "29.1.0": "跳蛛",
+  "29.2.0": "卵囊跳跳尸",
+  "29.3.0": "堕化跳跳尸",
+  "30.0.0": "脓液囊",
+  "30.1.0": "吐根脓液囊",
+  "30.2.0": "卵囊",
+  "31.0.0": "吐血蝇蛆",
+  "31.1.0": "堕化吐血蝇蛆",
+  "32.0.0": "脑子",
+  "34.0.0": "飞跃尸",
+  "34.1.0": "黏性飞跃尸",
+  "35.0.0": "大嘴头尸的身体",
+  "35.2.0": "红色大嘴头尸的身体",
+  "38.0.0": "宝宝",
+  "38.1.0": "天使宝宝",
+  "38.3.0": "皱皮宝宝",
+  "39.0.0": "开膛怪",
+  "39.1.0": "双向开膛怪",
+  "39.2.0": "蛆虫开膛怪",
+  "39.3.0": "结痂双向开膛怪",
+  "40.0.0": "脏团",
+  "40.1.0": "结痂脏团",
+  "40.2.0": "沥青脏团",
+  "41.0.0": "假面骑士",
+  "41.1.0": "忘我骑士",
+  "41.2.0": "漏脑骑士",
+  "41.3.0": "无脑骑士",
+  "41.4.0": "黑骑士",
+  "42.0.0": "石像头",
+  "42.1.0": "吐根石像头",
+  "42.2.0": "三线石像头",
+  "44.0.0": "刺块",
+  "44.1.0": "滑刺块",
+  "53.0.0": "分身",
+  "53.1.0": "邪恶分身",
+  "54.0.0": "燃烧跳跳尸",
+  "55.0.0": "水蛭",
+  "55.1.0": "神风水蛭",
+  "55.2.0": "神圣水蛭",
+  "56.0.0": "肿块",
+  "57.0.0": "大脑",
+  "57.1.0": "大脏团",
+  "57.2.0": "腐烂大脏团",
+  "58.0.0": "咬咬虫",
+  "58.1.0": "结痂咬咬虫",
+  "59.0.0": "弗莱德",
+  "60.0.0": "眼睛",
+  "60.1.0": "血丝眼",
+  "60.2.0": "圣眼",
+  "61.0.0": "吸血蚊",
+  "61.1.0": "吐根吸血蚊",
+  "61.2.0": "吸魂蚊",
+  "61.3.0": "吸墨蚊",
+  "61.4.0": "母体苍蝇",
+  "61.5.0": "吸电蚊",
+  "61.6.0": "嗜血蚊",
+  "61.7.0": "堕化吸血蚊",
+  "77.0.0": "胚胎",
+  "80.0.0": "连体苍蝇",
+  "85.0.0": "蜘蛛",
+  "86.0.0": "店主",
+  "87.0.0": "吐根尸",
+  "87.1.0": "吐火尸",
+  "88.0.0": "行走脓液囊",
+  "88.1.0": "行走吐根脓液囊",
+  "88.2.0": "行走卵囊",
+  "89.0.0": "跟屁虫",
+  "90.0.0": "上吊店主",
+  "91.0.0": "蝇团",
+  "92.0.0": "心脏",
+  "92.1.0": "半边心脏",
+  "93.0.0": "假面",
+  "93.1.0": "假面Ⅱ",
+  "94.0.0": "大蜘蛛",
+  "96.0.0": "永恒苍蝇",
+  "201.0.0": "石眼",
+  "202.0.0": "连发石像射手",
+  "202.10.0": "十字石像射手",
+  "203.0.0": "硫磺石像射手",
+  "204.0.0": "行走寄居骷髅",
+  "205.0.0": "蜘蛛巢",
+  "206.0.0": "生崽长腿蛛",
+  "206.1.0": "小生崽长腿蛛",
+  "207.0.0": "疯狂长腿蛛",
+  "207.1.0": "小疯狂长腿蛛",
+  "208.0.0": "肥仔",
+  "208.1.0": "苍白肥仔",
+  "208.2.0": "燃烧肥仔",
+  "209.0.0": "充血肥仔",
+  "210.0.0": "无头肥仔",
+  "211.0.0": "半身肥仔",
+  "212.0.0": "死人头骨",
+  "212.1.0": "阴湿死人头骨",
+  "212.2.0": "诅咒死人头骨",
+  "212.3.0": "硫磺死人头骨",
+  "212.4.0": "红色头骨",
+  "213.0.0": "妈妈的手",
+  "214.0.0": "二级苍蝇",
+  "215.0.0": "二级蜘蛛",
+  "216.0.0": "甩头尸的身体",
+  "217.0.0": "粪滴",
+  "217.1.0": "玉米粪滴",
+  "217.2.0": "布朗尼玉米粪滴",
+  "217.3.0": "大玉米粪滴",
+  "218.0.0": "贴墙刺块",
+  "219.0.0": "巫鬼",
+  "220.0.0": "粪团",
+  "220.1.0": "阴湿粪团",
+  "221.0.0": "肉包虫",
+  "222.0.0": "环绕苍蝇",
+  "223.0.0": "粪堆",
+  "224.0.0": "乌伯",
+  "225.0.0": "黑口怪",
+  "226.0.0": "皱脸尸",
+  "226.1.0": "腐脸尸",
+  "226.2.0": "脆脸尸",
+  "227.0.0": "骷髅仔",
+  "227.1.0": "神圣骷髅仔",
+  "228.0.0": "畸婴",
+  "229.0.0": "肿瘤",
+  "229.1.0": "行星肿瘤",
+  "230.0.0": "小卡米洛",
+  "231.0.0": "神经末梢",
+  "231.1.0": "神经末梢2",
+  "234.0.0": "独牙蝙蝠",
+  "235.0.0": "大嘴石像头",
+  "236.0.0": "碎裂大嘴石像头",
+  "237.0.0": "肉山幼崽",
+  "238.0.0": "喷毒尸",
+  "239.0.0": "幼虫",
+  "240.0.0": "爬墙蛛",
+  "240.1.0": "豆奶爬墙蛛",
+  "240.3.0": "堕化豆奶爬墙蛛",
+  "241.0.0": "愤怒爬墙蛛",
+  "242.0.0": "盲眼爬墙蛛",
+  "243.0.0": "连体吐血蝇蛆",
+  "244.0.0": "圆头虫",
+  "244.1.0": "管头虫",
+  "244.2.0": "堕化圆头虫",
+  "244.3.0": "堕化管头虫",
+  "246.0.0": "绷带蜘蛛",
+  "247.0.0": "血肉行走寄居骷髅",
+  "248.0.0": "灵能呕血头",
+  "249.0.0": "丰满苍蝇",
+  "250.0.0": "炸弹蜘蛛",
+  "251.0.0": "受生恶魔",
+  "252.0.0": "虚影恶魔",
+  "253.0.0": "灵能肿瘤",
+  "254.0.0": "飘浮骑士",
+  "255.0.0": "夜行圆头虫",
+  "256.0.0": "尖头苍蝇",
+  "257.0.0": "连体肥仔",
+  "257.1.0": "死寂连体肥仔",
+  "258.0.0": "胖蝙蝠",
+  "259.0.0": "小恶魔",
+  "260.10.0": "小恶灵",
+  "276.0.0": "肥圆虫",
+  "277.0.0": "黑色骷髅仔",
+  "278.0.0": "黑色血红尸",
+  "279.0.0": "黑色血红尸的头",
+  "280.0.0": "黑色血红尸的身体",
+  "281.0.0": "苍蝇群",
+  "282.0.0": "大肉团",
+  "283.0.0": "骸骨骑士",
+  "284.0.0": "独眼尸",
+  "285.0.0": "红色巫鬼",
+  "286.0.0": "血肉死人头骨",
+  "287.0.0": "妈妈的死手",
+  "288.0.0": "小苍蝇公爵",
+  "289.0.0": "溃疡",
+  "290.0.0": "肉球",
+  "295.0.0": "玉米粒地雷",
+  "296.0.0": "死寂苍蝇",
+  "297.0.0": "死寂裂口尸",
+  "298.0.0": "死寂脓液囊",
+  "299.0.0": "贪婪裂口尸",
+  "300.0.0": "蘑菇",
+  "301.0.0": "剧毒脑子",
+  "302.0.0": "石肥仔",
+  "303.0.0": "水疱跳蛛",
+  "304.0.0": "怪形爬墙蛛",
+  "305.0.0": "迷你萌死戳",
+  "306.0.0": "黑洞",
+  "306.1.0": "小黑洞",
+  "307.0.0": "焦油小子",
+  "308.0.0": "小瘘管",
+  "309.0.0": "焦油囊",
+  "310.0.0": "麻风怪",
+  "310.1.0": "麻风怪的血肉",
+  "311.0.0": "水雷头",
+  "802.0.0": "嗜血小宠",
+  "804.0.0": "地震石像头",
+  "805.0.0": "主教像",
+  "806.0.0": "充水肥仔",
+  "807.0.0": "隐鬼",
+  "808.0.0": "萤火苍蝇",
+  "810.0.0": "小水蛭",
+  "811.0.0": "潜水裂口尸",
+  "812.0.0": "水栖呕血头",
+  "812.1.0": "堕化水栖呕血头",
+  "813.0.0": "蓄水裂口尸",
+  "814.0.0": "水蜘蛛",
+  "815.0.0": "骷髅鱼",
+  "816.0.0": "捣蛋小鬼",
+  "816.1.0": "灵能小鬼",
+  "817.0.0": "水蛭棉花怪",
+  "817.1.0": "棉花鬼",
+  "818.0.0": "石头蜘蛛",
+  "818.1.0": "标记石头蜘蛛",
+  "818.2.0": "火炭蜘蛛",
+  "819.0.0": "苍蝇炸弹",
+  "820.0.0": "丹尼",
+  "820.1.0": "火炭小子",
+  "821.0.0": "爆破者",
+  "822.0.0": "充气怪",
+  "823.0.0": "地震肥仔",
+  "824.0.0": "肉轮",
+  "824.1.0": "烤肉轮",
+  "825.0.0": "火焰圆头虫",
+  "826.0.0": "化石粪团",
+  "827.0.0": "无脸尸",
+  "827.1.0": "堕化无脸尸",
+  "828.0.0": "死灵骷髅头",
+  "829.0.0": "鼹鼠",
+  "829.1.0": "堕化鼹鼠",
+  "830.0.0": "肥骷髅仔",
+  "831.0.0": "流肠肥仔",
+  "831.20.0": "溃烂脏团",
+  "832.1.0": "狂信徒",
+  "833.0.0": "烛台鬼",
+  "834.0.0": "鞭笞怪",
+  "834.1.0": "长鞭怪",
+  "834.2.0": "狂鞭怪",
+  "835.0.0": "窥眼肥仔",
+  "836.0.0": "追踪开膛怪",
+  "838.0.0": "二级萤火苍蝇",
+  "840.0.0": "跳跳脑",
+  "841.0.0": "还魂骷髅",
+  "841.1.0": "四脸还魂骷髅",
+  "844.0.0": "轰炸怪",
+  "850.0.0": "二级裂口尸",
+  "850.1.0": "二级呕血头",
+  "850.2.0": "二级喷血尸",
+  "851.0.0": "跳蛛尸",
+  "852.0.0": "刺球",
+  "853.0.0": "小蝇蛆",
+  "854.0.0": "水蛭成虫",
+  "855.0.0": "二级冲刺蝇蛆",
+  "855.1.0": "精英水蛭",
+  "856.0.0": "毒气囊",
+  "857.0.0": "血红团",
+  "859.0.0": "飘浮寄居骷髅",
+  "860.0.0": "死胎",
+  "861.0.0": "脓疱",
+  "862.0.0": "囊肿",
+  "863.0.0": "流星锤",
+  "863.0.2": "流星锤",
+  "864.0.0": "嘲弄眼",
+  "865.0.0": "内脏开膛怪",
+  "868.0.0": "苍蝇队",
+  "869.0.0": "头瘤蜘蛛",
+  "870.0.0": "粪球",
+  "871.0.0": "浮粪团",
+  "872.0.0": "便便肉团",
+  "873.0.0": "蝇巢浮尸",
+  "874.0.0": "毒气棉花怪",
+  "875.0.0": "屁雷",
+  "876.0.0": "便便鼻涕虫",
+  "876.1.0": "便便鼻涕虫的头",
+  "877.0.0": "窥眼刺块",
+  "878.0.0": "阴湿跟屁虫",
+  "879.0.0": "浮肿尸",
+  "880.0.0": "血处女",
+  "881.0.0": "小钉虫",
+  "881.1.0": "白骨虫",
+  "882.0.0": "尘鬼",
+  "883.0.0": "受生恶魔宝宝",
+  "884.0.0": "蜘蛛群",
+  "885.0.0": "邪教徒",
+  "885.1.0": "血腥邪教徒",
+  "886.0.0": "开膛肥仔",
+  "886.1.0": "魔胎",
+  "887.0.0": "尘埃死人头骨",
+  "888.0.0": "暗影肥仔",
+  "889.0.0": "嘎吱骨",
+  "890.0.0": "漫步木乃伊",
+  "891.0.0": "山羊",
+  "891.1.0": "黑山羊",
+  "892.0.0": "胀血团",
+  "893.0.0": "链球",
+  "912.20.0": "僵尸以撒",
+  "19.0.0": "拉里子虫",
+  "19.1.0": "空心虫",
+  "19.2.0": "灰岩子虫",
+  "19.3.0": "枯壳虫",
+  "20.0.0": "萌死戳",
+  "28.0.0": "胖蛆",
+  "28.1.0": "查德",
+  "28.2.0": "腐蛆女王",
+  "36.0.0": "肉山",
+  "38.2.0": "究极傲慢宝宝",
+  "43.0.0": "萌死戳II",
+  "43.1.0": "吉什",
+  "45.0.0": "妈妈",
+  "46.0.0": "懒惰",
+  "46.1.0": "超级懒惰",
+  "46.2.0": "究极傲慢",
+  "47.0.0": "色欲",
+  "47.1.0": "超级色欲",
+  "48.0.0": "愤怒",
+  "48.1.0": "超级愤怒",
+  "49.0.0": "暴食",
+  "49.1.0": "超级暴食",
+  "50.0.0": "贪婪",
+  "50.1.0": "超级贪婪",
+  "51.0.0": "嫉妒",
+  "51.1.0": "超级嫉妒",
+  "52.0.0": "傲慢",
+  "52.1.0": "超级傲慢",
+  "62.0.0": "钉头虫",
+  "62.1.0": "头节虫",
+  "62.2.0": "脆皮虫",
+  "62.3.0": "茵陈",
+  "63.0.0": "饥荒骑士",
+  "64.0.0": "瘟疫骑士",
+  "65.0.0": "战争骑士",
+  "65.1.0": "征服骑士",
+  "66.0.0": "死亡骑士",
+  "67.0.0": "苍蝇公爵",
+  "67.1.0": "尸壳",
+  "68.0.0": "嘘嘘怪",
+  "68.1.0": "充血怪",
+  "69.0.0": "洛基",
+  "69.1.0": "分身洛基",
+  "71.0.0": "瘘管团",
+  "71.1.0": "畸胎瘤",
+  "74.0.0": "囊胚",
+  "78.0.0": "妈妈的心脏",
+  "78.1.0": "它还活着",
+  "79.0.0": "连体双子",
+  "79.1.0": "史蒂文",
+  "79.2.0": "凋零双子",
+  "79.10.0": "双子宝宝",
+  "79.11.0": "史蒂文宝宝",
+  "79.12.0": "凋零双子宝宝",
+  "81.0.0": "堕落恶魔",
+  "81.1.0": "坎卜斯",
+  "82.0.0": "无头骑士",
+  "83.0.0": "无头骑士的头",
+  "84.0.0": "撒但",
+  "97.0.0": "耻辱假面",
+  "98.0.0": "耻辱之心",
+  "99.0.0": "小肉山",
+  "100.0.0": "灰寡妇蛛",
+  "100.1.0": "伤痕寡妇蛛",
+  "101.0.0": "长腿蛛父",
+  "101.1.0": "三腿蜘蛛",
+  "102.0.0": "以撒",
+  "102.1.0": "???",
+  "237.1.0": "肉山幼崽头目",
+  "237.2.0": "粪山幼崽",
+  "260.0.0": "大恶灵",
+  "261.0.0": "坨坨",
+  "261.1.0": "滑坨坨",
+  "262.0.0": "超级大嘴头",
+  "263.0.0": "守门骷髅",
+  "264.0.0": "超级肥仔",
+  "265.0.0": "大肥笼",
+  "266.0.0": "母体肉山",
+  "267.0.0": "黑暗恶魔",
+  "268.0.0": "敌手",
+  "269.0.0": "多头畸胎",
+  "269.1.0": "骨堆畸胎",
+  "270.0.0": "大弗莱德",
+  "271.0.0": "乌列",
+  "271.1.0": "堕落乌列",
+  "272.0.0": "加百列",
+  "272.1.0": "堕落加百列",
+  "273.0.0": "羔羊",
+  "274.0.0": "超级撒但",
+  "275.0.0": "超级撒但2",
+  "401.0.0": "血痕畸胎",
+  "402.0.0": "布朗尼",
+  "403.0.0": "被遗弃者",
+  "404.0.0": "小角恶魔",
+  "405.0.0": "绷带人",
+  "406.0.0": "究极贪婪",
+  "406.1.0": "究极大贪婪",
+  "407.0.0": "死寂",
+  "409.0.0": "超级绷带人",
+  "410.0.0": "开膛姐妹",
+  "411.0.0": "巨角恶魔",
+  "412.0.0": "精神错乱",
+  "413.0.0": "胖蛆族母",
+  "866.0.0": "堕化以扫",
+  "867.0.0": "母亲的暗影",
+  "900.0.0": "裂面爬墙蛛",
+  "901.0.0": "小水泡",
+  "902.0.0": "造雨人",
+  "903.0.0": "锁链假面",
+  "904.0.0": "塞壬",
+  "905.0.0": "大异端",
+  "906.0.0": "岩角恶魔",
+  "907.0.0": "大基甸",
+  "908.0.0": "糖梅宝宝",
+  "909.0.0": "鞭刃怪",
+  "910.0.0": "嵌体怪",
+  "911.0.0": "腐脏巨面",
+  "912.0.0": "母亲",
+  "913.0.0": "冥明火灵",
+  "914.0.0": "拦路屎",
+  "915.0.0": "焦皮小子",
+  "916.0.0": "大乞丐宝",
+  "917.0.0": "结肠造口袋",
+  "918.0.0": "虫形大便",
+  "920.0.0": "魔角兄弟",
+  "921.0.0": "附身邪鬼",
+  "950.0.0": "教条",
+  "951.0.0": "祸兽",
+  "951.10.0": "究极饥荒骑士",
+  "951.20.0": "究极瘟疫骑士",
+  "951.30.0": "究极战争骑士",
+  "951.40.0": "究极死亡骑士",
+  "5.0.0": "红心"
+ },
+ "challenges": {
+  "1": "漆黑一片",
+  "2": "格调高雅",
+  "3": "头部创伤",
+  "4": "黑暗降临",
+  "5": "坦克",
+  "6": "太阳系",
+  "7": "自杀之王",
+  "8": "好奇害死猫",
+  "9": "拆迁办",
+  "10": "诅咒！",
+  "11": "玻璃大炮",
+  "12": "当生活充满酸意",
+  "13": "豆子！",
+  "14": "尽在卡牌中",
+  "15": "慢吞吞",
+  "16": "技术宅",
+  "17": "吐豆人",
+  "18": "宿主",
+  "19": "顾家男人",
+  "20": "返璞归真",
+  "21": "超超超超超大层",
+  "22": "快马加鞭！",
+  "23": "蓝色炸弹人",
+  "24": "充钱游戏",
+  "25": "没心没肺",
+  "26": "以撒传说！",
+  "27": "脑子！",
+  "28": "彩虹日！",
+  "29": "俄南连击",
+  "30": "守护者",
+  "31": "本末倒置",
+  "32": "愚人节",
+  "33": "宝可萌",
+  "34": "终极困难",
+  "35": "乒乓",
+  "36": "掏粪男孩",
+  "37": "血腥玛丽",
+  "38": "圣火洗礼",
+  "39": "以撒织梦岛",
+  "40": "重影幻视",
+  "41": "异食游戏",
+  "42": "烫手山芋",
+  "43": "大量过牌！",
+  "44": "赤键救赎",
+  "45": "删除这个"
+ },
+ "item_pools": {
+  "Angel Room": "天使房",
+  "Baby Shop": "宝宝商店",
+  "Battery Bum": "电池乞丐",
+  "Beggar": "乞丐",
+  "Bomb Bum": "炸弹乞丐",
+  "Boss": "头目房",
+  "Crane Game": "夹娃娃机",
+  "Curse Room": "诅咒房",
+  "Devil Beggar": "恶魔乞丐",
+  "Devil Room": "恶魔房",
+  "Golden Chest": "金箱子",
+  "Greed Angel Room": "贪婪模式天使房",
+  "Greed Boss": "贪婪模式头目房",
+  "Greed Curse Room": "贪婪模式诅咒房",
+  "Greed Devil Room": "贪婪模式恶魔房",
+  "Greed Golden Chest": "贪婪模式金箱子",
+  "Greed Library": "贪婪模式图书馆",
+  "Greed Secret Room": "贪婪模式隐藏房",
+  "Greed Shop": "贪婪模式商店",
+  "Greed Treasure Room": "贪婪模式宝箱房",
+  "Key Master": "钥匙大师",
+  "Library": "图书馆",
+  "Mom's Chest": "妈妈的箱子",
+  "Old Chest": "旧箱子",
+  "Planetarium": "星象房",
+  "Red Chest": "红箱子",
+  "Rotten Beggar": "腐烂乞丐",
+  "Secret Room": "隐藏房",
+  "Shell Game": "猜壳游戏",
+  "Shop": "商店",
+  "Treasure Room": "宝箱房",
+  "Ultra Secret Room": "究极隐藏房",
+  "Wooden Chest": "木箱子"
+ },
+ "characters": {
+  "Jacob & Esau": "雅各和以扫",
+  "Cain": "该隐",
+  "Magdalene": "抹大拉",
+  "Judas": "犹大",
+  "??? (Character)": "？？？",
+  "Eve": "夏娃",
+  "Samson": "参孙",
+  "Azazel": "阿撒泻勒",
+  "Lazarus": "拉撒路",
+  "Eden": "伊甸",
+  "The Lost": "游魂",
+  "Lilith": "莉莉丝",
+  "Isaac": "以撒",
+  "Keeper": "店主",
+  "Apollyon": "亚玻伦",
+  "The Forgotten": "遗骸",
+  "Bethany": "伯大尼",
+  "Tainted Isaac": "堕化以撒",
+  "Tainted Magdalene": "堕化抹大拉",
+  "Tainted Cain": "堕化该隐",
+  "Tainted Judas": "堕化犹大",
+  "Tainted ???": "堕化？？？",
+  "Tainted Eve": "堕化夏娃",
+  "Tainted Samson": "堕化参孙",
+  "Tainted Azazel": "堕化阿撒泻勒",
+  "Tainted Lazarus": "堕化拉撒路",
+  "Tainted Eden": "堕化伊甸",
+  "Tainted Lost": "堕化游魂",
+  "Tainted Lilith": "堕化莉莉丝",
+  "Tainted Keeper": "堕化店主",
+  "Tainted Apollyon": "堕化亚玻伦",
+  "Tainted Forgotten": "堕化遗骸",
+  "Tainted Bethany": "堕化伯大尼",
+  "Tainted Jacob": "堕化雅各"
+ },
+ "character_images": {
+  "Isaac": "images/player/isaac.png",
+  "Magdalene": "images/player/magdalene.png",
+  "Cain": "images/player/cain.png",
+  "Judas": "images/player/judas.png",
+  "??? (Character)": "images/player/character.png",
+  "Eve": "images/player/eve.png",
+  "Samson": "images/player/samson.png",
+  "Azazel": "images/player/azazel.png",
+  "Lazarus": "images/player/lazarus.png",
+  "Eden": "images/player/eden.png",
+  "The Lost": "images/player/the_lost.png",
+  "Lilith": "images/player/lilith.png",
+  "Keeper": "images/player/keeper.png",
+  "Apollyon": "images/player/apollyon.png",
+  "The Forgotten": "images/player/the_forgotten.png",
+  "Bethany": "images/player/bethany.png",
+  "Jacob & Esau": "images/player/jacob_esau.png",
+  "Tainted Isaac": "images/player/tainted_isaac.png",
+  "Tainted Magdalene": "images/player/tainted_magdalene.png",
+  "Tainted Cain": "images/player/tainted_cain.png",
+  "Tainted Judas": "images/player/tainted_judas.png",
+  "Tainted ???": "images/player/tainted.png",
+  "Tainted Eve": "images/player/tainted_eve.png",
+  "Tainted Samson": "images/player/tainted_samson.png",
+  "Tainted Azazel": "images/player/tainted_azazel.png",
+  "Tainted Lazarus": "images/player/tainted_lazarus.png",
+  "Tainted Eden": "images/player/tainted_eden.png",
+  "Tainted Lost": "images/player/tainted_lost.png",
+  "Tainted Lilith": "images/player/tainted_lilith.png",
+  "Tainted Keeper": "images/player/tainted_keeper.png",
+  "Tainted Apollyon": "images/player/tainted_apollyon.png",
+  "Tainted Forgotten": "images/player/tainted_forgotten.png",
+  "Tainted Bethany": "images/player/tainted_bethany.png",
+  "Tainted Jacob": "images/player/tainted_jacob.png"
+ },
+ "entity_images": {
+  "5.90.1": "images/entity/5.90.1.png",
+  "5.90.2": "images/entity/5.90.2.png",
+  "5.90.3": "images/entity/5.90.3.png",
+  "5.90.4": "images/entity/5.90.4.png",
+  "5.40.1": "images/entity/5.40.1.png",
+  "5.40.2": "images/entity/5.40.2.png",
+  "5.40.3": "images/entity/5.40.3.png",
+  "5.40.4": "images/entity/5.40.4.png",
+  "5.40.5": "images/entity/5.40.5.png",
+  "5.40.6": "images/entity/5.40.6.png",
+  "5.40.7": "images/entity/5.40.7.png",
+  "5.41.0": "images/entity/5.41.0.png",
+  "5.42.0": "images/entity/5.42.0.png",
+  "5.42.1": "images/entity/5.42.1.png",
+  "5.50.0": "images/entity/5.50.0.png",
+  "5.51.0": "images/entity/5.51.0.png",
+  "5.52.0": "images/entity/5.52.0.png",
+  "5.53.0": "images/entity/5.53.0.png",
+  "5.54.0": "images/entity/5.54.0.png",
+  "5.55.0": "images/entity/5.55.0.png",
+  "5.56.0": "images/entity/5.56.0.png",
+  "5.57.0": "images/entity/5.57.0.png",
+  "5.58.0": "images/entity/5.58.0.png",
+  "5.60.0": "images/entity/5.60.0.png",
+  "5.360.0": "images/entity/5.360.0.png",
+  "5.390.0": "images/entity/5.390.0.png",
+  "5.20.7": "images/entity/5.20.7.png",
+  "5.30.1": "images/entity/5.30.1.png",
+  "5.30.2": "images/entity/5.30.2.png",
+  "5.30.3": "images/entity/5.30.3.png",
+  "5.69.1": "images/entity/5.69.1.png",
+  "5.69.2": "images/entity/5.69.2.png",
+  "6.4.0": "images/entity/6.4.0.png",
+  "6.5.0": "images/entity/6.5.0.png",
+  "6.6.0": "images/entity/6.6.0.png",
+  "6.7.0": "images/entity/6.7.0.png",
+  "6.9.0": "images/entity/6.9.0.png",
+  "6.13.0": "images/entity/6.13.0.png",
+  "6.15.0": "images/entity/6.15.0.png",
+  "6.18.0": "images/entity/6.18.0.png",
+  "6.8.0": "images/entity/6.8.0.png",
+  "6.11.0": "images/entity/6.11.0.png",
+  "6.1.0": "images/entity/6.1.0.png",
+  "6.2.0": "images/entity/6.2.0.png",
+  "6.3.0": "images/entity/6.3.0.png",
+  "6.10.0": "images/entity/6.10.0.png",
+  "6.12.0": "images/entity/6.12.0.png",
+  "6.16.0": "images/entity/6.16.0.png",
+  "6.17.0": "images/entity/6.17.0.png",
+  "6.19.0": "images/entity/6.19.0.png",
+  "17.0.0": "images/entity/17.0.0.png",
+  "17.3.0": "images/entity/17.3.0.png",
+  "33.0.0": "images/entity/33.0.0.png",
+  "33.1.0": "images/entity/33.1.0.png",
+  "33.2.0": "images/entity/33.2.0.png",
+  "33.3.0": "images/entity/33.3.0.png",
+  "33.4.0": "images/entity/33.4.0.png",
+  "245.0.0": "images/entity/245.0.0.png",
+  "245.1.0": "images/entity/245.1.0.png",
+  "292.0.0": "images/entity/292.0.0.png",
+  "292.1.0": "images/entity/292.1.0.png",
+  "964.0.0": "images/entity/964.0.0.png",
+  "19.0.0": "images/entity/19.0.0.png",
+  "19.1.0": "images/entity/19.1.0.png",
+  "19.3.0": "images/entity/19.3.0.png",
+  "19.2.0": "images/entity/19.2.0.png",
+  "20.0.0": "images/entity/20.0.0.png",
+  "28.1.0": "images/entity/28.1.0.png",
+  "28.2.0": "images/entity/28.2.0.png",
+  "28.0.0": "images/entity/28.0.0.png",
+  "36.0.0": "images/entity/36.0.0.png",
+  "43.1.0": "images/entity/43.1.0.png",
+  "43.0.0": "images/entity/43.0.0.png",
+  "45.0.0": "images/entity/45.0.0.png",
+  "62.0.0": "images/entity/62.0.0.png",
+  "62.1.0": "images/entity/62.1.0.png",
+  "62.2.0": "images/entity/62.2.0.png",
+  "62.3.0": "images/entity/62.3.0.png",
+  "63.0.0": "images/entity/63.0.0.png",
+  "64.0.0": "images/entity/64.0.0.png",
+  "65.1.0": "images/entity/65.1.0.png",
+  "65.0.0": "images/entity/65.0.0.png",
+  "66.0.0": "images/entity/66.0.0.png",
+  "67.0.0": "images/entity/67.0.0.png",
+  "67.1.0": "images/entity/67.1.0.png",
+  "68.0.0": "images/entity/68.0.0.png",
+  "68.1.0": "images/entity/68.1.0.png",
+  "69.0.0": "images/entity/69.0.0.png",
+  "69.1.0": "images/entity/69.1.0.png",
+  "71.0.0": "images/entity/71.0.0.png",
+  "71.1.0": "images/entity/71.1.0.png",
+  "74.0.0": "images/entity/74.0.0.png",
+  "78.1.0": "images/entity/78.1.0.png",
+  "78.0.0": "images/entity/78.0.0.png",
+  "79.2.0": "images/entity/79.2.0.png",
+  "79.0.0": "images/entity/79.0.0.png",
+  "79.1.0": "images/entity/79.1.0.png",
+  "81.0.0": "images/entity/81.0.0.png",
+  "82.0.0": "images/entity/82.0.0.png",
+  "84.0.0": "images/entity/84.0.0.png",
+  "97.0.0": "images/entity/97.0.0.png",
+  "99.0.0": "images/entity/99.0.0.png",
+  "100.1.0": "images/entity/100.1.0.png",
+  "100.0.0": "images/entity/100.0.0.png",
+  "101.0.0": "images/entity/101.0.0.png",
+  "101.1.0": "images/entity/101.1.0.png",
+  "102.1.0": "images/entity/102.1.0.png",
+  "102.0.0": "images/entity/102.0.0.png",
+  "237.1.0": "images/entity/237.1.0.png",
+  "237.2.0": "images/entity/237.2.0.png",
+  "260.0.0": "images/entity/260.0.0.png",
+  "261.1.0": "images/entity/261.1.0.png",
+  "261.0.0": "images/entity/261.0.0.png",
+  "262.0.0": "images/entity/262.0.0.png",
+  "263.0.0": "images/entity/263.0.0.png",
+  "264.0.0": "images/entity/264.0.0.png",
+  "265.0.0": "images/entity/265.0.0.png",
+  "266.0.0": "images/entity/266.0.0.png",
+  "267.0.0": "images/entity/267.0.0.png",
+  "268.0.0": "images/entity/268.0.0.png",
+  "269.0.0": "images/entity/269.0.0.png",
+  "269.1.0": "images/entity/269.1.0.png",
+  "270.0.0": "images/entity/270.0.0.png",
+  "273.0.0": "images/entity/273.0.0.png",
+  "274.0.0": "images/entity/274.0.0.png",
+  "401.0.0": "images/entity/401.0.0.png",
+  "402.0.0": "images/entity/402.0.0.png",
+  "403.0.0": "images/entity/403.0.0.png",
+  "404.0.0": "images/entity/404.0.0.png",
+  "405.0.0": "images/entity/405.0.0.png",
+  "406.0.0": "images/entity/406.0.0.png",
+  "406.1.0": "images/entity/406.1.0.png",
+  "407.0.0": "images/entity/407.0.0.png",
+  "409.0.0": "images/entity/409.0.0.png",
+  "410.0.0": "images/entity/410.0.0.png",
+  "411.0.0": "images/entity/411.0.0.png",
+  "412.0.0": "images/entity/412.0.0.png",
+  "413.0.0": "images/entity/413.0.0.png",
+  "900.0.0": "images/entity/900.0.0.png",
+  "901.0.0": "images/entity/901.0.0.png",
+  "902.0.0": "images/entity/902.0.0.png",
+  "903.0.0": "images/entity/903.0.0.png",
+  "904.0.0": "images/entity/904.0.0.png",
+  "905.0.0": "images/entity/905.0.0.png",
+  "906.0.0": "images/entity/906.0.0.png",
+  "907.0.0": "images/entity/907.0.0.png",
+  "908.0.0": "images/entity/908.0.0.png",
+  "909.0.0": "images/entity/909.0.0.png",
+  "910.0.0": "images/entity/910.0.0.png",
+  "911.0.0": "images/entity/911.0.0.png",
+  "912.0.0": "images/entity/912.0.0.png",
+  "913.0.0": "images/entity/913.0.0.png",
+  "914.0.0": "images/entity/914.0.0.png",
+  "915.0.0": "images/entity/915.0.0.png",
+  "916.0.0": "images/entity/916.0.0.png",
+  "917.0.0": "images/entity/917.0.0.png",
+  "918.0.0": "images/entity/918.0.0.png",
+  "920.0.0": "images/entity/920.0.0.png",
+  "921.0.0": "images/entity/921.0.0.png",
+  "950.0.0": "images/entity/950.0.0.png",
+  "951.0.0": "images/entity/951.0.0.png",
+  "951.40.0": "images/entity/951.40.0.png",
+  "951.10.0": "images/entity/951.10.0.png",
+  "951.20.0": "images/entity/951.20.0.png",
+  "951.30.0": "images/entity/951.30.0.png",
+  "46.0.0": "images/entity/46.0.0.png",
+  "46.1.0": "images/entity/46.1.0.png",
+  "46.2.0": "images/entity/46.2.0.png",
+  "47.0.0": "images/entity/47.0.0.png",
+  "47.1.0": "images/entity/47.1.0.png",
+  "48.1.0": "images/entity/48.1.0.png",
+  "48.0.0": "images/entity/48.0.0.png",
+  "49.0.0": "images/entity/49.0.0.png",
+  "49.1.0": "images/entity/49.1.0.png",
+  "50.0.0": "images/entity/50.0.0.png",
+  "50.1.0": "images/entity/50.1.0.png",
+  "51.0.0": "images/entity/51.0.0.png",
+  "51.1.0": "images/entity/51.1.0.png",
+  "52.0.0": "images/entity/52.0.0.png",
+  "52.1.0": "images/entity/52.1.0.png",
+  "81.1.0": "images/entity/81.1.0.png",
+  "271.0.0": "images/entity/271.0.0.png",
+  "272.0.0": "images/entity/272.0.0.png",
+  "866.0.0": "images/entity/866.0.0.png",
+  "3.220.0": "images/entity/3.220.0.png",
+  "5.10.1": "images/entity/5.10.1.png",
+  "5.10.2": "images/entity/5.10.2.png",
+  "5.10.3": "images/entity/5.10.3.png",
+  "5.10.4": "images/entity/5.10.4.png",
+  "5.10.5": "images/entity/5.10.5.png",
+  "5.10.6": "images/entity/5.10.6.png",
+  "5.10.7": "images/entity/5.10.7.png",
+  "5.10.8": "images/entity/5.10.8.png",
+  "5.10.9": "images/entity/5.10.9.png",
+  "5.10.10": "images/entity/5.10.10.png",
+  "5.10.11": "images/entity/5.10.11.png",
+  "5.10.12": "images/entity/5.10.12.png",
+  "10.0.0": "images/entity/10.0.0.png",
+  "10.1.0": "images/entity/10.1.0.png",
+  "10.2.0": "images/entity/10.2.0.png",
+  "10.3.0": "images/entity/10.3.0.png",
+  "11.0.0": "images/entity/11.0.0.png",
+  "11.1.0": "images/entity/11.1.0.png",
+  "12.0.0": "images/entity/12.0.0.png",
+  "14.2.0": "images/entity/14.2.0.png",
+  "15.1.0": "images/entity/15.1.0.png",
+  "15.2.0": "images/entity/15.2.0.png",
+  "15.3.0": "images/entity/15.3.0.png",
+  "16.0.0": "images/entity/16.0.0.png",
+  "16.1.0": "images/entity/16.1.0.png",
+  "16.2.0": "images/entity/16.2.0.png",
+  "22.0.0": "images/entity/22.0.0.png",
+  "22.1.0": "images/entity/22.1.0.png",
+  "22.2.0": "images/entity/22.2.0.png",
+  "22.3.0": "images/entity/22.3.0.png",
+  "23.3.0": "images/entity/23.3.0.png",
+  "24.0.0": "images/entity/24.0.0.png",
+  "24.1.0": "images/entity/24.1.0.png",
+  "24.2.0": "images/entity/24.2.0.png",
+  "24.3.0": "images/entity/24.3.0.png",
+  "25.3.0": "images/entity/25.3.0.png",
+  "25.3.1": "images/entity/25.3.1.png",
+  "25.4.0": "images/entity/25.4.0.png",
+  "25.5.0": "images/entity/25.5.0.png",
+  "25.6.0": "images/entity/25.6.0.png",
+  "26.0.0": "images/entity/26.0.0.png",
+  "26.1.0": "images/entity/26.1.0.png",
+  "27.0.0": "images/entity/27.0.0.png",
+  "27.1.0": "images/entity/27.1.0.png",
+  "27.3.0": "images/entity/27.3.0.png",
+  "29.2.0": "images/entity/29.2.0.png",
+  "29.3.0": "images/entity/29.3.0.png",
+  "30.0.0": "images/entity/30.0.0.png",
+  "30.1.0": "images/entity/30.1.0.png",
+  "30.2.0": "images/entity/30.2.0.png",
+  "31.1.0": "images/entity/31.1.0.png",
+  "32.0.0": "images/entity/32.0.0.png",
+  "34.0.0": "images/entity/34.0.0.png",
+  "34.1.0": "images/entity/34.1.0.png",
+  "35.0.0": "images/entity/35.0.0.png",
+  "35.2.0": "images/entity/35.2.0.png",
+  "38.0.0": "images/entity/38.0.0.png",
+  "38.1.0": "images/entity/38.1.0.png",
+  "38.1.1": "images/entity/38.1.1.png",
+  "38.3.0": "images/entity/38.3.0.png",
+  "39.0.0": "images/entity/39.0.0.png",
+  "39.1.0": "images/entity/39.1.0.png",
+  "39.2.0": "images/entity/39.2.0.png",
+  "39.3.0": "images/entity/39.3.0.png",
+  "40.2.0": "images/entity/40.2.0.png",
+  "41.0.0": "images/entity/41.0.0.png",
+  "41.1.0": "images/entity/41.1.0.png",
+  "41.2.0": "images/entity/41.2.0.png",
+  "41.3.0": "images/entity/41.3.0.png",
+  "41.4.0": "images/entity/41.4.0.png",
+  "42.0.0": "images/entity/42.0.0.png",
+  "42.1.0": "images/entity/42.1.0.png",
+  "42.2.0": "images/entity/42.2.0.png",
+  "44.0.0": "images/entity/44.0.0.png",
+  "44.1.0": "images/entity/44.1.0.png",
+  "53.0.0": "images/entity/53.0.0.png",
+  "53.1.0": "images/entity/53.1.0.png",
+  "54.0.0": "images/entity/54.0.0.png",
+  "55.1.0": "images/entity/55.1.0.png",
+  "55.2.0": "images/entity/55.2.0.png",
+  "56.0.0": "images/entity/56.0.0.png",
+  "57.0.0": "images/entity/57.0.0.png",
+  "57.1.0": "images/entity/57.1.0.png",
+  "57.2.0": "images/entity/57.2.0.png",
+  "58.0.0": "images/entity/58.0.0.png",
+  "58.1.0": "images/entity/58.1.0.png",
+  "59.0.0": "images/entity/59.0.0.png",
+  "60.0.0": "images/entity/60.0.0.png",
+  "60.2.0": "images/entity/60.2.0.png",
+  "61.3.0": "images/entity/61.3.0.png",
+  "61.4.0": "images/entity/61.4.0.png",
+  "61.5.0": "images/entity/61.5.0.png",
+  "61.6.0": "images/entity/61.6.0.png",
+  "61.7.0": "images/entity/61.7.0.png",
+  "66.10.0": "images/entity/66.10.0.png",
+  "68.11.0": "images/entity/68.11.0.png",
+  "77.0.0": "images/entity/77.0.0.png",
+  "80.0.0": "images/entity/80.0.0.png",
+  "85.0.0": "images/entity/85.0.0.png",
+  "86.0.0": "images/entity/86.0.0.png",
+  "87.0.0": "images/entity/87.0.0.png",
+  "87.1.0": "images/entity/87.1.0.png",
+  "88.0.0": "images/entity/88.0.0.png",
+  "88.1.0": "images/entity/88.1.0.png",
+  "88.2.0": "images/entity/88.2.0.png",
+  "89.0.0": "images/entity/89.0.0.png",
+  "90.0.0": "images/entity/90.0.0.png",
+  "93.0.0": "images/entity/93.0.0.png",
+  "93.1.0": "images/entity/93.1.0.png",
+  "94.0.0": "images/entity/94.0.0.png",
+  "202.0.0": "images/entity/202.0.0.png",
+  "202.10.0": "images/entity/202.10.0.png",
+  "203.0.0": "images/entity/203.0.0.png",
+  "204.0.0": "images/entity/204.0.0.png",
+  "205.0.0": "images/entity/205.0.0.png",
+  "206.0.0": "images/entity/206.0.0.png",
+  "206.1.0": "images/entity/206.1.0.png",
+  "207.0.0": "images/entity/207.0.0.png",
+  "207.1.0": "images/entity/207.1.0.png",
+  "208.0.0": "images/entity/208.0.0.png",
+  "208.1.0": "images/entity/208.1.0.png",
+  "208.2.0": "images/entity/208.2.0.png",
+  "209.0.0": "images/entity/209.0.0.png",
+  "210.0.0": "images/entity/210.0.0.png",
+  "211.0.0": "images/entity/211.0.0.png",
+  "212.2.0": "images/entity/212.2.0.png",
+  "212.3.0": "images/entity/212.3.0.png",
+  "212.4.0": "images/entity/212.4.0.png",
+  "213.0.0": "images/entity/213.0.0.png",
+  "214.0.0": "images/entity/214.0.0.png",
+  "215.0.0": "images/entity/215.0.0.png",
+  "216.0.0": "images/entity/216.0.0.png",
+  "217.0.0": "images/entity/217.0.0.png",
+  "217.1.0": "images/entity/217.1.0.png",
+  "217.2.0": "images/entity/217.2.0.png",
+  "217.3.0": "images/entity/217.3.0.png",
+  "218.0.0": "images/entity/218.0.0.png",
+  "219.0.0": "images/entity/219.0.0.png",
+  "220.0.0": "images/entity/220.0.0.png",
+  "220.1.0": "images/entity/220.1.0.png",
+  "221.0.0": "images/entity/221.0.0.png",
+  "223.0.0": "images/entity/223.0.0.png",
+  "224.0.0": "images/entity/224.0.0.png",
+  "225.0.0": "images/entity/225.0.0.png",
+  "226.0.0": "images/entity/226.0.0.png",
+  "226.1.0": "images/entity/226.1.0.png",
+  "226.2.0": "images/entity/226.2.0.png",
+  "227.0.0": "images/entity/227.0.0.png",
+  "227.1.0": "images/entity/227.1.0.png",
+  "228.0.0": "images/entity/228.0.0.png",
+  "229.1.0": "images/entity/229.1.0.png",
+  "231.1.0": "images/entity/231.1.0.png",
+  "235.0.0": "images/entity/235.0.0.png",
+  "236.0.0": "images/entity/236.0.0.png",
+  "237.0.0": "images/entity/237.0.0.png",
+  "238.0.0": "images/entity/238.0.0.png",
+  "239.0.0": "images/entity/239.0.0.png",
+  "240.0.0": "images/entity/240.0.0.png",
+  "240.1.0": "images/entity/240.1.0.png",
+  "240.3.0": "images/entity/240.3.0.png",
+  "241.0.0": "images/entity/241.0.0.png",
+  "242.0.0": "images/entity/242.0.0.png",
+  "244.0.0": "images/entity/244.0.0.png",
+  "244.1.0": "images/entity/244.1.0.png",
+  "244.2.0": "images/entity/244.2.0.png",
+  "244.3.0": "images/entity/244.3.0.png",
+  "246.0.0": "images/entity/246.0.0.png",
+  "246.1.0": "images/entity/246.1.0.png",
+  "247.0.0": "images/entity/247.0.0.png",
+  "248.0.0": "images/entity/248.0.0.png",
+  "250.0.0": "images/entity/250.0.0.png",
+  "251.0.0": "images/entity/251.0.0.png",
+  "252.0.0": "images/entity/252.0.0.png",
+  "253.0.0": "images/entity/253.0.0.png",
+  "254.0.0": "images/entity/254.0.0.png",
+  "255.0.0": "images/entity/255.0.0.png",
+  "256.0.0": "images/entity/256.0.0.png",
+  "257.0.0": "images/entity/257.0.0.png",
+  "257.1.0": "images/entity/257.1.0.png",
+  "259.0.0": "images/entity/259.0.0.png",
+  "276.0.0": "images/entity/276.0.0.png",
+  "278.0.0": "images/entity/278.0.0.png",
+  "279.0.0": "images/entity/279.0.0.png",
+  "280.0.0": "images/entity/280.0.0.png",
+  "282.0.0": "images/entity/282.0.0.png",
+  "283.0.0": "images/entity/283.0.0.png",
+  "284.0.0": "images/entity/284.0.0.png",
+  "285.0.0": "images/entity/285.0.0.png",
+  "286.0.0": "images/entity/286.0.0.png",
+  "287.0.0": "images/entity/287.0.0.png",
+  "288.0.0": "images/entity/288.0.0.png",
+  "289.0.0": "images/entity/289.0.0.png",
+  "290.0.0": "images/entity/290.0.0.png",
+  "291.0.0": "images/entity/291.0.0.png",
+  "291.1.0": "images/entity/291.1.0.png",
+  "291.2.0": "images/entity/291.2.0.png",
+  "295.0.0": "images/entity/295.0.0.png",
+  "296.0.0": "images/entity/296.0.0.png",
+  "297.0.0": "images/entity/297.0.0.png",
+  "298.0.0": "images/entity/298.0.0.png",
+  "299.0.0": "images/entity/299.0.0.png",
+  "300.0.0": "images/entity/300.0.0.png",
+  "301.0.0": "images/entity/301.0.0.png",
+  "302.0.0": "images/entity/302.0.0.png",
+  "302.10.0": "images/entity/302.10.0.png",
+  "303.0.0": "images/entity/303.0.0.png",
+  "304.0.0": "images/entity/304.0.0.png",
+  "306.0.0": "images/entity/306.0.0.png",
+  "306.1.0": "images/entity/306.1.0.png",
+  "307.0.0": "images/entity/307.0.0.png",
+  "308.0.0": "images/entity/308.0.0.png",
+  "309.0.0": "images/entity/309.0.0.png",
+  "310.0.0": "images/entity/310.0.0.png",
+  "310.1.0": "images/entity/310.1.0.png",
+  "311.0.0": "images/entity/311.0.0.png",
+  "404.1.0": "images/entity/404.1.0.png",
+  "409.1.0": "images/entity/409.1.0.png",
+  "802.0.0": "images/entity/802.0.0.png",
+  "804.0.0": "images/entity/804.0.0.png",
+  "805.0.0": "images/entity/805.0.0.png",
+  "806.0.0": "images/entity/806.0.0.png",
+  "807.0.0": "images/entity/807.0.0.png",
+  "808.0.0": "images/entity/808.0.0.png",
+  "809.0.0": "images/entity/809.0.0.png",
+  "810.0.0": "images/entity/810.0.0.png",
+  "811.0.0": "images/entity/811.0.0.png",
+  "812.0.0": "images/entity/812.0.0.png",
+  "812.1.0": "images/entity/812.1.0.png",
+  "813.0.0": "images/entity/813.0.0.png",
+  "814.0.0": "images/entity/814.0.0.png",
+  "815.0.0": "images/entity/815.0.0.png",
+  "816.0.0": "images/entity/816.0.0.png",
+  "816.1.0": "images/entity/816.1.0.png",
+  "817.0.0": "images/entity/817.0.0.png",
+  "817.1.0": "images/entity/817.1.0.png",
+  "818.0.0": "images/entity/818.0.0.png",
+  "818.1.0": "images/entity/818.1.0.png",
+  "818.2.0": "images/entity/818.2.0.png",
+  "819.0.0": "images/entity/819.0.0.png",
+  "819.1.0": "images/entity/819.1.0.png",
+  "820.0.0": "images/entity/820.0.0.png",
+  "820.1.0": "images/entity/820.1.0.png",
+  "821.0.0": "images/entity/821.0.0.png",
+  "822.0.0": "images/entity/822.0.0.png",
+  "823.0.0": "images/entity/823.0.0.png",
+  "824.0.0": "images/entity/824.0.0.png",
+  "824.1.0": "images/entity/824.1.0.png",
+  "825.0.0": "images/entity/825.0.0.png",
+  "826.0.0": "images/entity/826.0.0.png",
+  "827.0.0": "images/entity/827.0.0.png",
+  "827.1.0": "images/entity/827.1.0.png",
+  "828.0.0": "images/entity/828.0.0.png",
+  "829.0.0": "images/entity/829.0.0.png",
+  "829.1.0": "images/entity/829.1.0.png",
+  "830.0.0": "images/entity/830.0.0.png",
+  "831.20.0": "images/entity/831.20.0.png",
+  "831.0.0": "images/entity/831.0.0.png",
+  "831.10.0": "images/entity/831.10.0.png",
+  "832.0.0": "images/entity/832.0.0.png",
+  "832.1.0": "images/entity/832.1.0.png",
+  "833.0.0": "images/entity/833.0.0.png",
+  "834.0.0": "images/entity/834.0.0.png",
+  "834.1.0": "images/entity/834.1.0.png",
+  "834.2.0": "images/entity/834.2.0.png",
+  "835.0.0": "images/entity/835.0.0.png",
+  "835.10.0": "images/entity/835.10.0.png",
+  "836.0.0": "images/entity/836.0.0.png",
+  "837.0.0": "images/entity/837.0.0.png",
+  "838.0.0": "images/entity/838.0.0.png",
+  "840.0.0": "images/entity/840.0.0.png",
+  "841.0.0": "images/entity/841.0.0.png",
+  "841.1.0": "images/entity/841.1.0.png",
+  "844.0.0": "images/entity/844.0.0.png",
+  "850.0.0": "images/entity/850.0.0.png",
+  "850.1.0": "images/entity/850.1.0.png",
+  "850.2.0": "images/entity/850.2.0.png",
+  "851.0.0": "images/entity/851.0.0.png",
+  "852.0.0": "images/entity/852.0.0.png",
+  "853.0.0": "images/entity/853.0.0.png",
+  "854.0.0": "images/entity/854.0.0.png",
+  "855.0.0": "images/entity/855.0.0.png",
+  "855.1.0": "images/entity/855.1.0.png",
+  "856.0.0": "images/entity/856.0.0.png",
+  "857.0.0": "images/entity/857.0.0.png",
+  "859.0.0": "images/entity/859.0.0.png",
+  "860.0.0": "images/entity/860.0.0.png",
+  "861.0.0": "images/entity/861.0.0.png",
+  "862.0.0": "images/entity/862.0.0.png",
+  "863.0.0": "images/entity/863.0.0.png",
+  "864.0.0": "images/entity/864.0.0.png",
+  "865.0.0": "images/entity/865.0.0.png",
+  "868.0.0": "images/entity/868.0.0.png",
+  "869.0.0": "images/entity/869.0.0.png",
+  "870.0.0": "images/entity/870.0.0.png",
+  "871.0.0": "images/entity/871.0.0.png",
+  "872.0.0": "images/entity/872.0.0.png",
+  "873.0.0": "images/entity/873.0.0.png",
+  "874.0.0": "images/entity/874.0.0.png",
+  "875.0.0": "images/entity/875.0.0.png",
+  "876.0.0": "images/entity/876.0.0.png",
+  "876.1.0": "images/entity/876.1.0.png",
+  "877.0.0": "images/entity/877.0.0.png",
+  "878.0.0": "images/entity/878.0.0.png",
+  "879.0.0": "images/entity/879.0.0.png",
+  "880.0.0": "images/entity/880.0.0.png",
+  "881.0.0": "images/entity/881.0.0.png",
+  "881.1.0": "images/entity/881.1.0.png",
+  "882.0.0": "images/entity/882.0.0.png",
+  "883.0.0": "images/entity/883.0.0.png",
+  "884.0.0": "images/entity/884.0.0.png",
+  "885.0.0": "images/entity/885.0.0.png",
+  "885.1.0": "images/entity/885.1.0.png",
+  "886.0.0": "images/entity/886.0.0.png",
+  "886.1.0": "images/entity/886.1.0.png",
+  "887.0.0": "images/entity/887.0.0.png",
+  "888.0.0": "images/entity/888.0.0.png",
+  "889.0.0": "images/entity/889.0.0.png",
+  "890.0.0": "images/entity/890.0.0.png",
+  "891.0.0": "images/entity/891.0.0.png",
+  "891.1.0": "images/entity/891.1.0.png",
+  "892.0.0": "images/entity/892.0.0.png",
+  "893.0.0": "images/entity/893.0.0.png",
+  "903.20.0": "images/entity/903.20.0.png",
+  "912.20.0": "images/entity/912.20.0.png",
+  "915.1.0": "images/entity/915.1.0.png",
+  "951.41.0": "images/entity/951.41.0.png",
+  "951.42.0": "images/entity/951.42.0.png",
+  "951.11.0": "images/entity/951.11.0.png",
+  "951.21.0": "images/entity/951.21.0.png"
+ },
+ "transformation_images": {
+  "Guppy": "images/transformation/guppy.gif",
+  "Beelzebub": "images/transformation/beelzebub.gif",
+  "Fun Guy": "images/transformation/fun_guy.png",
+  "Seraphim (Transformation)": "images/transformation/seraphim.gif",
+  "Bob": "images/transformation/bob.png",
+  "Spun": "images/transformation/spun.png",
+  "Yes Mother?": "images/transformation/yes_mother.png",
+  "Conjoined": "images/transformation/conjoined.png",
+  "Leviathan": "images/transformation/leviathan.gif",
+  "Oh Crap": "images/transformation/oh_crap.png",
+  "Bookworm": "images/transformation/bookworm.png",
+  "Adult": "images/transformation/adult.png",
+  "Spider Baby (Transformation)": "images/transformation/spider_baby.png",
+  "Necromancer": "images/transformation/necromancer.png",
+  "Super Bum": "images/transformation/super_bum.png"
+ },
+ "transformations": {
+  "Guppy": "嗝屁猫！",
+  "Beelzebub": "苍蝇套装",
+  "Fun Guy": "蘑菇套装",
+  "Seraphim (Transformation)": "天使套装",
+  "Bob": "鲍勃套装",
+  "Spun": "针套装",
+  "Yes Mother?": "妈妈套装",
+  "Conjoined": "连体套装",
+  "Leviathan": "恶魔套装",
+  "Oh Crap": "大便套装",
+  "Bookworm": "书套装",
+  "Adult": "成人套装",
+  "Spider Baby (Transformation)": "蜘蛛套装",
+  "Stompy": "践踏套装",
+  "Necromancer": "死灵法师套装",
+  "Super Bum": "乞丐套装"
+ },
+ "floors": {
+  "Special Rooms": "特殊房间",
+  "Basement": "地下室",
+  "Cellar": "地窖",
+  "Burning Basement": "燃烧地下室",
+  "Caves": "洞穴",
+  "Catacombs": "墓穴",
+  "Flooded Caves": "淹水洞穴",
+  "Depths": "深牢",
+  "Necropolis": "坟场",
+  "Dank Depths": "阴湿深牢",
+  "Womb": "子宫",
+  "Utero": "血宫",
+  "Scarred Womb": "结痂子宫",
+  "Blue Womb": "？？？（蓝子宫）",
+  "Sheol": "阴间",
+  "Cathedral": "教堂",
+  "Dark Room": "暗室",
+  "Chest": "玩具箱",
+  "Downpour": "下水道",
+  "Dross": "污水井",
+  "Mines": "矿洞",
+  "Ashpit": "灰坑",
+  "Mausoleum": "陵墓",
+  "Gehenna": "炼狱",
+  "Corpse": "尸宫",
+  "Mortis": "Mortis（暂译）",
+  "Home": "家",
+  "Special Rooms [Greed]": "特殊房间（贪婪）",
+  "Basement [Greed]": "地下室（贪婪）",
+  "Caves [Greed]": "洞穴（贪婪）",
+  "Depths [Greed]": "深牢（贪婪）",
+  "Womb [Greed]": "子宫（贪婪）",
+  "Sheol [Greed]": "阴间（贪婪）",
+  "The Shop [Greed]": "商店（贪婪）",
+  "Ultra Greed [Greed]": "究极贪婪（贪婪）"
+ },
+ "room_types": {
+  "Null Room": "空房间",
+  "Normal Room": "普通房间",
+  "Grave Room": "墓室",
+  "Home Room": "家房间",
+  "Shop": "商店",
+  "Error Room": "错误房",
+  "Treasure Room": "宝箱房",
+  "Boss Room": "头目房",
+  "Mini-Boss Room": "小头目房",
+  "Secret Room": "隐藏房",
+  "Super Secret Room": "超级隐藏房",
+  "Arcade": "赌博房",
+  "Curse Room": "诅咒房",
+  "Challenge Room": "挑战房",
+  "Library": "图书馆",
+  "Sacrifice Room": "献祭房",
+  "Devil Room": "恶魔房",
+  "Angel Room": "天使房",
+  "Crawlspace": "夹层",
+  "Boss Rush Room": "头目车轮战房",
+  "Isaac's Room": "以撒的房间",
+  "Barren Room": "荒芜房间",
+  "Chest Room": "箱子房",
+  "Dice Room": "骰子房",
+  "Black Market": "黑市",
+  "Greed Mode Descent": "贪婪模式下降层",
+  "Planetarium": "星象房",
+  "Teleporter": "传送器",
+  "Teleporter Exit": "传送器出口",
+  "Secret Exit": "秘密出口",
+  "Blue Room": "蓝色房间",
+  "Ultra Secret Room": "究极隐藏房",
+  "Silver Treasure Room": "银宝箱房",
+  "Devil Treasure Room": "恶魔宝箱房",
+  "Secret Shop": "地下商店",
+  "Boss Challenge Room": "头目挑战房",
+  "Vault": "宝库",
+  "Bedroom": "卧室",
+  "Crawl Space": "夹层",
+  "Boss Rush": "头目车轮战房",
+  "normal": "标准房间",
+  "closet": "纵向贮藏室",
+  "tall": "两倍高",
+  "tall tight": "竖长走廊",
+  "wide": "两倍宽",
+  "wide tight": "横长走廊",
+  "large": "大房间",
+  "L1": "L型房间",
+  "L2": "L型房间",
+  "L3": "L型房间",
+  "L4": "L型房间"
+ },
+ "room_guides": {
+  "Achievements": {
+   "title_zh": "成就",
+   "summary_zh": "完成挑战、通关标记、隐藏目标或解锁条件后获得的游戏内成就；Steam 成就与游戏秘密基本一一对应。"
+  },
+  "Angel Room": {
+   "title_zh": "天使房",
+   "summary_zh": "恶魔房的圣洁对应房间，通常提供免费道具；拿取一个后其余道具会消失。"
+  },
+  "Arcade": {
+   "title_zh": "赌博房",
+   "summary_zh": "偶数层且离开上一层时持有至少 5 枚硬币才可能出现，需要 1 枚硬币开门。"
+  },
+  "Bedroom": {
+   "title_zh": "卧室",
+   "summary_zh": "稀有房间，通常需要睡袋等道具生成，睡觉可恢复红心。"
+  },
+  "Black Market": {
+   "title_zh": "黑市",
+   "summary_zh": "隐藏商店，出售道具、掉落物，有时可用生命或钥匙交易。"
+  },
+  "Boss Room": {
+   "title_zh": "头目房",
+   "summary_zh": "每层尽头的主要头目房间，击败头目后会出现通往下一层的活板门。"
+  },
+  "Boss Rush": {
+   "title_zh": "头目车轮战",
+   "summary_zh": "在妈妈头目战后的房间中，20 分钟内进入可挑战连续头目波次。"
+  },
+  "Challenge Room": {
+   "title_zh": "挑战房",
+   "summary_zh": "进入后门会关闭，必须清空房间内所有敌人才能离开并获得奖励。"
+  },
+  "Challenges": {
+   "title_zh": "挑战模式",
+   "summary_zh": "带有预设角色、道具或特殊规则的特殊游戏模式，完成后解锁对应奖励。"
+  },
+  "Closet": {
+   "title_zh": "贮藏室",
+   "summary_zh": "稀有的小型死胡同布局，常由特定道具或地形组合生成。"
+  },
+  "Crawl Space": {
+   "title_zh": "夹层",
+   "summary_zh": "位于楼层地图之外的狭小空间，通常通过破坏特定墙壁进入。"
+  },
+  "Curse Room": {
+   "title_zh": "诅咒房",
+   "summary_zh": "进入会损失半颗心，内部可能有道具、掉落物或通往恶魔房的通道。"
+  },
+  "Devil Room": {
+   "title_zh": "恶魔房",
+   "summary_zh": "用红心容器交换强力道具的房间；交易会降低之后天使房的出现概率。"
+  },
+  "Dice Room": {
+   "title_zh": "骰子房",
+   "summary_zh": "提供一次性骰子效果，可重 roll 道具、掉落物或房间内容。"
+  },
+  "Grave Room": {
+   "title_zh": "墓室",
+   "summary_zh": "特殊房间类型，通常与墓地/陵墓主题楼层相关。"
+  },
+  "I AM ERROR": {
+   "title_zh": "错误房",
+   "summary_zh": "错误房／I AM ERROR，连接地图之外的房间，可能包含商店或特殊道具。"
+  },
+  "Item Pool": {
+   "title_zh": "道具池",
+   "summary_zh": "决定不同房间、商店和乞丐生成哪些道具的权重表。"
+  },
+  "Library": {
+   "title_zh": "图书馆",
+   "summary_zh": "包含书架的房间，可拾取书籍类主动道具；部分楼层有图书馆。"
+  },
+  "Mini-Boss Room": {
+   "title_zh": "小头目房",
+   "summary_zh": "包含小头目的特殊房间，清理后可能获得道具或掉落物。"
+  },
+  "Planetarium": {
+   "title_zh": "星象房",
+   "summary_zh": "拥有星象道具池的特殊房间，需要特定条件才会生成。"
+  },
+  "Rooms": {
+   "title_zh": "房间",
+   "summary_zh": "楼层由不同类型、大小和布局的房间组成，房间类型决定内容与规则。"
+  },
+  "Sacrifice Room": {
+   "title_zh": "献祭房",
+   "summary_zh": "通过献祭红心获得奖励，连续献祭可触发天使、传送或特殊掉落。"
+  },
+  "Secret Room": {
+   "title_zh": "隐藏房",
+   "summary_zh": "需要通过炸弹、红钥匙等发现的秘密房间，通常包含道具或掉落物。"
+  },
+  "Shop": {
+   "title_zh": "商店",
+   "summary_zh": "用硬币购买道具、掉落物或电池的房间，部分商品需要钥匙解锁。"
+  },
+  "Transformations": {
+   "title_zh": "套装 / 变形",
+   "summary_zh": "收集指定组合的道具后自动获得的变身效果，提供额外能力。"
+  },
+  "Treasure Room": {
+   "title_zh": "宝箱房",
+   "summary_zh": "每层通常出现的道具房，从第二层开始需要钥匙开门。"
+  },
+  "Vault": {
+   "title_zh": "宝库",
+   "summary_zh": "需要两把钥匙打开的特殊房间，内部通常有大量硬币。"
+  }
+ }
+}

@@ -33,6 +33,9 @@ isaac-repentance/
 │
 ├── wiki/rooms/               ← 房间机制说明纯文本（27 篇）
 ├── raw/                      ← 原始数据（EID Lua、Cargo JSON、游戏 XML，可忽略）
+├── images/                   ← 本地图标（道具 / 饰品 / 卡牌 / 成就 / 角色 / 怪物 / 楼层 / 套装）
+├── i18n/                     ← 中文覆盖层 zh.json 与来源 / 许可说明
+├── viewer.html               ← 单文件、可离线打开的双语全资料查看器
 ├── build.py                  ← 生成脚本
 └── README.md
 ```
@@ -118,13 +121,14 @@ isaac-repentance/
 |---|---|---|
 | [wofsauge/External-Item-Descriptions](https://github.com/wofsauge/External-Item-Descriptions) | 名称、效果描述（中英文） | 仓库未附 LICENSE；代码公开但**没有明确开源许可**，默认保留版权 |
 | [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg) | 品质、标签、解锁、道具池、成就、挑战、角色、实体、房间机制 | CC BY-SA 4.0 |
+| [以撒的结合中文维基（灰机 Wiki）](https://isaac.huijiwiki.com/) | 中文成就 / 怪物 / 角色 / 楼层 / 套装译名，以及部分角色、怪物、成就、楼层图标 | **CC BY-NC-SA 3.0**（非商业使用；转载需署名并以相同方式共享） |
 | [wofsauge/Basement-Renovator](https://github.com/wofsauge/Basement-Renovator) | 房间类型、楼层定义（游戏 XML） | [LICENSE.md](https://github.com/wofsauge/Basement-Renovator/blob/main/LICENSE.md) 写明 All Rights Reserved |
 | [bindingofisaacrebirth.wiki.gg](https://bindingofisaacrebirth.wiki.gg) `Special:FilePath` | 道具 / 饰品 / 卡牌等图标 | Wiki 图片；游戏素材版权归 Nicalis / Edmund McMillen，具体图片许可以文件页为准 |
 
-- 中文名称与描述来自 EID 模组的 `zh_cn` 语言包。
+- 道具 / 饰品 / 卡牌 / 药丸的中文名称与效果主要来自 EID 模组的 `zh_cn` 语言包；成就、怪物、角色、楼层、套装等中文覆盖层来自灰机 Wiki（见 `i18n/README.md`）。
 - 「引入版本」`added_in` 由 wiki 页面分类（`Category:Added in X`）判定。
-- 保留上游数据的版权声明；对外再分发时请注明出处与相应许可。
-- **这不是一个统一开源许可的数据集**：wiki 文本是 CC BY-SA 4.0，EID 与 Basement Renovator 并没有明确开源授权。若要公开再分发，请先确认上游授权；游戏图标/美术属于游戏版权方，不属于开源素材。本项目仅作非官方粉丝图鉴使用。
+- 保留上游数据的版权声明；对外再分发时请注明出处与相应许可。灰机 Wiki 的中文文本为 **CC BY-NC-SA 3.0**，不能用于商业用途。
+- **这不是一个统一开源许可的数据集**：wiki 文本是 CC BY-SA 4.0 / CC BY-NC-SA 3.0，EID 与 Basement Renovator 并没有明确开源授权。若要公开再分发，请先确认上游授权；游戏图标/美术属于游戏版权方，不属于开源素材。本项目仅作非官方粉丝图鉴使用。
 
 ---
 
@@ -155,7 +159,24 @@ python3 build.py
 
 ## 七、图鉴 App（网页版 / PWA）
 
-`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端、无 AI 模型。搜索栏和分类栏吸顶，列表按 40 条/页分页，只显示图标，类型用边框颜色区分，完整信息在详情页查看。
+`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端、无 AI 模型。搜索栏和分类栏吸顶，结果一次全部显示、不再分页；桌面端图标保持原大小，手机端缩小到约四分之一面积。卡片只显示图标，类型用边框颜色区分；道具图标右上角显示品质等级。「全部」只混合道具 / 饰品 / 卡牌，药丸在独立分类中显示为文字卡片。
+
+### 全资料查看器 `viewer.html`
+
+根目录的 `viewer.html` 是一个**单文件、可离线打开**的全资料查看器，包含 13 个分类：道具、饰品、卡牌、药丸、道具池、角色、套装、成就、挑战、怪物、楼层、房间类型、房间机制。
+
+- 中 / EN 双语切换，语言选择保存在 `localStorage`；英文原文始终保留，中文缺失显示 **“中文待补”**。
+- 点击卡片展开字段，支持搜索中文 / 英文 / 描述 / ID。
+- 道具图标右上角显示品质等级；角色、怪物、成就、楼层、套装使用本地图片，缺失时显示分类 SVG 占位图。
+- 当前封面图覆盖：道具 716/719、饰品 188/188、卡牌 96/97、成就 641/641、角色 40/40 条、怪物 568/583、楼层 30/35、套装 15/16；道具池、挑战、房间类型、房间机制使用分类 SVG 占位图。药丸没有固定外观，查看器只显示通用占位图，主应用使用文字卡片。
+- 生成方式：
+
+```bash
+.venv/bin/python build_i18n.py   # 生成 i18n/zh.json
+.venv/bin/python make_viewer.py  # 生成 viewer.html
+```
+
+图片覆盖情况、中文来源与许可见 [`i18n/README.md`](i18n/README.md)。
 
 ### 本地运行
 
@@ -219,7 +240,7 @@ git push -u origin main
 
 | 后端 | 状态 | 说明 |
 |---|---|---|
-| ① 无模型·像素模板 | 默认可用 | 24×24 彩色模板 + alpha 掩码（腐蚀 1px）；从原图高分辨率裁切 + 自动前景框 + 多圈裁切 + 5 旋转 × 9 平移，约 400 候选；清晰照片/截图 Top1 稳定，桌面单次约 0.3–0.6s |
+| ① 无模型·像素模板 | 默认可用 | 24×24 彩色模板 + alpha 掩码（腐蚀 1px）；从原图高分辨率裁切 + 自动前景框 + 中心裁切 + 多圈裁切 + 5 旋转 × 9 平移，并对偏色照片额外生成按通道标准化的副本，最多约 1200 候选；清晰照片/截图 Top1 稳定，桌面单次约 0.4–0.9s（难例约 1.5s） |
 | ② 本地小模型 | 加载槽 | 可加载与 `recognition.js` 同格式的 JSON |
 | ③ 用户自定义模型 | 加载槽 | 同上，用于替换 / 扩充图标库 |
 
@@ -234,6 +255,8 @@ git push -u origin main
 `v` / `m` 由 `app/build_recognition.py` 生成。
 
 > 识别覆盖道具 / 饰品 / 卡牌共 1000 个图标模板；药丸没有固定外观，按设计不参与识别。一次只框一个图标本体，留一点边；框大一点/歪一点/边缘被裁到会自动多圈兜底；「整图特写」只适合图标占满画面，游戏截图请框选。严重透视、反光、遮挡的实拍未做保证。结果上方会提示“候选很接近/匹配度偏低”，此时请从候选里点开确认。
+>
+> 开源模型评估：MediaPipe/MobileNetV3、DINOv2（Apache 2.0）等通用方案在实拍小图标上不如现有模板稳定；Isaac 专用 YOLO 权重没有明确许可证，暂不打包。若需要深度学习识别，需要更多实拍训练数据。
 
 ### 重新构建前端数据
 
