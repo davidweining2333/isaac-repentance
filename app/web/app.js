@@ -276,6 +276,7 @@
     return out;
   }
   MODEL = decodeModel(R);
+  const BUILTIN_MODEL_BY_KEY = new Map(MODEL.map(e => [e.kind + ":" + e.id, e]));
   const REC_BY_KEY = new Map(R.map(e => [e.kind + ":" + e.id, e]));
   const KIND_TO_GUIDE = { item: "items", trinket: "trinkets", card: "cards" };
   let lastResults = [];
@@ -307,9 +308,249 @@
     return c;
   }
 
-  /* 从选框里找“最像物体”的区域。手机上框大了、道具偏在一边时，
-     只靠等比例缩小很难对齐；先估一个前景框，再围绕它多尺度裁切。 */
-  function autoBox(src) {
+  /* ---------- 前景/背景分离 ----------
+     手机截图和照片里，道具通常只占选框的一小块，周围是地板、墙、光晕或 UI。
+     下面这套做法不依赖模型：先估计选框边缘的背景色，再把与背景相连的低对比像素
+     泛洪掉，只留下中央的前景块；最后用前景包围盒裁切，避免背景进入模板/向量。
+     对纯白底的图标（32×32 PNG）同样适用：边缘是白色，前景就是彩色像素。 */
+  const FG_CACHE = new WeakMap();
+
+  function medianOf(a) {
+    if (!a.length) return 0;
+    a.sort((x, y) => x - y);
+    return a[a.length >> 1];
+  }
+
+  function otsuThreshold(hist, total) {
+    let sum = 0;
+    for (let i = 0; i < hist.length; i++) sum += i * hist[i];
+    let sumB = 0, wB = 0, best = 0, bestVar = -1;
+    for (let i = 0; i < hist.length; i++) {
+      wB += hist[i];
+      if (!wB) continue;
+      const wF = total - wB;
+      if (!wF) break;
+      sumB += i * hist[i];
+      const mB = sumB / wB, mF = (sum - sumB) / wF;
+      const v = wB * wF * (mB - mF) * (mB - mF);
+      if (v > bestVar) { bestVar = v; best = i; }
+    }
+    return best;
+  }
+
+  function openMask(mask, N) {
+    const e = new Uint8Array(N * N);
+    for (let y = 1; y < N - 1; y++) for (let x = 1; x < N - 1; x++) {
+      const p = y * N + x;
+      if (mask[p] && mask[p - 1] && mask[p + 1] && mask[p - N] && mask[p + N] &&
+          mask[p - N - 1] && mask[p - N + 1] && mask[p + N - 1] && mask[p + N + 1]) e[p] = 1;
+    }
+    const d = new Uint8Array(N * N);
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      const p = y * N + x;
+      if (e[p]) { d[p] = 1; continue; }
+      if (x > 0 && e[p - 1]) d[p] = 1;
+      else if (x < N - 1 && e[p + 1]) d[p] = 1;
+      else if (y > 0 && e[p - N]) d[p] = 1;
+      else if (y < N - 1 && e[p + N]) d[p] = 1;
+      else if (x > 0 && y > 0 && e[p - N - 1]) d[p] = 1;
+      else if (x < N - 1 && y > 0 && e[p - N + 1]) d[p] = 1;
+      else if (x > 0 && y < N - 1 && e[p + N - 1]) d[p] = 1;
+      else if (x < N - 1 && y < N - 1 && e[p + N + 1]) d[p] = 1;
+    }
+    return d;
+  }
+
+  function dilateMask(mask, N) {
+    const out = new Uint8Array(N * N);
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      const p = y * N + x;
+      if (mask[p]) { out[p] = 1; continue; }
+      if (x > 0 && mask[p - 1]) out[p] = 1;
+      else if (x < N - 1 && mask[p + 1]) out[p] = 1;
+      else if (y > 0 && mask[p - N]) out[p] = 1;
+      else if (y < N - 1 && mask[p + N]) out[p] = 1;
+      else if (x > 0 && y > 0 && mask[p - N - 1]) out[p] = 1;
+      else if (x < N - 1 && y > 0 && mask[p - N + 1]) out[p] = 1;
+      else if (x > 0 && y < N - 1 && mask[p + N - 1]) out[p] = 1;
+      else if (x < N - 1 && y < N - 1 && mask[p + N + 1]) out[p] = 1;
+    }
+    return out;
+  }
+
+  function fillMaskHoles(mask, N) {
+    const bg = new Uint8Array(N * N);
+    const q = new Int32Array(N * N);
+    let qh = 0, qt = 0;
+    const push = p => { if (!mask[p] && !bg[p]) { bg[p] = 1; q[qt++] = p; } };
+    for (let x = 0; x < N; x++) { push(x); push((N - 1) * N + x); }
+    for (let y = 1; y < N - 1; y++) { push(y * N); push(y * N + N - 1); }
+    while (qh < qt) {
+      const p = q[qh++], x = p % N, y = (p / N) | 0;
+      if (x > 0) push(p - 1);
+      if (x < N - 1) push(p + 1);
+      if (y > 0) push(p - N);
+      if (y < N - 1) push(p + N);
+    }
+    const out = new Uint8Array(mask);
+    for (let p = 0; p < N * N; p++) if (!mask[p] && !bg[p]) out[p] = 1;
+    return out;
+  }
+
+  function segmentForeground(src, N = 96) {
+    const c = document.createElement("canvas"); c.width = N; c.height = N;
+    const cc = c.getContext("2d", { willReadFrequently: true });
+    cc.fillStyle = "#fff"; cc.fillRect(0, 0, N, N);
+    cc.drawImage(src, 0, 0, N, N);
+    const px = cc.getImageData(0, 0, N, N).data;
+
+    /* 选框最外圈通常是背景。取中位数和 MAD，作为背景色模型。 */
+    const bw = Math.max(3, N >> 4);
+    const rs = [], gs = [], bs = [];
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      if (x >= bw && x < N - bw && y >= bw && y < N - bw) continue;
+      const i = (y * N + x) * 4;
+      rs.push(px[i]); gs.push(px[i + 1]); bs.push(px[i + 2]);
+    }
+    if (rs.length < 16) return null;
+    const medR = medianOf(rs), medG = medianOf(gs), medB = medianOf(bs);
+    const ar = rs.map(v => Math.abs(v - medR)), ag = gs.map(v => Math.abs(v - medG)), ab = bs.map(v => Math.abs(v - medB));
+    const madR = medianOf(ar), madG = medianOf(ag), madB = medianOf(ab);
+    const sr = Math.max(8, madR * 3), sg = Math.max(8, madG * 3), sb = Math.max(8, madB * 3);
+
+    const score = new Float32Array(N * N);
+    const hist = new Uint32Array(128);
+    for (let p = 0; p < N * N; p++) {
+      const i = p * 4;
+      const dr = (px[i] - medR) / sr, dg = (px[i + 1] - medG) / sg, db = (px[i + 2] - medB) / sb;
+      const s = Math.sqrt(dr * dr + dg * dg + db * db);
+      score[p] = s;
+      hist[Math.min(127, Math.round(s * 16))]++;
+    }
+    const thBin = otsuThreshold(hist, N * N);
+    const threshold = Math.max(0.42, (thBin + 0.5) / 16);
+
+    /* 只把“和边缘背景连通”的低对比区域当作背景。这样图标内部即使有
+       和背景相近的颜色，只要被图标轮廓包住，就不会被误删。 */
+    const cand = new Uint8Array(N * N);
+    for (let p = 0; p < N * N; p++) cand[p] = score[p] < threshold * 1.08 ? 1 : 0;
+    const bg = new Uint8Array(N * N);
+    const q = new Int32Array(N * N);
+    let qh = 0, qt = 0;
+    const push = p => { if (cand[p] && !bg[p]) { bg[p] = 1; q[qt++] = p; } };
+    for (let x = 0; x < N; x++) { push(x); push((N - 1) * N + x); }
+    for (let y = 1; y < N - 1; y++) { push(y * N); push(y * N + N - 1); }
+    while (qh < qt) {
+      const p = q[qh++], x = p % N, y = (p / N) | 0;
+      if (x > 0) push(p - 1);
+      if (x < N - 1) push(p + 1);
+      if (y > 0) push(p - N);
+      if (y < N - 1) push(p + N);
+    }
+    let fg = new Uint8Array(N * N);
+    let fgCount = 0;
+    for (let p = 0; p < N * N; p++) if (!bg[p]) { fg[p] = 1; fgCount++; }
+    const frac = fgCount / (N * N);
+    if (frac < 0.006 || frac > 0.92) return null;
+
+    fg = openMask(fg, N);
+    if (!fg.some(v => v)) return null;
+
+    /* 8 连通块：保留靠近中心的主块，以及紧挨着它的碎块（火焰、触须、光点等）。 */
+    const labels = new Int32Array(N * N).fill(-1);
+    const comps = [];
+    for (let start = 0; start < N * N; start++) {
+      if (!fg[start] || labels[start] >= 0) continue;
+      const ci = comps.length;
+      let head = 0, tail = 0, area = 0, sx = 0, sy = 0;
+      let x0 = N, y0 = N, x1 = -1, y1 = -1, touch = 0;
+      q[tail++] = start; labels[start] = ci;
+      while (head < tail) {
+        const p = q[head++], x = p % N, y = (p / N) | 0;
+        area++; sx += x; sy += y;
+        if (x < x0) x0 = x; if (x > x1) x1 = x;
+        if (y < y0) y0 = y; if (y > y1) y1 = y;
+        if (x === 0 || x === N - 1 || y === 0 || y === N - 1) touch = 1;
+        for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+          if (!dx && !dy) continue;
+          const nx = x + dx, ny = y + dy;
+          if (nx < 0 || nx >= N || ny < 0 || ny >= N) continue;
+          const np = ny * N + nx;
+          if (fg[np] && labels[np] < 0) { labels[np] = ci; q[tail++] = np; }
+        }
+      }
+      const cx = sx / area, cy = sy / area;
+      const dx = (cx - (N - 1) / 2) / (N / 2), dy = (cy - (N - 1) / 2) / (N / 2);
+      const center = Math.max(0.18, 1.35 - 0.65 * Math.hypot(dx, dy));
+      comps.push({ i: ci, area, x0, y0, x1, y1, cx, cy, score: area * center * (touch && area < N * N * 0.01 ? 0.5 : 1) });
+    }
+    if (!comps.length) return null;
+    comps.sort((a, b) => b.score - a.score);
+    const main = comps[0];
+    if (main.area < Math.max(8, N * N * 0.0015)) return null;
+
+    const keep = new Uint8Array(N * N);
+    const take = new Uint8Array(comps.length);
+    take[main.i] = 1;
+    const mw = main.x1 - main.x0 + 1, mh = main.y1 - main.y0 + 1;
+    const ex = Math.max(6, mw * 0.55), ey = Math.max(6, mh * 0.55);
+    for (const c of comps) {
+      if (c === main) continue;
+      if (c.area < Math.max(4, main.area * 0.006)) continue;
+      if (c.cx < main.cx - mw * 0.75 - ex || c.cx > main.cx + mw * 0.75 + ex) continue;
+      if (c.cy < main.cy - mh * 0.75 - ey || c.cy > main.cy + mh * 0.75 + ey) continue;
+      if (c.x1 < main.x0 - ex || c.x0 > main.x1 + ex) continue;
+      if (c.y1 < main.y0 - ey || c.y0 > main.y1 + ey) continue;
+      take[c.i] = 1;
+    }
+    for (let p = 0; p < N * N; p++) if (labels[p] >= 0 && take[labels[p]]) keep[p] = 1;
+    const filled = fillMaskHoles(keep, N);
+    const mask = dilateMask(filled, N);
+
+    let x0 = N, y0 = N, x1 = -1, y1 = -1, count = 0;
+    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+      if (!mask[y * N + x]) continue;
+      count++;
+      if (x < x0) x0 = x; if (x > x1) x1 = x;
+      if (y < y0) y0 = y; if (y > y1) y1 = y;
+    }
+    if (count < 12) return null;
+    const w = x1 - x0 + 1, h = y1 - y0 + 1;
+    if (w < 4 || h < 4 || w * h > N * N * 0.94) return null;
+    const pad = Math.max(1, Math.round(Math.min(w, h) * 0.04));
+    x0 = Math.max(0, x0 - pad); y0 = Math.max(0, y0 - pad);
+    x1 = Math.min(N - 1, x1 + pad); y1 = Math.min(N - 1, y1 + pad);
+
+    const maskCanvas = document.createElement("canvas");
+    maskCanvas.width = N; maskCanvas.height = N;
+    const mctx = maskCanvas.getContext("2d", { willReadFrequently: true });
+    const mi = mctx.createImageData(N, N);
+    for (let p = 0; p < N * N; p++) {
+      if (!mask[p]) continue;
+      const i = p * 4;
+      mi.data[i] = 255; mi.data[i + 1] = 255; mi.data[i + 2] = 255; mi.data[i + 3] = 255;
+    }
+    mctx.putImageData(mi, 0, 0);
+
+    return {
+      N, mask, maskCanvas,
+      bbox: {
+        x: x0 / N * src.width, y: y0 / N * src.height,
+        w: (x1 - x0 + 1) / N * src.width,
+        h: (y1 - y0 + 1) / N * src.height
+      }
+    };
+  }
+
+  function foregroundFor(src) {
+    if (FG_CACHE.has(src)) return FG_CACHE.get(src);
+    const fg = segmentForeground(src);
+    FG_CACHE.set(src, fg);
+    return fg;
+  }
+
+  /* 旧版纯启发式前景框，只在分离失败时兜底。 */
+  function autoBoxHeuristic(src) {
     const N = 80;
     const c = document.createElement("canvas"); c.width = N; c.height = N;
     const cc = c.getContext("2d", { willReadFrequently: true });
@@ -363,6 +604,11 @@
     return { x: bx, y: by, w: bw, h: bh };
   }
 
+  function autoBox(src) {
+    const fg = foregroundFor(src);
+    return fg ? fg.bbox : autoBoxHeuristic(src);
+  }
+
   /* 手机照片常见偏色/白平衡漂移：额外生成一份按通道标准化的副本，
      与原图候选一起匹配，避免整张图偏黄/偏蓝时模板直接失效。 */
   function normalizedSource(src) {
@@ -405,10 +651,31 @@
     /* 自动前景框：框大了、道具只占一小块时用 */
     const auto = autoBox(src);
     if (auto) {
+      /* 前景框通常只包住本体，向外再放一点，给深色描边、火焰/触须留位置 */
+      for (const grow of [0.10, 0.24, 0.42]) {
+        const gx = auto.w * grow / 2, gy = auto.h * grow / 2;
+        const x0 = Math.max(0, auto.x - gx), y0 = Math.max(0, auto.y - gy);
+        const x1 = Math.min(src.width, auto.x + auto.w + gx);
+        const y1 = Math.min(src.height, auto.y + auto.h + gy);
+        bases.push({ x: x0, y: y0, w: x1 - x0, h: y1 - y0 });
+      }
       for (const margin of [0, 0.12, 0.25, 0.40, 0.52]) {
         bases.push({
           x: auto.x + auto.w * margin / 2, y: auto.y + auto.h * margin / 2,
           w: auto.w * (1 - margin), h: auto.h * (1 - margin)
+        });
+      }
+    }
+    /* 旧版启发式框仍然有价值：当图标几乎占满画面、边缘背景很窄时，
+       泛洪分割可能把一圈边框算进来，而旧框反而更贴合。两套框都作为候选，
+       模板距离会自己选更合适的那个，不需要二选一。 */
+    const oldAuto = autoBoxHeuristic(src);
+    if (oldAuto && (!auto || Math.abs(oldAuto.x - auto.x) > 1 || Math.abs(oldAuto.y - auto.y) > 1 ||
+        Math.abs(oldAuto.w - auto.w) > 1 || Math.abs(oldAuto.h - auto.h) > 1)) {
+      for (const margin of [0, 0.12, 0.25, 0.40, 0.52]) {
+        bases.push({
+          x: oldAuto.x + oldAuto.w * margin / 2, y: oldAuto.y + oldAuto.h * margin / 2,
+          w: oldAuto.w * (1 - margin), h: oldAuto.h * (1 - margin)
         });
       }
     }
@@ -477,28 +744,30 @@
     }
   }
 
+  function templateDistance(m, C) {
+    const idx = m.idx, n = idx.length;
+    let bd = Infinity;
+    for (let ci = 0; ci < C.length; ci++) {
+      const cand = C[ci], q = cand.f;
+      let sq = 0, sq2 = 0, dot = 0;
+      for (let i = 0; i < n; i++) {
+        const x = q[idx[i]];
+        sq += x; sq2 += x * x; dot += m.v[i] * x;
+      }
+      const mean = sq / n;
+      const sd = Math.sqrt(Math.max(sq2 / n - mean * mean, 1e-9));
+      const d = m.mvv + 1 - 2 * (dot / n - m.mv * mean) / sd + cand.prior;
+      if (d < bd) bd = d;
+    }
+    return bd;
+  }
+
   function recognizeTemplate(region) {
     if (!MODEL.length) { $("#recCnt").textContent = "模型未加载。"; return; }
     const src = sourceFor(region);
     const C = candidates(src), t0 = performance.now();
     const best = new Float32Array(MODEL.length);
-    for (let k = 0; k < MODEL.length; k++) {
-      const m = MODEL[k], idx = m.idx, n = idx.length;
-      let bd = Infinity;
-      for (let ci = 0; ci < C.length; ci++) {
-        const cand = C[ci], q = cand.f;
-        let sq = 0, sq2 = 0, dot = 0;
-        for (let i = 0; i < n; i++) {
-          const x = q[idx[i]];
-          sq += x; sq2 += x * x; dot += m.v[i] * x;
-        }
-        const mean = sq / n;
-        const sd = Math.sqrt(Math.max(sq2 / n - mean * mean, 1e-9));
-        const d = m.mvv + 1 - 2 * (dot / n - m.mv * mean) / sd + cand.prior;
-        if (d < bd) bd = d;
-      }
-      best[k] = bd;
-    }
+    for (let k = 0; k < MODEL.length; k++) best[k] = templateDistance(MODEL[k], C);
     const order = Array.from(MODEL.keys()).sort((a, b) => best[a] - best[b]).slice(0, 8);
     const ms = Math.round(performance.now() - t0);
     const gap = order.length > 1 ? best[order[1]] - best[order[0]] : 1;
@@ -591,6 +860,63 @@
     return c;
   }
 
+  /* 在 canonicalCanvas 的基础上，把前景以外的背景刷成白色，并返回对齐的
+     前景 mask。DINOv2 / ORB 的模板是在白底图标上生成的；查询图也去掉背景后，
+     颜色、边缘和特征点才不会把地板、墙壁、UI 算进去。 */
+  function canonicalClean(src, size = 256, margin = 0.06) {
+    const c = document.createElement("canvas");
+    c.width = size; c.height = size;
+    const g = c.getContext("2d", { willReadFrequently: true });
+    g.fillStyle = "#fff"; g.fillRect(0, 0, size, size);
+
+    const fg = foregroundFor(src);
+    let box = fg ? fg.bbox : null;
+    let useMask = !!box;
+    if (!box || box.w * box.h > src.width * src.height * 0.92) {
+      useMask = false;
+      const ab = autoBoxHeuristic(src);
+      if (ab && ab.w > 8 && ab.h > 8 && ab.w * ab.h < src.width * src.height * 0.92) {
+        box = ab;
+      } else {
+        const side = Math.min(src.width, src.height) * 0.92;
+        box = { x: (src.width - side) / 2, y: (src.height - side) / 2, w: side, h: side };
+      }
+    }
+
+    const inner = size * (1 - margin * 2);
+    const sc = Math.min(inner / box.w, inner / box.h);
+    const dw = Math.max(1, box.w * sc), dh = Math.max(1, box.h * sc);
+    const dx = (size - dw) / 2, dy = (size - dh) / 2;
+
+    let maskOut = null;
+    if (useMask && fg) {
+      const tmp = document.createElement("canvas");
+      tmp.width = size; tmp.height = size;
+      const tg = tmp.getContext("2d", { willReadFrequently: true });
+      tg.imageSmoothingEnabled = true; tg.imageSmoothingQuality = "high";
+      tg.drawImage(src, box.x, box.y, box.w, box.h, dx, dy, dw, dh);
+
+      const mc = document.createElement("canvas");
+      mc.width = size; mc.height = size;
+      const mg = mc.getContext("2d", { willReadFrequently: true });
+      mg.imageSmoothingEnabled = true; mg.imageSmoothingQuality = "high";
+      const mx = Math.max(0, box.x / src.width * fg.N);
+      const my = Math.max(0, box.y / src.height * fg.N);
+      const mw = Math.min(fg.N - mx, box.w / src.width * fg.N);
+      const mh = Math.min(fg.N - my, box.h / src.height * fg.N);
+      mg.drawImage(fg.maskCanvas, mx, my, mw, mh, dx, dy, dw, dh);
+
+      tg.globalCompositeOperation = "destination-in";
+      tg.drawImage(mc, 0, 0);
+      tg.globalCompositeOperation = "source-over";
+      g.drawImage(tmp, 0, 0);
+      maskOut = mc;
+    } else {
+      g.drawImage(src, box.x, box.y, box.w, box.h, dx, dy, dw, dh);
+    }
+    return { canvas: c, mask: maskOut };
+  }
+
   function recFor(kind, id) {
     return REC_BY_KEY.get(kind + ":" + id) || null;
   }
@@ -656,19 +982,26 @@
     catch (e) { orbState.promise = null; throw e; }
   }
 
-  function orbQuery(cv, canvas) {
+  function orbQuery(cv, canvas, maskCanvas) {
     const rgba = cv.imread(canvas);
     const gray = new cv.Mat();
     cv.cvtColor(rgba, gray, cv.COLOR_RGBA2GRAY);
     const orb = new cv.ORB(150, 1.2, 8, 16, 0, 2, cv.ORB_HARRIS_SCORE, 31, 10);
     const kp = new cv.KeyPointVector();
     const desc = new cv.Mat();
-    const mask = new cv.Mat();
+    let mask = new cv.Mat();
+    let maskRgba = null;
     try {
+      if (maskCanvas) {
+        maskRgba = cv.imread(maskCanvas);
+        mask = new cv.Mat();
+        cv.cvtColor(maskRgba, mask, cv.COLOR_RGBA2GRAY);
+      }
       orb.detectAndCompute(gray, mask, kp, desc);
       const out = desc.rows ? desc.clone() : null;
       return { desc: out, kps: kp.size() };
     } finally {
+      if (maskRgba) maskRgba.delete();
       kp.delete(); desc.delete(); mask.delete(); orb.delete(); gray.delete(); rgba.delete();
     }
   }
@@ -715,10 +1048,11 @@
     const state = orbState;
     if (!state.ready) { $("#recCnt").textContent = "ORB 尚未就绪。"; return; }
     const src = sourceFor(region);
-    const canvas = canonicalCanvas(src, 192, 0.06);
+    const clean = canonicalClean(src, 192, 0.06);
+    const canvas = clean.canvas;
     const t0 = performance.now();
     let q;
-    try { q = orbQuery(state.cv, canvas); }
+    try { q = orbQuery(state.cv, canvas, clean.mask); }
     catch (e) { $("#recCnt").textContent = "ORB 特征提取失败：" + e.message; return; }
     if (!q || !q.desc || q.desc.rows < 6) {
       if (q && q.desc) q.desc.delete();
@@ -731,6 +1065,13 @@
     q.desc.delete();
     const ms = Math.round(performance.now() - t0);
     const ranked = [...votes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+    /* 照片模糊、图标很小的时候 ORB 可能只命中 1–2 个点，这时排序基本是噪声；
+       直接回退到像素模板，避免把错误候选强行标成“最佳”。 */
+    if (!ranked.length || ranked[0][1] < 3) {
+      setEngineStatus(`ORB 匹配点太少（最高 ${ranked.length ? ranked[0][1] : 0} 个），已回退像素模板。`);
+      recognizeTemplate(region);
+      return;
+    }
     const items = [];
     for (const [ti, count] of ranked) {
       const e = state.entries[ti];
@@ -790,15 +1131,21 @@
     return a;
   }
 
-  function embedQueryFeatures(canvas, dino) {
+  function embedQueryFeatures(canvas, dino, maskCanvas) {
     const g = canvas.getContext("2d", { willReadFrequently: true });
     const d = g.getImageData(0, 0, 256, 256).data;
+    let fgMask = null;
+    if (maskCanvas) {
+      const md = maskCanvas.getContext("2d", { willReadFrequently: true }).getImageData(0, 0, 256, 256).data;
+      fgMask = new Uint8Array(256 * 256);
+      for (let p = 0; p < fgMask.length; p++) fgMask[p] = md[p * 4 + 3] > 96 ? 1 : 0;
+    }
     const hist = new Float32Array(512);
     const gray = new Float32Array(256 * 256);
     for (let i = 0, p = 0; i < d.length; i += 4, p++) {
       const r = d[i], gg = d[i + 1], b = d[i + 2];
       gray[p] = (r * .299 + gg * .587 + b * .114) / 255;
-      if (Math.min(r, gg, b) < 245) hist[(r >> 5) * 64 + (gg >> 5) * 8 + (b >> 5)]++;
+      if ((!fgMask || fgMask[p]) && Math.min(r, gg, b) < 245) hist[(r >> 5) * 64 + (gg >> 5) * 8 + (b >> 5)]++;
     }
     for (let i = 0; i < 512; i++) hist[i] = Math.sqrt(hist[i]);
     normalizeFloat(hist);
@@ -832,7 +1179,8 @@
     if (!state.ready) { $("#recCnt").textContent = "端侧向量模型尚未就绪。"; return; }
     const t0 = performance.now();
     const src = sourceFor(region);
-    const canvas = canonicalCanvas(src, 256, 0.06);
+    const clean = canonicalClean(src, 256, 0.06);
+    const canvas = clean.canvas;
     let out;
     try {
       /* Transformers.js v2.17 的 RawImage 没有 fromCanvas，直接用 ImageData 构造。 */
@@ -847,7 +1195,7 @@
     const dims = out.dims || [];
     const dino = dims.length === 3 ? out.data.slice(0, dims[2]) : out.data.slice(0, 384);
     if (out && typeof out.dispose === "function") out.dispose();
-    const feats = embedQueryFeatures(canvas, dino);
+    const feats = embedQueryFeatures(canvas, dino, clean.mask);
     const qn = feats.map(a => { let s = 0; for (let i = 0; i < a.length; i++) s += a[i] * a[i]; return Math.sqrt(s) || 1; });
     const blocks = state.meta.blocks, weights = state.meta.weights;
     const scores = [];
@@ -865,19 +1213,33 @@
       scores.push([ei, score]);
     }
     scores.sort((a, b) => b[1] - a[1]);
-    const ms = Math.round(performance.now() - t0);
-    const items = [];
     const maxScore = weights.reduce((a, b) => a + b, 0) || 1;
-    for (const [ei, score] of scores.slice(0, 8)) {
+
+    /* DINOv2 负责整体语义，像素模板负责局部颜色/轮廓复核。
+       向量模型对“粉色肉块”这类形状容易混淆，只靠 CLS 会输给形似的错误图标；
+       对前 24 个候选补算一次模板距离，通常几十毫秒，能把明显的错误压下去。 */
+    const C = candidates(src);
+    const ranked = [];
+    for (const [ei, score] of scores.slice(0, 24)) {
       const e = state.entries[ei];
       const rec = recFor(e.k, e.id);
       if (!rec) continue;
-      const pct = Math.max(0, Math.min(99, Math.round(score / maxScore * 100)));
-      items.push({ ...rec, _badge: items.length === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "", _scoreText: `混合相似度 ${score.toFixed(2)} · 约 ${pct}%` });
+      const m = BUILTIN_MODEL_BY_KEY.get(e.k + ":" + e.id);
+      const td = m ? templateDistance(m, C) : 1.5;
+      const tpl = Math.max(0, Math.min(1, 1 - td / 1.5));
+      const emb = score / maxScore;
+      ranked.push({ rec, score, tpl, combined: emb * 0.70 + tpl * 0.30 });
     }
-    const gap = scores.length > 1 ? scores[0][1] - scores[1][1] : 1;
-    const note = gap < 0.04 ? " · 候选很接近，请点开确认" : "";
-    renderRecResults(items, `识别结果（DINOv2 + 颜色/边缘 · ${ms}ms）${note} · 点击查看详情`);
+    ranked.sort((a, b) => b.combined - a.combined);
+    const ms = Math.round(performance.now() - t0);
+    const items = ranked.slice(0, 8).map((x, rank) => ({
+      ...x.rec,
+      _badge: rank === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "",
+      _scoreText: `综合 ${Math.round(x.combined * 100)}% · DINOv2 ${x.score.toFixed(2)} · 模板 ${Math.round(x.tpl * 100)}%`
+    }));
+    const gap = ranked.length > 1 ? ranked[0].combined - ranked[1].combined : 1;
+    const note = gap < 0.025 ? " · 候选很接近，请点开确认" : "";
+    renderRecResults(items, `识别结果（DINOv2 + 像素模板复核 · ${ms}ms）${note} · 点击查看详情`);
   }
 
   async function prepareEngine(name) {

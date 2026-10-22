@@ -205,57 +205,64 @@ git remote add origin https://github.com/<用户名>/<仓库名>.git
 git push -u origin main
 ```
 
-### 部署（PWA）
+### 部署（Cloudflare Workers 静态资源，推荐）
 
-> 部署**整个仓库根目录**，不是只部署 `app/web/`。`images/`、`manifest.json`、`sw.js` 都在根目录，缺一不可。
+> 部署**整个仓库根目录**，不是只部署 `app/web/`。`images/`、`manifest.json`、`sw.js`、`_headers` 都在根目录，缺一不可。
 
-**Vercel（推荐，私有仓库也可）**
-1. Vercel → Add New → Project → 导入刚推的仓库
-2. Framework Preset 选 `Other`
-3. Root Directory `./`；Build Command 留空；Output Directory 填 `.`
-4. Deploy，访问 `https://<项目名>.vercel.app/`
+仓库根目录已包含 `wrangler.jsonc`，其中 `assets.directory: "."` 会把整个仓库作为静态资源上传；Worker 名称固定为 `isaac-repentance`。`.assetsignore` 会排除 `.git`、`.venv`、`raw/`、`.playwright-mcp/`、`.wrangler/` 等本地文件。
 
-**GitHub Pages（仓库需公开）**
-1. 仓库 Settings → Pages → Source 选 `Deploy from a branch`
-2. 分支选 `main`（或当前的 `master`）、目录 `/ (root)` → Save
-3. 等 1–2 分钟，访问 `https://<用户名>.github.io/<仓库名>/`
-4. 根目录已有 `.nojekyll`，无需额外配置
+**Dashboard 部署**
+1. Cloudflare Dashboard → Workers & Pages → Create application → Workers → Create Worker
+2. 名称填 `isaac-repentance`，连接 GitHub 仓库（或先用 `npx wrangler deploy` 上传）
+3. 构建命令留空，部署命令 `npx wrangler deploy`
+4. 部署完成后，在 Worker → Settings → Domains & Routes 绑定自定义域名（域名需托管在 Cloudflare）
+5. 以后 `git push` 后重新部署即可；绑定自定义域名后访问速度通常比 `*.workers.dev` 更稳定
 
-**Netlify**
-- 导入仓库，Build Command 留空，Publish directory 填 `.`
+**命令行部署**
+```bash
+cd isaac-repentance
+npx wrangler deploy
+```
+
+**其他静态托管**
+- Vercel / Netlify：Root Directory `./`，Build Command 留空，Output Directory 填 `.`
+- GitHub Pages：Settings → Pages → Deploy from a branch，分支 `main`、目录 `/ (root)`；根目录已有 `.nojekyll`
 
 **部署后自检**
 - 根路径落地页能打开，点「打开图鉴」正常
 - `/manifest.json`、`/sw.js` 都返回 200
-- 桌面浏览器 DevTools → Application：Manifest 显示可安装，Service Worker 为 activated
+- `/app/web/vendor/transformers/ort-wasm.wasm` 返回 200，响应头 `Content-Type: application/wasm`
+- 控制台没有 `no available backend found` / `both async and sync fetching of the wasm failed`
+- 桌面浏览器 DevTools → Application：Manifest 显示可安装，Service Worker 为 activated；缓存里能看到 `isaac-guide-v17`
 - 手机「添加到主屏幕」后开飞行模式：搜索、识别仍可用
 
-> 必须 HTTPS 才能启用 Service Worker / 离线缓存。本地预览用 `python3 -m http.server 8765`。
+> 必须 HTTPS 才能启用 Service Worker / 离线缓存。本地预览用 `python3 -m http.server 8765`。`_headers` 负责 WASM MIME 和 `app.js` / `sw.js` 的缓存头；如果托管平台不支持 `_headers`，至少确保服务器把 `.wasm` 返回为 `application/wasm`。
 
 ### 更新
 
-`git push` 后 Vercel / Pages 会自动重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（当前 `isaac-guide-v16`；下次改成 `v17`），强制老用户换新外壳；替换图标时把 `IMG` 加一；改 ORB 特征库、DINOv2 模型或运行库时把 `ENGINE` 加一（当前 `isaac-engine-v1`），否则老的引擎缓存会继续命中。
+`git push` 后 Cloudflare Worker 会重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（当前 `isaac-guide-v17`），强制老用户换新外壳；替换图标时把 `IMG` 加一；改 ORB 特征库、DINOv2 模型或运行库时把 `ENGINE` 加一（当前 `isaac-engine-v1`），否则老的引擎缓存会继续命中。仅新增 `ort-wasm.wasm` 这类按需加载的缺失文件时不需要清空 `ENGINE`，Service Worker 会自动补下载。
 
 ### 四个识别后端
 
 | 后端 | 首次加载 | 说明 |
 |---|---|---|
-| ① 像素模板 | 0（默认） | 24×24 彩色模板 + alpha 掩码（腐蚀 1px）；原图高分辨率裁切 + 自动前景框 + 中心/多圈裁切 + 5 旋转 × 9 平移，偏色照片再生成按通道标准化副本，最多约 1200 候选；桌面单次约 0.4–0.9s（难例约 1.5s） |
-| ② OpenCV ORB | 约 15MB | OpenCV.js 4.13 + 1000 个图标预计算 ORB 描述子（约 10 万点，192×192，nfeatures=100）；BFMatcher Hamming + ratio test，按模板投票。单次约 0.2s |
-| ③ 端侧 DINOv2 | 约 35–37MB | Transformers.js 2.17 + DINOv2-small int8（Apache 2.0）+ 本地向量库；CLS 384 维 + 颜色 512 + Sobel 边缘 256 + 灰度 256，分块 int8 量化后按权重算余弦。单次约 0.3s |
+| ① 像素模板 | 0（默认） | 24×24 彩色模板 + alpha 掩码（腐蚀 1px）；先做前景/背景分离，再去掉与边缘连通的背景，保留中央前景块；原图高分辨率裁切 + 新/旧两套自动前景框 + 中心/多圈裁切 + 5 旋转 × 9 平移，偏色照片再生成按通道标准化副本，最多约 1800–1900 候选；桌面单次约 0.8–1.4s |
+| ② OpenCV ORB | 约 15MB | OpenCV.js 4.13 + 1000 个图标预计算 ORB 描述子（约 10 万点，192×192，nfeatures=100）；查询图先刷白背景，只在图标前景 mask 内提特征；BFMatcher Hamming + ratio test，按模板投票；匹配点少于 3 个时自动回退像素模板。单次约 0.2s |
+| ③ 端侧 DINOv2 | 约 35–37MB | Transformers.js 2.17 + DINOv2-small int8（Apache 2.0）+ 本地向量库；查询图先做前景分离并刷白背景；CLS 384 维 + 颜色 512 + Sobel 边缘 256 + 灰度 256，分块 int8 量化后按权重算余弦；再用像素模板对前 24 个候选复核。桌面单次约 1.3s（非 SIMD；支持 SIMD 会更快） |
 | ④ 自定义模板 | 用户文件 | 加载与 `recognition.js` 同格式的 JSON，用于替换 / 扩充图标库 |
 
-> ②③ 的引擎和模型只在切换到对应后端时按需下载，并保存在 Service Worker 的 `isaac-engine-v1` 缓存中；之后离线可用。默认 ① 不需要任何额外下载。药丸外观随机，所有后端都不识别药丸。
+> ②③ 的引擎和模型只在切换到对应后端时按需下载，并保存在 Service Worker 的 `isaac-engine-v1` 缓存中；之后离线可用。默认 ① 不需要任何额外下载。不支持 WASM SIMD 的浏览器会额外使用 `app/web/vendor/transformers/ort-wasm.wasm`，避免 ORT 报 `no available backend found`。药丸外观随机，所有后端都不识别药丸。
 
-**本机 App 内合成查询测试**（20 张紧裁图，非实拍照片，只用于回归，不代表真实手机拍摄）：
+**本机实拍回归**（3 张游戏照片 + 1 张卡牌，手动框选，非正式评测）：
 
-| 后端 | Top1 | Top3 |
-|---|---|---|
-| 像素模板 | 70% | 80% |
-| OpenCV ORB | 80% | 85% |
-| 端侧 DINOv2 | 90% | 95% |
+| 场景 | 像素模板 | OpenCV ORB | 端侧 DINOv2 |
+|---|---|---|---|
+| 六面骰照片 | Top1 94–98% | Top1（5 个匹配点） | Top1（综合 88%） |
+| 圣心照片 | Top1 76–77% | Top1（6 个匹配点） | Top1（综合 85%） |
+| 血虱照片 | Top1 80–86% | 回退像素模板，Top1 | Top1（综合 74%） |
+| 0-愚者卡牌 | Top1 82% | — | Top1（综合 80%） |
 
-样本量小、合成变换有限，真实截图/照片受背景、缩放、反光、遮挡影响；结果页会列前 8 个候选，低置信时请点开确认。
+样本量小，真实截图/照片受背景、缩放、反光、遮挡影响；结果页会列前 8 个候选，低置信时请点开确认。旧版 20 张合成紧裁回归已不作为当前准确率承诺。
 
 模型 JSON 格式（数组，每条）：
 
@@ -267,9 +274,9 @@ git push -u origin main
 
 `v` / `m` 由 `app/build_recognition.py` 生成。
 
-> 识别覆盖道具 / 饰品 / 卡牌共 1000 个图标模板；药丸没有固定外观，按设计不参与识别。一次只框一个图标本体，留一点边；框大一点/歪一点/边缘被裁到会自动多圈兜底；「整图特写」只适合图标占满画面，游戏截图请框选。严重透视、反光、遮挡的实拍未做保证。结果上方会提示“候选很接近/匹配度偏低”，此时请从候选里点开确认。
+> 识别覆盖道具 / 饰品 / 卡牌共 1000 个图标模板；药丸没有固定外观，按设计不参与识别。一次只框一个图标本体，留一点边；识别会先自动去掉与选框边缘连通的背景，并保留描边、火焰和触须。框大一点/歪一点/边缘被裁到会自动多圈兜底；「整图特写」只适合图标占满画面，游戏截图请框选。严重透视、反光、遮挡的实拍未做保证。结果上方会提示“候选很接近/匹配度偏低”，此时请从候选里点开确认。
 >
-> 开源模型说明：DINOv2-small 采用 Apache 2.0，已随应用本地打包为 int8 ONNX；OpenCV.js 采用 Apache 2.0。Isaac 专用 YOLO 权重没有明确许可证，未打包。上述合成测试不能替代真实照片评测；若需要更高实拍准确率，需要更多实拍训练/校准数据。
+> 开源模型说明：DINOv2-small 采用 Apache 2.0，已随应用本地打包为 int8 ONNX；OpenCV.js 采用 Apache 2.0。Isaac 专用 YOLO 权重没有明确许可证，未打包。上述实拍回归样本量小，不能替代正式评测；若需要更高实拍准确率，需要更多实拍训练/校准数据。
 
 ### 重新构建前端数据
 

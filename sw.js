@@ -6,7 +6,7 @@
  *   - 识别引擎/模型：按需缓存、缓存优先（跨应用版本保留）
  *   - 页面/脚本：网络优先，失败回退缓存
  */
-const V = "isaac-guide-v16";     // 应用外壳（随版本更新）
+const V = "isaac-guide-v17";     // 应用外壳（随版本更新）
 const IMG = "isaac-images-v1";   // 图标（跨版本保留，避免升级后重新下载 4MB）
 const ENGINE = "isaac-engine-v1"; // ORB/端侧模型等大文件（跨版本保留，按需缓存）
 

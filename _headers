@@ -1,0 +1,14 @@
+# Cloudflare Workers Static Assets
+# WASM 必须用 application/wasm 返回，浏览器才会走 instantiateStreaming。
+/app/web/vendor/transformers/*.wasm
+  Content-Type: application/wasm
+
+# 更新入口不要被浏览器长缓存；Service Worker 仍会做网络优先。
+/app/web/app.js
+  Cache-Control: no-cache
+
+/app/web/index.html
+  Cache-Control: no-cache
+
+/sw.js
+  Cache-Control: no-cache

@@ -199,17 +199,17 @@
     <input type="file" id="file" accept="image/*" capture="environment" hidden>
   </div>
   <canvas id="recCanvas"></canvas>
-  <div class="hint">先框住<b>一个</b>道具/饰品/卡牌的本体（尽量贴边留 2–4px，别切掉图标边缘，也别把底座/大片背景框进来），再点「识别选区」。框大一点、歪一点也能识别；游戏截图请框选，不要用「识别整图」。<b>药丸外观随机，不能靠图识别。</b></div>
+  <div class="hint">先框住<b>一个</b>道具/饰品/卡牌的本体（尽量贴边留 2–4px，别切掉图标边缘，也别把底座/大片背景框进来），再点「识别选区」。识别会先自动分离前景和背景，保留描边、火焰和触须；框大一点、歪一点也能识别。游戏截图请框选，不要用「识别整图」。<b>药丸外观随机，不能靠图识别。</b></div>
   <div class="btnrow" style="align-items:center">
     <select id="backend" style="flex:1;padding:9px 10px;border-radius:10px;background:#191d26;color:#e8eaf0;border:1px solid #2b303c">
       <option value="template">① 像素模板（默认 · 免模型）</option>
       <option value="orb">② OpenCV ORB（纯视觉 · 约 15MB）</option>
-      <option value="embed">③ 端侧向量（DINOv2 · 约 35MB）</option>
+      <option value="embed">③ 端侧向量（DINOv2 + 模板复核 · 约 35MB）</option>
       <option value="custom">④ 自定义模板（加载 JSON）</option>
     </select>
     <input type="file" id="modelFile" accept=".json,application/json" hidden>
   </div>
-  <div class="hint" id="backendHint">当前：内置 1000 个图标模板（道具/饰品/卡牌），纯本地运算，无需联网、无模型包。</div>
+  <div class="hint" id="backendHint">当前：内置 1000 个图标模板（道具/饰品/卡牌），自动去背景，纯本地运算，无需联网、无模型包。</div>
   <div class="hint" id="engineStatus" style="display:none"></div>
   <div class="btnrow actions">
     <button class="btn" id="recBtn" disabled>识别选区</button>
@@ -233,10 +233,10 @@
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
     <div class="hint" id="cacheInfo" style="margin:2px 0 10px">默认像素模板完全离线；ORB / 端侧向量首次切换需联网下载一次，之后也会缓存。点此把 1000 张图标也缓存下来，之后断网也能看。</div><br>
     <b>识别原理（默认：无模型）</b><br>
-    默认像素模板：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时从原图重新高分辨率裁切（不是先用 640px 缩略图），再叠加自动前景框、中心裁切、多圈裁切、5 个旋转 × 9 个平移，并对偏色照片额外生成按通道标准化的副本，最多约 1200 个候选，只比对道具本体像素。免联网、无模型包。<br>
-    可选引擎：② OpenCV ORB（首次约 15MB，特征点投票）；③ 端侧 DINOv2-small（首次约 35–37MB，CLS + 颜色/边缘/灰度混合向量）；④ 自定义模板 JSON。②③ 只在切换时按需下载并缓存，之后离线可用；默认 ① 不需要额外下载。<br>
-    本机 20 张合成紧裁查询回归（非实拍）：模板 Top1 70% / Top3 80%，ORB 80% / 85%，DINOv2 90% / 95%。真实截图/照片受背景、缩放、反光、遮挡影响；结果页列前 8 个候选，低置信时请点开确认。<br>
-    开源模型说明：DINOv2-small（Apache 2.0）已本地打包为 int8 ONNX；OpenCV.js（Apache 2.0）随应用提供。Isaac 专用 YOLO 权重没有明确许可证，未打包。上述合成测试不能替代真实照片评测。<br><br>
+    默认像素模板：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时先估计选框边缘背景色，用泛洪填充去掉与边缘连通的背景，再保留中央前景块，从原图重新高分辨率裁切（不是先用 640px 缩略图），叠加自动前景框、中心裁切、多圈裁切、5 个旋转 × 9 个平移，并对偏色照片额外生成按通道标准化的副本，最多约 1800–1900 个候选，只比对道具本体像素。免联网、无模型包。<br>
+    可选引擎：② OpenCV ORB（首次约 15MB，特征点投票；只在前景 mask 内提特征，匹配点少于 3 个时自动回退像素模板）；③ 端侧 DINOv2-small（首次约 35–37MB，CLS + 颜色/边缘/灰度混合向量；查询图先去掉背景，再用像素模板对前 24 个候选复核）；④ 自定义模板 JSON。②③ 只在切换时按需下载并缓存，之后离线可用；默认 ① 不需要额外下载。不支持 WASM SIMD 的浏览器会自动改用另一份运行库，不会直接失败。<br>
+    本机 3 张实拍照片 + 1 张卡牌回归（手动框选，非正式评测）：三种后端 Top1 均命中；其中血虱照片 ORB 只有 1 个匹配点，回退像素模板后 Top1。真实截图/照片受背景、缩放、反光、遮挡影响；结果页列前 8 个候选，低置信时请点开确认。<br>
+    开源模型说明：DINOv2-small（Apache 2.0）已本地打包为 int8 ONNX；OpenCV.js（Apache 2.0）随应用提供。Isaac 专用 YOLO 权重没有明确许可证，未打包。上述回归不能替代真实照片评测。<br><br>
     <b>数据</b><br>
     719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。<br><br>
     <b>数据来源</b><br>
