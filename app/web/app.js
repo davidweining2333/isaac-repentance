@@ -24,6 +24,36 @@
   /* ---------- 模糊搜索：默认全类型 ---------- */
   const KIND_LABEL = { items: "道具", trinkets: "饰品", cards: "卡牌", pills: "药丸" };
   const TYPE_LABEL = { active: "主动道具", passive: "被动道具" };
+
+  /* 主动道具充能：数字=房间数；Ns=随时间自动充能；其余是特殊值 */
+  function chargeInfo(r) {
+    if (!r || r.type !== "active") return null;
+    const raw = String(r.recharge ?? "").trim();
+    const timed = raw.match(/^(\d+(?:\.\d+)?)s$/);
+    if (timed) return {
+      short: `自动${raw}`, auto: true, value: `${timed[1]} 秒`,
+      note: "自动充能（随时间恢复）",
+      title: `自动充能 ${timed[1]} 秒（随时间恢复）`
+    };
+    if (/^\d+(?:\.\d+)?$/.test(raw)) return {
+      short: `${raw}房`, auto: false, value: `${raw} 房间`,
+      note: "非自动（清房间充能）",
+      title: `充能 ${raw} 房间（非自动，清房间充能）`
+    };
+    const special = {
+      unlimited: ["∞", "无限", "无充能条，可无限使用", "充能", "无限使用（无充能条）"],
+      "one time": ["1次", "1 次", "一次性使用（使用后消失）", "使用次数", "一次性使用（使用后消失）"],
+      variable: ["可变", "可变", "特殊（充能数可变）", "充能", "充能数可变（特殊）"],
+      damage: ["伤害", "伤害", "伤害积累（非时间自动）", "充能", "伤害充能（造成伤害时积累）"],
+      "1f": ["1层", "每层 1 次", "特殊（每层重置）", "频率", "每层 1 次（特殊）"],
+      "": ["—", "无数据", "特殊（未记录充能）", "充能", "特殊（未记录充能）"]
+    }[raw];
+    if (special) return {
+      short: special[0], auto: false, value: special[1],
+      note: special[2], label: special[3], title: special[4]
+    };
+    return { short: raw, auto: false, value: raw, note: "特殊充能", label: "充能", title: `充能 ${raw}` };
+  }
   const SEARCH_KINDS = [
     { key: "items", label: KIND_LABEL.items },
     { key: "trinkets", label: KIND_LABEL.trinkets },
@@ -85,7 +115,12 @@
     const qual = groupKey === "items" && r.quality != null
       ? `<span class="quality q${r.quality}" title="品质 ${r.quality}" aria-label="品质 ${r.quality}">${r.quality}</span>`
       : "";
-    return `<div class="card k-${groupKey}${typeClass}" data-idx="${i}" data-kind="${groupKey}" title="${esc(label)}" aria-label="${esc(label)}">${thumb}${qual}</div>`;
+    const charge = groupKey === "items" ? chargeInfo(r) : null;
+    const chargeHTML = charge
+      ? `<span class="charge${charge.auto ? " auto" : ""}" title="${esc(charge.title)}" aria-label="${esc(charge.title)}">${esc(charge.short)}</span>`
+      : "";
+    const fullLabel = charge ? `${label} · ${charge.title}` : label;
+    return `<div class="card k-${groupKey}${typeClass}" data-idx="${i}" data-kind="${groupKey}" title="${esc(fullLabel)}" aria-label="${esc(fullLabel)}">${thumb}${qual}${chargeHTML}</div>`;
   }
 
   let lastList = [];
@@ -131,6 +166,13 @@
       : `<div class="mph pillph">药丸</div>`;
     const tags = [...(r.nick || []), ...(r.look || [])];
     const sub = [r.name || "", TYPE_LABEL[r.type] || ""].filter(Boolean).join(" · ");
+    const charge = chargeInfo(r);
+    const chargeHTML = charge
+      ? `<div class="mcharge${charge.auto ? " auto" : ""}">
+          <span class="mcharge-k">${esc(charge.label || "充能")}</span><b>${esc(charge.value)}</b>
+          <span class="mcharge-note">${esc(charge.note)}</span>
+        </div>`
+      : "";
     $("#modal .mbody").innerHTML = `
       <div class="mhead">${head}
         <div><div class="mtitle">${r.name_zh || r.name}</div>
@@ -138,6 +180,7 @@
         ${quality}</div>
       </div>
       ${r.quote ? `<div class="mquote">“${r.quote}”</div>` : ""}
+      ${chargeHTML}
       <div class="mdesc">${(r.desc_zh || "（暂无效果描述）").replace(/</g, "&lt;")}</div>
       ${tags.length ? `<div class="mtags">${tags.map(t => `<span class="ctag">${t}</span>`).join("")}</div>` : ""}
       <div class="msub" style="margin-top:10px">${KIND_LABEL[kindKey] || ""}${r.id != null ? " · ID " + r.id : ""}</div>`;
@@ -157,7 +200,7 @@
   render();
 
   /* ---------- 拍照识别：内置像素模板 / 可选自定义模型 ---------- */
-  const cv = $("#cv"), ctx = cv.getContext("2d");
+  const recCanvas = $("#recCanvas"), ctx = recCanvas.getContext("2d");
   let img = null, sel = null, dragging = false, start = null;
 
   $("#drop").onclick = () => $("#file").click();
@@ -175,31 +218,31 @@
   function draw(im) {
     img = im; sel = null;
     const maxW = 640, sc = Math.min(1, maxW / im.width);
-    cv.width = im.width * sc; cv.height = im.height * sc;
-    ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, cv.width, cv.height); // 白底，避免透明被当黑色
-    ctx.drawImage(im, 0, 0, cv.width, cv.height);
+    recCanvas.width = im.width * sc; recCanvas.height = im.height * sc;
+    ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, recCanvas.width, recCanvas.height); // 白底，避免透明被当黑色
+    ctx.drawImage(im, 0, 0, recCanvas.width, recCanvas.height);
     ["recBtn", "recAll", "reset"].forEach(id => $("#" + id).disabled = false);
     $("#recCnt").textContent = "已加载图片，可拖动框选道具。";
     $("#recResults").innerHTML = "";
   }
   function pos(e) {
-    const b = cv.getBoundingClientRect();
+    const b = recCanvas.getBoundingClientRect();
     const x = (e.touches ? e.touches[0].clientX : e.clientX) - b.left;
     const y = (e.touches ? e.touches[0].clientY : e.clientY) - b.top;
-    return { x: x * cv.width / b.width, y: y * cv.height / b.height };
+    return { x: x * recCanvas.width / b.width, y: y * recCanvas.height / b.height };
   }
-  cv.addEventListener("mousedown", e => { dragging = true; start = pos(e); });
-  cv.addEventListener("touchstart", e => { dragging = true; start = pos(e); e.preventDefault(); }, { passive: false });
-  ["mousemove", "touchmove"].forEach(ev => cv.addEventListener(ev, e => {
+  recCanvas.addEventListener("mousedown", e => { dragging = true; start = pos(e); });
+  recCanvas.addEventListener("touchstart", e => { dragging = true; start = pos(e); e.preventDefault(); }, { passive: false });
+  ["mousemove", "touchmove"].forEach(ev => recCanvas.addEventListener(ev, e => {
     if (!dragging) return; e.preventDefault();
     const p = pos(e);
     sel = { x: Math.min(start.x, p.x), y: Math.min(start.y, p.y), w: Math.abs(p.x - start.x), h: Math.abs(p.y - start.y) };
     redraw();
   }, { passive: false }));
-  ["mouseup", "touchend"].forEach(ev => cv.addEventListener(ev, () => dragging = false));
+  ["mouseup", "touchend"].forEach(ev => recCanvas.addEventListener(ev, () => dragging = false));
   function redraw() {
     if (!img) return;
-    ctx.drawImage(img, 0, 0, cv.width, cv.height);
+    ctx.drawImage(img, 0, 0, recCanvas.width, recCanvas.height);
     if (sel) { ctx.strokeStyle = "#e0a458"; ctx.lineWidth = 2; ctx.strokeRect(sel.x, sel.y, sel.w, sel.h); }
   }
 
@@ -242,7 +285,7 @@
     const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
     let sx = 0, sy = 0, sw = iw, sh = ih;
     if (region) {
-      const kx = iw / cv.width, ky = ih / cv.height;
+      const kx = iw / recCanvas.width, ky = ih / recCanvas.height;
       sx = region.x * kx; sy = region.y * ky;
       sw = region.w * kx; sh = region.h * ky;
       /* 选框稍微往外扩一点：手机上容易把图标边缘切掉，留出兜底空间 */

@@ -120,7 +120,8 @@ def build_entry(kind, rec):
     return {
         "id": rec.get("id"), "name": name, "name_zh": name_zh,
         "quote": rec.get("quote", ""), "quality": rec.get("quality"),
-        "type": rec.get("type", ""), "desc_zh": rec.get("description_zh", ""),
+        "type": rec.get("type", ""), "recharge": rec.get("recharge", ""),
+        "desc_zh": rec.get("description_zh", ""),
         "nick": nick, "look": look, "pinyin": py,
         "image": rec.get("image", ""), "image_url": rec.get("image_url", ""),
         "search": " ".join(terms).lower(),

@@ -206,6 +206,12 @@ HTML = """<!DOCTYPE html>
   .meta { color:var(--dim); font-size:12px; margin:3px 0 7px; overflow-wrap:anywhere; }
   .badge { display:inline-block; border-radius:5px; padding:1px 5px; font-size:10.5px;
            background:#3b2d1f; color:#efbd7a; border:1px solid #5d472b; margin-left:5px; }
+  .charge-tag { display:inline-block; border-radius:5px; padding:1px 6px; font-size:10.5px;
+                background:#33291c; color:#e0a458; border:1px solid #5d472b; margin-left:5px; }
+  .charge-tag.auto { background:#16251b; color:#8fe0a8; border-color:#315a3f; }
+  .charge-val { color:#e0a458; font-weight:700; }
+  .charge-val.auto { color:#8fe0a8; }
+  .charge-note { color:var(--dim); font-size:11.5px; margin-left:5px; }
   .desc { color:#cdd4e1; font-size:13px; white-space:pre-wrap; overflow-wrap:anywhere; }
   .desc.orig { color:#aab4c7; }
   .more { display:none; margin-top:10px; padding-top:9px; border-top:1px dashed var(--line); }
@@ -420,15 +426,50 @@ function locType(t){
   return ({active:'主动道具', passive:'被动道具', monster:'怪物', boss:'头目', npc:'NPC'}[t] || t);
 }
 
+/* 主动道具充能：数字=房间数；Ns=随时间自动充能；其余是特殊值 */
+function rechargeInfo(raw){
+  raw = String(raw ?? '').trim();
+  const zh = state.lang === 'zh';
+  const timed = raw.match(/^(\\d+(?:\\.\\d+)?)s$/);
+  if (timed) return {
+    value: zh ? `${timed[1]} 秒` : raw,
+    note: zh ? '自动充能（随时间恢复）' : 'Auto-recharge (time-based)',
+    short: zh ? `自动 ${timed[1]}秒` : `Auto ${raw}`,
+    label: zh ? '充能' : 'Recharge',
+    auto: true
+  };
+  if (/^\\d+(?:\\.\\d+)?$/.test(raw)) return {
+    value: zh ? `${raw} 房间` : raw,
+    note: zh ? '非自动（清房间充能）' : 'Room-clear charge (not automatic)',
+    short: zh ? `充能 ${raw}` : `Charge ${raw}`,
+    label: zh ? '充能' : 'Recharge',
+    auto: false
+  };
+  const table = {
+    unlimited: { zh:['无限','无充能条，可无限使用','无限','充能'], en:['unlimited','No charge bar, unlimited use','Unlimited','Recharge'] },
+    'one time': { zh:['1 次','一次性使用（使用后消失）','一次性','使用次数'], en:['one time','Disappears after use','One-time','Uses'] },
+    variable: { zh:['可变','特殊（充能数可变）','可变','充能'], en:['variable','Special recharge','Variable','Recharge'] },
+    damage: { zh:['伤害','造成伤害时积累（非时间）','伤害充能','充能'], en:['damage','Charges by damage dealt (not time-based)','Damage','Recharge'] },
+    '1f': { zh:['每层 1 次','特殊（每层重置）','每层1次','频率'], en:['1f','Special (resets each floor)','1/floor','Frequency'] },
+    '': { zh:['无数据','特殊（未记录充能）','—','充能'], en:['No data','No recharge recorded','—','Recharge'] }
+  }[raw];
+  if (table) {
+    const [value, note, short, label] = table[zh ? 'zh' : 'en'];
+    return { value, note, short, label, auto: false };
+  }
+  return { value: raw, note: zh ? '特殊充能' : 'Special recharge', short: raw, label: zh ? '充能' : 'Recharge', auto: false };
+}
+
 function fieldRows(o){
   const skip = new Set(['name','name_zh','description','description_en','description_zh','requirements','requirements_zh','requirements_zh','summary_zh','text_en','key','image','image_url','item_names_zh','reward_zh','name_en']);
   const rows = [];
   for (const [k,v] of Object.entries(o)){
     if (skip.has(k) || k.startsWith('_')) continue;
     if (k.endsWith('_zh')) continue;
-    if (v === '' || v == null || (Array.isArray(v) && !v.length)) continue;
+    const activeRecharge = k === 'recharge' && o.type === 'active';
+    if (!activeRecharge && (v === '' || v == null || (Array.isArray(v) && !v.length))) continue;
     const zhKey = k+'_zh';
-    let shown = v, en = '';
+    let shown = v, en = '', rowLabel = label(k);
     if (state.lang==='zh' && o[zhKey]) { shown = o[zhKey]; en = v; }
     if (k==='items' && Array.isArray(v)){
       shown = v.map(x=>{
@@ -441,13 +482,17 @@ function fieldRows(o){
       shown = v.map(x=>`<span class="chip">${esc(typeof x==='object' ? (state.lang==='zh' && x.name_zh ? x.name_zh : x.name) : x)}</span>`).join('');
     } else if (k==='added_in') {
       shown = locAdded(v);
+    } else if (k==='recharge') {
+      const info = rechargeInfo(v);
+      rowLabel = info.label || label(k);
+      shown = `<span class="charge-val${info.auto?' auto':''}">${esc(info.value)}</span><span class="charge-note">${esc(info.note)}</span>`;
     } else if (k==='wiki_page') {
       shown = `<a href="https://bindingofisaacrebirth.wiki.gg/wiki/${encodeURIComponent(v).replace(/%20/g,'_')}" target="_blank" rel="noopener">${esc(v)}</a>`;
     } else {
       shown = esc(val(shown));
     }
     if (en) shown += `<span class="en-orig">${esc(val(en))}</span>`;
-    rows.push(`<div class="kv"><b>${esc(label(k))}</b>${shown}</div>`);
+    rows.push(`<div class="kv"><b>${esc(rowLabel)}</b>${shown}</div>`);
   }
   return rows.join('');
 }
@@ -458,13 +503,18 @@ function card(o, kind, idx){
   const untranslated = state.lang==='zh' && !hasZh(o) ? `<span class="badge">${L().zhMissing}</span>` : '';
   const desc = descFor(o);
   const meta = metaFor(o);
+  const charge = o.type==='active' ? rechargeInfo(o.recharge) : null;
+  const chargeTag = charge
+    ? `<span class="charge-tag${charge.auto?' auto':''}" title="${esc(charge.value+' · '+charge.note)}">${esc(charge.short)}</span>`
+    : '';
+  const metaHTML = meta + (meta && chargeTag ? ' · ' : '') + chargeTag;
   return `<div class="card" onclick="this.classList.toggle('open')">
     <div class="chead">
       ${thumb(o, kind)}
       <div class="cbody">
         <div class="ttl">${esc(title)}${untranslated}</div>
         ${en?`<div class="orig-name">${esc(en)}</div>`:''}
-        ${meta?`<div class="meta">${meta}</div>`:''}
+        ${metaHTML?`<div class="meta">${metaHTML}</div>`:''}
       </div>
     </div>
     ${desc?`<div class="desc">${esc(desc).slice(0,240)}${desc.length>240?' …':''}</div>`:''}

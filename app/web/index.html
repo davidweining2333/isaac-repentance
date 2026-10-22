@@ -79,6 +79,11 @@
              font-weight:800; color:#fff; border:2px solid #12141a; box-shadow:0 1px 3px #0008; }
   .q0{background:#4b5266}.q1{background:#5b8c3a}.q2{background:#3a7bb0}.q3{background:#8a5bb0}.q4{background:#c08b2e}
   .quality.q0,.quality.q1,.quality.q2,.quality.q3,.quality.q4{color:#fff}
+  .charge { position:absolute; z-index:2; left:4px; bottom:4px; min-width:16px; height:16px;
+            padding:0 4px; border-radius:5px; background:rgba(14,16,21,.9);
+            border:1px solid #5a462d; color:#e0a458; font-size:9px; line-height:14px;
+            font-weight:750; text-align:center; font-variant-numeric:tabular-nums; }
+  .charge.auto { border-color:#3f7d55; color:#8fe0a8; }
   .mq { display:inline-block; margin-top:7px; padding:2px 10px; border-radius:7px;
         font-size:12px; font-weight:750; letter-spacing:.3px; color:#fff; }
   .mq.q4 { color:#23180a; background:#d9a441; }
@@ -108,6 +113,8 @@
     .thumb { border-radius:5px; }
     .quality { top:2px; right:2px; width:13px; height:13px; line-height:11px;
                font-size:8px; border-width:1px; }
+    .charge { left:2px; bottom:2px; min-width:12px; height:13px; padding:0 3px;
+              border-radius:4px; font-size:7.5px; line-height:11px; border-width:1px; }
     .card.k-pills { padding:9px 10px; border-width:2px; }
     canvas { width:auto; height:auto; max-width:100%; max-height:55vh; max-height:55dvh; }
     .actions { position:fixed; left:0; right:0; bottom:0; z-index:40; margin:0;
@@ -146,6 +153,14 @@
   .mtitle { font-size:17px; font-weight:700; color:var(--acc); }
   .msub { font-size:12px; color:var(--dim); }
   .mquote { color:#e0a458; font-style:italic; font-size:13px; margin:8px 0 0; }
+  .mcharge { display:flex; align-items:baseline; gap:6px; flex-wrap:wrap; margin-top:10px;
+             padding:7px 9px; border:1px solid #4a3b28; border-radius:8px;
+             background:#211c16; font-size:12.5px; }
+  .mcharge-k { color:var(--dim); font-size:11.5px; }
+  .mcharge b { color:#f0c27a; font-size:14px; }
+  .mcharge-note { color:var(--dim); font-size:11.5px; }
+  .mcharge.auto { border-color:#315a3f; background:#17211b; }
+  .mcharge.auto b { color:#8fe0a8; }
   .mdesc { font-size:13.5px; line-height:1.75; color:#c3c9d4; white-space:pre-wrap; margin:10px 0 0; }
   .mtags { margin-top:10px; }
   @media (min-width:640px) { .modal { align-items:center; } .sheet { border-radius:16px; } }
@@ -183,7 +198,7 @@
     <b>点此上传 / 拍照</b><br>或拖入道具、饰品图片
     <input type="file" id="file" accept="image/*" capture="environment" hidden>
   </div>
-  <canvas id="cv"></canvas>
+  <canvas id="recCanvas"></canvas>
   <div class="hint">先框住<b>一个</b>道具/饰品/卡牌的本体（留一点边，别切掉图标边缘），再点「识别选区」。框大一点、歪一点也能识别；游戏截图请框选，不要用「识别整图」。<b>药丸外观随机，不能靠图识别。</b></div>
   <div class="btnrow" style="align-items:center">
     <select id="backend" style="flex:1;padding:9px 10px;border-radius:10px;background:#191d26;color:#e8eaf0;border:1px solid #2b303c">
@@ -209,7 +224,7 @@
     面向手机/主机玩家的《以撒的结合：忏悔》图鉴，解决"只能靠肉眼或记名字找道具"的痛点。<br><br>
     <b>怎么用</b><br>
     · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；药丸请切到「药丸」分类搜索。搜索栏和分类栏吸顶，结果一次全部显示，不再分页。<br>
-    · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸），道具图标右上角显示品质等级；道具卡是双层边框，红色内框=主动、蓝色内框=被动。药丸没有固定图标，卡片直接显示名称和效果。<br>
+    · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸），道具图标右上角显示品质等级，左下角显示主动道具充能（如“4房”=4 房间，“自动4s”=每 4 秒自动充能）；点开详情会写明充能数和充能方式。道具卡是双层边框，红色内框=主动、蓝色内框=被动。药丸没有固定图标，卡片直接显示名称和效果。<br>
     · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；留一点边，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br>
     · <b>卡片边框</b>：道具外框金色；主动道具内框红色，被动道具内框蓝色。<br><br>
     <b>离线使用</b><br>

@@ -272,7 +272,7 @@ for r in cargo["collectible"]:
     q = best_row(pick(c_quality, *keys))
     sh = best_row(pick(c_shop, *keys))
     dv = best_row(pick(c_devil, *keys))
-    rc = best_row(pick(c_recharge, *keys))
+    rc = best_row(pick(c_recharge, *keys) or pick(c_recharge, page + " 1"))
     items.append({
         "id": iid,
         "name": en_name or page,
