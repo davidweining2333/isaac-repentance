@@ -1,4 +1,4 @@
-/* 以撒图鉴前端：模糊搜索 + 无模型拍照识别。纯 JS，无依赖、无 AI 模型。 */
+/* 以撒图鉴前端：模糊搜索 + 拍照识别。默认像素模板；可选 OpenCV ORB / DINOv2。 */
 (function () {
   const G = window.GUIDE, R = window.RECOG || [];
   const IMG = (r) => r.image ? "../../" + r.image : (r.image_url || "");
@@ -276,6 +276,10 @@
     return out;
   }
   MODEL = decodeModel(R);
+  const REC_BY_KEY = new Map(R.map(e => [e.kind + ":" + e.id, e]));
+  const KIND_TO_GUIDE = { item: "items", trinket: "trinkets", card: "cards" };
+  let lastResults = [];
+  let activeEngine = "template";
 
   /* 识别时不要用屏幕上缩小后的 640px 画布，而是从原图重新裁切。
      手机照片里道具可能只有几十像素，直接缩到 640 会先丢掉细节。 */
@@ -456,8 +460,24 @@
     return out;
   }
 
-  function recognize(region) {
-    if (!img) { $("#recCnt").textContent = "请先上传/拍照。"; return; }
+  function renderRecResults(items, title) {
+    lastResults = items;
+    $("#recCnt").textContent = title;
+    $("#recResults").innerHTML = items.map((e, i) => `
+      <div class="result" data-i="${i}">
+        <img src="${e.image ? "../../" + e.image : (e.image_url || "")}" onerror="this.src='${e.image_url || ""}'">
+        <div>
+          <div class="cname"><span class="czh">${e.name_zh || e.name}</span><span class="badge">${KIND_LABEL[e.kind + "s"] || e.kind}</span>${e._badge || ""}</div>
+          <div style="color:#8b93a3;font-size:11.5px">${e.name || ""}</div>
+          <div class="score">${e._scoreText || ""}</div>
+        </div>
+      </div>`).join("");
+    if (window.matchMedia("(max-width:640px)").matches) {
+      requestAnimationFrame(() => $("#recCnt").scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
+  }
+
+  function recognizeTemplate(region) {
     if (!MODEL.length) { $("#recCnt").textContent = "模型未加载。"; return; }
     const src = sourceFor(region);
     const C = candidates(src), t0 = performance.now();
@@ -485,24 +505,33 @@
     const near = gap < 0.025;
     const low = best[order[0]] > 0.72;
     const note = near ? " · 候选很接近，请点开确认" : (low ? " · 匹配度偏低，请确认" : "");
-    $("#recCnt").textContent = `识别结果（无模型·像素模板 · ${C.length} 候选 · ${ms}ms）${note} · 点击查看详情`;
-    $("#recResults").innerHTML = order.map((k, rank) => {
+    const items = order.map((k, rank) => {
       const e = MODEL[k];
       const conf = Math.max(0, Math.min(100, Math.round((1 - best[k] / 1.5) * 100)));
-      const badge = rank === 0 ? `<span class="badge" style="background:${near ? "#8a5a24" : "#2e6b46"}">${near ? "最接近" : "最佳"}</span>` : "";
-      return `
-      <div class="result" data-k="${k}">
-        <img src="${e.image ? "../../" + e.image : (e.image_url || "")}" onerror="this.src='${e.image_url || ""}'">
-        <div>
-          <div class="cname"><span class="czh">${e.name_zh || e.name}</span><span class="badge">${KIND_LABEL[e.kind + "s"] || e.kind}</span>${badge}</div>
-          <div style="color:#8b93a3;font-size:11.5px">${e.name || ""}</div>
-          <div class="score">匹配度 ${conf}%</div>
-        </div>
-      </div>`;
-    }).join("");
-    /* 手机端操作栏固定在底部，识别完成后把结果滚进视野 */
-    if (window.matchMedia("(max-width:640px)").matches) {
-      requestAnimationFrame(() => $("#recCnt").scrollIntoView({ behavior: "smooth", block: "start" }));
+      return { ...e, _badge: rank === 0 ? `<span class="badge" style="background:${near ? "#8a5a24" : "#2e6b46"}">${near ? "最接近" : "最佳"}</span>` : "", _scoreText: `匹配度 ${conf}%` };
+    });
+    renderRecResults(items, `识别结果（像素模板 · ${C.length} 候选 · ${ms}ms）${note} · 点击查看详情`);
+  }
+
+  async function recognize(region) {
+    if (!img) { $("#recCnt").textContent = "请先上传/拍照。"; return; }
+    if (activeEngine === "template" || activeEngine === "custom") {
+      recognizeTemplate(region);
+      return;
+    }
+    try {
+      await prepareEngine(activeEngine);
+    } catch (e) {
+      $("#recCnt").textContent = `引擎加载失败：${e && e.message ? e.message : e}`;
+      $("#engineStatus").style.display = "";
+      $("#engineStatus").textContent = "可以切回「像素模板」立即识别；ORB / 端侧向量需要联网加载一次资源。";
+      return;
+    }
+    try {
+      if (activeEngine === "orb") recognizeOrb(region);
+      else if (activeEngine === "embed") await recognizeEmbed(region);
+    } catch (e) {
+      $("#recCnt").textContent = `识别失败：${e && e.message ? e.message : e}`;
     }
   }
   $("#recBtn").onclick = () => recognize(sel && sel.w > 4 ? sel : null);
@@ -510,22 +539,373 @@
   $("#recResults").addEventListener("click", e => {
     const el = e.target.closest(".result");
     if (!el) return;
-    const rec = MODEL[+el.dataset.k];
+    const rec = lastResults[+el.dataset.i];
     if (!rec) return;
-    const kindKey = rec.kind === "trinket" ? "trinkets" : rec.kind === "card" ? "cards" : "items";
+    const kindKey = KIND_TO_GUIDE[rec.kind] || "items";
     const arr = G[kindKey] || [];
-    const full = arr.find(x => x.name === rec.name) || arr.find(x => x.id === rec.id) || rec;
+    const full = arr.find(x => x.id === rec.id) || arr.find(x => x.name === rec.name) || rec;
     openDetail(full, kindKey);
   });
 
-  // ---- 识别后端切换：① 内置无模型；②③ 加载自定义模型（JSON，格式同 recognition.js） ----
-  $("#backend").onchange = () => {
-    if ($("#backend").value === "builtin") {
-      MODEL = decodeModel(R); modelName = "内置图标库";
-      $("#backendHint").textContent = `当前：内置 ${MODEL.length} 个图标模板（无模型·像素模板）。`;
-      $("#recCnt").textContent = "";
+  /* ---------- 两个新识别引擎：OpenCV.js ORB / Transformers.js DINOv2 ---------- */
+  const engineStatus = $("#engineStatus");
+  function setEngineStatus(text) {
+    if (!engineStatus) return;
+    engineStatus.style.display = text ? "" : "none";
+    engineStatus.textContent = text || "";
+  }
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = () => reject(new Error("加载失败：" + src));
+      document.head.appendChild(s);
+    });
+  }
+
+  /* 把选框/自动前景框标准化成正方形白底图。模板库和查询图使用同一套裁切规则。 */
+  function canonicalCanvas(src, size = 256, margin = 0.06) {
+    const c = document.createElement("canvas");
+    c.width = size; c.height = size;
+    const g = c.getContext("2d", { willReadFrequently: true });
+    g.fillStyle = "#fff"; g.fillRect(0, 0, size, size);
+    let sx = 0, sy = 0, sw = src.width, sh = src.height;
+    const ab = autoBox(src);
+    if (ab && ab.w > 8 && ab.h > 8 && ab.w * ab.h < src.width * src.height * 0.92) {
+      const pad = Math.max(2, Math.min(ab.w, ab.h) * margin);
+      sx = Math.max(0, ab.x - pad); sy = Math.max(0, ab.y - pad);
+      sw = Math.min(src.width - sx, ab.w + pad * 2);
+      sh = Math.min(src.height - sy, ab.h + pad * 2);
     } else {
+      /* 没找到前景：取中心正方形，避免把整张游戏截图的背景全带进来 */
+      const side = Math.min(src.width, src.height) * 0.92;
+      sx = (src.width - side) / 2; sy = (src.height - side) / 2; sw = side; sh = side;
+    }
+    const inner = size * (1 - margin * 2);
+    const sc = Math.min(inner / sw, inner / sh);
+    const dw = Math.max(1, sw * sc), dh = Math.max(1, sh * sc);
+    g.imageSmoothingEnabled = true;
+    g.imageSmoothingQuality = "high";
+    g.drawImage(src, sx, sy, sw, sh, (size - dw) / 2, (size - dh) / 2, dw, dh);
+    return c;
+  }
+
+  function recFor(kind, id) {
+    return REC_BY_KEY.get(kind + ":" + id) || null;
+  }
+
+  /* ---------- ② OpenCV.js ORB：预计算描述子 + BFMatcher 投票 ---------- */
+  const orbState = { ready: false, promise: null, cv: null, entries: null, counts: null, train: null, ids: null, bf: null };
+
+  async function ensureOpenCV() {
+    if (window.cv && window.cv.Mat && window.cv.ORB) return true;
+    if (!window.__ocvLoadPromise) {
+      window.__ocvLoadPromise = loadScript("vendor/opencv.js").catch(e => {
+        window.__ocvLoadPromise = null;
+        throw e;
+      });
+    }
+    await window.__ocvLoadPromise;
+    const t0 = Date.now();
+    while (Date.now() - t0 < 120000) {
+      const c = window.cv;
+      if (c && c.Mat && c.ORB && c.BFMatcher && c.KeyPointVector) return true;
+      await new Promise(r => setTimeout(r, 100));
+    }
+    throw new Error("OpenCV.js 初始化超时");
+  }
+
+  async function ensureOrb() {
+    if (orbState.ready) return orbState;
+    if (orbState.promise) return orbState.promise;
+    orbState.promise = (async () => {
+      setEngineStatus("正在加载 OpenCV.js（约 11MB，首次较慢）…");
+      /* 注意：cv 对象自带 then()，不能从 async 函数直接 return cv，否则会被当成 Promise 递归等待。 */
+      await ensureOpenCV();
+      const cv = window.cv;
+      if (!window.ORB_DB) {
+        setEngineStatus("正在加载 ORB 特征库（约 4MB）…");
+        await loadScript("recog/orb_db.js");
+      }
+      const db = window.ORB_DB;
+      const entries = db.entries || [];
+      const counts = new Array(entries.length);
+      const raw = new Array(entries.length);
+      let total = 0;
+      for (let i = 0; i < entries.length; i++) {
+        const b = b64ToBytes(entries[i].d);
+        raw[i] = b; counts[i] = b.length / 32; total += counts[i];
+      }
+      const train = new cv.Mat(total, 32, cv.CV_8U);
+      const ids = new Int32Array(total);
+      let row = 0;
+      for (let i = 0; i < entries.length; i++) {
+        train.data.set(raw[i], row * 32);
+        for (let j = 0; j < counts[i]; j++) ids[row + j] = i;
+        row += counts[i];
+      }
+      orbState.cv = cv; orbState.entries = entries; orbState.counts = counts;
+      orbState.train = train; orbState.ids = ids;
+      orbState.bf = new cv.BFMatcher(cv.NORM_HAMMING, false);
+      orbState.ready = true;
+      setEngineStatus(`ORB 已就绪：${entries.length} 个模板 / ${total} 个特征点。`);
+      return orbState;
+    })();
+    try { return await orbState.promise; }
+    catch (e) { orbState.promise = null; throw e; }
+  }
+
+  function orbQuery(cv, canvas) {
+    const rgba = cv.imread(canvas);
+    const gray = new cv.Mat();
+    cv.cvtColor(rgba, gray, cv.COLOR_RGBA2GRAY);
+    const orb = new cv.ORB(150, 1.2, 8, 16, 0, 2, cv.ORB_HARRIS_SCORE, 31, 10);
+    const kp = new cv.KeyPointVector();
+    const desc = new cv.Mat();
+    const mask = new cv.Mat();
+    try {
+      orb.detectAndCompute(gray, mask, kp, desc);
+      const out = desc.rows ? desc.clone() : null;
+      return { desc: out, kps: kp.size() };
+    } finally {
+      kp.delete(); desc.delete(); mask.delete(); orb.delete(); gray.delete(); rgba.delete();
+    }
+  }
+
+  function orbVotes(state, desc) {
+    const cv = state.cv;
+    const votes = new Map();
+    const ratio = Number(state.entries && window.ORB_DB.meta.ratio) || 0.78;
+    const maxDist = Number(window.ORB_DB.meta.dist) || 64;
+    let matches = null;
+    try {
+      matches = new cv.DMatchVectorVector();
+      state.bf.knnMatch(desc, state.train, matches, 2);
+      for (let i = 0; i < matches.size(); i++) {
+        const rowm = matches.get(i);
+        if (rowm.size() >= 2) {
+          const a = rowm.get(0), b = rowm.get(1);
+          if (a.distance < ratio * b.distance && a.distance < maxDist) {
+            const ti = state.ids[a.trainIdx];
+            votes.set(ti, (votes.get(ti) || 0) + 1);
+          }
+        }
+        rowm.delete();
+      }
+    } catch (e) {
+      /* 某些精简版 OpenCV.js 没有 DMatchVectorVector，退回最近邻计数 */
+      if (matches) { try { matches.delete(); } catch (_) {} }
+      matches = new cv.DMatchVector();
+      state.bf.match(desc, state.train, matches);
+      for (let i = 0; i < matches.size(); i++) {
+        const a = matches.get(i);
+        if (a.distance < maxDist) {
+          const ti = state.ids[a.trainIdx];
+          votes.set(ti, (votes.get(ti) || 0) + 1);
+        }
+      }
+    } finally {
+      if (matches) { try { matches.delete(); } catch (_) {} }
+    }
+    return votes;
+  }
+
+  function recognizeOrb(region) {
+    const state = orbState;
+    if (!state.ready) { $("#recCnt").textContent = "ORB 尚未就绪。"; return; }
+    const src = sourceFor(region);
+    const canvas = canonicalCanvas(src, 192, 0.06);
+    const t0 = performance.now();
+    let q;
+    try { q = orbQuery(state.cv, canvas); }
+    catch (e) { $("#recCnt").textContent = "ORB 特征提取失败：" + e.message; return; }
+    if (!q || !q.desc || q.desc.rows < 6) {
+      if (q && q.desc) q.desc.delete();
+      setEngineStatus("ORB 没提取到足够特征点，已回退像素模板。");
+      recognizeTemplate(region);
+      return;
+    }
+    const votes = orbVotes(state, q.desc);
+    const qn = q.desc.rows;
+    q.desc.delete();
+    const ms = Math.round(performance.now() - t0);
+    const ranked = [...votes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+    const items = [];
+    for (const [ti, count] of ranked) {
+      const e = state.entries[ti];
+      const rec = recFor(e.k, e.id);
+      if (!rec) continue;
+      items.push({ ...rec, _badge: items.length === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "", _scoreText: `匹配点 ${count}` });
+    }
+    if (!items.length) {
+      setEngineStatus("ORB 没有命中模板，已回退像素模板。");
+      recognizeTemplate(region);
+      return;
+    }
+    const gap = ranked.length > 1 ? ranked[0][1] - ranked[1][1] : 999;
+    const note = gap <= 1 ? " · 候选很接近，请点开确认" : "";
+    renderRecResults(items, `识别结果（OpenCV ORB · 查询 ${qn} 个特征点 · ${ms}ms）${note} · 点击查看详情`);
+  }
+
+  /* ---------- ③ Transformers.js + DINOv2：CLS 向量 + 颜色/边缘/灰度特征 ---------- */
+  const embedState = { ready: false, promise: null, pipe: null, rawImage: null, entries: null, meta: null };
+
+  async function ensureEmbed() {
+    if (embedState.ready) return embedState;
+    if (embedState.promise) return embedState.promise;
+    embedState.promise = (async () => {
+      setEngineStatus("正在加载端侧向量模型 DINOv2（约 24MB，首次需下载并缓存）…");
+      const mod = await import(new URL("vendor/transformers/transformers.min.js", location.href).href);
+      const env = mod.env;
+      env.allowRemoteModels = false;
+      env.localModelPath = new URL("vendor/models/", location.href).href;
+      env.backends.onnx.wasm.wasmPaths = new URL("vendor/transformers/", location.href).href;
+      env.backends.onnx.wasm.numThreads = 1;
+      env.backends.onnx.wasm.simd = true;
+      const pipe = await mod.pipeline("image-feature-extraction", "dinov2-small", { quantized: true });
+      if (!window.EMBED_DB) {
+        setEngineStatus("正在加载向量库（约 2MB）…");
+        await loadScript("recog/embed_db.js");
+      }
+      const db = window.EMBED_DB;
+      const entries = (db.entries || []).map(e => {
+        const u = b64ToBytes(e.v);
+        return { ...e, q: new Int8Array(u.buffer), s: e.s, n: e.n };
+      });
+      embedState.pipe = pipe; embedState.rawImage = mod.RawImage;
+      embedState.entries = entries; embedState.meta = db.meta; embedState.ready = true;
+      setEngineStatus(`端侧向量已就绪：DINOv2-small / ${entries.length} 个模板 / 1408 维混合向量。`);
+      return embedState;
+    })();
+    try { return await embedState.promise; }
+    catch (e) { embedState.promise = null; throw e; }
+  }
+
+  function normalizeFloat(a) {
+    let n = 0;
+    for (let i = 0; i < a.length; i++) n += a[i] * a[i];
+    n = Math.sqrt(n) || 1;
+    for (let i = 0; i < a.length; i++) a[i] /= n;
+    return a;
+  }
+
+  function embedQueryFeatures(canvas, dino) {
+    const g = canvas.getContext("2d", { willReadFrequently: true });
+    const d = g.getImageData(0, 0, 256, 256).data;
+    const hist = new Float32Array(512);
+    const gray = new Float32Array(256 * 256);
+    for (let i = 0, p = 0; i < d.length; i += 4, p++) {
+      const r = d[i], gg = d[i + 1], b = d[i + 2];
+      gray[p] = (r * .299 + gg * .587 + b * .114) / 255;
+      if (Math.min(r, gg, b) < 245) hist[(r >> 5) * 64 + (gg >> 5) * 8 + (b >> 5)]++;
+    }
+    for (let i = 0; i < 512; i++) hist[i] = Math.sqrt(hist[i]);
+    normalizeFloat(hist);
+    const edge = new Float32Array(256 * 256);
+    for (let y = 1; y < 255; y++) for (let x = 1; x < 255; x++) {
+      const p = y * 256 + x;
+      const gx = -gray[p - 257] + gray[p - 255] - 2 * gray[p - 1] + 2 * gray[p + 1] - gray[p + 255] + gray[p + 257];
+      const gy = -gray[p - 257] - 2 * gray[p - 256] - gray[p - 255] + gray[p + 255] + 2 * gray[p + 256] + gray[p + 257];
+      edge[p] = Math.hypot(gx, gy) > 0.28 ? 1 : 0;
+    }
+    const e16 = new Float32Array(256), g16 = new Float32Array(256);
+    for (let by = 0; by < 16; by++) for (let bx = 0; bx < 16; bx++) {
+      let se = 0, sg = 0;
+      for (let y = 0; y < 16; y++) for (let x = 0; x < 16; x++) {
+        const p = (by * 16 + y) * 256 + bx * 16 + x;
+        se += edge[p]; sg += gray[p];
+      }
+      e16[by * 16 + bx] = se / 256; g16[by * 16 + bx] = sg / 256;
+    }
+    let me = 0, mg = 0;
+    for (let i = 0; i < 256; i++) { me += e16[i]; mg += g16[i]; }
+    me /= 256; mg /= 256;
+    for (let i = 0; i < 256; i++) { e16[i] -= me; g16[i] -= mg; }
+    normalizeFloat(e16); normalizeFloat(g16);
+    const dinoN = normalizeFloat(Float32Array.from(dino));
+    return [dinoN, hist, e16, g16];
+  }
+
+  async function recognizeEmbed(region) {
+    const state = embedState;
+    if (!state.ready) { $("#recCnt").textContent = "端侧向量模型尚未就绪。"; return; }
+    const t0 = performance.now();
+    const src = sourceFor(region);
+    const canvas = canonicalCanvas(src, 256, 0.06);
+    let out;
+    try {
+      /* Transformers.js v2.17 的 RawImage 没有 fromCanvas，直接用 ImageData 构造。 */
+      const g = canvas.getContext("2d", { willReadFrequently: true });
+      const id = g.getImageData(0, 0, 256, 256);
+      const raw = new state.rawImage(id.data, 256, 256, 4);
+      out = await state.pipe(raw);
+    } catch (e) {
+      $("#recCnt").textContent = "端侧模型推理失败：" + (e.message || e);
+      return;
+    }
+    const dims = out.dims || [];
+    const dino = dims.length === 3 ? out.data.slice(0, dims[2]) : out.data.slice(0, 384);
+    if (out && typeof out.dispose === "function") out.dispose();
+    const feats = embedQueryFeatures(canvas, dino);
+    const qn = feats.map(a => { let s = 0; for (let i = 0; i < a.length; i++) s += a[i] * a[i]; return Math.sqrt(s) || 1; });
+    const blocks = state.meta.blocks, weights = state.meta.weights;
+    const scores = [];
+    for (let ei = 0; ei < state.entries.length; ei++) {
+      const e = state.entries[ei];
+      let off = 0, score = 0;
+      for (let b = 0; b < blocks.length; b++) {
+        const dim = blocks[b];
+        let dot = 0;
+        for (let i = 0; i < dim; i++) dot += e.q[off + i] * feats[b][i];
+        /* DB 是 int8 分块量化，先乘回每块 scale 再算余弦 */
+        score += weights[b] * (dot * (e.s[b] || 1)) / ((e.n[b] || 1) * qn[b]);
+        off += dim;
+      }
+      scores.push([ei, score]);
+    }
+    scores.sort((a, b) => b[1] - a[1]);
+    const ms = Math.round(performance.now() - t0);
+    const items = [];
+    const maxScore = weights.reduce((a, b) => a + b, 0) || 1;
+    for (const [ei, score] of scores.slice(0, 8)) {
+      const e = state.entries[ei];
+      const rec = recFor(e.k, e.id);
+      if (!rec) continue;
+      const pct = Math.max(0, Math.min(99, Math.round(score / maxScore * 100)));
+      items.push({ ...rec, _badge: items.length === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "", _scoreText: `混合相似度 ${score.toFixed(2)} · 约 ${pct}%` });
+    }
+    const gap = scores.length > 1 ? scores[0][1] - scores[1][1] : 1;
+    const note = gap < 0.04 ? " · 候选很接近，请点开确认" : "";
+    renderRecResults(items, `识别结果（DINOv2 + 颜色/边缘 · ${ms}ms）${note} · 点击查看详情`);
+  }
+
+  async function prepareEngine(name) {
+    if (name === "orb") return ensureOrb();
+    if (name === "embed") return ensureEmbed();
+    return null;
+  }
+
+  /* ---------- 识别后端切换 ---------- */
+  $("#backend").onchange = () => {
+    const v = $("#backend").value;
+    activeEngine = v;
+    lastResults = [];
+    $("#recResults").innerHTML = "";
+    $("#recCnt").textContent = "";
+    if (v === "template") {
+      MODEL = decodeModel(R); modelName = "内置图标库";
+      $("#backendHint").textContent = `当前：内置 ${MODEL.length} 个图标模板（像素模板）。`;
+      setEngineStatus("");
+    } else if (v === "custom") {
+      $("#backendHint").textContent = "当前：自定义模板。请选择与 recognition.js 同格式的 JSON。";
       $("#modelFile").click();
+    } else if (v === "orb") {
+      $("#backendHint").textContent = "当前：OpenCV.js ORB 特征点匹配（道具/饰品/卡牌，不含药丸）。首次使用会加载约 11MB 引擎和 4MB 特征库。";
+      prepareEngine("orb").catch(e => setEngineStatus("ORB 加载失败：" + e.message + "。可切回像素模板。"));
+    } else if (v === "embed") {
+      $("#backendHint").textContent = "当前：端侧 DINOv2 向量匹配（道具/饰品/卡牌，不含药丸）。首次使用会加载约 24MB 模型 + 运行库，之后离线可用。";
+      prepareEngine("embed").catch(e => setEngineStatus("端侧模型加载失败：" + e.message + "。可切回像素模板。"));
     }
   };
   $("#modelFile").onchange = ev => {
@@ -537,18 +917,19 @@
         const list = Array.isArray(data) ? data : (data.recog || data.icons || []);
         const m = decodeModel(list);
         if (!m.length) throw new Error("没有可用条目（需要 v / m 字段）");
-        MODEL = m; modelName = f.name;
+        MODEL = m; modelName = f.name; activeEngine = "custom";
         $("#backendHint").textContent = `当前：${f.name}，共 ${m.length} 条。`;
         $("#recCnt").textContent = `已加载模型：${m.length} 条`;
       } catch (err) {
         $("#recCnt").textContent = "模型加载失败：" + err.message;
-        $("#backend").value = "builtin";
+        $("#backend").value = "template";
+        activeEngine = "template";
         MODEL = decodeModel(R);
       }
     };
     fr.readAsText(f);
   };
-  $("#reset").onclick = () => { if (img) draw(img); $("#recResults").innerHTML = ""; $("#recCnt").textContent = ""; };
+  $("#reset").onclick = () => { if (img) draw(img); lastResults = []; $("#recResults").innerHTML = ""; $("#recCnt").textContent = ""; };
 
   /* ---------- PWA：Service Worker + 一键离线缓存 ---------- */
   const httpMode = location.protocol.startsWith("http");
