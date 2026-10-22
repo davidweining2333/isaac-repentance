@@ -1,0 +1,15 @@
+# 这些文件不随静态站点上传
+**/.git
+**/.gitignore
+**/.DS_Store
+**/node_modules
+**/__pycache__
+**/*.pyc
+
+.venv
+raw
+.playwright-mcp
+.wrangler
+
+wrangler.jsonc
+.assetsignore

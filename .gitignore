@@ -6,6 +6,9 @@ __pycache__/
 # 抓取缓存 / 原始 wiki 数据（可重新下载，见 README）
 raw/
 
+# Cloudflare / Wrangler 本地缓存
+.wrangler/
+
 # 系统与编辑器
 .DS_Store
 .idea/
