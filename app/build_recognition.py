@@ -21,7 +21,7 @@
   v = base64(int8 z-score, 长度 = 3 × 掩码像素数)
   m = base64(72 字节 bitmask, bit i = 第 i 个像素是否参与比对)
 """
-import json, os, base64
+import json, os, base64, re
 import numpy as np
 from PIL import Image
 
@@ -74,6 +74,32 @@ def load(p):
         return json.load(f)
 
 
+def norm_name(s):
+    """道具池里的名字和 items.json 有大小写/标点差异，统一后再匹配。"""
+    s = str(s or "").lower().replace("=", " ")
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+
+def build_pools():
+    """把 item_pools.json 的道具名映射成道具 ID，供前端按场景缩小候选集。"""
+    items = load(os.path.join(DATASET, "items.json"))
+    ids_by_name = {}
+    for rec in items:
+        n = norm_name(rec.get("name"))
+        if n:
+            ids_by_name.setdefault(n, []).append(rec.get("id"))
+    pools = {}
+    for p in load(os.path.join(DATASET, "item_pools.json")):
+        ids = set()
+        for it in p.get("items", []):
+            for i in ids_by_name.get(norm_name(it.get("name")), []):
+                if i is not None:
+                    ids.add(i)
+        if ids:
+            pools[p.get("name", "")] = sorted(ids)
+    return pools
+
+
 entries = []
 for fname, kind in (("items.json", "item"), ("trinkets.json", "trinket"), ("cards.json", "card")):
     p = os.path.join(DATASET, fname)
@@ -98,8 +124,11 @@ for fname, kind in (("items.json", "item"), ("trinkets.json", "trinket"), ("card
         })
 
 meta = {"S": S, "scale": SCALE, "alpha": ALPHA_THR}
+pools = build_pools()
 js = ("window.RECOG_META = " + json.dumps(meta, separators=(",", ":")) + ";\n"
-      "window.RECOG = " + json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + ";\n")
+      "window.RECOG = " + json.dumps(entries, ensure_ascii=False, separators=(",", ":")) + ";\n"
+      "window.RECOG_POOLS = " + json.dumps(pools, ensure_ascii=False, separators=(",", ":")) + ";\n")
 open(os.path.join(OUT, "recognition.js"), "w", encoding="utf-8").write(js)
 print(f"识别模板: {len(entries)} 条（item+trinket+card）")
+print(f"道具池: {len(pools)} 个")
 print(f"web/recognition.js {len(js)/1024/1024:.2f}MB")

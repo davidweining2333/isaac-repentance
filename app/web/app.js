@@ -224,6 +224,7 @@
     ["recBtn", "recAll", "reset"].forEach(id => $("#" + id).disabled = false);
     $("#recCnt").textContent = "已加载图片，可拖动框选道具。";
     $("#recResults").innerHTML = "";
+    setQuality(null);
   }
   function pos(e) {
     const b = recCanvas.getBoundingClientRect();
@@ -239,7 +240,12 @@
     sel = { x: Math.min(start.x, p.x), y: Math.min(start.y, p.y), w: Math.abs(p.x - start.x), h: Math.abs(p.y - start.y) };
     redraw();
   }, { passive: false }));
-  ["mouseup", "touchend"].forEach(ev => recCanvas.addEventListener(ev, () => dragging = false));
+  ["mouseup", "touchend"].forEach(ev => recCanvas.addEventListener(ev, () => {
+    if (dragging) {
+      dragging = false;
+      if (sel && sel.w > 4 && sel.h > 4) queueQuality();
+    }
+  }));
   function redraw() {
     if (!img) return;
     ctx.drawImage(img, 0, 0, recCanvas.width, recCanvas.height);
@@ -281,6 +287,60 @@
   const KIND_TO_GUIDE = { item: "items", trinket: "trinkets", card: "cards" };
   let lastResults = [];
   let activeEngine = "template";
+
+  /* ---------- 场景 / 道具池先验 ----------
+     宝箱房、商店、恶魔房等场景的道具池是已知的（json/item_pools.json）。
+     先按场景过滤，能把 1000 个候选缩到几十到几百个；只过滤道具，
+     饰品/卡牌始终保留，避免用户拍的是地上的饰品时被误删。 */
+  const POOLS = window.RECOG_POOLS || {};
+  const SCENE_POOLS = {
+    treasure: ["Treasure Room", "Greed Treasure Room"],
+    shop: ["Shop", "Greed Shop", "Baby Shop"],
+    devil: ["Devil Room", "Greed Devil Room"],
+    angel: ["Angel Room", "Greed Angel Room"],
+    boss: ["Boss", "Greed Boss"],
+    secret: ["Secret Room", "Ultra Secret Room", "Greed Secret Room"],
+    library: ["Library", "Greed Library"],
+    planetarium: ["Planetarium"],
+    curse: ["Curse Room", "Greed Curse Room"]
+  };
+  const SCENE_LABELS = {
+    treasure: "宝箱房", shop: "商店", devil: "恶魔房", angel: "天使房",
+    boss: "Boss 房", secret: "秘密房", library: "图书馆",
+    planetarium: "星球房", curse: "诅咒房"
+  };
+  let activeScene = "auto";
+  let activeSceneIds = null;
+  function rebuildSceneFilter() {
+    activeSceneIds = null;
+    const names = SCENE_POOLS[activeScene];
+    if (!names) return;
+    const ids = new Set();
+    for (const n of names) for (const id of (POOLS[n] || [])) ids.add(id);
+    if (ids.size) activeSceneIds = ids;
+  }
+  function inScene(e) {
+    if (!activeSceneIds || !e || e.kind !== "item") return true;
+    return activeSceneIds.has(e.id);
+  }
+  function sceneLabel() {
+    if (activeScene === "auto") return "场景不限";
+    const name = SCENE_LABELS[activeScene] || activeScene;
+    return activeSceneIds
+      ? `${name}道具池（${activeSceneIds.size} 个道具 + 饰品/卡牌）`
+      : `${name}（道具池未加载）`;
+  }
+  function sceneShort() {
+    if (activeScene === "auto") return "";
+    return (SCENE_LABELS[activeScene] || activeScene) + "池";
+  }
+  function sceneHintText() {
+    if (activeScene === "auto") {
+      return "场景不限：在全部 1000 个图标中匹配。选场景可按道具池缩小范围；饰品/卡牌始终保留。";
+    }
+    return `当前：${sceneLabel()}。只过滤道具；如果找的是饰品/卡牌，请选「不限」。`;
+  }
+  rebuildSceneFilter();
 
   /* 识别时不要用屏幕上缩小后的 640px 画布，而是从原图重新裁切。
      手机照片里道具可能只有几十像素，直接缩到 640 会先丢掉细节。 */
@@ -609,6 +669,127 @@
     return fg ? fg.bbox : autoBoxHeuristic(src);
   }
 
+  /* ---------- 拍摄质量门禁 ----------
+     手机拍屏最常见的失败不是“模型不认识”，而是道具太小、画面太糊、反光过曝。
+     先量一下，再决定要不要硬猜；严重不达标时直接提示重拍，避免给出误导性的 Top8。 */
+  let qualityTimer = 0;
+  function setQuality(q) {
+    const el = $("#recQuality");
+    if (!el) return;
+    if (!q) {
+      el.style.display = "none";
+      el.textContent = "";
+      el.className = "hint";
+      return;
+    }
+    el.style.display = "";
+    if (q.issues.length) {
+      el.className = "hint " + (q.severe ? "q-bad" : "q-warn");
+      el.textContent = (q.severe ? "⛔ " : "⚠️ ") + q.issues.join("；");
+    } else {
+      el.className = "hint q-ok";
+      el.textContent = `✓ 图片质量可用：道具约 ${Math.round(q.itemPx)}px，清晰度${q.sharpLabel}`;
+    }
+  }
+
+  function assessQuality(region) {
+    if (!img) return null;
+    const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    const kx = iw / recCanvas.width, ky = ih / recCanvas.height;
+    const baseW = (region ? region.w : recCanvas.width) * kx;
+    const baseH = (region ? region.h : recCanvas.height) * ky;
+    const src = sourceFor(region);
+    const fg = foregroundFor(src);
+
+    let bx = 0, by = 0, bw = src.width, bh = src.height;
+    if (fg && fg.bbox && fg.bbox.w > 8 && fg.bbox.h > 8) {
+      bx = Math.max(0, fg.bbox.x); by = Math.max(0, fg.bbox.y);
+      bw = Math.min(src.width - bx, fg.bbox.w);
+      bh = Math.min(src.height - by, fg.bbox.h);
+    } else {
+      /* 没找到前景：取中间 70%，避免把整张房间背景算进清晰度 */
+      bw = src.width * 0.7; bh = src.height * 0.7;
+      bx = (src.width - bw) / 2; by = (src.height - bh) / 2;
+    }
+
+    const c = document.createElement("canvas");
+    c.width = 128; c.height = 128;
+    const g = c.getContext("2d", { willReadFrequently: true });
+    g.drawImage(src, bx, by, bw, bh, 0, 0, 128, 128);
+    const d = g.getImageData(0, 0, 128, 128).data;
+    const gray = new Float32Array(128 * 128);
+    let white = 0;
+    for (let i = 0, p = 0; i < d.length; i += 4, p++) {
+      const r = d[i], gg = d[i + 1], b = d[i + 2];
+      gray[p] = (r * 0.299 + gg * 0.587 + b * 0.114) / 255;
+      if (r > 245 && gg > 245 && b > 245) white++;
+    }
+    let lapSum = 0, lapSum2 = 0, lapN = 0;
+    for (let y = 1; y < 127; y++) for (let x = 1; x < 127; x++) {
+      const p = y * 128 + x;
+      const lap = 4 * gray[p] - gray[p - 1] - gray[p + 1] - gray[p - 128] - gray[p + 128];
+      lapSum += lap; lapSum2 += lap * lap; lapN++;
+    }
+    const lapMean = lapSum / lapN;
+    const lapVar = Math.max(0, lapSum2 / lapN - lapMean * lapMean);
+    const whiteFrac = white / (128 * 128);
+
+    /* 用前景框估计道具在“原图”里的像素尺寸；sourceFor 对选区会外扩 18%，
+       这里粗略乘回 1.36，避免把尺寸估得太小。 */
+    const fracW = fg && fg.bbox ? fg.bbox.w / src.width : 1;
+    const fracH = fg && fg.bbox ? fg.bbox.h / src.height : 1;
+    const pad = region ? 1.36 : 1;
+    const refined = Math.min(baseW * fracW, baseH * fracH) * pad;
+    const itemPx = Math.min(Math.min(baseW, baseH), refined || Infinity);
+
+    const issues = [];
+    let severe = false;
+    if (region && itemPx < 24) {
+      issues.push(`道具偏小（约 ${Math.round(itemPx)}px），建议靠近/放大后重拍`);
+      if (itemPx < 12) severe = true;
+    }
+    if (region && fg && fg.bbox) {
+      const b = fg.bbox;
+      if (b.x <= 1 || b.y <= 1 || b.x + b.w >= src.width - 1 || b.y + b.h >= src.height - 1) {
+        issues.push("选区可能切到道具，建议框大一点");
+      }
+    }
+    if (!region && fg && fg.bbox) {
+      const areaFrac = (fg.bbox.w * fg.bbox.h) / (src.width * src.height);
+      if (areaFrac < 0.10) issues.push("整图模式只适合图标占满画面，请改用框选");
+      if (areaFrac < 0.02) severe = true;
+    }
+    if (lapVar < 0.00003) {
+      /* 框得特别小时，放大到 128×128 会天然变糊；这种情况优先提示“框大一点”，
+         不要误报成照片糊，也不要直接拦掉。 */
+      if (itemPx >= 96) {
+        issues.push("画面非常糊，建议拿稳、重新对焦");
+        severe = true;
+      } else {
+        issues.push("画面偏糊/选区较小，建议框住整个道具");
+      }
+    } else if (lapVar < 0.00008) {
+      issues.push("画面偏糊，建议拿稳/重新对焦");
+    } else if (lapVar < 0.00018) {
+      issues.push("画面略糊，结果可能不准");
+    }
+    if (iw >= 1000 && whiteFrac > 0.30) {
+      issues.push("反光/过曝较多，建议换角度避开");
+    }
+
+    return {
+      itemPx, lapVar, whiteFrac, issues, severe,
+      sharpLabel: lapVar >= 0.00018 ? "良好" : lapVar >= 0.00008 ? "一般" : "偏低"
+    };
+  }
+
+  function queueQuality() {
+    clearTimeout(qualityTimer);
+    qualityTimer = setTimeout(() => {
+      setQuality(assessQuality(sel && sel.w > 4 ? sel : null));
+    }, 150);
+  }
+
   /* 手机照片常见偏色/白平衡漂移：额外生成一份按通道标准化的副本，
      与原图候选一起匹配，避免整张图偏黄/偏蓝时模板直接失效。 */
   function normalizedSource(src) {
@@ -766,24 +947,41 @@
     if (!MODEL.length) { $("#recCnt").textContent = "模型未加载。"; return; }
     const src = sourceFor(region);
     const C = candidates(src), t0 = performance.now();
-    const best = new Float32Array(MODEL.length);
-    for (let k = 0; k < MODEL.length; k++) best[k] = templateDistance(MODEL[k], C);
-    const order = Array.from(MODEL.keys()).sort((a, b) => best[a] - best[b]).slice(0, 8);
+    /* 场景过滤：只跳过不在当前道具池里的“道具”，饰品/卡牌始终参与。 */
+    const allIdx = [];
+    for (let k = 0; k < MODEL.length; k++) if (inScene(MODEL[k])) allIdx.push(k);
+    let idxs = allIdx;
+    let poolNote = activeSceneIds ? ` · ${sceneShort()}` : "";
+    if (!idxs.length) {
+      idxs = Array.from(MODEL.keys());
+      poolNote = " · 场景池无匹配，已回退全库";
+    }
+    const best = new Float32Array(idxs.length);
+    for (let i = 0; i < idxs.length; i++) best[i] = templateDistance(MODEL[idxs[i]], C);
+    const order = idxs.map((k, i) => ({ k, d: best[i] })).sort((a, b) => a.d - b.d).slice(0, 8);
     const ms = Math.round(performance.now() - t0);
-    const gap = order.length > 1 ? best[order[1]] - best[order[0]] : 1;
+    const gap = order.length > 1 ? order[1].d - order[0].d : 1;
     const near = gap < 0.025;
-    const low = best[order[0]] > 0.72;
+    const low = order[0].d > 0.72;
     const note = near ? " · 候选很接近，请点开确认" : (low ? " · 匹配度偏低，请确认" : "");
-    const items = order.map((k, rank) => {
+    const items = order.map(({ k, d }, rank) => {
       const e = MODEL[k];
-      const conf = Math.max(0, Math.min(100, Math.round((1 - best[k] / 1.5) * 100)));
+      const conf = Math.max(0, Math.min(100, Math.round((1 - d / 1.5) * 100)));
       return { ...e, _badge: rank === 0 ? `<span class="badge" style="background:${near ? "#8a5a24" : "#2e6b46"}">${near ? "最接近" : "最佳"}</span>` : "", _scoreText: `匹配度 ${conf}%` };
     });
-    renderRecResults(items, `识别结果（像素模板 · ${C.length} 候选 · ${ms}ms）${note} · 点击查看详情`);
+    renderRecResults(items, `识别结果（像素模板${poolNote} · ${idxs.length} 个模板 · ${ms}ms）${note} · 点击查看详情`);
   }
 
   async function recognize(region) {
     if (!img) { $("#recCnt").textContent = "请先上传/拍照。"; return; }
+    const q = assessQuality(region);
+    setQuality(q);
+    if (q && q.severe) {
+      $("#recCnt").textContent = `⛔ ${q.issues.join("；")}。请调整后重试。`;
+      lastResults = [];
+      $("#recResults").innerHTML = "";
+      return;
+    }
     if (activeEngine === "template" || activeEngine === "custom") {
       recognizeTemplate(region);
       return;
@@ -1064,29 +1262,28 @@
     const qn = q.desc.rows;
     q.desc.delete();
     const ms = Math.round(performance.now() - t0);
-    const ranked = [...votes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+    /* 先按场景过滤，再排序；否则不在当前道具池里的模板会占掉前 8 名。 */
+    const ranked = [...votes.entries()]
+      .map(([ti, count]) => ({ ti, count, rec: recFor(state.entries[ti].k, state.entries[ti].id) }))
+      .filter(x => x.rec && inScene(x.rec))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 8);
     /* 照片模糊、图标很小的时候 ORB 可能只命中 1–2 个点，这时排序基本是噪声；
        直接回退到像素模板，避免把错误候选强行标成“最佳”。 */
-    if (!ranked.length || ranked[0][1] < 3) {
-      setEngineStatus(`ORB 匹配点太少（最高 ${ranked.length ? ranked[0][1] : 0} 个），已回退像素模板。`);
+    if (!ranked.length || ranked[0].count < 3) {
+      setEngineStatus(`ORB 匹配点太少（最高 ${ranked.length ? ranked[0].count : 0} 个），已回退像素模板。`);
       recognizeTemplate(region);
       return;
     }
-    const items = [];
-    for (const [ti, count] of ranked) {
-      const e = state.entries[ti];
-      const rec = recFor(e.k, e.id);
-      if (!rec) continue;
-      items.push({ ...rec, _badge: items.length === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "", _scoreText: `匹配点 ${count}` });
-    }
-    if (!items.length) {
-      setEngineStatus("ORB 没有命中模板，已回退像素模板。");
-      recognizeTemplate(region);
-      return;
-    }
-    const gap = ranked.length > 1 ? ranked[0][1] - ranked[1][1] : 999;
+    const items = ranked.map((x, rank) => ({
+      ...x.rec,
+      _badge: rank === 0 ? '<span class="badge" style="background:#2e6b46">最佳</span>' : "",
+      _scoreText: `匹配点 ${x.count}`
+    }));
+    const gap = ranked.length > 1 ? ranked[0].count - ranked[1].count : 999;
     const note = gap <= 1 ? " · 候选很接近，请点开确认" : "";
-    renderRecResults(items, `识别结果（OpenCV ORB · 查询 ${qn} 个特征点 · ${ms}ms）${note} · 点击查看详情`);
+    const poolNote = activeSceneIds ? ` · ${sceneShort()}` : "";
+    renderRecResults(items, `识别结果（OpenCV ORB${poolNote} · 查询 ${qn} 个特征点 · ${ms}ms）${note} · 点击查看详情`);
   }
 
   /* ---------- ③ Transformers.js + DINOv2：CLS 向量 + 颜色/边缘/灰度特征 ---------- */
@@ -1201,6 +1398,8 @@
     const scores = [];
     for (let ei = 0; ei < state.entries.length; ei++) {
       const e = state.entries[ei];
+      const rec = recFor(e.k, e.id);
+      if (!rec || !inScene(rec)) continue;
       let off = 0, score = 0;
       for (let b = 0; b < blocks.length; b++) {
         const dim = blocks[b];
@@ -1211,6 +1410,11 @@
         off += dim;
       }
       scores.push([ei, score]);
+    }
+    if (!scores.length) {
+      setEngineStatus("当前场景池没有向量候选，已回退像素模板。");
+      recognizeTemplate(region);
+      return;
     }
     scores.sort((a, b) => b[1] - a[1]);
     const maxScore = weights.reduce((a, b) => a + b, 0) || 1;
@@ -1239,7 +1443,8 @@
     }));
     const gap = ranked.length > 1 ? ranked[0].combined - ranked[1].combined : 1;
     const note = gap < 0.025 ? " · 候选很接近，请点开确认" : "";
-    renderRecResults(items, `识别结果（DINOv2 + 像素模板复核 · ${ms}ms）${note} · 点击查看详情`);
+    const poolNote = activeSceneIds ? ` · ${sceneShort()}` : "";
+    renderRecResults(items, `识别结果（DINOv2 + 像素模板复核${poolNote} · ${ms}ms）${note} · 点击查看详情`);
   }
 
   async function prepareEngine(name) {
@@ -1270,6 +1475,18 @@
       prepareEngine("embed").catch(e => setEngineStatus("端侧模型加载失败：" + e.message + "。可切回像素模板。"));
     }
   };
+  /* ---------- 场景 / 道具池切换 ---------- */
+  $("#sceneHint").textContent = sceneHintText();
+  $("#scene").onchange = () => {
+    activeScene = $("#scene").value;
+    rebuildSceneFilter();
+    lastResults = [];
+    $("#recResults").innerHTML = "";
+    $("#recCnt").textContent = "";
+    $("#sceneHint").textContent = sceneHintText();
+    setQuality(sel && sel.w > 4 ? assessQuality(sel) : null);
+  };
+
   $("#modelFile").onchange = ev => {
     const f = ev.target.files[0]; if (!f) return;
     const fr = new FileReader();

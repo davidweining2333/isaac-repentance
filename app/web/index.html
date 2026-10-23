@@ -133,6 +133,9 @@
            background:#33291c; color:#e0a458; margin-left:6px; }
   .hint { color:var(--dim); font-size:12px; margin:10px 2px; }
   .hint a { color:var(--acc2); text-decoration:none; }
+  #recQuality.q-warn { color:#e0a458; }
+  #recQuality.q-bad { color:#e8654f; }
+  #recQuality.q-ok { color:#5bb97a; }
   .detail { margin-top:6px; font-size:12.5px; color:#c3c9d4; white-space:pre-wrap; }
   .thumb.ph { display:flex; align-items:center; justify-content:center; font-size:30px; opacity:.55; }
   /* 详情弹层 */
@@ -200,6 +203,7 @@
   </div>
   <canvas id="recCanvas"></canvas>
   <div class="hint">先框住<b>一个</b>道具/饰品/卡牌的本体（尽量贴边留 2–4px，别切掉图标边缘，也别把底座/大片背景框进来），再点「识别选区」。识别会先自动分离前景和背景，保留描边、火焰和触须；框大一点、歪一点也能识别。游戏截图请框选，不要用「识别整图」。<b>药丸外观随机，不能靠图识别。</b></div>
+  <div class="hint" style="color:#e0a458">手机拍屏幕：让道具占画面 <b>1/3 以上</b>，正对屏幕、避开反光、拿稳；尽量把屏幕四角拍进来，方便后续透视矫正。</div>
   <div class="btnrow" style="align-items:center">
     <select id="backend" style="flex:1;padding:9px 10px;border-radius:10px;background:#191d26;color:#e8eaf0;border:1px solid #2b303c">
       <option value="template">① 像素模板（默认 · 免模型）</option>
@@ -209,7 +213,23 @@
     </select>
     <input type="file" id="modelFile" accept=".json,application/json" hidden>
   </div>
+  <div class="btnrow" style="align-items:center">
+    <select id="scene" style="flex:1;padding:9px 10px;border-radius:10px;background:#191d26;color:#e8eaf0;border:1px solid #2b303c">
+      <option value="auto">场景：不限（全部 1000 个图标）</option>
+      <option value="treasure">宝箱房（按宝箱房道具池过滤）</option>
+      <option value="shop">商店（按商店道具池过滤）</option>
+      <option value="devil">恶魔房（按恶魔房道具池过滤）</option>
+      <option value="angel">天使房（按天使房道具池过滤）</option>
+      <option value="boss">Boss 房（按 Boss 道具池过滤）</option>
+      <option value="secret">秘密房（秘密房 / 超级秘密房）</option>
+      <option value="library">图书馆</option>
+      <option value="planetarium">星球房</option>
+      <option value="curse">诅咒房</option>
+    </select>
+  </div>
+  <div class="hint" id="sceneHint">选场景可把道具候选缩到对应道具池；饰品/卡牌始终保留。不确定就选「不限」。</div>
   <div class="hint" id="backendHint">当前：内置 1000 个图标模板（道具/饰品/卡牌），自动去背景，纯本地运算，无需联网、无模型包。</div>
+  <div class="hint" id="recQuality" style="display:none"></div>
   <div class="hint" id="engineStatus" style="display:none"></div>
   <div class="btnrow actions">
     <button class="btn" id="recBtn" disabled>识别选区</button>
@@ -227,7 +247,7 @@
     <b>怎么用</b><br>
     · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；药丸请切到「药丸」分类搜索。搜索栏和分类栏吸顶，结果一次全部显示，不再分页。<br>
     · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸），道具图标右上角显示品质等级，左下角显示主动道具充能（如“4房”=4 房间，“自动4s”=每 4 秒自动充能）；点开详情会写明充能数和充能方式。道具卡是双层边框，红色内框=主动、蓝色内框=被动。药丸没有固定图标，卡片直接显示名称和效果。<br>
-    · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；尽量贴边留 2–4px，别把底座/大片背景框进来，框大一点、歪一点会自动多裁几圈兜底。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br>
+    · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；尽量贴边留 2–4px，别把底座/大片背景框进来，框大一点、歪一点会自动多裁几圈兜底。可以先选场景（宝箱房/商店/恶魔房等），只按该场景道具池过滤道具，饰品/卡牌始终保留；不确定就选「不限」。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br>
     · <b>卡片边框</b>：道具外框金色；主动道具内框红色，被动道具内框蓝色。<br><br>
     <b>离线使用</b><br>
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
@@ -235,7 +255,9 @@
     <b>识别原理（默认：无模型）</b><br>
     默认像素模板：24×24 彩色模板 + alpha 掩码（向内腐蚀 1px）；识别时先估计选框边缘背景色，用泛洪填充去掉与边缘连通的背景，再保留中央前景块，从原图重新高分辨率裁切（不是先用 640px 缩略图），叠加自动前景框、中心裁切、多圈裁切、5 个旋转 × 9 个平移，并对偏色照片额外生成按通道标准化的副本，最多约 1800–1900 个候选，只比对道具本体像素。免联网、无模型包。<br>
     可选引擎：② OpenCV ORB（首次约 15MB，特征点投票；只在前景 mask 内提特征，匹配点少于 3 个时自动回退像素模板）；③ 端侧 DINOv2-small（首次约 35–37MB，CLS + 颜色/边缘/灰度混合向量；查询图先去掉背景，再用像素模板对前 24 个候选复核）；④ 自定义模板 JSON。②③ 只在切换时按需下载并缓存，之后离线可用；默认 ① 不需要额外下载。不支持 WASM SIMD 的浏览器会自动改用另一份运行库，不会直接失败。<br>
-    本机 3 张实拍照片 + 1 张卡牌回归（手动框选，非正式评测）：三种后端 Top1 均命中；其中血虱照片 ORB 只有 1 个匹配点，回退像素模板后 Top1。真实截图/照片受背景、缩放、反光、遮挡影响；结果页列前 8 个候选，低置信时请点开确认。<br>
+    <b>场景先验与拍摄质量</b><br>
+    识别页可选宝箱房、商店、恶魔房等场景；选中后按 <code>json/item_pools.json</code> 的道具池过滤道具，饰品/卡牌始终保留。框选结束和点识别时会检查道具在原图里的像素尺寸、清晰度、反光和选区边缘；严重不达标（道具短边 &lt;12px、严重模糊、整图模式中图标太小）直接提示重拍，不返回 Top8；轻微问题显示黄色提示但仍允许识别。阈值是启发式的，真实照片可能漏判/误判。<br>
+    本机 3 张实拍照片 + 1 张卡牌回归（手动框选完整图标，非正式评测）：三种后端 Top1 均命中；其中血虱照片 ORB 只有 1 个匹配点，回退像素模板后 Top1。用模糊的圣心照片做对照：完整框住图标时像素模板 Top1 78%，框得太紧时会错，质量门禁会提示选区可能切到道具。真实截图/照片受背景、缩放、反光、遮挡影响；结果页列前 8 个候选，低置信时请点开确认。<br>
     开源模型说明：DINOv2-small（Apache 2.0）已本地打包为 int8 ONNX；OpenCV.js（Apache 2.0）随应用提供。Isaac 专用 YOLO 权重没有明确许可证，未打包。上述回归不能替代真实照片评测。<br><br>
     <b>数据</b><br>
     719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。<br><br>
