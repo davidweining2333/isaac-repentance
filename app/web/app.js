@@ -25,34 +25,35 @@
   const KIND_LABEL = { items: "道具", trinkets: "饰品", cards: "卡牌", pills: "药丸" };
   const TYPE_LABEL = { active: "主动道具", passive: "被动道具" };
 
-  /* 主动道具充能：数字=房间数；Ns=随时间自动充能；其余是特殊值 */
+  /* 主动道具充能：数字=房间数；Ns=随时间自动充能；其余是特殊值。
+     pip = 电池角标里显示的充能数量。 */
   function chargeInfo(r) {
     if (!r || r.type !== "active") return null;
     const raw = String(r.recharge ?? "").trim();
     const timed = raw.match(/^(\d+(?:\.\d+)?)s$/);
     if (timed) return {
-      short: `自动${raw}`, auto: true, value: `${timed[1]} 秒`,
+      pip: raw, auto: true, value: `${timed[1]} 秒`,
       note: "自动充能（随时间恢复）",
       title: `自动充能 ${timed[1]} 秒（随时间恢复）`
     };
     if (/^\d+(?:\.\d+)?$/.test(raw)) return {
-      short: `${raw}房`, auto: false, value: `${raw} 房间`,
+      pip: raw, auto: false, value: `${raw} 房间`,
       note: "非自动（清房间充能）",
       title: `充能 ${raw} 房间（非自动，清房间充能）`
     };
     const special = {
       unlimited: ["∞", "无限", "无充能条，可无限使用", "充能", "无限使用（无充能条）"],
-      "one time": ["1次", "1 次", "一次性使用（使用后消失）", "使用次数", "一次性使用（使用后消失）"],
-      variable: ["可变", "可变", "特殊（充能数可变）", "充能", "充能数可变（特殊）"],
-      damage: ["伤害", "伤害", "伤害积累（非时间自动）", "充能", "伤害充能（造成伤害时积累）"],
-      "1f": ["1层", "每层 1 次", "特殊（每层重置）", "频率", "每层 1 次（特殊）"],
-      "": ["—", "无数据", "特殊（未记录充能）", "充能", "特殊（未记录充能）"]
+      "one time": ["1", "1 次", "一次性使用（使用后消失）", "使用次数", "一次性使用（使用后消失）"],
+      variable: ["?", "可变", "特殊（充能数可变）", "充能", "充能数可变（特殊）"],
+      damage: ["?", "伤害", "伤害积累（非时间自动）", "充能", "伤害充能（造成伤害时积累）"],
+      "1f": ["1", "每层 1 次", "特殊（每层重置）", "频率", "每层 1 次（特殊）"],
+      "": ["?", "无数据", "特殊（未记录充能）", "充能", "特殊（未记录充能）"]
     }[raw];
     if (special) return {
-      short: special[0], auto: false, value: special[1],
+      pip: special[0], auto: false, value: special[1],
       note: special[2], label: special[3], title: special[4]
     };
-    return { short: raw, auto: false, value: raw, note: "特殊充能", label: "充能", title: `充能 ${raw}` };
+    return { pip: raw || "?", auto: false, value: raw, note: "特殊充能", label: "充能", title: `充能 ${raw}` };
   }
   const SEARCH_KINDS = [
     { key: "items", label: KIND_LABEL.items },
@@ -107,8 +108,7 @@
     const thumb = (r.image || r.image_url)
       ? `<img class="thumb" src="${IMG(r)}" alt="${esc(name)}" loading="lazy" onerror="this.classList.add('noimg');this.src='${r.image_url || ""}'">`
       : `<div class="thumb ph" aria-label="${esc(name)}">?</div>`;
-    /* 道具卡双层边框：外层金边表示道具，内层颜色表示主动/被动 */
-    const typeClass = groupKey === "items" && r.type ? " " + r.type : "";
+    /* 主动道具：左上角电池角标显示充能数量（被动道具无电池） */
     const label = groupKey === "items" && TYPE_LABEL[r.type]
       ? `${TYPE_LABEL[r.type]} · ${name}`
       : name;
@@ -117,10 +117,10 @@
       : "";
     const charge = groupKey === "items" ? chargeInfo(r) : null;
     const chargeHTML = charge
-      ? `<span class="charge${charge.auto ? " auto" : ""}" title="${esc(charge.title)}" aria-label="${esc(charge.title)}">${esc(charge.short)}</span>`
+      ? `<span class="battery${charge.auto ? " auto" : ""}" title="${esc(charge.title)}" aria-label="${esc(charge.title)}">${esc(charge.pip)}</span>`
       : "";
     const fullLabel = charge ? `${label} · ${charge.title}` : label;
-    return `<div class="card k-${groupKey}${typeClass}" data-idx="${i}" data-kind="${groupKey}" title="${esc(fullLabel)}" aria-label="${esc(fullLabel)}">${thumb}${qual}${chargeHTML}</div>`;
+    return `<div class="card k-${groupKey}" data-idx="${i}" data-kind="${groupKey}" title="${esc(fullLabel)}" aria-label="${esc(fullLabel)}">${thumb}${qual}${chargeHTML}</div>`;
   }
 
   let lastList = [];
