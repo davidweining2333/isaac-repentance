@@ -173,6 +173,14 @@
           <span class="mcharge-note">${esc(charge.note)}</span>
         </div>`
       : "";
+    const unlockName = r.unlocked_by_zh || r.unlocked_by || "";
+    const unlockReq = r.requirements_zh || r.requirements || "";
+    const unlockHTML = (unlockReq || unlockName)
+      ? `<div class="munlock">
+          <span class="munlock-k">解锁</span><b>${esc(unlockReq || unlockName)}</b>
+          ${unlockReq && unlockName ? `<span class="munlock-note">成就「${esc(unlockName)}」</span>` : ""}
+        </div>`
+      : "";
     $("#modal .mbody").innerHTML = `
       <div class="mhead">${head}
         <div><div class="mtitle">${r.name_zh || r.name}</div>
@@ -182,6 +190,7 @@
       ${r.quote ? `<div class="mquote">“${r.quote}”</div>` : ""}
       ${chargeHTML}
       <div class="mdesc">${(r.desc_zh || "（暂无效果描述）").replace(/</g, "&lt;")}</div>
+      ${unlockHTML}
       ${tags.length ? `<div class="mtags">${tags.map(t => `<span class="ctag">${t}</span>`).join("")}</div>` : ""}
       <div class="msub" style="margin-top:10px">${KIND_LABEL[kindKey] || ""}${r.id != null ? " · ID " + r.id : ""}</div>`;
     $("#modal").classList.add("on");

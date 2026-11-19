@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "以撒图鉴 忏悔/忏悔+ · 道具 · 饰品 · 卡牌 · 药丸" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - generic [ref=e5] [cursor=pointer]: 搜索
+      - generic [ref=e6] [cursor=pointer]: 拍照识别
+      - generic [ref=e7] [cursor=pointer]: 说明
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - searchbox "搜道具 / 饰品 / 卡牌：俗称 / 中文名 / 拼音 / 长相" [ref=e11]: 启示录
+      - generic [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]: 全部
+        - generic [ref=e14] [cursor=pointer]: 道具
+        - generic [ref=e15] [cursor=pointer]: 饰品
+        - generic [ref=e16] [cursor=pointer]: 卡牌
+        - generic [ref=e17] [cursor=pointer]: 药丸
+    - generic [ref=e18]: 1 条 · “启示录”
+    - generic "主动道具 · 启示录 · 充能 6 房间（非自动，清房间充能）" [ref=e2941] [cursor=pointer]:
+      - img "启示录" [ref=e2942]
+      - generic "品质 3" [ref=e2943]: "3"
+      - generic "充能 6 房间（非自动，清房间充能）" [ref=e2944]: "6"
+  - generic [ref=e2919]:
+    - generic [ref=e2920] [cursor=pointer]: ✕
+    - generic [ref=e2921]:
+      - generic [ref=e2947]:
+        - generic [ref=e2948]: 启示录
+        - generic [ref=e2949]: Book of Revelations · 主动道具
+        - generic [ref=e2950]: 品质 3
+      - generic [ref=e2951]: “Reusable soul protection”
+      - generic [ref=e2952]:
+        - generic [ref=e2953]: 充能
+        - generic [ref=e2954]: 6 房间
+        - generic [ref=e2955]: 非自动（清房间充能）
+      - generic [ref=e2956]: +1魂心 持有时, 恶魔房/天使房概率+17.5% 使用后, 本层头目由天启骑士取代
+      - generic [ref=e2957]:
+        - generic [ref=e2958]: 解锁
+        - generic [ref=e2959]: 击败饥荒骑士、瘟疫骑士、战争骑士或死亡骑士1次。
+        - generic [ref=e2960]: 成就「启示录」
+      - generic [ref=e2961]:
+        - generic [ref=e2962]: 启示录
+        - generic [ref=e2963]: 启示录书
+        - generic [ref=e2964]: 骑士书
+        - generic [ref=e2965]: 书
+        - generic [ref=e2966]: 灰色
+        - generic [ref=e2967]: 黑色
+      - generic [ref=e2968]: 道具 · ID 78

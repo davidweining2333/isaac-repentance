@@ -293,7 +293,7 @@ for r in cargo["collectible"]:
         "recharge": rc.get("recharge", ""),
         "shop_price": sh.get("shop price", ""),
         "devil_price": dv.get("devil price", ""),
-        "unlocked_by": strip_wiki(r.get("unlocked_by", "")),
+        "unlocked_by": strip_wiki(r.get("unlocked by", "")),
         "added_in": added_in(page),
         "description_en": clean_desc(en_desc) or clean_desc(zh_desc and en_desc),
         "description_zh": clean_desc(zh_desc),
@@ -328,7 +328,7 @@ for r in cargo["trinket"]:
         "quote": t_quotes.get(page, ""),
         "tags": sorted({t["tag"] for t in t_tags.get(page, [])
                         if t.get("tag") and not t["tag"].startswith("@")}),
-        "unlocked_by": strip_wiki(r.get("unlocked_by", "")),
+        "unlocked_by": strip_wiki(r.get("unlocked by", "")),
         "added_in": added_in(page),
         "description_en": clean_desc(en_desc),
         "description_zh": clean_desc(zh_desc),
@@ -342,6 +342,42 @@ for t in trinkets:
     if not t["description_zh"]:
         t["description_zh"] = t["wiki_description"]
 trinkets.sort(key=lambda x: x["id"])
+
+
+# ------------------------------------------------ 解锁条件（道具/饰品）
+# unlocked_by = 解锁成就名；补充成就的中英文解锁条件（zh 按成就 id 关联）
+_zh_ach = {}
+_zh_ach_path = os.path.join(RAW, "zh_achievements.json")
+if os.path.exists(_zh_ach_path):
+    for z in json.load(open(_zh_ach_path, encoding="utf-8")):
+        if str(z.get("id", "")).isdigit():
+            _zh_ach[int(z["id"])] = z
+
+_ach_by_name = {}
+for r in cargo2["achievement"]:
+    rec = {
+        "id": int(r["id"]) if str(r.get("id", "")).isdigit() else None,
+        "name": r.get("name", ""),
+        "requirements": strip_wiki(r.get("requirements", "")),
+    }
+    for k in (r.get("alias", ""), r.get("name", "")):
+        if k:
+            _ach_by_name.setdefault(k, rec)
+
+
+def add_unlock(rec):
+    name = (rec.get("unlocked_by") or "").strip()
+    if not name:
+        return
+    a = _ach_by_name.get(name, {})
+    z = _zh_ach.get(a.get("id"), {}) if a.get("id") is not None else {}
+    rec["unlocked_by_zh"] = z.get("name_zh", "")
+    rec["requirements"] = a.get("requirements", "")
+    rec["requirements_zh"] = (z.get("requirements_zh") or "").strip()
+
+
+for _r in items + trinkets:
+    add_unlock(_r)
 
 
 # ---------------------------------------------------------------- 卡牌 / 药丸
@@ -423,7 +459,7 @@ for r in cargo["player"]:
     characters.append({
         "id": int(r["id"]) if str(r.get("id", "")).isdigit() else None,
         "name": char_names.get(page, page),
-        "unlocked_by": strip_wiki(r.get("unlocked_by", "")),
+        "unlocked_by": strip_wiki(r.get("unlocked by", "")),
         "added_in": added_in(page),
         "damage": dmg.get(page, ""),
         "tears": tears.get(page, ""),
@@ -493,7 +529,7 @@ for r in cargo2["challenge"]:
         "has_shops": r.get("has shops") == "1",
         "has_treasure_rooms": r.get("has treasure rooms") == "1",
         "unlocks": strip_wiki(r.get("unlocks", "")),
-        "unlocked_by": strip_wiki(r.get("unlocked_by", "")),
+        "unlocked_by": strip_wiki(r.get("unlocked by", "")),
         "added_in": added_in(r.get("_pageName", "")),
         "wiki_page": r.get("_pageName", ""),
     })
@@ -556,7 +592,7 @@ for s in stages:
     w = best_row(stage_wiki.get(s["name"], [{}]))
     s["chapter"] = w.get("chapter", "")
     s["bosses"] = [b.strip() for b in w.get("bosses 1", "").split(",") if b.strip()]
-    s["unlocked_by"] = strip_wiki(w.get("unlocked_by", ""))
+    s["unlocked_by"] = strip_wiki(w.get("unlocked by", ""))
     s["wiki_page"] = w.get("link", "")
     add_img(s, "stage", slug(s["name"]), s["name"])
 

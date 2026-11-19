@@ -63,7 +63,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rune of Dagaz",
-    "unlocked_by": "",
+    "unlocked_by": "Darkness Falls",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -80,7 +80,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rune of Ansuz",
-    "unlocked_by": "",
+    "unlocked_by": "The Tank",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -97,7 +97,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rune of Perthro",
-    "unlocked_by": "",
+    "unlocked_by": "Solar System",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -114,7 +114,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Suicide King",
-    "unlocked_by": "",
+    "unlocked_by": "Suicide King 2",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -131,7 +131,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rune of Algiz",
-    "unlocked_by": "",
+    "unlocked_by": "Cat Got Your Tongue",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -148,7 +148,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Chaos Card",
-    "unlocked_by": "",
+    "unlocked_by": "Demo Man",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -165,7 +165,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Credit Card",
-    "unlocked_by": "",
+    "unlocked_by": "Cursed!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -182,7 +182,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rules Card",
-    "unlocked_by": "",
+    "unlocked_by": "Glass Cannon",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -318,7 +318,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Epic Fetus",
-    "unlocked_by": "",
+    "unlocked_by": "The Family Man",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -335,7 +335,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Rune of Berkano",
-    "unlocked_by": "",
+    "unlocked_by": "Purist",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -352,7 +352,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Gold Heart",
-    "unlocked_by": "",
+    "unlocked_by": "XXXXXXXXL",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -369,7 +369,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Get out of Jail Free Card",
-    "unlocked_by": "",
+    "unlocked_by": "SPEED!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -386,7 +386,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Gold Bomb",
-    "unlocked_by": "",
+    "unlocked_by": "Blue Bomber",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -403,7 +403,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "2 new pills",
-    "unlocked_by": "",
+    "unlocked_by": "PAY TO PLAY",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -420,7 +420,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "2 new pills 2",
-    "unlocked_by": "",
+    "unlocked_by": "Have a Heart",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -437,7 +437,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Poker Chip",
-    "unlocked_by": "",
+    "unlocked_by": "I RULE!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -454,7 +454,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Stud Finder",
-    "unlocked_by": "",
+    "unlocked_by": "BRAINS!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -471,7 +471,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "D8",
-    "unlocked_by": "",
+    "unlocked_by": "PRIDE DAY!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -488,7 +488,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Kidney Stone",
-    "unlocked_by": "",
+    "unlocked_by": "Onan's Streak",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -505,7 +505,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Blank Rune",
-    "unlocked_by": "",
+    "unlocked_by": "The Guardian",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -522,7 +522,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Laz Bleeds More!",
-    "unlocked_by": "",
+    "unlocked_by": "Backasswards",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -539,7 +539,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Maggy Now Holds a Pill!",
-    "unlocked_by": "",
+    "unlocked_by": "Aprils fool",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -556,7 +556,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Charged Key",
-    "unlocked_by": "",
+    "unlocked_by": "Pokey Mans",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -573,7 +573,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Samson Feels Healthy!",
-    "unlocked_by": "",
+    "unlocked_by": "Ultra Hard",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -590,7 +590,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Greed's Gullet",
-    "unlocked_by": "",
+    "unlocked_by": "PONG",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -624,7 +624,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Sigil of Baphomet",
-    "unlocked_by": "",
+    "unlocked_by": "Bloody Mary",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -641,7 +641,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Purgatory",
-    "unlocked_by": "",
+    "unlocked_by": "Baptism by Fire",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -658,7 +658,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Spirit Sword",
-    "unlocked_by": "",
+    "unlocked_by": "Isaac's Awakening",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -675,7 +675,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Broken Glasses",
-    "unlocked_by": "",
+    "unlocked_by": "Seeing Double",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -692,7 +692,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Ice Cube",
-    "unlocked_by": "",
+    "unlocked_by": "Pica Run",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -709,7 +709,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "The Chariot",
-    "unlocked_by": "",
+    "unlocked_by": "Hot Potato",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -726,7 +726,7 @@
     "has_shops": true,
     "has_treasure_rooms": false,
     "unlocks": "Justice",
-    "unlocked_by": "",
+    "unlocked_by": "Cantripped!",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -743,7 +743,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "The Hermit",
-    "unlocked_by": "",
+    "unlocked_by": "Red Redemption",
     "added_in": "Rebirth",
     "wiki_page": ""
   },
@@ -760,7 +760,7 @@
     "has_shops": true,
     "has_treasure_rooms": true,
     "unlocks": "Temperance",
-    "unlocked_by": "",
+    "unlocked_by": "DELETE THIS",
     "added_in": "Rebirth",
     "wiki_page": ""
   }

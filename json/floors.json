@@ -56,7 +56,7 @@
       "Rag Man",
       "Widow"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "The Cellar",
     "wiki_page": "Cellar",
     "image": "images/stage/cellar.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Cellar_icon.png"
@@ -77,7 +77,7 @@
       "Monstro",
       "Rag Man"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Burning Basement",
     "wiki_page": "Burning Basement",
     "image": "images/stage/burning_basement.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Burning_Basement_icon.png"
@@ -133,7 +133,7 @@
       "The Stain",
       "The Wretched"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "The Catacombs",
     "wiki_page": "Catacombs",
     "image": "images/stage/catacombs.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Catacombs_icon.png"
@@ -160,7 +160,7 @@
       "Rag Mega",
       "The Stain"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Flooded Caves",
     "wiki_page": "Flooded Caves",
     "image": "images/stage/flooded_caves.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Flooded_Caves_icon.png"
@@ -205,7 +205,7 @@
       "Sisters Vis",
       "War"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "The Necropolis",
     "wiki_page": "Necropolis",
     "image": "images/stage/necropolis.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Necropolis_icon.png"
@@ -226,7 +226,7 @@
       "Sisters Vis",
       "War"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Dank Depths",
     "wiki_page": "Dank Depths",
     "image": "images/stage/dank_depths.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Dank_Depths_icon.png"
@@ -252,7 +252,7 @@
       "Teratoma",
       "Triachnid"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "The Womb",
     "wiki_page": "Womb",
     "image": "images/stage/womb.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Womb_icon.png"
@@ -277,7 +277,7 @@
       "Sisters Vis",
       "Triachnid"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "The Womb",
     "wiki_page": "Utero",
     "image": "images/stage/utero.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Utero_icon.png"
@@ -302,7 +302,7 @@
       "Teratoma",
       "Triachnid"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Scarred Womb",
     "wiki_page": "Scarred Womb",
     "image": "images/stage/scarred_womb.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Scarred_Womb_icon.png"
@@ -393,7 +393,7 @@
       "The Rainmaker",
       "Min-Min"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "A Secret Exit",
     "wiki_page": "Downpour",
     "image": "images/stage/downpour.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Downpour_icon.png"
@@ -412,7 +412,7 @@
       "Lil Blub",
       "Turdlet"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Dross",
     "wiki_page": "Dross",
     "image": "images/stage/dross.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Dross_icon.png"
@@ -430,7 +430,7 @@
       "Great Gideon",
       "Reap Creep"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "A Secret Exit",
     "wiki_page": "Mines",
     "image": "images/stage/mines.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Mines_icon.png"
@@ -448,7 +448,7 @@
       "Great Gideon",
       "The Pile"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Ashpit",
     "wiki_page": "Ashpit",
     "image": "images/stage/ashpit.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Ashpit_icon.png"
@@ -466,7 +466,7 @@
       "Mom",
       "Mom's Heart"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "A Secret Exit",
     "wiki_page": "Mausoleum",
     "image": "images/stage/mausoleum.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Mausoleum_icon.png"
@@ -484,7 +484,7 @@
       "Mom",
       "Mom's Heart"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "Gehenna",
     "wiki_page": "Gehenna",
     "image": "images/stage/gehenna.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Gehenna_icon.png"
@@ -502,7 +502,7 @@
       "Chimera",
       "Mother"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "A Secret Exit",
     "wiki_page": "Corpse",
     "image": "images/stage/corpse.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Corpse_icon.png"
@@ -531,7 +531,7 @@
       "Dogma",
       "The Beast"
     ],
-    "unlocked_by": "",
+    "unlocked_by": "A Strange Door",
     "wiki_page": "Home",
     "image": "images/stage/home.png",
     "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Stage_Home_icon.png"

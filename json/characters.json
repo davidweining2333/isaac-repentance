@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Jacob & Esau",
-    "unlocked_by": "",
+    "unlocked_by": "Jacob and Esau",
     "added_in": "Rebirth",
     "damage": "",
     "tears": "",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "name": "Cain",
-    "unlocked_by": "",
+    "unlocked_by": "Cain",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.20)",
     "tears": "+0",
@@ -28,7 +28,7 @@
   {
     "id": 2,
     "name": "Magdalene",
-    "unlocked_by": "",
+    "unlocked_by": "Magdalene",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -41,7 +41,7 @@
   {
     "id": 3,
     "name": "Judas",
-    "unlocked_by": "",
+    "unlocked_by": "Judas",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.35)",
     "tears": "+0",
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "name": "??? (Character)",
-    "unlocked_by": "",
+    "unlocked_by": "???",
     "added_in": "Rebirth",
     "damage": "",
     "tears": "",
@@ -67,7 +67,7 @@
   {
     "id": 5,
     "name": "Eve",
-    "unlocked_by": "",
+    "unlocked_by": "Eve",
     "added_in": "Rebirth",
     "damage": "3.5 (*0.75)<br>(*1.00 at a Red Heart)",
     "tears": "+0",
@@ -80,7 +80,7 @@
   {
     "id": 6,
     "name": "Samson",
-    "unlocked_by": "",
+    "unlocked_by": "Samson",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "-0.1",
@@ -93,7 +93,7 @@
   {
     "id": 7,
     "name": "Azazel",
-    "unlocked_by": "",
+    "unlocked_by": "Azazel",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.50)",
     "tears": "+0.5; x0.267",
@@ -106,7 +106,7 @@
   {
     "id": 8,
     "name": "Lazarus",
-    "unlocked_by": "",
+    "unlocked_by": "Lazarus",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -119,7 +119,7 @@
   {
     "id": 9,
     "name": "Eden",
-    "unlocked_by": "",
+    "unlocked_by": "Eden",
     "added_in": "Rebirth",
     "damage": "3.5 ± 1.0 (*1.00)",
     "tears": "±0.75",
@@ -132,7 +132,7 @@
   {
     "id": 10,
     "name": "The Lost",
-    "unlocked_by": "",
+    "unlocked_by": "The Lost",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -171,7 +171,7 @@
   {
     "id": 13,
     "name": "Lilith",
-    "unlocked_by": "",
+    "unlocked_by": "Lilith",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -197,7 +197,7 @@
   {
     "id": 14,
     "name": "Keeper",
-    "unlocked_by": "",
+    "unlocked_by": "Keeper",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.20)",
     "tears": "-2",
@@ -210,7 +210,7 @@
   {
     "id": 15,
     "name": "Apollyon",
-    "unlocked_by": "",
+    "unlocked_by": "Apollyon",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -223,7 +223,7 @@
   {
     "id": 16,
     "name": "The Forgotten",
-    "unlocked_by": "",
+    "unlocked_by": "The Forgotten",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.50)",
     "tears": "+0; x1/2",
@@ -236,7 +236,7 @@
   {
     "id": 17,
     "name": "The Forgotten",
-    "unlocked_by": "",
+    "unlocked_by": "The Forgotten",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.50)",
     "tears": "+0; x1/2",
@@ -249,7 +249,7 @@
   {
     "id": 18,
     "name": "Bethany",
-    "unlocked_by": "",
+    "unlocked_by": "Bethany",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -262,7 +262,7 @@
   {
     "id": 21,
     "name": "Tainted Isaac",
-    "unlocked_by": "",
+    "unlocked_by": "The Broken",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -275,7 +275,7 @@
   {
     "id": 22,
     "name": "Tainted Magdalene",
-    "unlocked_by": "",
+    "unlocked_by": "The Dauntless",
     "added_in": "Rebirth",
     "damage": "3.5 (*0.75)",
     "tears": "+0",
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "name": "Tainted Cain",
-    "unlocked_by": "",
+    "unlocked_by": "The Hoarder",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.20)",
     "tears": "+0",
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "name": "Tainted Judas",
-    "unlocked_by": "",
+    "unlocked_by": "The Deceiver",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "name": "Tainted ???",
-    "unlocked_by": "",
+    "unlocked_by": "The Soiled",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "-0.35",
@@ -327,7 +327,7 @@
   {
     "id": 26,
     "name": "Tainted Eve",
-    "unlocked_by": "",
+    "unlocked_by": "The Curdled",
     "added_in": "Rebirth",
     "damage": "3.5 (×1.20)",
     "tears": "-0.5; ×0.66",
@@ -340,7 +340,7 @@
   {
     "id": 27,
     "name": "Tainted Samson",
-    "unlocked_by": "",
+    "unlocked_by": "The Savage",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "-0.1",
@@ -353,7 +353,7 @@
   {
     "id": 28,
     "name": "Tainted Azazel",
-    "unlocked_by": "",
+    "unlocked_by": "The Benighted",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.50)",
     "tears": "+0; x1/3",
@@ -366,7 +366,7 @@
   {
     "id": 29,
     "name": "Tainted Lazarus",
-    "unlocked_by": "",
+    "unlocked_by": "The Enigma",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "name": "Tainted Eden",
-    "unlocked_by": "",
+    "unlocked_by": "The Capricious",
     "added_in": "Rebirth",
     "damage": "3.5 ± 1.0 (*1.00)",
     "tears": "+0.75 to -0.515",
@@ -392,7 +392,7 @@
   {
     "id": 30,
     "name": "Tainted Lazarus",
-    "unlocked_by": "",
+    "unlocked_by": "The Enigma",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -405,7 +405,7 @@
   {
     "id": 31,
     "name": "Tainted Lost",
-    "unlocked_by": "",
+    "unlocked_by": "The Baleful",
     "added_in": "Rebirth",
     "damage": "3.50 (* 1.30)",
     "tears": "+0",
@@ -418,7 +418,7 @@
   {
     "id": 32,
     "name": "Tainted Lilith",
-    "unlocked_by": "",
+    "unlocked_by": "The Harlot",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -431,7 +431,7 @@
   {
     "id": 33,
     "name": "Tainted Keeper",
-    "unlocked_by": "",
+    "unlocked_by": "The Miser",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "-2.2",
@@ -444,7 +444,7 @@
   {
     "id": 34,
     "name": "Tainted Apollyon",
-    "unlocked_by": "",
+    "unlocked_by": "The Empty",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "-0.5",
@@ -457,7 +457,7 @@
   {
     "id": 35,
     "name": "Tainted Forgotten",
-    "unlocked_by": "",
+    "unlocked_by": "The Fettered",
     "added_in": "Rebirth",
     "damage": "3.5 (* 1.50)",
     "tears": "+0; x1/2",
@@ -470,7 +470,7 @@
   {
     "id": 36,
     "name": "Tainted Bethany",
-    "unlocked_by": "",
+    "unlocked_by": "The Zealot",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0",
@@ -483,7 +483,7 @@
   {
     "id": 36,
     "name": "Tainted Forgotten",
-    "unlocked_by": "",
+    "unlocked_by": "The Fettered",
     "added_in": "Rebirth",
     "damage": "3.5 (* 1.50)",
     "tears": "+0; x1/2",
@@ -496,7 +496,7 @@
   {
     "id": 37,
     "name": "Tainted Jacob",
-    "unlocked_by": "",
+    "unlocked_by": "The Deserter",
     "added_in": "Rebirth",
     "damage": "3.5 (*1.00)",
     "tears": "+0.277",
@@ -509,7 +509,7 @@
   {
     "id": null,
     "name": "Jacob & Esau",
-    "unlocked_by": "",
+    "unlocked_by": "Jacob and Esau",
     "added_in": "Rebirth",
     "damage": "",
     "tears": "",

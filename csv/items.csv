@@ -64,7 +64,7 @@ Isaac deals 48 contact damage per second","移速+0.2
 17,Skeleton Key,骷髅钥匙,passive,2,99 keys,+99 Keys,+99钥匙,nocantrip / offensive,,Rebirth,Skeleton Key
 18,A Dollar,一美元,passive,3,$$$,+100 Coins,+100硬币,nocantrip / offensive,,Rebirth,A Dollar
 19,Boom!,轰！,passive,0,10 bombs,+10 Bombs,+10炸弹,offensive,,Rebirth,Boom!
-20,Transcendence,超凡升天,passive,2,We all float down here...,Flight,飞行,nolostbr / summonable,,Rebirth,Transcendence
+20,Transcendence,超凡升天,passive,2,We all float down here...,Flight,飞行,nolostbr / summonable,A Noose,Rebirth,Transcendence
 21,The Compass,指南针,passive,1,The end is near,"Reveals icons on the map
 Does not reveal the layout of the map","在地图上显示图标
 不会显示地图轮廓",lazarussharedglobal / nogreed / offensive / summonable,,Rebirth,The Compass
@@ -94,7 +94,7 @@ Isaac deals 24 contact damage per second","射程+2.5
 31,Mom's Lipstick,妈妈的口红,passive,1,Range up,"+3.75 Range
  Spawns 1 random heart","射程+3.75
  生成1随机心",mom / offensive / summonable,,Rebirth,Mom's Lipstick
-32,Wire Coat Hanger,铁丝衣架,passive,3,Tears up,+0.7 Tears,射速+0.7,offensive / summonable / tearsup,,Rebirth,Wire Coat Hanger
+32,Wire Coat Hanger,铁丝衣架,passive,3,Tears up,+0.7 Tears,射速+0.7,offensive / summonable / tearsup,Wire Coat Hanger,Rebirth,Wire Coat Hanger
 33,The Bible,圣经,active,1,Temporary flight,"Flight for the room
  Kills Mom's Foot and Mom's Heart instantly
  Kills Isaac when used on Satan","在当前房间飞行
@@ -105,7 +105,7 @@ Isaac deals 24 contact damage per second","射程+2.5
  +2 Damage","持有时, 恶魔房/天使房概率+12.5%
  使用后, 在当前房间中获得:
  伤害+2",book / lazarussharedglobal / offensive,,Rebirth,The Book of Belial
-35,The Necronomicon,死灵之书,active,0,Mass room damage,Deals 40 damage to all enemies in the room,对房间中所有敌人造成40点伤害,book / offensive,,Rebirth,The Necronomicon
+35,The Necronomicon,死灵之书,active,0,Mass room damage,Deals 40 damage to all enemies in the room,对房间中所有敌人造成40点伤害,book / offensive,The Necronomicon,Rebirth,The Necronomicon
 36,The Poop,大便,active,0,Plop!,"Spawns one poop and knocks back enemies
 Can be placed next to a pit and destroyed with a bomb to make a bridge","生成1个大便并击退敌人
 可以放在靠近坑的位置然后炸掉作为桥",poop,,Rebirth,The Poop
@@ -153,7 +153,7 @@ It deals 24x Isaac's damage over 0.83 seconds","下一次发射由激光取代
 If that results in over 60 damage, they instead deal 5x damage +30","射速修正x0.4
  角色的泪弹由炸弹取代
  该炸弹造成10x角色伤害
-若结果超过60, 则改为5x+30",offensive / summonable,,Rebirth,Dr. Fetus
+若结果超过60, 则改为5x+30",offensive / summonable,A Fetus in a Jar,Rebirth,Dr. Fetus
 53,Magneto,万磁王,passive,1,Item snatcher,"Pickups are attracted to Isaac
 Opens chests from 2 tiles away, ignoring damage of Spike Chests","角色吸引掉落物
 自动打开2格远的箱子, 忽略刺箱伤害",summonable,,Rebirth,Magneto
@@ -206,8 +206,8 @@ Lv3: Meat Boy
 Lv4: Super Meat Boy","1级: 环绕物
 2级: 可发射泪弹的环绕物
 3级: 食肉男孩
-4级: 超级食肉男孩",monstermanual / summonable,,Rebirth,Cube of Meat
-74,A Quarter,25美分,passive,0,+25 coins,+25 Coins,+25硬币,nocantrip / offensive,,Rebirth,A Quarter
+4级: 超级食肉男孩",monstermanual / summonable,A Cube of Meat,Rebirth,Cube of Meat
+74,A Quarter,25美分,passive,0,+25 coins,+25 Coins,+25硬币,nocantrip / offensive,A Quarter,Rebirth,A Quarter
 75,PHD,药学博士证,passive,2,Better pills,"Heals 2 hearts
  Spawns 1 pill
  Changes bad pills into good pills
@@ -227,7 +227,7 @@ Isaac can't shoot but deals 40 contact damage per second","在6秒内获得:
  +17.5% Devil/Angel Room chance while held
 Using the item replaces the floor's boss with a horseman","+1魂心
  持有时, 恶魔房/天使房概率+17.5%
-使用后, 本层头目由天启骑士取代",book / lazarussharedglobal / nolostbr,,Rebirth,Book of Revelations
+使用后, 本层头目由天启骑士取代",book / lazarussharedglobal / nolostbr,The Book of Revelations,Rebirth,Book of Revelations
 79,The Mark,咒印,passive,3,DMG up,"+1 Damage
  +0.2 Speed
  +1 Black Heart","移速+0.2
@@ -258,20 +258,20 @@ Allows Isaac to destroy rocks by walking into them","使用后:
  伤害+2
  移速-0.18
 角色每秒造成40点接触伤害
-角色可粉碎接触的石头",devil,,Rebirth,The Nail
+角色可粉碎接触的石头",devil,The Nail,Rebirth,The Nail
 84,We Need To Go Deeper!,我们需要深入挖掘！,active,2,Reusable level skip,"Opens a trapdoor to the next floor
  Opens a crawlspace if used on a decorative floor tile (grass, small rocks, papers, gems, etc.)","打开1个跳过本层的活板门
  在有装饰(草/碎石/纸/宝石等)的地板上使用时, 改为生成暗门",offensive,,Rebirth,We Need To Go Deeper!
 85,Deck of Cards,卡牌盒,active,2,Reusable card generator,Spawns 1 card,生成1卡牌,nocantrip / offensive / stars,,Rebirth,Deck of Cards
 86,Monstro's Tooth,萌死戳的牙,active,0,Summon Monstro,"Monstro falls on an enemy and deals 120 damage
  Monstro falls on Isaac if the room has no enemies","召唤萌死戳进行一次践踏, 造成120点伤害
- 若房间没有敌人, 则萌死戳会落在角色上",offensive,,Rebirth,Monstro's Tooth
+ 若房间没有敌人, 则萌死戳会落在角色上",offensive,Monstro's Tooth,Rebirth,Monstro's Tooth
 87,Loki's Horns,洛基的角,passive,1,Cross tears,"25% chance to shoot in 4 directions
  100% chance at 15 luck","25%概率向4个方向发射泪弹
- 幸运15: 100%概率",offensive / summonable,,Rebirth,Loki's Horns
+ 幸运15: 100%概率",offensive / summonable,Loki's Horns,Rebirth,Loki's Horns
 88,Little Chubby,小胖蛆,passive,1,Attack buddy,"Charges forward in the direction Isaac is shooting
 Deals 52.5 contact damage per second","向角色发射方向冲刺
-每秒造成52.5点接触伤害",monstermanual / offensive / summonable,,Rebirth,Little Chubby
+每秒造成52.5点接触伤害",monstermanual / offensive / summonable,Lil' Chubby,Rebirth,Little Chubby
 89,Spider Bite,蜘蛛之咬,passive,2,Slow effect,"25% chance to shoot slowing tears
  100% chance at 15 luck","25%概率发射减速泪弹
  幸运15: 100%概率",offensive / spider / summonable,,Rebirth,Spider Bite
@@ -279,7 +279,7 @@ Deals 52.5 contact damage per second","向角色发射方向冲刺
  +1 Damage
  -0.2 Speed","射速+0.2
  伤害+1
- 移速-0.2",offensive / summonable / tearsup,,Rebirth,The Small Rock
+ 移速-0.2",offensive / summonable / tearsup,A Small Rock,Rebirth,The Small Rock
 91,Spelunker Hat,探窟帽,passive,2,See-through doors,"Rooms on the map are revealed from further away
  Can also reveal Secret and Super Secret Rooms
 Prevents damage from falling projectiles","揭示相邻房间的类型
@@ -289,7 +289,7 @@ Prevents damage from falling projectiles","揭示相邻房间的类型
  Heals 1 heart
  +2 Soul Hearts","+1心之容器
  治疗1红心
- +2魂心",nolostbr,,Rebirth,Super Bandage
+ +2魂心",nolostbr,A Bandage,Rebirth,Super Bandage
 93,The Gamekid,游戏掌机,active,1,Temporary Man-Pac,"Receive for 6.5 seconds:
 Invincibility
 Isaac can't shoot but deals 40 contact damage per second
@@ -298,20 +298,20 @@ Isaac can't shoot but deals 40 contact damage per second
 无敌
 角色无法发射, 但每秒造成40点接触伤害
  每击杀2个敌人治疗半红心
- 使房间中的所有敌人恐惧",offensive,,Rebirth,The Gamekid
-94,Sack of Pennies,硬币袋,passive,1,Gives money,Spawns a random coin every 2 rooms,每2个房间随机生成1硬币,nocantrip / offensive / summonable,,Rebirth,Sack of Pennies
+ 使房间中的所有敌人恐惧",offensive,A Gamekid,Rebirth,The Gamekid
+94,Sack of Pennies,硬币袋,passive,1,Gives money,Spawns a random coin every 2 rooms,每2个房间随机生成1硬币,nocantrip / offensive / summonable,A Bag of Pennies,Rebirth,Sack of Pennies
 95,Robo-Baby,机器宝宝,passive,1,Friends 'till the bbbbzzzt,"Shoots lasers
 Deals 3.5 damage per shot","发射激光
 激光造成3.5点伤害",baby / monstermanual / offensive / summonable / tech,,Rebirth,Robo-Baby
-96,Little C.H.A.D.,查德宝宝,passive,2,Gives kisses,Spawns a half Red Heart every 3 rooms,每3个房间生成1半红心,nocantrip / nolostbr / summonable,,Rebirth,Little C.H.A.D.
-97,The Book of Sin,七原罪之书,active,1,Reusable item generator,Spawns 1 random pickup,生成1随机掉落物,book / offensive,,Rebirth,The Book of Sin
-98,The Relic,圣遗物,passive,3,Soul generator,Spawns 1 Soul Heart every 7-8 rooms,每7-8个房间生成1魂心,nocantrip / nolostbr / summonable,,Rebirth,The Relic
+96,Little C.H.A.D.,查德宝宝,passive,2,Gives kisses,Spawns a half Red Heart every 3 rooms,每3个房间生成1半红心,nocantrip / nolostbr / summonable,Little C.H.A.D.,Rebirth,Little C.H.A.D.
+97,The Book of Sin,七原罪之书,active,1,Reusable item generator,Spawns 1 random pickup,生成1随机掉落物,book / offensive,The Book of Sin,Rebirth,The Book of Sin
+98,The Relic,圣遗物,passive,3,Soul generator,Spawns 1 Soul Heart every 7-8 rooms,每7-8个房间生成1魂心,nocantrip / nolostbr / summonable,A Cross,Rebirth,The Relic
 99,Little Gish,吉什宝宝,passive,1,Sticky friend,"Shoots slowing tears
 Deals 3.5 damage per tear","发射减速泪弹
-泪弹造成3.5点伤害",monstermanual / offensive / summonable,,Rebirth,Little Gish
+泪弹造成3.5点伤害",monstermanual / offensive / summonable,Little Gish,Rebirth,Little Gish
 100,Little Steven,史蒂文宝宝,passive,2,Psychic friend,"Shoots homing tears
 Deals 3.5 damage per tear","发射追踪泪弹
-泪弹造成3.5点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Little Steven
+泪弹造成3.5点伤害",baby / monstermanual / offensive / summonable,Little Steven,Rebirth,Little Steven
 101,The Halo,光环,passive,3,All stats up,"+1 Health
  +0.3 Speed
  +0.2 Tears
@@ -322,18 +322,18 @@ Deals 3.5 damage per tear","发射追踪泪弹
  射速+0.2
  伤害+0.3
  射程+1.5
- 治疗1红心",angel / offensive / summonable / tearsup,,Rebirth,The Halo
+ 治疗1红心",angel / offensive / summonable / tearsup,A Halo,Rebirth,The Halo
 102,Mom's Bottle of Pills,妈妈的药瓶,active,1,Reusable pill generator,Spawns 1 pill,生成1胶囊,mom / nocantrip / offensive,,Rebirth,Mom's Bottle of Pills
 103,The Common Cold,普通感冒,passive,1,Poison damage,"25% chance to shoot poison tears
  100% chance at 12 luck","25%概率发射有毒泪弹
  幸运12: 100%概率",offensive / summonable,,Rebirth,The Common Cold
 104,The Parasite,寄生虫,passive,3,Split shot,"Tears split in two on contact
 Split tears deal half damage","泪弹击中后会分裂为2颗
-分裂的泪弹造成的伤害减半",offensive / summonable,,Rebirth,The Parasite
-105,The D6,六面骰,active,4,Reroll your destiny,Rerolls pedestal items in the room,重置房间中的底座道具,nocantrip / offensive,,Rebirth,The D6
+分裂的泪弹造成的伤害减半",offensive / summonable,The Parasite,Rebirth,The Parasite
+105,The D6,六面骰,active,4,Reroll your destiny,Rerolls pedestal items in the room,重置房间中的底座道具,nocantrip / offensive,The D6,Rebirth,The D6
 106,Mr. Mega,大爆弹先生,passive,2,Blast Damage,"x1.85 Bomb damage
  +5 Bombs","炸弹伤害x1.85
- +5炸弹",offensive,,Rebirth,Mr. Mega
+ +5炸弹",offensive,Mr. Mega,Rebirth,Mr. Mega
 107,The Pinking Shears,锯齿剪,active,2,Cut and run,"Receive for the room:
 Flight
 Isaac's body separates from his head and attacks enemies with 23.5 contact damage per second","在当前房间中获得:
@@ -345,7 +345,7 @@ Isaac's body separates from his head and attacks enemies with 23.5 contact damag
  20% chance to shoot petrifying tears
  50% chance at 20 luck","射程+1.5
  20%概率发射石化泪弹
- 幸运20: 50%概率",mom / offensive / summonable,,Rebirth,Mom's Contacts
+ 幸运20: 50%概率",mom / offensive / summonable,Mom's Contact,Rebirth,Mom's Contacts
 111,The Bean,豆子,active,0,Toot on command,"Deals 5 damage to enemies nearby and poisons them
 The poison deals Isaac's damage 6 times","对附近敌人造成5点伤害并使其中毒
 中毒的敌人受到6次角色伤害",offensive,,Rebirth,The Bean
@@ -355,17 +355,17 @@ Blocks projectiles
 Deals 105 contact damage per second","环绕物
 提高所有其他环绕物的速度
 阻挡弹幕
-每秒造成105点接触伤害",baby / monstermanual / summonable,,Rebirth,Guardian Angel
+每秒造成105点接触伤害",baby / monstermanual / summonable,Guardian Angel,Rebirth,Guardian Angel
 113,Demon Baby,恶魔宝宝,passive,1,Auto-turret friend,"Shoots enemies that get close to him
 Deals 3 damage per tear","自动向靠近的敌人发射
-泪弹造成3点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Demon Baby
+泪弹造成3点伤害",baby / monstermanual / offensive / summonable,Demon Baby,Rebirth,Demon Baby
 114,Mom's Knife,妈妈的菜刀,passive,4,Stab stab stab,"Isaac's tears are replaced by a throwable knife
  The knife deals 2x Isaac's damage while held and caps at 6x damage at 1/3 charge
 Charging further only increases throwing range
 Damage reduces to 2x when returning to Isaac","角色的泪弹由可投掷的菜刀取代
  持拿时菜刀造成2x角色伤害, 蓄力1/3时为上限6x
 继续蓄力只会增加投掷距离
-返回角色时, 伤害降至2x",mom / offensive / summonable,,Rebirth,Mom's Knife
+返回角色时, 伤害降至2x",mom / offensive / summonable,Mom's Knife,Rebirth,Mom's Knife
 115,Ouija Board,通灵板,passive,2,Spectral tears + tears up,"+0.5 Tears
 Spectral tears","射速+0.5
 灵体泪弹",nolostbr / offensive / summonable / tearsup,,Rebirth,Ouija Board
@@ -386,7 +386,7 @@ Persists between rooms if player is at 1/2 hearts","受伤时, 生成1只攻击�
  +0.3 Speed
  Heals 4 hearts","+1心之容器
  移速+0.3
- 治疗4红心",nolostbr,,Rebirth,Blood Bag
+ 治疗4红心",nolostbr,Blood Bag,Rebirth,Blood Bag
 120,Odd Mushroom (Thin),怪异蘑菇(小),passive,2,Tears up + damage down,"+0.3 Speed
  +1.7 Tears
  x0.9 Damage multiplier
@@ -418,8 +418,8 @@ After the first use in a room, deals half a heart instead
  Removes Red Hearts first","在当前房间中伤害+1.2
  对角色造成1心伤害
 在房间中首次使用后, 改为造成半心伤害
- 优先消耗红心",devilsacrifice / nolostbr,,Rebirth,Razor Blade
-127,Forget Me Now,遗忘药,active,3,I don't remember...,Rerolls and restarts the entire floor,重置整层,nocantrip / offensive,,Rebirth,Forget Me Now
+ 优先消耗红心",devilsacrifice / nolostbr,The Razor,Rebirth,Razor Blade
+127,Forget Me Now,遗忘药,active,3,I don't remember...,Rerolls and restarts the entire floor,重置整层,nocantrip / offensive,Forget Me Now,Rebirth,Forget Me Now
 128,Forever Alone,孤独一生,passive,1,Attack fly,"Long range fly orbital
 Deals 30 contact damage per second","远距离苍蝇环绕物
 每秒造成30点接触伤害",fly / monstermanual / offensive / summonable,,Rebirth,Forever alone
@@ -432,8 +432,8 @@ Flight
 Upon use, dashes in the direction of Isaac's movement","持有时:
  设置移速至少为1.5
 飞行
-使用后, 向角色移动方向冲刺",offensive,,Rebirth,A Pony
-131,Bomb Bag,炸弹袋,passive,1,Gives bombs,Spawns 1 bomb pickup every 3 rooms,每3个房间生成1炸弹,nocantrip / offensive / summonable,,Rebirth,Bomb Bag
+使用后, 向角色移动方向冲刺",offensive,The Harbingers,Rebirth,A Pony
+131,Bomb Bag,炸弹袋,passive,1,Gives bombs,Spawns 1 bomb pickup every 3 rooms,每3个房间生成1炸弹,nocantrip / offensive / summonable,A Bag of Bombs,Rebirth,Bomb Bag
 132,A Lump of Coal,煤块,passive,3,My Xmas present,Tears deal more damage the further they travel,泪弹前进越远伤害越高,offensive / summonable,,Rebirth,A Lump of Coal
 133,Guppy's Paw,嗝屁猫的爪子,active,3,Soul converter,Converts 1 heart container into 3 Soul Hearts,将1心之容器转换为3魂心,dead / guppy / nolostbr,,Rebirth,Guppy's Paw
 134,Guppy's Tail,嗝屁猫的尾巴,passive,2,Cursed?,"33% chance to replace the room clear reward with a chest
@@ -497,7 +497,7 @@ Isaac's tears are fired in an arc
  射程修正x0.8
  弹速修正x0.8
 角色的泪弹呈抛物线射出
- 泪弹会爆炸并使击中的敌人中毒",bob / offensive / summonable,,Rebirth,Ipecac
+ 泪弹会爆炸并使击中的敌人中毒",bob / offensive / summonable,Ipecac,Rebirth,Ipecac
 150,Tough Love,严厉的爱,passive,3,Tooth shot,"10% chance to shoot teeth that deal 3.2x Isaac's damage
  100% chance at 9 luck","10%概率发射牙齿, 造成3.2x角色伤害
  幸运9: 100%概率",offensive / summonable,,Rebirth,Tough Love
@@ -521,7 +521,7 @@ Deals 17.1 contact damage per second","左眼伤害修正x1.35
 Applies up to 6 times per floor
 Lasts for the whole floor","受伤时, 伤害增加
 每层能叠加6次
-效果在当前层持续",devilsacrifice / nolostbr / summonable,,Rebirth,Bloody Lust
+效果在当前层持续",devilsacrifice / nolostbr / summonable,Bloody Lust,Rebirth,Bloody Lust
 158,Crystal Ball,水晶球,active,3,I see my future,"Spawns a Soul Heart, rune or card
  Full mapping effect for the floor (except Super/Ultra Secret Room)
 While held:
@@ -540,17 +540,17 @@ Each beam deals 8x Isaac's damage + 160 over 0.8 seconds","在敌人附近生成
 161,Ankh,安卡十字,passive,0,Eternal life?,Respawn as ??? (Blue Baby) on death,"死亡时, 以???(小蓝人)重生",nocantrip / nochallenge / nolostbr,,Rebirth,Ankh
 162,Celtic Cross,凯尔特十字,passive,1,You feel blessed,"Taking damage has a 20% chance to make Isaac temporarily invincible
  100% chance at 27 luck","受伤时, 20%概率使角色暂时无敌
- 幸运27: 100%概率",angel / nolostbr / summonable,,Rebirth,Celtic Cross
+ 幸运27: 100%概率",angel / nolostbr / summonable,Celtic Cross,Rebirth,Celtic Cross
 163,Ghost Baby,幽灵宝宝,passive,1,Spectral buddy,"Shoots spectral tears
 Deals 3.5 damage per tear","发射灵体泪弹
 泪弹造成3.5点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Ghost Baby
 164,The Candle,蓝蜡烛,active,2,Reusable flames,"Throws a blue flame
 It deals contact damage, blocks enemy tears, and despawns after 2 seconds","投掷蓝火
-造成接触伤害, 阻挡弹幕, 2秒后消失",offensive,,Rebirth,The Candle
+造成接触伤害, 阻挡弹幕, 2秒后消失",offensive,Blue Candle,Rebirth,The Candle
 165,Cat-o-nine-tails,九尾鞭,passive,3,Shot speed + damage up,"+1 Damage
  +0.23 Shot speed","伤害+1
  弹速+0.23",offensive / summonable,,Rebirth,Cat-o-nine-tails
-166,D20,二十面骰,active,2,Reroll the basics,Rerolls all pickups in the room,重置房间中的所有掉落物,offensive,,Rebirth,D20
+166,D20,二十面骰,active,2,Reroll the basics,Rerolls all pickups in the room,重置房间中的所有掉落物,offensive,The D20,Rebirth,D20
 167,Harlequin Baby,小丑宝宝,passive,1,Double shot buddy,"Shoots two tears in a V-shaped pattern
 Deals 4 damage per tear","以V字形发射2颗泪弹
 泪弹造成4点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Harlequin Baby
@@ -558,7 +558,7 @@ Deals 4 damage per tear","以V字形发射2颗泪弹
 A missile lands on the crosshair after 1.5 seconds
  Missiles deal 20x Isaac's damage","发射泪弹改为瞄准十字准星
 1.5秒后导弹降落在准星处
- 导弹造成20x角色伤害",offensive / summonable,,Rebirth,Epic Fetus
+ 导弹造成20x角色伤害",offensive / summonable,Epic Fetus,Rebirth,Epic Fetus
 169,Polyphemus,巨人独眼,passive,4,Mega tears,"+4 Damage
  x2 Damage multiplier
  x0.42 Fire rate multiplier
@@ -578,12 +578,12 @@ Enemies killed by the item spawn blue spiders","使敌人减速4秒
 Blocks enemy shots
 Deals 112.5 contact damage per second","环绕物
 阻挡弹幕
-每秒造成112.5点接触伤害",summonable,,Rebirth,Sacrificial Dagger
+每秒造成112.5点接触伤害",summonable,Sacrificial Dagger,Rebirth,Sacrificial Dagger
 173,Mitre,主教冠,passive,3,You feel blessed,33% chance that Red Hearts spawn as Soul Hearts instead,红心生成时有33%概率由魂心取代,angel / summonable,,Rebirth,Mitre
 174,Rainbow Baby,彩虹宝宝,passive,1,Random buddy,"Shoots random tears
 Deals 3-5 damage per tear","发射随机泪弹
 泪弹造成3-5点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Rainbow Baby
-175,Dad's Key,爸爸的钥匙,active,2,Opens all doors...,"Opens all doors in the room, including Secret Rooms, Challenge Rooms, and the Mega Satan door","打开房间中所有的门, 包括隐藏房, 挑战房和超级撒旦的门",offensive,,Rebirth,Dad's Key
+175,Dad's Key,爸爸的钥匙,active,2,Opens all doors...,"Opens all doors in the room, including Secret Rooms, Challenge Rooms, and the Mega Satan door","打开房间中所有的门, 包括隐藏房, 挑战房和超级撒旦的门",offensive,Dad's Key,Rebirth,Dad's Key
 176,Stem Cells,干细胞,passive,1,HP + shot speed up,"+1 Health
  +0.16 Shot speed
  Heals 1 heart","+1心之容器
@@ -597,7 +597,7 @@ Breaks and deals 7 damage upon hitting an enemy
  留下的水迹能石化敌人并造成伤害",offensive / summonable,,Rebirth,Holy Water
 179,Fate,宿命,passive,3,Flight eternal,"+1 Eternal Heart
 Flight","+1永恒之心
-飞行",nolostbr / summonable,,Rebirth,Fate
+飞行",nolostbr / summonable,Fate,Rebirth,Fate
 180,The Black Bean,黑豆,passive,0,Toot on touch,"Isaac farts multiple times when damaged
  The farts leave poison clouds and deflects projectiles","受伤时, 角色放出一连串屁
  屁会留下毒气并偏转弹幕",nolostbr / summonable,,Rebirth,The Black Bean
@@ -606,7 +606,7 @@ Flight while held
 Using the item dashes in the direction of Isaac's movement, leaving behind beams of light","持有时:
  设置移速至少为1.5
 飞行
-使用后, 向角色移动方向冲刺, 留下光柱",offensive,,Rebirth,White Pony
+使用后, 向角色移动方向冲刺, 留下光柱",offensive,A Forgotten Horseman,Rebirth,White Pony
 182,Sacred Heart,圣心,passive,4,Homing shots + DMG up,"+1 Health
  x2.3 Damage multiplier
  +1 Damage
@@ -639,17 +639,17 @@ After the first use in a room, deals half a heart instead
  当前房间中射速修正+0.48
  对角色造成1心伤害
 在房间中首次使用后, 改为造成半心伤害
- 优先消耗红心",devilsacrifice / nolostbr,,Rebirth,Blood Rights
+ 优先消耗红心",devilsacrifice / nolostbr,Blood Rights,Rebirth,Blood Rights
 187,Guppy's Hairball,嗝屁猫的毛球,passive,1,Swing it,"Moving swings the hairball around
 The ball grows when it kills an enemy
 It deals more damage the bigger it is","移动时会使毛球摇动
 毛球击杀敌人时变大
-球越大, 造成的伤害越高",guppy / offensive / summonable,,Rebirth,Guppy's Hairball
+球越大, 造成的伤害越高",guppy / offensive / summonable,Guppy's Hairball,Rebirth,Guppy's Hairball
 188,Abel,亚伯,passive,0,Mirrored buddy,"Mirrors Isaac's movement
 Shoots towards Isaac
 Deals 3.5 damage per tear","与角色移动互为镜像
 向角色发射泪弹
-泪弹造成3.5点伤害",baby / monstermanual / offensive / summonable,,Rebirth,Abel
+泪弹造成3.5点伤害",baby / monstermanual / offensive / summonable,Abel,Rebirth,Abel
 189,SMB Super Fan,超级食肉男孩死忠粉,passive,3,All stats up,"+0.2 Tears
  +0.3 Damage
  +0.2 Speed
@@ -660,7 +660,7 @@ Deals 3.5 damage per tear","与角色移动互为镜像
  射速+0.2
  伤害+0.3
  射程+2.5
- 回满血",offensive / summonable / tearsup,,Rebirth,SMB Super Fan
+ 回满血",offensive / summonable / tearsup,SMB Super Fan,Rebirth,SMB Super Fan
 190,Pyro,烟火盛宴,passive,3,99 bombs,+99 Bombs,+99炸弹,nocantrip / offensive,,Rebirth,Pyro
 191,3 Dollar Bill,3美元纸币,passive,2,Rainbow tears,Isaac's tears get random effects every 2-3 seconds,角色的泪弹每2-3秒获得随机效果,offensive / summonable,,Rebirth,3 Dollar Bill
 192,Telepathy for Dummies,心灵感应傻瓜式教程,active,1,Temporary psychic shot,"Receive for the room:
@@ -713,14 +713,14 @@ Poop spawned by Isaac has a high chance to be golden poop","接触敌人时使�
  +1 Damage
 Isaac's head becomes an orbital that shoots, doesn't take damage and deals 56 contact damage per second","射速修正+0.5
  伤害+1
-角色的头变成环绕物, 不会受到伤害, 每秒造成56点接触伤害",offensive / summonable / tearsup,,Rebirth,Guillotine
+角色的头变成环绕物, 不会受到伤害, 每秒造成56点接触伤害",offensive / summonable / tearsup,Guillotine,Rebirth,Guillotine
 207,Ball of Bandages,绷带球,passive,1,Gotta lick 'em all!,"Lv1: Orbital
  Lv2: Orbital that shoots charmed tears
  Lv3: Bandage Girl
  Lv4: Super Bandage Girl","1级: 环绕物
  2级: 发射魅惑泪弹的环绕物
  3级: 绷带女孩
- 4级: 超级绷带女孩",monstermanual / summonable,,Rebirth,Ball of Bandages
+ 4级: 超级绷带女孩",monstermanual / summonable,A Cube of Meat,Rebirth,Ball of Bandages
 208,Champion Belt,冠军腰带,passive,3,DMG + challenge up,"+1 Damage
 Champion enemy chance +15%
 Doesn't increase chance of champion bosses","伤害+1
@@ -760,7 +760,7 @@ The creep deals 20 damage per second","射程+1.5
 220,Sad Bombs,悲伤炸弹,passive,2,Tear blasts +5 bombs,"+5 Bombs
 Isaac's bombs shoot 10 tears in a circle when they explode","+5炸弹
 角色的炸弹爆炸时环形发射10颗泪弹",offensive / summonable,,Rebirth,Sad Bombs
-221,Rubber Cement,橡胶胶水,passive,3,Bouncing tears,Isaac's tears bounce off enemies and obstacles,角色的泪弹会在敌人和障碍物上反弹,offensive / summonable,,Rebirth,Rubber Cement
+221,Rubber Cement,橡胶胶水,passive,3,Bouncing tears,Isaac's tears bounce off enemies and obstacles,角色的泪弹会在敌人和障碍物上反弹,offensive / summonable,Rubber Cement,Rebirth,Rubber Cement
 222,Anti-Gravity,反重力,passive,1,Anti-gravity tears + tears up,"+1 Fire rate
 Holding the fire buttons causes tears to hover in mid-air
 Releasing the fire buttons shoots them in the direction they were fired","射速修正+1
@@ -807,7 +807,7 @@ Split tears deal half damage","射速修正+0.5
  伤害+1.5
  将所有心之容器转换为黑心
  +2黑心
- 15%概率发射恐惧泪弹",devil / offensive / summonable,,Rebirth,Abaddon
+ 15%概率发射恐惧泪弹",devil / offensive / summonable,Abaddon,Rebirth,Abaddon
 231,Ball of Tar,焦油球,passive,2,Sticky feet...,"10% chance to shoot slowing tears
  100% chance at 18 luck
  Isaac leaves a trail of slowing creep","10%概率发射减速泪弹
@@ -815,7 +815,7 @@ Split tears deal half damage","射速修正+0.5
  角色会留下减速水迹",offensive / summonable,,Rebirth,Ball of Tar
 232,Stop Watch,怀表,passive,4,Let's slow this down a bit...,"+0.3 Speed
  Enemies are permanently slowed down to 80% of their attack and movement speed","移速+0.3
- 使房间中的所有敌人的攻击和移速降至80%",summonable,,Rebirth,Stop Watch
+ 使房间中的所有敌人的攻击和移速降至80%",summonable,Stop Watch,Rebirth,Stop Watch
 233,Tiny Planet,小小星球,passive,0,Orbiting tears + range up,"+6.5 Range
 Spectral tears
 Isaac's tears orbit around him","射程+6.5
@@ -829,20 +829,20 @@ Isaac's tears orbit around him","射程+6.5
 Piercing tears","伤害+1.5
  泪弹尺寸x2
  射速-0.3
-穿刺泪弹",offensive / summonable,,Rebirth,Death's Touch
+穿刺泪弹",offensive / summonable,Death's Touch,Rebirth,Death's Touch
 238,Key Piece 1,钥匙碎片1,passive,0,???,"Getting both parts of the key opens a big golden door
  +25% Angel Room chance
  +2.5% chance for Eternal Hearts","集齐两个钥匙碎片可开启金色大门
  天使房概率+25%
- 永恒之心概率+2.5%",lazarusshared / nocantrip / noeden / offensive / quest / uniquefamiliar,,Rebirth,Key Piece 1
+ 永恒之心概率+2.5%",lazarusshared / nocantrip / noeden / offensive / quest / uniquefamiliar,Angels,Rebirth,Key Piece 1
 239,Key Piece 2,钥匙碎片2,passive,0,???,"Getting both parts of the key opens a big golden door
  +25% Angel Room chance
  +2.5% chance for Eternal Hearts","集齐两个钥匙碎片可开启金色大门
  天使房概率+25%
- 永恒之心概率+2.5%",lazarusshared / nocantrip / noeden / offensive / quest / uniquefamiliar,,Rebirth,Key Piece 2
+ 永恒之心概率+2.5%",lazarusshared / nocantrip / noeden / offensive / quest / uniquefamiliar,Angels,Rebirth,Key Piece 2
 240,Experimental Treatment,实验性疗法,passive,1,"Some stats up, some stats down","Increases 4 random stats
 Decreases 2 random stats","随机提升4项属性
-随机降低2项属性",offensive / syringe,,Rebirth,Experimental Treatment
+随机降低2项属性",offensive / syringe,Experimental Treatment,Rebirth,Experimental Treatment
 241,Contract from Below,地狱契约,passive,2,Wealth... but at what cost?,"Doubles all room clear rewards
 33% chance for no room clear reward","所有房间清理奖励翻倍
 33%概率房间清理奖励消失",nogreed / offensive / summonable,,Rebirth,Contract From Below
@@ -850,16 +850,16 @@ Decreases 2 random stats","随机提升4项属性
 243,Trinity Shield,三位一体盾,passive,2,You feel guarded,Blocks enemy shots coming from the direction Isaac is shooting,阻挡角色发射方向的敌人弹幕,summonable,,Rebirth,Trinity Shield
 244,Tech.5,科技0.5,passive,3,It's still being tested...,"Occasionally shoot lasers in addition to Isaac's tears
 Small chance for lasers to have random effects","时不时发射激光
-激光小概率带有随机效果",offensive / summonable / tech,,Rebirth,Tech.5
+激光小概率带有随机效果",offensive / summonable / tech,Technology .5,Rebirth,Tech.5
 245,20/20,完美视力,passive,4,Double shot,"x0.8 Damage multiplier
 Isaac shoots 2 tears at once","伤害修正x0.8
 角色同时发射2颗泪弹",offensive / summonable,,Rebirth,20/20
-246,Blue Map,蓝地图,passive,1,Secrets,Reveals secret room locations on the map,在地图上揭示隐藏房,lazarussharedglobal / offensive / summonable,,Rebirth,Blue Map
+246,Blue Map,蓝地图,passive,1,Secrets,Reveals secret room locations on the map,在地图上揭示隐藏房,lazarussharedglobal / offensive / summonable,Blue Map,Rebirth,Blue Map
 247,BFFS!,好朋友一辈子！,passive,2,Your friends rule!,Familiars deal double damage,跟班造成的伤害翻倍,offensive / summonable,,Rebirth,BFFS!
 248,Hive Mind,虫群之心,passive,2,Giant spiders and flies,"Blue spiders and flies deal double damage
 Spider and fly familiars become stronger","蓝蜘蛛/蓝苍蝇造成的伤害翻倍
 蜘蛛/苍蝇类跟班变得更强",fly / offensive / spider / summonable,,Rebirth,Hive Mind
-249,There's Options,额外选择,passive,3,More options,Allows Isaac to choose between 2 items after beating a boss,允许角色击败头目后从2个道具中选择,lazarussharedglobal / nocantrip / nogreed / offensive / summonable,,Rebirth,There's Options
+249,There's Options,额外选择,passive,3,More options,Allows Isaac to choose between 2 items after beating a boss,允许角色击败头目后从2个道具中选择,lazarussharedglobal / nocantrip / nogreed / offensive / summonable,There's Options,Rebirth,There's Options
 250,Bogo Bombs,炸弹买一送一,passive,1,1+1 BOOM!,All bomb drops become double bombs,所有炸弹掉落物变成一对炸弹,nocantrip / offensive / summonable,,Rebirth,BOGO Bombs
 251,Starter Deck,新手牌组,passive,2,Extra card room,"Spawns 1 card on pickup
 Isaac can carry 2 cards
@@ -870,7 +870,7 @@ Turns all pills into cards","拾起时, 生成1卡牌
 Isaac can carry 2 pills
 Turns all cards into pills","拾起时, 生成1胶囊
 角色能携带2胶囊
-将所有卡牌变成胶囊",nocantrip / offensive / summonable,,Rebirth,Little Baggy
+将所有卡牌变成胶囊",nocantrip / offensive / summonable,Little Baggy,Rebirth,Little Baggy
 253,Magic Scab,魔法血痂,passive,2,HP + luck up,"+1 Health
  +1 Luck
  Heals 1 heart","+1心之容器
@@ -896,7 +896,7 @@ Turns all cards into pills","拾起时, 生成1胶囊
 击中敌人时, 泪弹有10%概率爆炸
  幸运13: 100%概率
  爆炸也会伤到角色",offensive / summonable,,Rebirth,Fire Mind
-258,Missing No.,编号丢失,passive,0,Syntax error,Rerolls all of Isaac's items and stats on pickup and at every new floor,"拾起时和每次进入新层时, 重置角色属性和持有道具",nocantrip / offensive / summonable,,Rebirth,Missing No.
+258,Missing No.,编号丢失,passive,0,Syntax error,Rerolls all of Isaac's items and stats on pickup and at every new floor,"拾起时和每次进入新层时, 重置角色属性和持有道具",nocantrip / offensive / summonable,Missing No.,Rebirth,Missing No.
 259,Dark Matter,暗物质,passive,3,Fear shot,"+1 Damage
  33% chance to shoot fear tears
  100% chance at 20 luck","伤害+1
@@ -906,7 +906,7 @@ Turns all cards into pills","拾起时, 生成1胶囊
  +1 Black Heart
  +15% Devil/Angel Room chance","免疫诅咒
  +1黑心
- 恶魔房/天使房概率+15%",lazarussharedglobal / offensive / summonable,,Rebirth,Black Candle
+ 恶魔房/天使房概率+15%",lazarussharedglobal / offensive / summonable,Black Candle,Rebirth,Black Candle
 261,Proptosis,眼球突出,passive,3,Short range mega tears,"+0.5 Damage
 Tears deal less damage the longer they are airborne
 Tears deal 3x damage at point blank range and no damage after 0.8 seconds","伤害+0.5
@@ -919,7 +919,7 @@ Taking damage down to 1 heart damages all enemies in the room
  黑心和类似死灵之书的效果造成的伤害翻倍",nolostbr / summonable,,Rebirth,Missing Page 2
 263,Clear Rune,透明符文,active,2,Rune mimic,"Spawns 1 rune on pickup
  Triggers the effect of the rune Isaac holds without using it","拾起时, 生成1符文
- 触发角色持有的符文/魂石的效果",nocantrip / offensive,,Repentance,Clear Rune
+ 触发角色持有的符文/魂石的效果",nocantrip / offensive,Blank Rune,Repentance,Clear Rune
 264,Smart Fly,智能苍蝇,passive,1,Revenge fly,"Orbital
 Attacks enemies when Isaac takes damage
 Deals 6.5 contact damage per second","环绕物
@@ -934,7 +934,7 @@ Spawns 1-2 friendly spiders after clearing a room","留下减速水迹
 Deals 3.5 damage per shot
 Moves in the direction Isaac is shooting","发射激光
 激光造成3.5点伤害
-向角色发射方向移动",baby / monstermanual / offensive / summonable / tech,,Rebirth,Robo-Baby 2.0
+向角色发射方向移动",baby / monstermanual / offensive / summonable / tech,Robo-Baby 2.0,Rebirth,Robo-Baby 2.0
 268,Rotten Baby,腐烂宝宝,passive,3,Infested friend,Spawns blue flies when Isaac shoots,"角色发射时, 生成蓝苍蝇",baby / monstermanual / offensive / summonable,,Rebirth,Rotten Baby
 269,Headless Baby,无头宝宝,passive,1,Bloody friend,Leaves creep which deals 6 damage per second,留下每秒造成6点伤害的水迹,baby / monstermanual / offensive / summonable,,Rebirth,Headless Baby
 270,Leech,水蛭,passive,2,Blood sucker,"Chases enemies
@@ -942,7 +942,7 @@ Moves in the direction Isaac is shooting","发射激光
 Deals 3.2 damage per second","追击敌人
  击杀敌人时为角色治疗半红心
 每秒造成3.2点接触伤害",monstermanual / offensive / summonable,,Rebirth,Leech
-271,Mystery Sack,神秘的袋子,passive,2,?,Spawns a random pickup every 5-6 rooms,每5-6个房间生成1随机掉落物,offensive / summonable,,Rebirth,Mystery Sack
+271,Mystery Sack,神秘的袋子,passive,2,?,Spawns a random pickup every 5-6 rooms,每5-6个房间生成1随机掉落物,offensive / summonable,Mystery Sack,Rebirth,Mystery Sack
 272,BBF,大美蝇,passive,0,Big Beautiful Fly,"Friendly exploding fly
 The explosion deals 100 damage
  The explosion can hurt Isaac","友好的爆炸苍蝇
@@ -967,7 +967,7 @@ The heart charges up when Isaac fires and releases a burst of tears when he stop
  If the heart familiar gets hit, Isaac takes damage","角色无敌
 生成跟随角色的心脏
 角色发射时心脏蓄力, 停止发射时释放散射泪弹
- 心脏受伤时, 角色也会受伤",nolostbr / summonable / uniquefamiliar,,Rebirth,Isaac's Heart
+ 心脏受伤时, 角色也会受伤",nolostbr / summonable / uniquefamiliar,Isaac's Heart,Rebirth,Isaac's Heart
 277,Lil Haunt,恶灵宝宝,passive,1,Fear him,"Chases and fears enemies
 Deals 4 contact damage per second","追击并使敌人恐惧
 每秒造成4点接触伤害",monstermanual / offensive / summonable,,Rebirth,Lil Haunt
@@ -992,12 +992,12 @@ Rerolls all pedestal items, pickups and rocks in the room
 Restarts the room, respawns all enemies and devolves them","复制房间中的1掉落物
 重置角色的移速, 射速, 伤害, 射程和被动道具
 重置房间中的所有底座道具, 掉落物和石头
-重新开始当前房间, 重生所有敌人并降级",nocantrip / offensive,,Rebirth,D100
-284,D4,四面骰,active,1,Reroll into something else,Reroll all of Isaac's passive items,重置所有角色持有的被动道具,nocantrip / offensive,,Rebirth,D4
+重新开始当前房间, 重生所有敌人并降级",nocantrip / offensive,The D100,Rebirth,D100
+284,D4,四面骰,active,1,Reroll into something else,Reroll all of Isaac's passive items,重置所有角色持有的被动道具,nocantrip / offensive,The D4,Rebirth,D4
 285,D10,十面骰,active,1,Reroll enemies,"Devolves all enemies in the room
 For instance, all Red Flies become Black Flies","使房间中所有敌人降级
 例如, 所有红苍蝇变成黑苍蝇",offensive,,Rebirth,D10
-286,Blank Card,空白卡牌,active,2,Card mimic,Triggers the effect of the card Isaac holds without using it,触发角色持有的卡牌的效果,nocantrip / offensive,,Rebirth,Blank Card
+286,Blank Card,空白卡牌,active,2,Card mimic,Triggers the effect of the card Isaac holds without using it,触发角色持有的卡牌的效果,nocantrip / offensive,Blank Card,Rebirth,Blank Card
 287,Book of Secrets,秘密之书,active,0,Tome of knowledge,"Highlights tinted and crawlspace rocks in the room
  Receive one of these effects for the floor:
  Treasure Map
@@ -1010,11 +1010,11 @@ Only grants effects not already active
  指南针 
  蓝地图
 只获得尚未激活的效果
- 如果三者都已拥有, 获得X光透视效果",book / offensive,,Rebirth,Book of Secrets
+ 如果三者都已拥有, 获得X光透视效果",book / offensive,Book of Secrets,Rebirth,Book of Secrets
 288,Box of Spiders,蜘蛛盒,active,1,It's a box of spiders,Spawns 4-8 blue spiders,生成4-8只蓝蜘蛛,offensive / spider,,Rebirth,Box of Spiders
 289,Red Candle,红蜡烛,active,1,Flame on,"Throws a red flame
 It deals contact damage, blocks enemy tears, and disappears when it has dealt damage or blocked shots 4 times or after 10 seconds","投掷红火
-火焰可造成接触伤害, 阻挡弹幕, 在造成或阻挡4次伤害后或10秒后消失",offensive,,Rebirth,Red Candle
+火焰可造成接触伤害, 阻挡弹幕, 在造成或阻挡4次伤害后或10秒后消失",offensive,Red Candle,Rebirth,Red Candle
 290,The Jar,罐子,active,0,Save your life,"Picking up Red Hearts while at full health stores up to 4 of them in the Jar
 Using the item drops all stored hearts on the floor","满血时, 最多将4红心存入罐中
 使用时, 所存红心全部掉在地上",nocantrip / nolostbr,,Rebirth,The Jar
@@ -1031,13 +1031,13 @@ Purchasing these devil deals has the same consequences as those in Devil Rooms
 Does not affect item pedestals in The Void floor","+1黑心
  在头目战斗前使用, 头目房道具会变成恶魔交易
 购买恶魔交易与在恶魔房后果相同
-不影响虚空层的底座道具",book / nolostbr / offensive,,Rebirth,Satanic Bible
+不影响虚空层的底座道具",book / nolostbr / offensive,Satanic Bible,Rebirth,Satanic Bible
 293,Head of Krampus,坎卜斯的头,active,1,Krampus rage,"Shoot a 4-way blood beam
 They each deal 200 damage over 1.33 seconds","在四个方向上发射硫磺火激光
-每道激光在1.33秒内造成200点伤害",offensive,,Rebirth,Head of Krampus
+每道激光在1.33秒内造成200点伤害",offensive,Head of Krampus,Rebirth,Head of Krampus
 294,Butter Bean,棉豆,active,0,Reusable knock-back,"Knocks back nearby enemies and projectiles
 Enemies pushed into obstacles take 10 damage","击退附近的敌人和弹幕
-将敌人击退到障碍物上会造成10点伤害",offensive,,Rebirth,Butter Bean
+将敌人击退到障碍物上会造成10点伤害",offensive,Butter Bean,Rebirth,Butter Bean
 295,Magic Fingers,魔术手指,active,0,Pay to win,"Deals 2x Isaac's damage + 10 to all enemies in the room
  Costs 1 coin","对房间中所有敌人造成2x角色伤害+10的伤害
  花费1硬币",offensive,,Rebirth,Magic Fingers
@@ -1061,7 +1061,7 @@ Home: Red Key","根据所在层生成奖励:
 ???/虚空: 无
 阴间: 1道具+1; 教堂: 1道具+1
 暗室: 解锁搬家盒; 玩具箱: 1
-家: 红钥匙",offensive,,Rebirth,Pandora's Box
+家: 红钥匙",offensive,Pandora's Box,Rebirth,Pandora's Box
 298,Unicorn Stump,独角兽的残角,active,1,You feel stumped,"Receive for 6 seconds:
  +0.28 Speed
 Invincibility
@@ -1124,13 +1124,13 @@ Increases tear knockback","射速修正+0.5
  x0.66 Tears multiplier
  -0.5 Shot speed","伤害修正x2
  射速修正x0.66
- 弹速-0.5",offensive / summonable,,Rebirth,Eve's Mascara
-311,Judas' Shadow,犹大的影子,passive,3,Sweet revenge,"When dead, respawn as Dark Judas with a x2 damage multiplier","死亡时, 以伤害修正x2的犹大之影重生",nocantrip / nochallenge / nolostbr,,Rebirth,Judas' Shadow
+ 弹速-0.5",offensive / summonable,Eve's Mascara,Rebirth,Eve's Mascara
+311,Judas' Shadow,犹大的影子,passive,3,Sweet revenge,"When dead, respawn as Dark Judas with a x2 damage multiplier","死亡时, 以伤害修正x2的犹大之影重生",nocantrip / nochallenge / nolostbr,Judas' Shadow,Rebirth,Judas' Shadow
 312,Maggy's Bow,抹大拉的蝴蝶结,passive,2,HP up + you feel healthy,"+1 Health
  Heals 1 heart
 All Red Hearts heal double their value","+1心之容器
  治疗1红心
-所有红心治疗量翻倍",nolostbr / summonable,,Rebirth,Maggy's Bow
+所有红心治疗量翻倍",nolostbr / summonable,Maggy's Bow,Rebirth,Maggy's Bow
 313,Holy Mantle,神圣屏障,passive,4,Holy shield,Negates the first hit taken once per room,阻挡每个房间第一次受到的伤害,angel / summonable,,Rebirth,Holy Mantle
 314,Thunder Thighs,霹雳大腿,passive,1,HP up + speed down + you feel stompy,"+1 Health
  -0.4 Speed
@@ -1153,13 +1153,13 @@ Deals 6 contact damage per second","近战跟班
 每秒造成6点接触伤害",monstermanual / offensive / stars / summonable,,Rebirth,Gemini (Item)
 319,Cain's Other Eye,该隐的另一只眼,passive,2,Near-sighted friend,"Shoots tears in random directions with the same effects as Isaac
  Deals 75% of Isaac's damage","向随机方向发射与角色相同效果的泪弹
- 造成75%角色伤害",offensive / summonable,,Rebirth,Cain's Other Eye
+ 造成75%角色伤害",offensive / summonable,Cain's Other Eye,Rebirth,Cain's Other Eye
 320,???'s Only Friend,???唯一的朋友,passive,1,Controlled friend,"Controllable fly
 Deals 15 contact damage per second","可控制的苍蝇
-造成每秒15点接触伤害",fly / monstermanual / offensive / summonable,,Rebirth,???'s Only Friend
+造成每秒15点接触伤害",fly / monstermanual / offensive / summonable,???'s Only Friend,Rebirth,???'s Only Friend
 321,Samson's Chains,参孙的脚镣,passive,1,The ol' ball and chain,"Draggable ball that can destroy rocks
 Deals 10.7 contact damage per second","可拖动的球, 能够摧毁石头
-每秒造成10.7点接触伤害",summonable,,Rebirth,Samson's Chains
+每秒造成10.7点接触伤害",summonable,Samson's Chains,Rebirth,Samson's Chains
 322,Mongo Baby,蒙戈宝宝,passive,2,Mongo friend,"Mimics your baby familiars' tears
 If you have none, shoots normal 3.5 damage tears","复制其他跟班的泪弹效果
 若没有跟班, 则发射普通的3.5伤害泪弹",baby / monstermanual / offensive / summonable,,Rebirth,Mongo Baby
@@ -1167,11 +1167,11 @@ If you have none, shoots normal 3.5 damage tears","复制其他跟班的泪弹�
 The tears copy Isaac's tear effects, plus 5 damage
 Recharges by shooting tears","向8个方向发射泪弹
 泪弹复制角色泪弹的效果, 外加5点伤害
-发射泪弹时充能",offensive,,Rebirth,Isaac's Tears
-324,Undefined,未定义,active,1,Undefined,"Teleports Isaac to the Treasure, Secret, Super Secret or I AM ERROR Room",传送至宝箱房/隐藏房/超级隐藏房/错误房,offensive,,Rebirth,Undefined
+发射泪弹时充能",offensive,Isaac's Tears,Rebirth,Isaac's Tears
+324,Undefined,未定义,active,1,Undefined,"Teleports Isaac to the Treasure, Secret, Super Secret or I AM ERROR Room",传送至宝箱房/隐藏房/超级隐藏房/错误房,offensive,Undefined,Rebirth,Undefined
 325,Scissors,剪刀,active,0,Lose your head,"Isaac's head turns into a stationary familiar for the room
 The body is controlled separately and gushes blood tears in the direction Isaac is shooting","当前房间中将角色的头变为不动的跟班
-独立控制角色身体, 向发射方向抛射泪弹",offensive,,Rebirth,Scissors
+独立控制角色身体, 向发射方向抛射泪弹",offensive,The Scissors,Rebirth,Scissors
 326,Breath of Life,生命之息,active,1,Invincibility at a cost,"Holding down the USE button empties the charge bar
 Isaac is temporarily invincible when the charge bar is empty
 Isaac summons light beams on contact with enemies when invincible
@@ -1181,10 +1181,10 @@ If damage is blocked with perfect timing, shoot a 4-way holy beam and gain a bri
 无敌时, 角色接触到敌人会召唤光柱
 如果阻挡伤害时机完美, 则发射4向圣光并获得短暂护盾
  按住过久会对角色造成伤害",nocantrip / nolostbr,,Rebirth,Breath of Life
-327,The Polaroid,全家福,passive,2,Fate chosen,Taking damage at half a Red Heart or none makes Isaac temporarily invincible for 5 seconds,"若不多于半红心时受伤, 则获得5秒无敌",lazarusshared / noeden / offensive / quest,,Rebirth,The Polaroid
+327,The Polaroid,全家福,passive,2,Fate chosen,Taking damage at half a Red Heart or none makes Isaac temporarily invincible for 5 seconds,"若不多于半红心时受伤, 则获得5秒无敌",lazarusshared / noeden / offensive / quest,The Polaroid,Rebirth,The Polaroid
 328,The Negative,底片,passive,2,Fate chosen,"+1 Damage
 Taking damage at half a Red Heart or none damages all enemies in the room","伤害+1
-若不多于半红心时受伤, 则对房间中所有敌人造成伤害",lazarusshared / noeden / offensive / quest,,Rebirth,The Negative
+若不多于半红心时受伤, 则对房间中所有敌人造成伤害",lazarusshared / noeden / offensive / quest,The Negative,Rebirth,The Negative
 329,The Ludovico Technique,鲁多维科科技,passive,1,Controlled tears,"+0.2 Shot speed
 Replaces Isaac's tears with one giant controllable tear","弹速+0.2
 角色的泪弹由1颗巨大的可控泪弹取代",offensive / summonable,,Rebirth,The Ludovico Technique
@@ -1203,13 +1203,13 @@ Tears gain an aura that deals 60 damage per second","伤害+0.5
  射速-0.3
  弹速-0.3
 追踪泪弹
- 泪弹具有光环, 每秒造成60点伤害",angel / offensive / summonable,,Rebirth,Godhead
-332,Lazarus' Rags,拉撒路的绷带,passive,1,Eternal life?,"When dead, revive as Lazarus (Risen)","死亡时, 以'复活的拉撒路'重生",nocantrip / nochallenge / nolostbr,,Rebirth,Lazarus' Rags
-333,The Mind,思想,passive,3,I know all,Full mapping effect,获得完整的地图效果,lazarussharedglobal / offensive / summonable,,Rebirth,The Mind
-334,The Body,肉体,passive,3,I feel all,+3 Health,+3心之容器,nolostbr,,Rebirth,The Body
+ 泪弹具有光环, 每秒造成60点伤害",angel / offensive / summonable,Godhead,Rebirth,Godhead
+332,Lazarus' Rags,拉撒路的绷带,passive,1,Eternal life?,"When dead, revive as Lazarus (Risen)","死亡时, 以'复活的拉撒路'重生",nocantrip / nochallenge / nolostbr,Lazarus' Rags,Rebirth,Lazarus' Rags
+333,The Mind,思想,passive,3,I know all,Full mapping effect,获得完整的地图效果,lazarussharedglobal / offensive / summonable,The Mind,Rebirth,The Mind
+334,The Body,肉体,passive,3,I feel all,+3 Health,+3心之容器,nolostbr,The Body,Rebirth,The Body
 335,The Soul,灵魂,passive,3,I am all,"+2 Soul Hearts
 Grants an aura that repels enemies and projectiles","+2魂心
-获得排斥敌人和弹幕的光环",summonable,,Rebirth,The Soul
+获得排斥敌人和弹幕的光环",summonable,The Soul,Rebirth,The Soul
 336,Dead Onion,烂洋葱,passive,2,Toxic aura tears,"+0.22 Tear size
  -1.5 Range
  -0.4 Shot speed
@@ -1263,7 +1263,7 @@ Size down
  治疗1红心",food / nolostbr,,Rebirth,A Snack
 347,Diplopia,复视,active,3,Double item vision,Duplicates all item pedestals and pickups in the room,复制房间中所有底座道具和掉落物,offensive,,Afterbirth,Diplopia
 348,Placebo,安慰剂,active,1,Pill mimic,Triggers the effect of the pill Isaac holds without using it,触发角色持有胶囊的效果,nocantrip / offensive,,Afterbirth,Placebo
-349,Wooden Nickel,木制镍币,active,1,Flip a coin,59% chance to spawn a random coin,59%概率生成1随机硬币,offensive,,Afterbirth,Wooden Nickel
+349,Wooden Nickel,木制镍币,active,1,Flip a coin,59% chance to spawn a random coin,59%概率生成1随机硬币,offensive,Wooden Nickel,Afterbirth,Wooden Nickel
 350,Toxic Shock,毒性休克,passive,3,Mass poison,"Entering a room poisons all enemies
 Enemies killed leave a puddle of creep
 The creep deals 30 damage per second","进入房间时, 使所有敌人中毒
@@ -1305,7 +1305,7 @@ x0.75 Bomb damage","+5炸弹
 356,Car Battery,车载电池,passive,3,Double charge!,Using an active item triggers its effect twice,使用主动道具时触发效果两次,battery / nocantrip / offensive / summonable,,Afterbirth,Car Battery
 357,Box of Friends,朋友盒,active,1,Double your friends,"Duplicates all your familiars for the room
  Grants a Demon Baby for the room if Isaac has no familiars","在当前房间复制所有跟班
- 若没有跟班, 则在当前房间获得1个恶魔宝宝",offensive,,Afterbirth,Box of Friends
+ 若没有跟班, 则在当前房间获得1个恶魔宝宝",offensive,Box of Friends,Afterbirth,Box of Friends
 358,The Wiz,蠢巫帽,passive,0,Double wiz shot!,"Spectral tears
 Isaac shoots 2 tears at once diagonally","灵体泪弹
 同时对角发射2颗泪弹",offensive / summonable,,Afterbirth,The Wiz
@@ -1314,18 +1314,18 @@ Increases knockback","伤害+1.5
 提高击退力",offensive / summonable,,Afterbirth,8 Inch Nails
 360,Incubus,淫魔,passive,4,Dark friend,"Shoots tears with the same effects as Isaac
  Deals 75% of Isaac's damage","发射泪弹, 效果和属性与角色一致
- 造成75%角色伤害",baby / monstermanual / offensive / summonable,,Afterbirth,Incubus
+ 造成75%角色伤害",baby / monstermanual / offensive / summonable,Incubus,Afterbirth,Incubus
 361,Fate's Reward,宿命的报答,passive,2,Your fate beside you,"Shoots tears with the same damage and effects as Isaac
 Shoots at half the rate of other familiars","发射泪弹, 效果和属性与角色一致
-射速是其他跟班的一半",monstermanual / offensive / summonable,,Afterbirth,Fate's Reward
-362,Lil Chest,小箱子,passive,2,What's in the box?,35% chance to spawn a pickup every room,"清理房间后, 35%概率生成1随机掉落物",offensive / summonable,,Afterbirth,Lil Chest
+射速是其他跟班的一半",monstermanual / offensive / summonable,Fate's Reward,Afterbirth,Fate's Reward
+362,Lil Chest,小箱子,passive,2,What's in the box?,35% chance to spawn a pickup every room,"清理房间后, 35%概率生成1随机掉落物",offensive / summonable,Lil' Chest,Afterbirth,Lil Chest
 363,Sworn Protector,宣誓守护者,passive,2,Protective friend,"Orbital
 Deals 105 contact damage per second
 Blocks and attracts enemy shots
  Blocking 10 shots in one room spawns an Eternal Heart","环绕物
 每秒造成105点接触伤害
 吸引并阻挡弹幕
-在1个房间中阻挡10颗弹幕时, 生成1永恒之心",baby / monstermanual / summonable,,Afterbirth,Sworn Protector
+在1个房间中阻挡10颗弹幕时, 生成1永恒之心",baby / monstermanual / summonable,Sworn Protector,Afterbirth,Sworn Protector
 364,Friend Zone,浅交朋友,passive,1,Friendly fly,"Midrange fly orbital
 Deals 45 contact damage per second","中距离苍蝇环绕物
 每秒造成45点接触伤害",fly / monstermanual / offensive / summonable,,Afterbirth,Friend Zone
@@ -1387,7 +1387,7 @@ Locked blocks, doors and chests must be opened with coins instead of keys","+5�
  钥匙方块, 门和箱子必须用硬币打开而不是钥匙",lazarussharedglobal / nocantrip / offensive / summonable,,Afterbirth,Pay To Play
 381,Eden's Blessing,伊甸的祝福,passive,3,Your future shines brighter,"+0.7 Tears
 Grants a random item at the start of the next run","射速+0.7
-下一局开始时, 获得1随机道具",nocantrip / offensive / summonable / tearsup,,Afterbirth,Eden's Blessing
+下一局开始时, 获得1随机道具",nocantrip / offensive / summonable / tearsup,Eden's Blessing,Afterbirth,Eden's Blessing
 382,Friendly Ball,友好球,active,1,Gotta fetch 'em all!,"Can be thrown at enemies to capture them
  Using the item after capturing an enemy spawns the capture as a friendly companion
 Walking over the ball after a capture instantly recharges the item","可以扔向敌人将其捕捉
@@ -1409,22 +1409,22 @@ Lv4: Chases enemies, occasionally dropping bombs, can spawn item on coin pickup"
 4级: 继续捡硬币, 能生成掉落物或道具",offensive / summonable,,Afterbirth,Bumbo
 386,D12,十二面骰,active,1,Rerolls rocks,"Rerolls any obstacle into another random obstacle (e.g. poop, pots, TNT, red poop, stone blocks etc.)
 Small chance to reroll obstacles into buttons, killswitches, crawlspaces or trapdoors","将障碍物重置为其他随机类型的障碍物(大便/罐子/TNT/红大便/石头等)
-小概率重置为按钮/击杀按钮/暗门/活板门",offensive,,Afterbirth,D12
-387,Censer,香炉,passive,2,Peace be with you,Familiar surrounded by a huge aura of light that slows down enemies and projectiles in it,"被大片光环围绕的跟班, 能够使其中的敌人和弹幕减速",summonable,,Afterbirth,Censer
+小概率重置为按钮/击杀按钮/暗门/活板门",offensive,D12,Afterbirth,D12
+387,Censer,香炉,passive,2,Peace be with you,Familiar surrounded by a huge aura of light that slows down enemies and projectiles in it,"被大片光环围绕的跟班, 能够使其中的敌人和弹幕减速",summonable,Censer,Afterbirth,Censer
 388,Key Bum,钥匙乞丐,passive,0,He wants your keys!,"Picks up nearby keys
  Spawns random chests in return","捡起附近的钥匙
- 生成随机箱子作为回报",offensive / summonable,,Afterbirth,Key Bum
-389,Rune Bag,符文袋,passive,3,Rune generator,Spawns a random rune or Soul Stone every 7-8 rooms,每7-8个房间生成1随机符文/魂石,nocantrip / offensive / summonable,,Afterbirth,Rune Bag
+ 生成随机箱子作为回报",offensive / summonable,Key Bum,Afterbirth,Key Bum
+389,Rune Bag,符文袋,passive,3,Rune generator,Spawns a random rune or Soul Stone every 7-8 rooms,每7-8个房间生成1随机符文/魂石,nocantrip / offensive / summonable,Rune Bag,Afterbirth,Rune Bag
 390,Seraphim,撒拉弗,passive,3,Sworn friend,"Shoots Sacred Heart tears
 Deals 10 damage per tear","发射圣心泪弹
 泪弹造成10点伤害",angel / baby / monstermanual / offensive / summonable,,Afterbirth,Seraphim
-391,Betrayal,背叛,passive,1,Turn your enemy,"Enemies can hit each other with their projectiles, and start infighting","敌人弹幕会击中其他敌人, 并引起内讧",offensive / summonable,,Afterbirth,Betrayal
-392,Zodiac,黄道十二宫,passive,1,The heavens will change you,Grants a random zodiac item effect every floor,每层获得1个随机星座道具效果,offensive / stars / summonable,,Afterbirth,Zodiac
+391,Betrayal,背叛,passive,1,Turn your enemy,"Enemies can hit each other with their projectiles, and start infighting","敌人弹幕会击中其他敌人, 并引起内讧",offensive / summonable,Betrayal,Afterbirth,Betrayal
+392,Zodiac,黄道十二宫,passive,1,The heavens will change you,Grants a random zodiac item effect every floor,每层获得1个随机星座道具效果,offensive / stars / summonable,Zodiac,Afterbirth,Zodiac
 393,Serpent's Kiss,蛇蝎之吻,passive,2,The kiss of death,"15% chance to shoot poison tears
  Poison enemies on contact
  Enemies killed by contact poison have a 20% chance to drop a Black Heart on death","15%概率发射有毒泪弹
  使接触的敌人中毒
- 因接触而中毒的敌人死亡时, 20%概率掉落黑心",offensive / summonable,,Afterbirth,Serpent's Kiss
+ 因接触而中毒的敌人死亡时, 20%概率掉落黑心",offensive / summonable,Serpent's Kiss,Afterbirth,Serpent's Kiss
 394,Marked,十字准星,passive,0,Directed tears,"+0.7 Tears
  +3 Range
 Isaac automatically shoots tears at a movable red target on the ground
@@ -1452,7 +1452,7 @@ Shrunken enemies can be crushed and killed by walking over them","20%概率发�
 缩小的敌人可以被踩死",mushroom / offensive / summonable,,Afterbirth,God's Flesh
 399,Maw of the Void,虚空之喉,passive,3,Consume thy enemy!,"Firing tears for 2.35 seconds and releasing the fire button creates a black brimstone ring around Isaac
 It deals 30x Isaac's damage over 2 seconds","持续发射泪弹2.35秒后, 松开发射键会产生黑硫磺火圈
-黑圈在2秒内造成30x角色伤害",devil / offensive / summonable,,Afterbirth,Maw Of The Void
+黑圈在2秒内造成30x角色伤害",devil / offensive / summonable,Maw of the Void,Afterbirth,Maw Of The Void
 400,Spear of Destiny,命运之矛,passive,1,Your destiny,"Isaac holds a spear in front of him
  The spear deals twice his damage and can fear enemies on contact","在角色面前生成一根矛
  每秒造成约8.57x角色伤害, 概率使接触到的敌人恐惧",offensive / summonable,,Afterbirth,Spear Of Destiny
@@ -1471,13 +1471,13 @@ Randomly spawns batteries or blue spiders","显示泪弹伤害和所有敌人的
 When hit, 10% chance to fart and charm, poison or knockback enemies
 The farts deal 5-6 damage","阻挡弹幕
 受击时, 10%概率放屁, 效果为魅惑/中毒/击退三种其一
-屁造成5-6点伤害",baby / monstermanual / summonable,,Afterbirth,Farting Baby
+屁造成5-6点伤害",baby / monstermanual / summonable,Fart Baby,Afterbirth,Farting Baby
 405,GB Bug,恶性漏洞,passive,1,"Game breaking bug, right away!","Throwable (double-tap shoot)
 Rerolls enemies and pickups it comes in contact with","可投掷(双击发射键)
-重置其接触到的敌人和掉落物",offensive / summonable,,Afterbirth,GB Bug
+重置其接触到的敌人和掉落物",offensive / summonable,GB Bug,Afterbirth,GB Bug
 406,D8,八面骰,active,1,Reroll stats,"Multiplies Isaac's damage, tears, range and speed stats by between x0.5 and x2
 The multipliers are rerolled each use","角色的伤害, 射速, 射程, 移速属性的修正x0.5-x2
-修正在每次使用后重置",offensive,,Afterbirth,D8
+修正在每次使用后重置",offensive,D8,Afterbirth,D8
 407,Purity,纯洁,passive,3,Aura stat boost,"Boosts one of Isaac's stats depending on the color of the aura
 Taking damage removes the effect, and grants a new effect in the next room
 Yellow = +0.5 Speed
@@ -1488,35 +1488,35 @@ Orange = +3 Range","根据光环颜色对角色属性进行增强
 黄色 = 移速+0.5
 蓝色 = 射速修正+2
 红色 = 伤害+4
-橙色 = 射程+3",offensive / summonable / tearsup,,Afterbirth,Purity
+橙色 = 射程+3",offensive / summonable / tearsup,Purity,Afterbirth,Purity
 408,Athame,祭祀之刃,passive,3,Call to the void,"25% chance for a black brimstone ring to spawn around killed enemies
 It deals 30x Isaac's damage over 2 seconds
  +2.5% chance per luck","25%概率在被击杀敌人周围生成黑色硫磺火圈
 黑圈2秒内造成30x角色伤害
- 每点幸运+2.5%概率",offensive / summonable,,Afterbirth,Athame
+ 每点幸运+2.5%概率",offensive / summonable,Athame,Afterbirth,Athame
 409,Empty Vessel,空容器,passive,2,I reward an empty vessel,"+2 Black Hearts
  When Isaac has no Red Hearts:
 Flight
 Every 40 seconds while in a hostile room, gain a shield for 10 seconds","+2黑心
  角色没有红心时:
 获得飞行
-在有敌人的房间中, 每40秒产生1个持续10秒的护盾",summonable,,Afterbirth,Empty Vessel
+在有敌人的房间中, 每40秒产生1个持续10秒的护盾",summonable,Empty Vessel,Afterbirth,Empty Vessel
 410,Evil Eye,邪恶之眼,passive,2,Eye shot!,"3.33% chance to shoot an eye
  10% chance at 20 luck
 The eye moves in a straight line and shoots tears in the same direction as Isaac","3.33%概率发射眼睛
  幸运20: 10%概率
-眼睛缓慢移动并发射与角色方向一致的泪弹",offensive / summonable,,Afterbirth,Evil Eye
+眼睛缓慢移动并发射与角色方向一致的泪弹",offensive / summonable,Evil Eye,Afterbirth,Evil Eye
 411,Lusty Blood,血嗜,passive,3,Their blood brings rage!,"+0.5 Damage for each enemy killed in the room
 Caps at +5 Damage after 10 kills","击杀敌人时, 在当前房间中伤害+0.5
-最多击杀10个敌人伤害+5",offensive / summonable,,Afterbirth,Lusty Blood
+最多击杀10个敌人伤害+5",offensive / summonable,Lusty Blood,Afterbirth,Lusty Blood
 412,Cambion Conception,恶魔受胎,passive,1,Feed them hate,"Taking damage 15 times spawns a permanent demon familiar
 After two familiars, it takes 30 instead of 15
 Caps at 4 familiars","受伤15次, 30次, 60次, 90次时, 永久获得1个恶魔跟班
-最多产生4个跟班",nolostbr / summonable,,Afterbirth,Cambion Conception
+最多产生4个跟班",nolostbr / summonable,Cambion Conception,Afterbirth,Cambion Conception
 413,Immaculate Conception,圣灵受胎,passive,1,Feed them love,"Picking up 15 hearts spawns a permanent angelic familiar and a Soul Heart
 Caps at 5 familiars","每拾起15次心, 永久获得1个天使跟班并生成1魂心
-最多产生5个跟班",nolostbr / summonable,,Afterbirth,Immaculate Conception
-414,More Options,更多选择,passive,3,There's options,Allows Isaac to choose between 2 items in treasure rooms,允许宝箱房道具二选一,lazarussharedglobal / nocantrip / offensive / summonable,,Afterbirth,More Options
+最多产生5个跟班",nolostbr / summonable,Immaculate Conception,Afterbirth,Immaculate Conception
+414,More Options,更多选择,passive,3,There's options,Allows Isaac to choose between 2 items in treasure rooms,允许宝箱房道具二选一,lazarussharedglobal / nocantrip / offensive / summonable,There's Options,Afterbirth,More Options
 415,Crown Of Light,光明之冠,passive,4,The untainted gain power,"+2 Soul Hearts
 If Isaac has no damaged heart containers:
  x2 Damage multiplier
@@ -1528,10 +1528,10 @@ Taking any damage removes the effect for the room","+2魂心
 受伤后, 在当前房间中效果消失",offensive / summonable,,Afterbirth,Crown Of Light
 416,Deep Pockets,深口袋,passive,2,More stuff to carry!,"If clearing a room would yield no reward, spawns 1-3 coins
  Increases the coin cap to 999","若清理房间没有奖励, 则生成1-3硬币
- 提高硬币上限至999",lazarussharedglobal / nocantrip / offensive / summonable,,Afterbirth,Deep Pockets
+ 提高硬币上限至999",lazarussharedglobal / nocantrip / offensive / summonable,Deep Pockets,Afterbirth,Deep Pockets
 417,Succubus,魅魔,passive,3,Damage booster,"Bounces around the room surrounded by a damaging aura that deals 7.5-10 damage per second
  x1.5 Damage multiplier while standing in the aura","在房间中漂浮的跟班, 产生伤害光环, 每秒造成7.5-10点伤害
- 站在光环中伤害修正x1.5",monstermanual / offensive / summonable,,Afterbirth,Succubus
+ 站在光环中伤害修正x1.5",monstermanual / offensive / summonable,Succubus,Afterbirth,Succubus
 418,Fruit Cake,水果蛋糕,passive,2,Rainbow effects!,Each one of Isaac's tears gets a different effect,每颗泪弹都有不同效果,offensive / summonable,,Afterbirth,Fruit Cake
 419,Teleport 2.0,传送2.0,active,3,I-Teleport!,"Teleports Isaac to a room that has not been cleared yet
 Hierarchy: >>>>>>>> >>>>>>>","传送至未探索的随机房间
@@ -1583,7 +1583,7 @@ The pickup spawn chance goes down by 1% for each spawn this floor","+5炸弹
  When an enemy touches the shadow a friendly black charger spawns for the room
 The charger deals 8.7 damage per hit","紧跟着角色的影子
  当敌人接触影子时, 在当前房间中生成1个友好的黑蛆
-黑蛆每秒造成8.7点伤害",offensive / summonable,,Afterbirth,My Shadow
+黑蛆每秒造成8.7点伤害",offensive / summonable,My Shadow,Afterbirth,My Shadow
 434,Jar of Flies,苍蝇罐,active,2,Gotta catch 'em all?,"Killing an enemy adds a blue fly to the jar, up to 20 flies
 Using the item releases all the flies","击杀敌人时, 在罐子里加入1只蓝苍蝇, 最多20只
 使用时, 释放所有苍蝇",fly / nocantrip / offensive,,Afterbirth,Jar of Flies
@@ -1608,17 +1608,17 @@ While held:
 持有时:
  幸运+1
  饰品效果翻倍",mom / offensive,,Afterbirth,Mom's Box
-440,Kidney Stone,肾结石,passive,2,Matt's kidney stone,Isaac occasionally stops firing and charges an attack that releases a burst of tears and a kidney stone,"角色约每25秒停止发射并蓄力, 释放散射泪弹和1颗肾结石",offensive / summonable,,Afterbirth,Kidney Stone
+440,Kidney Stone,肾结石,passive,2,Matt's kidney stone,Isaac occasionally stops firing and charges an attack that releases a burst of tears and a kidney stone,"角色约每25秒停止发射并蓄力, 释放散射泪弹和1颗肾结石",offensive / summonable,Kidney Stone,Afterbirth,Kidney Stone
 441,Mega Blast,超级喷射,active,4,Laser breath,"Fires a huge Mega Satan blood beam for 15 seconds
 The beam persists between rooms and floors","发射超级撒但血激光柱15秒
-激光在房间和层之间持续存在",offensive,,Afterbirth,Mega Blast
+激光在房间和层之间持续存在",offensive,Mega,Afterbirth,Mega Blast
 442,Dark Prince's Crown,黑王子之冠,passive,1,Loss is power,"While at 1 full Red Heart:
  +2 Fire rate
  +1.5 Range
  +0.2 Shot speed","红心为1时:
  射速修正+2
  射程+1.5
- 弹速+0.2",nolostbr / summonable / tearsup,,Afterbirth+,Dark Prince's Crown
+ 弹速+0.2",nolostbr / summonable / tearsup,Dark Prince's Crown,Afterbirth+,Dark Prince's Crown
 443,Apple!,苹果！,passive,3,Trick or treat?,"+0.3 Tears
  6.66% chance to shoot razor blades that deal 4x Isaac's damage
  100% chance at 14 luck","射速+0.3
@@ -1658,7 +1658,7 @@ The bleeding stops if a Red Heart is healed, all Red Hearts are empty, or the ne
  Firing a coin tear costs 1 coin","每发射20颗泪弹, 发射1颗硬币泪弹, 造成1.5x角色伤害+10的伤害
  被硬币泪弹击中的敌人石化并变为金块
  击杀金敌人掉落1-3硬币
- 发射硬币泪弹消耗1硬币",offensive / summonable,,Afterbirth+,Eye of Greed
+ 发射硬币泪弹消耗1硬币",offensive / summonable,Eye of Greed,Afterbirth+,Eye of Greed
 451,Tarot Cloth,塔罗牌桌布,passive,2,I see the future,"Spawns a card
  Tarot card effects are doubled or enhanced","生成1卡牌
  部分塔罗牌效果翻倍或增强",offensive / stars / summonable,,Afterbirth+,Tarot Cloth
@@ -1670,13 +1670,13 @@ The tears deal Isaac's damage + 25
  20%概率获得持续2秒的贫血效果",nolostbr / summonable,,Afterbirth+,Varicose Veins
 453,Compound Fracture,复杂性骨折,passive,3,Bone tears!,"+1.5 Range
 Tears shatter into 1-3 bone shards upon hitting anything","射程+1.5
-泪弹击中时碎成1-3个小骨片",offensive / summonable,,Afterbirth+,Compound Fracture
+泪弹击中时碎成1-3个小骨片",offensive / summonable,Compound Fracture,Afterbirth+,Compound Fracture
 454,Polydactyly,多指畸形,passive,2,Hold me!,"Spawns a rune, card or pill on pickup
 Allows Isaac to carry 2 runes/cards/pills","生成1符文/卡牌/胶囊
 允许角色携带2卡牌/符文/胶囊",offensive / summonable,,Afterbirth+,Polydactyly
 455,Dad's Lost Coin,爸爸丢失的硬币,passive,1,I remember this...,"+2.5 Range
  Spawns a Lucky Penny","射程+2.5
- 生成1幸运硬币",offensive / summonable,,Afterbirth+,Dad's Lost Coin
+ 生成1幸运硬币",offensive / summonable,Dad's Lost Coin,Afterbirth+,Dad's Lost Coin
 456,Midnight Snack,夜宵,passive,1,Midnight snack!,"+1 Health
  Heals 1 heart","+1心之容器
  治疗1红心",food / nolostbr,,Afterbirth+,Midnight Snack
@@ -1703,13 +1703,13 @@ Makes the screen slightly darker","5%概率发射混乱泪弹
 Piercing tears
 Hitting an enemy makes the tear homing and doubles its damage","射程+1.5
 穿刺泪弹
-泪弹击中敌人后, 获得追踪效果并伤害翻倍",offensive / summonable,,Afterbirth+,Eye of Belial
+泪弹击中敌人后, 获得追踪效果并伤害翻倍",offensive / summonable,Eye of Belial,Afterbirth+,Eye of Belial
 463,Sulfuric Acid,硫酸,passive,2,Acid tears!,"+0.3 Damage
 Isaac's tears have a 25% chance to destroy rocks and open doors","伤害+0.3
 25%概率发射能摧毁石头和打开门的泪弹",offensive / summonable,,Afterbirth+,Sulfuric Acid
 464,Glyph of Balance,平衡符号,passive,2,A gift from above,"+2 Soul Hearts
 Room clear rewards and champion enemy drops become whatever pickup Isaac needs the most","+2魂心
-房间清理奖励和精英怪掉落角色最需要的掉落物",offensive / summonable,,Afterbirth+,Glyph of Balance
+房间清理奖励和精英怪掉落角色最需要的掉落物",offensive / summonable,Glyph of Balance,Afterbirth+,Glyph of Balance
 465,Analog Stick,模拟摇杆,passive,2,360 tears!,"+0.3 Tears
 Allows Isaac to shoot tears in any direction","射速+0.35
 向任意方向发射泪弹",offensive / summonable / tearsup,,Afterbirth+,Analog Stick
@@ -1721,7 +1721,7 @@ Enemies that die while poisoned also explode and poison nearby enemies","房间�
 Deals 75 contact damage per second
  After it deals 666 damage, it is absorbed by Isaac, increasing his contact damage and spawning friendly Chargers","跟随角色移动, 有0.66秒延迟
 每秒造成75点接触伤害
- 造成666伤害后被角色吸收, 角色获得接触伤害效果, 并生成友好的黑蛆",monstermanual / offensive / summonable,,Afterbirth+,Shade
+ 造成666伤害后被角色吸收, 角色获得接触伤害效果, 并生成友好的黑蛆",monstermanual / offensive / summonable,Shade,Afterbirth+,Shade
 469,Depression,抑郁症,passive,1,&colon;(,"Leaves a trail of creep
 The creep deals 6 damage per second
 Enemies that touch the cloud can be hit by a holy light beam","留下水迹
@@ -1733,7 +1733,7 @@ Stops moving when Isaac shoots
 Blocks projectiles when stopped and fires radial bursts of tears","在房间中四处漂浮
 每秒造成30点接触伤害
 角色发射时停止移动
-停下来时可阻挡弹幕并散射泪弹",monstermanual / offensive / summonable,,Afterbirth+,Hushy
+停下来时可阻挡弹幕并散射泪弹",monstermanual / offensive / summonable,Hushy,Afterbirth+,Hushy
 471,Lil Monstro,萌死戳宝宝,passive,2,Ain't he cute?,"Charges a shotgun attack similar to Monstro's Lung
 Each tear deals 3.5 damage","蓄力, 散射泪弹
 每颗泪弹造成3.5点伤害",monstermanual / offensive / summonable,,Afterbirth+,Lil Monstro
@@ -1741,7 +1741,7 @@ Each tear deals 3.5 damage","蓄力, 散射泪弹
 Stops moving when Isaac shoots
 Teleports back to Isaac when he stops shooting","其他跟班都会跟着他, 并自动向敌人发射
 角色发射时停止移动
-停止发射时传送回角色位置",baby / offensive / summonable,,Afterbirth+,King Baby
+停止发射时传送回角色位置",baby / offensive / summonable,King Baby,Afterbirth+,King Baby
 473,Big Chubby,大胖蛆,passive,1,Chub chub,"Very slowly charges forwards
 Blocks shots
 Deals 40.5 contact damage per second","非常慢地向前冲刺
@@ -1752,15 +1752,15 @@ Deals 40.5 contact damage per second","非常慢地向前冲刺
  Kills Isaac 3 seconds later
 10 to 12 seconds for Delirium and Mother","对所有敌人造成9,999,999点伤害
  在3秒后击杀角色
-精神错乱与母亲为10到12秒",offensive,,Afterbirth+,Plan C
+精神错乱与母亲为10到12秒",offensive,Plan C,Afterbirth+,Plan C
 476,D1,一面骰,active,2,What will it be?,"Duplicates a random pickup in the room
 Duplicated pickups may not be identical to the original","复制房间中1随机掉落物
-复制的掉落物可能与原来的不同",offensive,,Afterbirth+,D1
+复制的掉落物可能与原来的不同",offensive,D1,Afterbirth+,D1
 477,Void,虚空,active,3,Consume,"Consumes all pedestal items in the room
 Active items: Their effects activate with every future use of Void
 Passive items grant two random stat ups","消耗房间中所有底座道具:
 主动道具: 后续每次使用虚空时会激活其效果
-被动道具: 提升2项随机属性",nocantrip / offensive,,Afterbirth+,Void
+被动道具: 提升2项随机属性",nocantrip / offensive,Void,Afterbirth+,Void
 478,Pause,暂停,active,0,Stop!,"Pauses all enemies in the room until Isaac shoots
 Touching a paused enemy still deals damage to Isaac
 Enemies unpause after 30 seconds","暂停房间中所有敌人, 直到角色发射
@@ -1768,7 +1768,7 @@ Enemies unpause after 30 seconds","暂停房间中所有敌人, 直到角色发�
 30秒后解除暂停",offensive,,Afterbirth+,Pause
 479,Smelter,熔炉,active,2,Trinket melter!,"Consumes Isaac's held trinkets and grants their effects permanently
 Increases the spawn rate of trinkets","消耗角色持有的饰品并永久获得饰品效果
-提升饰品的生成率",offensive,,Afterbirth+,Smelter
+提升饰品的生成率",offensive,Smelter,Afterbirth+,Smelter
 480,Compost,堆肥,active,0,Gain more friends!,"Converts pickups into blue flies or spiders
 Doubles all blue flies and spiders
 Spawns 1 blue fly or spider if Isaac has none","将掉落物变成蓝苍蝇/蓝蜘蛛
@@ -1800,10 +1800,10 @@ The rock wave can open rooms and break rocks","使用时, 推走敌人并生成�
 岩石波可以开门或摧毁石头",offensive,,Afterbirth+,Wait What?
 485,Crooked Penny,被掰弯的硬币,active,2,50/50,"50% chance to double all items, pickups and chests in room
 50% chance to remove items / pickups in room and spawn 1 coin","50%概率使房间中所有道具, 掉落物和箱子翻倍
-50%概率将上述内容移除并生成1硬币",offensive,,Afterbirth+,Crooked Penny
+50%概率将上述内容移除并生成1硬币",offensive,Crooked Penny,Afterbirth+,Crooked Penny
 486,Dull Razor,钝剃刀片,active,0,I feel numb...,"Hurts Isaac without removing health
 Triggers any on-hit item effects","使角色受伤但不掉血
-触发'受伤时触发'道具的效果",,,Afterbirth+,Dull Razor
+触发'受伤时触发'道具的效果",,Dull Razor,Afterbirth+,Dull Razor
 487,Potato Peeler,土豆削皮刀,active,2,A pound of flesh,"Removes 1 heart container for: 
  +0.2 Damage
  A Cube of Meat
@@ -1815,13 +1815,13 @@ Triggers any on-hit item effects","使角色受伤但不掉血
  当前房间中获得:
  射程+1.5
  留下血迹",nolostbr,,Afterbirth+,Potato Peeler
-488,Metronome,节拍器,active,1,Waggles a finger,Grants a random item effect for the room,在当前房间中获得1个随机道具的效果,offensive,,Afterbirth+,Metronome
+488,Metronome,节拍器,active,1,Waggles a finger,Grants a random item effect for the room,在当前房间中获得1个随机道具的效果,offensive,Metronome,Afterbirth+,Metronome
 489,D Infinity,无限面骰,active,4,Reroll forever,"Can be made to act as any die item (except Spindown Dice) with the drop button ()
 Charge time varies based on the last die used and updates with every use","可以通过掉落键()更改为任意骰子道具(计数二十面骰除外)
-充能条基于最后使用的骰子变化",offensive,,Afterbirth+,D infinity
+充能条基于最后使用的骰子变化",offensive,D infinity,Afterbirth+,D infinity
 490,Eden's Soul,伊甸的灵魂,active,2,...,"Spawns 2 random items depending on the current room's item pool
 Starts with no charges","根据当前房间的道具池生成2个随机道具
-起始无充能",offensive,,Afterbirth+,Eden's Soul
+起始无充能",offensive,Eden's Soul,Afterbirth+,Eden's Soul
 491,Acid Baby,毒瘾宝宝,passive,2,Pills pills pills!,"Spawns a random pill every 7 rooms
  Using a pill poisons all enemies in the room","每7个房间生成1随机胶囊
  使用胶囊会使房间中所有敌人中毒",baby / offensive / summonable,,Afterbirth+,Acid Baby
@@ -1847,7 +1847,7 @@ Needles kill normal enemies instantly, bursting them into 10 tears
  Needles deal 3x Isaac's damage against bosses","3.33%概率发射针
  幸运13: 25%概率
 针会立即击杀通常敌人, 并爆出10颗泪弹
- 针击中头目造成3x角色伤害",offensive / summonable / syringe,,Afterbirth+,Euthanasia
+ 针击中头目造成3x角色伤害",offensive / summonable / syringe,Euthanasia,Afterbirth+,Euthanasia
 497,Camo Undies,迷彩内裤,passive,3,Camo kid,"Entering a room camouflages Isaac and confuses all enemies until a tear is shot
  +0.5 Speed while cloaked
 Uncloaking deals damage around Isaac and grants a very brief fire rate and damage up","进入房间时, 使所有敌人混乱并使角色伪装, 直到角色开始发射
@@ -1855,10 +1855,10 @@ Uncloaking deals damage around Isaac and grants a very brief fire rate and damag
 解除伪装时, 对角色周围造成伤害, 并获得非常短暂的射速和伤害提升",offensive / summonable,,Afterbirth+,Camo Undies
 498,Duality,二元性,passive,1,You feel very balanced,"Spawns both a Devil and Angel Room if either would have spawned
 Entering one makes the other disappear","恶魔房和天使房生成时会同时生成
-进入其一, 另一个就会消失",lazarussharedglobal / offensive / summonable,,Afterbirth+,Duality
-499,Eucharist,圣餐,passive,3,Peace be with you,100% chance for Angel Rooms to spawn,天使房的概率变为100%,lazarussharedglobal / offensive / summonable,,Afterbirth+,Eucharist
-500,Sack of Sacks,袋中袋,passive,2,Gives sacks,Spawns a sack every 7-8 rooms,每7-8个房间生成1福袋,offensive / summonable,,Afterbirth+,Sack of Sacks
-501,Greed's Gullet,贪婪的胃袋,passive,1,Money = health!,+1 Heart container for every 25 coins Isaac has,角色每持有25硬币+1心之容器,nolostbr / summonable,,Afterbirth+,Greed's Gullet
+进入其一, 另一个就会消失",lazarussharedglobal / offensive / summonable,Duality,Afterbirth+,Duality
+499,Eucharist,圣餐,passive,3,Peace be with you,100% chance for Angel Rooms to spawn,天使房的概率变为100%,lazarussharedglobal / offensive / summonable,Eucharist,Afterbirth+,Eucharist
+500,Sack of Sacks,袋中袋,passive,2,Gives sacks,Spawns a sack every 7-8 rooms,每7-8个房间生成1福袋,offensive / summonable,Sack of Sacks,Afterbirth+,Sack of Sacks
+501,Greed's Gullet,贪婪的胃袋,passive,1,Money = health!,+1 Heart container for every 25 coins Isaac has,角色每持有25硬币+1心之容器,nolostbr / summonable,Greed's Gullet,Afterbirth+,Greed's Gullet
 502,Large Zit,大青春痘,passive,1,Creep shots,"Firing occasionally shoots a white creep tear that deals double damage and slows enemies
 Taking damage shoots a white creep tear","发射时, 时不时额外发射一颗白色青春痘, 造成2x角色伤害并使敌人减速
 受伤时, 向随机方向发射一颗青春痘",offensive / summonable,,Afterbirth+,Large Zit
@@ -1871,7 +1871,7 @@ Isaac deals 7 contact damage per second","5%概率发射能召唤巨角恶魔的
 角色每秒造成7点接触伤害",offensive / summonable,,Afterbirth+,Little Horn (Item)
 504,Brown Nugget,棕色粪块,active,0,Friendly fly,"Spawns a fly that shoots at enemies
 Each shot deals 3.5 damage","生成1只向敌人发射的苍蝇炮塔
-泪弹造成3.5点伤害",offensive / poop,,Afterbirth+,Brown Nugget
+泪弹造成3.5点伤害",offensive / poop,Brown Nugget,Afterbirth+,Brown Nugget
 505,Poke Go,宝可GO,passive,2,Gotta catch em...,Entering a hostile room has a 20% chance to spawn a friendly enemy,"进入有敌人的房间时, 20%概率生成友好的敌人",nocantrip / nogreed / offensive / summonable,,Afterbirth+,Poke Go
 506,Backstabber,背刺,passive,3,Watch your back!,"Hitting an enemy in the back deals double damage and causes bleeding, which makes enemies leave creep and take damage when they move","若泪弹击中敌人后背, 则造成的伤害翻倍并造成流血, 使敌人留下水迹并在移动时受伤",offensive / summonable,,Afterbirth+,Backstabber
 507,Sharp Straw,尖头吸管,active,2,More blood!,"Deals Isaac's damage + 10% of the enemy's max health to all enemies
@@ -1891,69 +1891,69 @@ Persists between rooms
 The health of the boss deteriorates over time","生成1个友好的精神错乱版的头目
 切换房间持续存在
  一次只能激活1个头目
-生成的头目血量会随时间流失",offensive,,Afterbirth+,Delirious
+生成的头目血量会随时间流失",offensive,Delirious,Afterbirth+,Delirious
 511,Angry Fly,愤怒苍蝇,passive,1,He's violent,"Orbits a random enemy until that enemy dies
 Deals 30 contact damage per second to other enemies","在随机敌人周围环绕直到该敌人死亡
-每秒对其他敌人造成30点接触伤害",fly / monstermanual / offensive / summonable,,Afterbirth+,Angry Fly
+每秒对其他敌人造成30点接触伤害",fly / monstermanual / offensive / summonable,Angry Fly,Afterbirth+,Angry Fly
 512,Black Hole,黑洞,active,1,Nothing can escape,"Throwable black hole, which sucks in everything
 Deals 6 damage per second
 Destroys nearby rocks
 Lasts 6 seconds","可投掷的黑洞, 会吸入所有东西
 每秒造成6点接触伤害
 摧毁附近的石头
-持续6秒",offensive,,Afterbirth+,Black Hole
+持续6秒",offensive,Black Hole,Afterbirth+,Black Hole
 513,Bozo,派对帽,passive,2,Party time!,"+0.1 Damage
  +1 Soul Heart
  Randomly charms/fears enemies
 Taking damage has a 5% chance to spawn a Rainbow Poop","伤害+0.1
  +1魂心
  概率魅惑/恐惧敌人
-受伤时, 5%概率生成1个彩虹大便",nolostbr / summonable,,Afterbirth+,Bozo
+受伤时, 5%概率生成1个彩虹大便",nolostbr / summonable,Bozo,Afterbirth+,Bozo
 514,Broken Modem,损坏的调制解调器,passive,3,Lag!,"Causes some enemies and projectiles to briefly pause at random intervals
 Paused projectiles disappear
 25% chance to double room clear rewards","随机间隔使一些敌人和弹幕短暂停滞
 暂停的弹幕消失
-25%概率使清理房间奖励翻倍",summonable,,Afterbirth+,Broken Modem
+25%概率使清理房间奖励翻倍",summonable,Broken Modem,Afterbirth+,Broken Modem
 515,Mystery Gift,神秘礼物,active,3,Wrapped up nice for you!,"Spawns a random item from the current room's item pool
 Chance to spawn Lump of Coal or The Poop instead","根据当前房间的道具池生成1个随机道具
-概率生成煤块/大便",nocantrip / offensive,,Afterbirth+,Mystery Gift
-516,Sprinkler,洒水器,active,1,Sprinkles.,Spawns a Sprinkler that shoots the same tears as Isaac in a circle around itself,"生成1个洒水器, 转圈发射泪弹",offensive,,Afterbirth+,Sprinkler
+概率生成煤块/大便",nocantrip / offensive,Mystery Gift,Afterbirth+,Mystery Gift
+516,Sprinkler,洒水器,active,1,Sprinkles.,Spawns a Sprinkler that shoots the same tears as Isaac in a circle around itself,"生成1个洒水器, 转圈发射泪弹",offensive,Sprinkler,Afterbirth+,Sprinkler
 517,Fast Bombs,快速炸弹,passive,1,Rapid bomb drops,"+7 Bombs
 Removes the delay between bomb placements
 Bombs don't deal knockback to each other","+7炸弹
 移除放置炸弹的冷却
-炸弹相互之间不会击退",offensive / summonable,,Afterbirth+,Fast Bombs
+炸弹相互之间不会击退",offensive / summonable,Fast Bombs,Afterbirth+,Fast Bombs
 518,Buddy in a Box,伙伴盲盒,passive,2,What could it be?!,"Familiar which looks like a random co-op baby
 Has random tear effects
 Effects change every floor","与合作宝宝外观一样的跟班
 随机泪弹效果
-效果每层都会变化",baby / monstermanual / offensive / summonable,,Afterbirth+,Buddy in a Box
-519,Lil Delirium,精神错乱宝宝,passive,1,Delirious friend,Transforms into a random familiar every 10 seconds,每10秒变成随机跟班,baby / monstermanual / offensive / summonable,,Afterbirth+,Lil Delirium
-520,Jumper Cables,跨接电缆,passive,2,Bloody recharge,Killing 15 enemies adds 1 charge to the active item,每击杀15个敌人主动道具充能1格,nocantrip / offensive / summonable,,Afterbirth+,Jumper Cables
+效果每层都会变化",baby / monstermanual / offensive / summonable,Buddy in a Box,Afterbirth+,Buddy in a Box
+519,Lil Delirium,精神错乱宝宝,passive,1,Delirious friend,Transforms into a random familiar every 10 seconds,每10秒变成随机跟班,baby / monstermanual / offensive / summonable,Lil Delirium,Afterbirth+,Lil Delirium
+520,Jumper Cables,跨接电缆,passive,2,Bloody recharge,Killing 15 enemies adds 1 charge to the active item,每击杀15个敌人主动道具充能1格,nocantrip / offensive / summonable,Jumper Cables,Afterbirth+,Jumper Cables
 521,Coupon,代金券,active,2,Allow 6 weeks for delivery,"Makes one random item in the Shop or Devil Room free
 Holding the item guarantees one Shop item is on sale","使商店/恶魔房的随机1个物品免费
- 持有时, 进入商店必有1个商店物品打折",nocantrip / offensive,,Afterbirth+,Coupon
+ 持有时, 进入商店必有1个商店物品打折",nocantrip / offensive,Coupon,Afterbirth+,Coupon
 522,Telekinesis,念力,active,1,Power of the mind,"Stops all enemy projectiles that come close to Isaac for 3 seconds and throws them away from him afterwards
 Pushes close enemies away during the effect","使靠近角色的敌人弹幕停滞3秒, 结束后弹幕会被抛开
-效果期间推开靠近的敌人",offensive,,Afterbirth+,Telekinesis
+效果期间推开靠近的敌人",offensive,Telekinesis,Afterbirth+,Telekinesis
 523,Moving Box,搬家盒,active,1,Pack and unpack,"Stores up to 10 pickups and items from the current room
 Using the item again drops everything back on the floor
 Allows Isaac to move things between rooms","使用时, 储存当前房间中最多10掉落物
 再次使用将储存物放回地上
-允许角色在房间之间搬东西",nocantrip / offensive,,Afterbirth+,Moving Box
+允许角色在房间之间搬东西",nocantrip / offensive,Moving Box,Afterbirth+,Moving Box
 524,Technology Zero,科技零,passive,3,Static tears!,"Isaac's tears are connected with beams of electricity
 Electricity deals 4.5x Isaac's damage per second","泪弹以电弧连接
- 电弧每秒造成4.5x角色伤害",offensive / summonable / tech,,Afterbirth+,Technology Zero
+ 电弧每秒造成4.5x角色伤害",offensive / summonable / tech,Technology Zero,Afterbirth+,Technology Zero
 525,Leprosy,麻风病,passive,0,You're tearing me apart!,"Taking damage spawns a projectile blocking orbital
 Caps at 3 orbitals
 They deal 30 contact damage per second
 Orbitals are destroyed if they take too much damage","受伤时, 生成1个阻挡弹幕的环绕物
 最多有3个环绕物
 每秒造成30点接触伤害
-环绕物受伤过多后被摧毁",nolostbr / summonable,,Afterbirth+,Leprosy
+环绕物受伤过多后被摧毁",nolostbr / summonable,Leprosy,Afterbirth+,Leprosy
 526,7 Seals,七印,passive,2,Lil harbingers!,"Spawns a small horseman familiar that spawns locusts
 The horseman and its locust changes every 10 seconds","生成小天启骑士跟班, 能生成对应的蝗虫
-骑士及其蝗虫每10秒更换一次",monstermanual / offensive / summonable,,Afterbirth+,7 Seals
+骑士及其蝗虫每10秒更换一次",monstermanual / offensive / summonable,7 Seals,Afterbirth+,7 Seals
 527,Mr. ME!,自我先生！,active,3,Caaan do!,"Displays a movable cursor for a few seconds, then summons a ghost that will, depending on the cursor position:
 Open doors or chests
 Fetch an item
@@ -1966,12 +1966,12 @@ Presses the button","几秒内显示可移动光标, 随后生成幽灵, 根据�
 50%概率在商店/恶魔房偷东西
 攻击敌人直到目标死亡
 炸开墙/石头/天使雕像/店主/机器/乞丐
-按下压力板",offensive,,Afterbirth+,Mr. ME!
+按下压力板",offensive,Mr. ME!,Afterbirth+,Mr. ME!
 528,Angelic Prism,天使棱镜,passive,3,Eclipsed by the moon,"Orbital prism
 Friendly tears hitting it split into 4","棱镜环绕物
-友方泪弹击中它会分裂成4个",offensive / summonable,,Afterbirth+,Angelic Prism
-529,Pop!,噗！,passive,1,Eyeball tears!,Isaac's tears bounce off each other and disappear when they stop moving,"角色的泪弹会彼此弹开, 停止移动时消失",offensive / summonable,,Afterbirth+,Pop!
-530,Death's List,死神名册,passive,1,Just hope you're not next...,Killing enemies in the order dictated by the mark above them grants a random pickup or stat increase,按顺序击杀标记的敌人可获得奖励,lazarusshared / offensive / summonable,,Afterbirth+,Death's List
+友方泪弹击中它会分裂成4个",offensive / summonable,Angelic Prism,Afterbirth+,Angelic Prism
+529,Pop!,噗！,passive,1,Eyeball tears!,Isaac's tears bounce off each other and disappear when they stop moving,"角色的泪弹会彼此弹开, 停止移动时消失",offensive / summonable,Pop!,Afterbirth+,Pop!
+530,Death's List,死神名册,passive,1,Just hope you're not next...,Killing enemies in the order dictated by the mark above them grants a random pickup or stat increase,按顺序击杀标记的敌人可获得奖励,lazarusshared / offensive / summonable,Death's List,Afterbirth+,Death's List
 531,Haemolacria,泪血症,passive,4,I'm seeing red...,"+1 Damage
  x1.5 Damage multiplier
  x0.33 Fire rate multiplier
@@ -1980,43 +1980,43 @@ Isaac's tears fly in an arc and burst into smaller tears on impact","伤害+1
  伤害修正x1.5
  射速修正x0.33
  射程修正x0.8
-角色的泪弹呈抛物线前进, 击中时分裂成更小的泪弹",offensive / summonable,,Afterbirth+,Haemolacria
+角色的泪弹呈抛物线前进, 击中时分裂成更小的泪弹",offensive / summonable,Haemolacria,Afterbirth+,Haemolacria
 532,Lachryphagy,食泪症,passive,3,Feed them!,"Isaac's tears progressively slow down, stop, then explode into 5-8 smaller tears
 Tears can merge and become bigger","角色的泪弹前进时减速, 停止后会爆裂成5-8颗小泪弹
-泪弹可以合并变大",offensive / summonable,,Afterbirth+,Lachryphagy
+泪弹可以合并变大",offensive / summonable,Lachryphagy,Afterbirth+,Lachryphagy
 533,Trisagion,三圣颂,passive,3,Smite thy enemy,"Replaces Isaac's tears with piercing beams of light
 The beams deal 33% damage but can hit enemies multiple times","角色的泪弹由穿刺光束弹取代
-每秒造成15次33%角色伤害",offensive / summonable,,Afterbirth+,Trisagion
+每秒造成15次33%角色伤害",offensive / summonable,Trisagion,Afterbirth+,Trisagion
 534,Schoolbag,书包,passive,3,Extra active item room,"Allows Isaac to hold 2 active items
 The items can be swapped using the Drop button ()","允许角色持有2个主动道具
-按掉落键()切换",nocantrip / offensive / summonable,,Afterbirth+,Schoolbag
+按掉落键()切换",nocantrip / offensive / summonable,Schoolbag,Afterbirth+,Schoolbag
 535,Blanket,毛毯,passive,2,You feel Safe,"Heals 1 heart
  +1 Soul Heart
  Entering a boss room grants a Holy Mantle shield (prevents damage once)","治疗1红心
  +1魂心
- 进入头目房时产生神圣屏障护盾, 阻挡1次伤害",summonable,,Afterbirth+,Blanket
+ 进入头目房时产生神圣屏障护盾, 阻挡1次伤害",summonable,Blanket,Afterbirth+,Blanket
 536,Sacrificial Altar,祭坛,active,1,He demands a sacrifice,"Sacrifices up to 2 familiars and spawns a devil item for each sacrifice
  Turns blue spiders/flies into coins","献祭最多2个跟班并生成同样数量的恶魔房道具
- 将蓝蜘蛛/蓝苍蝇变成硬币",nocantrip / offensive,,Afterbirth+,Sacrificial Altar
+ 将蓝蜘蛛/蓝苍蝇变成硬币",nocantrip / offensive,Sacrificial Altar,Afterbirth+,Sacrificial Altar
 537,Lil Spewer,呕吐虫宝宝,passive,1,Puking buddy,"Spawns a random pill on pickup
 Fires a line of creep
 The type of creep changes with each pill use","生成1随机胶囊
 发射一条水迹
-每次使用胶囊后, 水迹类型改变",monstermanual / offensive / summonable,,Afterbirth+,Lil Spewer
+每次使用胶囊后, 水迹类型改变",monstermanual / offensive / summonable,Lil Spewer,Afterbirth+,Lil Spewer
 538,Marbles,弹珠袋,passive,2,Choking hazard,"Spawns 3 random trinkets
  Taking damage has a 10% chance to consume Isaac's held trinket and grant its effects permanently","生成3随机饰品
- 受伤时, 10%概率消耗角色持有的饰品并永久获得其效果",summonable,,Afterbirth+,Marbles
+ 受伤时, 10%概率消耗角色持有的饰品并永久获得其效果",summonable,Marbles,Afterbirth+,Marbles
 539,Mystery Egg,神秘的卵,passive,0,Sacrificial insemination,"Taking damage spawns a friendly enemy
 Spawns stronger friends the more rooms are cleared without taking damage","受伤时, 生成1个友好的敌人
-未受伤清理的房间越多, 生成的帮手更强",nolostbr / summonable,,Afterbirth+,Mystery Egg
+未受伤清理的房间越多, 生成的帮手更强",nolostbr / summonable,Mystery Egg,Afterbirth+,Mystery Egg
 540,Flat Stone,扁石,passive,2,Skipping tears,Isaac's tears bounce off the floor and cause splash damage on every bounce,"角色的泪弹会在地面弹起
- 每次弹起对附近敌人造成0.25x角色伤害",offensive / summonable,,Afterbirth+,Flat Stone
+ 每次弹起对附近敌人造成0.25x角色伤害",offensive / summonable,Flat Stone,Afterbirth+,Flat Stone
 541,Marrow,骨髓,passive,1,HP up?,"Spawns 3 Red Hearts
  +1 Bone Heart","生成3红心
- +1骨心",nolostbr,,Afterbirth+,Marrow
+ +1骨心",nolostbr,Marrow,Afterbirth+,Marrow
 542,Slipped Rib,滑肋骨,passive,1,Projectile shield,"Orbital
 Reflects enemy projectiles","环绕物
-反弹敌人弹幕",summonable,,Afterbirth+,Slipped Rib
+反弹敌人弹幕",summonable,Slipped Rib,Afterbirth+,Slipped Rib
 543,Hallowed Ground,圣地大便,passive,1,Portable sanctuary,"Taking damage spawns a white poop
 While inside the poop's aura:
  x2.5 Fire rate multiplier
@@ -2027,30 +2027,30 @@ Homing tears
  射速修正x2.5
  伤害修正x1.2
 追踪泪弹
-50%概率阻挡伤害",nolostbr / poop / summonable,,Afterbirth+,Hallowed Ground
+50%概率阻挡伤害",nolostbr / poop / summonable,Hallowed Ground,Afterbirth+,Hallowed Ground
 544,Pointy Rib,尖肋骨,passive,1,Stabbing time,"Levitates in front of Isaac
 Deals 6x Isaac's damage per second","漂浮在角色前方的骨刺
-每秒造成6x角色伤害",offensive / summonable,,Afterbirth+,Pointy Rib
+每秒造成6x角色伤害",offensive / summonable,Pointy Rib,Afterbirth+,Pointy Rib
 545,Book of the Dead,亡者之书,active,2,Rise from the grave,Spawns a bone orbital or friendly bony per enemy killed in the room (up to 8),"当前房间中每击杀1个敌人, 生成1个骨头环绕物/友好的骷髅仔
-最多生成8个",book / offensive,,Afterbirth+,Book of the Dead
-546,Dad's Ring,爸爸的戒指,passive,2,Father's blessing,Grants an aura that petrifies enemies,获得能使敌人石化的光环,summonable,,Afterbirth+,Dad's Ring
+最多生成8个",book / offensive,Book of the Dead,Afterbirth+,Book of the Dead
+546,Dad's Ring,爸爸的戒指,passive,2,Father's blessing,Grants an aura that petrifies enemies,获得能使敌人石化的光环,summonable,Dad's Ring,Afterbirth+,Dad's Ring
 547,Divorce Papers,离婚协议书,passive,3,Tears up + you feel empty,"+0.7 Tears
  +1 Bone Heart
  Spawns the Mysterious Paper trinket","射速+0.7
  +1骨心
- 生成神秘纸片饰品",offensive / summonable / tearsup,,Afterbirth+,Divorce Papers
+ 生成神秘纸片饰品",offensive / summonable / tearsup,Divorce Papers,Afterbirth+,Divorce Papers
 548,Jaw Bone,颌骨,passive,1,Fetch!,"Boomerang-like familiar
 Deals 7 contact damage
 Can grab and bring back pickups","回旋镖状的跟班
 造成7点接触伤害
-能捡起并带回掉落物",offensive / summonable,,Afterbirth+,Jaw Bone
+能捡起并带回掉落物",offensive / summonable,Jaw Bone,Afterbirth+,Jaw Bone
 549,Brittle Bones,脆骨症,passive,3,Everything hurts,"Replaces all of Isaac's Red Heart containers with 6 empty Bone Hearts
 Upon losing a Bone Heart:
  +0.4 Fire rate
 Shoots 10 bone tears in all directions","角色所有的心之容器由6空骨心取代
 失去骨心时:
  射速修正+0.4
-向四周方向发射10颗骨头泪弹",nolostbr / offensive / tearsup,,Afterbirth+,Brittle Bones
+向四周方向发射10颗骨头泪弹",nolostbr / offensive / tearsup,Brittle Bones,Afterbirth+,Brittle Bones
 550,Broken Shovel,铲子碎片,active,,,"Mom's Foot constantly tries to stomp Isaac
 Using the item stops the stomping for the room (or one Boss Rush wave)
  (Try to beat Boss Rush with it!)","妈腿会持续攻击角色
@@ -2078,7 +2078,7 @@ Using the item stops the stomping for the room (or one Boss Rush wave)
  Pay 5 coins and receive for the room:
  +1.2 Damage","拾起时+5硬币
  花费5硬币, 并在当前房间中获得:
- 伤害+1.2",offensive,,Repentance,Golden Razor
+ 伤害+1.2",offensive,Golden Razor,Repentance,Golden Razor
 556,Sulfur,炼金硫磺,active,2,Temporary demon form,"Brimstone for the room
 Using it multiple times in one room grants increased damage and a larger beam","在当前房间中获得硫磺火
 多次使用使伤害更高, 激光更大",devil / offensive,,Repentance,Sulfur
@@ -2117,7 +2117,7 @@ Tears gain random worm trinket effects and some item effects","射速修正x4
  伤害修正x0.3
  泪弹尺寸-0.16
 泪弹随机获得蠕虫饰品和一些道具的效果",offensive / summonable / tearsup,,Repentance,Almond Milk
-562,Rock Bottom,谷底石,passive,4,It's only up from there,Prevents stats from being lowered for the rest of the run,本局游戏中属性不会再降低,offensive / summonable,,Repentance,Rock Bottom
+562,Rock Bottom,谷底石,passive,4,It's only up from there,Prevents stats from being lowered for the rest of the run,本局游戏中属性不会再降低,offensive / summonable,Rock Bottom,Repentance,Rock Bottom
 563,Nancy Bombs,魅彩炸弹,passive,1,Random blast +5 bombs,"+5 Bombs
 Isaac's bombs explode with random effects","+5炸弹
 炸弹具有随机爆炸效果",offensive / summonable,,Repentance,Nancy Bombs
@@ -2130,7 +2130,7 @@ After killing 40 enemies, it deals even more damage, spawns full Red Hearts, and
 Dealing enough damage to it returns it to its first phase","追击敌人
 击杀15个敌人后, 会造成更多伤害, 每击杀10个敌人掉落半红心, 但也会尝试对角色造成伤害
 击杀40个敌人后, 会造成更多伤害, 掉落整红心, 可以摧毁石头
-对其造成足够多伤害可使其回到第一阶段",monstermanual / offensive / summonable,,Repentance,Blood Puppy
+对其造成足够多伤害可使其回到第一阶段",monstermanual / offensive / summonable,Blood Puppy,Repentance,Blood Puppy
 566,Dream Catcher,捕梦网,passive,2,Sweet dreams,"+1 half Soul Heart when entering a new floor
 The stage transition nightmare reveals the next floor's boss fight and Treasure Room item","进入新层时+1半魂心
 在每层过场噩梦中显示下一层的头目战和宝箱房道具",lazarussharedglobal / nocantrip / offensive / summonable,,Repentance,Dream Catcher
@@ -2139,7 +2139,7 @@ Caps at +2 Fire rate (5 rooms)","若清理房间且不受伤害, 则射速修正
 最多+2(5个房间)",nocantrip / offensive / summonable / tearsup / uniquefamiliar,,Repentance,Paschal Candle
 568,Divine Intervention,神圣干预,passive,1,Double tap shield,"Double-tapping a fire key creates a shield
 The shield lasts 1 second, pushes enemies away and reflects enemy projectiles and lasers","双击发射键产生护盾
-护盾持续1秒, 能推开敌人, 反弹敌人弹幕和激光",angel,,Repentance,Divine Intervention
+护盾持续1秒, 能推开敌人, 反弹敌人弹幕和激光",angel,Divine Intervention,Repentance,Divine Intervention
 569,Blood Oath,血誓,passive,1,Bleed me dry,"Entering a new floor drains all of Isaac's Red Hearts, but grants speed and damage bonuses for each heart lost
 Each half heart lost counts as an individual hit for on-hit effects","进入新层时, 吸走角色的所有红心, 但根据失去的红心获得移速和伤害加成
 致死时保留半红心
@@ -2176,14 +2176,14 @@ Dip type depends on the poop type
 Rocks have a 6.25% chance to be replaced with poop","所有粪滴敌人变得友好
 摧毁大便时, 生成1-4个粪滴
 粪滴类型取决于大便类型
-石头有6.25%概率会由大便取代",offensive / poop / summonable,,Repentance,Dirty Mind
+石头有6.25%概率会由大便取代",offensive / poop / summonable,Dirty Mind,Repentance,Dirty Mind
 577,Damocles,达摩克里斯之剑,active,3,A king's fortune... but at what cost?,"Hangs a sword above Isaac's head, which doubles all pedestal items
 Does not double items that have a price or come from chests
  After taking any damage, the sword has an extremely low chance to instantly kill Isaac every frame
 Invincibility effects can prevent the death","在角色头上悬着剑, 并使底座道具翻倍
 有价格或箱子中的道具不翻倍
  受伤后, 剑每帧有极低概率立即击杀角色
-无敌效果可以避免死亡",nocantrip / offensive,,Repentance,Damocles
+无敌效果可以避免死亡",nocantrip / offensive,Damocles,Repentance,Damocles
 578,Free Lemonade,免费柠檬水,active,0,Party time!,"Creates a large pool of yellow creep
 The creep deals 24 damage per second","生成大范围的黄色水迹
 水迹每秒造成24点伤害",offensive,,Repentance,Free Lemonade
@@ -2193,12 +2193,12 @@ The creep deals 24 damage per second","生成大范围的黄色水迹
 Shoots projectiles with swings at full health","攻击方式改为挥剑
  剑造成3x角色伤害+3.5的伤害, 挥剑速度与按发射键速度一样快
  可蓄力发动旋转攻击
-满血时发射剑气",offensive / summonable,,Repentance,Spirit Sword
+满血时发射剑气",offensive / summonable,Spirit Sword,Repentance,Spirit Sword
 580,Red Key,红钥匙,active,3,Explore the other side,"Creates a red room adjacent to a regular room, indicated by a door outline
 Red Rooms can be special rooms
  Entering a room outside the 13x13 floor map teleports Isaac to the I AM ERROR room","在常规房间旁产生门形轮廓指示的红色房间
 红色房间可以是特殊房间
- 进入13x13地图范围外的房间时, 将角色传送至错误房",nocantrip / nogreed / offensive,,Repentance,Red Key
+ 进入13x13地图范围外的房间时, 将角色传送至错误房",nocantrip / nogreed / offensive,Red Key,Repentance,Red Key
 581,Psy Fly,灵能苍蝇,passive,4,Flamboyant protector,"Chases and blocks enemy projectiles
 Deals 15 contact damage per second","追击并阻挡敌人弹幕
 每秒造成15点接触伤害",fly / monstermanual / summonable,,Repentance,Psy Fly
@@ -2222,15 +2222,15 @@ Can be combined with a second active item to create special wisps
 生成1魂火环绕跟班, 发射灵体泪弹但可被摧毁
 与其它主动道具组合可产生特殊魂火
  将第一个恶魔房变为天使房
- 恶魔交易后仍会出现天使房",book / lazarussharedglobal / offensive,,Repentance,Book of Virtues
+ 恶魔交易后仍会出现天使房",book / lazarussharedglobal / offensive,Book of Virtues,Repentance,Book of Virtues
 585,Alabaster Box,白玉香膏盒,active,1,A sacred offering,"Must be charged by picking up Soul Hearts, then spawns:
  Three Soul Hearts
  Two Angel Room items
  Only spawns 2 Soul Hearts and 1 Angel item if a Devil deal was taken previously","必须通过拾起魂心充能, 使用时生成:
  3魂心
  2个天使房道具
- 若已进行过恶魔交易, 则改为2魂心和1个天使房道具",nocantrip / offensive,,Repentance,Alabaster Box
-586,The Stairway,天堂阶梯,passive,3,May you get what you came for,Spawns a ladder in the first room of every floor that leads to a unique Angel Room shop with items and pickups,"在每层的初始房间生成梯子, 通向特殊天使房商店",lazarussharedglobal / nocantrip / offensive,,Repentance,The Stairway
+ 若已进行过恶魔交易, 则改为2魂心和1个天使房道具",nocantrip / offensive,Alabaster Box,Repentance,Alabaster Box
+586,The Stairway,天堂阶梯,passive,3,May you get what you came for,Spawns a ladder in the first room of every floor that leads to a unique Angel Room shop with items and pickups,"在每层的初始房间生成梯子, 通向特殊天使房商店",lazarussharedglobal / nocantrip / offensive,The Stairway,Repentance,The Stairway
 588,Sol,太阳,passive,2,Radiant victory,"Reveals the location of the Boss Room
  When the floor boss is defeated, receive for the floor:
  +3 Damage
@@ -2316,7 +2316,7 @@ Taking Red Heart damage doesn't reduce Devil/Angel Room chance as much","射速+
  进行过恶魔交易后天使房仍然会出现
  减缓受红心伤害后减少恶魔房/天使房的概率",lazarussharedglobal / offensive / summonable / tearsup,,Repentance,Act of Contrition
 602,Member Card,会员卡,passive,2,Exclusive access!,"Opens a trapdoor in every Shop
-The trapdoor leads to an underground shop that sells trinkets, runes, cards, special hearts and items from any pool","在商店内生成1个通往地下商店的暗门, 售卖饰品, 符文, 卡牌, 特殊心和任意道具池的道具",lazarussharedglobal / offensive / summonable,,Repentance,Member Card
+The trapdoor leads to an underground shop that sells trinkets, runes, cards, special hearts and items from any pool","在商店内生成1个通往地下商店的暗门, 售卖饰品, 符文, 卡牌, 特殊心和任意道具池的道具",lazarussharedglobal / offensive / summonable,Member Card,Repentance,Member Card
 603,Battery Pack,电池组,passive,0,Instant energy!,"Spawns 2-4 batteries
  Fully recharges the active item","生成2-4电池
  将主动道具完全充能",battery / offensive,,Repentance,Battery Pack
@@ -2339,15 +2339,15 @@ Deals 3.5 or 5.25 damage per tear","向四周随机喷射泪弹
  击杀时使敌人冻结",baby / monstermanual / offensive / summonable,,Repentance,Freezer Baby
 609,Eternal D6,永恒六面骰,active,3,???,"Rerolls all pedestal items in the room
 Has a 25% chance to delete items instead of rerolling them","重置房间中所有道具
-25%概率删除道具而不是重置",nocantrip / offensive,,Repentance,Eternal D6
+25%概率删除道具而不是重置",nocantrip / offensive,Eternal D6,Repentance,Eternal D6
 610,Bird Cage,鸟肥笼,passive,0,Fat buddy,"Leaps on the enemy that deals the first damage to Isaac in a room
 Deals 45 damage and releases a rock wave
 Chases enemies afterwards for 6.5 contact damage per second","角色在房间中首次受伤时, 跃向敌人
 造成45点伤害并释放岩石波
-之后追击敌人, 每秒造成6.5点接触伤害",dead / nolostbr / summonable,,Repentance,Bird Cage
+之后追击敌人, 每秒造成6.5点接触伤害",dead / nolostbr / summonable,Bird Cage,Repentance,Bird Cage
 611,Larynx,声带,active,2,Hear my pain,"Isaac screams, damages and knocks back nearby enemies
 The scream gets stronger the more charges the item has","角色怒吼, 击退周围的敌人并造成伤害
-充能越多, 怒吼效果越强",offensive,,Repentance,Larynx
+充能越多, 怒吼效果越强",offensive,Larynx,Repentance,Larynx
 612,Lost Soul,迷失游魂,passive,1,Protect him,"Dies in one hit and respawns at the start of the next floor
 If it is brought alive to the next floor, it can spawn:
  3 Soul Hearts
@@ -2358,7 +2358,7 @@ If it is brought alive to the next floor, it can spawn:
  3魂心
  2永恒之心
  1个宝箱房道具
- 1个天使房道具",nocantrip / summonable / uniquefamiliar,,Repentance,Lost Soul
+ 1个天使房道具",nocantrip / summonable / uniquefamiliar,Lost Soul,Repentance,Lost Soul
 614,Blood Bombs,鲜血炸弹,passive,2,Bloody blast + HP up,"+1 Health
  Heals 4 hearts
  If Isaac has no bombs, one can be placed at the cost of half a heart
@@ -2384,21 +2384,21 @@ Magnetized enemies attract nearby pickups, projectiles and enemies","17%概率�
 Marked enemies are targeted by other enemies","17%概率发射标记敌人的泪弹
  运气5: 100%概率
 被标记的敌人会被其他敌人攻击",offensive / summonable,,Repentance,Rotten Tomato
-619,Birthright,长子名分,passive,3,???,Has a different effect for each character,不同角色效果不同,nocantrip / offensive / summonable,,Repentance,Birthright
+619,Birthright,长子名分,passive,3,???,Has a different effect for each character,不同角色效果不同,nocantrip / offensive / summonable,Birthright,Repentance,Birthright
 621,Red Stew,红豆汤,passive,2,Full HP + temporary DMG up,"+21.6 Damage
  Full health
 The damage up wears off over 3 minutes
 Killing enemies while the effect is active extends it","伤害+21.6
  回满血
 增加的伤害在3分钟内会不断衰减
-效果尚存时击杀敌人会延长时间",offensive,,Repentance,Red Stew
+效果尚存时击杀敌人会延长时间",offensive,Red Stew,Repentance,Red Stew
 622,Genesis,创世记,active,2,In the beginning,"Removes all of Isaac's items and pickups
 Teleports Isaac to a bedroom with pickups and chests
 For every item removed, Isaac can choose between 3 items from the same pool
 Leaving the bedroom takes Isaac to the next floor","移除角色的所有道具和掉落物
 将角色传送至特殊的卧室, 内有掉落物和箱子
 每移除1个道具, 角色就可从来自相同道具池的3个道具选择
-离开卧室时, 将角色带到下一层",nocantrip / offensive,,Repentance,Genesis
+离开卧室时, 将角色带到下一层",nocantrip / offensive,Genesis,Repentance,Genesis
 623,Sharp Key,尖头钥匙,active,1,Open your enemies,"+5 Keys
 Throws one of Isaac's keys in the direction he shoots
 Thrown keys deal damage, destroy obstacles, and open doors
@@ -2419,7 +2419,7 @@ Ability to crush enemies and obstacles
  射速-1.9
 无敌
 能踩碎障碍物和敌人
- 持续30秒, 能在房间之间和层之间持续",mushroom / offensive,,Repentance,Mega Mush
+ 持续30秒, 能在房间之间和层之间持续",mushroom / offensive,Mega Mush,Repentance,Mega Mush
 626,Knife Piece 1,菜刀碎片1,passive,0,???,"Turns into a throwable knife that deals 25 damage when combined with Knife Piece 2
 The knife can open a door made of flesh","与菜刀碎片2结合变为可投掷的菜刀, 造成25点伤害
 菜刀能打开红色肉门",lazarusshared / noeden / quest / uniquefamiliar,,Repentance,Knife Piece 1
@@ -2428,7 +2428,7 @@ The knife can open a door made of flesh","与菜刀碎片1结合变为可投掷�
 菜刀能打开红色肉门",lazarusshared / noeden / quest / uniquefamiliar,,Repentance,Knife Piece 2
 628,Death Certificate,死亡证明,active,4,Where am I?,"Teleports Isaac to a floor that contains every item in the game
 Choosing an item from this floor teleports Isaac back to the room he came from","将角色传送至含有所有游戏道具的一层
-拾起1个道具后回到之前的房间",nocantrip / offensive,,Repentance,Death Certificate
+拾起1个道具后回到之前的房间",nocantrip / offensive,Death Certificate,Repentance,Death Certificate
 629,Bot Fly,机器苍蝇,passive,3,Defense drone,"Shoots shielded tears to destroy enemy projectiles
 Deals 3 contact damage per second","发射能摧毁敌人弹幕的护盾泪弹
 每秒造成3点接触伤害",fly / monstermanual / summonable,,Repentance,Bot Fly
@@ -2436,7 +2436,7 @@ Deals 3 contact damage per second","发射能摧毁敌人弹幕的护盾泪弹
 Enemies that naturally split (like Envy) take enough damage to split instead
 Deals 25 damage to enemies that can't be split","使敌人分裂为2个40%血量的小型版本
 本身能分裂的敌人(比如嫉妒)改为造成分裂所需的伤害
-对无法分裂的敌人造成25点伤害",offensive,,Repentance,Meat Cleaver
+对无法分裂的敌人造成25点伤害",offensive,Meat Cleaver,Repentance,Meat Cleaver
 632,Evil Charm,邪眼护符,passive,1,Luck up + you feel protected,"+2 Luck
 Immune to fire damage, confusion, fear, spider-webs and poison effects
 Grants 1 second immunity to creep","幸运+2
@@ -2451,7 +2451,7 @@ Flight and one-time Holy Mantle shield
  若角色少于6心, 则以红心和魂心治疗至6心",lazarusshared / noeden / quest,,Repentance,Dogma (Item)
 634,Purgatory,炼狱恶鬼,passive,1,Help from beyond,"Red cracks spawn on the ground in hostile rooms
 Walking over the cracks summons homing exploding ghosts","在有敌人的房间中的地面生成红色裂缝
-走过裂缝时会召唤追踪爆炸幽灵",offensive,,Repentance,Purgatory
+走过裂缝时会召唤追踪爆炸幽灵",offensive,Purgatory,Repentance,Purgatory
 635,Stitches,织布魔偶,active,1,Bait and switch,"Spawns a familiar that moves in the direction Isaac shoots
 On use, Isaac swaps places with the familiar and becomes briefly invincible
 Teleporting onto things can damage or destroy them","生成1个跟班, 向角色发射方向移动
@@ -2474,13 +2474,13 @@ Can only be used once per floor","掷出橡皮, 秒杀击中的敌人
 击杀的敌人在本局游戏中不会再出现
 对头目造成15点伤害
 每层只能使用一次",offensive,,Repentance,Eraser
-639,Yuck Heart,难吃的心,active,1,Gross!,+1 Rotten Heart,+1腐心,nolostbr,,Repentance,Yuck Heart
+639,Yuck Heart,难吃的心,active,1,Gross!,+1 Rotten Heart,+1腐心,nolostbr,Yuck Heart,Repentance,Yuck Heart
 640,Urn of Souls,灵魂之瓮,active,3,Unleash their sorrow,"Spews a stream of flames
 Killing an enemy adds a charge to the urn","喷射火焰
-击杀1个敌人, 瓮增加1格充能",nocantrip / offensive,,Repentance,Urn of Souls
+击杀1个敌人, 瓮增加1格充能",nocantrip / offensive,Urn of Souls,Repentance,Urn of Souls
 641,Akeldama,血田,passive,1,Spill your guts,"Creates a chain of tears behind Isaac in hostile rooms
 The tears deal 3.5 damage","在有敌人的房间中, 在角色身后产生一串泪弹
-泪弹造成3.5点伤害",offensive / summonable,,Repentance,Akeldama
+泪弹造成3.5点伤害",offensive / summonable,Akeldama,Repentance,Akeldama
 642,Magic Skin,玄奇驴皮,active,2,All your desires fulfilled,"Spawns an item from the current room's item pool
  Turns 1 heart container or 1 Bone Heart or 2 Soul Hearts into a Broken Heart
  Replaces future items if Isaac isn't holding it (33% after 1 use, 50% after 2, 100% after 3)
@@ -2488,12 +2488,12 @@ Lower chance if Magic Skin is on a pedestal on the current floor","生成当前�
 将1心之容器/1骨心/2魂心变为1碎心
 生成当前房间道具池的1个道具
  若角色不再持有, 则有概率将后续道具替换(1次使用后33%, 2次后50%, 3次后100%)
-若玄奇驴皮在本层道具底座上, 则降低概率",nocantrip / offensive,,Repentance,Magic Skin
+若玄奇驴皮在本层道具底座上, 则降低概率",nocantrip / offensive,Magic Skin,Repentance,Magic Skin
 643,Revelation,终末天启,passive,4,Awaken your faith,"Flight
  Chargeable high damage holy beam
 Does not replace Isaac's tears","飞行
  可蓄力发射高伤害圣光柱
-不会取代角色的泪弹",angel / offensive / summonable,,Repentance,Revelation
+不会取代角色的泪弹",angel / offensive / summonable,Revelation,Repentance,Revelation
 644,Consolation Prize,安慰奖,passive,1,+1 to lowest stat,"Increases Isaac's lowest stat out of Speed, Fire rate, Damage, and Range
 Spawns either 3 coins, 1 bomb, or 1 key depending on what Isaac has the least of","提升角色移速/射速/伤害/射程中最低的属性
 根据角色持有的最少掉落物, 生成3硬币/1炸弹/1钥匙",offensive / tearsup,,Repentance,Consolation Prize
@@ -2505,12 +2505,12 @@ Respawns 5 seconds after fully disappearing","阻挡弹幕的大型环绕物
 每秒造成3.5点接触伤害
 受击3次时, 分裂为更小的畸胎瘤
 小畸胎瘤被摧毁时产生蓝蜘蛛
-被完全摧毁时, 5秒后重生",monstermanual / summonable,,Repentance,Tinytoma
+被完全摧毁时, 5秒后重生",monstermanual / summonable,Tinytoma,Repentance,Tinytoma
 646,Brimstone Bombs,硫磺火炸弹,passive,2,Demon blast +5 bombs,"+5 Bombs
  Isaac's bombs release a 4-way blood beam
 The beams don't hurt Isaac","+5炸弹
  角色的炸弹爆炸时, 释放十字血柱
-血柱不会伤到角色",offensive / summonable,,Repentance,Brimstone Bombs
+血柱不会伤到角色",offensive / summonable,Brimstone Bombs,Repentance,Brimstone Bombs
 647,4.5 Volt,4.5伏特,passive,2,Beat the juice out of them!,"Clearing rooms no longer charges active items
 Dealing damage to enemies slowly fills up the charge bar
 Damage needed per charge increases each floor","清理房间不再对主动道具充能
@@ -2518,8 +2518,8 @@ Damage needed per charge increases each floor","清理房间不再对主动道�
 充能所需伤害量随层数提升",battery / nocantrip / offensive / summonable,,Repentance,4.5 Volt
 649,Fruity Plum,甜甜糖梅宝,passive,1,Bouncy friend,"Propels herself diagonally around the room, firing tears in her path that deal 3 damage
 Deals 6 contact damage per second","在房间中斜角前进, 向路径上发射泪弹, 造成3点伤害
-每秒造成6点接触伤害",fly / monstermanual / offensive / summonable,,Repentance,Fruity Plum
-650,Plum Flute,糖梅溜溜笛,active,0,Play time!,Summons a friendly Baby Plum in the room for 10 seconds,"在当前房间中召唤1只友好的糖梅宝宝, 持续10秒",fly / offensive,,Repentance,Plum Flute
+每秒造成6点接触伤害",fly / monstermanual / offensive / summonable,Fruity Plum,Repentance,Fruity Plum
+650,Plum Flute,糖梅溜溜笛,active,0,Play time!,Summons a friendly Baby Plum in the room for 10 seconds,"在当前房间中召唤1只友好的糖梅宝宝, 持续10秒",fly / offensive,Plum Flute,Repentance,Plum Flute
 651,Star of Bethlehem,伯列恒之星,passive,3,Follow the light,"Slowly travels from the first room of the floor to the Boss Room
 Moves faster if you're ahead of it, and slower if you're behind it
 Standing in its aura grants:
@@ -2532,7 +2532,7 @@ Homing tears
  射速修正x2.5
  伤害修正x1.2
 追踪泪弹
-50%概率忽略伤害",nocantrip / offensive / stars / summonable / uniquefamiliar,,Repentance,Star of Bethlehem
+50%概率忽略伤害",nocantrip / offensive / stars / summonable / uniquefamiliar,Star of Bethlehem,Repentance,Star of Bethlehem
 652,Cube Baby,冰块宝宝,passive,1,Kick it!,"Can be kicked around by walking into it
  Slows and deals up to 17.5 contact damage depending on speed
  Freezes enemies it kills","经过时可踢开
@@ -2542,7 +2542,7 @@ Homing tears
 Using the item causes the ghosts to explode
 Using the item also kills any ghost enemies (including bosses) that have less than 50% HP left","持有时, 非幽灵的敌人在死亡时生成小的红色幽灵
 使用时, 引爆所有红色幽灵
-使用时, 也会击杀所有血量低于50%的幽灵类敌人(包括头目)",nocantrip / offensive,,Repentance,Vade Retro
+使用时, 也会击杀所有血量低于50%的幽灵类敌人(包括头目)",nocantrip / offensive,Vade Retro,Repentance,Vade Retro
 654,False PHD,伪造药学博士证,passive,2,Worse pills + evil up,"+1 Black Heart
  Identifies all pills
 Converts all good pills into bad pills
@@ -2598,7 +2598,7 @@ Picking up a food item grants:
  暂时伤害+3.6
 永久提升2项属性(取决于食物)
  移速-0.03",nolostbr,,Repentance,Binge Eater
-665,Guppy's Eye,嗝屁猫的眼睛,passive,2,An eye for secrets,"Reveals the contents of chests, sacks, shopkeepers, and fireplaces before they're opened or destroyed","在打开或摧毁前, 揭示箱子, 福袋, 店主, 火堆的内容",dead / guppy / offensive,,Repentance,Guppy's Eye
+665,Guppy's Eye,嗝屁猫的眼睛,passive,2,An eye for secrets,"Reveals the contents of chests, sacks, shopkeepers, and fireplaces before they're opened or destroyed","在打开或摧毁前, 揭示箱子, 福袋, 店主, 火堆的内容",dead / guppy / offensive,Guppy's Eye,Repentance,Guppy's Eye
 667,Strawman,稻草人,passive,1,A helping hand,"+1 Bomb
  Spawns Keeper as a second character
 When he dies, spawns blue spiders and permanently removes Strawman and any item that he has picked up from the inventory
@@ -2607,7 +2607,7 @@ When he dies, spawns blue spiders and permanently removes Strawman and any item 
  生成店主作为第二个角色
 店主死亡时生成蓝蜘蛛并永久移除稻草人及其拾起的道具
  店主活着时恶魔交易花费硬币
- 店主也能拾起剧情道具",dead / offensive / uniquefamiliar,,Repentance,Strawman
+ 店主也能拾起剧情道具",dead / offensive / uniquefamiliar,Strawman,Repentance,Strawman
 668,Dad's Note,爸爸的便条,passive,0,...,"Begins the Ascent
 Trinkets left in previous Treasure or Boss Rooms turn into Cracked Keys","开始回溯
 之前留在宝箱房或头目房的饰品会变成红钥匙碎片",lazarusshared / noeden / quest,,Repentance,Dad's Note
@@ -2630,33 +2630,33 @@ Trinkets left in previous Treasure or Boss Rooms turn into Cracked Keys","开始
  回满血
  恶魔房/天使房概率+6.9%
  星象房概率+6.9%",lazarussharedglobal / offensive / summonable / tearsup,,Repentance,Sausage
-670,Options?,选择？,passive,2,There might be options,Allows Isaac to choose from two different room clear rewards,允许角色从两个不同的房间清理奖励中选择,nogreed / offensive / summonable,,Repentance,Options?
+670,Options?,选择？,passive,2,There might be options,Allows Isaac to choose from two different room clear rewards,允许角色从两个不同的房间清理奖励中选择,nogreed / offensive / summonable,Options?,Repentance,Options?
 671,Candy Heart,糖心,passive,1,Power of love,"Healing with Red Hearts grants random permanent stat ups
  Spawns a Red Heart","用红心治疗时, 永久获得随机属性提升
- 生成1红心",nolostbr / summonable,,Repentance,Candy Heart
+ 生成1红心",nolostbr / summonable,Candy Heart,Repentance,Candy Heart
 672,A Pound of Flesh,一磅肉,passive,0,Blood money,"Devil Room items cost coins
  Shop items cost hearts
 Consumables in Shops are surrounded by spikes","恶魔交易消耗硬币
  商店道具花费心之容器
- 商店消耗品被尖刺环绕",devilsacrifice / nogreed / nokeeper / summonable,,Repentance,A Pound of Flesh
+ 商店消耗品被尖刺环绕",devilsacrifice / nogreed / nokeeper / summonable,A Pound of Flesh,Repentance,A Pound of Flesh
 673,Redemption,赎罪,passive,2,Deliver me from evil,"Entering a new floor after visiting a Devil Room and not taking any item/pickup grants:
  +1 Damage
  +1 Soul Heart","进入恶魔房且不拿任何道具/掉落物后, 进入新层获得:
  伤害+1
- +1魂心",lazarussharedglobal / offensive / summonable,,Repentance,Redemption
+ +1魂心",lazarussharedglobal / offensive / summonable,Redemption,Repentance,Redemption
 674,Spirit Shackles,灵魂枷锁,passive,1,Unfinished business,"Taking fatal damage transforms Isaac into a ghost chained to his dead body and allows him to continue to fight with half a heart
 If the ghost survives, Isaac revives after 10 seconds
 Must be recharged by picking up a Soul Heart","承受致命伤害时, 将角色变为幽灵并被锁链束缚在尸体上, 留有半心继续战斗
 幽灵存活10秒后, 角色重生
-必须通过拾起魂心充能",,,Repentance,Spirit Shackles
+必须通过拾起魂心充能",,Spirit Shackles,Repentance,Spirit Shackles
 675,Cracked Orb,碎裂的宝珠,passive,1,Shards of knowledge,"Taking damage:
 Unlocks all locked doors in the room
 Reveals a random room on the map
 Destroys all tinted and crawlspace rocks","受伤时:
 打开房间中所有上锁的门
 揭示地图上1个随机房间
-摧毁所有标记石头和暗门石头",nolostbr / summonable,,Repentance,Cracked Orb
-676,Empty Heart,空虚之心,passive,1,It multiplies,+1 Empty heart container when at 1 Red Heart or less at the start of a new floor,"当不多于1红心开始新层时, +1空心之容器",nolostbr / summonable,,Repentance,Empty Heart
+摧毁所有标记石头和暗门石头",nolostbr / summonable,Cracked Orb,Repentance,Cracked Orb
+676,Empty Heart,空虚之心,passive,1,It multiplies,+1 Empty heart container when at 1 Red Heart or less at the start of a new floor,"当不多于1红心开始新层时, +1空心之容器",nolostbr / summonable,Empty Heart,Repentance,Empty Heart
 677,Astral Projection,灵魂出窍,passive,1,The true out-of-body experience!,"Taking damage in an uncleared room grants for the fight:
 Spectral tears
 Flight
@@ -2667,16 +2667,16 @@ Greatly increases speed and fire rate for 2 seconds","在有敌人的房间中�
 飞行
 抵消下次伤害
 时间暂停2秒
-2秒内大幅提升移速和射速",nolostbr / summonable,,Repentance,Astral Projection
+2秒内大幅提升移速和射速",nolostbr / summonable,Astral Projection,Repentance,Astral Projection
 678,C Section,剖腹产,passive,4,Fetus shots,"Replaces Isaac's tears with a charge attack that shoots homing, spectral fetus tears
  Fetus tears deal about 2.8x Isaac's damage per second","角色的泪弹由蓄力攻击取代, 发射追踪灵体胎儿
- 胎儿每秒造成2.8x角色伤害",offensive / summonable,,Repentance,C Section
+ 胎儿每秒造成2.8x角色伤害",offensive / summonable,C Section,Repentance,C Section
 679,Lil Abaddon,亚巴顿宝宝,passive,2,Abyssal friend,"Familiar that charges and unleashes a Maw of the Void circle
 It deals 52.5 damage over 1 second","蓄力并发射虚空之喉进行攻击的跟班
-1秒内造成52.5点伤害",baby / monstermanual / offensive / summonable,,Repentance,Lil Abaddon
+1秒内造成52.5点伤害",baby / monstermanual / offensive / summonable,Lil Abaddon,Repentance,Lil Abaddon
 680,Montezuma's Revenge,水土不服症,passive,2,Oh no...,"Firing charges up a short-ranged high damage backwards beam
 Does not replace Isaac's tears","蓄力并从角色后方发射短程高伤害光柱
-不取代角色泪弹",offensive / poop / summonable,,Repentance,Montezuma's Revenge
+不取代角色泪弹",offensive / poop / summonable,Montezuma's Revenge,Repentance,Montezuma's Revenge
 681,Lil Portal,黑洞宝宝,passive,0,It hungers,"Double-tapping a fire button launches the portal
 Deals contact damage when launched
 Consumes pickups in its path
@@ -2687,25 +2687,25 @@ The content of the room persists for the rest of the run","双击发射键可发
 消耗经过的掉落物
 消耗掉落物会提升其尺寸, 伤害并生成1只蓝苍蝇
 消耗(当前楼层数+1)个掉落物生成通往特殊房间的传送门, 跟班在本层后续中消失
-房间中的内容本局持续存在",offensive / summonable,,Repentance,Lil Portal
+房间中的内容本局持续存在",offensive / summonable,Lil Portal,Repentance,Lil Portal
 682,Worm Friend,触手朋友,passive,3,Clingy buddy,"Sometimes bursts out of the ground and grabs an enemy
 Grabbed enemies take 8 damage per second, are slowed and cannot move","有时会从地面伸出一条触手束缚敌人
-受缚的敌人每秒受到8点伤害, 减速并无法移动",monstermanual / offensive / summonable,,Repentance,Worm Friend
+受缚的敌人每秒受到8点伤害, 减速并无法移动",monstermanual / offensive / summonable,Worm Friend,Repentance,Worm Friend
 683,Bone Spurs,骨刺,passive,2,Break your enemies,"Enemies spawn bone shards on death
 Bones block projectiles and deal contact damage","敌人死亡时生成骨片
-骨片可阻挡弹幕并造成接触伤害",offensive / summonable,,Repentance,Bone Spurs
+骨片可阻挡弹幕并造成接触伤害",offensive / summonable,Bone Spurs,Repentance,Bone Spurs
 684,Hungry Soul,饥饿幽魂,passive,2,Out for blood,"Killing an enemy has a 33% chance to spawn a ghost
 Ghosts chase enemies, deal contact damage and explode after 5 seconds
 Isaac doesn't take damage from the explosion","击杀敌人时, 33%概率生成幽灵
 幽灵追击敌人, 造成接触伤害并在5秒后爆炸
-角色不受该爆炸伤害",offensive / summonable,,Repentance,Hungry Soul
+角色不受该爆炸伤害",offensive / summonable,Hungry Soul,Repentance,Hungry Soul
 685,Jar of Wisps,魂火罐,active,1,Your faith grows,"Spawns 2 random wisps
 Spawns one additional wisp with each use, up to 12","生成2随机魂火
-每次使用多生成1魂火, 最多12个",offensive,,Repentance,Jar of Wisps
+每次使用多生成1魂火, 最多12个",offensive,Jar of Wisps,Repentance,Jar of Wisps
 686,Soul Locket,灵魂吊坠,passive,1,Power of faith,"Picking up Soul Hearts grants random permanent stat ups
  Spawns a Soul Heart","拾起魂心时, 永久获得随机属性提升
- 生成1魂心",offensive / summonable,,Repentance,Soul Locket
-687,Friend Finder,寻友护符,active,2,Best friends forever!,Spawns a random friendly monster that mimics Isaac's movements and attacks,"生成1个友好的敌人, 并模拟角色移动和攻击",offensive,,Repentance,Friend Finder
+ 生成1魂心",offensive / summonable,Soul Locket,Repentance,Soul Locket
+687,Friend Finder,寻友护符,active,2,Best friends forever!,Spawns a random friendly monster that mimics Isaac's movements and attacks,"生成1个友好的敌人, 并模拟角色移动和攻击",offensive,Friend Finder,Repentance,Friend Finder
 688,Inner Child,内在孩童,passive,2,Let him free,"+1 Life
 Upon death:
 Respawns Isaac in the same room with half a heart
@@ -2714,16 +2714,16 @@ Massive size down","+1生命
 死亡时:
 角色在相同房间以半心重生
  移速+0.2
-体型大幅变小",,,Repentance,Inner Child
-689,Glitched Crown,错误王冠,passive,4,?????,Item pedestals quickly cycle between 5 random items,底座道具在5个随机道具之间快速切换,nocantrip / offensive / summonable,,Repentance,Glitched Crown
+体型大幅变小",,Inner Child,Repentance,Inner Child
+689,Glitched Crown,错误王冠,passive,4,?????,Item pedestals quickly cycle between 5 random items,底座道具在5个随机道具之间快速切换,nocantrip / offensive / summonable,Glitched Crown,Repentance,Glitched Crown
 690,Belly Jelly,肚肚软糖,passive,3,Bounce away!,"Enemies bounce off of Isaac
 50% chance to negate contact damage
 50% chance to deflect enemy projectiles","敌人能被角色弹开
 50%概率抵消接触伤害
-50%概率反弹敌人弹幕",summonable,,Repentance,Belly Jelly
+50%概率反弹敌人弹幕",summonable,Belly Jelly,Repentance,Belly Jelly
 691,Sacred Orb,十字圣球,passive,4,Destined for greatness,"Prevents Quality / items from spawning
 Quality items have a 33% chance to be rerolled","阻止品质为/的道具生成
-33%概率重置品质为的道具",angel / nocantrip / offensive / summonable,,Repentance,Sacred Orb
+33%概率重置品质为的道具",angel / nocantrip / offensive / summonable,Sacred Orb,Repentance,Sacred Orb
 692,Sanguine Bond,血色羁绊,passive,1,He awaits your offering,"Spawns a set of spikes in the Devil Room
 Taking damage on the spikes grants:
 35%: Nothing
@@ -2738,56 +2738,56 @@ Taking damage on the spikes grants:
 15%: 6硬币
 10%: 2黑心
 5%: 随机恶魔房道具
-2%: 利维坦套装",devilsacrifice / lazarussharedglobal / nolostbr / summonable,,Repentance,Sanguine Bond
+2%: 利维坦套装",devilsacrifice / lazarussharedglobal / nolostbr / summonable,Sanguine Bond,Repentance,Sanguine Bond
 693,The Swarm,虫群,passive,2,Infest,"Grants 8 orbital flies
 Clearing a room spawns a new fly
 Flies turn into blue flies after blocking a shot","获得8只环绕苍蝇
 清理房间后, 生成1只新苍蝇
-阻挡弹幕后, 苍蝇变成蓝苍蝇",fly / summonable,,Repentance,The Swarm
+阻挡弹幕后, 苍蝇变成蓝苍蝇",fly / summonable,The Swarm,Repentance,The Swarm
 694,Heartbreak,心碎,passive,3,Eternal sorrow,"+0.25 Damage for each Broken Heart
  +3 Broken Hearts
  Every fatal hit grants +2 Broken Hearts
 Isaac dies at 12 Broken Hearts","每个碎心+0.25伤害
  +3碎心
  致死时, 致死伤害改为+2碎心
- 角色12碎心时死亡",summonable,,Repentance,Heartbreak
+ 角色12碎心时死亡",summonable,Heartbreak,Repentance,Heartbreak
 695,Bloody Gust,嗜血腥风,passive,2,May your rage bring haste,"When taking damage, receive for the floor:
  Speed up
  Fire rate up
 Caps at +1.02 speed and +3 fire rate","受伤时, 在本层获得:
  移速提升
  射速提升
-最多移速+1.02, 射速修正+3",devilsacrifice / nolostbr / summonable / tearsup,,Repentance,Bloody Gust
+最多移速+1.02, 射速修正+3",devilsacrifice / nolostbr / summonable / tearsup,Bloody Gust,Repentance,Bloody Gust
 696,Salvation,救恩,passive,3,Divine protection,"Isaac is surrounded by a halo
 Enemies that stand in the halo for too long are hit by a cross-shaped beam of light
 Taking damage increases the size of the halo for the floor","角色周围环绕光环
 站在光环中过久的敌人受到十字光柱攻击
-受伤时, 在本层中提升光环的大小",angel / offensive / summonable,,Repentance,Salvation
+受伤时, 在本层中提升光环的大小",angel / offensive / summonable,Salvation,Repentance,Salvation
 697,Vanishing Twin,消失的胞胎,passive,1,He wants revenge,"Entering a boss room spawns a clone of the boss
 Defeating the clone spawns an extra item
 The clone is slower and has 75% health","进入头目房时, 生成头目的复制体
 击败复制体可额外生成1个道具
-复制体更慢, 血量只有75%",lazarussharedglobal / nogreed / offensive / uniquefamiliar,,Repentance,Vanishing Twin
+复制体更慢, 血量只有75%",lazarussharedglobal / nogreed / offensive / uniquefamiliar,Vanishing Twin,Repentance,Vanishing Twin
 698,Twisted Pair,作孽双子,passive,4,Double trouble!,"Two familiars that shoot tears with the same stats and effects as Isaac
  They deal 37.5% of Isaac's damage","发射与角色相同属性和效果泪弹的2个跟班
- 每个跟班造成37.5%角色伤害",baby / monstermanual / offensive / summonable,,Repentance,Twisted Pair
-699,Azazel's Rage,阿撒泻勒之怒,passive,2,Ancient power,Clearing 4 rooms fires a large Brimstone beam upon entering the next room,"清理4个房间后, 进入新房间时, 发射大型硫磺火激光",offensive / summonable,,Repentance,Azazel's Rage
-700,Echo Chamber,回声室,passive,3,I can see see the future future future,"Using a rune, card or pill also uses a copy of the last 3 runes/cards/pills used after picking up Echo Chamber","使用符文/卡牌/胶囊时, 也使用在拾起回声室之后使用的最近3个符文/卡牌/胶囊",nocantrip / offensive / stars / summonable,,Repentance,Echo Chamber
+ 每个跟班造成37.5%角色伤害",baby / monstermanual / offensive / summonable,Twisted Pair,Repentance,Twisted Pair
+699,Azazel's Rage,阿撒泻勒之怒,passive,2,Ancient power,Clearing 4 rooms fires a large Brimstone beam upon entering the next room,"清理4个房间后, 进入新房间时, 发射大型硫磺火激光",offensive / summonable,Azazel's Rage,Repentance,Azazel's Rage
+700,Echo Chamber,回声室,passive,3,I can see see the future future future,"Using a rune, card or pill also uses a copy of the last 3 runes/cards/pills used after picking up Echo Chamber","使用符文/卡牌/胶囊时, 也使用在拾起回声室之后使用的最近3个符文/卡牌/胶囊",nocantrip / offensive / stars / summonable,Echo Chamber,Repentance,Echo Chamber
 701,Isaac's Tomb,以撒的坟墓,passive,2,Buried memories,"Spawns an Old Chest at the start of every floor
 Old Chests require a key to unlock and can contain Soul Hearts, trinkets or Mom, Dad and Angel items","每层开始时生成1旧箱子
-旧箱子需要1钥匙打开, 含有魂心/饰品/天使房道具/妈妈, 爸爸相关的道具",offensive / summonable,,Repentance,Isaac's Tomb
+旧箱子需要1钥匙打开, 含有魂心/饰品/天使房道具/妈妈, 爸爸相关的道具",offensive / summonable,Isaac's Tomb,Repentance,Isaac's Tomb
 702,Vengeful Spirit,复仇之魂,passive,1,Hot blooded,"Taking damage spawns an orbital wisp
 Wisps shoot tears, do not block shots and disappear on the next floor
 Caps at 6 wisps","受伤时, 生成1环绕魂火
 魂火发射泪弹, 不阻挡弹幕, 下一层消失
-最多6魂火",nolostbr / summonable,,Repentance,Vengeful Spirit
+最多6魂火",nolostbr / summonable,Vengeful Spirit,Repentance,Vengeful Spirit
 703,Esau Jr.,小以扫,active,1,Lost brother,"Swaps between the current character and Esau Jr.
 Esau Jr. has 3 Black Hearts, +2 Damage, flight, and random items equal to the number of items the player has the first time this item is used
 Characters have independent items and health
  Dying as either character ends the run","在当前角色和小以扫之间切换
 小以扫拥有3黑心, 伤害+2, 飞行, 首次使用时获得与主角色等量的随机道具
 两个角色道具和血量独立
- 任意角色死亡, 游戏结束",nocantrip / offensive,,Repentance,Esau Jr.
+ 任意角色死亡, 游戏结束",nocantrip / offensive,Esau Jr.,Repentance,Esau Jr.
 704,Berserk!,狂怒！,active,1,Rip and tear,"Charges with damage dealt
  Receive for 5 seconds:
  +0.4 Speed
@@ -2802,7 +2802,7 @@ Restricts attacks to a melee that reflects shots
  射速修正+2
  伤害+3
 只能使用特定近战武器, 能反弹弹幕
- 击杀敌人可延长此状态1秒, 并获得短暂无敌",devilsacrifice / offensive,,Repentance,Berserk!
+ 击杀敌人可延长此状态1秒, 并获得短暂无敌",devilsacrifice / offensive,Berserk!,Repentance,Berserk!
 705,Dark Arts,暗仪刺刀,active,1,One with the shadows,"Receive for 1 second (or until shooting): +1 Speed
 Isaac can pass through enemies/projectiles and paralyzes them
 When the effect ends, damages paralyzed enemies, removes paralyzed projectiles and creates a blast at Isaac's location
@@ -2810,7 +2810,7 @@ The attacks and blast are more powerful the more enemies/projectiles have been h
 移速+1
 角色可穿过敌人/弹幕并使其静止
 效果结束时, 伤害静止的敌人, 移除静止的弹幕, 在角色位置产生冲击
-穿过的敌人/弹幕越多, 伤害和冲击越强",offensive,,Repentance,Dark Arts
+穿过的敌人/弹幕越多, 伤害和冲击越强",offensive,Dark Arts,Repentance,Dark Arts
 706,Abyss,无底坑,active,3,Come forth from the depths,"Consumes all item pedestals in the room and spawns a locust familiar for each one
 Some items spawn a special locust when consumed
  Locusts deal Isaac's damage multiplied by the item quality consumed:
@@ -2825,7 +2825,7 @@ Some items spawn a special locust when consumed
  - 0.75x
  - 1.0x
  - 1.5x
- - 2.0x",nocantrip / offensive,,Repentance,Abyss
+ - 2.0x",nocantrip / offensive,Abyss,Repentance,Abyss
 707,Supper,晚餐,passive,1,HP up,"+1 Health
  Heals 1 heart","+1心之容器
  治疗1红心",food / nolostbr,,Repentance,Supper
@@ -2838,27 +2838,27 @@ Slam deals damage and spawns rock waves based on Isaac's size
 You're invincible during the dash and slam","角色向移动方向冲刺
 冲到敌人或头目时将其举起并摔在地上
 根据角色体型造成摔伤并产生岩石波
-冲刺和摔击时角色无敌",offensive,,Repentance,Suplex!
+冲刺和摔击时角色无敌",offensive,Suplex!,Repentance,Suplex!
 710,Bag of Crafting,合成宝袋,active,3,Make your destiny,"Collects up to 8 pickups which cannot be dropped
 Using the item with 8 pickups in the bag crafts an item
 Item quality is based on the quality of the pickups","收集最多8个掉落物, 不能再拿出
 集满时使用可将掉落物合成为道具
-道具品质取决于掉落物品质",nocantrip / offensive,,Repentance,Bag of Crafting
+道具品质取决于掉落物品质",nocantrip / offensive,Bag of Crafting,Repentance,Bag of Crafting
 711,Flip,生死逆转,active,4,Twist of fate,"Entering a room with item pedestals displays a ghostly second item on the pedestals
 Using the item flips the real and ghostly item
 Using Flip after taking the first item allows Isaac to pick up the other item
  Ghostly items alone on pedestals disappear after leaving the room","进入有底座道具的房间时, 在底座上显示另一个虚道具
 使用时, 调换虚实道具位置
 在拿走第一个道具后使用生死逆转时, 允许角色拾起另一个
- 单独的虚道具在离开房间后消失",nocantrip / offensive,,Repentance,Flip
+ 单独的虚道具在离开房间后消失",nocantrip / offensive,Flip,Repentance,Flip
 712,Lemegeton,所罗门魔典,active,3,Item summoner,"Spawns an orbital that grants a random item's effect
 The items have a 25% chance to be from the current room's item pool and 75% chance to be from a random item pool","生成1个环绕物, 获得随机道具的效果
-该道具有25%概率来自当前房间的道具池, 75%概率来自随机道具池",book / offensive,,Repentance,Lemegeton
+该道具有25%概率来自当前房间的道具池, 75%概率来自随机道具池",book / offensive,Lemegeton,Repentance,Lemegeton
 713,Sumptorium,圣血吸管,active,3,Blood to blood,"Removes half a heart and creates a clot
 Clots copy Isaac's tears
 Each type of heart generates a clot with different HP, damage and tear effect","移除半心并创造1个血团
 血团复制角色的泪弹
-不同类型的心产生不同血量, 伤害和泪弹效果的血团",nolostbr,,Repentance,Sumptorium
+不同类型的心产生不同血量, 伤害和泪弹效果的血团",nolostbr,Sumptorium,Repentance,Sumptorium
 714,Recall,召回,active,0,Come back,"Retrieves the Forgotten's body from any distance
 The Soul is invincible while the Forgotten is returning","从任意距离召回遗骸的身体
 遗骸之魂在遗骸返回时无敌",noeden,,Repentance,Recall
@@ -2873,11 +2873,11 @@ Using the item with a poop inside uses that poop","若未存有大便, 则将下
  每花费3硬币获得其一:
  移速+0.03
  伤害+0.5
- 射程+0.25",offensive / summonable,,Repentance,Keeper's Sack
+ 射程+0.25",offensive / summonable,Keeper's Sack,Repentance,Keeper's Sack
 717,Keeper's Kin,店主的亲友,passive,2,Under a rock,"Rocks and other obstacles spawn 2 blue spiders when destroyed
 Rocks can occasionally spawn blue spiders in hostile rooms","石头和障碍物在被摧毁时生成2只蓝蜘蛛
-石头在有敌人的房间中时不时会产生蓝蜘蛛",offensive / spider / summonable,,Repentance,Keeper's Kin
-719,Keeper's Box,店主的盒子,active,1,Portable shop,Spawns a random Shop item/pickup to be purchased,生成1个可购买的商店道具/掉落物,offensive,,Repentance,Keeper's Box
+石头在有敌人的房间中时不时会产生蓝蜘蛛",offensive / spider / summonable,Keeper's Kin,Repentance,Keeper's Kin
+719,Keeper's Box,店主的盒子,active,1,Portable shop,Spawns a random Shop item/pickup to be purchased,生成1个可购买的商店道具/掉落物,offensive,Keeper's Box,Repentance,Keeper's Box
 720,Everything Jar,百宝罐,active,2,Anything is possible,"Spawns pickups based on the number of charges
 Charge Rewards:
  1: 2: 3: 4:
@@ -2888,17 +2888,17 @@ Charge Rewards:
  1:大便 2: 3: 4:
  5: 6: 7: 8:
  9: 10: 11:
- 12充能时触发一个随机强力效果",offensive,,Repentance,Everything Jar
+ 12充能时触发一个随机强力效果",offensive,Everything Jar,Repentance,Everything Jar
 721,TMTRAINER,错误技,passive,0,ZZaZZ ZZdZZiZZmZZhZZ ZZvZZ ZZoZZ ZZ ZZsZZlZZhZZsZZoZZaZZiZZ,"Causes all future items to be glitched
 Glitched items have completely random effects","使后续道具都为错误道具
-错误道具的效果完全随机",nocantrip / offensive,,Repentance,TMTRAINER
+错误道具的效果完全随机",nocantrip / offensive,TMTRAINER,Repentance,TMTRAINER
 722,Anima Sola,孤魂铁索,active,2,Repent,"Chains down the nearest enemy for 5 seconds
 Chained enemies cannot move or attack","禁锢离角色最近的敌人5秒
-被禁锢的敌人无法移动或攻击",offensive,,Repentance,Anima Sola
-723,Spindown Dice,计数二十面骰,active,4,-1,Rerolls all items in the room by decreasing their internal ID by one,将房间中所有道具重置为内部ID减1的道具,nocantrip / offensive,,Repentance,Spindown Dice
+被禁锢的敌人无法移动或攻击",offensive,Anima Sola,Repentance,Anima Sola
+723,Spindown Dice,计数二十面骰,active,4,-1,Rerolls all items in the room by decreasing their internal ID by one,将房间中所有道具重置为内部ID减1的道具,nocantrip / offensive,Spindown Dice,Repentance,Spindown Dice
 724,Hypercoagulation,高凝血,passive,2,Thick blooded,"Taking damage drops a half or full Red Heart depending on how much Isaac lost
 The hearts launch out and despawn after 1.5 seconds","受伤时, 根据受伤量掉落半红心或整红心
-产生的红心弹出并在1.5秒后消失",nolostbr / summonable,,Repentance,Hypercoagulation
+产生的红心弹出并在1.5秒后消失",nolostbr / summonable,Hypercoagulation,Repentance,Hypercoagulation
 725,IBS,大肠激躁症,passive,0,Your stomach rumbles,"Dealing enough damage causes Isaac to flash red
 Releasing the fire button while Isaac is flashing either:
 Throws a random poop
@@ -2909,29 +2909,29 @@ Spawns 5 live bombs","造成足够伤害使角色闪红色
 投掷1个随机大便
 产生增益水迹
 放毒屁
-生成5个激活的炸弹",offensive / poop / summonable,,Repentance,IBS
+生成5个激活的炸弹",offensive / poop / summonable,IBS,Repentance,IBS
 726,Hemoptysis,咯血症,passive,1,Double tap sneeze,"Double-tapping a fire button makes Isaac sneeze blood
 The sneeze deals 1.5x Isaac's damage
 1 second cooldown
  Affected enemies take extra damage from Brimstone beams","双击发射键使角色咯血
 咯血造成1.5x角色伤害
 1秒冷却
- 硫磺火激光对受影响的敌人造成额外伤害",offensive / summonable,,Repentance,Hemoptysis
+ 硫磺火激光对受影响的敌人造成额外伤害",offensive / summonable,Hemoptysis,Repentance,Hemoptysis
 727,Ghost Bombs,幽灵炸弹,passive,1,Spooky blast +5 bombs,"+5 Bombs
 Isaac's bombs spawn ghosts that chase enemies
 Ghosts deal 2x Isaac's damage per second and explode after 10 seconds","+5炸弹
 爆炸时生成幽灵追击敌人
-幽灵每秒造成2x角色伤害, 并在10秒后爆炸",offensive / summonable,,Repentance,Ghost Bombs
+幽灵每秒造成2x角色伤害, 并在10秒后爆炸",offensive / summonable,Ghost Bombs,Repentance,Ghost Bombs
 728,Gello,格罗,active,3,Demonic gestation,"A demon familiar bursts out of Isaac for the room
 The demon shoots towards the nearest enemy, mimicing Isaac's tears, stats and effects
  Its tears deal 75% of Isaac's damage","在当前房间中, 角色会迸出恶魔跟班
 恶魔向最近的敌人发射, 模仿角色属性和泪弹效果
- 其泪弹造成75%角色伤害",offensive,,Repentance,Gello
+ 其泪弹造成75%角色伤害",offensive,Gello,Repentance,Gello
 729,Decap Attack,飞头攻击,active,1,Chuck away!,"Throws Isaac's head in a direction
 The head deals contact damage and shoots tears from where it lands
 Using the item again or stepping on the head reattaches it","向一方向投掷角色的头
 头造成接触伤害, 在落点发射泪弹
-再次使用或接触时, 将头收回",offensive,,Repentance,Decap Attack
+再次使用或接触时, 将头收回",offensive,Decap Attack,Repentance,Decap Attack
 730,Glass Eye,玻璃眼,passive,3,DMG + luck up,"+0.75 Damage
  +1 Luck","伤害+0.75
  幸运+1",offensive,,Repentance,Glass Eye
