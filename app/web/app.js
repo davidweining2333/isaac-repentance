@@ -22,7 +22,7 @@
   });
 
   /* ---------- 模糊搜索：默认全类型 ---------- */
-  const KIND_LABEL = { items: "道具", trinkets: "饰品", cards: "卡牌", pills: "药丸" };
+  const KIND_LABEL = { items: "道具", trinkets: "饰品", cards: "卡牌", pills: "药丸", rooms: "房间" };
   const TYPE_LABEL = { active: "主动道具", passive: "被动道具" };
 
   /* 主动道具充能：数字=房间数；Ns=随时间自动充能；其余是特殊值。
@@ -59,10 +59,11 @@
     { key: "items", label: KIND_LABEL.items },
     { key: "trinkets", label: KIND_LABEL.trinkets },
     { key: "cards", label: KIND_LABEL.cards },
-    { key: "pills", label: KIND_LABEL.pills }
+    { key: "pills", label: KIND_LABEL.pills },
+    { key: "rooms", label: KIND_LABEL.rooms }
   ];
-  /* 「全部」只混合道具/饰品/卡牌；药丸只有切到药丸分类才显示 */
-  const ALL_KINDS = SEARCH_KINDS.filter(g => g.key !== "pills");
+  /* 「全部」只混合道具/饰品/卡牌；药丸和房间只有切到各自分类才显示 */
+  const ALL_KINDS = SEARCH_KINDS.filter(g => g.key !== "pills" && g.key !== "rooms");
   let kind = "all", query = "";
 
   function setKind(k) {
@@ -75,8 +76,8 @@
     const had = !!query;
     query = e.target.value.trim().toLowerCase();
     /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制；
-       药丸分类除外，否则在药丸页输入会立刻跳到不含药丸的「全部」。 */
-    if (query && !had && kind !== "all" && kind !== "pills") setKind("all");
+       药丸/房间分类除外，否则输入会立刻跳到不含它们的「全部」。 */
+    if (query && !had && (kind === "items" || kind === "trinkets" || kind === "cards")) setKind("all");
     else render();
   });
 
@@ -97,9 +98,10 @@
   function cardHTML(r, i, groupKey) {
     const name = r.name_zh || r.name || "";
     /* 药丸外观随机，没有固定图标；直接展示名称和效果，避免无意义的占位图标 */
-    if (groupKey === "pills") {
+    /* 药丸外观随机、房间没有图标，直接展示名称和说明文字 */
+    if (groupKey === "pills" || groupKey === "rooms") {
       const effect = r.desc_zh || "（暂无效果描述）";
-      return `<div class="card k-pills pill-card" data-idx="${i}" data-kind="${groupKey}"
+      return `<div class="card k-${groupKey} pill-card" data-idx="${i}" data-kind="${groupKey}"
         title="${esc(name)}：${esc(effect)}" aria-label="${esc(name)}，${esc(effect)}">
         <div class="pill-name">${esc(name)}</div>
         <div class="pill-desc">${esc(effect)}</div>
@@ -153,7 +155,7 @@
 
     let txt = `${picked.length} 条`;
     if (query) txt += ` · “${query}”`;
-    else if (kind === "all") txt += " · 全部类型（不含药丸）";
+    else if (kind === "all") txt += " · 全部类型（不含药丸、房间）";
     $("#searchCnt").textContent = txt;
     $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">没找到，换个俗称/拼音/长相试试</div>`;
   }
@@ -163,7 +165,7 @@
     const quality = r.quality != null ? `<span class="mq q${r.quality}">品质 ${r.quality}</span>` : "";
     const head = (r.image || r.image_url)
       ? `<img src="${IMG(r)}" onerror="this.style.display='none'">`
-      : `<div class="mph pillph">药丸</div>`;
+      : `<div class="mph pillph">${esc(KIND_LABEL[kindKey] || "")}</div>`;
     const tags = [...(r.nick || []), ...(r.look || [])];
     const sub = [r.name || "", TYPE_LABEL[r.type] || ""].filter(Boolean).join(" · ");
     const charge = chargeInfo(r);
@@ -181,6 +183,12 @@
           ${unlockReq && unlockName ? `<span class="munlock-note">成就「${esc(unlockName)}」</span>` : ""}
         </div>`
       : "";
+    const wikiHref = r.wiki_page
+      ? "https://bindingofisaacrebirth.wiki.gg/wiki/" + encodeURIComponent(r.wiki_page).replace(/%20/g, "_")
+      : "";
+    const wikiLink = wikiHref
+      ? ` · <a class="mlink" href="${wikiHref}" target="_blank" rel="noopener">以撒 Wiki ↗</a>`
+      : "";
     $("#modal .mbody").innerHTML = `
       <div class="mhead">${head}
         <div><div class="mtitle">${r.name_zh || r.name}</div>
@@ -192,7 +200,7 @@
       <div class="mdesc">${(r.desc_zh || "（暂无效果描述）").replace(/</g, "&lt;")}</div>
       ${unlockHTML}
       ${tags.length ? `<div class="mtags">${tags.map(t => `<span class="ctag">${t}</span>`).join("")}</div>` : ""}
-      <div class="msub" style="margin-top:10px">${KIND_LABEL[kindKey] || ""}${r.id != null ? " · ID " + r.id : ""}</div>`;
+      <div class="msub" style="margin-top:10px">${KIND_LABEL[kindKey] || ""}${r.id != null ? " · ID " + r.id : ""}${wikiLink}</div>`;
     $("#modal").classList.add("on");
   }
   $("#results").addEventListener("click", e => {

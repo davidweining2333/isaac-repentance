@@ -1,0 +1,113 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "以撒图鉴 忏悔/忏悔+ · 道具 · 饰品 · 卡牌 · 药丸" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - generic [ref=e5] [cursor=pointer]: 搜索
+      - generic [ref=e6] [cursor=pointer]: 拍照识别
+      - generic [ref=e7] [cursor=pointer]: 说明
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - searchbox "搜道具 / 饰品 / 卡牌 / 房间：俗称 / 中文名 / 拼音 / 长相" [ref=e11]
+      - generic [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]: 全部
+        - generic [ref=e14] [cursor=pointer]: 道具
+        - generic [ref=e15] [cursor=pointer]: 饰品
+        - generic [ref=e16] [cursor=pointer]: 卡牌
+        - generic [ref=e17] [cursor=pointer]: 药丸
+        - generic [ref=e18] [cursor=pointer]: 房间
+    - generic [ref=e19]: 27 条
+    - generic [ref=e20]:
+      - generic "成就，完成挑战、通关标记、隐藏目标或解锁条件后获得的游戏内成就；Steam 成就与游戏秘密基本一一对应。" [ref=e2916] [cursor=pointer]:
+        - generic [ref=e2917]: 成就
+        - generic [ref=e2918]: 完成挑战、通关标记、隐藏目标或解锁条件后获得的游戏内成就；Steam 成就与游戏秘密基本一一对应。
+      - generic "天使房，恶魔房的圣洁对应房间，通常提供免费道具；拿取一个后其余道具会消失。" [ref=e2919] [cursor=pointer]:
+        - generic [ref=e2920]: 天使房
+        - generic [ref=e2921]: 恶魔房的圣洁对应房间，通常提供免费道具；拿取一个后其余道具会消失。
+      - generic "赌博房，偶数层且离开上一层时持有至少 5 枚硬币才可能出现，需要 1 枚硬币开门。" [ref=e2922] [cursor=pointer]:
+        - generic [ref=e2923]: 赌博房
+        - generic [ref=e2924]: 偶数层且离开上一层时持有至少 5 枚硬币才可能出现，需要 1 枚硬币开门。
+      - generic "卧室，稀有房间，通常需要睡袋等道具生成，睡觉可恢复红心。" [ref=e2925] [cursor=pointer]:
+        - generic [ref=e2926]: 卧室
+        - generic [ref=e2927]: 稀有房间，通常需要睡袋等道具生成，睡觉可恢复红心。
+      - generic "黑市，隐藏商店，出售道具、掉落物，有时可用生命或钥匙交易。" [ref=e2928] [cursor=pointer]:
+        - generic [ref=e2929]: 黑市
+        - generic [ref=e2930]: 隐藏商店，出售道具、掉落物，有时可用生命或钥匙交易。
+      - generic "头目房，每层尽头的主要头目房间，击败头目后会出现通往下一层的活板门。" [ref=e2931] [cursor=pointer]:
+        - generic [ref=e2932]: 头目房
+        - generic [ref=e2933]: 每层尽头的主要头目房间，击败头目后会出现通往下一层的活板门。
+      - generic "头目车轮战，在妈妈头目战后的房间中，20 分钟内进入可挑战连续头目波次。" [ref=e2934] [cursor=pointer]:
+        - generic [ref=e2935]: 头目车轮战
+        - generic [ref=e2936]: 在妈妈头目战后的房间中，20 分钟内进入可挑战连续头目波次。
+      - generic "挑战房，进入后门会关闭，必须清空房间内所有敌人才能离开并获得奖励。" [ref=e2937] [cursor=pointer]:
+        - generic [ref=e2938]: 挑战房
+        - generic [ref=e2939]: 进入后门会关闭，必须清空房间内所有敌人才能离开并获得奖励。
+      - generic "挑战模式，带有预设角色、道具或特殊规则的特殊游戏模式，完成后解锁对应奖励。" [ref=e2940] [cursor=pointer]:
+        - generic [ref=e2941]: 挑战模式
+        - generic [ref=e2942]: 带有预设角色、道具或特殊规则的特殊游戏模式，完成后解锁对应奖励。
+      - generic "贮藏室，稀有的小型死胡同布局，常由特定道具或地形组合生成。" [ref=e2943] [cursor=pointer]:
+        - generic [ref=e2944]: 贮藏室
+        - generic [ref=e2945]: 稀有的小型死胡同布局，常由特定道具或地形组合生成。
+      - generic "夹层，位于楼层地图之外的狭小空间，通常通过破坏特定墙壁进入。" [ref=e2946] [cursor=pointer]:
+        - generic [ref=e2947]: 夹层
+        - generic [ref=e2948]: 位于楼层地图之外的狭小空间，通常通过破坏特定墙壁进入。
+      - generic "诅咒房，进入会损失半颗心，内部可能有道具、掉落物或通往恶魔房的通道。" [ref=e2949] [cursor=pointer]:
+        - generic [ref=e2950]: 诅咒房
+        - generic [ref=e2951]: 进入会损失半颗心，内部可能有道具、掉落物或通往恶魔房的通道。
+      - generic "恶魔房，用红心容器交换强力道具的房间；交易会降低之后天使房的出现概率。" [ref=e2952] [cursor=pointer]:
+        - generic [ref=e2953]: 恶魔房
+        - generic [ref=e2954]: 用红心容器交换强力道具的房间；交易会降低之后天使房的出现概率。
+      - generic "骰子房，提供一次性骰子效果，可重 roll 道具、掉落物或房间内容。" [ref=e2955] [cursor=pointer]:
+        - generic [ref=e2956]: 骰子房
+        - generic [ref=e2957]: 提供一次性骰子效果，可重 roll 道具、掉落物或房间内容。
+      - generic "墓室，特殊房间类型，通常与墓地/陵墓主题楼层相关。" [ref=e2958] [cursor=pointer]:
+        - generic [ref=e2959]: 墓室
+        - generic [ref=e2960]: 特殊房间类型，通常与墓地/陵墓主题楼层相关。
+      - generic "错误房，错误房／I AM ERROR，连接地图之外的房间，可能包含商店或特殊道具。" [ref=e2961] [cursor=pointer]:
+        - generic [ref=e2962]: 错误房
+        - generic [ref=e2963]: 错误房／I AM ERROR，连接地图之外的房间，可能包含商店或特殊道具。
+      - generic "道具池，决定不同房间、商店和乞丐生成哪些道具的权重表。" [ref=e2964] [cursor=pointer]:
+        - generic [ref=e2965]: 道具池
+        - generic [ref=e2966]: 决定不同房间、商店和乞丐生成哪些道具的权重表。
+      - generic "图书馆，包含书架的房间，可拾取书籍类主动道具；部分楼层有图书馆。" [ref=e2967] [cursor=pointer]:
+        - generic [ref=e2968]: 图书馆
+        - generic [ref=e2969]: 包含书架的房间，可拾取书籍类主动道具；部分楼层有图书馆。
+      - generic "小头目房，包含小头目的特殊房间，清理后可能获得道具或掉落物。" [ref=e2970] [cursor=pointer]:
+        - generic [ref=e2971]: 小头目房
+        - generic [ref=e2972]: 包含小头目的特殊房间，清理后可能获得道具或掉落物。
+      - generic "星象房，拥有星象道具池的特殊房间，需要特定条件才会生成。" [ref=e2973] [cursor=pointer]:
+        - generic [ref=e2974]: 星象房
+        - generic [ref=e2975]: 拥有星象道具池的特殊房间，需要特定条件才会生成。
+      - generic "房间，楼层由不同类型、大小和布局的房间组成，房间类型决定内容与规则。" [ref=e2976] [cursor=pointer]:
+        - generic [ref=e2977]: 房间
+        - generic [ref=e2978]: 楼层由不同类型、大小和布局的房间组成，房间类型决定内容与规则。
+      - generic "献祭房，通过献祭红心获得奖励，连续献祭可触发天使、传送或特殊掉落。" [ref=e2979] [cursor=pointer]:
+        - generic [ref=e2980]: 献祭房
+        - generic [ref=e2981]: 通过献祭红心获得奖励，连续献祭可触发天使、传送或特殊掉落。
+      - generic "隐藏房，需要通过炸弹、红钥匙等发现的秘密房间，通常包含道具或掉落物。" [ref=e2982] [cursor=pointer]:
+        - generic [ref=e2983]: 隐藏房
+        - generic [ref=e2984]: 需要通过炸弹、红钥匙等发现的秘密房间，通常包含道具或掉落物。
+      - generic "商店，用硬币购买道具、掉落物或电池的房间，部分商品需要钥匙解锁。" [ref=e2985] [cursor=pointer]:
+        - generic [ref=e2986]: 商店
+        - generic [ref=e2987]: 用硬币购买道具、掉落物或电池的房间，部分商品需要钥匙解锁。
+      - generic "套装 / 变形，收集指定组合的道具后自动获得的变身效果，提供额外能力。" [ref=e2988] [cursor=pointer]:
+        - generic [ref=e2989]: 套装 / 变形
+        - generic [ref=e2990]: 收集指定组合的道具后自动获得的变身效果，提供额外能力。
+      - generic "宝箱房，每层通常出现的道具房，从第二层开始需要钥匙开门。" [ref=e2991] [cursor=pointer]:
+        - generic [ref=e2992]: 宝箱房
+        - generic [ref=e2993]: 每层通常出现的道具房，从第二层开始需要钥匙开门。
+      - generic "宝库，需要两把钥匙打开的特殊房间，内部通常有大量硬币。" [ref=e2994] [cursor=pointer]:
+        - generic [ref=e2995]: 宝库
+        - generic [ref=e2996]: 需要两把钥匙打开的特殊房间，内部通常有大量硬币。
+  - generic [ref=e2998]:
+    - generic [ref=e2999] [cursor=pointer]: ✕
+    - generic [ref=e3000]:
+      - generic [ref=e3001]:
+        - generic [ref=e3002]: 房间
+        - generic [ref=e3003]:
+          - generic [ref=e3004]: 赌博房
+          - generic [ref=e3005]: Arcade
+      - generic [ref=e3006]: 偶数层且离开上一层时持有至少 5 枚硬币才可能出现，需要 1 枚硬币开门。
+      - generic [ref=e3007]:
+        - text: 房间 ·
+        - link "以撒 Wiki ↗" [ref=e3008] [cursor=pointer]:
+          - /url: https://bindingofisaacrebirth.wiki.gg/wiki/Arcade

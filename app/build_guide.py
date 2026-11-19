@@ -126,6 +126,7 @@ def build_entry(kind, rec):
         "unlocked_by_zh": rec.get("unlocked_by_zh", ""),
         "requirements": rec.get("requirements", ""),
         "requirements_zh": rec.get("requirements_zh", ""),
+        "wiki_page": rec.get("wiki_page", ""),
         "nick": nick, "look": look, "pinyin": py,
         "image": rec.get("image", ""), "image_url": rec.get("image_url", ""),
         "search": " ".join(terms).lower(),
@@ -136,8 +137,23 @@ trinkets = [build_entry("trinkets", r) for r in load(os.path.join(DATASET, "trin
 cards = [build_entry("cards", r) for r in load(os.path.join(DATASET, "cards.json"))]
 pills = [build_entry("pills", r) for r in load(os.path.join(DATASET, "pills.json"))]
 
-guide = {"meta": {"items": len(items), "trinkets": len(trinkets), "cards": len(cards), "pills": len(pills)},
-         "items": items, "trinkets": trinkets, "cards": cards, "pills": pills}
+# ---- 房间说明：room_guides（英文机制文）+ i18n 中文摘要 ----
+zh_rooms = load(os.path.join(ROOT, "i18n", "zh.json")).get("room_guides", {})
+rooms = []
+for key in load(os.path.join(DATASET, "room_guides.json")):
+    z = zh_rooms.get(key, {})
+    name_zh = z.get("title_zh", "") or key
+    summary = z.get("summary_zh", "")
+    rooms.append({
+        "name": key, "name_zh": name_zh, "desc_zh": summary,
+        "nick": [], "look": [], "pinyin": [pinyin(name_zh)],
+        "image": "", "image_url": "", "wiki_page": key,
+        "search": " ".join(filter(None, [key, name_zh, summary])).lower(),
+    })
+
+guide = {"meta": {"items": len(items), "trinkets": len(trinkets), "cards": len(cards),
+                  "pills": len(pills), "rooms": len(rooms)},
+         "items": items, "trinkets": trinkets, "cards": cards, "pills": pills, "rooms": rooms}
 js = "window.GUIDE = " + json.dumps(guide, ensure_ascii=False, separators=(",", ":")) + ";\n"
 open(os.path.join(OUT, "guide.js"), "w", encoding="utf-8").write(js)
 
@@ -148,6 +164,6 @@ open(os.path.join(OUT, "images.json"), "w", encoding="utf-8").write(
 
 n_nick = sum(1 for x in items+trinkets+cards+pills if x["nick"])
 n_look = sum(1 for x in items+trinkets+cards+pills if x["look"])
-print(f"items={len(items)} trinkets={len(trinkets)} cards={len(cards)} pills={len(pills)}")
+print(f"items={len(items)} trinkets={len(trinkets)} cards={len(cards)} pills={len(pills)} rooms={len(rooms)}")
 print(f"含俗称={n_nick}  含象形标签={n_look}")
 print(f"web/guide.js {len(js)/1024:.0f}KB  ·  web/images.json {len(imgs)} 张")

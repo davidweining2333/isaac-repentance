@@ -47,6 +47,9 @@
   .card.k-pills { border-color:#d97a9e; }
   /* 药丸没有固定图标，卡片直接显示名称和效果 */
   .card.k-pills { grid-column:1/-1; padding:10px 12px; }
+  /* 房间说明同样用文字卡片 */
+  .card.k-rooms { border-color:#58b6c9; grid-column:1/-1; padding:10px 12px; }
+  .card.k-rooms .pill-name { color:#9fdce8; }
   .pill-name { font-weight:650; font-size:13.5px; line-height:1.35; color:#f0b4c8; }
   .pill-desc { color:#c3c9d4; font-size:12.5px; line-height:1.5; margin-top:2px; }
   .thumb { width:100%; height:auto; aspect-ratio:1/1; object-fit:contain; border-radius:8px;
@@ -61,7 +64,8 @@
   #kindTabs .tab[data-kind="items"]::before,
   #kindTabs .tab[data-kind="trinkets"]::before,
   #kindTabs .tab[data-kind="cards"]::before,
-  #kindTabs .tab[data-kind="pills"]::before {
+  #kindTabs .tab[data-kind="pills"]::before,
+  #kindTabs .tab[data-kind="rooms"]::before {
     content:""; display:inline-block; width:6px; height:6px; border-radius:50%;
     margin-right:5px; vertical-align:1px;
   }
@@ -69,6 +73,7 @@
   #kindTabs .tab[data-kind="trinkets"]::before { background:#5bb97a; }
   #kindTabs .tab[data-kind="cards"]::before { background:#7aa2f7; }
   #kindTabs .tab[data-kind="pills"]::before { background:#d97a9e; }
+  #kindTabs .tab[data-kind="rooms"]::before { background:#58b6c9; }
   .quality { position:absolute; z-index:2; top:4px; right:4px; width:18px; height:18px;
              line-height:16px; text-align:center; border-radius:50%; font-size:10px;
              font-weight:800; color:#fff; border:2px solid #12141a; box-shadow:0 1px 3px #0008; }
@@ -118,7 +123,7 @@
     .battery { top:2px; left:2px; height:11px; min-width:13px; padding:0 2px;
                border-width:1px; border-radius:3px; font-size:7.5px; }
     .battery::after { right:-2px; width:1.5px; height:4px; }
-    .card.k-pills { padding:9px 10px; border-width:2px; }
+    .card.k-pills, .card.k-rooms { padding:9px 10px; border-width:2px; }
     canvas { width:auto; height:auto; max-width:100%; max-height:55vh; max-height:55dvh; }
     .actions { position:fixed; left:0; right:0; bottom:0; z-index:40; margin:0;
                padding:9px 14px calc(9px + env(safe-area-inset-bottom));
@@ -173,6 +178,8 @@
   .munlock-k { color:var(--dim); font-size:11.5px; }
   .munlock b { color:#8fc7e8; font-size:13px; font-weight:650; }
   .munlock-note { color:var(--dim); font-size:11.5px; }
+  .mlink { color:#8fc7e8; text-decoration:none; border-bottom:1px solid rgba(143,199,232,.45); }
+  .mlink:hover, .mlink:active { color:#bde6f8; }
   .mdesc { font-size:13.5px; line-height:1.75; color:#c3c9d4; white-space:pre-wrap; margin:10px 0 0; }
   .mtags { margin-top:10px; }
   @media (min-width:640px) { .modal { align-items:center; } .sheet { border-radius:16px; } }
@@ -191,7 +198,7 @@
 <div class="wrap" id="view-search">
   <div class="search-fixed" id="searchFixed">
     <div class="bar">
-      <input type="search" id="q" placeholder="搜道具 / 饰品 / 卡牌：俗称 / 中文名 / 拼音 / 长相">
+      <input type="search" id="q" placeholder="搜道具 / 饰品 / 卡牌 / 房间：俗称 / 中文名 / 拼音 / 长相">
     </div>
     <div class="tabs" id="kindTabs">
       <div class="tab on" data-kind="all">全部</div>
@@ -199,6 +206,7 @@
       <div class="tab" data-kind="trinkets">饰品</div>
       <div class="tab" data-kind="cards">卡牌</div>
       <div class="tab" data-kind="pills">药丸</div>
+      <div class="tab" data-kind="rooms">房间</div>
     </div>
   </div>
   <div class="cnt" id="searchCnt"></div>
@@ -256,9 +264,9 @@
     面向手机/主机玩家的《以撒的结合：忏悔》图鉴，解决"只能靠肉眼或记名字找道具"的痛点。<br><br>
     <b>怎么用</b><br>
     · <b>搜索</b>：默认同时搜索道具 / 饰品 / 卡牌，支持俗称、中文名、英文名、拼音、首字母、"长相"标签模糊搜索；药丸请切到「药丸」分类搜索。搜索栏和分类栏吸顶，结果一次全部显示，不再分页。<br>
-    · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸），道具图标右上角显示品质等级，左下角显示主动道具充能（如“4房”=4 房间，“自动4s”=每 4 秒自动充能）；点开详情会写明充能数和充能方式。道具卡是双层边框，红色内框=主动、蓝色内框=被动。药丸没有固定图标，卡片直接显示名称和效果。<br>
+    · <b>详情</b>：道具/饰品/卡牌卡片只显示图标，边框颜色区分类型（金=道具、绿=饰品、蓝=卡牌、粉=药丸、青=房间），道具图标右上角显示品质等级，左上角电池角标显示充能数量（数字=房间数；绿色电池=随时间自动充能，数字为秒数）；点开详情会写明充能数、充能方式、解锁条件（成就与达成条件），并附「以撒 Wiki」跳转链接。药丸和房间没有固定图标，卡片直接显示名称和说明。<br>
     · <b>拍照识别</b>：一次只框一个道具/饰品/卡牌的本体；尽量贴边留 2–4px，别把底座/大片背景框进来，框大一点、歪一点会自动多裁几圈兜底。可以先选场景（宝箱房/商店/恶魔房等），只按该场景道具池过滤道具，饰品/卡牌始终保留；不确定就选「不限」。整图只适合图标占满画面的特写，游戏截图请框选；药丸外观随机，无法靠图识别。<br>
-    · <b>卡片边框</b>：道具外框金色；主动道具内框红色，被动道具内框蓝色。<br><br>
+    · <b>卡片边框</b>：道具外框金色、饰品绿色、卡牌蓝色、药丸粉色、房间青色；主动道具左上角有电池角标（数字=充能数量），被动道具没有电池。<br><br>
     <b>离线使用</b><br>
     <button class="btn alt" id="cacheBtn" style="margin:6px 0">缓存全部图标（约 4MB）</button>
     <div class="hint" id="cacheInfo" style="margin:2px 0 10px">默认像素模板完全离线；拍屏小模型 / ORB / 端侧向量首次切换需联网下载一次，之后也会缓存。点此把 1000 张图标也缓存下来，之后断网也能看。</div><br>
@@ -271,7 +279,7 @@
     合成拍屏评测（24 张，非真实准确率承诺）：拍屏 CNN + 像素模板复核在完整选框上 Top1 约 23/24，模板约 20/24；选框偏松时仍有约 22/24。合成集不能替代真实手机照片；真实失败样本仍需继续收集。<br>
     开源模型说明：DINOv2-small（Apache 2.0）已本地打包为 int8 ONNX；拍屏 CNN 由仓库图标合成数据训练，不含外部预训练权重；OpenCV.js（Apache 2.0）随应用提供。Isaac 专用 YOLO 权重没有明确许可证，未打包。<br><br>
     <b>数据</b><br>
-    719 道具 · 188 饰品 · 97 卡牌 · 51 药丸，含中文名、效果、品质、俗称、象形标签。<br><br>
+    719 道具 · 188 饰品 · 97 卡牌 · 51 药丸 · 27 房间说明，含中文名、效果、品质、俗称、象形标签。<br><br>
     <b>数据来源</b><br>
     · 名称 / 效果：<a href="https://github.com/wofsauge/External-Item-Descriptions" target="_blank" rel="noopener">External-Item-Descriptions</a>（仓库未附 LICENSE）<br>
     · 品质 / 标签 / 道具池 / 成就等：<a href="https://bindingofisaacrebirth.wiki.gg" target="_blank" rel="noopener">bindingofisaacrebirth.wiki.gg</a>（CC BY-SA 4.0）<br>

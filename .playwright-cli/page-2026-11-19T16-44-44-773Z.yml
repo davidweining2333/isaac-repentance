@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "以撒图鉴 忏悔/忏悔+ · 道具 · 饰品 · 卡牌 · 药丸" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - generic [ref=e5] [cursor=pointer]: 搜索
+      - generic [ref=e6] [cursor=pointer]: 拍照识别
+      - generic [ref=e7] [cursor=pointer]: 说明
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - searchbox "搜道具 / 饰品 / 卡牌 / 房间：俗称 / 中文名 / 拼音 / 长相" [ref=e11]: 圣经
+      - generic [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]: 全部
+        - generic [ref=e14] [cursor=pointer]: 道具
+        - generic [ref=e15] [cursor=pointer]: 饰品
+        - generic [ref=e16] [cursor=pointer]: 卡牌
+        - generic [ref=e17] [cursor=pointer]: 药丸
+        - generic [ref=e18] [cursor=pointer]: 房间
+    - generic [ref=e19]: 3 条 · “圣经”
+    - generic [ref=e20]:
+      - generic "主动道具 · 圣经 · 充能 4 房间（非自动，清房间充能）" [ref=e5904] [cursor=pointer]:
+        - img "圣经" [ref=e5905]
+        - generic "品质 1" [ref=e5906]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e5907]: "4"
+      - generic "主动道具 · 撒但圣经 · 充能 6 房间（非自动，清房间充能）" [ref=e5908] [cursor=pointer]:
+        - img "撒但圣经" [ref=e5909]
+        - generic "品质 3" [ref=e5910]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e5911]: "6"
+      - generic "圣经小册" [ref=e5912] [cursor=pointer]:
+        - img "圣经小册" [ref=e5913]
+  - generic [ref=e2998]:
+    - generic [ref=e2999] [cursor=pointer]: ✕
+    - generic [ref=e3000]:
+      - generic [ref=e5916]:
+        - generic [ref=e5917]: 圣经
+        - generic [ref=e5918]: The Bible · 主动道具
+        - generic [ref=e5919]: 品质 1
+      - generic [ref=e5920]: “Temporary flight”
+      - generic [ref=e5921]:
+        - generic [ref=e5922]: 充能
+        - generic [ref=e5923]: 4 房间
+        - generic [ref=e5924]: 非自动（清房间充能）
+      - generic [ref=e5925]: 在当前房间飞行 立即击杀妈腿和妈心 当对撒但使用时, 角色会死亡
+      - generic [ref=e5926]:
+        - generic [ref=e5927]: 圣经
+        - generic [ref=e5928]: 飞书
+        - generic [ref=e5929]: 秒妈
+        - generic [ref=e5930]: 书
+        - generic [ref=e5931]: 棕色
+        - generic [ref=e5932]: 白色
+        - generic [ref=e5933]: 黑色
+      - generic [ref=e5934]:
+        - text: 道具 · ID 33 ·
+        - link "以撒 Wiki ↗" [ref=e5935] [cursor=pointer]:
+          - /url: https://bindingofisaacrebirth.wiki.gg/wiki/The_Bible
