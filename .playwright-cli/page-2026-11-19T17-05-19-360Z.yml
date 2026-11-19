@@ -1,0 +1,2914 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - heading "以撒图鉴 忏悔/忏悔+ · 道具 · 饰品 · 卡牌 · 药丸" [level=1] [ref=e3]
+    - generic [ref=e4]:
+      - generic [ref=e5] [cursor=pointer]: 搜索
+      - generic [ref=e6] [cursor=pointer]: 拍照识别
+      - generic [ref=e7] [cursor=pointer]: 说明
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - searchbox "搜道具 / 饰品 / 卡牌 / 房间：俗称 / 中文名 / 拼音 / 长相" [ref=e11]
+      - generic [ref=e12]:
+        - generic [ref=e13] [cursor=pointer]: 全部
+        - generic [ref=e14] [cursor=pointer]: 道具
+        - generic [ref=e15] [cursor=pointer]: 饰品
+        - generic [ref=e16] [cursor=pointer]: 卡牌
+        - generic [ref=e17] [cursor=pointer]: 药丸
+        - generic [ref=e18] [cursor=pointer]: 房间
+    - generic [ref=e19]: 1004 条 · 全部类型（不含药丸、房间）
+    - generic [ref=e20]:
+      - generic "被动道具 · 悲伤洋葱" [ref=e21] [cursor=pointer]:
+        - img "悲伤洋葱" [ref=e22]
+        - generic "品质 3" [ref=e23]: "3"
+      - generic "被吞下的硬币" [ref=e24] [cursor=pointer]:
+        - img "被吞下的硬币" [ref=e25]
+      - generic "0-愚者" [ref=e26] [cursor=pointer]:
+        - img "0-愚者" [ref=e27]
+      - generic "被动道具 · 内眼" [ref=e28] [cursor=pointer]:
+        - img "内眼" [ref=e29]
+        - generic "品质 3" [ref=e30]: "3"
+      - generic "石化大便" [ref=e31] [cursor=pointer]:
+        - img "石化大便" [ref=e32]
+      - generic "I-魔术师" [ref=e33] [cursor=pointer]:
+        - img "I-魔术师" [ref=e34]
+      - generic "被动道具 · 弯勺魔术" [ref=e35] [cursor=pointer]:
+        - img "弯勺魔术" [ref=e36]
+        - generic "品质 3" [ref=e37]: "3"
+      - generic "7号电池" [ref=e38] [cursor=pointer]:
+        - img "7号电池" [ref=e39]
+      - generic "II-女祭司" [ref=e40] [cursor=pointer]:
+        - img "II-女祭司" [ref=e41]
+      - generic "被动道具 · 柯吉猫的头" [ref=e42] [cursor=pointer]:
+        - img "柯吉猫的头" [ref=e43]
+        - generic "品质 4" [ref=e44]: "4"
+      - generic "损坏的遥控器" [ref=e45] [cursor=pointer]:
+        - img "损坏的遥控器" [ref=e46]
+      - generic "III-皇后" [ref=e47] [cursor=pointer]:
+        - img "III-皇后" [ref=e48]
+      - generic "被动道具 · 我的镜像" [ref=e49] [cursor=pointer]:
+        - img "我的镜像" [ref=e50]
+        - generic "品质 3" [ref=e51]: "3"
+      - generic "紫心奖章" [ref=e52] [cursor=pointer]:
+        - img "紫心奖章" [ref=e53]
+      - generic "IV-皇帝" [ref=e54] [cursor=pointer]:
+        - img "IV-皇帝" [ref=e55]
+      - generic "被动道具 · 小号" [ref=e56] [cursor=pointer]:
+        - img "小号" [ref=e57]
+        - generic "品质 2" [ref=e58]: "2"
+      - generic "断掉的磁铁" [ref=e59] [cursor=pointer]:
+        - img "断掉的磁铁" [ref=e60]
+      - generic "V-教皇" [ref=e61] [cursor=pointer]:
+        - img "V-教皇" [ref=e62]
+      - generic "被动道具 · 殉道者之血" [ref=e63] [cursor=pointer]:
+        - img "殉道者之血" [ref=e64]
+        - generic "品质 3" [ref=e65]: "3"
+      - generic "念珠段" [ref=e66] [cursor=pointer]:
+        - img "念珠段" [ref=e67]
+      - generic "VI-恋人" [ref=e68] [cursor=pointer]:
+        - img "VI-恋人" [ref=e69]
+      - generic "被动道具 · 波比兄弟" [ref=e70] [cursor=pointer]:
+        - img "波比兄弟" [ref=e71]
+        - generic "品质 1" [ref=e72]: "1"
+      - generic "游戏卡带" [ref=e73] [cursor=pointer]:
+        - img "游戏卡带" [ref=e74]
+      - generic "VII-战车" [ref=e75] [cursor=pointer]:
+        - img "VII-战车" [ref=e76]
+      - generic "被动道具 · 粪臭素" [ref=e77] [cursor=pointer]:
+        - img "粪臭素" [ref=e78]
+        - generic "品质 0" [ref=e79]: "0"
+      - generic "波动虫" [ref=e80] [cursor=pointer]:
+        - img "波动虫" [ref=e81]
+      - generic "VIII-正义" [ref=e82] [cursor=pointer]:
+        - img "VIII-正义" [ref=e83]
+      - generic "被动道具 · 苍蝇光环" [ref=e84] [cursor=pointer]:
+        - img "苍蝇光环" [ref=e85]
+        - generic "品质 2" [ref=e86]: "2"
+      - generic "扭扭虫" [ref=e87] [cursor=pointer]:
+        - img "扭扭虫" [ref=e88]
+      - generic "IX-隐者" [ref=e89] [cursor=pointer]:
+        - img "IX-隐者" [ref=e90]
+      - generic "被动道具 · 1UP!" [ref=e91] [cursor=pointer]:
+        - img "1UP!" [ref=e92]
+        - generic "品质 2" [ref=e93]: "2"
+      - generic "环形虫" [ref=e94] [cursor=pointer]:
+        - img "环形虫" [ref=e95]
+      - generic "X-命运之轮" [ref=e96] [cursor=pointer]:
+        - img "X-命运之轮" [ref=e97]
+      - generic "被动道具 · 魔法蘑菇" [ref=e98] [cursor=pointer]:
+        - img "魔法蘑菇" [ref=e99]
+        - generic "品质 4" [ref=e100]: "4"
+      - generic "扁形虫" [ref=e101] [cursor=pointer]:
+        - img "扁形虫" [ref=e102]
+      - generic "XI-力量" [ref=e103] [cursor=pointer]:
+        - img "XI-力量" [ref=e104]
+      - generic "被动道具 · 病毒" [ref=e105] [cursor=pointer]:
+        - img "病毒" [ref=e106]
+        - generic "品质 2" [ref=e107]: "2"
+      - generic "商店积分" [ref=e108] [cursor=pointer]:
+        - img "商店积分" [ref=e109]
+      - generic "XII-倒吊人" [ref=e110] [cursor=pointer]:
+        - img "XII-倒吊人" [ref=e111]
+      - generic "被动道具 · 过量类固醇" [ref=e112] [cursor=pointer]:
+        - img "过量类固醇" [ref=e113]
+        - generic "品质 2" [ref=e114]: "2"
+      - generic "老茧" [ref=e115] [cursor=pointer]:
+        - img "老茧" [ref=e116]
+      - generic "XIII-死亡" [ref=e117] [cursor=pointer]:
+        - img "XIII-死亡" [ref=e118]
+      - generic "被动道具 · <3" [ref=e119] [cursor=pointer]:
+        - img "<3" [ref=e120]
+        - generic "品质 2" [ref=e121]: "2"
+      - generic "幸运石" [ref=e122] [cursor=pointer]:
+        - img "幸运石" [ref=e123]
+      - generic "XIV-节制" [ref=e124] [cursor=pointer]:
+        - img "XIV-节制" [ref=e125]
+      - generic "被动道具 · 生肝" [ref=e126] [cursor=pointer]:
+        - img "生肝" [ref=e127]
+        - generic "品质 2" [ref=e128]: "2"
+      - generic "妈妈的脚趾甲" [ref=e129] [cursor=pointer]:
+        - img "妈妈的脚趾甲" [ref=e130]
+      - generic "XV-恶魔" [ref=e131] [cursor=pointer]:
+        - img "XV-恶魔" [ref=e132]
+      - generic "被动道具 · 骷髅钥匙" [ref=e133] [cursor=pointer]:
+        - img "骷髅钥匙" [ref=e134]
+        - generic "品质 2" [ref=e135]: "2"
+      - generic "黑色口红" [ref=e136] [cursor=pointer]:
+        - img "黑色口红" [ref=e137]
+      - generic "XVI-塔" [ref=e138] [cursor=pointer]:
+        - img "XVI-塔" [ref=e139]
+      - generic "被动道具 · 一美元" [ref=e140] [cursor=pointer]:
+        - img "一美元" [ref=e141]
+        - generic "品质 3" [ref=e142]: "3"
+      - generic "圣经小册" [ref=e143] [cursor=pointer]:
+        - img "圣经小册" [ref=e144]
+      - generic "XVII-星星" [ref=e145] [cursor=pointer]:
+        - img "XVII-星星" [ref=e146]
+      - generic "被动道具 · 轰！" [ref=e147] [cursor=pointer]:
+        - img "轰！" [ref=e148]
+        - generic "品质 0" [ref=e149]: "0"
+      - generic "回形针" [ref=e150] [cursor=pointer]:
+        - img "回形针" [ref=e151]
+      - generic "XVIII-月亮" [ref=e152] [cursor=pointer]:
+        - img "XVIII-月亮" [ref=e153]
+      - generic "被动道具 · 超凡升天" [ref=e154] [cursor=pointer]:
+        - img "超凡升天" [ref=e155]
+        - generic "品质 2" [ref=e156]: "2"
+      - generic "猴爪" [ref=e157] [cursor=pointer]:
+        - img "猴爪" [ref=e158]
+      - generic "XIX-太阳" [ref=e159] [cursor=pointer]:
+        - img "XIX-太阳" [ref=e160]
+      - generic "被动道具 · 指南针" [ref=e161] [cursor=pointer]:
+        - img "指南针" [ref=e162]
+        - generic "品质 1" [ref=e163]: "1"
+      - generic "神秘纸片" [ref=e164] [cursor=pointer]:
+        - img "神秘纸片" [ref=e165]
+      - generic "XX-审判" [ref=e166] [cursor=pointer]:
+        - img "XX-审判" [ref=e167]
+      - generic "被动道具 · 午餐" [ref=e168] [cursor=pointer]:
+        - img "午餐" [ref=e169]
+        - generic "品质 1" [ref=e170]: "1"
+      - generic "恶魔的尾巴" [ref=e171] [cursor=pointer]:
+        - img "恶魔的尾巴" [ref=e172]
+      - generic "XXI-世界" [ref=e173] [cursor=pointer]:
+        - img "XXI-世界" [ref=e174]
+      - generic "被动道具 · 正餐" [ref=e175] [cursor=pointer]:
+        - img "正餐" [ref=e176]
+        - generic "品质 1" [ref=e177]: "1"
+      - generic "寻人启事" [ref=e178] [cursor=pointer]:
+        - img "寻人启事" [ref=e179]
+      - generic "梅花2" [ref=e180] [cursor=pointer]:
+        - img "梅花2" [ref=e181]
+      - generic "被动道具 · 甜点" [ref=e182] [cursor=pointer]:
+        - img "甜点" [ref=e183]
+        - generic "品质 1" [ref=e184]: "1"
+      - generic "屁股硬币" [ref=e185] [cursor=pointer]:
+        - img "屁股硬币" [ref=e186]
+      - generic "方片2" [ref=e187] [cursor=pointer]:
+        - img "方片2" [ref=e188]
+      - generic "被动道具 · 早餐" [ref=e189] [cursor=pointer]:
+        - img "早餐" [ref=e190]
+        - generic "品质 1" [ref=e191]: "1"
+      - generic "神秘糖果" [ref=e192] [cursor=pointer]:
+        - img "神秘糖果" [ref=e193]
+      - generic "黑桃2" [ref=e194] [cursor=pointer]:
+        - img "黑桃2" [ref=e195]
+      - generic "被动道具 · 烂肉" [ref=e196] [cursor=pointer]:
+        - img "烂肉" [ref=e197]
+        - generic "品质 1" [ref=e198]: "1"
+      - generic "钩形虫" [ref=e199] [cursor=pointer]:
+        - img "钩形虫" [ref=e200]
+      - generic "红桃2" [ref=e201] [cursor=pointer]:
+        - img "红桃2" [ref=e202]
+      - generic "被动道具 · 木头勺子" [ref=e203] [cursor=pointer]:
+        - img "木头勺子" [ref=e204]
+        - generic "品质 1" [ref=e205]: "1"
+      - generic "鞭形虫" [ref=e206] [cursor=pointer]:
+        - img "鞭形虫" [ref=e207]
+      - generic "梅花A" [ref=e208] [cursor=pointer]:
+        - img "梅花A" [ref=e209]
+      - generic "被动道具 · 皮带" [ref=e210] [cursor=pointer]:
+        - img "皮带" [ref=e211]
+        - generic "品质 1" [ref=e212]: "1"
+      - generic "碎安卡十字" [ref=e213] [cursor=pointer]:
+        - img "碎安卡十字" [ref=e214]
+      - generic "方片A" [ref=e215] [cursor=pointer]:
+        - img "方片A" [ref=e216]
+      - generic "被动道具 · 妈妈的内裤" [ref=e217] [cursor=pointer]:
+        - img "妈妈的内裤" [ref=e218]
+        - generic "品质 1" [ref=e219]: "1"
+      - generic "鱼头" [ref=e220] [cursor=pointer]:
+        - img "鱼头" [ref=e221]
+      - generic "黑桃A" [ref=e222] [cursor=pointer]:
+        - generic "黑桃A" [ref=e223]: "?"
+      - generic "被动道具 · 妈妈的高跟鞋" [ref=e224] [cursor=pointer]:
+        - img "妈妈的高跟鞋" [ref=e225]
+        - generic "品质 1" [ref=e226]: "1"
+      - generic "角膜炎" [ref=e227] [cursor=pointer]:
+        - img "角膜炎" [ref=e228]
+      - generic "红桃A" [ref=e229] [cursor=pointer]:
+        - img "红桃A" [ref=e230]
+      - generic "被动道具 · 妈妈的口红" [ref=e231] [cursor=pointer]:
+        - img "妈妈的口红" [ref=e232]
+        - generic "品质 1" [ref=e233]: "1"
+      - generic "图钉" [ref=e234] [cursor=pointer]:
+        - img "图钉" [ref=e235]
+      - generic "鬼牌" [ref=e236] [cursor=pointer]:
+        - img "鬼牌" [ref=e237]
+      - generic "被动道具 · 铁丝衣架" [ref=e238] [cursor=pointer]:
+        - img "铁丝衣架" [ref=e239]
+        - generic "品质 3" [ref=e240]: "3"
+      - generic "裸盖蘑菇" [ref=e241] [cursor=pointer]:
+        - img "裸盖蘑菇" [ref=e242]
+      - generic "冰雹符文" [ref=e243] [cursor=pointer]:
+        - img "冰雹符文" [ref=e244]
+      - generic "主动道具 · 圣经 · 充能 4 房间（非自动，清房间充能）" [ref=e245] [cursor=pointer]:
+        - img "圣经" [ref=e246]
+        - generic "品质 1" [ref=e247]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e248]: "4"
+      - generic "脐带" [ref=e249] [cursor=pointer]:
+        - img "脐带" [ref=e250]
+      - generic "收获符文" [ref=e251] [cursor=pointer]:
+        - img "收获符文" [ref=e252]
+      - generic "主动道具 · 彼列之书 · 充能 3 房间（非自动，清房间充能）" [ref=e253] [cursor=pointer]:
+        - img "彼列之书" [ref=e254]
+        - generic "品质 2" [ref=e255]: "2"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e256]: "3"
+      - generic "小孩的心脏" [ref=e257] [cursor=pointer]:
+        - img "小孩的心脏" [ref=e258]
+      - generic "马骑符文" [ref=e259] [cursor=pointer]:
+        - img "马骑符文" [ref=e260]
+      - generic "主动道具 · 死灵之书 · 充能 4 房间（非自动，清房间充能）" [ref=e261] [cursor=pointer]:
+        - img "死灵之书" [ref=e262]
+        - generic "品质 0" [ref=e263]: "0"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e264]: "4"
+      - generic "弯羊角" [ref=e265] [cursor=pointer]:
+        - img "弯羊角" [ref=e266]
+      - generic "朝夕符文" [ref=e267] [cursor=pointer]:
+        - img "朝夕符文" [ref=e268]
+      - generic "主动道具 · 大便 · 充能 1 房间（非自动，清房间充能）" [ref=e269] [cursor=pointer]:
+        - img "大便" [ref=e270]
+        - generic "品质 0" [ref=e271]: "0"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e272]: "1"
+      - generic "生锈的钥匙" [ref=e273] [cursor=pointer]:
+        - img "生锈的钥匙" [ref=e274]
+      - generic "诸神符文" [ref=e275] [cursor=pointer]:
+        - img "诸神符文" [ref=e276]
+      - generic "主动道具 · 炸弹先生 · 充能 2 房间（非自动，清房间充能）" [ref=e277] [cursor=pointer]:
+        - img "炸弹先生" [ref=e278]
+        - generic "品质 1" [ref=e279]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e280]: "2"
+      - generic "山羊蹄" [ref=e281] [cursor=pointer]:
+        - img "山羊蹄" [ref=e282]
+      - generic "签筒符文" [ref=e283] [cursor=pointer]:
+        - img "签筒符文" [ref=e284]
+      - generic "主动道具 · 塔米猫的头 · 充能 1 房间（非自动，清房间充能）" [ref=e285] [cursor=pointer]:
+        - img "塔米猫的头" [ref=e286]
+        - generic "品质 1" [ref=e287]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e288]: "1"
+      - generic "妈妈的珍珠" [ref=e289] [cursor=pointer]:
+        - img "妈妈的珍珠" [ref=e290]
+      - generic "桦木符文" [ref=e291] [cursor=pointer]:
+        - img "桦木符文" [ref=e292]
+      - generic "主动道具 · 妈妈的胸罩 · 充能 3 房间（非自动，清房间充能）" [ref=e293] [cursor=pointer]:
+        - img "妈妈的胸罩" [ref=e294]
+        - generic "品质 0" [ref=e295]: "0"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e296]: "3"
+      - generic "癌症" [ref=e297] [cursor=pointer]:
+        - img "癌症" [ref=e298]
+      - generic "保护符文" [ref=e299] [cursor=pointer]:
+        - img "保护符文" [ref=e300]
+      - generic "主动道具 · 神风！ · 无限使用（无充能条）" [ref=e301] [cursor=pointer]:
+        - img "神风！" [ref=e302]
+        - generic "品质 0" [ref=e303]: "0"
+        - generic "无限使用（无充能条）" [ref=e304]: ∞
+      - generic "红补丁" [ref=e305] [cursor=pointer]:
+        - img "红补丁" [ref=e306]
+      - generic "空白符文" [ref=e307] [cursor=pointer]:
+        - img "空白符文" [ref=e308]
+      - generic "主动道具 · 妈妈的卫生巾 · 充能 2 房间（非自动，清房间充能）" [ref=e309] [cursor=pointer]:
+        - img "妈妈的卫生巾" [ref=e310]
+        - generic "品质 0" [ref=e311]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e312]: "2"
+      - generic "火柴棍" [ref=e313] [cursor=pointer]:
+        - img "火柴棍" [ref=e314]
+      - generic "黑符文" [ref=e315] [cursor=pointer]:
+        - img "黑符文" [ref=e316]
+      - generic "主动道具 · 鲍勃的烂头 · 充能 2 房间（非自动，清房间充能）" [ref=e317] [cursor=pointer]:
+        - img "鲍勃的烂头" [ref=e318]
+        - generic "品质 1" [ref=e319]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e320]: "2"
+      - generic "幸运脚趾" [ref=e321] [cursor=pointer]:
+        - img "幸运脚趾" [ref=e322]
+      - generic "混沌卡" [ref=e323] [cursor=pointer]:
+        - img "混沌卡" [ref=e324]
+      - generic "主动道具 · 传送！ · 充能 2 房间（非自动，清房间充能）" [ref=e325] [cursor=pointer]:
+        - img "传送！" [ref=e326]
+        - generic "品质 0" [ref=e327]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e328]: "2"
+      - generic "诅咒的头骨" [ref=e329] [cursor=pointer]:
+        - img "诅咒的头骨" [ref=e330]
+      - generic "信用卡" [ref=e331] [cursor=pointer]:
+        - img "信用卡" [ref=e332]
+      - generic "主动道具 · 美味的心 · 充能 4 房间（非自动，清房间充能）" [ref=e333] [cursor=pointer]:
+        - img "美味的心" [ref=e334]
+        - generic "品质 1" [ref=e335]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e336]: "4"
+      - generic "保险瓶盖" [ref=e337] [cursor=pointer]:
+        - img "保险瓶盖" [ref=e338]
+      - generic "规则卡" [ref=e339] [cursor=pointer]:
+        - img "规则卡" [ref=e340]
+      - generic "被动道具 · 幸运脚" [ref=e341] [cursor=pointer]:
+        - img "幸运脚" [ref=e342]
+        - generic "品质 2" [ref=e343]: "2"
+      - generic "黑桃A" [ref=e344] [cursor=pointer]:
+        - img "黑桃A" [ref=e345]
+      - generic "反人类卡" [ref=e346] [cursor=pointer]:
+        - img "反人类卡" [ref=e347]
+      - generic "主动道具 · 胎儿博士的遥控器 · 充能 2 房间（非自动，清房间充能）" [ref=e348] [cursor=pointer]:
+        - img "胎儿博士的遥控器" [ref=e349]
+        - generic "品质 1" [ref=e350]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e351]: "2"
+      - generic "以撒的叉子" [ref=e352] [cursor=pointer]:
+        - img "以撒的叉子" [ref=e353]
+      - generic "自杀之王" [ref=e354] [cursor=pointer]:
+        - img "自杀之王" [ref=e355]
+      - generic "被动道具 · 丘比特之箭" [ref=e356] [cursor=pointer]:
+        - img "丘比特之箭" [ref=e357]
+        - generic "品质 2" [ref=e358]: "2"
+      - generic "遗失的书页" [ref=e359] [cursor=pointer]:
+        - img "遗失的书页" [ref=e360]
+      - generic "免费保释卡" [ref=e361] [cursor=pointer]:
+        - img "免费保释卡" [ref=e362]
+      - generic "主动道具 · 嗖-哒-呜！ · 充能 2 房间（非自动，清房间充能）" [ref=e363] [cursor=pointer]:
+        - img "嗖-哒-呜！" [ref=e364]
+        - generic "品质 2" [ref=e365]: "2"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e366]: "2"
+      - generic "染血硬币" [ref=e367] [cursor=pointer]:
+        - img "染血硬币" [ref=e368]
+      - generic "？卡" [ref=e369] [cursor=pointer]:
+        - img "？卡" [ref=e370]
+      - generic "被动道具 · 史蒂文" [ref=e371] [cursor=pointer]:
+        - img "史蒂文" [ref=e372]
+        - generic "品质 3" [ref=e373]: "3"
+      - generic "焦灼硬币" [ref=e374] [cursor=pointer]:
+        - img "焦灼硬币" [ref=e375]
+      - generic "骰子碎片" [ref=e376] [cursor=pointer]:
+        - img "骰子碎片" [ref=e377]
+      - generic "被动道具 · 五芒星" [ref=e378] [cursor=pointer]:
+        - img "五芒星" [ref=e379]
+        - generic "品质 3" [ref=e380]: "3"
+      - generic "扁平硬币" [ref=e381] [cursor=pointer]:
+        - img "扁平硬币" [ref=e382]
+      - generic "紧急联系电话" [ref=e383] [cursor=pointer]:
+        - img "紧急联系电话" [ref=e384]
+      - generic "被动道具 · 胎儿博士" [ref=e385] [cursor=pointer]:
+        - img "胎儿博士" [ref=e386]
+        - generic "品质 4" [ref=e387]: "4"
+      - generic "假币" [ref=e388] [cursor=pointer]:
+        - img "假币" [ref=e389]
+      - generic "神圣卡" [ref=e390] [cursor=pointer]:
+        - img "神圣卡" [ref=e391]
+      - generic "被动道具 · 万磁王" [ref=e392] [cursor=pointer]:
+        - img "万磁王" [ref=e393]
+        - generic "品质 1" [ref=e394]: "1"
+      - generic "血虱" [ref=e395] [cursor=pointer]:
+        - img "血虱" [ref=e396]
+      - generic "变巨术" [ref=e397] [cursor=pointer]:
+        - img "变巨术" [ref=e398]
+      - generic "被动道具 · 藏宝图" [ref=e399] [cursor=pointer]:
+        - img "藏宝图" [ref=e400]
+        - generic "品质 1" [ref=e401]: "1"
+      - generic "以撒的头" [ref=e402] [cursor=pointer]:
+        - img "以撒的头" [ref=e403]
+      - generic "先祖召唤" [ref=e404] [cursor=pointer]:
+        - img "先祖召唤" [ref=e405]
+      - generic "被动道具 · 妈妈的眼睛" [ref=e406] [cursor=pointer]:
+        - img "妈妈的眼睛" [ref=e407]
+        - generic "品质 1" [ref=e408]: "1"
+      - generic "抹大拉的信仰" [ref=e409] [cursor=pointer]:
+        - img "抹大拉的信仰" [ref=e410]
+      - generic "时空漫步" [ref=e411] [cursor=pointer]:
+        - img "时空漫步" [ref=e412]
+      - generic "主动道具 · 烦事柠檬 · 充能 2 房间（非自动，清房间充能）" [ref=e413] [cursor=pointer]:
+        - img "烦事柠檬" [ref=e414]
+        - generic "品质 0" [ref=e415]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e416]: "2"
+      - generic "犹大的舌头" [ref=e417] [cursor=pointer]:
+        - img "犹大的舌头" [ref=e418]
+      - generic "符文碎片" [ref=e419] [cursor=pointer]:
+        - img "符文碎片" [ref=e420]
+      - generic "被动道具 · 仰慕之交" [ref=e421] [cursor=pointer]:
+        - img "仰慕之交" [ref=e422]
+        - generic "品质 1" [ref=e423]: "1"
+      - generic "???的灵魂" [ref=e424] [cursor=pointer]:
+        - img "???的灵魂" [ref=e425]
+      - generic "0-愚者？" [ref=e426] [cursor=pointer]:
+        - img "0-愚者？" [ref=e427]
+      - generic "主动道具 · 影之书 · 充能 3 房间（非自动，清房间充能）" [ref=e428] [cursor=pointer]:
+        - img "影之书" [ref=e429]
+        - generic "品质 3" [ref=e430]: "3"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e431]: "3"
+      - generic "参孙的发髻" [ref=e432] [cursor=pointer]:
+        - img "参孙的发髻" [ref=e433]
+      - generic "I-魔术师？" [ref=e434] [cursor=pointer]:
+        - img "I-魔术师？" [ref=e435]
+      - generic "被动道具 · 梯子" [ref=e436] [cursor=pointer]:
+        - img "梯子" [ref=e437]
+        - generic "品质 1" [ref=e438]: "1"
+      - generic "该隐的眼睛" [ref=e439] [cursor=pointer]:
+        - img "该隐的眼睛" [ref=e440]
+      - generic "II-女祭司？" [ref=e441] [cursor=pointer]:
+        - img "II-女祭司？" [ref=e442]
+      - generic "被动道具 · 吸血鬼之魅" [ref=e443] [cursor=pointer]:
+        - img "吸血鬼之魅" [ref=e444]
+        - generic "品质 2" [ref=e445]: "2"
+      - generic "夏娃的鸟爪" [ref=e446] [cursor=pointer]:
+        - img "夏娃的鸟爪" [ref=e447]
+      - generic "III-皇后？" [ref=e448] [cursor=pointer]:
+        - img "III-皇后？" [ref=e449]
+      - generic "被动道具 · 蓄电池" [ref=e450] [cursor=pointer]:
+        - img "蓄电池" [ref=e451]
+        - generic "品质 2" [ref=e452]: "2"
+      - generic "左断手" [ref=e453] [cursor=pointer]:
+        - img "左断手" [ref=e454]
+      - generic "IV-皇帝？" [ref=e455] [cursor=pointer]:
+        - img "IV-皇帝？" [ref=e456]
+      - generic "被动道具 · Steam大促" [ref=e457] [cursor=pointer]:
+        - img "Steam大促" [ref=e458]
+        - generic "品质 2" [ref=e459]: "2"
+      - generic "闪亮岩石" [ref=e460] [cursor=pointer]:
+        - img "闪亮岩石" [ref=e461]
+      - generic "V-教皇？" [ref=e462] [cursor=pointer]:
+        - img "V-教皇？" [ref=e463]
+      - generic "主动道具 · 无政府主义者食谱 · 充能 3 房间（非自动，清房间充能）" [ref=e464] [cursor=pointer]:
+        - img "无政府主义者食谱" [ref=e465]
+        - generic "品质 0" [ref=e466]: "0"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e467]: "3"
+      - generic "安全剪刀" [ref=e468] [cursor=pointer]:
+        - img "安全剪刀" [ref=e469]
+      - generic "VI-恋人？" [ref=e470] [cursor=pointer]:
+        - img "VI-恋人？" [ref=e471]
+      - generic "主动道具 · 沙漏 · 充能 2 房间（非自动，清房间充能）" [ref=e472] [cursor=pointer]:
+        - img "沙漏" [ref=e473]
+        - generic "品质 0" [ref=e474]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e475]: "2"
+      - generic "彩虹虫" [ref=e476] [cursor=pointer]:
+        - img "彩虹虫" [ref=e477]
+      - generic "VII-战车？" [ref=e478] [cursor=pointer]:
+        - img "VII-战车？" [ref=e479]
+      - generic "被动道具 · 玛姬姐妹" [ref=e480] [cursor=pointer]:
+        - img "玛姬姐妹" [ref=e481]
+        - generic "品质 1" [ref=e482]: "1"
+      - generic "长条虫" [ref=e483] [cursor=pointer]:
+        - img "长条虫" [ref=e484]
+      - generic "VIII-正义？" [ref=e485] [cursor=pointer]:
+        - img "VIII-正义？" [ref=e486]
+      - generic "被动道具 · 科技" [ref=e487] [cursor=pointer]:
+        - img "科技" [ref=e488]
+        - generic "品质 3" [ref=e489]: "3"
+      - generic "懒懒虫" [ref=e490] [cursor=pointer]:
+        - img "懒懒虫" [ref=e491]
+      - generic "IX-隐者？" [ref=e492] [cursor=pointer]:
+        - img "IX-隐者？" [ref=e493]
+      - generic "被动道具 · 巧克力牛奶" [ref=e494] [cursor=pointer]:
+        - img "巧克力牛奶" [ref=e495]
+        - generic "品质 3" [ref=e496]: "3"
+      - generic "碎裂六面骰" [ref=e497] [cursor=pointer]:
+        - img "碎裂六面骰" [ref=e498]
+      - generic "X-命运之轮？" [ref=e499] [cursor=pointer]:
+        - img "X-命运之轮？" [ref=e500]
+      - generic "被动道具 · 生长激素" [ref=e501] [cursor=pointer]:
+        - img "生长激素" [ref=e502]
+        - generic "品质 3" [ref=e503]: "3"
+      - generic "超级磁铁" [ref=e504] [cursor=pointer]:
+        - img "超级磁铁" [ref=e505]
+      - generic "XI-力量？" [ref=e506] [cursor=pointer]:
+        - img "XI-力量？" [ref=e507]
+      - generic "被动道具 · 小蘑菇" [ref=e508] [cursor=pointer]:
+        - img "小蘑菇" [ref=e509]
+        - generic "品质 2" [ref=e510]: "2"
+      - generic "褪色的全家福" [ref=e511] [cursor=pointer]:
+        - img "褪色的全家福" [ref=e512]
+      - generic "XII-倒吊人？" [ref=e513] [cursor=pointer]:
+        - img "XII-倒吊人？" [ref=e514]
+      - generic "被动道具 · 念珠" [ref=e515] [cursor=pointer]:
+        - img "念珠" [ref=e516]
+        - generic "品质 2" [ref=e517]: "2"
+      - generic "虱子" [ref=e518] [cursor=pointer]:
+        - img "虱子" [ref=e519]
+      - generic "XIII-死亡？" [ref=e520] [cursor=pointer]:
+        - img "XIII-死亡？" [ref=e521]
+      - generic "被动道具 · 肉块" [ref=e522] [cursor=pointer]:
+        - img "肉块" [ref=e523]
+        - generic "品质 1" [ref=e524]: "1"
+      - generic "鲍勃的膀胱" [ref=e525] [cursor=pointer]:
+        - img "鲍勃的膀胱" [ref=e526]
+      - generic "XIV-节制？" [ref=e527] [cursor=pointer]:
+        - img "XIV-节制？" [ref=e528]
+      - generic "被动道具 · 25美分" [ref=e529] [cursor=pointer]:
+        - img "25美分" [ref=e530]
+        - generic "品质 0" [ref=e531]: "0"
+      - generic "钮扣电池" [ref=e532] [cursor=pointer]:
+        - img "钮扣电池" [ref=e533]
+      - generic "XV-恶魔？" [ref=e534] [cursor=pointer]:
+        - img "XV-恶魔？" [ref=e535]
+      - generic "被动道具 · 药学博士证" [ref=e536] [cursor=pointer]:
+        - img "药学博士证" [ref=e537]
+        - generic "品质 2" [ref=e538]: "2"
+      - generic "雷管" [ref=e539] [cursor=pointer]:
+        - img "雷管" [ref=e540]
+      - generic "XVI-塔？" [ref=e541] [cursor=pointer]:
+        - img "XVI-塔？" [ref=e542]
+      - generic "被动道具 · X光透视" [ref=e543] [cursor=pointer]:
+        - img "X光透视" [ref=e544]
+        - generic "品质 2" [ref=e545]: "2"
+      - generic "饰钉定位器" [ref=e546] [cursor=pointer]:
+        - img "饰钉定位器" [ref=e547]
+      - generic "XVII-星星？" [ref=e548] [cursor=pointer]:
+        - img "XVII-星星？" [ref=e549]
+      - generic "主动道具 · 彩虹独角兽 · 充能 4 房间（非自动，清房间充能）" [ref=e550] [cursor=pointer]:
+        - img "彩虹独角兽" [ref=e551]
+        - generic "品质 1" [ref=e552]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e553]: "4"
+      - generic "错误" [ref=e554] [cursor=pointer]:
+        - img "错误" [ref=e555]
+      - generic "XVIII-月亮？" [ref=e556] [cursor=pointer]:
+        - img "XVIII-月亮？" [ref=e557]
+      - generic "主动道具 · 启示录 · 充能 6 房间（非自动，清房间充能）" [ref=e558] [cursor=pointer]:
+        - img "启示录" [ref=e559]
+        - generic "品质 3" [ref=e560]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e561]: "6"
+      - generic "筹码" [ref=e562] [cursor=pointer]:
+        - img "筹码" [ref=e563]
+      - generic "XIX-太阳？" [ref=e564] [cursor=pointer]:
+        - img "XIX-太阳？" [ref=e565]
+      - generic "被动道具 · 咒印" [ref=e566] [cursor=pointer]:
+        - img "咒印" [ref=e567]
+        - generic "品质 3" [ref=e568]: "3"
+      - generic "水疱" [ref=e569] [cursor=pointer]:
+        - img "水疱" [ref=e570]
+      - generic "XX-审判？" [ref=e571] [cursor=pointer]:
+        - img "XX-审判？" [ref=e572]
+      - generic "被动道具 · 契约" [ref=e573] [cursor=pointer]:
+        - img "契约" [ref=e574]
+        - generic "品质 3" [ref=e575]: "3"
+      - generic "秒针" [ref=e576] [cursor=pointer]:
+        - img "秒针" [ref=e577]
+      - generic "XXI-世界？" [ref=e578] [cursor=pointer]:
+        - img "XXI-世界？" [ref=e579]
+      - generic "被动道具 · 嗝屁猫" [ref=e580] [cursor=pointer]:
+        - img "嗝屁猫" [ref=e581]
+        - generic "品质 3" [ref=e582]: "3"
+      - generic "无名无尽" [ref=e583] [cursor=pointer]:
+        - img "无名无尽" [ref=e584]
+      - generic "红钥匙碎片" [ref=e585] [cursor=pointer]:
+        - img "红钥匙碎片" [ref=e586]
+      - generic "被动道具 · 深渊领主" [ref=e587] [cursor=pointer]:
+        - img "深渊领主" [ref=e588]
+        - generic "品质 3" [ref=e589]: "3"
+      - generic "黑色羽毛" [ref=e590] [cursor=pointer]:
+        - img "黑色羽毛" [ref=e591]
+      - generic "红桃Q" [ref=e592] [cursor=pointer]:
+        - img "红桃Q" [ref=e593]
+      - generic "主动道具 · 钉子 · 充能 6 房间（非自动，清房间充能）" [ref=e594] [cursor=pointer]:
+        - img "钉子" [ref=e595]
+        - generic "品质 2" [ref=e596]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e597]: "6"
+      - generic "盲目的怒火" [ref=e598] [cursor=pointer]:
+        - img "盲目的怒火" [ref=e599]
+      - generic "万用牌" [ref=e600] [cursor=pointer]:
+        - img "万用牌" [ref=e601]
+      - generic "主动道具 · 我们需要深入挖掘！ · 充能 6 房间（非自动，清房间充能）" [ref=e602] [cursor=pointer]:
+        - img "我们需要深入挖掘！" [ref=e603]
+        - generic "品质 2" [ref=e604]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e605]: "6"
+      - generic "黄金马蹄铁" [ref=e606] [cursor=pointer]:
+        - img "黄金马蹄铁" [ref=e607]
+      - generic "以撒的魂石" [ref=e608] [cursor=pointer]:
+        - img "以撒的魂石" [ref=e609]
+      - generic "主动道具 · 卡牌盒 · 充能 6 房间（非自动，清房间充能）" [ref=e610] [cursor=pointer]:
+        - img "卡牌盒" [ref=e611]
+        - generic "品质 2" [ref=e612]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e613]: "6"
+      - generic "商店钥匙" [ref=e614] [cursor=pointer]:
+        - img "商店钥匙" [ref=e615]
+      - generic "抹大拉的魂石" [ref=e616] [cursor=pointer]:
+        - img "抹大拉的魂石" [ref=e617]
+      - generic "主动道具 · 萌死戳的牙 · 充能 3 房间（非自动，清房间充能）" [ref=e618] [cursor=pointer]:
+        - img "萌死戳的牙" [ref=e619]
+        - generic "品质 0" [ref=e620]: "0"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e621]: "3"
+      - generic "贪婪的肋骨" [ref=e622] [cursor=pointer]:
+        - img "贪婪的肋骨" [ref=e623]
+      - generic "该隐的魂石" [ref=e624] [cursor=pointer]:
+        - img "该隐的魂石" [ref=e625]
+      - generic "被动道具 · 洛基的角" [ref=e626] [cursor=pointer]:
+        - img "洛基的角" [ref=e627]
+        - generic "品质 1" [ref=e628]: "1"
+      - generic "业报" [ref=e629] [cursor=pointer]:
+        - img "业报" [ref=e630]
+      - generic "犹大的魂石" [ref=e631] [cursor=pointer]:
+        - img "犹大的魂石" [ref=e632]
+      - generic "被动道具 · 小胖蛆" [ref=e633] [cursor=pointer]:
+        - img "小胖蛆" [ref=e634]
+        - generic "品质 1" [ref=e635]: "1"
+      - generic "小幼虫" [ref=e636] [cursor=pointer]:
+        - img "小幼虫" [ref=e637]
+      - generic "???的魂石" [ref=e638] [cursor=pointer]:
+        - img "???的魂石" [ref=e639]
+      - generic "被动道具 · 蜘蛛之咬" [ref=e640] [cursor=pointer]:
+        - img "蜘蛛之咬" [ref=e641]
+        - generic "品质 2" [ref=e642]: "2"
+      - generic "妈妈的吊坠" [ref=e643] [cursor=pointer]:
+        - img "妈妈的吊坠" [ref=e644]
+      - generic "夏娃的魂石" [ref=e645] [cursor=pointer]:
+        - img "夏娃的魂石" [ref=e646]
+      - generic "被动道具 · 小石头" [ref=e647] [cursor=pointer]:
+        - img "小石头" [ref=e648]
+        - generic "品质 3" [ref=e649]: "3"
+      - generic "不！" [ref=e650] [cursor=pointer]:
+        - img "不！" [ref=e651]
+      - generic "参孙的魂石" [ref=e652] [cursor=pointer]:
+        - img "参孙的魂石" [ref=e653]
+      - generic "被动道具 · 探窟帽" [ref=e654] [cursor=pointer]:
+        - img "探窟帽" [ref=e655]
+        - generic "品质 2" [ref=e656]: "2"
+      - generic "儿童栓绳" [ref=e657] [cursor=pointer]:
+        - img "儿童栓绳" [ref=e658]
+      - generic "阿撒泻勒的魂石" [ref=e659] [cursor=pointer]:
+        - img "阿撒泻勒的魂石" [ref=e660]
+      - generic "被动道具 · 超级绷带" [ref=e661] [cursor=pointer]:
+        - img "超级绷带" [ref=e662]
+        - generic "品质 2" [ref=e663]: "2"
+      - generic "棕色雷管" [ref=e664] [cursor=pointer]:
+        - img "棕色雷管" [ref=e665]
+      - generic "拉撒路的魂石" [ref=e666] [cursor=pointer]:
+        - img "拉撒路的魂石" [ref=e667]
+      - generic "主动道具 · 游戏掌机 · 充能 4 房间（非自动，清房间充能）" [ref=e668] [cursor=pointer]:
+        - img "游戏掌机" [ref=e669]
+        - generic "品质 1" [ref=e670]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e671]: "4"
+      - generic "胎粪" [ref=e672] [cursor=pointer]:
+        - img "胎粪" [ref=e673]
+      - generic "伊甸的魂石" [ref=e674] [cursor=pointer]:
+        - img "伊甸的魂石" [ref=e675]
+      - generic "被动道具 · 硬币袋" [ref=e676] [cursor=pointer]:
+        - img "硬币袋" [ref=e677]
+        - generic "品质 1" [ref=e678]: "1"
+      - generic "碎裂的王冠" [ref=e679] [cursor=pointer]:
+        - img "碎裂的王冠" [ref=e680]
+      - generic "游魂的魂石" [ref=e681] [cursor=pointer]:
+        - img "游魂的魂石" [ref=e682]
+      - generic "被动道具 · 机器宝宝" [ref=e683] [cursor=pointer]:
+        - img "机器宝宝" [ref=e684]
+        - generic "品质 1" [ref=e685]: "1"
+      - generic "用过的尿布" [ref=e686] [cursor=pointer]:
+        - img "用过的尿布" [ref=e687]
+      - generic "莉莉丝的魂石" [ref=e688] [cursor=pointer]:
+        - img "莉莉丝的魂石" [ref=e689]
+      - generic "被动道具 · 查德宝宝" [ref=e690] [cursor=pointer]:
+        - img "查德宝宝" [ref=e691]
+        - generic "品质 2" [ref=e692]: "2"
+      - generic "鱼尾" [ref=e693] [cursor=pointer]:
+        - img "鱼尾" [ref=e694]
+      - generic "店主的魂石" [ref=e695] [cursor=pointer]:
+        - img "店主的魂石" [ref=e696]
+      - generic "主动道具 · 七原罪之书 · 充能 4 房间（非自动，清房间充能）" [ref=e697] [cursor=pointer]:
+        - img "七原罪之书" [ref=e698]
+        - generic "品质 1" [ref=e699]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e700]: "4"
+      - generic "黑牙" [ref=e701] [cursor=pointer]:
+        - img "黑牙" [ref=e702]
+      - generic "亚玻伦的魂石" [ref=e703] [cursor=pointer]:
+        - img "亚玻伦的魂石" [ref=e704]
+      - generic "被动道具 · 圣遗物" [ref=e705] [cursor=pointer]:
+        - img "圣遗物" [ref=e706]
+        - generic "品质 3" [ref=e707]: "3"
+      - generic "衔尾虫" [ref=e708] [cursor=pointer]:
+        - img "衔尾虫" [ref=e709]
+      - generic "遗骸的魂石" [ref=e710] [cursor=pointer]:
+        - img "遗骸的魂石" [ref=e711]
+      - generic "被动道具 · 吉什宝宝" [ref=e712] [cursor=pointer]:
+        - img "吉什宝宝" [ref=e713]
+        - generic "品质 1" [ref=e714]: "1"
+      - generic "扁桃体" [ref=e715] [cursor=pointer]:
+        - img "扁桃体" [ref=e716]
+      - generic "伯大尼的魂石" [ref=e717] [cursor=pointer]:
+        - img "伯大尼的魂石" [ref=e718]
+      - generic "被动道具 · 史蒂文宝宝" [ref=e719] [cursor=pointer]:
+        - img "史蒂文宝宝" [ref=e720]
+        - generic "品质 2" [ref=e721]: "2"
+      - generic "鼻涕泡" [ref=e722] [cursor=pointer]:
+        - img "鼻涕泡" [ref=e723]
+      - generic "雅各与以扫的魂石" [ref=e724] [cursor=pointer]:
+        - img "雅各与以扫的魂石" [ref=e725]
+      - generic "被动道具 · 光环" [ref=e726] [cursor=pointer]:
+        - img "光环" [ref=e727]
+        - generic "品质 3" [ref=e728]: "3"
+      - generic "超级弹球" [ref=e729] [cursor=pointer]:
+        - img "超级弹球" [ref=e730]
+      - generic "主动道具 · 妈妈的药瓶 · 充能 6 房间（非自动，清房间充能）" [ref=e731] [cursor=pointer]:
+        - img "妈妈的药瓶" [ref=e732]
+        - generic "品质 1" [ref=e733]: "1"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e734]: "6"
+      - generic "亮灯泡" [ref=e735] [cursor=pointer]:
+        - img "亮灯泡" [ref=e736]
+      - generic "被动道具 · 普通感冒" [ref=e737] [cursor=pointer]:
+        - img "普通感冒" [ref=e738]
+        - generic "品质 1" [ref=e739]: "1"
+      - generic "暗灯泡" [ref=e740] [cursor=pointer]:
+        - img "暗灯泡" [ref=e741]
+      - generic "被动道具 · 寄生虫" [ref=e742] [cursor=pointer]:
+        - img "寄生虫" [ref=e743]
+        - generic "品质 3" [ref=e744]: "3"
+      - generic "塔罗牌残片" [ref=e745] [cursor=pointer]:
+        - img "塔罗牌残片" [ref=e746]
+      - generic "主动道具 · 六面骰 · 充能 6 房间（非自动，清房间充能）" [ref=e747] [cursor=pointer]:
+        - img "六面骰" [ref=e748]
+        - generic "品质 4" [ref=e749]: "4"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e750]: "6"
+      - generic "等号！" [ref=e751] [cursor=pointer]:
+        - img "等号！" [ref=e752]
+      - generic "被动道具 · 大爆弹先生" [ref=e753] [cursor=pointer]:
+        - img "大爆弹先生" [ref=e754]
+        - generic "品质 2" [ref=e755]: "2"
+      - generic "许愿骨" [ref=e756] [cursor=pointer]:
+        - img "许愿骨" [ref=e757]
+      - generic "主动道具 · 锯齿剪 · 充能 4 房间（非自动，清房间充能）" [ref=e758] [cursor=pointer]:
+        - img "锯齿剪" [ref=e759]
+        - generic "品质 2" [ref=e760]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e761]: "4"
+      - generic "午餐袋" [ref=e762] [cursor=pointer]:
+        - img "午餐袋" [ref=e763]
+      - generic "被动道具 · 圣饼" [ref=e764] [cursor=pointer]:
+        - img "圣饼" [ref=e765]
+        - generic "品质 4" [ref=e766]: "4"
+      - generic "丢失的瓶塞" [ref=e767] [cursor=pointer]:
+        - img "丢失的瓶塞" [ref=e768]
+      - generic "被动道具 · 金钱=力量" [ref=e769] [cursor=pointer]:
+        - generic "金钱=力量" [ref=e770]: "?"
+      - generic "乌鸦的心" [ref=e771] [cursor=pointer]:
+        - img "乌鸦的心" [ref=e772]
+      - generic "被动道具 · 妈妈的美瞳" [ref=e773] [cursor=pointer]:
+        - img "妈妈的美瞳" [ref=e774]
+        - generic "品质 3" [ref=e775]: "3"
+      - generic "核桃" [ref=e776] [cursor=pointer]:
+        - img "核桃" [ref=e777]
+      - generic "主动道具 · 豆子 · 充能 1 房间（非自动，清房间充能）" [ref=e778] [cursor=pointer]:
+        - img "豆子" [ref=e779]
+        - generic "品质 0" [ref=e780]: "0"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e781]: "1"
+      - generic "胶带" [ref=e782] [cursor=pointer]:
+        - img "胶带" [ref=e783]
+      - generic "被动道具 · 守护天使" [ref=e784] [cursor=pointer]:
+        - img "守护天使" [ref=e785]
+        - generic "品质 1" [ref=e786]: "1"
+      - generic "银币" [ref=e787] [cursor=pointer]:
+        - img "银币" [ref=e788]
+      - generic "被动道具 · 恶魔宝宝" [ref=e789] [cursor=pointer]:
+        - img "恶魔宝宝" [ref=e790]
+        - generic "品质 1" [ref=e791]: "1"
+      - generic "染血王冠" [ref=e792] [cursor=pointer]:
+        - img "染血王冠" [ref=e793]
+      - generic "被动道具 · 妈妈的菜刀" [ref=e794] [cursor=pointer]:
+        - img "妈妈的菜刀" [ref=e795]
+        - generic "品质 4" [ref=e796]: "4"
+      - generic "充钱游戏" [ref=e797] [cursor=pointer]:
+        - img "充钱游戏" [ref=e798]
+      - generic "被动道具 · 通灵板" [ref=e799] [cursor=pointer]:
+        - img "通灵板" [ref=e800]
+        - generic "品质 2" [ref=e801]: "2"
+      - generic "战争蝗虫" [ref=e802] [cursor=pointer]:
+        - img "战争蝗虫" [ref=e803]
+      - generic "被动道具 · 9伏特" [ref=e804] [cursor=pointer]:
+        - img "9伏特" [ref=e805]
+        - generic "品质 2" [ref=e806]: "2"
+      - generic "瘟疫蝗虫" [ref=e807] [cursor=pointer]:
+        - img "瘟疫蝗虫" [ref=e808]
+      - generic "被动道具 · 死鸟" [ref=e809] [cursor=pointer]:
+        - img "死鸟" [ref=e810]
+        - generic "品质 0" [ref=e811]: "0"
+      - generic "饥荒蝗虫" [ref=e812] [cursor=pointer]:
+        - img "饥荒蝗虫" [ref=e813]
+      - generic "被动道具 · 硫磺火" [ref=e814] [cursor=pointer]:
+        - img "硫磺火" [ref=e815]
+        - generic "品质 4" [ref=e816]: "4"
+      - generic "死亡蝗虫" [ref=e817] [cursor=pointer]:
+        - img "死亡蝗虫" [ref=e818]
+      - generic "被动道具 · 血袋" [ref=e819] [cursor=pointer]:
+        - img "血袋" [ref=e820]
+        - generic "品质 2" [ref=e821]: "2"
+      - generic "征服蝗虫" [ref=e822] [cursor=pointer]:
+        - img "征服蝗虫" [ref=e823]
+      - generic "被动道具 · 怪异蘑菇(小)" [ref=e824] [cursor=pointer]:
+        - img "怪异蘑菇(小)" [ref=e825]
+        - generic "品质 2" [ref=e826]: "2"
+      - generic "蝙蝠翅膀" [ref=e827] [cursor=pointer]:
+        - img "蝙蝠翅膀" [ref=e828]
+      - generic "被动道具 · 怪异蘑菇(大)" [ref=e829] [cursor=pointer]:
+        - img "怪异蘑菇(大)" [ref=e830]
+        - generic "品质 2" [ref=e831]: "2"
+      - generic "干细胞" [ref=e832] [cursor=pointer]:
+        - img "干细胞" [ref=e833]
+      - generic "被动道具 · 巴比伦大淫妇" [ref=e834] [cursor=pointer]:
+        - img "巴比伦大淫妇" [ref=e835]
+        - generic "品质 2" [ref=e836]: "2"
+      - generic "发夹" [ref=e837] [cursor=pointer]:
+        - img "发夹" [ref=e838]
+      - generic "主动道具 · 怪物手册 · 充能 3 房间（非自动，清房间充能）" [ref=e839] [cursor=pointer]:
+        - img "怪物手册" [ref=e840]
+        - generic "品质 1" [ref=e841]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e842]: "3"
+      - generic "木十字架" [ref=e843] [cursor=pointer]:
+        - img "木十字架" [ref=e844]
+      - generic "主动道具 · 死海古卷 · 充能 2 房间（非自动，清房间充能）" [ref=e845] [cursor=pointer]:
+        - img "死海古卷" [ref=e846]
+        - generic "品质 1" [ref=e847]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e848]: "2"
+      - generic "黄油！" [ref=e849] [cursor=pointer]:
+        - img "黄油！" [ref=e850]
+      - generic "被动道具 · 波比炸弹" [ref=e851] [cursor=pointer]:
+        - img "波比炸弹" [ref=e852]
+        - generic "品质 1" [ref=e853]: "1"
+      - generic "银丝羽毛" [ref=e854] [cursor=pointer]:
+        - img "银丝羽毛" [ref=e855]
+      - generic "主动道具 · 剃刀片 · 无限使用（无充能条）" [ref=e856] [cursor=pointer]:
+        - img "剃刀片" [ref=e857]
+        - generic "品质 0" [ref=e858]: "0"
+        - generic "无限使用（无充能条）" [ref=e859]: ∞
+      - generic "门挡" [ref=e860] [cursor=pointer]:
+        - img "门挡" [ref=e861]
+      - generic "主动道具 · 遗忘药 · 一次性使用（使用后消失）" [ref=e862] [cursor=pointer]:
+        - img "遗忘药" [ref=e863]
+        - generic "品质 3" [ref=e864]: "3"
+        - generic "一次性使用（使用后消失）" [ref=e865]: "1"
+      - generic "扩接电线" [ref=e866] [cursor=pointer]:
+        - img "扩接电线" [ref=e867]
+      - generic "被动道具 · 孤独一生" [ref=e868] [cursor=pointer]:
+        - img "孤独一生" [ref=e869]
+        - generic "品质 1" [ref=e870]: "1"
+      - generic "腐烂硬币" [ref=e871] [cursor=pointer]:
+        - img "腐烂硬币" [ref=e872]
+      - generic "被动道具 · 桶装猪油" [ref=e873] [cursor=pointer]:
+        - img "桶装猪油" [ref=e874]
+        - generic "品质 1" [ref=e875]: "1"
+      - generic "儿童弯勺" [ref=e876] [cursor=pointer]:
+        - img "儿童弯勺" [ref=e877]
+      - generic "主动道具 · 小黑马 · 充能 2 房间（非自动，清房间充能）" [ref=e878] [cursor=pointer]:
+        - img "小黑马" [ref=e879]
+        - generic "品质 2" [ref=e880]: "2"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e881]: "2"
+      - generic "指骨" [ref=e882] [cursor=pointer]:
+        - img "指骨" [ref=e883]
+      - generic "被动道具 · 炸弹袋" [ref=e884] [cursor=pointer]:
+        - img "炸弹袋" [ref=e885]
+        - generic "品质 1" [ref=e886]: "1"
+      - generic "崩掉牙" [ref=e887] [cursor=pointer]:
+        - img "崩掉牙" [ref=e888]
+      - generic "被动道具 · 煤块" [ref=e889] [cursor=pointer]:
+        - img "煤块" [ref=e890]
+        - generic "品质 3" [ref=e891]: "3"
+      - generic "嚼烂的笔" [ref=e892] [cursor=pointer]:
+        - img "嚼烂的笔" [ref=e893]
+      - generic "主动道具 · 嗝屁猫的爪子 · 无限使用（无充能条）" [ref=e894] [cursor=pointer]:
+        - img "嗝屁猫的爪子" [ref=e895]
+        - generic "品质 3" [ref=e896]: "3"
+        - generic "无限使用（无充能条）" [ref=e897]: ∞
+      - generic "神圣硬币" [ref=e898] [cursor=pointer]:
+        - img "神圣硬币" [ref=e899]
+      - generic "被动道具 · 嗝屁猫的尾巴" [ref=e900] [cursor=pointer]:
+        - img "嗝屁猫的尾巴" [ref=e901]
+        - generic "品质 2" [ref=e902]: "2"
+      - generic "损坏的注射器" [ref=e903] [cursor=pointer]:
+        - img "损坏的注射器" [ref=e904]
+      - generic "主动道具 · 献血袋 · 无限使用（无充能条）" [ref=e905] [cursor=pointer]:
+        - img "献血袋" [ref=e906]
+        - generic "品质 2" [ref=e907]: "2"
+        - generic "无限使用（无充能条）" [ref=e908]: ∞
+      - generic "短引线" [ref=e909] [cursor=pointer]:
+        - img "短引线" [ref=e910]
+      - generic "主动道具 · 最好的朋友 · 充能 3 房间（非自动，清房间充能）" [ref=e911] [cursor=pointer]:
+        - img "最好的朋友" [ref=e912]
+        - generic "品质 0" [ref=e913]: "0"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e914]: "3"
+      - generic "巨豆" [ref=e915] [cursor=pointer]:
+        - img "巨豆" [ref=e916]
+      - generic "主动道具 · 起爆器 · 无限使用（无充能条）" [ref=e917] [cursor=pointer]:
+        - img "起爆器" [ref=e918]
+        - generic "品质 0" [ref=e919]: "0"
+        - generic "无限使用（无充能条）" [ref=e920]: ∞
+      - generic "打火机" [ref=e921] [cursor=pointer]:
+        - img "打火机" [ref=e922]
+      - generic "被动道具 · 圣痕" [ref=e923] [cursor=pointer]:
+        - img "圣痕" [ref=e924]
+        - generic "品质 2" [ref=e925]: "2"
+      - generic "损坏的挂锁" [ref=e926] [cursor=pointer]:
+        - img "损坏的挂锁" [ref=e927]
+      - generic "被动道具 · 妈妈的钱包" [ref=e928] [cursor=pointer]:
+        - img "妈妈的钱包" [ref=e929]
+        - generic "品质 2" [ref=e930]: "2"
+      - generic "勿忘草" [ref=e931] [cursor=pointer]:
+        - img "勿忘草" [ref=e932]
+      - generic "被动道具 · 鲍勃的诅咒" [ref=e933] [cursor=pointer]:
+        - img "鲍勃的诅咒" [ref=e934]
+        - generic "品质 1" [ref=e935]: "1"
+      - generic "'M" [ref=e936] [cursor=pointer]:
+        - img "'M" [ref=e937]
+      - generic "被动道具 · 盛装男孩" [ref=e938] [cursor=pointer]:
+        - img "盛装男孩" [ref=e939]
+        - generic "品质 0" [ref=e940]: "0"
+      - generic "泪滴护符" [ref=e941] [cursor=pointer]:
+        - img "泪滴护符" [ref=e942]
+      - generic "被动道具 · 肩衣" [ref=e943] [cursor=pointer]:
+        - img "肩衣" [ref=e944]
+        - generic "品质 2" [ref=e945]: "2"
+      - generic "所多玛之果" [ref=e946] [cursor=pointer]:
+        - img "所多玛之果" [ref=e947]
+      - generic "被动道具 · 混合麻药" [ref=e948] [cursor=pointer]:
+        - img "混合麻药" [ref=e949]
+        - generic "品质 2" [ref=e950]: "2"
+      - generic "失落摇篮曲" [ref=e951] [cursor=pointer]:
+        - img "失落摇篮曲" [ref=e952]
+      - generic "被动道具 · 乞丐朋友" [ref=e953] [cursor=pointer]:
+        - img "乞丐朋友" [ref=e954]
+        - generic "品质 1" [ref=e955]: "1"
+      - generic "伯大尼的信仰" [ref=e956] [cursor=pointer]:
+        - img "伯大尼的信仰" [ref=e957]
+      - generic "主动道具 · 嗝屁猫的头 · 充能 1 房间（非自动，清房间充能）" [ref=e958] [cursor=pointer]:
+        - img "嗝屁猫的头" [ref=e959]
+        - generic "品质 2" [ref=e960]: "2"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e961]: "1"
+      - generic "老旧电容" [ref=e962] [cursor=pointer]:
+        - img "老旧电容" [ref=e963]
+      - generic "主动道具 · 祈祷卡 · 充能 6 房间（非自动，清房间充能）" [ref=e964] [cursor=pointer]:
+        - img "祈祷卡" [ref=e965]
+        - generic "品质 3" [ref=e966]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e967]: "6"
+      - generic "脑形虫" [ref=e968] [cursor=pointer]:
+        - img "脑形虫" [ref=e969]
+      - generic "主动道具 · 残损铁镐 · 充能 3 房间（非自动，清房间充能）" [ref=e970] [cursor=pointer]:
+        - img "残损铁镐" [ref=e971]
+        - generic "品质 1" [ref=e972]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e973]: "3"
+      - generic "满分考卷" [ref=e974] [cursor=pointer]:
+        - img "满分考卷" [ref=e975]
+      - generic "被动道具 · 害虫横行" [ref=e976] [cursor=pointer]:
+        - img "害虫横行" [ref=e977]
+        - generic "品质 0" [ref=e978]: "0"
+      - generic "恶魔王冠" [ref=e979] [cursor=pointer]:
+        - img "恶魔王冠" [ref=e980]
+      - generic "被动道具 · 吐根酊" [ref=e981] [cursor=pointer]:
+        - img "吐根酊" [ref=e982]
+        - generic "品质 4" [ref=e983]: "4"
+      - generic "充能硬币" [ref=e984] [cursor=pointer]:
+        - img "充能硬币" [ref=e985]
+      - generic "被动道具 · 严厉的爱" [ref=e986] [cursor=pointer]:
+        - img "严厉的爱" [ref=e987]
+        - generic "品质 3" [ref=e988]: "3"
+      - generic "友谊项链" [ref=e989] [cursor=pointer]:
+        - img "友谊项链" [ref=e990]
+      - generic "被动道具 · 虫群复击" [ref=e991] [cursor=pointer]:
+        - img "虫群复击" [ref=e992]
+        - generic "品质 3" [ref=e993]: "3"
+      - generic "紧急按钮" [ref=e994] [cursor=pointer]:
+        - img "紧急按钮" [ref=e995]
+      - generic "被动道具 · 科技II" [ref=e996] [cursor=pointer]:
+        - img "科技II" [ref=e997]
+        - generic "品质 2" [ref=e998]: "2"
+      - generic "蓝钥匙" [ref=e999] [cursor=pointer]:
+        - img "蓝钥匙" [ref=e1000]
+      - generic "被动道具 · 变异蜘蛛" [ref=e1001] [cursor=pointer]:
+        - img "变异蜘蛛" [ref=e1002]
+        - generic "品质 3" [ref=e1003]: "3"
+      - generic "扁锉" [ref=e1004] [cursor=pointer]:
+        - img "扁锉" [ref=e1005]
+      - generic "被动道具 · 化学剥皮法" [ref=e1006] [cursor=pointer]:
+        - img "化学剥皮法" [ref=e1007]
+        - generic "品质 2" [ref=e1008]: "2"
+      - generic "望远镜片" [ref=e1009] [cursor=pointer]:
+        - img "望远镜片" [ref=e1010]
+      - generic "被动道具 · 窥眼" [ref=e1011] [cursor=pointer]:
+        - img "窥眼" [ref=e1012]
+        - generic "品质 2" [ref=e1013]: "2"
+      - generic "妈妈的发髻" [ref=e1014] [cursor=pointer]:
+        - img "妈妈的发髻" [ref=e1015]
+      - generic "被动道具 · 修女服" [ref=e1016] [cursor=pointer]:
+        - img "修女服" [ref=e1017]
+        - generic "品质 2" [ref=e1018]: "2"
+      - generic "骰子袋" [ref=e1019] [cursor=pointer]:
+        - img "骰子袋" [ref=e1020]
+      - generic "被动道具 · 嗜血" [ref=e1021] [cursor=pointer]:
+        - img "嗜血" [ref=e1022]
+        - generic "品质 2" [ref=e1023]: "2"
+      - generic "神圣王冠" [ref=e1024] [cursor=pointer]:
+        - img "神圣王冠" [ref=e1025]
+      - generic "主动道具 · 水晶球 · 充能 6 房间（非自动，清房间充能）" [ref=e1026] [cursor=pointer]:
+        - img "水晶球" [ref=e1027]
+        - generic "品质 3" [ref=e1028]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1029]: "6"
+      - generic "母亲的吻" [ref=e1030] [cursor=pointer]:
+        - img "母亲的吻" [ref=e1031]
+      - generic "被动道具 · 夜之幽魂" [ref=e1032] [cursor=pointer]:
+        - img "夜之幽魂" [ref=e1033]
+        - generic "品质 3" [ref=e1034]: "3"
+      - generic "扑克牌残片" [ref=e1035] [cursor=pointer]:
+        - img "扑克牌残片" [ref=e1036]
+      - generic "主动道具 · 撕裂苍穹 · 充能 4 房间（非自动，清房间充能）" [ref=e1037] [cursor=pointer]:
+        - img "撕裂苍穹" [ref=e1038]
+        - generic "品质 1" [ref=e1039]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1040]: "4"
+      - generic "破损的口袋" [ref=e1041] [cursor=pointer]:
+        - img "破损的口袋" [ref=e1042]
+      - generic "被动道具 · 安卡十字" [ref=e1043] [cursor=pointer]:
+        - img "安卡十字" [ref=e1044]
+        - generic "品质 0" [ref=e1045]: "0"
+      - generic "镀金钥匙" [ref=e1046] [cursor=pointer]:
+        - img "镀金钥匙" [ref=e1047]
+      - generic "被动道具 · 凯尔特十字" [ref=e1048] [cursor=pointer]:
+        - img "凯尔特十字" [ref=e1049]
+        - generic "品质 1" [ref=e1050]: "1"
+      - generic "幸运袋" [ref=e1051] [cursor=pointer]:
+        - img "幸运袋" [ref=e1052]
+      - generic "被动道具 · 幽灵宝宝" [ref=e1053] [cursor=pointer]:
+        - img "幽灵宝宝" [ref=e1054]
+        - generic "品质 1" [ref=e1055]: "1"
+      - generic "邪恶王冠" [ref=e1056] [cursor=pointer]:
+        - img "邪恶王冠" [ref=e1057]
+      - generic "主动道具 · 蓝蜡烛 · 自动充能 4 秒（随时间恢复）" [ref=e1058] [cursor=pointer]:
+        - img "蓝蜡烛" [ref=e1059]
+        - generic "品质 2" [ref=e1060]: "2"
+        - generic "自动充能 4 秒（随时间恢复）" [ref=e1061]: 4s
+      - generic "阿撒泻勒的残角" [ref=e1062] [cursor=pointer]:
+        - img "阿撒泻勒的残角" [ref=e1063]
+      - generic "被动道具 · 九尾鞭" [ref=e1064] [cursor=pointer]:
+        - img "九尾鞭" [ref=e1065]
+        - generic "品质 3" [ref=e1066]: "3"
+      - generic "粪蛋" [ref=e1067] [cursor=pointer]:
+        - img "粪蛋" [ref=e1068]
+      - generic "主动道具 · 二十面骰 · 充能 6 房间（非自动，清房间充能）" [ref=e1069] [cursor=pointer]:
+        - img "二十面骰" [ref=e1070]
+        - generic "品质 2" [ref=e1071]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1072]: "6"
+      - generic "火药圈" [ref=e1073] [cursor=pointer]:
+        - img "火药圈" [ref=e1074]
+      - generic "被动道具 · 小丑宝宝" [ref=e1075] [cursor=pointer]:
+        - img "小丑宝宝" [ref=e1076]
+        - generic "品质 1" [ref=e1077]: "1"
+      - generic "滚啊！" [ref=e1078] [cursor=pointer]:
+        - img "滚啊！" [ref=e1079]
+      - generic "被动道具 · 史诗胎儿博士" [ref=e1080] [cursor=pointer]:
+        - img "史诗胎儿博士" [ref=e1081]
+        - generic "品质 4" [ref=e1082]: "4"
+      - generic "塑型黏土" [ref=e1083] [cursor=pointer]:
+        - img "塑型黏土" [ref=e1084]
+      - generic "被动道具 · 巨人独眼" [ref=e1085] [cursor=pointer]:
+        - img "巨人独眼" [ref=e1086]
+        - generic "品质 4" [ref=e1087]: "4"
+      - generic "抛光骨头" [ref=e1088] [cursor=pointer]:
+        - img "抛光骨头" [ref=e1089]
+      - generic "被动道具 · 长腿蛛父" [ref=e1090] [cursor=pointer]:
+        - img "长腿蛛父" [ref=e1091]
+        - generic "品质 3" [ref=e1092]: "3"
+      - generic "空壳心" [ref=e1093] [cursor=pointer]:
+        - img "空壳心" [ref=e1094]
+      - generic "主动道具 · 蜘蛛屁股 · 充能 2 房间（非自动，清房间充能）" [ref=e1095] [cursor=pointer]:
+        - img "蜘蛛屁股" [ref=e1096]
+        - generic "品质 1" [ref=e1097]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1098]: "2"
+      - generic "儿童涂鸦" [ref=e1099] [cursor=pointer]:
+        - img "儿童涂鸦" [ref=e1100]
+      - generic "被动道具 · 献祭匕首" [ref=e1101] [cursor=pointer]:
+        - img "献祭匕首" [ref=e1102]
+        - generic "品质 2" [ref=e1103]: "2"
+      - generic "水晶钥匙" [ref=e1104] [cursor=pointer]:
+        - img "水晶钥匙" [ref=e1105]
+      - generic "被动道具 · 主教冠" [ref=e1106] [cursor=pointer]:
+        - img "主教冠" [ref=e1107]
+        - generic "品质 3" [ref=e1108]: "3"
+      - generic "店主的协议" [ref=e1109] [cursor=pointer]:
+        - img "店主的协议" [ref=e1110]
+      - generic "被动道具 · 彩虹宝宝" [ref=e1111] [cursor=pointer]:
+        - img "彩虹宝宝" [ref=e1112]
+        - generic "品质 1" [ref=e1113]: "1"
+      - generic "诅咒硬币" [ref=e1114] [cursor=pointer]:
+        - img "诅咒硬币" [ref=e1115]
+      - generic "主动道具 · 爸爸的钥匙 · 充能 2 房间（非自动，清房间充能）" [ref=e1116] [cursor=pointer]:
+        - img "爸爸的钥匙" [ref=e1117]
+        - generic "品质 2" [ref=e1118]: "2"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1119]: "2"
+      - generic "你的灵魂" [ref=e1120] [cursor=pointer]:
+        - img "你的灵魂" [ref=e1121]
+      - generic "被动道具 · 干细胞" [ref=e1122] [cursor=pointer]:
+        - img "干细胞" [ref=e1123]
+        - generic "品质 1" [ref=e1124]: "1"
+      - generic "数字冰箱贴" [ref=e1125] [cursor=pointer]:
+        - img "数字冰箱贴" [ref=e1126]
+      - generic "主动道具 · 便携式老虎机 · 无限使用（无充能条）" [ref=e1127] [cursor=pointer]:
+        - img "便携式老虎机" [ref=e1128]
+        - generic "品质 0" [ref=e1129]: "0"
+        - generic "无限使用（无充能条）" [ref=e1130]: ∞
+      - generic "奇怪的钥匙" [ref=e1131] [cursor=pointer]:
+        - img "奇怪的钥匙" [ref=e1132]
+      - generic "被动道具 · 圣水" [ref=e1133] [cursor=pointer]:
+        - img "圣水" [ref=e1134]
+        - generic "品质 3" [ref=e1135]: "3"
+      - generic "小血团" [ref=e1136] [cursor=pointer]:
+        - img "小血团" [ref=e1137]
+      - generic "被动道具 · 宿命" [ref=e1138] [cursor=pointer]:
+        - img "宿命" [ref=e1139]
+        - generic "品质 3" [ref=e1140]: "3"
+      - generic "纹身贴" [ref=e1141] [cursor=pointer]:
+        - img "纹身贴" [ref=e1142]
+      - generic "被动道具 · 黑豆" [ref=e1143] [cursor=pointer]:
+        - img "黑豆" [ref=e1144]
+        - generic "品质 0" [ref=e1145]: "0"
+      - generic "被吞下的M80鞭炮" [ref=e1146] [cursor=pointer]:
+        - img "被吞下的M80鞭炮" [ref=e1147]
+      - generic "主动道具 · 小白马 · 充能 2 房间（非自动，清房间充能）" [ref=e1148] [cursor=pointer]:
+        - img "小白马" [ref=e1149]
+        - generic "品质 3" [ref=e1150]: "3"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1151]: "2"
+      - generic "赛车遥控器" [ref=e1152] [cursor=pointer]:
+        - img "赛车遥控器" [ref=e1153]
+      - generic "被动道具 · 圣心" [ref=e1154] [cursor=pointer]:
+        - img "圣心" [ref=e1155]
+        - generic "品质 4" [ref=e1156]: "4"
+      - generic "复得游魂" [ref=e1157] [cursor=pointer]:
+        - img "复得游魂" [ref=e1158]
+      - generic "被动道具 · 牙签" [ref=e1159] [cursor=pointer]:
+        - img "牙签" [ref=e1160]
+        - generic "品质 3" [ref=e1161]: "3"
+      - generic "扩展电路板" [ref=e1162] [cursor=pointer]:
+        - img "扩展电路板" [ref=e1163]
+      - generic "被动道具 · 圣杯" [ref=e1164] [cursor=pointer]:
+        - img "圣杯" [ref=e1165]
+        - generic "品质 3" [ref=e1166]: "3"
+      - generic "伯大尼的精华" [ref=e1167] [cursor=pointer]:
+        - img "伯大尼的精华" [ref=e1168]
+      - generic "被动道具 · 死鸽" [ref=e1169] [cursor=pointer]:
+        - img "死鸽" [ref=e1170]
+        - generic "品质 3" [ref=e1171]: "3"
+      - generic "双胞胎" [ref=e1172] [cursor=pointer]:
+        - img "双胞胎" [ref=e1173]
+      - generic "主动道具 · 血之权利 · 无限使用（无充能条）" [ref=e1174] [cursor=pointer]:
+        - img "血之权利" [ref=e1175]
+        - generic "品质 0" [ref=e1176]: "0"
+        - generic "无限使用（无充能条）" [ref=e1177]: ∞
+      - generic "领养协议书" [ref=e1178] [cursor=pointer]:
+        - img "领养协议书" [ref=e1179]
+      - generic "被动道具 · 嗝屁猫的毛球" [ref=e1180] [cursor=pointer]:
+        - img "嗝屁猫的毛球" [ref=e1181]
+        - generic "品质 1" [ref=e1182]: "1"
+      - generic "蟋蟀腿" [ref=e1183] [cursor=pointer]:
+        - img "蟋蟀腿" [ref=e1184]
+      - generic "被动道具 · 亚伯" [ref=e1185] [cursor=pointer]:
+        - img "亚伯" [ref=e1186]
+        - generic "品质 0" [ref=e1187]: "0"
+      - generic "亚玻伦的挚友" [ref=e1188] [cursor=pointer]:
+        - img "亚玻伦的挚友" [ref=e1189]
+      - generic "被动道具 · 超级食肉男孩死忠粉" [ref=e1190] [cursor=pointer]:
+        - img "超级食肉男孩死忠粉" [ref=e1191]
+        - generic "品质 3" [ref=e1192]: "3"
+      - generic "碎掉的眼镜" [ref=e1193] [cursor=pointer]:
+        - img "碎掉的眼镜" [ref=e1194]
+      - generic "被动道具 · 烟火盛宴" [ref=e1195] [cursor=pointer]:
+        - img "烟火盛宴" [ref=e1196]
+        - generic "品质 3" [ref=e1197]: "3"
+      - generic "冰块" [ref=e1198] [cursor=pointer]:
+        - img "冰块" [ref=e1199]
+      - generic "被动道具 · 3美元纸币" [ref=e1200] [cursor=pointer]:
+        - img "3美元纸币" [ref=e1201]
+        - generic "品质 2" [ref=e1202]: "2"
+      - generic "巴风特之印" [ref=e1203] [cursor=pointer]:
+        - img "巴风特之印" [ref=e1204]
+      - generic "主动道具 · 心灵感应傻瓜式教程 · 充能 2 房间（非自动，清房间充能）" [ref=e1205] [cursor=pointer]:
+        - img "心灵感应傻瓜式教程" [ref=e1206]
+        - generic "品质 1" [ref=e1207]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1208]: "2"
+      - generic "被动道具 · 生肉！" [ref=e1209] [cursor=pointer]:
+        - img "生肉！" [ref=e1210]
+        - generic "品质 2" [ref=e1211]: "2"
+      - generic "被动道具 · 魔力八号球" [ref=e1212] [cursor=pointer]:
+        - img "魔力八号球" [ref=e1213]
+        - generic "品质 1" [ref=e1214]: "1"
+      - generic "被动道具 · 妈妈的零钱包" [ref=e1215] [cursor=pointer]:
+        - img "妈妈的零钱包" [ref=e1216]
+        - generic "品质 0" [ref=e1217]: "0"
+      - generic "被动道具 · 挤压玩具" [ref=e1218] [cursor=pointer]:
+        - img "挤压玩具" [ref=e1219]
+        - generic "品质 3" [ref=e1220]: "3"
+      - generic "被动道具 · 耶稣果汁" [ref=e1221] [cursor=pointer]:
+        - img "耶稣果汁" [ref=e1222]
+        - generic "品质 2" [ref=e1223]: "2"
+      - generic "被动道具 · 盒子" [ref=e1224] [cursor=pointer]:
+        - img "盒子" [ref=e1225]
+        - generic "品质 0" [ref=e1226]: "0"
+      - generic "被动道具 · 妈妈的钥匙" [ref=e1227] [cursor=pointer]:
+        - img "妈妈的钥匙" [ref=e1228]
+        - generic "品质 3" [ref=e1229]: "3"
+      - generic "被动道具 · 妈妈的眼影" [ref=e1230] [cursor=pointer]:
+        - img "妈妈的眼影" [ref=e1231]
+        - generic "品质 1" [ref=e1232]: "1"
+      - generic "被动道具 · 铁块" [ref=e1233] [cursor=pointer]:
+        - img "铁块" [ref=e1234]
+        - generic "品质 2" [ref=e1235]: "2"
+      - generic "被动道具 · 弥达斯之触" [ref=e1236] [cursor=pointer]:
+        - img "弥达斯之触" [ref=e1237]
+        - generic "品质 1" [ref=e1238]: "1"
+      - generic "被动道具 · 慈善捆绑包" [ref=e1239] [cursor=pointer]:
+        - img "慈善捆绑包" [ref=e1240]
+        - generic "品质 3" [ref=e1241]: "3"
+      - generic "被动道具 · 挎包" [ref=e1242] [cursor=pointer]:
+        - img "挎包" [ref=e1243]
+        - generic "品质 1" [ref=e1244]: "1"
+      - generic "被动道具 · 锋利插头" [ref=e1245] [cursor=pointer]:
+        - img "锋利插头" [ref=e1246]
+        - generic "品质 2" [ref=e1247]: "2"
+      - generic "被动道具 · 断头台" [ref=e1248] [cursor=pointer]:
+        - img "断头台" [ref=e1249]
+        - generic "品质 0" [ref=e1250]: "0"
+      - generic "被动道具 · 绷带球" [ref=e1251] [cursor=pointer]:
+        - img "绷带球" [ref=e1252]
+        - generic "品质 1" [ref=e1253]: "1"
+      - generic "被动道具 · 冠军腰带" [ref=e1254] [cursor=pointer]:
+        - img "冠军腰带" [ref=e1255]
+        - generic "品质 3" [ref=e1256]: "3"
+      - generic "被动道具 · 屁股炸弹" [ref=e1257] [cursor=pointer]:
+        - img "屁股炸弹" [ref=e1258]
+        - generic "品质 1" [ref=e1259]: "1"
+      - generic "被动道具 · 狸猫树叶" [ref=e1260] [cursor=pointer]:
+        - img "狸猫树叶" [ref=e1261]
+        - generic "品质 1" [ref=e1262]: "1"
+      - generic "被动道具 · 蜘蛛宝宝" [ref=e1263] [cursor=pointer]:
+        - img "蜘蛛宝宝" [ref=e1264]
+        - generic "品质 0" [ref=e1265]: "0"
+      - generic "被动道具 · 嗝屁猫的项圈" [ref=e1266] [cursor=pointer]:
+        - img "嗝屁猫的项圈" [ref=e1267]
+        - generic "品质 1" [ref=e1268]: "1"
+      - generic "被动道具 · 丢失的隐形眼镜" [ref=e1269] [cursor=pointer]:
+        - img "丢失的隐形眼镜" [ref=e1270]
+        - generic "品质 2" [ref=e1271]: "2"
+      - generic "被动道具 · 贫血" [ref=e1272] [cursor=pointer]:
+        - img "贫血" [ref=e1273]
+        - generic "品质 1" [ref=e1274]: "1"
+      - generic "被动道具 · 山羊头" [ref=e1275] [cursor=pointer]:
+        - img "山羊头" [ref=e1276]
+        - generic "品质 3" [ref=e1277]: "3"
+      - generic "被动道具 · 仪式法袍" [ref=e1278] [cursor=pointer]:
+        - img "仪式法袍" [ref=e1279]
+        - generic "品质 3" [ref=e1280]: "3"
+      - generic "被动道具 · 妈妈的假发" [ref=e1281] [cursor=pointer]:
+        - img "妈妈的假发" [ref=e1282]
+        - generic "品质 2" [ref=e1283]: "2"
+      - generic "被动道具 · 胎盘" [ref=e1284] [cursor=pointer]:
+        - img "胎盘" [ref=e1285]
+        - generic "品质 2" [ref=e1286]: "2"
+      - generic "被动道具 · 旧绷带" [ref=e1287] [cursor=pointer]:
+        - img "旧绷带" [ref=e1288]
+        - generic "品质 2" [ref=e1289]: "2"
+      - generic "被动道具 · 悲伤炸弹" [ref=e1290] [cursor=pointer]:
+        - img "悲伤炸弹" [ref=e1291]
+        - generic "品质 2" [ref=e1292]: "2"
+      - generic "被动道具 · 橡胶胶水" [ref=e1293] [cursor=pointer]:
+        - img "橡胶胶水" [ref=e1294]
+        - generic "品质 3" [ref=e1295]: "3"
+      - generic "被动道具 · 反重力" [ref=e1296] [cursor=pointer]:
+        - img "反重力" [ref=e1297]
+        - generic "品质 1" [ref=e1298]: "1"
+      - generic "被动道具 · 纵火狂" [ref=e1299] [cursor=pointer]:
+        - img "纵火狂" [ref=e1300]
+        - generic "品质 4" [ref=e1301]: "4"
+      - generic "被动道具 · 柯吉猫的身体" [ref=e1302] [cursor=pointer]:
+        - img "柯吉猫的身体" [ref=e1303]
+        - generic "品质 3" [ref=e1304]: "3"
+      - generic "被动道具 · 兽性面具" [ref=e1305] [cursor=pointer]:
+        - img "兽性面具" [ref=e1306]
+        - generic "品质 2" [ref=e1307]: "2"
+      - generic "被动道具 · 黑莲花" [ref=e1308] [cursor=pointer]:
+        - img "黑莲花" [ref=e1309]
+        - generic "品质 2" [ref=e1310]: "2"
+      - generic "被动道具 · 小猪存钱罐" [ref=e1311] [cursor=pointer]:
+        - img "小猪存钱罐" [ref=e1312]
+        - generic "品质 1" [ref=e1313]: "1"
+      - generic "被动道具 · 妈妈的香水" [ref=e1314] [cursor=pointer]:
+        - img "妈妈的香水" [ref=e1315]
+        - generic "品质 2" [ref=e1316]: "2"
+      - generic "被动道具 · 萌死戳的肺" [ref=e1317] [cursor=pointer]:
+        - img "萌死戳的肺" [ref=e1318]
+        - generic "品质 2" [ref=e1319]: "2"
+      - generic "被动道具 · 亚巴顿" [ref=e1320] [cursor=pointer]:
+        - img "亚巴顿" [ref=e1321]
+        - generic "品质 3" [ref=e1322]: "3"
+      - generic "被动道具 · 焦油球" [ref=e1323] [cursor=pointer]:
+        - img "焦油球" [ref=e1324]
+        - generic "品质 2" [ref=e1325]: "2"
+      - generic "被动道具 · 怀表" [ref=e1326] [cursor=pointer]:
+        - img "怀表" [ref=e1327]
+        - generic "品质 4" [ref=e1328]: "4"
+      - generic "被动道具 · 小小星球" [ref=e1329] [cursor=pointer]:
+        - img "小小星球" [ref=e1330]
+        - generic "品质 0" [ref=e1331]: "0"
+      - generic "被动道具 · 害虫横行II" [ref=e1332] [cursor=pointer]:
+        - img "害虫横行II" [ref=e1333]
+        - generic "品质 3" [ref=e1334]: "3"
+      - generic "被动道具 · 大肠杆菌" [ref=e1335] [cursor=pointer]:
+        - img "大肠杆菌" [ref=e1336]
+        - generic "品质 0" [ref=e1337]: "0"
+      - generic "被动道具 · 死神之触" [ref=e1338] [cursor=pointer]:
+        - img "死神之触" [ref=e1339]
+        - generic "品质 3" [ref=e1340]: "3"
+      - generic "被动道具 · 钥匙碎片1" [ref=e1341] [cursor=pointer]:
+        - img "钥匙碎片1" [ref=e1342]
+        - generic "品质 0" [ref=e1343]: "0"
+      - generic "被动道具 · 钥匙碎片2" [ref=e1344] [cursor=pointer]:
+        - img "钥匙碎片2" [ref=e1345]
+        - generic "品质 0" [ref=e1346]: "0"
+      - generic "被动道具 · 实验性疗法" [ref=e1347] [cursor=pointer]:
+        - img "实验性疗法" [ref=e1348]
+        - generic "品质 1" [ref=e1349]: "1"
+      - generic "被动道具 · 地狱契约" [ref=e1350] [cursor=pointer]:
+        - img "地狱契约" [ref=e1351]
+        - generic "品质 2" [ref=e1352]: "2"
+      - generic "被动道具 · 耻辱假面" [ref=e1353] [cursor=pointer]:
+        - img "耻辱假面" [ref=e1354]
+        - generic "品质 2" [ref=e1355]: "2"
+      - generic "被动道具 · 三位一体盾" [ref=e1356] [cursor=pointer]:
+        - img "三位一体盾" [ref=e1357]
+        - generic "品质 2" [ref=e1358]: "2"
+      - generic "被动道具 · 科技0.5" [ref=e1359] [cursor=pointer]:
+        - img "科技0.5" [ref=e1360]
+        - generic "品质 3" [ref=e1361]: "3"
+      - generic "被动道具 · 完美视力" [ref=e1362] [cursor=pointer]:
+        - img "完美视力" [ref=e1363]
+        - generic "品质 4" [ref=e1364]: "4"
+      - generic "被动道具 · 蓝地图" [ref=e1365] [cursor=pointer]:
+        - img "蓝地图" [ref=e1366]
+        - generic "品质 1" [ref=e1367]: "1"
+      - generic "被动道具 · 好朋友一辈子！" [ref=e1368] [cursor=pointer]:
+        - img "好朋友一辈子！" [ref=e1369]
+        - generic "品质 2" [ref=e1370]: "2"
+      - generic "被动道具 · 虫群之心" [ref=e1371] [cursor=pointer]:
+        - img "虫群之心" [ref=e1372]
+        - generic "品质 2" [ref=e1373]: "2"
+      - generic "被动道具 · 额外选择" [ref=e1374] [cursor=pointer]:
+        - img "额外选择" [ref=e1375]
+        - generic "品质 3" [ref=e1376]: "3"
+      - generic "被动道具 · 炸弹买一送一" [ref=e1377] [cursor=pointer]:
+        - img "炸弹买一送一" [ref=e1378]
+        - generic "品质 1" [ref=e1379]: "1"
+      - generic "被动道具 · 新手牌组" [ref=e1380] [cursor=pointer]:
+        - img "新手牌组" [ref=e1381]
+        - generic "品质 2" [ref=e1382]: "2"
+      - generic "被动道具 · 小药袋" [ref=e1383] [cursor=pointer]:
+        - img "小药袋" [ref=e1384]
+        - generic "品质 0" [ref=e1385]: "0"
+      - generic "被动道具 · 魔法血痂" [ref=e1386] [cursor=pointer]:
+        - img "魔法血痂" [ref=e1387]
+        - generic "品质 2" [ref=e1388]: "2"
+      - generic "被动道具 · 血块" [ref=e1389] [cursor=pointer]:
+        - img "血块" [ref=e1390]
+        - generic "品质 2" [ref=e1391]: "2"
+      - generic "被动道具 · 螺丝" [ref=e1392] [cursor=pointer]:
+        - img "螺丝" [ref=e1393]
+        - generic "品质 2" [ref=e1394]: "2"
+      - generic "被动道具 · 炙热炸弹" [ref=e1395] [cursor=pointer]:
+        - img "炙热炸弹" [ref=e1396]
+        - generic "品质 1" [ref=e1397]: "1"
+      - generic "被动道具 · 火焰意志" [ref=e1398] [cursor=pointer]:
+        - img "火焰意志" [ref=e1399]
+        - generic "品质 2" [ref=e1400]: "2"
+      - generic "被动道具 · 编号丢失" [ref=e1401] [cursor=pointer]:
+        - img "编号丢失" [ref=e1402]
+        - generic "品质 0" [ref=e1403]: "0"
+      - generic "被动道具 · 暗物质" [ref=e1404] [cursor=pointer]:
+        - img "暗物质" [ref=e1405]
+        - generic "品质 3" [ref=e1406]: "3"
+      - generic "被动道具 · 黑蜡烛" [ref=e1407] [cursor=pointer]:
+        - img "黑蜡烛" [ref=e1408]
+        - generic "品质 3" [ref=e1409]: "3"
+      - generic "被动道具 · 眼球突出" [ref=e1410] [cursor=pointer]:
+        - img "眼球突出" [ref=e1411]
+        - generic "品质 3" [ref=e1412]: "3"
+      - generic "被动道具 · 遗失的书页2" [ref=e1413] [cursor=pointer]:
+        - img "遗失的书页2" [ref=e1414]
+        - generic "品质 0" [ref=e1415]: "0"
+      - generic "主动道具 · 透明符文 · 充能数可变（特殊）" [ref=e1416] [cursor=pointer]:
+        - img "透明符文" [ref=e1417]
+        - generic "品质 2" [ref=e1418]: "2"
+        - generic "充能数可变（特殊）" [ref=e1419]: "?"
+      - generic "被动道具 · 智能苍蝇" [ref=e1420] [cursor=pointer]:
+        - img "智能苍蝇" [ref=e1421]
+        - generic "品质 1" [ref=e1422]: "1"
+      - generic "被动道具 · 枯骨宝宝" [ref=e1423] [cursor=pointer]:
+        - img "枯骨宝宝" [ref=e1424]
+        - generic "品质 3" [ref=e1425]: "3"
+      - generic "被动道具 · 粘液卵囊" [ref=e1426] [cursor=pointer]:
+        - img "粘液卵囊" [ref=e1427]
+        - generic "品质 2" [ref=e1428]: "2"
+      - generic "被动道具 · 机器宝宝2.0" [ref=e1429] [cursor=pointer]:
+        - img "机器宝宝2.0" [ref=e1430]
+        - generic "品质 1" [ref=e1431]: "1"
+      - generic "被动道具 · 腐烂宝宝" [ref=e1432] [cursor=pointer]:
+        - img "腐烂宝宝" [ref=e1433]
+        - generic "品质 3" [ref=e1434]: "3"
+      - generic "被动道具 · 无头宝宝" [ref=e1435] [cursor=pointer]:
+        - img "无头宝宝" [ref=e1436]
+        - generic "品质 1" [ref=e1437]: "1"
+      - generic "被动道具 · 水蛭" [ref=e1438] [cursor=pointer]:
+        - img "水蛭" [ref=e1439]
+        - generic "品质 2" [ref=e1440]: "2"
+      - generic "被动道具 · 神秘的袋子" [ref=e1441] [cursor=pointer]:
+        - img "神秘的袋子" [ref=e1442]
+        - generic "品质 2" [ref=e1443]: "2"
+      - generic "被动道具 · 大美蝇" [ref=e1444] [cursor=pointer]:
+        - img "大美蝇" [ref=e1445]
+        - generic "品质 0" [ref=e1446]: "0"
+      - generic "被动道具 · 鲍勃的脑浆子" [ref=e1447] [cursor=pointer]:
+        - img "鲍勃的脑浆子" [ref=e1448]
+        - generic "品质 0" [ref=e1449]: "0"
+      - generic "被动道具 · 生死之交" [ref=e1450] [cursor=pointer]:
+        - img "生死之交" [ref=e1451]
+        - generic "品质 0" [ref=e1452]: "0"
+      - generic "被动道具 · 硫磺火宝宝" [ref=e1453] [cursor=pointer]:
+        - img "硫磺火宝宝" [ref=e1454]
+        - generic "品质 2" [ref=e1455]: "2"
+      - generic "被动道具 · 以撒的心脏" [ref=e1456] [cursor=pointer]:
+        - img "以撒的心脏" [ref=e1457]
+        - generic "品质 0" [ref=e1458]: "0"
+      - generic "被动道具 · 恶灵宝宝" [ref=e1459] [cursor=pointer]:
+        - img "恶灵宝宝" [ref=e1460]
+        - generic "品质 1" [ref=e1461]: "1"
+      - generic "被动道具 · 黑暗乞丐" [ref=e1462] [cursor=pointer]:
+        - img "黑暗乞丐" [ref=e1463]
+        - generic "品质 3" [ref=e1464]: "3"
+      - generic "被动道具 · 大粉丝" [ref=e1465] [cursor=pointer]:
+        - img "大粉丝" [ref=e1466]
+        - generic "品质 1" [ref=e1467]: "1"
+      - generic "被动道具 · 长腿蛛妹妹" [ref=e1468] [cursor=pointer]:
+        - img "长腿蛛妹妹" [ref=e1469]
+        - generic "品质 1" [ref=e1470]: "1"
+      - generic "被动道具 · 受气包" [ref=e1471] [cursor=pointer]:
+        - img "受气包" [ref=e1472]
+        - generic "品质 1" [ref=e1473]: "1"
+      - generic "主动道具 · 跳跃教程 · 无限使用（无充能条）" [ref=e1474] [cursor=pointer]:
+        - img "跳跃教程" [ref=e1475]
+        - generic "品质 1" [ref=e1476]: "1"
+        - generic "无限使用（无充能条）" [ref=e1477]: ∞
+      - generic "主动道具 · 一百面骰 · 充能 6 房间（非自动，清房间充能）" [ref=e1478] [cursor=pointer]:
+        - img "一百面骰" [ref=e1479]
+        - generic "品质 1" [ref=e1480]: "1"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1481]: "6"
+      - generic "主动道具 · 四面骰 · 充能 6 房间（非自动，清房间充能）" [ref=e1482] [cursor=pointer]:
+        - img "四面骰" [ref=e1483]
+        - generic "品质 1" [ref=e1484]: "1"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1485]: "6"
+      - generic "主动道具 · 十面骰 · 充能 1 房间（非自动，清房间充能）" [ref=e1486] [cursor=pointer]:
+        - img "十面骰" [ref=e1487]
+        - generic "品质 1" [ref=e1488]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1489]: "1"
+      - generic "主动道具 · 空白卡牌 · 充能 4 房间（非自动，清房间充能）" [ref=e1490] [cursor=pointer]:
+        - img "空白卡牌" [ref=e1491]
+        - generic "品质 2" [ref=e1492]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1493]: "4"
+      - generic "主动道具 · 秘密之书 · 充能 6 房间（非自动，清房间充能）" [ref=e1494] [cursor=pointer]:
+        - img "秘密之书" [ref=e1495]
+        - generic "品质 0" [ref=e1496]: "0"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1497]: "6"
+      - generic "主动道具 · 蜘蛛盒 · 充能 2 房间（非自动，清房间充能）" [ref=e1498] [cursor=pointer]:
+        - img "蜘蛛盒" [ref=e1499]
+        - generic "品质 1" [ref=e1500]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1501]: "2"
+      - generic "主动道具 · 红蜡烛 · 自动充能 4 秒（随时间恢复）" [ref=e1502] [cursor=pointer]:
+        - img "红蜡烛" [ref=e1503]
+        - generic "品质 1" [ref=e1504]: "1"
+        - generic "自动充能 4 秒（随时间恢复）" [ref=e1505]: 4s
+      - generic "主动道具 · 罐子 · 无限使用（无充能条）" [ref=e1506] [cursor=pointer]:
+        - img "罐子" [ref=e1507]
+        - generic "品质 0" [ref=e1508]: "0"
+        - generic "无限使用（无充能条）" [ref=e1509]: ∞
+      - generic "主动道具 · 冲水！ · 充能 4 房间（非自动，清房间充能）" [ref=e1510] [cursor=pointer]:
+        - img "冲水！" [ref=e1511]
+        - generic "品质 1" [ref=e1512]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1513]: "4"
+      - generic "主动道具 · 撒但圣经 · 充能 6 房间（非自动，清房间充能）" [ref=e1514] [cursor=pointer]:
+        - img "撒但圣经" [ref=e1515]
+        - generic "品质 3" [ref=e1516]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1517]: "6"
+      - generic "主动道具 · 坎卜斯的头 · 充能 3 房间（非自动，清房间充能）" [ref=e1518] [cursor=pointer]:
+        - img "坎卜斯的头" [ref=e1519]
+        - generic "品质 1" [ref=e1520]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1521]: "3"
+      - generic "主动道具 · 棉豆 · 自动充能 2 秒（随时间恢复）" [ref=e1522] [cursor=pointer]:
+        - img "棉豆" [ref=e1523]
+        - generic "品质 0" [ref=e1524]: "0"
+        - generic "自动充能 2 秒（随时间恢复）" [ref=e1525]: 2s
+      - generic "主动道具 · 魔术手指 · 无限使用（无充能条）" [ref=e1526] [cursor=pointer]:
+        - img "魔术手指" [ref=e1527]
+        - generic "品质 0" [ref=e1528]: "0"
+        - generic "无限使用（无充能条）" [ref=e1529]: ∞
+      - generic "主动道具 · 转换器 · 充能 3 房间（非自动，清房间充能）" [ref=e1530] [cursor=pointer]:
+        - img "转换器" [ref=e1531]
+        - generic "品质 1" [ref=e1532]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1533]: "3"
+      - generic "主动道具 · 潘多拉魔盒 · 一次性使用（使用后消失）" [ref=e1534] [cursor=pointer]:
+        - img "潘多拉魔盒" [ref=e1535]
+        - generic "品质 2" [ref=e1536]: "2"
+        - generic "一次性使用（使用后消失）" [ref=e1537]: "1"
+      - generic "主动道具 · 独角兽的残角 · 充能 1 房间（非自动，清房间充能）" [ref=e1538] [cursor=pointer]:
+        - img "独角兽的残角" [ref=e1539]
+        - generic "品质 1" [ref=e1540]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1541]: "1"
+      - generic "被动道具 · 金牛座" [ref=e1542] [cursor=pointer]:
+        - img "金牛座" [ref=e1543]
+        - generic "品质 1" [ref=e1544]: "1"
+      - generic "被动道具 · 白羊座" [ref=e1545] [cursor=pointer]:
+        - img "白羊座" [ref=e1546]
+        - generic "品质 2" [ref=e1547]: "2"
+      - generic "被动道具 · 巨蟹座" [ref=e1548] [cursor=pointer]:
+        - img "巨蟹座" [ref=e1549]
+        - generic "品质 3" [ref=e1550]: "3"
+      - generic "被动道具 · 狮子座" [ref=e1551] [cursor=pointer]:
+        - img "狮子座" [ref=e1552]
+        - generic "品质 1" [ref=e1553]: "1"
+      - generic "被动道具 · 室女座" [ref=e1554] [cursor=pointer]:
+        - img "室女座" [ref=e1555]
+        - generic "品质 2" [ref=e1556]: "2"
+      - generic "被动道具 · 天秤座" [ref=e1557] [cursor=pointer]:
+        - img "天秤座" [ref=e1558]
+        - generic "品质 1" [ref=e1559]: "1"
+      - generic "被动道具 · 天蝎座" [ref=e1560] [cursor=pointer]:
+        - img "天蝎座" [ref=e1561]
+        - generic "品质 3" [ref=e1562]: "3"
+      - generic "被动道具 · 人马座" [ref=e1563] [cursor=pointer]:
+        - img "人马座" [ref=e1564]
+        - generic "品质 3" [ref=e1565]: "3"
+      - generic "被动道具 · 摩羯座" [ref=e1566] [cursor=pointer]:
+        - img "摩羯座" [ref=e1567]
+        - generic "品质 3" [ref=e1568]: "3"
+      - generic "被动道具 · 宝瓶座" [ref=e1569] [cursor=pointer]:
+        - img "宝瓶座" [ref=e1570]
+        - generic "品质 2" [ref=e1571]: "2"
+      - generic "被动道具 · 双鱼座" [ref=e1572] [cursor=pointer]:
+        - img "双鱼座" [ref=e1573]
+        - generic "品质 2" [ref=e1574]: "2"
+      - generic "被动道具 · 夏娃的睫毛膏" [ref=e1575] [cursor=pointer]:
+        - img "夏娃的睫毛膏" [ref=e1576]
+        - generic "品质 3" [ref=e1577]: "3"
+      - generic "被动道具 · 犹大的影子" [ref=e1578] [cursor=pointer]:
+        - img "犹大的影子" [ref=e1579]
+        - generic "品质 3" [ref=e1580]: "3"
+      - generic "被动道具 · 抹大拉的蝴蝶结" [ref=e1581] [cursor=pointer]:
+        - img "抹大拉的蝴蝶结" [ref=e1582]
+        - generic "品质 2" [ref=e1583]: "2"
+      - generic "被动道具 · 神圣屏障" [ref=e1584] [cursor=pointer]:
+        - img "神圣屏障" [ref=e1585]
+        - generic "品质 4" [ref=e1586]: "4"
+      - generic "被动道具 · 霹雳大腿" [ref=e1587] [cursor=pointer]:
+        - img "霹雳大腿" [ref=e1588]
+        - generic "品质 1" [ref=e1589]: "1"
+      - generic "被动道具 · 怪异磁铁" [ref=e1590] [cursor=pointer]:
+        - img "怪异磁铁" [ref=e1591]
+        - generic "品质 0" [ref=e1592]: "0"
+      - generic "被动道具 · 诅咒之眼" [ref=e1593] [cursor=pointer]:
+        - img "诅咒之眼" [ref=e1594]
+        - generic "品质 0" [ref=e1595]: "0"
+      - generic "被动道具 · 神秘液体" [ref=e1596] [cursor=pointer]:
+        - img "神秘液体" [ref=e1597]
+        - generic "品质 3" [ref=e1598]: "3"
+      - generic "被动道具 · 双子座" [ref=e1599] [cursor=pointer]:
+        - img "双子座" [ref=e1600]
+        - generic "品质 1" [ref=e1601]: "1"
+      - generic "被动道具 · 该隐的另一只眼" [ref=e1602] [cursor=pointer]:
+        - img "该隐的另一只眼" [ref=e1603]
+        - generic "品质 2" [ref=e1604]: "2"
+      - generic "被动道具 · ???唯一的朋友" [ref=e1605] [cursor=pointer]:
+        - img "???唯一的朋友" [ref=e1606]
+        - generic "品质 1" [ref=e1607]: "1"
+      - generic "被动道具 · 参孙的脚镣" [ref=e1608] [cursor=pointer]:
+        - img "参孙的脚镣" [ref=e1609]
+        - generic "品质 1" [ref=e1610]: "1"
+      - generic "被动道具 · 蒙戈宝宝" [ref=e1611] [cursor=pointer]:
+        - img "蒙戈宝宝" [ref=e1612]
+        - generic "品质 2" [ref=e1613]: "2"
+      - generic "主动道具 · 以撒的泪盆 · 充能 6 房间（非自动，清房间充能）" [ref=e1614] [cursor=pointer]:
+        - img "以撒的泪盆" [ref=e1615]
+        - generic "品质 1" [ref=e1616]: "1"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1617]: "6"
+      - generic "主动道具 · 未定义 · 充能 6 房间（非自动，清房间充能）" [ref=e1618] [cursor=pointer]:
+        - img "未定义" [ref=e1619]
+        - generic "品质 1" [ref=e1620]: "1"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e1621]: "6"
+      - generic "主动道具 · 剪刀 · 充能 2 房间（非自动，清房间充能）" [ref=e1622] [cursor=pointer]:
+        - img "剪刀" [ref=e1623]
+        - generic "品质 0" [ref=e1624]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1625]: "2"
+      - generic "主动道具 · 生命之息 · 自动充能 3 秒（随时间恢复）" [ref=e1626] [cursor=pointer]:
+        - img "生命之息" [ref=e1627]
+        - generic "品质 1" [ref=e1628]: "1"
+        - generic "自动充能 3 秒（随时间恢复）" [ref=e1629]: 3s
+      - generic "被动道具 · 全家福" [ref=e1630] [cursor=pointer]:
+        - img "全家福" [ref=e1631]
+        - generic "品质 2" [ref=e1632]: "2"
+      - generic "被动道具 · 底片" [ref=e1633] [cursor=pointer]:
+        - img "底片" [ref=e1634]
+        - generic "品质 2" [ref=e1635]: "2"
+      - generic "被动道具 · 鲁多维科科技" [ref=e1636] [cursor=pointer]:
+        - img "鲁多维科科技" [ref=e1637]
+        - generic "品质 1" [ref=e1638]: "1"
+      - generic "被动道具 · 豆奶" [ref=e1639] [cursor=pointer]:
+        - img "豆奶" [ref=e1640]
+        - generic "品质 2" [ref=e1641]: "2"
+      - generic "被动道具 · 神性" [ref=e1642] [cursor=pointer]:
+        - img "神性" [ref=e1643]
+        - generic "品质 4" [ref=e1644]: "4"
+      - generic "被动道具 · 拉撒路的绷带" [ref=e1645] [cursor=pointer]:
+        - img "拉撒路的绷带" [ref=e1646]
+        - generic "品质 1" [ref=e1647]: "1"
+      - generic "被动道具 · 思想" [ref=e1648] [cursor=pointer]:
+        - img "思想" [ref=e1649]
+        - generic "品质 3" [ref=e1650]: "3"
+      - generic "被动道具 · 肉体" [ref=e1651] [cursor=pointer]:
+        - img "肉体" [ref=e1652]
+        - generic "品质 3" [ref=e1653]: "3"
+      - generic "被动道具 · 灵魂" [ref=e1654] [cursor=pointer]:
+        - img "灵魂" [ref=e1655]
+        - generic "品质 3" [ref=e1656]: "3"
+      - generic "被动道具 · 烂洋葱" [ref=e1657] [cursor=pointer]:
+        - img "烂洋葱" [ref=e1658]
+        - generic "品质 2" [ref=e1659]: "2"
+      - generic "被动道具 · 损坏的怀表" [ref=e1660] [cursor=pointer]:
+        - img "损坏的怀表" [ref=e1661]
+        - generic "品质 1" [ref=e1662]: "1"
+      - generic "主动道具 · 回旋镖 · 自动充能 2 秒（随时间恢复）" [ref=e1663] [cursor=pointer]:
+        - img "回旋镖" [ref=e1664]
+        - generic "品质 1" [ref=e1665]: "1"
+        - generic "自动充能 2 秒（随时间恢复）" [ref=e1666]: 2s
+      - generic "被动道具 · 安全别针" [ref=e1667] [cursor=pointer]:
+        - img "安全别针" [ref=e1668]
+        - generic "品质 1" [ref=e1669]: "1"
+      - generic "被动道具 · 咖啡因片" [ref=e1670] [cursor=pointer]:
+        - img "咖啡因片" [ref=e1671]
+        - generic "品质 1" [ref=e1672]: "1"
+      - generic "被动道具 · 撕碎的照片" [ref=e1673] [cursor=pointer]:
+        - img "撕碎的照片" [ref=e1674]
+        - generic "品质 3" [ref=e1675]: "3"
+      - generic "被动道具 · 蓝盖蘑菇" [ref=e1676] [cursor=pointer]:
+        - img "蓝盖蘑菇" [ref=e1677]
+        - generic "品质 3" [ref=e1678]: "3"
+      - generic "被动道具 · 弹簧锁钥匙" [ref=e1679] [cursor=pointer]:
+        - img "弹簧锁钥匙" [ref=e1680]
+        - generic "品质 1" [ref=e1681]: "1"
+      - generic "被动道具 · 火柴盒" [ref=e1682] [cursor=pointer]:
+        - img "火柴盒" [ref=e1683]
+        - generic "品质 1" [ref=e1684]: "1"
+      - generic "被动道具 · 合成油脂" [ref=e1685] [cursor=pointer]:
+        - img "合成油脂" [ref=e1686]
+        - generic "品质 3" [ref=e1687]: "3"
+      - generic "被动道具 · 零食" [ref=e1688] [cursor=pointer]:
+        - img "零食" [ref=e1689]
+        - generic "品质 1" [ref=e1690]: "1"
+      - generic "主动道具 · 复视 · 一次性使用（使用后消失）" [ref=e1691] [cursor=pointer]:
+        - img "复视" [ref=e1692]
+        - generic "品质 3" [ref=e1693]: "3"
+        - generic "一次性使用（使用后消失）" [ref=e1694]: "1"
+      - generic "主动道具 · 安慰剂 · 充能 4 房间（非自动，清房间充能）" [ref=e1695] [cursor=pointer]:
+        - img "安慰剂" [ref=e1696]
+        - generic "品质 1" [ref=e1697]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1698]: "4"
+      - generic "主动道具 · 木制镍币 · 充能 1 房间（非自动，清房间充能）" [ref=e1699] [cursor=pointer]:
+        - img "木制镍币" [ref=e1700]
+        - generic "品质 1" [ref=e1701]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1702]: "1"
+      - generic "被动道具 · 毒性休克" [ref=e1703] [cursor=pointer]:
+        - img "毒性休克" [ref=e1704]
+        - generic "品质 3" [ref=e1705]: "3"
+      - generic "主动道具 · 超级豆子 · 充能 3 房间（非自动，清房间充能）" [ref=e1706] [cursor=pointer]:
+        - img "超级豆子" [ref=e1707]
+        - generic "品质 1" [ref=e1708]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1709]: "3"
+      - generic "主动道具 · 玻璃大炮 · 自动充能 4 秒（随时间恢复）" [ref=e1710] [cursor=pointer]:
+        - img "玻璃大炮" [ref=e1711]
+        - generic "品质 1" [ref=e1712]: "1"
+        - generic "自动充能 4 秒（随时间恢复）" [ref=e1713]: 4s
+      - generic "被动道具 · 炸弹人" [ref=e1714] [cursor=pointer]:
+        - img "炸弹人" [ref=e1715]
+        - generic "品质 2" [ref=e1716]: "2"
+      - generic "被动道具 · 琥珀爆米花" [ref=e1717] [cursor=pointer]:
+        - img "琥珀爆米花" [ref=e1718]
+        - generic "品质 2" [ref=e1719]: "2"
+      - generic "被动道具 · 妈妈的珍珠项链" [ref=e1720] [cursor=pointer]:
+        - img "妈妈的珍珠项链" [ref=e1721]
+        - generic "品质 2" [ref=e1722]: "2"
+      - generic "被动道具 · 车载电池" [ref=e1723] [cursor=pointer]:
+        - img "车载电池" [ref=e1724]
+        - generic "品质 3" [ref=e1725]: "3"
+      - generic "主动道具 · 朋友盒 · 充能 3 房间（非自动，清房间充能）" [ref=e1726] [cursor=pointer]:
+        - img "朋友盒" [ref=e1727]
+        - generic "品质 1" [ref=e1728]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1729]: "3"
+      - generic "被动道具 · 蠢巫帽" [ref=e1730] [cursor=pointer]:
+        - img "蠢巫帽" [ref=e1731]
+        - generic "品质 0" [ref=e1732]: "0"
+      - generic "被动道具 · 八寸钉" [ref=e1733] [cursor=pointer]:
+        - img "八寸钉" [ref=e1734]
+        - generic "品质 3" [ref=e1735]: "3"
+      - generic "被动道具 · 淫魔" [ref=e1736] [cursor=pointer]:
+        - img "淫魔" [ref=e1737]
+        - generic "品质 4" [ref=e1738]: "4"
+      - generic "被动道具 · 宿命的报答" [ref=e1739] [cursor=pointer]:
+        - img "宿命的报答" [ref=e1740]
+        - generic "品质 2" [ref=e1741]: "2"
+      - generic "被动道具 · 小箱子" [ref=e1742] [cursor=pointer]:
+        - img "小箱子" [ref=e1743]
+        - generic "品质 2" [ref=e1744]: "2"
+      - generic "被动道具 · 宣誓守护者" [ref=e1745] [cursor=pointer]:
+        - img "宣誓守护者" [ref=e1746]
+        - generic "品质 2" [ref=e1747]: "2"
+      - generic "被动道具 · 浅交朋友" [ref=e1748] [cursor=pointer]:
+        - img "浅交朋友" [ref=e1749]
+        - generic "品质 1" [ref=e1750]: "1"
+      - generic "被动道具 · 迷路苍蝇" [ref=e1751] [cursor=pointer]:
+        - img "迷路苍蝇" [ref=e1752]
+        - generic "品质 2" [ref=e1753]: "2"
+      - generic "被动道具 · 分裂炸弹" [ref=e1754] [cursor=pointer]:
+        - img "分裂炸弹" [ref=e1755]
+        - generic "品质 1" [ref=e1756]: "1"
+      - generic "被动道具 · 粘性炸弹" [ref=e1757] [cursor=pointer]:
+        - img "粘性炸弹" [ref=e1758]
+        - generic "品质 1" [ref=e1759]: "1"
+      - generic "被动道具 · 溢泪症" [ref=e1760] [cursor=pointer]:
+        - img "溢泪症" [ref=e1761]
+        - generic "品质 1" [ref=e1762]: "1"
+      - generic "被动道具 · 连续统" [ref=e1763] [cursor=pointer]:
+        - img "连续统" [ref=e1764]
+        - generic "品质 2" [ref=e1765]: "2"
+      - generic "被动道具 · 玩偶先生" [ref=e1766] [cursor=pointer]:
+        - img "玩偶先生" [ref=e1767]
+        - generic "品质 3" [ref=e1768]: "3"
+      - generic "被动道具 · 塔之诅咒" [ref=e1769] [cursor=pointer]:
+        - img "塔之诅咒" [ref=e1770]
+        - generic "品质 0" [ref=e1771]: "0"
+      - generic "被动道具 · 充电宝宝" [ref=e1772] [cursor=pointer]:
+        - img "充电宝宝" [ref=e1773]
+        - generic "品质 2" [ref=e1774]: "2"
+      - generic "被动道具 · 死亡之眼" [ref=e1775] [cursor=pointer]:
+        - img "死亡之眼" [ref=e1776]
+        - generic "品质 3" [ref=e1777]: "3"
+      - generic "被动道具 · 圣光" [ref=e1778] [cursor=pointer]:
+        - img "圣光" [ref=e1779]
+        - generic "品质 3" [ref=e1780]: "3"
+      - generic "被动道具 · 寄居骷髅帽" [ref=e1781] [cursor=pointer]:
+        - img "寄居骷髅帽" [ref=e1782]
+        - generic "品质 3" [ref=e1783]: "3"
+      - generic "被动道具 · 补货" [ref=e1784] [cursor=pointer]:
+        - img "补货" [ref=e1785]
+        - generic "品质 2" [ref=e1786]: "2"
+      - generic "被动道具 · 爆裂虫卵" [ref=e1787] [cursor=pointer]:
+        - img "爆裂虫卵" [ref=e1788]
+        - generic "品质 1" [ref=e1789]: "1"
+      - generic "被动道具 · 大号" [ref=e1790] [cursor=pointer]:
+        - img "大号" [ref=e1791]
+        - generic "品质 2" [ref=e1792]: "2"
+      - generic "被动道具 · 双瞳" [ref=e1793] [cursor=pointer]:
+        - img "双瞳" [ref=e1794]
+        - generic "品质 2" [ref=e1795]: "2"
+      - generic "被动道具 · 充钱游戏" [ref=e1796] [cursor=pointer]:
+        - img "充钱游戏" [ref=e1797]
+        - generic "品质 2" [ref=e1798]: "2"
+      - generic "被动道具 · 伊甸的祝福" [ref=e1799] [cursor=pointer]:
+        - img "伊甸的祝福" [ref=e1800]
+        - generic "品质 3" [ref=e1801]: "3"
+      - generic "主动道具 · 友好球 · 充能 2 房间（非自动，清房间充能）" [ref=e1802] [cursor=pointer]:
+        - img "友好球" [ref=e1803]
+        - generic "品质 1" [ref=e1804]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1805]: "2"
+      - generic "主动道具 · 眼泪引爆器 · 充能 1 房间（非自动，清房间充能）" [ref=e1806] [cursor=pointer]:
+        - img "眼泪引爆器" [ref=e1807]
+        - generic "品质 1" [ref=e1808]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1809]: "1"
+      - generic "被动道具 · 肉山宝宝" [ref=e1810] [cursor=pointer]:
+        - img "肉山宝宝" [ref=e1811]
+        - generic "品质 1" [ref=e1812]: "1"
+      - generic "被动道具 · 乞丐宝" [ref=e1813] [cursor=pointer]:
+        - img "乞丐宝" [ref=e1814]
+        - generic "品质 1" [ref=e1815]: "1"
+      - generic "主动道具 · 十二面骰 · 充能 3 房间（非自动，清房间充能）" [ref=e1816] [cursor=pointer]:
+        - img "十二面骰" [ref=e1817]
+        - generic "品质 1" [ref=e1818]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1819]: "3"
+      - generic "被动道具 · 香炉" [ref=e1820] [cursor=pointer]:
+        - img "香炉" [ref=e1821]
+        - generic "品质 2" [ref=e1822]: "2"
+      - generic "被动道具 · 钥匙乞丐" [ref=e1823] [cursor=pointer]:
+        - img "钥匙乞丐" [ref=e1824]
+        - generic "品质 0" [ref=e1825]: "0"
+      - generic "被动道具 · 符文袋" [ref=e1826] [cursor=pointer]:
+        - img "符文袋" [ref=e1827]
+        - generic "品质 3" [ref=e1828]: "3"
+      - generic "被动道具 · 撒拉弗" [ref=e1829] [cursor=pointer]:
+        - img "撒拉弗" [ref=e1830]
+        - generic "品质 3" [ref=e1831]: "3"
+      - generic "被动道具 · 背叛" [ref=e1832] [cursor=pointer]:
+        - img "背叛" [ref=e1833]
+        - generic "品质 1" [ref=e1834]: "1"
+      - generic "被动道具 · 黄道十二宫" [ref=e1835] [cursor=pointer]:
+        - img "黄道十二宫" [ref=e1836]
+        - generic "品质 1" [ref=e1837]: "1"
+      - generic "被动道具 · 蛇蝎之吻" [ref=e1838] [cursor=pointer]:
+        - img "蛇蝎之吻" [ref=e1839]
+        - generic "品质 2" [ref=e1840]: "2"
+      - generic "被动道具 · 十字准星" [ref=e1841] [cursor=pointer]:
+        - img "十字准星" [ref=e1842]
+        - generic "品质 0" [ref=e1843]: "0"
+      - generic "被动道具 · 科技X" [ref=e1844] [cursor=pointer]:
+        - img "科技X" [ref=e1845]
+        - generic "品质 4" [ref=e1846]: "4"
+      - generic "主动道具 · 心室手术刀 · 无限使用（无充能条）" [ref=e1847] [cursor=pointer]:
+        - img "心室手术刀" [ref=e1848]
+        - generic "品质 0" [ref=e1849]: "0"
+        - generic "无限使用（无充能条）" [ref=e1850]: ∞
+      - generic "被动道具 · 牵引光束" [ref=e1851] [cursor=pointer]:
+        - img "牵引光束" [ref=e1852]
+        - generic "品质 3" [ref=e1853]: "3"
+      - generic "被动道具 · 神体蘑菇" [ref=e1854] [cursor=pointer]:
+        - img "神体蘑菇" [ref=e1855]
+        - generic "品质 1" [ref=e1856]: "1"
+      - generic "被动道具 · 虚空之喉" [ref=e1857] [cursor=pointer]:
+        - img "虚空之喉" [ref=e1858]
+        - generic "品质 3" [ref=e1859]: "3"
+      - generic "被动道具 · 命运之矛" [ref=e1860] [cursor=pointer]:
+        - img "命运之矛" [ref=e1861]
+        - generic "品质 1" [ref=e1862]: "1"
+      - generic "被动道具 · 爆炸物" [ref=e1863] [cursor=pointer]:
+        - img "爆炸物" [ref=e1864]
+        - generic "品质 3" [ref=e1865]: "3"
+      - generic "被动道具 · 混沌" [ref=e1866] [cursor=pointer]:
+        - img "混沌" [ref=e1867]
+        - generic "品质 3" [ref=e1868]: "3"
+      - generic "被动道具 · 蜘蛛模组" [ref=e1869] [cursor=pointer]:
+        - img "蜘蛛模组" [ref=e1870]
+        - generic "品质 1" [ref=e1871]: "1"
+      - generic "被动道具 · 放屁宝宝" [ref=e1872] [cursor=pointer]:
+        - img "放屁宝宝" [ref=e1873]
+        - generic "品质 1" [ref=e1874]: "1"
+      - generic "被动道具 · 恶性漏洞" [ref=e1875] [cursor=pointer]:
+        - img "恶性漏洞" [ref=e1876]
+        - generic "品质 1" [ref=e1877]: "1"
+      - generic "主动道具 · 八面骰 · 充能 4 房间（非自动，清房间充能）" [ref=e1878] [cursor=pointer]:
+        - img "八面骰" [ref=e1879]
+        - generic "品质 1" [ref=e1880]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1881]: "4"
+      - generic "被动道具 · 纯洁" [ref=e1882] [cursor=pointer]:
+        - img "纯洁" [ref=e1883]
+        - generic "品质 3" [ref=e1884]: "3"
+      - generic "被动道具 · 祭祀之刃" [ref=e1885] [cursor=pointer]:
+        - img "祭祀之刃" [ref=e1886]
+        - generic "品质 3" [ref=e1887]: "3"
+      - generic "被动道具 · 空容器" [ref=e1888] [cursor=pointer]:
+        - img "空容器" [ref=e1889]
+        - generic "品质 2" [ref=e1890]: "2"
+      - generic "被动道具 · 邪恶之眼" [ref=e1891] [cursor=pointer]:
+        - img "邪恶之眼" [ref=e1892]
+        - generic "品质 2" [ref=e1893]: "2"
+      - generic "被动道具 · 血嗜" [ref=e1894] [cursor=pointer]:
+        - img "血嗜" [ref=e1895]
+        - generic "品质 3" [ref=e1896]: "3"
+      - generic "被动道具 · 恶魔受胎" [ref=e1897] [cursor=pointer]:
+        - img "恶魔受胎" [ref=e1898]
+        - generic "品质 1" [ref=e1899]: "1"
+      - generic "被动道具 · 圣灵受胎" [ref=e1900] [cursor=pointer]:
+        - img "圣灵受胎" [ref=e1901]
+        - generic "品质 1" [ref=e1902]: "1"
+      - generic "被动道具 · 更多选择" [ref=e1903] [cursor=pointer]:
+        - img "更多选择" [ref=e1904]
+        - generic "品质 3" [ref=e1905]: "3"
+      - generic "被动道具 · 光明之冠" [ref=e1906] [cursor=pointer]:
+        - img "光明之冠" [ref=e1907]
+        - generic "品质 4" [ref=e1908]: "4"
+      - generic "被动道具 · 深口袋" [ref=e1909] [cursor=pointer]:
+        - img "深口袋" [ref=e1910]
+        - generic "品质 2" [ref=e1911]: "2"
+      - generic "被动道具 · 魅魔" [ref=e1912] [cursor=pointer]:
+        - img "魅魔" [ref=e1913]
+        - generic "品质 3" [ref=e1914]: "3"
+      - generic "被动道具 · 水果蛋糕" [ref=e1915] [cursor=pointer]:
+        - img "水果蛋糕" [ref=e1916]
+        - generic "品质 2" [ref=e1917]: "2"
+      - generic "主动道具 · 传送2.0 · 充能 4 房间（非自动，清房间充能）" [ref=e1918] [cursor=pointer]:
+        - img "传送2.0" [ref=e1919]
+        - generic "品质 3" [ref=e1920]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1921]: "4"
+      - generic "被动道具 · 黑色粉末" [ref=e1922] [cursor=pointer]:
+        - img "黑色粉末" [ref=e1923]
+        - generic "品质 0" [ref=e1924]: "0"
+      - generic "主动道具 · 腰豆 · 充能 1 房间（非自动，清房间充能）" [ref=e1925] [cursor=pointer]:
+        - img "腰豆" [ref=e1926]
+        - generic "品质 0" [ref=e1927]: "0"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1928]: "1"
+      - generic "主动道具 · 发光沙漏 · 充能 2 房间（非自动，清房间充能）" [ref=e1929] [cursor=pointer]:
+        - img "发光沙漏" [ref=e1930]
+        - generic "品质 3" [ref=e1931]: "3"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e1932]: "2"
+      - generic "被动道具 · 保护之环" [ref=e1933] [cursor=pointer]:
+        - img "保护之环" [ref=e1934]
+        - generic "品质 2" [ref=e1935]: "2"
+      - generic "被动道具 · 福袋头" [ref=e1936] [cursor=pointer]:
+        - img "福袋头" [ref=e1937]
+        - generic "品质 3" [ref=e1938]: "3"
+      - generic "被动道具 · 小夜灯" [ref=e1939] [cursor=pointer]:
+        - img "小夜灯" [ref=e1940]
+        - generic "品质 1" [ref=e1941]: "1"
+      - generic "被动道具 · 狂热粉丝" [ref=e1942] [cursor=pointer]:
+        - img "狂热粉丝" [ref=e1943]
+        - generic "品质 0" [ref=e1944]: "0"
+      - generic "主动道具 · 工矿炸药包 · 充能 1 房间（非自动，清房间充能）" [ref=e1945] [cursor=pointer]:
+        - img "工矿炸药包" [ref=e1946]
+        - generic "品质 1" [ref=e1947]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e1948]: "1"
+      - generic "被动道具 · 睡衣" [ref=e1949] [cursor=pointer]:
+        - img "睡衣" [ref=e1950]
+        - generic "品质 2" [ref=e1951]: "2"
+      - generic "被动道具 · 店主的头" [ref=e1952] [cursor=pointer]:
+        - img "店主的头" [ref=e1953]
+        - generic "品质 2" [ref=e1954]: "2"
+      - generic "被动道具 · 狙击蝇老爹" [ref=e1955] [cursor=pointer]:
+        - img "狙击蝇老爹" [ref=e1956]
+        - generic "品质 1" [ref=e1957]: "1"
+      - generic "被动道具 · 多维宝宝" [ref=e1958] [cursor=pointer]:
+        - img "多维宝宝" [ref=e1959]
+        - generic "品质 2" [ref=e1960]: "2"
+      - generic "被动道具 · 闪光炸弹" [ref=e1961] [cursor=pointer]:
+        - img "闪光炸弹" [ref=e1962]
+        - generic "品质 2" [ref=e1963]: "2"
+      - generic "被动道具 · 我的影子" [ref=e1964] [cursor=pointer]:
+        - img "我的影子" [ref=e1965]
+        - generic "品质 1" [ref=e1966]: "1"
+      - generic "主动道具 · 苍蝇罐 · 无限使用（无充能条）" [ref=e1967] [cursor=pointer]:
+        - img "苍蝇罐" [ref=e1968]
+        - generic "品质 2" [ref=e1969]: "2"
+        - generic "无限使用（无充能条）" [ref=e1970]: ∞
+      - generic "被动道具 · 洛基宝宝" [ref=e1971] [cursor=pointer]:
+        - img "洛基宝宝" [ref=e1972]
+        - generic "品质 1" [ref=e1973]: "1"
+      - generic "被动道具 · 牛奶！" [ref=e1974] [cursor=pointer]:
+        - img "牛奶！" [ref=e1975]
+        - generic "品质 1" [ref=e1976]: "1"
+      - generic "主动道具 · 七面骰 · 充能 3 房间（非自动，清房间充能）" [ref=e1977] [cursor=pointer]:
+        - img "七面骰" [ref=e1978]
+        - generic "品质 1" [ref=e1979]: "1"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e1980]: "3"
+      - generic "被动道具 · 奶嘴" [ref=e1981] [cursor=pointer]:
+        - img "奶嘴" [ref=e1982]
+        - generic "品质 3" [ref=e1983]: "3"
+      - generic "主动道具 · 妈妈的盒子 · 充能 4 房间（非自动，清房间充能）" [ref=e1984] [cursor=pointer]:
+        - img "妈妈的盒子" [ref=e1985]
+        - generic "品质 2" [ref=e1986]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e1987]: "4"
+      - generic "被动道具 · 肾结石" [ref=e1988] [cursor=pointer]:
+        - img "肾结石" [ref=e1989]
+        - generic "品质 2" [ref=e1990]: "2"
+      - generic "主动道具 · 超级喷射 · 充能 12 房间（非自动，清房间充能）" [ref=e1991] [cursor=pointer]:
+        - img "超级喷射" [ref=e1992]
+        - generic "品质 4" [ref=e1993]: "4"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e1994]: "12"
+      - generic "被动道具 · 黑王子之冠" [ref=e1995] [cursor=pointer]:
+        - img "黑王子之冠" [ref=e1996]
+        - generic "品质 1" [ref=e1997]: "1"
+      - generic "被动道具 · 苹果！" [ref=e1998] [cursor=pointer]:
+        - img "苹果！" [ref=e1999]
+        - generic "品质 3" [ref=e2000]: "3"
+      - generic "被动道具 · 铅笔" [ref=e2001] [cursor=pointer]:
+        - img "铅笔" [ref=e2002]
+        - generic "品质 3" [ref=e2003]: "3"
+      - generic "被动道具 · 狗牙" [ref=e2004] [cursor=pointer]:
+        - img "狗牙" [ref=e2005]
+        - generic "品质 2" [ref=e2006]: "2"
+      - generic "被动道具 · 烂牙" [ref=e2007] [cursor=pointer]:
+        - img "烂牙" [ref=e2008]
+        - generic "品质 1" [ref=e2009]: "1"
+      - generic "被动道具 · 流连豆" [ref=e2010] [cursor=pointer]:
+        - img "流连豆" [ref=e2011]
+        - generic "品质 0" [ref=e2012]: "0"
+      - generic "被动道具 · 玻璃碎片" [ref=e2013] [cursor=pointer]:
+        - img "玻璃碎片" [ref=e2014]
+        - generic "品质 1" [ref=e2015]: "1"
+      - generic "被动道具 · 金属板" [ref=e2016] [cursor=pointer]:
+        - img "金属板" [ref=e2017]
+        - generic "品质 1" [ref=e2018]: "1"
+      - generic "被动道具 · 贪婪的眼睛" [ref=e2019] [cursor=pointer]:
+        - img "贪婪的眼睛" [ref=e2020]
+        - generic "品质 2" [ref=e2021]: "2"
+      - generic "被动道具 · 塔罗牌桌布" [ref=e2022] [cursor=pointer]:
+        - img "塔罗牌桌布" [ref=e2023]
+        - generic "品质 2" [ref=e2024]: "2"
+      - generic "被动道具 · 静脉曲张" [ref=e2025] [cursor=pointer]:
+        - img "静脉曲张" [ref=e2026]
+        - generic "品质 0" [ref=e2027]: "0"
+      - generic "被动道具 · 复杂性骨折" [ref=e2028] [cursor=pointer]:
+        - img "复杂性骨折" [ref=e2029]
+        - generic "品质 3" [ref=e2030]: "3"
+      - generic "被动道具 · 多指畸形" [ref=e2031] [cursor=pointer]:
+        - img "多指畸形" [ref=e2032]
+        - generic "品质 2" [ref=e2033]: "2"
+      - generic "被动道具 · 爸爸丢失的硬币" [ref=e2034] [cursor=pointer]:
+        - img "爸爸丢失的硬币" [ref=e2035]
+        - generic "品质 1" [ref=e2036]: "1"
+      - generic "被动道具 · 夜宵" [ref=e2037] [cursor=pointer]:
+        - img "夜宵" [ref=e2038]
+        - generic "品质 1" [ref=e2039]: "1"
+      - generic "被动道具 · 蛋头" [ref=e2040] [cursor=pointer]:
+        - img "蛋头" [ref=e2041]
+        - generic "品质 2" [ref=e2042]: "2"
+      - generic "被动道具 · 肚脐" [ref=e2043] [cursor=pointer]:
+        - img "肚脐" [ref=e2044]
+        - generic "品质 2" [ref=e2045]: "2"
+      - generic "被动道具 · 鼻窦炎" [ref=e2046] [cursor=pointer]:
+        - img "鼻窦炎" [ref=e2047]
+        - generic "品质 3" [ref=e2048]: "3"
+      - generic "被动道具 · 青光眼" [ref=e2049] [cursor=pointer]:
+        - img "青光眼" [ref=e2050]
+        - generic "品质 1" [ref=e2051]: "1"
+      - generic "被动道具 · 拟寄生物" [ref=e2052] [cursor=pointer]:
+        - img "拟寄生物" [ref=e2053]
+        - generic "品质 3" [ref=e2054]: "3"
+      - generic "被动道具 · 彼列之眼" [ref=e2055] [cursor=pointer]:
+        - img "彼列之眼" [ref=e2056]
+        - generic "品质 3" [ref=e2057]: "3"
+      - generic "被动道具 · 硫酸" [ref=e2058] [cursor=pointer]:
+        - img "硫酸" [ref=e2059]
+        - generic "品质 2" [ref=e2060]: "2"
+      - generic "被动道具 · 平衡符号" [ref=e2061] [cursor=pointer]:
+        - img "平衡符号" [ref=e2062]
+        - generic "品质 2" [ref=e2063]: "2"
+      - generic "被动道具 · 模拟摇杆" [ref=e2064] [cursor=pointer]:
+        - img "模拟摇杆" [ref=e2065]
+        - generic "品质 2" [ref=e2066]: "2"
+      - generic "被动道具 · 传染病" [ref=e2067] [cursor=pointer]:
+        - img "传染病" [ref=e2068]
+        - generic "品质 2" [ref=e2069]: "2"
+      - generic "被动道具 · 手指！" [ref=e2070] [cursor=pointer]:
+        - img "手指！" [ref=e2071]
+        - generic "品质 1" [ref=e2072]: "1"
+      - generic "被动道具 · 阴影" [ref=e2073] [cursor=pointer]:
+        - img "阴影" [ref=e2074]
+        - generic "品质 0" [ref=e2075]: "0"
+      - generic "被动道具 · 抑郁症" [ref=e2076] [cursor=pointer]:
+        - img "抑郁症" [ref=e2077]
+        - generic "品质 1" [ref=e2078]: "1"
+      - generic "被动道具 · 死寂宝宝" [ref=e2079] [cursor=pointer]:
+        - img "死寂宝宝" [ref=e2080]
+        - generic "品质 0" [ref=e2081]: "0"
+      - generic "被动道具 · 萌死戳宝宝" [ref=e2082] [cursor=pointer]:
+        - img "萌死戳宝宝" [ref=e2083]
+        - generic "品质 2" [ref=e2084]: "2"
+      - generic "被动道具 · 国王宝宝" [ref=e2085] [cursor=pointer]:
+        - img "国王宝宝" [ref=e2086]
+        - generic "品质 1" [ref=e2087]: "1"
+      - generic "被动道具 · 大胖蛆" [ref=e2088] [cursor=pointer]:
+        - img "大胖蛆" [ref=e2089]
+        - generic "品质 1" [ref=e2090]: "1"
+      - generic "主动道具 · 损坏的玻璃大炮 · 充能 4 房间（非自动，清房间充能）" [ref=e2091] [cursor=pointer]:
+        - img "损坏的玻璃大炮" [ref=e2092]
+        - generic "品质 0" [ref=e2093]: "0"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2094]: "4"
+      - generic "主动道具 · 计划C · 一次性使用（使用后消失）" [ref=e2095] [cursor=pointer]:
+        - img "计划C" [ref=e2096]
+        - generic "品质 0" [ref=e2097]: "0"
+        - generic "一次性使用（使用后消失）" [ref=e2098]: "1"
+      - generic "主动道具 · 一面骰 · 充能 4 房间（非自动，清房间充能）" [ref=e2099] [cursor=pointer]:
+        - img "一面骰" [ref=e2100]
+        - generic "品质 2" [ref=e2101]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2102]: "4"
+      - generic "主动道具 · 虚空 · 充能 4 房间（非自动，清房间充能）" [ref=e2103] [cursor=pointer]:
+        - img "虚空" [ref=e2104]
+        - generic "品质 3" [ref=e2105]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2106]: "4"
+      - generic "主动道具 · 暂停 · 充能 2 房间（非自动，清房间充能）" [ref=e2107] [cursor=pointer]:
+        - img "暂停" [ref=e2108]
+        - generic "品质 0" [ref=e2109]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2110]: "2"
+      - generic "主动道具 · 熔炉 · 充能 6 房间（非自动，清房间充能）" [ref=e2111] [cursor=pointer]:
+        - img "熔炉" [ref=e2112]
+        - generic "品质 2" [ref=e2113]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2114]: "6"
+      - generic "主动道具 · 堆肥 · 充能 2 房间（非自动，清房间充能）" [ref=e2115] [cursor=pointer]:
+        - img "堆肥" [ref=e2116]
+        - generic "品质 0" [ref=e2117]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2118]: "2"
+      - generic "主动道具 · 数据破解 · 充能 4 房间（非自动，清房间充能）" [ref=e2119] [cursor=pointer]:
+        - img "数据破解" [ref=e2120]
+        - generic "品质 0" [ref=e2121]: "0"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2122]: "4"
+      - generic "主动道具 · 遥控器 · 充能 6 房间（非自动，清房间充能）" [ref=e2123] [cursor=pointer]:
+        - img "遥控器" [ref=e2124]
+        - generic "品质 0" [ref=e2125]: "0"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2126]: "6"
+      - generic "主动道具 · 妈咪炸弹！ · 一次性使用（使用后消失）" [ref=e2127] [cursor=pointer]:
+        - img "妈咪炸弹！" [ref=e2128]
+        - generic "品质 3" [ref=e2129]: "3"
+        - generic "一次性使用（使用后消失）" [ref=e2130]: "1"
+      - generic "主动道具 · 等等，啥？ · 自动充能 10 秒（随时间恢复）" [ref=e2131] [cursor=pointer]:
+        - img "等等，啥？" [ref=e2132]
+        - generic "品质 1" [ref=e2133]: "1"
+        - generic "自动充能 10 秒（随时间恢复）" [ref=e2134]: 10s
+      - generic "主动道具 · 被掰弯的硬币 · 充能 4 房间（非自动，清房间充能）" [ref=e2135] [cursor=pointer]:
+        - img "被掰弯的硬币" [ref=e2136]
+        - generic "品质 2" [ref=e2137]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2138]: "4"
+      - generic "主动道具 · 钝剃刀片 · 充能 2 房间（非自动，清房间充能）" [ref=e2139] [cursor=pointer]:
+        - img "钝剃刀片" [ref=e2140]
+        - generic "品质 0" [ref=e2141]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2142]: "2"
+      - generic "主动道具 · 土豆削皮刀 · 无限使用（无充能条）" [ref=e2143] [cursor=pointer]:
+        - img "土豆削皮刀" [ref=e2144]
+        - generic "品质 2" [ref=e2145]: "2"
+        - generic "无限使用（无充能条）" [ref=e2146]: ∞
+      - generic "主动道具 · 节拍器 · 充能 2 房间（非自动，清房间充能）" [ref=e2147] [cursor=pointer]:
+        - img "节拍器" [ref=e2148]
+        - generic "品质 1" [ref=e2149]: "1"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2150]: "2"
+      - generic "主动道具 · 无限面骰 · 充能 2 房间（非自动，清房间充能）" [ref=e2151] [cursor=pointer]:
+        - img "无限面骰" [ref=e2152]
+        - generic "品质 4" [ref=e2153]: "4"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2154]: "2"
+      - generic "主动道具 · 伊甸的灵魂 · 充能 12 房间（非自动，清房间充能）" [ref=e2155] [cursor=pointer]:
+        - img "伊甸的灵魂" [ref=e2156]
+        - generic "品质 2" [ref=e2157]: "2"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2158]: "12"
+      - generic "被动道具 · 毒瘾宝宝" [ref=e2159] [cursor=pointer]:
+        - img "毒瘾宝宝" [ref=e2160]
+        - generic "品质 2" [ref=e2161]: "2"
+      - generic "被动道具 · 嘿，听好！" [ref=e2162] [cursor=pointer]:
+        - img "嘿，听好！" [ref=e2163]
+        - generic "品质 2" [ref=e2164]: "2"
+      - generic "被动道具 · 肾上腺素" [ref=e2165] [cursor=pointer]:
+        - img "肾上腺素" [ref=e2166]
+        - generic "品质 1" [ref=e2167]: "1"
+      - generic "被动道具 · 雅各布天梯" [ref=e2168] [cursor=pointer]:
+        - img "雅各布天梯" [ref=e2169]
+        - generic "品质 3" [ref=e2170]: "3"
+      - generic "被动道具 · 断魂椒" [ref=e2171] [cursor=pointer]:
+        - img "断魂椒" [ref=e2172]
+        - generic "品质 3" [ref=e2173]: "3"
+      - generic "被动道具 · 安乐死" [ref=e2174] [cursor=pointer]:
+        - img "安乐死" [ref=e2175]
+        - generic "品质 3" [ref=e2176]: "3"
+      - generic "被动道具 · 迷彩内裤" [ref=e2177] [cursor=pointer]:
+        - img "迷彩内裤" [ref=e2178]
+        - generic "品质 3" [ref=e2179]: "3"
+      - generic "被动道具 · 二元性" [ref=e2180] [cursor=pointer]:
+        - img "二元性" [ref=e2181]
+        - generic "品质 1" [ref=e2182]: "1"
+      - generic "被动道具 · 圣餐" [ref=e2183] [cursor=pointer]:
+        - img "圣餐" [ref=e2184]
+        - generic "品质 3" [ref=e2185]: "3"
+      - generic "被动道具 · 袋中袋" [ref=e2186] [cursor=pointer]:
+        - img "袋中袋" [ref=e2187]
+        - generic "品质 2" [ref=e2188]: "2"
+      - generic "被动道具 · 贪婪的胃袋" [ref=e2189] [cursor=pointer]:
+        - img "贪婪的胃袋" [ref=e2190]
+        - generic "品质 1" [ref=e2191]: "1"
+      - generic "被动道具 · 大青春痘" [ref=e2192] [cursor=pointer]:
+        - img "大青春痘" [ref=e2193]
+        - generic "品质 1" [ref=e2194]: "1"
+      - generic "被动道具 · 小魔角" [ref=e2195] [cursor=pointer]:
+        - img "小魔角" [ref=e2196]
+        - generic "品质 3" [ref=e2197]: "3"
+      - generic "主动道具 · 棕色粪块 · 自动充能 8 秒（随时间恢复）" [ref=e2198] [cursor=pointer]:
+        - img "棕色粪块" [ref=e2199]
+        - generic "品质 0" [ref=e2200]: "0"
+        - generic "自动充能 8 秒（随时间恢复）" [ref=e2201]: 8s
+      - generic "被动道具 · 宝可GO" [ref=e2202] [cursor=pointer]:
+        - img "宝可GO" [ref=e2203]
+        - generic "品质 2" [ref=e2204]: "2"
+      - generic "被动道具 · 背刺" [ref=e2205] [cursor=pointer]:
+        - img "背刺" [ref=e2206]
+        - generic "品质 3" [ref=e2207]: "3"
+      - generic "主动道具 · 尖头吸管 · 自动充能 10 秒（随时间恢复）" [ref=e2208] [cursor=pointer]:
+        - img "尖头吸管" [ref=e2209]
+        - generic "品质 2" [ref=e2210]: "2"
+        - generic "自动充能 10 秒（随时间恢复）" [ref=e2211]: 10s
+      - generic "被动道具 · 妈妈的剃刀" [ref=e2212] [cursor=pointer]:
+        - img "妈妈的剃刀" [ref=e2213]
+        - generic "品质 1" [ref=e2214]: "1"
+      - generic "被动道具 · 血丝眼" [ref=e2215] [cursor=pointer]:
+        - img "血丝眼" [ref=e2216]
+        - generic "品质 1" [ref=e2217]: "1"
+      - generic "主动道具 · 精神错乱 · 充能 12 房间（非自动，清房间充能）" [ref=e2218] [cursor=pointer]:
+        - img "精神错乱" [ref=e2219]
+        - generic "品质 1" [ref=e2220]: "1"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2221]: "12"
+      - generic "被动道具 · 愤怒苍蝇" [ref=e2222] [cursor=pointer]:
+        - img "愤怒苍蝇" [ref=e2223]
+        - generic "品质 1" [ref=e2224]: "1"
+      - generic "主动道具 · 黑洞 · 充能 4 房间（非自动，清房间充能）" [ref=e2225] [cursor=pointer]:
+        - img "黑洞" [ref=e2226]
+        - generic "品质 1" [ref=e2227]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2228]: "4"
+      - generic "被动道具 · 派对帽" [ref=e2229] [cursor=pointer]:
+        - img "派对帽" [ref=e2230]
+        - generic "品质 2" [ref=e2231]: "2"
+      - generic "被动道具 · 损坏的调制解调器" [ref=e2232] [cursor=pointer]:
+        - img "损坏的调制解调器" [ref=e2233]
+        - generic "品质 3" [ref=e2234]: "3"
+      - generic "主动道具 · 神秘礼物 · 一次性使用（使用后消失）" [ref=e2235] [cursor=pointer]:
+        - img "神秘礼物" [ref=e2236]
+        - generic "品质 3" [ref=e2237]: "3"
+        - generic "一次性使用（使用后消失）" [ref=e2238]: "1"
+      - generic "主动道具 · 洒水器 · 充能 4 房间（非自动，清房间充能）" [ref=e2239] [cursor=pointer]:
+        - img "洒水器" [ref=e2240]
+        - generic "品质 1" [ref=e2241]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2242]: "4"
+      - generic "被动道具 · 快速炸弹" [ref=e2243] [cursor=pointer]:
+        - img "快速炸弹" [ref=e2244]
+        - generic "品质 1" [ref=e2245]: "1"
+      - generic "被动道具 · 伙伴盲盒" [ref=e2246] [cursor=pointer]:
+        - img "伙伴盲盒" [ref=e2247]
+        - generic "品质 2" [ref=e2248]: "2"
+      - generic "被动道具 · 精神错乱宝宝" [ref=e2249] [cursor=pointer]:
+        - img "精神错乱宝宝" [ref=e2250]
+        - generic "品质 1" [ref=e2251]: "1"
+      - generic "被动道具 · 跨接电缆" [ref=e2252] [cursor=pointer]:
+        - img "跨接电缆" [ref=e2253]
+        - generic "品质 2" [ref=e2254]: "2"
+      - generic "主动道具 · 代金券 · 充能 6 房间（非自动，清房间充能）" [ref=e2255] [cursor=pointer]:
+        - img "代金券" [ref=e2256]
+        - generic "品质 2" [ref=e2257]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2258]: "6"
+      - generic "主动道具 · 念力 · 自动充能 3 秒（随时间恢复）" [ref=e2259] [cursor=pointer]:
+        - img "念力" [ref=e2260]
+        - generic "品质 1" [ref=e2261]: "1"
+        - generic "自动充能 3 秒（随时间恢复）" [ref=e2262]: 3s
+      - generic "主动道具 · 搬家盒 · 充能 4 房间（非自动，清房间充能）" [ref=e2263] [cursor=pointer]:
+        - img "搬家盒" [ref=e2264]
+        - generic "品质 1" [ref=e2265]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2266]: "4"
+      - generic "被动道具 · 科技零" [ref=e2267] [cursor=pointer]:
+        - img "科技零" [ref=e2268]
+        - generic "品质 3" [ref=e2269]: "3"
+      - generic "被动道具 · 麻风病" [ref=e2270] [cursor=pointer]:
+        - img "麻风病" [ref=e2271]
+        - generic "品质 0" [ref=e2272]: "0"
+      - generic "被动道具 · 七印" [ref=e2273] [cursor=pointer]:
+        - img "七印" [ref=e2274]
+        - generic "品质 2" [ref=e2275]: "2"
+      - generic "主动道具 · 自我先生！ · 充能 4 房间（非自动，清房间充能）" [ref=e2276] [cursor=pointer]:
+        - img "自我先生！" [ref=e2277]
+        - generic "品质 3" [ref=e2278]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2279]: "4"
+      - generic "被动道具 · 天使棱镜" [ref=e2280] [cursor=pointer]:
+        - img "天使棱镜" [ref=e2281]
+        - generic "品质 3" [ref=e2282]: "3"
+      - generic "被动道具 · 噗！" [ref=e2283] [cursor=pointer]:
+        - img "噗！" [ref=e2284]
+        - generic "品质 1" [ref=e2285]: "1"
+      - generic "被动道具 · 死神名册" [ref=e2286] [cursor=pointer]:
+        - img "死神名册" [ref=e2287]
+        - generic "品质 1" [ref=e2288]: "1"
+      - generic "被动道具 · 泪血症" [ref=e2289] [cursor=pointer]:
+        - img "泪血症" [ref=e2290]
+        - generic "品质 4" [ref=e2291]: "4"
+      - generic "被动道具 · 食泪症" [ref=e2292] [cursor=pointer]:
+        - img "食泪症" [ref=e2293]
+        - generic "品质 3" [ref=e2294]: "3"
+      - generic "被动道具 · 三圣颂" [ref=e2295] [cursor=pointer]:
+        - img "三圣颂" [ref=e2296]
+        - generic "品质 3" [ref=e2297]: "3"
+      - generic "被动道具 · 书包" [ref=e2298] [cursor=pointer]:
+        - img "书包" [ref=e2299]
+        - generic "品质 3" [ref=e2300]: "3"
+      - generic "被动道具 · 毛毯" [ref=e2301] [cursor=pointer]:
+        - img "毛毯" [ref=e2302]
+        - generic "品质 2" [ref=e2303]: "2"
+      - generic "主动道具 · 祭坛 · 一次性使用（使用后消失）" [ref=e2304] [cursor=pointer]:
+        - img "祭坛" [ref=e2305]
+        - generic "品质 1" [ref=e2306]: "1"
+        - generic "一次性使用（使用后消失）" [ref=e2307]: "1"
+      - generic "被动道具 · 呕吐虫宝宝" [ref=e2308] [cursor=pointer]:
+        - img "呕吐虫宝宝" [ref=e2309]
+        - generic "品质 1" [ref=e2310]: "1"
+      - generic "被动道具 · 弹珠袋" [ref=e2311] [cursor=pointer]:
+        - img "弹珠袋" [ref=e2312]
+        - generic "品质 2" [ref=e2313]: "2"
+      - generic "被动道具 · 神秘的卵" [ref=e2314] [cursor=pointer]:
+        - img "神秘的卵" [ref=e2315]
+        - generic "品质 0" [ref=e2316]: "0"
+      - generic "被动道具 · 扁石" [ref=e2317] [cursor=pointer]:
+        - img "扁石" [ref=e2318]
+        - generic "品质 2" [ref=e2319]: "2"
+      - generic "被动道具 · 骨髓" [ref=e2320] [cursor=pointer]:
+        - img "骨髓" [ref=e2321]
+        - generic "品质 1" [ref=e2322]: "1"
+      - generic "被动道具 · 滑肋骨" [ref=e2323] [cursor=pointer]:
+        - img "滑肋骨" [ref=e2324]
+        - generic "品质 1" [ref=e2325]: "1"
+      - generic "被动道具 · 圣地大便" [ref=e2326] [cursor=pointer]:
+        - img "圣地大便" [ref=e2327]
+        - generic "品质 1" [ref=e2328]: "1"
+      - generic "被动道具 · 尖肋骨" [ref=e2329] [cursor=pointer]:
+        - img "尖肋骨" [ref=e2330]
+        - generic "品质 1" [ref=e2331]: "1"
+      - generic "主动道具 · 亡者之书 · 充能 4 房间（非自动，清房间充能）" [ref=e2332] [cursor=pointer]:
+        - img "亡者之书" [ref=e2333]
+        - generic "品质 2" [ref=e2334]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2335]: "4"
+      - generic "被动道具 · 爸爸的戒指" [ref=e2336] [cursor=pointer]:
+        - img "爸爸的戒指" [ref=e2337]
+        - generic "品质 2" [ref=e2338]: "2"
+      - generic "被动道具 · 离婚协议书" [ref=e2339] [cursor=pointer]:
+        - img "离婚协议书" [ref=e2340]
+        - generic "品质 3" [ref=e2341]: "3"
+      - generic "被动道具 · 颌骨" [ref=e2342] [cursor=pointer]:
+        - img "颌骨" [ref=e2343]
+        - generic "品质 1" [ref=e2344]: "1"
+      - generic "被动道具 · 脆骨症" [ref=e2345] [cursor=pointer]:
+        - img "脆骨症" [ref=e2346]
+        - generic "品质 3" [ref=e2347]: "3"
+      - generic "主动道具 · 铲子碎片 · 充能 4 房间（非自动，清房间充能）" [ref=e2348] [cursor=pointer]:
+        - generic "铲子碎片" [ref=e2349]: "?"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2350]: "4"
+      - generic "被动道具 · 铲子碎片" [ref=e2351] [cursor=pointer]:
+        - generic "铲子碎片" [ref=e2352]: "?"
+      - generic "主动道具 · 妈妈的铲子 · 充能 4 房间（非自动，清房间充能）" [ref=e2353] [cursor=pointer]:
+        - img "妈妈的铲子" [ref=e2354]
+        - generic "品质 4" [ref=e2355]: "4"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2356]: "4"
+      - generic "被动道具 · 毛霉菌病" [ref=e2357] [cursor=pointer]:
+        - img "毛霉菌病" [ref=e2358]
+        - generic "品质 3" [ref=e2359]: "3"
+      - generic "被动道具 · 恐怖如斯" [ref=e2360] [cursor=pointer]:
+        - img "恐怖如斯" [ref=e2361]
+        - generic "品质 1" [ref=e2362]: "1"
+      - generic "主动道具 · 金剃刀片 · 无限使用（无充能条）" [ref=e2363] [cursor=pointer]:
+        - img "金剃刀片" [ref=e2364]
+        - generic "品质 0" [ref=e2365]: "0"
+        - generic "无限使用（无充能条）" [ref=e2366]: ∞
+      - generic "主动道具 · 炼金硫磺 · 充能 3 房间（非自动，清房间充能）" [ref=e2367] [cursor=pointer]:
+        - img "炼金硫磺" [ref=e2368]
+        - generic "品质 2" [ref=e2369]: "2"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e2370]: "3"
+      - generic "主动道具 · 幸运饼干 · 充能 2 房间（非自动，清房间充能）" [ref=e2371] [cursor=pointer]:
+        - img "幸运饼干" [ref=e2372]
+        - generic "品质 2" [ref=e2373]: "2"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2374]: "2"
+      - generic "被动道具 · 眼瘤" [ref=e2375] [cursor=pointer]:
+        - img "眼瘤" [ref=e2376]
+        - generic "品质 1" [ref=e2377]: "1"
+      - generic "被动道具 · 220伏" [ref=e2378] [cursor=pointer]:
+        - img "220伏" [ref=e2379]
+        - generic "品质 2" [ref=e2380]: "2"
+      - generic "被动道具 · 好疼" [ref=e2381] [cursor=pointer]:
+        - img "好疼" [ref=e2382]
+        - generic "品质 1" [ref=e2383]: "1"
+      - generic "被动道具 · 杏仁奶" [ref=e2384] [cursor=pointer]:
+        - img "杏仁奶" [ref=e2385]
+        - generic "品质 1" [ref=e2386]: "1"
+      - generic "被动道具 · 谷底石" [ref=e2387] [cursor=pointer]:
+        - img "谷底石" [ref=e2388]
+        - generic "品质 4" [ref=e2389]: "4"
+      - generic "被动道具 · 魅彩炸弹" [ref=e2390] [cursor=pointer]:
+        - img "魅彩炸弹" [ref=e2391]
+        - generic "品质 1" [ref=e2392]: "1"
+      - generic "被动道具 · 肥皂" [ref=e2393] [cursor=pointer]:
+        - img "肥皂" [ref=e2394]
+        - generic "品质 2" [ref=e2395]: "2"
+      - generic "被动道具 · 嗜血小宠" [ref=e2396] [cursor=pointer]:
+        - img "嗜血小宠" [ref=e2397]
+        - generic "品质 1" [ref=e2398]: "1"
+      - generic "被动道具 · 捕梦网" [ref=e2399] [cursor=pointer]:
+        - img "捕梦网" [ref=e2400]
+        - generic "品质 2" [ref=e2401]: "2"
+      - generic "被动道具 · 逾越节蜡烛" [ref=e2402] [cursor=pointer]:
+        - img "逾越节蜡烛" [ref=e2403]
+        - generic "品质 3" [ref=e2404]: "3"
+      - generic "被动道具 · 神圣干预" [ref=e2405] [cursor=pointer]:
+        - img "神圣干预" [ref=e2406]
+        - generic "品质 1" [ref=e2407]: "1"
+      - generic "被动道具 · 血誓" [ref=e2408] [cursor=pointer]:
+        - img "血誓" [ref=e2409]
+        - generic "品质 1" [ref=e2410]: "1"
+      - generic "被动道具 · 黏土饼干" [ref=e2411] [cursor=pointer]:
+        - img "黏土饼干" [ref=e2412]
+        - generic "品质 2" [ref=e2413]: "2"
+      - generic "被动道具 · 孤儿的袜子" [ref=e2414] [cursor=pointer]:
+        - img "孤儿的袜子" [ref=e2415]
+        - generic "品质 2" [ref=e2416]: "2"
+      - generic "被动道具 · 玄秘魔眼" [ref=e2417] [cursor=pointer]:
+        - img "玄秘魔眼" [ref=e2418]
+        - generic "品质 3" [ref=e2419]: "3"
+      - generic "被动道具 · 无瑕圣心" [ref=e2420] [cursor=pointer]:
+        - img "无瑕圣心" [ref=e2421]
+        - generic "品质 3" [ref=e2422]: "3"
+      - generic "被动道具 · 圣体匣" [ref=e2423] [cursor=pointer]:
+        - img "圣体匣" [ref=e2424]
+        - generic "品质 1" [ref=e2425]: "1"
+      - generic "被动道具 · 侵体蜘蛛" [ref=e2426] [cursor=pointer]:
+        - img "侵体蜘蛛" [ref=e2427]
+        - generic "品质 2" [ref=e2428]: "2"
+      - generic "被动道具 · 龌龊之心" [ref=e2429] [cursor=pointer]:
+        - img "龌龊之心" [ref=e2430]
+        - generic "品质 1" [ref=e2431]: "1"
+      - generic "主动道具 · 达摩克里斯之剑 · 一次性使用（使用后消失）" [ref=e2432] [cursor=pointer]:
+        - img "达摩克里斯之剑" [ref=e2433]
+        - generic "品质 3" [ref=e2434]: "3"
+        - generic "一次性使用（使用后消失）" [ref=e2435]: "1"
+      - generic "主动道具 · 免费柠檬水 · 充能 4 房间（非自动，清房间充能）" [ref=e2436] [cursor=pointer]:
+        - img "免费柠檬水" [ref=e2437]
+        - generic "品质 0" [ref=e2438]: "0"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2439]: "4"
+      - generic "被动道具 · 英灵剑" [ref=e2440] [cursor=pointer]:
+        - img "英灵剑" [ref=e2441]
+        - generic "品质 3" [ref=e2442]: "3"
+      - generic "主动道具 · 红钥匙 · 充能 4 房间（非自动，清房间充能）" [ref=e2443] [cursor=pointer]:
+        - img "红钥匙" [ref=e2444]
+        - generic "品质 3" [ref=e2445]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2446]: "4"
+      - generic "被动道具 · 灵能苍蝇" [ref=e2447] [cursor=pointer]:
+        - img "灵能苍蝇" [ref=e2448]
+        - generic "品质 4" [ref=e2449]: "4"
+      - generic "主动道具 · 迷幻蘑菇 · 自动充能 0.5 秒（随时间恢复）" [ref=e2450] [cursor=pointer]:
+        - img "迷幻蘑菇" [ref=e2451]
+        - generic "品质 0" [ref=e2452]: "0"
+        - generic "自动充能 0.5 秒（随时间恢复）" [ref=e2453]: 0.5s
+      - generic "被动道具 · 罐中火箭" [ref=e2454] [cursor=pointer]:
+        - img "罐中火箭" [ref=e2455]
+        - generic "品质 1" [ref=e2456]: "1"
+      - generic "主动道具 · 美德之书 · 充能 4 房间（非自动，清房间充能）" [ref=e2457] [cursor=pointer]:
+        - img "美德之书" [ref=e2458]
+        - generic "品质 3" [ref=e2459]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2460]: "4"
+      - generic "主动道具 · 白玉香膏盒 · 充能 12 房间（非自动，清房间充能）" [ref=e2461] [cursor=pointer]:
+        - img "白玉香膏盒" [ref=e2462]
+        - generic "品质 1" [ref=e2463]: "1"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2464]: "12"
+      - generic "被动道具 · 天堂阶梯" [ref=e2465] [cursor=pointer]:
+        - img "天堂阶梯" [ref=e2466]
+        - generic "品质 3" [ref=e2467]: "3"
+      - generic "被动道具 · 太阳" [ref=e2468] [cursor=pointer]:
+        - img "太阳" [ref=e2469]
+        - generic "品质 2" [ref=e2470]: "2"
+      - generic "被动道具 · 月亮" [ref=e2471] [cursor=pointer]:
+        - img "月亮" [ref=e2472]
+        - generic "品质 3" [ref=e2473]: "3"
+      - generic "被动道具 · 水星" [ref=e2474] [cursor=pointer]:
+        - img "水星" [ref=e2475]
+        - generic "品质 2" [ref=e2476]: "2"
+      - generic "被动道具 · 金星" [ref=e2477] [cursor=pointer]:
+        - img "金星" [ref=e2478]
+        - generic "品质 2" [ref=e2479]: "2"
+      - generic "被动道具 · 地球" [ref=e2480] [cursor=pointer]:
+        - img "地球" [ref=e2481]
+        - generic "品质 3" [ref=e2482]: "3"
+      - generic "被动道具 · 火星" [ref=e2483] [cursor=pointer]:
+        - img "火星" [ref=e2484]
+        - generic "品质 0" [ref=e2485]: "0"
+      - generic "被动道具 · 木星" [ref=e2486] [cursor=pointer]:
+        - img "木星" [ref=e2487]
+        - generic "品质 2" [ref=e2488]: "2"
+      - generic "被动道具 · 土星" [ref=e2489] [cursor=pointer]:
+        - img "土星" [ref=e2490]
+        - generic "品质 2" [ref=e2491]: "2"
+      - generic "被动道具 · 天王星" [ref=e2492] [cursor=pointer]:
+        - img "天王星" [ref=e2493]
+        - generic "品质 3" [ref=e2494]: "3"
+      - generic "被动道具 · 海王星" [ref=e2495] [cursor=pointer]:
+        - img "海王星" [ref=e2496]
+        - generic "品质 3" [ref=e2497]: "3"
+      - generic "被动道具 · 冥王星" [ref=e2498] [cursor=pointer]:
+        - img "冥王星" [ref=e2499]
+        - generic "品质 3" [ref=e2500]: "3"
+      - generic "被动道具 · 巫毒娃娃头" [ref=e2501] [cursor=pointer]:
+        - img "巫毒娃娃头" [ref=e2502]
+        - generic "品质 2" [ref=e2503]: "2"
+      - generic "被动道具 · 眼药水" [ref=e2504] [cursor=pointer]:
+        - img "眼药水" [ref=e2505]
+        - generic "品质 3" [ref=e2506]: "3"
+      - generic "被动道具 · 痛悔短祷" [ref=e2507] [cursor=pointer]:
+        - img "痛悔短祷" [ref=e2508]
+        - generic "品质 3" [ref=e2509]: "3"
+      - generic "被动道具 · 会员卡" [ref=e2510] [cursor=pointer]:
+        - img "会员卡" [ref=e2511]
+        - generic "品质 2" [ref=e2512]: "2"
+      - generic "被动道具 · 电池组" [ref=e2513] [cursor=pointer]:
+        - img "电池组" [ref=e2514]
+        - generic "品质 0" [ref=e2515]: "0"
+      - generic "主动道具 · 妈妈的手镯 · 自动充能 1 秒（随时间恢复）" [ref=e2516] [cursor=pointer]:
+        - img "妈妈的手镯" [ref=e2517]
+        - generic "品质 1" [ref=e2518]: "1"
+        - generic "自动充能 1 秒（随时间恢复）" [ref=e2519]: 1s
+      - generic "主动道具 · 挖眼勺 · 充能 3 房间（非自动，清房间充能）" [ref=e2520] [cursor=pointer]:
+        - img "挖眼勺" [ref=e2521]
+        - generic "品质 0" [ref=e2522]: "0"
+        - generic "充能 3 房间（非自动，清房间充能）" [ref=e2523]: "3"
+      - generic "被动道具 · 邪眼裂口" [ref=e2524] [cursor=pointer]:
+        - img "邪眼裂口" [ref=e2525]
+        - generic "品质 2" [ref=e2526]: "2"
+      - generic "被动道具 · 脓液囊宝宝" [ref=e2527] [cursor=pointer]:
+        - img "脓液囊宝宝" [ref=e2528]
+        - generic "品质 1" [ref=e2529]: "1"
+      - generic "被动道具 · 冰冻宝宝" [ref=e2530] [cursor=pointer]:
+        - img "冰冻宝宝" [ref=e2531]
+        - generic "品质 2" [ref=e2532]: "2"
+      - generic "主动道具 · 永恒六面骰 · 充能 2 房间（非自动，清房间充能）" [ref=e2533] [cursor=pointer]:
+        - img "永恒六面骰" [ref=e2534]
+        - generic "品质 3" [ref=e2535]: "3"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2536]: "2"
+      - generic "被动道具 · 鸟肥笼" [ref=e2537] [cursor=pointer]:
+        - img "鸟肥笼" [ref=e2538]
+        - generic "品质 0" [ref=e2539]: "0"
+      - generic "主动道具 · 声带 · 充能 12 房间（非自动，清房间充能）" [ref=e2540] [cursor=pointer]:
+        - img "声带" [ref=e2541]
+        - generic "品质 2" [ref=e2542]: "2"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2543]: "12"
+      - generic "被动道具 · 迷失游魂" [ref=e2544] [cursor=pointer]:
+        - img "迷失游魂" [ref=e2545]
+        - generic "品质 1" [ref=e2546]: "1"
+      - generic "被动道具 · 鲜血炸弹" [ref=e2547] [cursor=pointer]:
+        - img "鲜血炸弹" [ref=e2548]
+        - generic "品质 2" [ref=e2549]: "2"
+      - generic "被动道具 · 屁球宝宝" [ref=e2550] [cursor=pointer]:
+        - img "屁球宝宝" [ref=e2551]
+        - generic "品质 3" [ref=e2552]: "3"
+      - generic "被动道具 · 鸟眼椒" [ref=e2553] [cursor=pointer]:
+        - img "鸟眼椒" [ref=e2554]
+        - generic "品质 3" [ref=e2555]: "3"
+      - generic "被动道具 · 磁石" [ref=e2556] [cursor=pointer]:
+        - img "磁石" [ref=e2557]
+        - generic "品质 2" [ref=e2558]: "2"
+      - generic "被动道具 · 烂番茄" [ref=e2559] [cursor=pointer]:
+        - img "烂番茄" [ref=e2560]
+        - generic "品质 2" [ref=e2561]: "2"
+      - generic "被动道具 · 长子名分" [ref=e2562] [cursor=pointer]:
+        - img "长子名分" [ref=e2563]
+        - generic "品质 3" [ref=e2564]: "3"
+      - generic "被动道具 · 红豆汤" [ref=e2565] [cursor=pointer]:
+        - img "红豆汤" [ref=e2566]
+        - generic "品质 2" [ref=e2567]: "2"
+      - generic "主动道具 · 创世记 · 一次性使用（使用后消失）" [ref=e2568] [cursor=pointer]:
+        - img "创世记" [ref=e2569]
+        - generic "品质 2" [ref=e2570]: "2"
+        - generic "一次性使用（使用后消失）" [ref=e2571]: "1"
+      - generic "主动道具 · 尖头钥匙 · 无限使用（无充能条）" [ref=e2572] [cursor=pointer]:
+        - img "尖头钥匙" [ref=e2573]
+        - generic "品质 1" [ref=e2574]: "1"
+        - generic "无限使用（无充能条）" [ref=e2575]: ∞
+      - generic "被动道具 · 扩展包" [ref=e2576] [cursor=pointer]:
+        - img "扩展包" [ref=e2577]
+        - generic "品质 1" [ref=e2578]: "1"
+      - generic "主动道具 · 超级蘑菇 · 充能 12 房间（非自动，清房间充能）" [ref=e2579] [cursor=pointer]:
+        - img "超级蘑菇" [ref=e2580]
+        - generic "品质 4" [ref=e2581]: "4"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2582]: "12"
+      - generic "被动道具 · 菜刀碎片1" [ref=e2583] [cursor=pointer]:
+        - img "菜刀碎片1" [ref=e2584]
+        - generic "品质 0" [ref=e2585]: "0"
+      - generic "被动道具 · 菜刀碎片2" [ref=e2586] [cursor=pointer]:
+        - img "菜刀碎片2" [ref=e2587]
+        - generic "品质 0" [ref=e2588]: "0"
+      - generic "主动道具 · 死亡证明 · 一次性使用（使用后消失）" [ref=e2589] [cursor=pointer]:
+        - img "死亡证明" [ref=e2590]
+        - generic "品质 4" [ref=e2591]: "4"
+        - generic "一次性使用（使用后消失）" [ref=e2592]: "1"
+      - generic "被动道具 · 机器苍蝇" [ref=e2593] [cursor=pointer]:
+        - img "机器苍蝇" [ref=e2594]
+        - generic "品质 3" [ref=e2595]: "3"
+      - generic "主动道具 · 切肉刀 · 充能 2 房间（非自动，清房间充能）" [ref=e2596] [cursor=pointer]:
+        - img "切肉刀" [ref=e2597]
+        - generic "品质 0" [ref=e2598]: "0"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2599]: "2"
+      - generic "被动道具 · 邪眼护符" [ref=e2600] [cursor=pointer]:
+        - img "邪眼护符" [ref=e2601]
+        - generic "品质 1" [ref=e2602]: "1"
+      - generic "被动道具 · 教条" [ref=e2603] [cursor=pointer]:
+        - img "教条" [ref=e2604]
+        - generic "品质 3" [ref=e2605]: "3"
+      - generic "被动道具 · 炼狱恶鬼" [ref=e2606] [cursor=pointer]:
+        - img "炼狱恶鬼" [ref=e2607]
+        - generic "品质 1" [ref=e2608]: "1"
+      - generic "主动道具 · 织布魔偶 · 自动充能 3 秒（随时间恢复）" [ref=e2609] [cursor=pointer]:
+        - img "织布魔偶" [ref=e2610]
+        - generic "品质 1" [ref=e2611]: "1"
+        - generic "自动充能 3 秒（随时间恢复）" [ref=e2612]: 3s
+      - generic "主动道具 · R键 · 一次性使用（使用后消失）" [ref=e2613] [cursor=pointer]:
+        - img "R键" [ref=e2614]
+        - generic "品质 4" [ref=e2615]: "4"
+        - generic "一次性使用（使用后消失）" [ref=e2616]: "1"
+      - generic "被动道具 · 强力安眠药" [ref=e2617] [cursor=pointer]:
+        - img "强力安眠药" [ref=e2618]
+        - generic "品质 2" [ref=e2619]: "2"
+      - generic "主动道具 · 橡皮擦 · 每层 1 次（特殊）" [ref=e2620] [cursor=pointer]:
+        - img "橡皮擦" [ref=e2621]
+        - generic "品质 1" [ref=e2622]: "1"
+        - generic "每层 1 次（特殊）" [ref=e2623]: "1"
+      - generic "主动道具 · 难吃的心 · 充能 4 房间（非自动，清房间充能）" [ref=e2624] [cursor=pointer]:
+        - img "难吃的心" [ref=e2625]
+        - generic "品质 1" [ref=e2626]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2627]: "4"
+      - generic "主动道具 · 灵魂之瓮 · 无限使用（无充能条）" [ref=e2628] [cursor=pointer]:
+        - img "灵魂之瓮" [ref=e2629]
+        - generic "品质 3" [ref=e2630]: "3"
+        - generic "无限使用（无充能条）" [ref=e2631]: ∞
+      - generic "被动道具 · 血田" [ref=e2632] [cursor=pointer]:
+        - img "血田" [ref=e2633]
+        - generic "品质 1" [ref=e2634]: "1"
+      - generic "主动道具 · 玄奇驴皮 · 充能 6 房间（非自动，清房间充能）" [ref=e2635] [cursor=pointer]:
+        - img "玄奇驴皮" [ref=e2636]
+        - generic "品质 2" [ref=e2637]: "2"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2638]: "6"
+      - generic "被动道具 · 终末天启" [ref=e2639] [cursor=pointer]:
+        - img "终末天启" [ref=e2640]
+        - generic "品质 4" [ref=e2641]: "4"
+      - generic "被动道具 · 安慰奖" [ref=e2642] [cursor=pointer]:
+        - img "安慰奖" [ref=e2643]
+        - generic "品质 1" [ref=e2644]: "1"
+      - generic "被动道具 · 小畸胎瘤" [ref=e2645] [cursor=pointer]:
+        - img "小畸胎瘤" [ref=e2646]
+        - generic "品质 1" [ref=e2647]: "1"
+      - generic "被动道具 · 硫磺火炸弹" [ref=e2648] [cursor=pointer]:
+        - img "硫磺火炸弹" [ref=e2649]
+        - generic "品质 2" [ref=e2650]: "2"
+      - generic "被动道具 · 4.5伏特" [ref=e2651] [cursor=pointer]:
+        - img "4.5伏特" [ref=e2652]
+        - generic "品质 2" [ref=e2653]: "2"
+      - generic "被动道具 · 甜甜糖梅宝" [ref=e2654] [cursor=pointer]:
+        - img "甜甜糖梅宝" [ref=e2655]
+        - generic "品质 1" [ref=e2656]: "1"
+      - generic "主动道具 · 糖梅溜溜笛 · 充能 4 房间（非自动，清房间充能）" [ref=e2657] [cursor=pointer]:
+        - img "糖梅溜溜笛" [ref=e2658]
+        - generic "品质 0" [ref=e2659]: "0"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2660]: "4"
+      - generic "被动道具 · 伯列恒之星" [ref=e2661] [cursor=pointer]:
+        - img "伯列恒之星" [ref=e2662]
+        - generic "品质 3" [ref=e2663]: "3"
+      - generic "被动道具 · 冰块宝宝" [ref=e2664] [cursor=pointer]:
+        - img "冰块宝宝" [ref=e2665]
+        - generic "品质 1" [ref=e2666]: "1"
+      - generic "主动道具 · 驱魔护符 · 无限使用（无充能条）" [ref=e2667] [cursor=pointer]:
+        - img "驱魔护符" [ref=e2668]
+        - generic "品质 1" [ref=e2669]: "1"
+        - generic "无限使用（无充能条）" [ref=e2670]: ∞
+      - generic "被动道具 · 伪造药学博士证" [ref=e2671] [cursor=pointer]:
+        - img "伪造药学博士证" [ref=e2672]
+        - generic "品质 2" [ref=e2673]: "2"
+      - generic "主动道具 · 幸运转盘 · 自动充能 3 秒（随时间恢复）" [ref=e2674] [cursor=pointer]:
+        - img "幸运转盘" [ref=e2675]
+        - generic "品质 0" [ref=e2676]: "0"
+        - generic "自动充能 3 秒（随时间恢复）" [ref=e2677]: 3s
+      - generic "被动道具 · 血管炎" [ref=e2678] [cursor=pointer]:
+        - img "血管炎" [ref=e2679]
+        - generic "品质 1" [ref=e2680]: "1"
+      - generic "被动道具 · 巨细胞" [ref=e2681] [cursor=pointer]:
+        - img "巨细胞" [ref=e2682]
+        - generic "品质 1" [ref=e2683]: "1"
+      - generic "被动道具 · 托吡卡胺" [ref=e2684] [cursor=pointer]:
+        - img "托吡卡胺" [ref=e2685]
+        - generic "品质 1" [ref=e2686]: "1"
+      - generic "被动道具 · 牌意解读" [ref=e2687] [cursor=pointer]:
+        - img "牌意解读" [ref=e2688]
+        - generic "品质 3" [ref=e2689]: "3"
+      - generic "被动道具 · 五胞胎" [ref=e2690] [cursor=pointer]:
+        - img "五胞胎" [ref=e2691]
+        - generic "品质 2" [ref=e2692]: "2"
+      - generic "被动道具 · 肉中刺" [ref=e2693] [cursor=pointer]:
+        - img "肉中刺" [ref=e2694]
+        - generic "品质 2" [ref=e2695]: "2"
+      - generic "被动道具 · 大胃王" [ref=e2696] [cursor=pointer]:
+        - img "大胃王" [ref=e2697]
+        - generic "品质 4" [ref=e2698]: "4"
+      - generic "被动道具 · 嗝屁猫的眼睛" [ref=e2699] [cursor=pointer]:
+        - img "嗝屁猫的眼睛" [ref=e2700]
+        - generic "品质 2" [ref=e2701]: "2"
+      - generic "被动道具 · 稻草人" [ref=e2702] [cursor=pointer]:
+        - img "稻草人" [ref=e2703]
+        - generic "品质 1" [ref=e2704]: "1"
+      - generic "被动道具 · 爸爸的便条" [ref=e2705] [cursor=pointer]:
+        - img "爸爸的便条" [ref=e2706]
+        - generic "品质 0" [ref=e2707]: "0"
+      - generic "被动道具 · 腊肠" [ref=e2708] [cursor=pointer]:
+        - img "腊肠" [ref=e2709]
+        - generic "品质 3" [ref=e2710]: "3"
+      - generic "被动道具 · 选择？" [ref=e2711] [cursor=pointer]:
+        - img "选择？" [ref=e2712]
+        - generic "品质 2" [ref=e2713]: "2"
+      - generic "被动道具 · 糖心" [ref=e2714] [cursor=pointer]:
+        - img "糖心" [ref=e2715]
+        - generic "品质 1" [ref=e2716]: "1"
+      - generic "被动道具 · 一磅肉" [ref=e2717] [cursor=pointer]:
+        - img "一磅肉" [ref=e2718]
+        - generic "品质 0" [ref=e2719]: "0"
+      - generic "被动道具 · 赎罪" [ref=e2720] [cursor=pointer]:
+        - img "赎罪" [ref=e2721]
+        - generic "品质 2" [ref=e2722]: "2"
+      - generic "被动道具 · 灵魂枷锁" [ref=e2723] [cursor=pointer]:
+        - img "灵魂枷锁" [ref=e2724]
+        - generic "品质 1" [ref=e2725]: "1"
+      - generic "被动道具 · 碎裂的宝珠" [ref=e2726] [cursor=pointer]:
+        - img "碎裂的宝珠" [ref=e2727]
+        - generic "品质 1" [ref=e2728]: "1"
+      - generic "被动道具 · 空虚之心" [ref=e2729] [cursor=pointer]:
+        - img "空虚之心" [ref=e2730]
+        - generic "品质 1" [ref=e2731]: "1"
+      - generic "被动道具 · 灵魂出窍" [ref=e2732] [cursor=pointer]:
+        - img "灵魂出窍" [ref=e2733]
+        - generic "品质 1" [ref=e2734]: "1"
+      - generic "被动道具 · 剖腹产" [ref=e2735] [cursor=pointer]:
+        - img "剖腹产" [ref=e2736]
+        - generic "品质 4" [ref=e2737]: "4"
+      - generic "被动道具 · 亚巴顿宝宝" [ref=e2738] [cursor=pointer]:
+        - img "亚巴顿宝宝" [ref=e2739]
+        - generic "品质 2" [ref=e2740]: "2"
+      - generic "被动道具 · 水土不服症" [ref=e2741] [cursor=pointer]:
+        - img "水土不服症" [ref=e2742]
+        - generic "品质 2" [ref=e2743]: "2"
+      - generic "被动道具 · 黑洞宝宝" [ref=e2744] [cursor=pointer]:
+        - img "黑洞宝宝" [ref=e2745]
+        - generic "品质 0" [ref=e2746]: "0"
+      - generic "被动道具 · 触手朋友" [ref=e2747] [cursor=pointer]:
+        - img "触手朋友" [ref=e2748]
+        - generic "品质 3" [ref=e2749]: "3"
+      - generic "被动道具 · 骨刺" [ref=e2750] [cursor=pointer]:
+        - img "骨刺" [ref=e2751]
+        - generic "品质 2" [ref=e2752]: "2"
+      - generic "被动道具 · 饥饿幽魂" [ref=e2753] [cursor=pointer]:
+        - img "饥饿幽魂" [ref=e2754]
+        - generic "品质 2" [ref=e2755]: "2"
+      - generic "主动道具 · 魂火罐 · 充能 12 房间（非自动，清房间充能）" [ref=e2756] [cursor=pointer]:
+        - img "魂火罐" [ref=e2757]
+        - generic "品质 1" [ref=e2758]: "1"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2759]: "12"
+      - generic "被动道具 · 灵魂吊坠" [ref=e2760] [cursor=pointer]:
+        - img "灵魂吊坠" [ref=e2761]
+        - generic "品质 1" [ref=e2762]: "1"
+      - generic "主动道具 · 寻友护符 · 充能 4 房间（非自动，清房间充能）" [ref=e2763] [cursor=pointer]:
+        - img "寻友护符" [ref=e2764]
+        - generic "品质 2" [ref=e2765]: "2"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2766]: "4"
+      - generic "被动道具 · 内在孩童" [ref=e2767] [cursor=pointer]:
+        - img "内在孩童" [ref=e2768]
+        - generic "品质 2" [ref=e2769]: "2"
+      - generic "被动道具 · 错误王冠" [ref=e2770] [cursor=pointer]:
+        - img "错误王冠" [ref=e2771]
+        - generic "品质 4" [ref=e2772]: "4"
+      - generic "被动道具 · 肚肚软糖" [ref=e2773] [cursor=pointer]:
+        - img "肚肚软糖" [ref=e2774]
+        - generic "品质 3" [ref=e2775]: "3"
+      - generic "被动道具 · 十字圣球" [ref=e2776] [cursor=pointer]:
+        - img "十字圣球" [ref=e2777]
+        - generic "品质 4" [ref=e2778]: "4"
+      - generic "被动道具 · 血色羁绊" [ref=e2779] [cursor=pointer]:
+        - img "血色羁绊" [ref=e2780]
+        - generic "品质 1" [ref=e2781]: "1"
+      - generic "被动道具 · 虫群" [ref=e2782] [cursor=pointer]:
+        - img "虫群" [ref=e2783]
+        - generic "品质 2" [ref=e2784]: "2"
+      - generic "被动道具 · 心碎" [ref=e2785] [cursor=pointer]:
+        - img "心碎" [ref=e2786]
+        - generic "品质 3" [ref=e2787]: "3"
+      - generic "被动道具 · 嗜血腥风" [ref=e2788] [cursor=pointer]:
+        - img "嗜血腥风" [ref=e2789]
+        - generic "品质 2" [ref=e2790]: "2"
+      - generic "被动道具 · 救恩" [ref=e2791] [cursor=pointer]:
+        - img "救恩" [ref=e2792]
+        - generic "品质 3" [ref=e2793]: "3"
+      - generic "被动道具 · 消失的胞胎" [ref=e2794] [cursor=pointer]:
+        - img "消失的胞胎" [ref=e2795]
+        - generic "品质 1" [ref=e2796]: "1"
+      - generic "被动道具 · 作孽双子" [ref=e2797] [cursor=pointer]:
+        - img "作孽双子" [ref=e2798]
+        - generic "品质 4" [ref=e2799]: "4"
+      - generic "被动道具 · 阿撒泻勒之怒" [ref=e2800] [cursor=pointer]:
+        - img "阿撒泻勒之怒" [ref=e2801]
+        - generic "品质 2" [ref=e2802]: "2"
+      - generic "被动道具 · 回声室" [ref=e2803] [cursor=pointer]:
+        - img "回声室" [ref=e2804]
+        - generic "品质 3" [ref=e2805]: "3"
+      - generic "被动道具 · 以撒的坟墓" [ref=e2806] [cursor=pointer]:
+        - img "以撒的坟墓" [ref=e2807]
+        - generic "品质 2" [ref=e2808]: "2"
+      - generic "被动道具 · 复仇之魂" [ref=e2809] [cursor=pointer]:
+        - img "复仇之魂" [ref=e2810]
+        - generic "品质 1" [ref=e2811]: "1"
+      - generic "主动道具 · 小以扫 · 充能 1 房间（非自动，清房间充能）" [ref=e2812] [cursor=pointer]:
+        - img "小以扫" [ref=e2813]
+        - generic "品质 1" [ref=e2814]: "1"
+        - generic "充能 1 房间（非自动，清房间充能）" [ref=e2815]: "1"
+      - generic "主动道具 · 狂怒！ · 伤害充能（造成伤害时积累）" [ref=e2816] [cursor=pointer]:
+        - img "狂怒！" [ref=e2817]
+        - generic "品质 1" [ref=e2818]: "1"
+        - generic "伤害充能（造成伤害时积累）" [ref=e2819]: "?"
+      - generic "主动道具 · 暗仪刺刀 · 自动充能 6 秒（随时间恢复）" [ref=e2820] [cursor=pointer]:
+        - img "暗仪刺刀" [ref=e2821]
+        - generic "品质 1" [ref=e2822]: "1"
+        - generic "自动充能 6 秒（随时间恢复）" [ref=e2823]: 6s
+      - generic "主动道具 · 无底坑 · 充能 4 房间（非自动，清房间充能）" [ref=e2824] [cursor=pointer]:
+        - img "无底坑" [ref=e2825]
+        - generic "品质 3" [ref=e2826]: "3"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2827]: "4"
+      - generic "被动道具 · 晚餐" [ref=e2828] [cursor=pointer]:
+        - img "晚餐" [ref=e2829]
+        - generic "品质 1" [ref=e2830]: "1"
+      - generic "被动道具 · 订书机" [ref=e2831] [cursor=pointer]:
+        - img "订书机" [ref=e2832]
+        - generic "品质 3" [ref=e2833]: "3"
+      - generic "主动道具 · 背摔！ · 自动充能 7 秒（随时间恢复）" [ref=e2834] [cursor=pointer]:
+        - img "背摔！" [ref=e2835]
+        - generic "品质 1" [ref=e2836]: "1"
+        - generic "自动充能 7 秒（随时间恢复）" [ref=e2837]: 7s
+      - generic "主动道具 · 合成宝袋 · 无限使用（无充能条）" [ref=e2838] [cursor=pointer]:
+        - img "合成宝袋" [ref=e2839]
+        - generic "品质 3" [ref=e2840]: "3"
+        - generic "无限使用（无充能条）" [ref=e2841]: ∞
+      - generic "主动道具 · 生死逆转 · 充能 6 房间（非自动，清房间充能）" [ref=e2842] [cursor=pointer]:
+        - img "生死逆转" [ref=e2843]
+        - generic "品质 4" [ref=e2844]: "4"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2845]: "6"
+      - generic "主动道具 · 所罗门魔典 · 充能 6 房间（非自动，清房间充能）" [ref=e2846] [cursor=pointer]:
+        - img "所罗门魔典" [ref=e2847]
+        - generic "品质 3" [ref=e2848]: "3"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2849]: "6"
+      - generic "主动道具 · 圣血吸管 · 自动充能 10 秒（随时间恢复）" [ref=e2850] [cursor=pointer]:
+        - img "圣血吸管" [ref=e2851]
+        - generic "品质 3" [ref=e2852]: "3"
+        - generic "自动充能 10 秒（随时间恢复）" [ref=e2853]: 10s
+      - generic "主动道具 · 召回 · 自动充能 3 秒（随时间恢复）" [ref=e2854] [cursor=pointer]:
+        - img "召回" [ref=e2855]
+        - generic "品质 0" [ref=e2856]: "0"
+        - generic "自动充能 3 秒（随时间恢复）" [ref=e2857]: 3s
+      - generic "主动道具 · 保留 · 无限使用（无充能条）" [ref=e2858] [cursor=pointer]:
+        - img "保留" [ref=e2859]
+        - generic "品质 0" [ref=e2860]: "0"
+        - generic "无限使用（无充能条）" [ref=e2861]: ∞
+      - generic "被动道具 · 店主的胯袋" [ref=e2862] [cursor=pointer]:
+        - img "店主的胯袋" [ref=e2863]
+        - generic "品质 3" [ref=e2864]: "3"
+      - generic "被动道具 · 店主的亲友" [ref=e2865] [cursor=pointer]:
+        - img "店主的亲友" [ref=e2866]
+        - generic "品质 2" [ref=e2867]: "2"
+      - generic "主动道具 · 店主的盒子 · 充能 4 房间（非自动，清房间充能）" [ref=e2868] [cursor=pointer]:
+        - img "店主的盒子" [ref=e2869]
+        - generic "品质 1" [ref=e2870]: "1"
+        - generic "充能 4 房间（非自动，清房间充能）" [ref=e2871]: "4"
+      - generic "主动道具 · 百宝罐 · 充能 12 房间（非自动，清房间充能）" [ref=e2872] [cursor=pointer]:
+        - img "百宝罐" [ref=e2873]
+        - generic "品质 2" [ref=e2874]: "2"
+        - generic "充能 12 房间（非自动，清房间充能）" [ref=e2875]: "12"
+      - generic "被动道具 · 错误技" [ref=e2876] [cursor=pointer]:
+        - img "错误技" [ref=e2877]
+        - generic "品质 0" [ref=e2878]: "0"
+      - generic "主动道具 · 孤魂铁索 · 自动充能 15 秒（随时间恢复）" [ref=e2879] [cursor=pointer]:
+        - img "孤魂铁索" [ref=e2880]
+        - generic "品质 2" [ref=e2881]: "2"
+        - generic "自动充能 15 秒（随时间恢复）" [ref=e2882]: 15s
+      - generic "主动道具 · 计数二十面骰 · 充能 6 房间（非自动，清房间充能）" [ref=e2883] [cursor=pointer]:
+        - img "计数二十面骰" [ref=e2884]
+        - generic "品质 4" [ref=e2885]: "4"
+        - generic "充能 6 房间（非自动，清房间充能）" [ref=e2886]: "6"
+      - generic "被动道具 · 高凝血" [ref=e2887] [cursor=pointer]:
+        - img "高凝血" [ref=e2888]
+        - generic "品质 2" [ref=e2889]: "2"
+      - generic "被动道具 · 大肠激躁症" [ref=e2890] [cursor=pointer]:
+        - img "大肠激躁症" [ref=e2891]
+        - generic "品质 0" [ref=e2892]: "0"
+      - generic "被动道具 · 咯血症" [ref=e2893] [cursor=pointer]:
+        - img "咯血症" [ref=e2894]
+        - generic "品质 1" [ref=e2895]: "1"
+      - generic "被动道具 · 幽灵炸弹" [ref=e2896] [cursor=pointer]:
+        - img "幽灵炸弹" [ref=e2897]
+        - generic "品质 1" [ref=e2898]: "1"
+      - generic "主动道具 · 格罗 · 充能 2 房间（非自动，清房间充能）" [ref=e2899] [cursor=pointer]:
+        - img "格罗" [ref=e2900]
+        - generic "品质 3" [ref=e2901]: "3"
+        - generic "充能 2 房间（非自动，清房间充能）" [ref=e2902]: "2"
+      - generic "主动道具 · 飞头攻击 · 自动充能 4 秒（随时间恢复）" [ref=e2903] [cursor=pointer]:
+        - img "飞头攻击" [ref=e2904]
+        - generic "品质 1" [ref=e2905]: "1"
+        - generic "自动充能 4 秒（随时间恢复）" [ref=e2906]: 4s
+      - generic "被动道具 · 玻璃眼" [ref=e2907] [cursor=pointer]:
+        - img "玻璃眼" [ref=e2908]
+        - generic "品质 3" [ref=e2909]: "3"
+      - generic "被动道具 · 麦粒肿" [ref=e2910] [cursor=pointer]:
+        - img "麦粒肿" [ref=e2911]
+        - generic "品质 2" [ref=e2912]: "2"
+      - generic "被动道具 · 妈妈的戒指" [ref=e2913] [cursor=pointer]:
+        - img "妈妈的戒指" [ref=e2914]
+        - generic "品质 3" [ref=e2915]: "3"

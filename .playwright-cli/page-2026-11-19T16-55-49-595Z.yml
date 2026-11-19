@@ -1,0 +1,2252 @@
+- main [ref=e4]:
+  - main [ref=e6]:
+    - main [ref=e7]:
+      - generic [ref=e8]:
+        - generic "Running an examiner in the background" [ref=e11]
+        - heading "硫磺火" [level=1] [ref=e12]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - text: （重定向自
+            - link "硫磺火" [ref=e15] [cursor=pointer]:
+              - /url: /index.php?title=%E7%A1%AB%E7%A3%BA%E7%81%AB&redirect=no
+            - text: ）
+          - link "钢铁橘子" [ref=e16] [cursor=pointer]:
+            - /url: /wiki/%E7%94%A8%E6%88%B7:%E9%92%A2%E9%93%81%E6%A9%98%E5%AD%90
+          - text: 于4天前
+          - link "修改了" [ref=e17] [cursor=pointer]:
+            - /url: /wiki/%E7%89%B9%E6%AE%8A:%E7%BC%96%E8%BE%91%E5%B7%AE%E5%BC%82/223649
+          - text: 此页面。
+      - generic [ref=e20]:
+        - link "道具" [ref=e22] [cursor=pointer]:
+          - /url: /wiki/%E9%81%93%E5%85%B7
+        - generic "重生，或在胎衣版本被移除的特性" [ref=e24]:
+          - img "DLC-.png" [ref=e25]
+        - table [ref=e26]:
+          - rowgroup [ref=e27]:
+            - row [ref=e28]:
+              - columnheader "← → 硫磺火 Brimstone" [ref=e29]:
+                - generic [ref=e30]:
+                  - generic [ref=e31]:
+                    - link "C117" [ref=e33] [cursor=pointer]:
+                      - /url: /wiki/C117
+                    - text: ←
+                  - generic [ref=e35]:
+                    - text: →
+                    - link "C119" [ref=e37] [cursor=pointer]:
+                      - /url: /wiki/C119
+                  - text: 硫磺火Brimstone
+            - row [ref=e39]:
+              - cell [ref=e40]
+            - row [ref=e43]:
+              - columnheader "角色形象" [ref=e44]:
+                - text: 角色形象
+                - link "帮助:Anm2播放器" [ref=e45] [cursor=pointer]:
+                  - /url: /wiki/%E5%B8%AE%E5%8A%A9:Anm2%E6%92%AD%E6%94%BE%E5%99%A8#快捷键
+                  - generic [aria-hidden] [ref=e46]: 
+            - row [ref=e47]:
+              - cell [ref=e48]:
+                - generic [ref=e49]: 以撒换装中
+                - generic [ref=e53]: 以撒换装中
+            - row [ref=e57]:
+              - columnheader "鲜血激光柱 Blood laser barrage" [ref=e58]:
+                - generic [ref=e59]: 鲜血激光柱Blood laser barrage
+            - row [ref=e60]:
+              - rowheader "ID" [ref=e61]
+              - cell "118" [ref=e62]
+            - row [ref=e63]:
+              - rowheader "类型" [ref=e64]
+              - cell [ref=e65]:
+                - link "道具" [ref=e66] [cursor=pointer]:
+                  - /url: /wiki/%E9%81%93%E5%85%B7
+            - row [ref=e67]:
+              - rowheader "品质" [ref=e68]
+              - cell "4" [ref=e69]
+            - row [ref=e70]:
+              - rowheader "标签" [ref=e71]
+              - cell [ref=e72]:
+                - link "攻击性" [ref=e74] [cursor=pointer]:
+                  - /url: /wiki/%E6%A0%87%E7%AD%BE/%E6%94%BB%E5%87%BB%E6%80%A7
+                - link "恶魔" [ref=e76] [cursor=pointer]:
+                  - /url: /wiki/%E6%A0%87%E7%AD%BE/%E6%81%B6%E9%AD%94
+                - link "可召唤" [ref=e78] [cursor=pointer]:
+                  - /url: /wiki/%E6%A0%87%E7%AD%BE/%E5%8F%AF%E5%8F%AC%E5%94%A4
+            - row [ref=e79]:
+              - columnheader "攻击方式" [ref=e80]
+            - row [ref=e81]:
+              - cell [ref=e82]:
+                - table [ref=e83]:
+                  - rowgroup [ref=e84]:
+                    - row [ref=e85]:
+                      - cell "动画拼命加载中" [ref=e86]
+                    - row [ref=e87]:
+                      - rowheader "名称" [ref=e88]
+                      - cell [ref=e89]:
+                        - link "激光/硫磺火" [ref=e90] [cursor=pointer]:
+                          - /url: /wiki/%E5%AE%9E%E4%BD%93/7#7.1.0
+                    - row [ref=e91]:
+                      - rowheader "ID" [ref=e92]
+                      - cell [ref=e93]:
+                        - code [ref=e94]: 7.1.0
+            - row [ref=e95]:
+              - columnheader "道具信息" [ref=e96]
+            - row [ref=e97]:
+              - rowheader "售价" [ref=e98]
+              - cell [ref=e99]:
+                - link "昂贵道具" [ref=e100] [cursor=pointer]:
+                  - /url: /wiki/%E5%AE%9E%E4%BD%93/5/150#售价
+            - row [ref=e101]:
+              - rowheader "图鉴" [ref=e102]
+              - cell [ref=e103]:
+                - paragraph [ref=e104]: 第1页、第6行、第15列
+                - table [ref=e105]:
+                  - rowgroup [ref=e106]:
+                    - row [ref=e107]:
+                      - cell [ref=e108]
+                      - cell [ref=e109]
+                      - cell [ref=e110]
+                      - cell [ref=e111]
+                      - cell [ref=e112]
+                      - cell [ref=e113]
+                      - cell [ref=e114]
+                      - cell [ref=e115]
+                      - cell [ref=e116]
+                      - cell [ref=e117]
+                      - cell [ref=e118]
+                      - cell [ref=e119]
+                      - cell [ref=e120]
+                      - cell [ref=e121]
+                      - cell [ref=e122]
+                      - cell [ref=e123]
+                      - cell [ref=e124]
+                      - cell [ref=e125]
+                      - cell [ref=e126]
+                      - cell [ref=e127]
+                    - row [ref=e128]:
+                      - cell [ref=e129]
+                      - cell [ref=e130]
+                      - cell [ref=e131]
+                      - cell [ref=e132]
+                      - cell [ref=e133]
+                      - cell [ref=e134]
+                      - cell [ref=e135]
+                      - cell [ref=e136]
+                      - cell [ref=e137]
+                      - cell [ref=e138]
+                      - cell [ref=e139]
+                      - cell [ref=e140]
+                      - cell [ref=e141]
+                      - cell [ref=e142]
+                      - cell [ref=e143]
+                      - cell [ref=e144]
+                      - cell [ref=e145]
+                      - cell [ref=e146]
+                      - cell [ref=e147]
+                      - cell [ref=e148]
+                    - row [ref=e149]:
+                      - cell [ref=e150]
+                      - cell [ref=e151]
+                      - cell [ref=e152]
+                      - cell [ref=e153]
+                      - cell [ref=e154]
+                      - cell [ref=e155]
+                      - cell [ref=e156]
+                      - cell [ref=e157]
+                      - cell [ref=e158]
+                      - cell [ref=e159]
+                      - cell [ref=e160]
+                      - cell [ref=e161]
+                      - cell [ref=e162]
+                      - cell [ref=e163]
+                      - cell [ref=e164]
+                      - cell [ref=e165]
+                      - cell [ref=e166]
+                      - cell [ref=e167]
+                      - cell [ref=e168]
+                      - cell [ref=e169]
+                    - row [ref=e170]:
+                      - cell [ref=e171]
+                      - cell [ref=e172]
+                      - cell [ref=e173]
+                      - cell [ref=e174]
+                      - cell [ref=e175]
+                      - cell [ref=e176]
+                      - cell [ref=e177]
+                      - cell [ref=e178]
+                      - cell [ref=e179]
+                      - cell [ref=e180]
+                      - cell [ref=e181]
+                      - cell [ref=e182]
+                      - cell [ref=e183]
+                      - cell [ref=e184]
+                      - cell [ref=e185]
+                      - cell [ref=e186]
+                      - cell [ref=e187]
+                      - cell [ref=e188]
+                      - cell [ref=e189]
+                      - cell [ref=e190]
+                    - row [ref=e191]:
+                      - cell [ref=e192]
+                      - cell [ref=e193]
+                      - cell [ref=e194]
+                      - cell [ref=e195]
+                      - cell [ref=e196]
+                      - cell [ref=e197]
+                      - cell [ref=e198]
+                      - cell [ref=e199]
+                      - cell [ref=e200]
+                      - cell [ref=e201]
+                      - cell [ref=e202]
+                      - cell [ref=e203]
+                      - cell [ref=e204]
+                      - cell [ref=e205]
+                      - cell [ref=e206]
+                      - cell [ref=e207]
+                      - cell [ref=e208]
+                      - cell [ref=e209]
+                      - cell [ref=e210]
+                      - cell [ref=e211]
+                    - row [ref=e212]:
+                      - cell [ref=e213]
+                      - cell [ref=e214]
+                      - cell [ref=e215]
+                      - cell [ref=e216]
+                      - cell [ref=e217]
+                      - cell [ref=e218]
+                      - cell [ref=e219]
+                      - cell [ref=e220]
+                      - cell [ref=e221]
+                      - cell [ref=e222]
+                      - cell [ref=e223]
+                      - cell [ref=e224]
+                      - cell [ref=e225]
+                      - cell [ref=e226]
+                      - cell [ref=e227]
+                      - cell [ref=e228]
+                      - cell [ref=e229]
+                      - cell [ref=e230]
+                      - cell [ref=e231]
+                      - cell [ref=e232]
+            - row [ref=e233]:
+              - columnheader "道具池" [ref=e234]
+            - row [ref=e235]:
+              - cell [ref=e236]:
+                - table [ref=e237]:
+                  - rowgroup [ref=e238]:
+                    - row [ref=e239]:
+                      - columnheader [ref=e240]
+                      - cell [ref=e241]
+                      - cell "重生" [ref=e242]
+                      - cell "胎衣" [ref=e243]
+                      - cell "胎衣†" [ref=e244]
+                      - cell "忏悔" [ref=e245]
+                      - cell "忏悔+" [ref=e246]
+                    - row [ref=e247]:
+                      - cell [ref=e248]
+                      - cell [ref=e250]:
+                        - link "恶魔房" [ref=e251] [cursor=pointer]:
+                          - /url: /wiki/%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e252]:
+                        - link "道具池/重生/恶魔房" [ref=e253] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E9%87%8D%E7%94%9F/%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e255]:
+                        - link "道具池/胎衣/恶魔房" [ref=e256] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E8%83%8E%E8%A1%A3/%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e258]:
+                        - link "道具池/胎衣†/恶魔房" [ref=e259] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E8%83%8E%E8%A1%A3%E2%80%A0/%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e261]:
+                        - link "道具池/忏悔/恶魔房" [ref=e262] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94/%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e264]:
+                        - link "道具池/忏悔+/恶魔房" [ref=e265] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94%2B/%E6%81%B6%E9%AD%94%E6%88%BF
+                    - row [ref=e267]:
+                      - cell [ref=e268]
+                      - cell [ref=e270]:
+                        - link "究极隐藏房" [ref=e271] [cursor=pointer]:
+                          - /url: /wiki/%E7%A9%B6%E6%9E%81%E9%9A%90%E8%97%8F%E6%88%BF
+                      - cell [ref=e272]
+                      - cell [ref=e273]
+                      - cell [ref=e274]
+                      - cell [ref=e275]:
+                        - link "道具池/忏悔/究极隐藏房" [ref=e276] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94/%E7%A9%B6%E6%9E%81%E9%9A%90%E8%97%8F%E6%88%BF
+                      - cell [ref=e278]:
+                        - link "道具池/忏悔+/究极隐藏房" [ref=e279] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94%2B/%E7%A9%B6%E6%9E%81%E9%9A%90%E8%97%8F%E6%88%BF
+                    - row [ref=e281]:
+                      - cell [ref=e282]
+                      - cell [ref=e284]:
+                        - link "恶魔房" [ref=e285] [cursor=pointer]:
+                          - /url: /wiki/%E6%81%B6%E9%AD%94%E6%88%BF
+                        - link [ref=e286] [cursor=pointer]:
+                          - /url: /wiki/%E8%B4%AA%E5%A9%AA%E6%A8%A1%E5%BC%8F
+                          - img "贪婪模式" [ref=e287]
+                      - cell [ref=e288]
+                      - cell [ref=e289]
+                      - cell [ref=e290]
+                      - cell [ref=e291]:
+                        - link "道具池/忏悔/贪婪恶魔房" [ref=e292] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94/%E8%B4%AA%E5%A9%AA%E6%81%B6%E9%AD%94%E6%88%BF
+                      - cell [ref=e294]:
+                        - link "道具池/忏悔+/贪婪恶魔房" [ref=e295] [cursor=pointer]:
+                          - /url: /wiki/%E9%81%93%E5%85%B7%E6%B1%A0/%E5%BF%8F%E6%82%94%2B/%E8%B4%AA%E5%A9%AA%E6%81%B6%E9%AD%94%E6%88%BF
+        - table [ref=e297]:
+          - rowgroup [ref=e298]:
+            - row [ref=e299]:
+              - cell "“" [ref=e300]
+              - cell "当时，耶和华把硫磺与火，从天上耶和华那里降与所多玛和蛾摩拉，把那些城和全平原，城里所有的居民和土地上生长的，都毁灭了。罗得的妻子在他后边回头一看，就变成了一根盐柱。亚伯拉罕清早起来，到了他先前站在耶和华面前的地方，面向所多玛和蛾摩拉，以及平原全地观望。他观看，看哪，那地有浓烟上腾，好像烧窑的浓烟。" [ref=e301]
+              - cell "”" [ref=e302]
+            - row [ref=e303]:
+              - cell "—— 《创世记》第19章第24~28节" [ref=e304]
+        - generic [ref=e311]:
+          - text: 关于与此词条重名或近似的其他词条，请参阅
+          - link "硫磺火 (消歧义)" [ref=e312] [cursor=pointer]:
+            - /url: /wiki/%E7%A1%AB%E7%A3%BA%E7%81%AB_(%E6%B6%88%E6%AD%A7%E4%B9%89)
+          - text: 。
+        - paragraph [ref=e313]:
+          - text: 硫磺火（
+          - link "Brimstone " [ref=e314] [cursor=pointer]:
+            - /url: https://bindingofisaacrebirth.wiki.gg/Brimstone
+          - text: ）是一个
+          - link "重生" [ref=e315] [cursor=pointer]:
+            - /url: /wiki/%E9%87%8D%E7%94%9F
+          - text: 中加入的
+          - link "道具" [ref=e316] [cursor=pointer]:
+            - /url: /wiki/%E9%81%93%E5%85%B7
+          - text: 。
+        - heading "效果" [level=2] [ref=e317]
+        - list [ref=e318]:
+          - listitem [ref=e319]:
+            - text: 角色的攻击方式改为蓄力发射1个鲜血激光柱。
+            - list [ref=e320]:
+              - listitem [ref=e321]:
+                - text: 在该攻击方式下，
+                - img "Tears Stat Icon 2.png" [ref=e322]
+                - text: 射速修正
+                - math [ref=e343]:
+                  - generic [ref=e344]: ×
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: "1"
+                    - generic [ref=e350]: "3"
+              - listitem [ref=e354]:
+                - text: 蓄力时间与
+                - img "Tears Stat Icon 2.png" [ref=e355]
+                - text: 射速成反比。
+              - listitem [ref=e356]: 鲜血激光柱具有无限射程，可以穿透敌人和障碍物。
+              - listitem [ref=e357]:
+                - text: 鲜血激光柱对接触的敌人造成每4帧（每秒15次）
+                - math [ref=e370]:
+                  - generic [ref=e371]: "100"
+                  - generic [ref=e372]: "%"
+                - text: 角色伤害。
+              - listitem [ref=e373]:
+                - text: 鲜血激光柱持续
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - generic "在忏悔版本被移除的特性" [ref=e376]:
+                      - img "DLCR-.png" [ref=e377]
+                    - text: 54帧（0.9秒）
+                  - generic [ref=e378]:
+                    - generic "忏悔，或忏悔版本新增特性" [ref=e379]:
+                      - img "DLCR.png" [ref=e380]
+                    - text: 38帧（约0.63秒）
+                - text: 。
+                - list [ref=e381]:
+                  - listitem [ref=e382]:
+                    - text: 单次发射完全击中时相当于对敌人造成
+                    - generic [ref=e383]:
+                      - generic [ref=e384]:
+                        - generic "在忏悔版本被移除的特性" [ref=e385]:
+                          - img "DLCR-.png" [ref=e386]
+                        - text: 13次
+                      - generic [ref=e387]:
+                        - generic "忏悔，或忏悔版本新增特性" [ref=e388]:
+                          - img "DLCR.png" [ref=e389]
+                        - text: 9次
+                    - text: 伤害。
+              - listitem [ref=e390]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e391]:
+                  - img "DLCR.png" [ref=e392]
+                - text: 如果角色
+                - img "Tears Stat Icon 2.png" [ref=e393]
+                - text: 射速
+                - math [ref=e410]:
+                  - generic [ref=e411]: t
+                  - generic [ref=e412]: ≥
+                  - generic [ref=e413]: "15.00"
+                - text: ，则：
+                - list [ref=e414]:
+                  - listitem [ref=e415]: 发射鲜血激光柱不再需要蓄力。
+                  - listitem [ref=e416]:
+                    - text: 可以通过
+                    - generic [ref=e417]: 射击键
+                    - text: 平滑控制鲜血激光柱的方向。
+                  - listitem [ref=e418]:
+                    - text: 鲜血激光柱对接触的敌人造成每4帧（每秒15次）单次
+                    - generic [ref=e420]:
+                      - img [aria-hidden] [ref=e421]:
+                        - generic [ref=e426]:
+                          - generic [ref=e427]: 角
+                          - generic [ref=e429]: 色
+                          - generic [ref=e431]: 伤
+                          - generic [ref=e433]: 害
+                          - generic [ref=e437]: 角
+                          - generic [ref=e439]: 色
+                          - generic [ref=e441]: 射
+                          - generic [ref=e443]: 速
+                      - math [ref=e449]:
+                        - generic [ref=e451]:
+                          - generic [ref=e452]:
+                            - generic [ref=e453]: 角
+                            - generic [ref=e454]: 色
+                            - generic [ref=e455]: 伤
+                            - generic [ref=e456]: 害
+                            - generic [ref=e457]: ×
+                            - generic [ref=e458]: 角
+                            - generic [ref=e459]: 色
+                            - generic [ref=e460]: 射
+                            - generic [ref=e461]: 速
+                          - generic [ref=e462]: "5"
+                    - text: 的伤害。
+                    - list [ref=e463]:
+                      - listitem [ref=e464]:
+                        - text: 即
+                        - img "Tears Stat Icon 2.png" [ref=e465]
+                        - text: 射速
+                        - math [ref=e482]:
+                          - generic [ref=e483]: t
+                          - generic [ref=e484]: ≥
+                          - generic [ref=e485]: "15.00"
+                        - text: 后，理论
+                        - math [ref=e498]:
+                          - generic [ref=e499]: D
+                          - generic [ref=e500]: P
+                          - generic [ref=e501]: S
+                        - text: 恒为
+                        - generic [ref=e503]:
+                          - img [aria-hidden] [ref=e504]:
+                            - generic [ref=e514]:
+                              - generic [ref=e515]: 面
+                              - generic [ref=e517]: 板
+                          - math [ref=e520]:
+                            - generic [ref=e521]: D
+                            - generic [ref=e522]: P
+                            - generic [ref=e523]:
+                              - generic [ref=e524]: S
+                              - generic [ref=e525]:
+                                - generic [ref=e526]: 面
+                                - generic [ref=e527]: 板
+                        - text: （
+                        - img "Damage Stat Icon 2.png" [ref=e528]
+                        - text: 伤害
+                        - math [ref=e537]:
+                          - generic [ref=e538]: ×
+                        - img "Tears Stat Icon 2.png" [ref=e539]
+                        - text: 射速）的
+                        - math [ref=e552]:
+                          - generic [ref=e553]: "300"
+                          - generic [ref=e554]: "%"
+                        - text: 。
+                  - listitem [ref=e555]:
+                    - text: 鲜血激光柱的宽度会随
+                    - img "Tears Stat Icon 2.png" [ref=e556]
+                    - text: 射速一起增长。
+          - listitem [ref=e557]:
+            - generic "在忏悔版本被移除的特性" [ref=e558]:
+              - img "DLCR-.png" [ref=e559]
+            - text: 如果角色拾取了多个硫磺火，则攻击时会额外发射多个鲜血激光柱，不增加蓄力时间。
+          - listitem [ref=e560]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e561]:
+              - img "DLCR.png" [ref=e562]
+            - text: 如果角色拾取了多个硫磺火，则每拾取一个额外硫磺火，
+            - img "Damage Stat Icon 2.png" [ref=e563]
+            - text: 伤害
+            - math [ref=e577]:
+              - generic [ref=e578]: +
+              - generic [ref=e579]: "1.00"
+            - text: ，且角色的攻击方式改为蓄力发射1个粗鲜血激光柱：
+            - list [ref=e580]:
+              - listitem [ref=e581]:
+                - text: 在该攻击方式下，
+                - img "Damage Stat Icon 2.png" [ref=e582]
+                - text: 伤害修正
+                - math [ref=e597]:
+                  - generic [ref=e598]: ×
+                  - generic [ref=e599]: "120"
+                  - generic [ref=e600]: "%"
+              - listitem [ref=e601]: 角色在发射粗鲜血激光柱时屏幕会震动。
+              - listitem [ref=e602]: 其余部分与鲜血激光柱相同。
+        - heading "注意" [level=2] [ref=e603]
+        - list [ref=e604]:
+          - listitem [ref=e605]:
+            - text: 硫磺火属于
+            - link "利维坦！" [ref=e606] [cursor=pointer]:
+              - /url: /wiki/%E5%88%A9%E7%BB%B4%E5%9D%A6%EF%BC%81
+            - text: 套装。
+          - listitem [ref=e607]: 鲜血激光柱每4帧（每秒15次）造成一次伤害，然而在造成第一次伤害后会有7帧（约0.12秒）的延迟，此后的伤害会以正常频率触发。
+          - listitem [ref=e608]:
+            - generic [ref=e609]:
+              - link [ref=e610] [cursor=pointer]:
+                - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                - img "阿撒泻勒" [ref=e611]
+              - link "阿撒泻勒" [ref=e612] [cursor=pointer]:
+                - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+            - text: 开局就拥有一个短射程、慢蓄力版本的硫磺火。拾取硫磺火会将其变为正常版本的硫磺火。如果没有正常版本的硫磺火或
+            - generic "胎衣，或胎衣版本新增特性" [ref=e613]:
+              - img "DLC.png" [ref=e614]
+            - text: 足够长的
+            - img "Range Stat Icon 2.png" [ref=e615]
+            - text: 射程，他的短程硫磺火会覆盖任何
+            - link "追踪" [ref=e616] [cursor=pointer]:
+              - /url: /wiki/%E8%BF%BD%E8%B8%AA
+            - text: 效果的道具。（该阈值约为
+            - math [ref=e629]:
+              - generic [ref=e630]: "10.50"
+            - text: ）
+        - heading "协同效应" [level=2] [ref=e631]
+        - list [ref=e632]:
+          - listitem [ref=e633]:
+            - generic [ref=e634]:
+              - link [ref=e635] [cursor=pointer]:
+                - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                - img "阿撒泻勒" [ref=e636]
+              - link "阿撒泻勒" [ref=e637] [cursor=pointer]:
+                - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+            - text: /
+            - generic "忏悔，或忏悔版本新增特性" [ref=e638]:
+              - img "DLCR.png" [ref=e639]
+            - generic [ref=e640]:
+              - link [ref=e641] [cursor=pointer]:
+                - /url: /wiki/%E5%A0%95%E5%8C%96%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                - img "堕化阿撒泻勒" [ref=e642]
+              - link "堕化阿撒泻勒" [ref=e643] [cursor=pointer]:
+                - /url: /wiki/%E5%A0%95%E5%8C%96%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+            - text: ：覆盖短程硫磺火与细硫磺火，
+            - generic [ref=e644]:
+              - link [ref=e645] [cursor=pointer]:
+                - /url: /wiki/%E5%A0%95%E5%8C%96%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                - img "堕化阿撒泻勒" [ref=e646]
+              - link "堕化阿撒泻勒" [ref=e647] [cursor=pointer]:
+                - /url: /wiki/%E5%A0%95%E5%8C%96%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+            - text: 的咳血攻击会保留。
+          - listitem [ref=e648]:
+            - generic [ref=e649]:
+              - link "C2" [ref=e650] [cursor=pointer]:
+                - /url: /wiki/C2
+              - generic "道具ID2：内眼" [ref=e652]:
+                - link "内眼" [ref=e653] [cursor=pointer]:
+                  - /url: /wiki/C2
+            - text: ：同时发射3个鲜血激光柱，延长蓄力时间。
+          - listitem [ref=e654]:
+            - generic [ref=e655]:
+              - link "C5" [ref=e656] [cursor=pointer]:
+                - /url: /wiki/C5
+              - generic "道具ID5：我的镜像" [ref=e658]:
+                - link "我的镜像" [ref=e659] [cursor=pointer]:
+                  - /url: /wiki/C5
+            - text: ：
+            - generic [ref=e660]:
+              - generic [ref=e661]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e662]:
+                  - img "DLC-.png" [ref=e663]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e664]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e665]:
+                  - img "DLC.png" [ref=e666]
+                - text: 角色移动时，鲜血激光柱会弯曲。
+              - generic [ref=e667]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e668]:
+                  - img "DLCR.png" [ref=e669]
+                - text: 鲜血激光柱向前方绕一圈后向后发射。
+          - listitem [ref=e670]:
+            - generic [ref=e671]:
+              - link "C38" [ref=e672] [cursor=pointer]:
+                - /url: /wiki/C38
+              - generic "道具ID38：塔米猫的头" [ref=e674]:
+                - link "塔米猫的头" [ref=e675] [cursor=pointer]:
+                  - /url: /wiki/C38
+            - text: ：
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - generic "在忏悔版本被移除的特性" [ref=e678]:
+                  - img "DLCR-.png" [ref=e679]
+                - text: 发射10个伤害为
+                - math [ref=e700]:
+                  - generic [ref=e701]: "30.00"
+                  - generic [ref=e702]: +
+                  - generic [ref=e703]: "100"
+                  - generic [ref=e704]: "%"
+                - text: 角色伤害的鲜血激光柱。
+              - generic [ref=e705]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e706]:
+                  - img "DLCR.png" [ref=e707]
+                - text: 发射10个伤害为
+                - math [ref=e720]:
+                  - generic [ref=e721]: "100"
+                  - generic [ref=e722]: "%"
+                - text: 角色伤害的鲜血激光柱。
+          - listitem [ref=e723]:
+            - generic [ref=e724]:
+              - link "C52" [ref=e725] [cursor=pointer]:
+                - /url: /wiki/C52
+              - generic "道具ID52：胎儿博士" [ref=e727]:
+                - link "胎儿博士" [ref=e728] [cursor=pointer]:
+                  - /url: /wiki/C52
+            - text: ：
+            - generic [ref=e729]:
+              - generic [ref=e730]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e731]:
+                  - img "DLC-.png" [ref=e732]
+                - text: 覆盖硫磺火。
+              - generic [ref=e733]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e734]:
+                  - img "DLC.png" [ref=e735]
+                - text: 角色在蓄力的同时会发射炸弹。
+              - generic [ref=e736]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e737]:
+                  - img "DLCR.png" [ref=e738]
+                - text: 覆盖硫磺火。
+          - listitem [ref=e739]:
+            - generic [ref=e740]:
+              - link "C55" [ref=e741] [cursor=pointer]:
+                - /url: /wiki/C55
+              - generic "道具ID55：妈妈的眼睛" [ref=e743]:
+                - link "妈妈的眼睛" [ref=e744] [cursor=pointer]:
+                  - /url: /wiki/C55
+            - text: ：有时会从脑后也发射1个鲜血激光柱。
+          - listitem [ref=e745]:
+            - generic [ref=e746]:
+              - link "C68" [ref=e747] [cursor=pointer]:
+                - /url: /wiki/C68
+              - generic "道具ID68：科技" [ref=e749]:
+                - link "科技" [ref=e750] [cursor=pointer]:
+                  - /url: /wiki/C68
+            - text: ：
+            - generic [ref=e751]:
+              - generic [ref=e752]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e753]:
+                  - img "DLC-.png" [ref=e754]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e755]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e756]:
+                  - img "DLC.png" [ref=e757]
+                - text: 鲜血激光柱的视觉效果改为被科技的激光围绕，
+                - img "Damage Stat Icon 2.png" [ref=e758]
+                - text: 伤害修正
+                - math [ref=e773]:
+                  - generic [ref=e774]: ×
+                  - generic [ref=e775]: "150"
+                  - generic [ref=e776]: "%"
+                - text: 。
+              - generic [ref=e777]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e778]:
+                  - img "DLCR.png" [ref=e779]
+                - text: 仅对普通的鲜血激光柱有伤害修正
+                - math [ref=e794]:
+                  - generic [ref=e795]: ×
+                  - generic [ref=e796]: "150"
+                  - generic [ref=e797]: "%"
+                - text: ，对粗鲜血激光柱无
+                - img "Damage Stat Icon 2.png" [ref=e798]
+                - text: 伤害修正，仅保留视觉效果。
+          - listitem [ref=e799]:
+            - generic [ref=e800]:
+              - link "C69" [ref=e801] [cursor=pointer]:
+                - /url: /wiki/C69
+              - generic "道具ID69：巧克力牛奶" [ref=e803]:
+                - link "巧克力牛奶" [ref=e804] [cursor=pointer]:
+                  - /url: /wiki/C69
+            - text: ：鲜血激光柱变为棕色。
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - generic "在忏悔版本被移除的特性" [ref=e807]:
+                  - img "DLCR-.png" [ref=e808]
+                - img "Tears Stat Icon 2.png" [ref=e809]
+                - text: 射击延迟
+                - math [ref=e823]:
+                  - generic [ref=e824]: ×
+                  - generic [ref=e825]: "80"
+                  - generic [ref=e826]: "%"
+                - text: 。
+              - generic [ref=e827]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e828]:
+                  - img "DLCR.png" [ref=e829]
+                - text: 延长满蓄力所需时间，但角色可以在蓄力未满时发射鲜血激光柱，伤害与鲜血激光柱宽度由蓄力时间决定，最低造成每次
+                - math [ref=e841]:
+                  - generic [ref=e842]: "25"
+                  - generic [ref=e843]: "%"
+                - text: 角色伤害，满蓄力时造成每次
+                - math [ref=e856]:
+                  - generic [ref=e857]: "250"
+                  - generic [ref=e858]: "%"
+                - text: 角色伤害。
+          - listitem [ref=e859]:
+            - generic [ref=e860]:
+              - link "C87" [ref=e861] [cursor=pointer]:
+                - /url: /wiki/C87
+              - generic "道具ID87：洛基的角" [ref=e863]:
+                - link "洛基的角" [ref=e864] [cursor=pointer]:
+                  - /url: /wiki/C87
+            - text: ：偶尔会在四个正方向上同时发射鲜血激光柱，类似于
+            - generic [ref=e865]:
+              - link "C293" [ref=e866] [cursor=pointer]:
+                - /url: /wiki/C293
+              - generic "道具ID293：坎卜斯的头" [ref=e868]:
+                - link "坎卜斯的头" [ref=e869] [cursor=pointer]:
+                  - /url: /wiki/C293
+            - text: 。
+          - listitem [ref=e870]:
+            - generic [ref=e871]:
+              - link "C89" [ref=e872] [cursor=pointer]:
+                - /url: /wiki/C89
+              - generic "道具ID89：蜘蛛之咬" [ref=e874]:
+                - link "蜘蛛之咬" [ref=e875] [cursor=pointer]:
+                  - /url: /wiki/C89
+            - text: ：击中的敌人会减速。
+          - listitem [ref=e876]:
+            - generic [ref=e877]:
+              - link "C103" [ref=e878] [cursor=pointer]:
+                - /url: /wiki/C103
+              - generic "道具ID103：普通感冒" [ref=e880]:
+                - link "普通感冒" [ref=e881] [cursor=pointer]:
+                  - /url: /wiki/C103
+            - text: ：鲜血激光柱变为绿色，且每次攻击都有概率使击中的敌人中毒。
+          - listitem [ref=e882]:
+            - generic [ref=e883]:
+              - link "C104" [ref=e884] [cursor=pointer]:
+                - /url: /wiki/C104
+              - generic "道具ID104：寄生虫" [ref=e886]:
+                - link "寄生虫" [ref=e887] [cursor=pointer]:
+                  - /url: /wiki/C104
+            - text: ：
+            - generic [ref=e888]:
+              - generic [ref=e889]:
+                - generic "在忏悔版本被移除的特性" [ref=e890]:
+                  - img "DLCR-.png" [ref=e891]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e892]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e893]:
+                  - img "DLCR.png" [ref=e894]
+                - text: 鲜血激光柱变为棕色并在击中最近的障碍物/敌人后会同时向障碍物/敌人的两边喷射较细的棕色鲜血激光柱，它们同样造成
+                - math [ref=e907]:
+                  - generic [ref=e908]: "100"
+                  - generic [ref=e909]: "%"
+                - text: 的角色伤害。
+              - generic [ref=e910]:
+                - generic "忏悔+，或忏悔+版本新增特性" [ref=e911]:
+                  - img "DLCR+.png" [ref=e912]
+                - text: 同时会分裂出小泪弹。
+          - listitem [ref=e913]:
+            - generic [ref=e914]:
+              - link "C114" [ref=e915] [cursor=pointer]:
+                - /url: /wiki/C114
+              - generic "道具ID114：妈妈的菜刀" [ref=e917]:
+                - link "妈妈的菜刀" [ref=e918] [cursor=pointer]:
+                  - /url: /wiki/C114
+            - text: ：发射的菜刀收回以后，紧接着发射数把不会收回的菜刀，造成
+            - generic [ref=e919]:
+              - generic [ref=e920]:
+                - generic "在忏悔版本被移除的特性" [ref=e921]:
+                  - img "DLCR-.png" [ref=e922]
+                - math [ref=e934]:
+                  - generic [ref=e935]: "80"
+                  - generic [ref=e936]: "%"
+              - generic [ref=e937]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e938]:
+                  - img "DLCR.png" [ref=e939]
+                - math [ref=e952]:
+                  - generic [ref=e953]: "200"
+                  - generic [ref=e954]: "%"
+            - text: 角色伤害，菜刀的数量和蓄力时间成正比。
+            - list [ref=e955]:
+              - listitem [ref=e956]:
+                - generic [ref=e957]:
+                  - link "C114" [ref=e958] [cursor=pointer]:
+                    - /url: /wiki/C114
+                  - generic "道具ID114：妈妈的菜刀" [ref=e960]:
+                    - link "妈妈的菜刀" [ref=e961] [cursor=pointer]:
+                      - /url: /wiki/C114
+                - text: +
+                - link "连体！" [ref=e962] [cursor=pointer]:
+                  - /url: /wiki/%E8%BF%9E%E4%BD%93%EF%BC%81
+                - text: ：只会向正前方发射不会收回的菜刀
+          - listitem [ref=e963]:
+            - generic [ref=e964]:
+              - link "C132" [ref=e965] [cursor=pointer]:
+                - /url: /wiki/C132
+              - generic "道具ID132：煤块" [ref=e967]:
+                - link "煤块" [ref=e968] [cursor=pointer]:
+                  - /url: /wiki/C132
+            - text: ：鲜血激光柱变为黑色。
+            - generic [ref=e969]:
+              - generic [ref=e970]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e971]:
+                  - img "DLC-.png" [ref=e972]
+                - math [ref=e986]:
+                  - generic [ref=e987]: +
+                  - generic [ref=e988]: "2.00"
+                - text: 基础伤害。
+              - generic [ref=e989]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e990]:
+                  - img "DLC.png" [ref=e991]
+                - text: 鲜血激光柱会随距离增加逐渐变粗，距离越远伤害越高。每一格增加
+                - math [ref=e1003]:
+                  - generic [ref=e1004]: "20"
+                  - generic [ref=e1005]: "%"
+                - text: 的伤害，极远距离将造成巨量伤害。
+          - listitem [ref=e1006]:
+            - generic [ref=e1007]:
+              - link "C149" [ref=e1008] [cursor=pointer]:
+                - /url: /wiki/C149
+              - generic "道具ID149：吐根酊" [ref=e1010]:
+                - link "吐根酊" [ref=e1011] [cursor=pointer]:
+                  - /url: /wiki/C149
+            - text: ：
+            - generic [ref=e1012]:
+              - generic [ref=e1013]:
+                - generic "在胎衣†版本被移除的特性" [ref=e1014]:
+                  - img "DLC+-.png" [ref=e1015]
+                - text: 鲜血激光柱击中的敌人会中毒，其他效果被硫磺火覆盖。
+              - generic [ref=e1016]:
+                - generic "胎衣†，或胎衣†版本新增特性" [ref=e1017]:
+                  - img "DLC+.png" [ref=e1018]
+                - text: 角色在蓄力的同时会抛射爆炸泪弹。
+              - generic [ref=e1019]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1020]:
+                  - img "DLCR.png" [ref=e1021]
+                - text: 移除
+                - generic [ref=e1022]:
+                  - link "C149" [ref=e1023] [cursor=pointer]:
+                    - /url: /wiki/C149
+                  - generic "道具ID149：吐根酊" [ref=e1025]:
+                    - link "吐根酊" [ref=e1026] [cursor=pointer]:
+                      - /url: /wiki/C149
+                - text: 的射速修正，
+                - img "Damage Stat Icon 2.png" [ref=e1027]
+                - text: 伤害修正改为
+                - math [ref=e1041]:
+                  - generic [ref=e1042]: +
+                  - generic [ref=e1043]: "2.00"
+                - text: ，鲜血激光柱拥有中毒效果，每段判定第一个击中的障碍物或敌人位置会产生爆炸。
+          - listitem [ref=e1044]:
+            - generic [ref=e1045]:
+              - link "C151" [ref=e1046] [cursor=pointer]:
+                - /url: /wiki/C151
+              - generic "道具ID151：虫群复击" [ref=e1048]:
+                - link "虫群复击" [ref=e1049] [cursor=pointer]:
+                  - /url: /wiki/C151
+            - text: ：击中敌人时有概率生成蓝苍蝇。
+          - listitem [ref=e1050]:
+            - generic [ref=e1051]:
+              - link "C152" [ref=e1052] [cursor=pointer]:
+                - /url: /wiki/C152
+              - generic "道具ID152：科技II" [ref=e1054]:
+                - link "科技II" [ref=e1055] [cursor=pointer]:
+                  - /url: /wiki/C152
+            - text: ：角色在蓄力的同时会发射激光。
+          - listitem [ref=e1056]:
+            - generic [ref=e1057]:
+              - link "C153" [ref=e1058] [cursor=pointer]:
+                - /url: /wiki/C153
+              - generic "道具ID153：变异蜘蛛" [ref=e1060]:
+                - link "变异蜘蛛" [ref=e1061] [cursor=pointer]:
+                  - /url: /wiki/C153
+            - text: ：同时发射4个鲜血激光柱，延长蓄力时间。
+          - listitem [ref=e1062]:
+            - generic [ref=e1063]:
+              - link "C168" [ref=e1064] [cursor=pointer]:
+                - /url: /wiki/C168
+              - generic "道具ID168：史诗胎儿博士" [ref=e1066]:
+                - link "史诗胎儿博士" [ref=e1067] [cursor=pointer]:
+                  - /url: /wiki/C168
+            - text: ：
+            - generic [ref=e1068]:
+              - generic [ref=e1069]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1070]:
+                  - img "DLC-.png" [ref=e1071]
+                - text: 覆盖硫磺火。
+              - generic [ref=e1072]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1073]:
+                  - img "DLC.png" [ref=e1074]
+                - text: 导弹落地之后会生成10个鲜血激光柱。
+          - listitem [ref=e1075]:
+            - generic [ref=e1076]:
+              - link "C182" [ref=e1077] [cursor=pointer]:
+                - /url: /wiki/C182
+              - generic "道具ID182：圣心" [ref=e1079]:
+                - link "圣心" [ref=e1080] [cursor=pointer]:
+                  - /url: /wiki/C182
+            - text: ：鲜血激光柱变为白色，获得
+            - link "追踪" [ref=e1081] [cursor=pointer]:
+              - /url: /wiki/%E8%BF%BD%E8%B8%AA
+            - text: 效果。
+          - listitem [ref=e1082]:
+            - generic [ref=e1083]:
+              - link "C217" [ref=e1084] [cursor=pointer]:
+                - /url: /wiki/C217
+              - generic "道具ID217：妈妈的假发" [ref=e1086]:
+                - link "妈妈的假发" [ref=e1087] [cursor=pointer]:
+                  - /url: /wiki/C217
+            - text: ：
+            - generic [ref=e1088]:
+              - generic [ref=e1089]:
+                - generic "在忏悔版本被移除的特性" [ref=e1090]:
+                  - img "DLCR-.png" [ref=e1091]
+                - text: 蓄力时会快速生成蓝蜘蛛。
+              - generic [ref=e1092]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1093]:
+                  - img "DLCR.png" [ref=e1094]
+                - text: 发射鲜血激光柱的同时概率生成1个蓝蜘蛛。
+          - listitem [ref=e1095]:
+            - generic [ref=e1096]:
+              - link "C220" [ref=e1097] [cursor=pointer]:
+                - /url: /wiki/C220
+              - generic "道具ID220：悲伤炸弹" [ref=e1099]:
+                - link "悲伤炸弹" [ref=e1100] [cursor=pointer]:
+                  - /url: /wiki/C220
+            - text: ：炸弹爆炸后发射10个鲜血激光柱。
+          - listitem [ref=e1101]:
+            - generic [ref=e1102]:
+              - link "C221" [ref=e1103] [cursor=pointer]:
+                - /url: /wiki/C221
+              - generic "道具ID221：橡胶胶水" [ref=e1105]:
+                - link "橡胶胶水" [ref=e1106] [cursor=pointer]:
+                  - /url: /wiki/C221
+            - text: ：
+            - generic [ref=e1107]:
+              - generic [ref=e1108]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1109]:
+                  - img "DLC-.png" [ref=e1110]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1111]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1112]:
+                  - img "DLC.png" [ref=e1113]
+                - text: 鲜血激光柱击中墙后会反弹。
+          - listitem [ref=e1114]:
+            - generic [ref=e1115]:
+              - link "C222" [ref=e1116] [cursor=pointer]:
+                - /url: /wiki/C222
+              - generic "道具ID222：反重力" [ref=e1118]:
+                - link "反重力" [ref=e1119] [cursor=pointer]:
+                  - /url: /wiki/C222
+            - text: ：生成一个硫磺火团，一段时间后向前发射鲜血激光柱。碰到硫磺火团的敌人也会受到伤害。
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1120]:
+              - img "DLCR.png" [ref=e1121]
+            - text: 移除
+            - generic [ref=e1122]:
+              - link "C222" [ref=e1123] [cursor=pointer]:
+                - /url: /wiki/C222
+              - generic "道具ID222：反重力" [ref=e1125]:
+                - link "反重力" [ref=e1126] [cursor=pointer]:
+                  - /url: /wiki/C222
+            - text: 的
+            - img "Tears Stat Icon 2.png" [ref=e1127]
+            - text: 射速修正。
+            - list [ref=e1128]:
+              - listitem [ref=e1129]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1130]:
+                  - img "DLC.png" [ref=e1131]
+                - generic "在忏悔版本被移除的特性" [ref=e1132]:
+                  - img "DLCR-.png" [ref=e1133]
+                - generic [ref=e1134]:
+                  - link "C222" [ref=e1135] [cursor=pointer]:
+                    - /url: /wiki/C222
+                  - generic "道具ID222：反重力" [ref=e1137]:
+                    - link "反重力" [ref=e1138] [cursor=pointer]:
+                      - /url: /wiki/C222
+                - text: +
+                - generic [ref=e1139]:
+                  - link "C360" [ref=e1140] [cursor=pointer]:
+                    - /url: /wiki/C360
+                  - generic "道具ID360：淫魔" [ref=e1142]:
+                    - link "淫魔" [ref=e1143] [cursor=pointer]:
+                      - /url: /wiki/C360
+                - text: ：淫魔不会延迟发射鲜血激光柱，而是像正常的一样发射鲜血激光柱。
+              - listitem [ref=e1144]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1145]:
+                  - img "DLCR.png" [ref=e1146]
+                - generic [ref=e1147]:
+                  - link "C222" [ref=e1148] [cursor=pointer]:
+                    - /url: /wiki/C222
+                  - generic "道具ID222：反重力" [ref=e1150]:
+                    - link "反重力" [ref=e1151] [cursor=pointer]:
+                      - /url: /wiki/C222
+                - text: +
+                - generic [ref=e1152]:
+                  - link "C330" [ref=e1153] [cursor=pointer]:
+                    - /url: /wiki/C330
+                  - generic "道具ID330：豆奶" [ref=e1155]:
+                    - link "豆奶" [ref=e1156] [cursor=pointer]:
+                      - /url: /wiki/C330
+                - text: /
+                - generic [ref=e1157]:
+                  - link "C561" [ref=e1158] [cursor=pointer]:
+                    - /url: /wiki/C561
+                  - generic "道具ID561：杏仁奶" [ref=e1160]:
+                    - link "杏仁奶" [ref=e1161] [cursor=pointer]:
+                      - /url: /wiki/C561
+                - text: ：角色会自动连续发射延迟的血激光柱。实际射速略高于
+                - img "Tears Stat Icon 2.png" [ref=e1162]
+                - text: 射速数值，但实际伤害不再随
+                - img "Tears Stat Icon 2.png" [ref=e1163]
+                - text: 射速属性的增加而进一步增加。
+          - listitem [ref=e1164]:
+            - generic [ref=e1165]:
+              - link "C224" [ref=e1166] [cursor=pointer]:
+                - /url: /wiki/C224
+              - generic "道具ID224：柯吉猫的身体" [ref=e1168]:
+                - link "柯吉猫的身体" [ref=e1169] [cursor=pointer]:
+                  - /url: /wiki/C224
+            - text: ：
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1170]:
+              - img "DLCR.png" [ref=e1171]
+            - text: 鲜血激光柱在击中最近的障碍物/敌人附近发射约4次4方向的眼泪。
+          - listitem [ref=e1172]:
+            - generic [ref=e1173]:
+              - link "C229" [ref=e1174] [cursor=pointer]:
+                - /url: /wiki/C229
+              - generic "道具ID229：萌死戳的肺" [ref=e1176]:
+                - link "萌死戳的肺" [ref=e1177] [cursor=pointer]:
+                  - /url: /wiki/C229
+            - text: ：
+            - generic [ref=e1178]:
+              - generic [ref=e1179]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1180]:
+                  - img "DLC-.png" [ref=e1181]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1182]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1183]:
+                  - img "DLC.png" [ref=e1184]
+                - text: 在随机方向上额外发射3~5个鲜血激光柱，不延长蓄力时间。发射鲜血激光柱时重新蓄力只会让原本正前方的鲜血激光柱消失，其他方向的会继续造成伤害。
+              - generic [ref=e1185]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1186]:
+                  - img "DLCR.png" [ref=e1187]
+                - text: 发射鲜血激光柱时重新蓄力会让其他方向的鲜血激光柱也消失。
+            - list [ref=e1188]:
+              - listitem [ref=e1189]:
+                - text: 拾取多个萌死戳的肺时，每个额外的萌死戳的肺产生的额外鲜血激光柱会分布在主鲜血激光柱两侧，类似于
+                - generic [ref=e1190]:
+                  - link "C153" [ref=e1191] [cursor=pointer]:
+                    - /url: /wiki/C153
+                  - generic "道具ID153：变异蜘蛛" [ref=e1193]:
+                    - link "变异蜘蛛" [ref=e1194] [cursor=pointer]:
+                      - /url: /wiki/C153
+                - text: 。
+          - listitem [ref=e1195]:
+            - generic [ref=e1196]:
+              - link "C233" [ref=e1197] [cursor=pointer]:
+                - /url: /wiki/C233
+              - generic "道具ID233：小小星球" [ref=e1199]:
+                - link "小小星球" [ref=e1200] [cursor=pointer]:
+                  - /url: /wiki/C233
+            - text: ：鲜血激光柱会围绕角色一圈然后朝前方射出。
+          - listitem [ref=e1201]:
+            - generic [ref=e1202]:
+              - link "C245" [ref=e1203] [cursor=pointer]:
+                - /url: /wiki/C245
+              - generic "道具ID245：完美视力" [ref=e1205]:
+                - link "完美视力" [ref=e1206] [cursor=pointer]:
+                  - /url: /wiki/C245
+            - text: ：
+            - generic [ref=e1207]:
+              - generic [ref=e1208]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1209]:
+                  - img "DLC-.png" [ref=e1210]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1211]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1212]:
+                  - img "DLC.png" [ref=e1213]
+                - text: 同时发射2个鲜血激光柱。
+          - listitem [ref=e1214]:
+            - generic [ref=e1215]:
+              - link "C257" [ref=e1216] [cursor=pointer]:
+                - /url: /wiki/C257
+              - generic "道具ID257：火焰意志" [ref=e1218]:
+                - link "火焰意志" [ref=e1219] [cursor=pointer]:
+                  - /url: /wiki/C257
+            - text: ：鲜血激光柱会让敌人着火，但不能引起爆炸或在地板上留下火焰。
+          - listitem [ref=e1220]:
+            - generic [ref=e1221]:
+              - link "C261" [ref=e1222] [cursor=pointer]:
+                - /url: /wiki/C261
+              - generic "道具ID261：眼球突出" [ref=e1224]:
+                - link "眼球突出" [ref=e1225] [cursor=pointer]:
+                  - /url: /wiki/C261
+            - text: ：
+            - generic [ref=e1226]:
+              - generic [ref=e1227]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1228]:
+                  - img "DLC-.png" [ref=e1229]
+                - text: 伤害翻倍，且不随距离衰减。
+              - generic [ref=e1230]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1231]:
+                  - img "DLC.png" [ref=e1232]
+                - text: 伤害翻倍，伤害随距离快速减小，最近时造成每次
+                - math [ref=e1245]:
+                  - generic [ref=e1246]: "400"
+                  - generic [ref=e1247]: "%"
+                - text: 角色伤害，每远1格伤害倍数
+                - math [ref=e1261]:
+                  - generic [ref=e1262]: ×
+                  - generic [ref=e1263]: "80"
+                  - generic [ref=e1264]: "%"
+              - generic [ref=e1265]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1266]:
+                  - img "DLCR.png" [ref=e1267]
+                - text: 伤害随距离呈比率减小，最近时造成每次
+                - math [ref=e1280]:
+                  - generic [ref=e1281]: "600"
+                  - generic [ref=e1282]: "%"
+                - text: 角色伤害，足够远时伤害为每次
+                - math [ref=e1294]:
+                  - generic [ref=e1295]: "0.10"
+          - listitem [ref=e1296]:
+            - generic [ref=e1297]:
+              - link "C315" [ref=e1298] [cursor=pointer]:
+                - /url: /wiki/C315
+              - generic "道具ID315：怪异磁铁" [ref=e1300]:
+                - link "怪异磁铁" [ref=e1301] [cursor=pointer]:
+                  - /url: /wiki/C315
+            - text: ：敌人会被拉向鲜血激光柱。
+            - list [ref=e1302]:
+              - listitem [ref=e1303]:
+                - generic [ref=e1304]:
+                  - link "C315" [ref=e1305] [cursor=pointer]:
+                    - /url: /wiki/C315
+                  - generic "道具ID315：怪异磁铁" [ref=e1307]:
+                    - link "怪异磁铁" [ref=e1308] [cursor=pointer]:
+                      - /url: /wiki/C315
+                - text: +
+                - generic [ref=e1309]:
+                  - link "C222" [ref=e1310] [cursor=pointer]:
+                    - /url: /wiki/C222
+                  - generic "道具ID222：反重力" [ref=e1312]:
+                    - link "反重力" [ref=e1313] [cursor=pointer]:
+                      - /url: /wiki/C222
+                - text: ：敌人会被硫磺火团吸引。
+          - listitem [ref=e1314]:
+            - generic [ref=e1315]:
+              - link "C316" [ref=e1316] [cursor=pointer]:
+                - /url: /wiki/C316
+              - generic "道具ID316：诅咒之眼" [ref=e1318]:
+                - link "诅咒之眼" [ref=e1319] [cursor=pointer]:
+                  - /url: /wiki/C316
+            - text: ：被硫磺火覆盖。
+          - listitem [ref=e1320]:
+            - generic [ref=e1321]:
+              - link "C317" [ref=e1322] [cursor=pointer]:
+                - /url: /wiki/C317
+              - generic "道具ID317：神秘液体" [ref=e1324]:
+                - link "神秘液体" [ref=e1325] [cursor=pointer]:
+                  - /url: /wiki/C317
+            - text: ：
+            - generic [ref=e1326]:
+              - generic [ref=e1327]:
+                - generic "重生，或在胎衣版本被移除的特性" [ref=e1328]:
+                  - img "DLC-.png" [ref=e1329]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1330]:
+                - generic "胎衣，或胎衣版本新增特性" [ref=e1331]:
+                  - img "DLC.png" [ref=e1332]
+                - text: 击中敌人时会留下水迹。
+          - listitem [ref=e1333]:
+            - generic [ref=e1334]:
+              - link "C323" [ref=e1335] [cursor=pointer]:
+                - /url: /wiki/C323
+              - generic "道具ID323：以撒的泪盆" [ref=e1337]:
+                - link "以撒的泪盆" [ref=e1338] [cursor=pointer]:
+                  - /url: /wiki/C323
+            - text: ：发射普通泪弹，蓄力时快速充能。
+          - listitem [ref=e1339]:
+            - generic [ref=e1340]:
+              - link "C329" [ref=e1341] [cursor=pointer]:
+                - /url: /wiki/C329
+              - generic "道具ID329：鲁多维科科技" [ref=e1343]:
+                - link "鲁多维科科技" [ref=e1344] [cursor=pointer]:
+                  - /url: /wiki/C329
+            - text: ：鲜血激光柱变为一个可控制的鲜血激光环。鲜血激光环对接触的敌人造成每4帧（每秒15次）
+            - math [ref=e1357]:
+              - generic [ref=e1358]: "100"
+              - generic [ref=e1359]: "%"
+            - text: 角色伤害。鲜血激光环的内部不造成伤害。
+          - listitem [ref=e1360]:
+            - generic [ref=e1361]:
+              - link "C330" [ref=e1362] [cursor=pointer]:
+                - /url: /wiki/C330
+              - generic "道具ID330：豆奶" [ref=e1364]:
+                - link "豆奶" [ref=e1365] [cursor=pointer]:
+                  - /url: /wiki/C330
+            - text: ：
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - generic "在忏悔版本被移除的特性" [ref=e1368]:
+                  - img "DLCR-.png" [ref=e1369]
+                - text: 大幅度降低硫磺火的蓄力时间和伤害。
+              - generic [ref=e1370]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1371]:
+                  - img "DLCR.png" [ref=e1372]
+                - text: 发射无间隔低伤害的乳白色激光柱。可以通过两个方向键配合来转动硫磺火，同时按下两个方向键则可以保持
+                - math [ref=e1385]:
+                  - generic [ref=e1386]: "45"
+                  - generic [ref=e1387]: °
+                - text: 释放。鲜血激光柱对接触的敌人造成每4帧（每秒15次）单次
+                - generic [ref=e1390]:
+                  - img [aria-hidden] [ref=e1391]:
+                    - generic [ref=e1396]:
+                      - generic [ref=e1397]: 角
+                      - generic [ref=e1399]: 色
+                      - generic [ref=e1401]: 伤
+                      - generic [ref=e1403]: 害
+                      - generic [ref=e1407]: 角
+                      - generic [ref=e1409]: 色
+                      - generic [ref=e1411]: 射
+                      - generic [ref=e1413]: 速
+                  - math [ref=e1419]:
+                    - generic [ref=e1421]:
+                      - generic [ref=e1422]:
+                        - generic [ref=e1423]: 角
+                        - generic [ref=e1424]: 色
+                        - generic [ref=e1425]: 伤
+                        - generic [ref=e1426]: 害
+                        - generic [ref=e1427]: ×
+                        - generic [ref=e1428]: 角
+                        - generic [ref=e1429]: 色
+                        - generic [ref=e1430]: 射
+                        - generic [ref=e1431]: 速
+                      - generic [ref=e1432]: "5"
+                - text: 的伤害。
+          - listitem [ref=e1433]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1434]:
+              - img "DLC.png" [ref=e1435]
+            - generic [ref=e1436]:
+              - link "C358" [ref=e1437] [cursor=pointer]:
+                - /url: /wiki/C358
+              - generic "道具ID358：蠢巫帽" [ref=e1439]:
+                - link "蠢巫帽" [ref=e1440] [cursor=pointer]:
+                  - /url: /wiki/C358
+            - text: ：向前方两个对角线方向发射鲜血激光柱。
+          - listitem [ref=e1441]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1442]:
+              - img "DLC.png" [ref=e1443]
+            - generic [ref=e1444]:
+              - link "C359" [ref=e1445] [cursor=pointer]:
+                - /url: /wiki/C359
+              - generic "道具ID359：八寸钉" [ref=e1447]:
+                - link "八寸钉" [ref=e1448] [cursor=pointer]:
+                  - /url: /wiki/C359
+            - text: ：硫磺火具有击退效果。
+          - listitem [ref=e1449]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1450]:
+              - img "DLC.png" [ref=e1451]
+            - generic [ref=e1452]:
+              - link "C369" [ref=e1453] [cursor=pointer]:
+                - /url: /wiki/C369
+              - generic "道具ID369：连续统" [ref=e1455]:
+                - link "连续统" [ref=e1456] [cursor=pointer]:
+                  - /url: /wiki/C369
+            - text: ：
+            - generic [ref=e1457]:
+              - generic [ref=e1458]:
+                - generic "在忏悔版本被移除的特性" [ref=e1459]:
+                  - img "DLCR-.png" [ref=e1460]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1461]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1462]:
+                  - img "DLCR.png" [ref=e1463]
+                - text: 鲜血激光柱会穿过墙壁，从屏幕的另一边回来，然后击中墙壁。不会对敌人造成双重伤害。
+          - listitem [ref=e1464]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1465]:
+              - img "DLC.png" [ref=e1466]
+            - generic [ref=e1467]:
+              - link "C374" [ref=e1468] [cursor=pointer]:
+                - /url: /wiki/C374
+              - generic "道具ID374：圣光" [ref=e1470]:
+                - link "圣光" [ref=e1471] [cursor=pointer]:
+                  - /url: /wiki/C374
+            - text: ：
+            - generic [ref=e1472]:
+              - generic [ref=e1473]:
+                - generic "在忏悔版本被移除的特性" [ref=e1474]:
+                  - img "DLCR-.png" [ref=e1475]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1476]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1477]:
+                  - img "DLCR.png" [ref=e1478]
+                - text: 鲜血激光柱每次判定都有概率触发圣光。
+          - listitem [ref=e1479]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1480]:
+              - img "DLC.png" [ref=e1481]
+            - generic [ref=e1482]:
+              - link "C379" [ref=e1483] [cursor=pointer]:
+                - /url: /wiki/C379
+              - generic "道具ID379：双瞳" [ref=e1485]:
+                - link "双瞳" [ref=e1486] [cursor=pointer]:
+                  - /url: /wiki/C379
+            - text: ：被硫磺火覆盖。
+          - listitem [ref=e1487]:
+            - generic [ref=e1488]:
+              - link "C394" [ref=e1489] [cursor=pointer]:
+                - /url: /wiki/C394
+              - generic "道具ID394：十字准星" [ref=e1491]:
+                - link "十字准星" [ref=e1492] [cursor=pointer]:
+                  - /url: /wiki/C394
+            - text: ：
+            - generic [ref=e1493]:
+              - generic [ref=e1494]:
+                - generic "在忏悔版本被移除的特性" [ref=e1495]:
+                  - img "DLCR-.png" [ref=e1496]
+                - text: 覆盖十字准星。
+              - generic [ref=e1497]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1498]:
+                  - img "DLCR.png" [ref=e1499]
+                - text: 会一直向光标方向发射鲜血激光柱。
+          - listitem [ref=e1500]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1501]:
+              - img "DLC.png" [ref=e1502]
+            - generic [ref=e1503]:
+              - link "C395" [ref=e1504] [cursor=pointer]:
+                - /url: /wiki/C395
+              - generic "道具ID395：科技X" [ref=e1506]:
+                - link "科技X" [ref=e1507] [cursor=pointer]:
+                  - /url: /wiki/C395
+            - text: ：角色会发射大小随蓄力时间增加的鲜血激光环，移除
+            - img "Tears Stat Icon 2.png" [ref=e1508]
+            - text: 射速修正。
+            - list [ref=e1509]:
+              - listitem [ref=e1510]:
+                - generic [ref=e1511]:
+                  - link "C395" [ref=e1512] [cursor=pointer]:
+                    - /url: /wiki/C395
+                  - generic "道具ID395：科技X" [ref=e1514]:
+                    - link "科技X" [ref=e1515] [cursor=pointer]:
+                      - /url: /wiki/C395
+                - text: +
+                - generic [ref=e1516]:
+                  - link "C132" [ref=e1517] [cursor=pointer]:
+                    - /url: /wiki/C132
+                  - generic "道具ID132：煤块" [ref=e1519]:
+                    - link "煤块" [ref=e1520] [cursor=pointer]:
+                      - /url: /wiki/C132
+                - text: ：鲜血激光环的尺寸随距离上升而变大。
+              - listitem [ref=e1521]:
+                - generic [ref=e1522]:
+                  - link "C395" [ref=e1523] [cursor=pointer]:
+                    - /url: /wiki/C395
+                  - generic "道具ID395：科技X" [ref=e1525]:
+                    - link "科技X" [ref=e1526] [cursor=pointer]:
+                      - /url: /wiki/C395
+                - text: +
+                - generic [ref=e1527]:
+                  - link "C114" [ref=e1528] [cursor=pointer]:
+                    - /url: /wiki/C114
+                  - generic "道具ID114：妈妈的菜刀" [ref=e1530]:
+                    - link "妈妈的菜刀" [ref=e1531] [cursor=pointer]:
+                      - /url: /wiki/C114
+                - text: ：发射妈妈的菜刀+飞出数把刀+鲜血激光环。
+              - listitem [ref=e1532]:
+                - generic [ref=e1533]:
+                  - link "C395" [ref=e1534] [cursor=pointer]:
+                    - /url: /wiki/C395
+                  - generic "道具ID395：科技X" [ref=e1536]:
+                    - link "科技X" [ref=e1537] [cursor=pointer]:
+                      - /url: /wiki/C395
+                - text: +
+                - generic [ref=e1538]:
+                  - link "C572" [ref=e1539] [cursor=pointer]:
+                    - /url: /wiki/C572
+                  - generic "道具ID572：玄秘魔眼" [ref=e1541]:
+                    - link "玄秘魔眼" [ref=e1542] [cursor=pointer]:
+                      - /url: /wiki/C572
+                - text: ：鲜血激光环变为紫色，但
+                - generic [ref=e1543]:
+                  - link "C572" [ref=e1544] [cursor=pointer]:
+                    - /url: /wiki/C572
+                  - generic "道具ID572：玄秘魔眼" [ref=e1546]:
+                    - link "玄秘魔眼" [ref=e1547] [cursor=pointer]:
+                      - /url: /wiki/C572
+                - text: 的其他效果被覆盖。
+              - listitem [ref=e1548]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1549]:
+                  - img "DLCR.png" [ref=e1550]
+                - generic [ref=e1551]:
+                  - link "C395" [ref=e1552] [cursor=pointer]:
+                    - /url: /wiki/C395
+                  - generic "道具ID395：科技X" [ref=e1554]:
+                    - link "科技X" [ref=e1555] [cursor=pointer]:
+                      - /url: /wiki/C395
+                - text: +额外硫磺火：蓄力发射更粗的鲜血激光环，移除额外硫磺火提供的
+                - img "Damage Stat Icon 2.png" [ref=e1556]
+                - text: 伤害修正。
+          - listitem [ref=e1557]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1558]:
+              - img "DLC.png" [ref=e1559]
+            - generic [ref=e1560]:
+              - link "C401" [ref=e1561] [cursor=pointer]:
+                - /url: /wiki/C401
+              - generic "道具ID401：爆炸物" [ref=e1563]:
+                - link "爆炸物" [ref=e1564] [cursor=pointer]:
+                  - /url: /wiki/C401
+            - generic [ref=e1565]:
+              - generic [ref=e1566]:
+                - generic "在忏悔版本被移除的特性" [ref=e1567]:
+                  - img "DLCR-.png" [ref=e1568]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1569]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1570]:
+                  - img "DLCR.png" [ref=e1571]
+                - text: 鲜血激光柱变为深灰色，且每帧攻击都有
+                - math [ref=e1583]:
+                  - generic [ref=e1584]: "25"
+                  - generic [ref=e1585]: "%"
+                - text: 概率黏在敌人身上一颗爆炸物泪弹。
+          - listitem [ref=e1586]:
+            - generic "胎衣，或胎衣版本新增特性" [ref=e1587]:
+              - img "DLC.png" [ref=e1588]
+            - generic [ref=e1589]:
+              - link "C429" [ref=e1590] [cursor=pointer]:
+                - /url: /wiki/C429
+              - generic "道具ID429：店主的头" [ref=e1592]:
+                - link "店主的头" [ref=e1593] [cursor=pointer]:
+                  - /url: /wiki/C429
+            - text: ：
+            - generic [ref=e1594]:
+              - generic [ref=e1595]:
+                - generic "在忏悔版本被移除的特性" [ref=e1596]:
+                  - img "DLCR-.png" [ref=e1597]
+                - text: 覆盖硫磺火。
+              - generic [ref=e1598]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1599]:
+                  - img "DLCR.png" [ref=e1600]
+                - text: 鲜血激光柱变为金色，且每帧攻击都有
+                - math [ref=e1611]:
+                  - generic [ref=e1612]: "5"
+                  - generic [ref=e1613]: "%"
+                - text: 概率生成1个硬币。
+          - listitem [ref=e1614]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1615]:
+              - img "DLC+.png" [ref=e1616]
+            - generic [ref=e1617]:
+              - link "C453" [ref=e1618] [cursor=pointer]:
+                - /url: /wiki/C453
+              - generic "道具ID453：复杂性骨折" [ref=e1620]:
+                - link "复杂性骨折" [ref=e1621] [cursor=pointer]:
+                  - /url: /wiki/C453
+            - text: ：被硫磺火覆盖。
+          - listitem [ref=e1622]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1623]:
+              - img "DLC+.png" [ref=e1624]
+            - generic [ref=e1625]:
+              - link "C459" [ref=e1626] [cursor=pointer]:
+                - /url: /wiki/C459
+              - generic "道具ID459：鼻窦炎" [ref=e1628]:
+                - link "鼻窦炎" [ref=e1629] [cursor=pointer]:
+                  - /url: /wiki/C459
+            - text: ：
+            - generic [ref=e1630]:
+              - generic [ref=e1631]:
+                - generic "在忏悔版本被移除的特性" [ref=e1632]:
+                  - img "DLCR-.png" [ref=e1633]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1634]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1635]:
+                  - img "DLCR.png" [ref=e1636]
+                - text: 鲜血激光柱变为绿色，且每帧攻击都有
+                - math [ref=e1648]:
+                  - generic [ref=e1649]: "20"
+                  - generic [ref=e1650]: "%"
+                - text: 概率往敌人身上粘一颗鼻屎泪弹。
+          - listitem [ref=e1651]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1652]:
+              - img "DLC+.png" [ref=e1653]
+            - generic [ref=e1654]:
+              - link "C463" [ref=e1655] [cursor=pointer]:
+                - /url: /wiki/C463
+              - generic "道具ID463：硫酸" [ref=e1657]:
+                - link "硫酸" [ref=e1658] [cursor=pointer]:
+                  - /url: /wiki/C463
+            - text: ：
+            - generic [ref=e1659]:
+              - generic [ref=e1660]:
+                - generic "在忏悔版本被移除的特性" [ref=e1661]:
+                  - img "DLCR-.png" [ref=e1662]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1663]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1664]:
+                  - img "DLCR.png" [ref=e1665]
+                - text: 鲜血激光柱变为浅黄色，且每帧攻击都有
+                - math [ref=e1677]:
+                  - generic [ref=e1678]: "25"
+                  - generic [ref=e1679]: "%"
+                - text: 概率触发硫酸的效果，但无法像普通硫酸泪弹一样打开隐藏房及关上的房间门。
+              - generic [ref=e1680]:
+                - generic "忏悔+，或忏悔+版本新增特性" [ref=e1681]:
+                  - img "DLCR+.png" [ref=e1682]
+                - text: 可以打开隐藏房和关上的房间门。
+          - listitem [ref=e1683]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1684]:
+              - img "DLC+.png" [ref=e1685]
+            - generic [ref=e1686]:
+              - link "C494" [ref=e1687] [cursor=pointer]:
+                - /url: /wiki/C494
+              - generic "道具ID494：雅各布天梯" [ref=e1689]:
+                - link "雅各布天梯" [ref=e1690] [cursor=pointer]:
+                  - /url: /wiki/C494
+            - text: ：
+            - generic [ref=e1691]:
+              - generic [ref=e1692]:
+                - generic "在忏悔版本被移除的特性" [ref=e1693]:
+                  - img "DLCR-.png" [ref=e1694]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1695]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1696]:
+                  - img "DLCR.png" [ref=e1697]
+                - text: 鲜血激光柱可以触发雅各布天梯。
+          - listitem [ref=e1698]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1699]:
+              - img "DLC+.png" [ref=e1700]
+            - generic [ref=e1701]:
+              - link "C529" [ref=e1702] [cursor=pointer]:
+                - /url: /wiki/C529
+              - generic "道具ID529：噗！" [ref=e1704]:
+                - link "噗！" [ref=e1705] [cursor=pointer]:
+                  - /url: /wiki/C529
+            - text: ：
+            - generic [ref=e1706]:
+              - generic [ref=e1707]:
+                - generic "在忏悔版本被移除的特性" [ref=e1708]:
+                  - img "DLCR-.png" [ref=e1709]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1710]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1711]:
+                  - img "DLCR.png" [ref=e1712]
+                - text: 鲜血激光柱变短，其射程不会再随数值改变。在鲜血激光柱的末端会生成大量的
+                - generic [ref=e1713]:
+                  - link "C529" [ref=e1714] [cursor=pointer]:
+                    - /url: /wiki/C529
+                  - generic "道具ID529：噗！" [ref=e1716]:
+                    - link "噗！" [ref=e1717] [cursor=pointer]:
+                      - /url: /wiki/C529
+                - text: 泪弹，且带有
+                - link "穿刺" [ref=e1718] [cursor=pointer]:
+                  - /url: /wiki/%E7%A9%BF%E5%88%BA
+                - text: 效果。
+          - listitem [ref=e1719]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1720]:
+              - img "DLC+.png" [ref=e1721]
+            - generic [ref=e1722]:
+              - link "C531" [ref=e1723] [cursor=pointer]:
+                - /url: /wiki/C531
+              - generic "道具ID531：泪血症" [ref=e1725]:
+                - link "泪血症" [ref=e1726] [cursor=pointer]:
+                  - /url: /wiki/C531
+            - text: ：二者的
+            - img "Tears Stat Icon 2.png" [ref=e1727]
+            - text: 射速修正变为
+            - math [ref=e1752]:
+              - generic [ref=e1753]: ×
+              - generic [ref=e1754]:
+                - generic [ref=e1755]: "1"
+                - generic [ref=e1761]:
+                  - generic [ref=e1762]: t
+                  - generic [ref=e1763]: +
+                  - generic [ref=e1764]: "2"
+            - text: 。泪血抛出后不再抛射小泪血，而是向随机方向发射3~7道血激光柱，大泪血贴图会发红光。
+          - listitem [ref=e1765]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e1766]:
+              - img "DLC+.png" [ref=e1767]
+            - generic [ref=e1768]:
+              - link "C532" [ref=e1769] [cursor=pointer]:
+                - /url: /wiki/C532
+              - generic "道具ID532：食泪症" [ref=e1771]:
+                - link "食泪症" [ref=e1772] [cursor=pointer]:
+                  - /url: /wiki/C532
+            - text: ：
+            - generic [ref=e1773]:
+              - generic [ref=e1774]:
+                - generic "在忏悔版本被移除的特性" [ref=e1775]:
+                  - img "DLCR-.png" [ref=e1776]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e1777]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e1778]:
+                  - img "DLCR.png" [ref=e1779]
+                - text: 鲜血激光柱变短，其射程不会再随数值改变。在鲜血激光柱的末端会生成大量的
+                - generic [ref=e1780]:
+                  - link "C532" [ref=e1781] [cursor=pointer]:
+                    - /url: /wiki/C532
+                  - generic "道具ID532：食泪症" [ref=e1783]:
+                    - link "食泪症" [ref=e1784] [cursor=pointer]:
+                      - /url: /wiki/C532
+                - text: 泪弹，且带有
+                - link "穿刺" [ref=e1785] [cursor=pointer]:
+                  - /url: /wiki/%E7%A9%BF%E5%88%BA
+                - text: 效果。
+          - listitem [ref=e1786]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1787]:
+              - img "DLCR.png" [ref=e1788]
+            - generic [ref=e1789]:
+              - link "C553" [ref=e1790] [cursor=pointer]:
+                - /url: /wiki/C553
+              - generic "道具ID553：毛霉菌病" [ref=e1792]:
+                - link "毛霉菌病" [ref=e1793] [cursor=pointer]:
+                  - /url: /wiki/C553
+            - text: ：鲜血激光柱变为紫色，并且在击中敌人时有概率在敌人身上附着上孢子泪弹
+          - listitem [ref=e1794]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1795]:
+              - img "DLCR.png" [ref=e1796]
+            - generic [ref=e1797]:
+              - link "C561" [ref=e1798] [cursor=pointer]:
+                - /url: /wiki/C561
+              - generic "道具ID561：杏仁奶" [ref=e1800]:
+                - link "杏仁奶" [ref=e1801] [cursor=pointer]:
+                  - /url: /wiki/C561
+            - text: ：发射无间隔低伤害并快速切换虫类饰品效果的乳白色激光柱。可以通过两个方向键配合来转动硫磺火，同时按下两个方向键则可以保持
+            - math [ref=e1814]:
+              - generic [ref=e1815]: "45"
+              - generic [ref=e1816]: °
+            - text: 释放，鲜血激光柱对接触的敌人造成每4帧（每秒15次）单次
+            - generic [ref=e1819]:
+              - img [aria-hidden] [ref=e1820]:
+                - generic [ref=e1825]:
+                  - generic [ref=e1826]: 角
+                  - generic [ref=e1828]: 色
+                  - generic [ref=e1830]: 伤
+                  - generic [ref=e1832]: 害
+                  - generic [ref=e1836]: 角
+                  - generic [ref=e1838]: 色
+                  - generic [ref=e1840]: 射
+                  - generic [ref=e1842]: 速
+              - math [ref=e1848]:
+                - generic [ref=e1850]:
+                  - generic [ref=e1851]:
+                    - generic [ref=e1852]: 角
+                    - generic [ref=e1853]: 色
+                    - generic [ref=e1854]: 伤
+                    - generic [ref=e1855]: 害
+                    - generic [ref=e1856]: ×
+                    - generic [ref=e1857]: 角
+                    - generic [ref=e1858]: 色
+                    - generic [ref=e1859]: 射
+                    - generic [ref=e1860]: 速
+                  - generic [ref=e1861]: "5"
+            - text: 的伤害。
+          - listitem [ref=e1862]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1863]:
+              - img "DLCR.png" [ref=e1864]
+            - generic [ref=e1865]:
+              - link "C570" [ref=e1866] [cursor=pointer]:
+                - /url: /wiki/C570
+              - generic "道具ID570：黏土饼干" [ref=e1868]:
+                - link "黏土饼干" [ref=e1869] [cursor=pointer]:
+                  - /url: /wiki/C570
+            - text: ：鲜血激光柱变为七种颜色轮换，并对击中的敌人在每次击中判定时施加随机负面效果。
+            - list [ref=e1870]:
+              - listitem [ref=e1871]:
+                - generic [ref=e1872]:
+                  - link "C570" [ref=e1873] [cursor=pointer]:
+                    - /url: /wiki/C570
+                  - generic "道具ID570：黏土饼干" [ref=e1875]:
+                    - link "黏土饼干" [ref=e1876] [cursor=pointer]:
+                      - /url: /wiki/C570
+                - text: +
+                - generic [ref=e1877]:
+                  - link "C222" [ref=e1878] [cursor=pointer]:
+                    - /url: /wiki/C222
+                  - generic "道具ID222：反重力" [ref=e1880]:
+                    - link "反重力" [ref=e1881] [cursor=pointer]:
+                      - /url: /wiki/C222
+                - text: ：硫磺火团变为七种颜色轮换，并对击中的敌人在每次击中判定时施加随机负面效果。
+          - listitem [ref=e1882]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1883]:
+              - img "DLCR.png" [ref=e1884]
+            - generic [ref=e1885]:
+              - link "C572" [ref=e1886] [cursor=pointer]:
+                - /url: /wiki/C572
+              - generic "道具ID572：玄秘魔眼" [ref=e1888]:
+                - link "玄秘魔眼" [ref=e1889] [cursor=pointer]:
+                  - /url: /wiki/C572
+            - text: ：鲜血激光柱变为紫色，攻击方式会变为一个可操纵的十字标识，当玩家在一个房间内首次按下射击键后十字标识将出现，硫磺火将自动充能并向标识方向施放，类似
+            - generic [ref=e1890]:
+              - link "C394" [ref=e1891] [cursor=pointer]:
+                - /url: /wiki/C394
+              - generic "道具ID394：十字准星" [ref=e1893]:
+                - link "十字准星" [ref=e1894] [cursor=pointer]:
+                  - /url: /wiki/C394
+            - text: 的效果。
+            - list [ref=e1895]:
+              - listitem [ref=e1896]:
+                - text: 紫色鲜血激光柱会产生一些扭动，而不是类似
+                - generic [ref=e1897]:
+                  - link "C394" [ref=e1898] [cursor=pointer]:
+                    - /url: /wiki/C394
+                  - generic "道具ID394：十字准星" [ref=e1900]:
+                    - link "十字准星" [ref=e1901] [cursor=pointer]:
+                      - /url: /wiki/C394
+                - text: 那样沿直线施放。
+          - listitem [ref=e1902]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1903]:
+              - img "DLCR.png" [ref=e1904]
+            - generic [ref=e1905]:
+              - link "C618" [ref=e1906] [cursor=pointer]:
+                - /url: /wiki/C618
+              - generic "道具ID618：烂番茄" [ref=e1908]:
+                - link "烂番茄" [ref=e1909] [cursor=pointer]:
+                  - /url: /wiki/C618
+            - text: ：鲜血激光柱可以触发烂番茄的效果。
+          - listitem [ref=e1910]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1911]:
+              - img "DLCR.png" [ref=e1912]
+            - generic [ref=e1913]:
+              - link "C678" [ref=e1914] [cursor=pointer]:
+                - /url: /wiki/C678
+              - generic "道具ID678：剖腹产" [ref=e1916]:
+                - link "剖腹产" [ref=e1917] [cursor=pointer]:
+                  - /url: /wiki/C678
+            - text: ：发射鲜血激光柱的同时发射4个胎儿。
+            - list [ref=e1918]:
+              - listitem [ref=e1919]:
+                - generic [ref=e1920]:
+                  - link "C678" [ref=e1921] [cursor=pointer]:
+                    - /url: /wiki/C678
+                  - generic "道具ID678：剖腹产" [ref=e1923]:
+                    - link "剖腹产" [ref=e1924] [cursor=pointer]:
+                      - /url: /wiki/C678
+                - text: ＋
+                - generic [ref=e1925]:
+                  - link "C395" [ref=e1926] [cursor=pointer]:
+                    - /url: /wiki/C395
+                  - generic "道具ID395：科技X" [ref=e1928]:
+                    - link "科技X" [ref=e1929] [cursor=pointer]:
+                      - /url: /wiki/C395
+                - text: ：覆盖范围硫磺火。
+              - listitem [ref=e1930]:
+                - generic [ref=e1931]:
+                  - link "C678" [ref=e1932] [cursor=pointer]:
+                    - /url: /wiki/C678
+                  - generic "道具ID678：剖腹产" [ref=e1934]:
+                    - link "剖腹产" [ref=e1935] [cursor=pointer]:
+                      - /url: /wiki/C678
+                - text: +
+                - generic [ref=e1936]:
+                  - link "C572" [ref=e1937] [cursor=pointer]:
+                    - /url: /wiki/C572
+                  - generic "道具ID572：玄秘魔眼" [ref=e1939]:
+                    - link "玄秘魔眼" [ref=e1940] [cursor=pointer]:
+                      - /url: /wiki/C572
+                - text: ：硫磺火仍然以类似
+                - generic [ref=e1941]:
+                  - link "C394" [ref=e1942] [cursor=pointer]:
+                    - /url: /wiki/C394
+                  - generic "道具ID394：十字准星" [ref=e1944]:
+                    - link "十字准星" [ref=e1945] [cursor=pointer]:
+                      - /url: /wiki/C394
+                - text: 的兼容方式发射，同时发射胎儿；但胎儿只会往上下左右发射。
+          - listitem [ref=e1946]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e1947]:
+              - img "DLCR.png" [ref=e1948]
+            - generic [ref=e1949]:
+              - link "C726" [ref=e1950] [cursor=pointer]:
+                - /url: /wiki/C726
+              - generic "道具ID726：咯血症" [ref=e1952]:
+                - link "咯血症" [ref=e1953] [cursor=pointer]:
+                  - /url: /wiki/C726
+            - text: ：对标记状态下的敌人造成每段
+            - math [ref=e1973]:
+              - generic [ref=e1974]: "200"
+              - generic [ref=e1975]: "%"
+              - generic [ref=e1976]: +
+              - generic [ref=e1977]: "3.00"
+            - text: 点伤害，被标记的敌人被硫磺火消灭时，产生爆炸，对周围敌人造成
+            - math [ref=e1990]:
+              - generic [ref=e1991]: "10.00"
+            - text: 点伤害并施加硫磺诅咒标记。
+          - listitem [ref=e1992]:
+            - generic [ref=e1993]:
+              - link "T10" [ref=e1994] [cursor=pointer]:
+                - /url: /wiki/T10
+              - generic "饰品ID10：蠕动虫" [ref=e1996]:
+                - link "蠕动虫" [ref=e1997] [cursor=pointer]:
+                  - /url: /wiki/T10
+            - text: ：鲜血激光柱以正弦曲线模式前进。
+          - listitem [ref=e1998]:
+            - generic [ref=e1999]:
+              - link "T12" [ref=e2000] [cursor=pointer]:
+                - /url: /wiki/T12
+              - generic "饰品ID12：扁形虫" [ref=e2002]:
+                - link "扁形虫" [ref=e2003] [cursor=pointer]:
+                  - /url: /wiki/T12
+            - text: 和
+            - generic [ref=e2004]:
+              - link "T9" [ref=e2005] [cursor=pointer]:
+                - /url: /wiki/T9
+              - generic "饰品ID9：波动虫" [ref=e2007]:
+                - link "波动虫" [ref=e2008] [cursor=pointer]:
+                  - /url: /wiki/T9
+            - text: ：被硫磺火覆盖。
+          - listitem [ref=e2009]:
+            - generic [ref=e2010]:
+              - link "T26" [ref=e2011] [cursor=pointer]:
+                - /url: /wiki/T26
+              - generic "饰品ID26：钩形虫" [ref=e2013]:
+                - link "钩形虫" [ref=e2014] [cursor=pointer]:
+                  - /url: /wiki/T26
+            - text: ：鲜血激光柱以方形波模式前进，变相提高鲜血激光柱的宽度。
+          - listitem [ref=e2015]:
+            - generic [ref=e2016]:
+              - link "T11" [ref=e2017] [cursor=pointer]:
+                - /url: /wiki/T11
+              - generic "饰品ID11：环形虫" [ref=e2019]:
+                - link "环形虫" [ref=e2020] [cursor=pointer]:
+                  - /url: /wiki/T11
+            - text: ：鲜血激光柱以螺旋模式前进。
+          - listitem [ref=e2021]:
+            - generic "胎衣†，或胎衣†版本新增特性" [ref=e2022]:
+              - img "DLC+.png" [ref=e2023]
+            - generic [ref=e2024]:
+              - link "T96" [ref=e2025] [cursor=pointer]:
+                - /url: /wiki/T96
+              - generic "饰品ID96：衔尾虫" [ref=e2027]:
+                - link "衔尾虫" [ref=e2028] [cursor=pointer]:
+                  - /url: /wiki/T96
+            - text: ：
+            - generic [ref=e2029]:
+              - generic [ref=e2030]:
+                - generic "在忏悔版本被移除的特性" [ref=e2031]:
+                  - img "DLCR-.png" [ref=e2032]
+                - text: 被硫磺火覆盖。
+              - generic [ref=e2033]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e2034]:
+                  - img "DLCR.png" [ref=e2035]
+                - text: 鲜血激光柱以绕大圈的螺旋模式前进。
+          - listitem [ref=e2036]:
+            - generic "忏悔，或忏悔版本新增特性" [ref=e2037]:
+              - img "DLCR.png" [ref=e2038]
+            - generic [ref=e2039]:
+              - link "T144" [ref=e2040] [cursor=pointer]:
+                - /url: /wiki/T144
+              - generic "饰品ID144：脑形虫" [ref=e2042]:
+                - link "脑形虫" [ref=e2043] [cursor=pointer]:
+                  - /url: /wiki/T144
+            - text: ：鲜血激光柱会拐弯击向角色旁边的敌人。
+          - listitem [ref=e2044]:
+            - link "书虫！" [ref=e2045] [cursor=pointer]:
+              - /url: /wiki/%E4%B9%A6%E8%99%AB%EF%BC%81
+            - text: ：概率发射2个重叠的鲜血激光柱。
+          - listitem [ref=e2046]:
+            - link "连体！" [ref=e2047] [cursor=pointer]:
+              - /url: /wiki/%E8%BF%9E%E4%BD%93%EF%BC%81
+            - text: ：额外向前方两个对角线方向发射鲜血激光柱。
+          - listitem [ref=e2048]:
+            - link "追踪" [ref=e2049] [cursor=pointer]:
+              - /url: /wiki/%E8%BF%BD%E8%B8%AA
+            - text: 效果：鲜血激光柱获得追踪效果，会包抄并伤害到鲜血激光柱附近的敌人。
+        - heading "画廊" [level=2] [ref=e2050]
+        - list [ref=e2051]:
+          - listitem [ref=e2052]:
+            - generic [ref=e2053]:
+              - link [ref=e2056] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:%E7%A4%BA%E4%BE%8B_%E7%A1%AB%E7%A3%BA%E7%81%AB8.gif
+              - paragraph [ref=e2058]: 硫磺火的一次发射
+          - listitem [ref=e2059]:
+            - generic [ref=e2060]:
+              - link [ref=e2063] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:Brimstone_Tears.png
+              - paragraph [ref=e2065]: 硫磺火的泪弹特效
+          - listitem [ref=e2066]:
+            - generic [ref=e2067]:
+              - link [ref=e2070] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:%E7%A1%AB%E7%A3%BA.svg
+              - paragraph [ref=e2072]: 炼金术中的硫磺标志 🜏
+          - listitem [ref=e2073]:
+            - generic [ref=e2074]:
+              - link [ref=e2077] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:Azazal%27s_Brimstone.png
+              - paragraph [ref=e2079]:
+                - generic [ref=e2080]:
+                  - link [ref=e2081] [cursor=pointer]:
+                    - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                    - img "阿撒泻勒" [ref=e2082]
+                  - link "阿撒泻勒" [ref=e2083] [cursor=pointer]:
+                    - /url: /wiki/%E9%98%BF%E6%92%92%E6%B3%BB%E5%8B%92
+                - text: 的短程硫磺火
+          - listitem [ref=e2084]:
+            - generic [ref=e2085]:
+              - link [ref=e2088] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:Collectible_Brimstone_death_doughnut.png
+              - paragraph [ref=e2090]:
+                - text: 硫磺火+
+                - generic [ref=e2091]:
+                  - link "C329" [ref=e2092] [cursor=pointer]:
+                    - /url: /wiki/C329
+                  - generic "道具ID329：鲁多维科科技" [ref=e2094]:
+                    - link "鲁多维科科技" [ref=e2095] [cursor=pointer]:
+                      - /url: /wiki/C329
+                - text: 效果
+          - listitem [ref=e2096]:
+            - generic [ref=e2097]:
+              - link [ref=e2100] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:Azazeltinyplanet.png
+              - paragraph [ref=e2102]:
+                - text: 硫磺火（短程）+
+                - generic [ref=e2103]:
+                  - link "C233" [ref=e2104] [cursor=pointer]:
+                    - /url: /wiki/C233
+                  - generic "道具ID233：小小星球" [ref=e2106]:
+                    - link "小小星球" [ref=e2107] [cursor=pointer]:
+                      - /url: /wiki/C233
+                - text: 效果
+          - listitem [ref=e2108]:
+            - generic [ref=e2109]:
+              - link [ref=e2112] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:Green_star_of_hate.png
+              - paragraph [ref=e2114]:
+                - text: 硫磺火+
+                - generic [ref=e2115]:
+                  - link "C233" [ref=e2116] [cursor=pointer]:
+                    - /url: /wiki/C233
+                  - generic "道具ID233：小小星球" [ref=e2118]:
+                    - link "小小星球" [ref=e2119] [cursor=pointer]:
+                      - /url: /wiki/C233
+                - text: +
+                - generic [ref=e2120]:
+                  - link "C103" [ref=e2121] [cursor=pointer]:
+                    - /url: /wiki/C103
+                  - generic "道具ID103：普通感冒" [ref=e2123]:
+                    - link "普通感冒" [ref=e2124] [cursor=pointer]:
+                      - /url: /wiki/C103
+                - text: +
+                - generic [ref=e2125]:
+                  - link "C38" [ref=e2126] [cursor=pointer]:
+                    - /url: /wiki/C38
+                  - generic "道具ID38：塔米猫的头" [ref=e2128]:
+                    - link "塔米猫的头" [ref=e2129] [cursor=pointer]:
+                      - /url: /wiki/C38
+                - text: 效果
+          - listitem [ref=e2130]:
+            - generic [ref=e2131]:
+              - link [ref=e2134] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:GReesRB.png
+              - paragraph [ref=e2136]:
+                - text: 硫磺火+
+                - generic [ref=e2137]:
+                  - link "C329" [ref=e2138] [cursor=pointer]:
+                    - /url: /wiki/C329
+                  - generic "道具ID329：鲁多维科科技" [ref=e2140]:
+                    - link "鲁多维科科技" [ref=e2141] [cursor=pointer]:
+                      - /url: /wiki/C329
+                - text: +
+                - generic [ref=e2142]:
+                  - link "T10" [ref=e2143] [cursor=pointer]:
+                    - /url: /wiki/T10
+                  - generic "饰品ID10：蠕动虫" [ref=e2145]:
+                    - link "蠕动虫" [ref=e2146] [cursor=pointer]:
+                      - /url: /wiki/T10
+                - text: 效果
+          - listitem [ref=e2147]:
+            - generic [ref=e2148]:
+              - link [ref=e2151] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:11207945_10205874578171081_1461918262_o.jpg
+              - paragraph [ref=e2153]:
+                - text: 硫磺火+
+                - generic [ref=e2154]:
+                  - link "C233" [ref=e2155] [cursor=pointer]:
+                    - /url: /wiki/C233
+                  - generic "道具ID233：小小星球" [ref=e2157]:
+                    - link "小小星球" [ref=e2158] [cursor=pointer]:
+                      - /url: /wiki/C233
+                - text: +
+                - link "魅惑" [ref=e2159] [cursor=pointer]:
+                  - /url: /wiki/%E6%95%88%E6%9E%9C#魅惑
+                - text: +
+                - link "追踪" [ref=e2160] [cursor=pointer]:
+                  - /url: /wiki/%E8%BF%BD%E8%B8%AA
+                - text: 效果
+          - listitem [ref=e2161]:
+            - generic [ref=e2162]:
+              - link [ref=e2165] [cursor=pointer]:
+                - /url: /wiki/%E6%96%87%E4%BB%B6:20210604152421.png
+              - paragraph [ref=e2167]:
+                - generic "忏悔，或忏悔版本新增特性" [ref=e2168]:
+                  - img "DLCR.png" [ref=e2169]
+                - text: 硫磺火+
+                - generic [ref=e2170]:
+                  - link "T96" [ref=e2171] [cursor=pointer]:
+                    - /url: /wiki/T96
+                  - generic "饰品ID96：衔尾虫" [ref=e2173]:
+                    - link "衔尾虫" [ref=e2174] [cursor=pointer]:
+                      - /url: /wiki/T96
+                - text: 效果
+        - heading "轶事" [level=2] [ref=e2175]
+        - list [ref=e2176]:
+          - listitem [ref=e2177]:
+            - generic "在忏悔版本被移除的特性" [ref=e2178]:
+              - img "DLCR-.png" [ref=e2179]
+            - text: 硫磺火是
+            - link "特殊道具" [ref=e2180] [cursor=pointer]:
+              - /url: /wiki/%E7%89%B9%E6%AE%8A%E9%81%93%E5%85%B7
+            - text: 。
+          - listitem [ref=e2181]: “brimstone”（burn stone）一词来源于钦定版圣经（King James Version of the Bible）中提到的“burning sulfur”。它被用在短语“fire and brimstone（硫磺与火）”中，意为“炼狱之苦”。常温下固态硫呈浅黄色，而高温熔融态硫则呈血红色。
+          - listitem [ref=e2182]:
+            - text: 该道具的图标“🜏（Unicode：U+1F70F）”来源于炼金术中的
+            - link "硫磺 " [ref=e2183] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Alchemical_symbol#Mundane_elements
+            - text: ，称作“利维坦十字（The Leviathan Cross）”。撒但教创始人Anton LaVey在撒但圣经中将该图标用作地狱的象征，现在这个图标常常让人联想到恶魔崇拜等信仰。
+          - listitem [ref=e2184]:
+            - text: 如果玩家在2014年12月10日前预购了《
+            - link "以撒的结合：重生" [ref=e2185] [cursor=pointer]:
+              - /url: /wiki/%E4%BB%A5%E6%92%92%E7%9A%84%E7%BB%93%E5%90%88%EF%BC%9A%E9%87%8D%E7%94%9F
+            - text: 》，那么可以在《军团要塞2》中获得“Brimstone horns”帽子饰品。
+          - listitem [ref=e2186]:
+            - text: “Brimstone”也是
+            - link "Edmund " [ref=e2187] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Edmund_McMillen
+            - text: 制作的另一个游戏《
+            - link "超级食肉男孩 " [ref=e2188] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/zh:%E8%B6%85%E7%BA%A7%E9%A3%9F%E8%82%89%E7%94%B7%E5%AD%A9
+            - text: 》中一个关卡的名称。
+          - listitem [ref=e2189]:
+            - text: 硫磺火、
+            - generic "忏悔，或忏悔版本新增特性" [ref=e2190]:
+              - img "DLCR.png" [ref=e2191]
+            - generic [ref=e2192]:
+              - link "C665" [ref=e2193] [cursor=pointer]:
+                - /url: /wiki/C665
+              - generic "道具ID665：嗝屁猫的眼睛" [ref=e2195]:
+                - link "嗝屁猫的眼睛" [ref=e2196] [cursor=pointer]:
+                  - /url: /wiki/C665
+            - text: 和
+            - generic "忏悔，或忏悔版本新增特性" [ref=e2197]:
+              - img "DLCR.png" [ref=e2198]
+            - generic [ref=e2199]:
+              - link "C730" [ref=e2200] [cursor=pointer]:
+                - /url: /wiki/C730
+              - generic "道具ID730：玻璃眼" [ref=e2202]:
+                - link "玻璃眼" [ref=e2203] [cursor=pointer]:
+                  - /url: /wiki/C730
+            - text: 是游戏中少数在拾取两个时有特殊外观的道具。
+          - listitem [ref=e2204]: 在原版《以撒的结合》中，硫磺火还存在于诅咒房道具池。
+        - generic [ref=e2205]:
+          - link "特殊道具" [ref=e2208] [cursor=pointer]:
+            - /url: /wiki/%E7%89%B9%E6%AE%8A%E9%81%93%E5%85%B7
+          - generic [ref=e2210]:
+            - link "C52" [ref=e2213] [cursor=pointer]:
+              - /url: /wiki/C52
+            - link "C105" [ref=e2217] [cursor=pointer]:
+              - /url: /wiki/C105
+            - link "C114" [ref=e2221] [cursor=pointer]:
+              - /url: /wiki/C114
+            - link "C153" [ref=e2229] [cursor=pointer]:
+              - /url: /wiki/C153
+            - link "C168" [ref=e2233] [cursor=pointer]:
+              - /url: /wiki/C168
+            - link "C169" [ref=e2237] [cursor=pointer]:
+              - /url: /wiki/C169
+            - link "C182" [ref=e2241] [cursor=pointer]:
+              - /url: /wiki/C182
+            - link "C223" [ref=e2245] [cursor=pointer]:
+              - /url: /wiki/C223
+            - link "C283" [ref=e2249] [cursor=pointer]:
+              - /url: /wiki/C283
+            - link "C329" [ref=e2253] [cursor=pointer]:
+              - /url: /wiki/C329
+            - link "C331" [ref=e2257] [cursor=pointer]:
+              - /url: /wiki/C331
+            - generic [ref=e2259]:
+              - generic "重生，或在胎衣版本被移除的特性" [ref=e2260]:
+                - img "DLC-.png" [ref=e2261]
+              - link "C232" [ref=e2263] [cursor=pointer]:
+                - /url: /wiki/C232
+            - generic [ref=e2265]:
+              - generic "重生，或在胎衣版本被移除的特性" [ref=e2266]:
+                - img "DLC-.png" [ref=e2267]
+              - link "C275" [ref=e2269] [cursor=pointer]:
+                - /url: /wiki/C275
+            - generic [ref=e2271]:
+              - generic "重生，或在胎衣版本被移除的特性" [ref=e2272]:
+                - img "DLC-.png" [ref=e2273]
+              - link "C330" [ref=e2275] [cursor=pointer]:
+                - /url: /wiki/C330
+        - generic [ref=e2277]:
+          - link "圣经" [ref=e2278] [cursor=pointer]:
+            - /url: /wiki/%E5%9C%A3%E7%BB%8F
+          - link "道具图鉴" [ref=e2282] [cursor=pointer]:
+            - /url: /wiki/%E9%81%93%E5%85%B7
+          - link "撒旦圣经" [ref=e2283] [cursor=pointer]:
+            - /url: /wiki/%E6%92%92%E6%97%A6%E5%9C%A3%E7%BB%8F
+        - tablist [ref=e2286]:
+          - generic [ref=e2287]:
+            - tab [ref=e2288]:
+              - button "第 1 页" [expanded] [ref=e2290] [cursor=pointer]
+            - tab [ref=e2291]:
+              - button "第 2 页" [expanded] [ref=e2293] [cursor=pointer]
+            - tab [ref=e2294]:
+              - button "第 3 页" [expanded] [ref=e2296] [cursor=pointer]
+            - tab [ref=e2297]:
+              - button "第 4 页" [expanded] [ref=e2299] [cursor=pointer]
+            - tab [ref=e2300]:
+              - button "第 5 页" [expanded] [ref=e2302] [cursor=pointer]
+            - tab [ref=e2303]:
+              - button "第 6 页" [expanded] [ref=e2305] [cursor=pointer]
+            - tab [ref=e2306]:
+              - button "其他" [expanded] [ref=e2308] [cursor=pointer]
+      - generic [ref=e2312]:
+        - link "分类" [ref=e2313] [cursor=pointer]:
+          - /url: /wiki/%E7%89%B9%E6%AE%8A:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB
+        - text: ：
+        - list [ref=e2314]:
+          - listitem [ref=e2315]:
+            - link "道具" [ref=e2316] [cursor=pointer]:
+              - /url: /wiki/%E5%88%86%E7%B1%BB:%E9%81%93%E5%85%B7
+  - generic [ref=e2318]:
+    - generic [ref=e2319]:
+      - paragraph [ref=e2320]:
+        - link "帮助中心 " [ref=e2321] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/wiki/CommunityCenter
+        - text: "-"
+        - link "常用模板" [ref=e2322] [cursor=pointer]:
+          - /url: /wiki/Project:%E5%B8%B8%E7%94%A8%E6%A8%A1%E6%9D%BF
+        - text: "-"
+        - link "维基计划" [ref=e2323] [cursor=pointer]:
+          - /url: /wiki/Project:%E9%A1%B5%E9%9D%A2%E8%AE%A1%E5%88%92%E5%88%97%E8%A1%A8
+        - text: "-"
+        - link "编辑规范" [ref=e2324] [cursor=pointer]:
+          - /url: /wiki/Project:%E7%BC%96%E8%BE%91%E8%A7%84%E8%8C%83
+        - text: "- 编辑QQ群："
+        - link "319311382 " [ref=e2326] [cursor=pointer]:
+          - /url: https://jq.qq.com/?_wv=1027&k=5EDVu26
+      - paragraph [ref=e2327]:
+        - text: 《以撒的结合》是一款集合了
+        - generic [ref=e2328]: 推箱子、血统检验、少女换装、宠物养成、地形创造、密室逃脱、鬼屋惊魂、神庙逃亡、弹幕躲避
+        - text: 等等诸多元素的跨世代Roguelite大作。
+      - separator [ref=e2329]
+      - generic [ref=e2330]:
+        - link [ref=e2332] [cursor=pointer]:
+          - /url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+          - img "Cc logo.png" [ref=e2333]
+        - list [ref=e2334]:
+          - listitem [ref=e2335]:
+            - text: "本wiki的内容由玩家和爱好者自发编写，以撒的结合、以撒的结合：重生、The Binding of Isaac: Rebirth 商标及其游戏内素材内容归属原作者所有。"
+            - list [ref=e2336]:
+              - listitem [ref=e2337]: 本站协作内容产生的最终作品著作权归全体创作者和灰机wiki平台共有。
+          - listitem [ref=e2338]:
+            - text: 部分内容翻译自
+            - link "英文wiki " [ref=e2339] [cursor=pointer]:
+              - /url: https://bindingofisaacrebirth.wiki.gg
+            - text: 。该部分内容按照
+            - link "CC BY-SA 3.0 " [ref=e2340] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-sa/3.0/deed.zh
+            - text: 国际许可协议进行分享。
+          - listitem [ref=e2341]:
+            - text: 本wiki的物品测试等原创内容按照
+            - link "CC BY-NC-SA 3.0 " [ref=e2342] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh
+            - text: 国际许可协议进行分享。
+        - paragraph
+        - list [ref=e2344]:
+          - listitem [ref=e2345]:
+            - list [ref=e2346]:
+              - listitem [ref=e2347]: BY(署名) — 您必须给出适当的署名，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。您可以用任何合理的方式来署名，但是不得以任何方式暗示以撒的结合中文wiki为您或您的使用背书。
+              - listitem [ref=e2348]:
+                - text: NC(商业性使用) — 您不得将本作品用于商业目的，包括用以制作第三方平台上的小程序和应用，关于商业目的的界定，本wiki和托管提供方
+                - link "灰机wiki " [ref=e2349] [cursor=pointer]:
+                  - /url: https://www.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
+                - text: 享有最终解释权。
+              - listitem [ref=e2350]: SA(相同方式共享) — 如果您再混合、转换或者基于本作品进行创作，您必须基于与原先许可协议相同的许可协议分发您贡献的作品。
+        - paragraph
+        - list [ref=e2351]:
+          - listitem [ref=e2352]:
+            - text: 任何人和第三方未经授权，不得将wiki内容拷贝、转存、引用至无法适用本页协议的程序或应用之上。如需授权请联系站点管理员
+            - link "菌" [ref=e2353] [cursor=pointer]:
+              - /url: /wiki/%E7%94%A8%E6%88%B7:%E8%8F%8C
+            - text: 。
+    - generic [ref=e2356]:
+      - generic [ref=e2357]:
+        - generic [ref=e2358]:
+          - generic [ref=e2359]: 用户交流
+          - list [ref=e2360]:
+            - listitem [ref=e2361]:
+              - link "机长QQ群 " [ref=e2362] [cursor=pointer]:
+                - /url: https://jq.qq.com/?_wv=1027&k=EwRZH1Yy
+            - listitem [ref=e2363]:
+              - link "Wiki编辑QQ群 " [ref=e2364] [cursor=pointer]:
+                - /url: https://jq.qq.com/?_wv=1027&k=aIaMXZeN
+            - listitem [ref=e2365]:
+              - link "媒体读者QQ群 " [ref=e2366] [cursor=pointer]:
+                - /url: https://jq.qq.com/?_wv=1027&k=rcYo5t5M
+            - listitem [ref=e2367]:
+              - link "灰机Club " [ref=e2368] [cursor=pointer]:
+                - /url: https://club.huijiwiki.com/
+        - generic [ref=e2369]:
+          - generic [ref=e2370]: 站点支持
+          - list [ref=e2371]:
+            - listitem [ref=e2372]:
+              - link "申请建站 " [ref=e2373] [cursor=pointer]:
+                - /url: https://www.huijiwiki.com/wiki/project:%E7%81%B0%E6%9C%BA%E5%81%9C%E6%9C%BA%E5%9D%AA
+            - listitem [ref=e2374]:
+              - link "文档中心 " [ref=e2375] [cursor=pointer]:
+                - /url: https://www.huijiwiki.com/wiki/CommunityCenter
+            - listitem [ref=e2376]:
+              - link "维基化概述 " [ref=e2377] [cursor=pointer]:
+                - /url: https://www.huijiwiki.com/wiki/help:%E7%BB%B4%E5%9F%BA%E5%8C%96
+            - listitem [ref=e2378]:
+              - link "使用条款 " [ref=e2379] [cursor=pointer]:
+                - /url: https://www.huijiwiki.com/wiki/project:%E4%BD%BF%E7%94%A8%E6%9D%A1%E6%AC%BE%E5%92%8C%E5%86%85%E5%AE%B9%E5%A3%B0%E6%98%8E
+            - listitem [ref=e2380]:
+              - link "编辑条款 " [ref=e2381] [cursor=pointer]:
+                - /url: https://www.huijiwiki.com/wiki/project:%E7%94%A8%E6%88%B7%E7%BC%96%E8%BE%91%E6%9D%A1%E6%AC%BE
+        - generic [ref=e2382]:
+          - generic [ref=e2383]: 关注灰机
+          - list [ref=e2384]:
+            - listitem [ref=e2385]:
+              - link "微博 " [ref=e2386] [cursor=pointer]:
+                - /url: https://weibo.com/huijigames
+            - listitem [ref=e2387]:
+              - link "知乎 " [ref=e2388] [cursor=pointer]:
+                - /url: https://www.zhihu.com/org/hui-ji-game/activities
+            - listitem [ref=e2389]:
+              - link "Bilibili " [ref=e2390] [cursor=pointer]:
+                - /url: https://live.bilibili.com/21421676
+            - listitem [ref=e2391]: 微信公众号 huiji_game
+        - list [ref=e2393]:
+          - listitem [ref=e2394]:
+            - link " 下载狗头人App" [ref=e2395] [cursor=pointer]:
+              - /url: https://www.huijiwiki.com/wiki/Project:AppDownload
+              - generic [ref=e2396]:
+                - generic [ref=e2397]: 
+                - text: 下载狗头人App
+          - listitem [ref=e2398]: 联系邮箱 support@huiji.wiki
+      - paragraph
+      - paragraph
+    - generic [ref=e2399]:
+      - generic [ref=e2400]:
+        - generic [ref=e2401]: 3.2K 条目
+        - generic [ref=e2402]: 221K 编辑
+        - generic [ref=e2403]: 11.2K 关注
+      - paragraph [ref=e2404]:
+        - link "灰机人机协议" [ref=e2405] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/237
+        - text: "|"
+        - link "灰机停机坪" [ref=e2406] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/142
+        - text: "|"
+        - link "维基家园计划" [ref=e2407] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/141
+        - text: "|"
+        - link "关于灰机wiki" [ref=e2408] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/139
+        - text: "|"
+        - link "使用条款和声明" [ref=e2409] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/298
+        - text: "|"
+        - link "编辑条款" [ref=e2410] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/357
+        - text: "|"
+        - link "商务合作" [ref=e2411] [cursor=pointer]:
+          - /url: https://www.huijiwiki.com/p/4584
+        - text: Powered by
+        - link "MediaWiki" [ref=e2412] [cursor=pointer]:
+          - /url: https://mediawiki.org
+        - link "京ICP备15015138号" [ref=e2413] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/
+        - link "京公网安备 11010802025154号" [ref=e2414] [cursor=pointer]:
+          - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802025154&token=651a3142-c427-419d-af96-0e3988c05b2f

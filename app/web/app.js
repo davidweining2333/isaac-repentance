@@ -183,8 +183,9 @@
           ${unlockReq && unlockName ? `<span class="munlock-note">成就「${esc(unlockName)}」</span>` : ""}
         </div>`
       : "";
-    const wikiHref = r.wiki_page
-      ? "https://bindingofisaacrebirth.wiki.gg/wiki/" + encodeURIComponent(r.wiki_page).replace(/%20/g, "_")
+    /* 跳转灰机中文 wiki：wiki_page 标记有 wiki 条目，页面名用中文名 */
+    const wikiHref = (r.wiki_page && r.name_zh)
+      ? "https://isaac.huijiwiki.com/wiki/" + encodeURIComponent(r.name_zh)
       : "";
     const wikiLink = wikiHref
       ? ` · <a class="mlink" href="${wikiHref}" target="_blank" rel="noopener">以撒 Wiki ↗</a>`
