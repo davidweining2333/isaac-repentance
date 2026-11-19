@@ -17,3 +17,7 @@ raw/
 # Playwright 临时产物
 *.log
 .playwright-mcp/
+
+# 合成评测集/训练产物（可重新生成）
+app/eval/data/
+app/eval/models/

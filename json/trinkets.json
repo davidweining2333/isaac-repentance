@@ -337,7 +337,7 @@
     "wiki_description": "Most non-specific Heart drops become Black Hearts, but most heart drops are replaced by Keys.",
     "wiki_page": "Daemon's Tail",
     "image": "images/trinket/22.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Daemon%27s_Tail_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Daemon%27s_Tail_icon.png"
   },
   {
     "id": 23,
@@ -586,7 +586,7 @@
     "wiki_description": "Grants a secondary 10% chance of any non-specific heart drop turning into a Soul Heart, Category:Modified in Repentance+ Black Heart or Bone Heart.",
     "wiki_page": "Mom's Pearl",
     "image": "images/trinket/38.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Mom%27s_Pearl_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Mom%27s_Pearl_icon.png"
   },
   {
     "id": 39,
@@ -712,7 +712,7 @@
     "wiki_description": "Isaac has a chance to heal for a Half Red Heart upon clearing a room.",
     "wiki_page": "Isaac's Fork",
     "image": "images/trinket/46.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Isaac%27s_Fork_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Isaac%27s_Fork_icon.png"
   },
   {
     "id": 48,
@@ -894,7 +894,7 @@
     "wiki_description": "When starting a floor, 25% chance to gain the effect of The Compass for the duration of the floor.",
     "wiki_page": "Cain's Eye",
     "image": "images/trinket/59.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cain%27s_Eye_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cain%27s_Eye_icon.png"
   },
   {
     "id": 60,
@@ -999,7 +999,7 @@
     "wiki_description": "Decreases shot speed by 0.5. Category:Modified in Repentance Increases range by 4. Category:Modified in Repentance+ Increases damage by 0.5.",
     "wiki_page": "Lazy Worm",
     "image": "images/trinket/66.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Lazy_Worm_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Lazy_Worm_icon.png"
   },
   {
     "id": 67,
@@ -1014,7 +1014,7 @@
     "wiki_description": "Category:Modified in Repentance Activates Category:Modified in Repentance Has a chance to activate the effect of The D6 , D8 , Category:Modified in Repentance D10 , D12 , or D20 (chosen randomly) whenever Isaac takes damage.",
     "wiki_page": "Cracked Dice",
     "image": "images/trinket/67.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cracked_Dice_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cracked_Dice_icon.png"
   },
   {
     "id": 68,
@@ -1029,7 +1029,7 @@
     "wiki_description": "Pulls enemies and pickups towards Isaac.",
     "wiki_page": "Super Magnet",
     "image": "images/trinket/68.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Super_Magnet_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Super_Magnet_icon.png"
   },
   {
     "id": 69,
@@ -1124,7 +1124,7 @@
     "wiki_description": "Increases the chance to spawn a Crawl Space when a rock is destroyed.",
     "wiki_page": "Stud Finder",
     "image": "images/trinket/74.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Stud_Finder_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Stud_Finder_icon.png"
   },
   {
     "id": 75,
@@ -1184,7 +1184,7 @@
     "wiki_description": "Increases the time that status effects stay on enemies.",
     "wiki_page": "Second Hand",
     "image": "images/trinket/78.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Second_Hand_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Second_Hand_icon.png"
   },
   {
     "id": 79,
@@ -1199,7 +1199,7 @@
     "wiki_description": "Has a 25% chance of creating a duplicate of any pill, card, or rune Isaac uses.",
     "wiki_page": "Endless Nameless",
     "image": "images/trinket/79.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Endless_Nameless_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Endless_Nameless_icon.png"
   },
   {
     "id": 80,
@@ -1229,7 +1229,7 @@
     "wiki_description": "Increases invincibility time after getting hit.",
     "wiki_page": "Blind Rage",
     "image": "images/trinket/81.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Blind_Rage_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Blind_Rage_icon.png"
   },
   {
     "id": 82,
@@ -1246,7 +1246,7 @@
     "wiki_description": "+15% chance for Treasure Rooms to have two items. Only one item can be taken.",
     "wiki_page": "Golden Horse Shoe",
     "image": "images/trinket/82.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Golden_Horse_Shoe_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Golden_Horse_Shoe_icon.png"
   },
   {
     "id": 83,
@@ -1298,7 +1298,7 @@
     "wiki_description": "Donating to a Donation Machine, Category:Modified in Repentance+Blood Donation Machine, or Category:Modified in Repentance+Confessional has a chance to heal Isaac for a full Red Heart or spawn a Beggar. Increases the chance that donating to a Donation Machine will increase Isaac's luck.Category:Modified in Repentance+ Reduces the chance of the Donation Machine jamming. Donating to a Beggar has a chance to heal Isaac for a full Red Heart or increase luck.",
     "wiki_page": "Karma",
     "image": "images/trinket/85.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Karma_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Karma_icon.png"
   },
   {
     "id": 86,
@@ -1313,7 +1313,7 @@
     "wiki_description": "Spawns a Blue Fly from every pile of Poop that Isaac destroys.",
     "wiki_page": "Lil Larva",
     "image": "images/trinket/86.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Lil_Larva_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Lil_Larva_icon.png"
   },
   {
     "id": 87,
@@ -1343,7 +1343,7 @@
     "wiki_description": "Prevents active items from being generated, if possible.",
     "wiki_page": "NO!",
     "image": "images/trinket/88.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_NO%21_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_NO%21_icon.png"
   },
   {
     "id": 89,
@@ -1388,7 +1388,7 @@
     "wiki_description": "Black Poops can drop Black Hearts when destroyed. Poop has a chance to turn into Black Poop.",
     "wiki_page": "Meconium",
     "image": "images/trinket/91.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Meconium_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Meconium_icon.png"
   },
   {
     "id": 92,
@@ -1403,7 +1403,7 @@
     "wiki_description": "Category:Modified in Repentance Decreases Isaac's tear delay by 20%, and improves the effectiveness of his other stat upgrades by 33%. Category:Modified in Repentance Improves the effectiveness of stat upgrades by 20%.",
     "wiki_page": "Cracked Crown",
     "image": "images/trinket/92.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cracked_Crown_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Cracked_Crown_icon.png"
   },
   {
     "id": 93,
@@ -1508,7 +1508,7 @@
     "wiki_description": "Makes tears have a chance to bounce off enemies and obstacles.",
     "wiki_page": "Super Ball",
     "image": "images/trinket/99.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Super_Ball_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Super_Ball_icon.png"
   },
   {
     "id": 100,
@@ -1556,7 +1556,7 @@
     "wiki_description": "Makes two Secret Rooms spawn on each floor.",
     "wiki_page": "Fragmented Card",
     "image": "images/trinket/102.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Fragmented_Card_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Fragmented_Card_icon.png"
   },
   {
     "id": 103,
@@ -1586,7 +1586,7 @@
     "wiki_description": "Taking damage has a small chance to destroy the trinket and spawn a random item.",
     "wiki_page": "Wish Bone",
     "image": "images/trinket/104.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Wish_Bone_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Wish_Bone_icon.png"
   },
   {
     "id": 105,
@@ -1679,7 +1679,7 @@
     "wiki_description": "Shops appear in Chapter 4.",
     "wiki_page": "Silver Dollar",
     "image": "images/trinket/110.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Silver_Dollar_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Silver_Dollar_icon.png"
   },
   {
     "id": 111,
@@ -1697,7 +1697,7 @@
     "wiki_description": "Treasure Rooms appear in Chapter 4.",
     "wiki_page": "Bloody Crown",
     "image": "images/trinket/111.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Bloody_Crown_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Bloody_Crown_icon.png"
   },
   {
     "id": 112,
@@ -1714,7 +1714,7 @@
     "wiki_description": "Shop Restock Machines always spawn in Treasure Rooms.",
     "wiki_page": "Pay to Win",
     "image": "images/trinket/112.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Pay_to_Win_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Pay_to_Win_icon.png"
   },
   {
     "id": 113,
@@ -1804,7 +1804,7 @@
     "wiki_description": "Upon killing an enemy, has a 5% chance to grant flight for the rest of the room.",
     "wiki_page": "Bat Wing",
     "image": "images/trinket/118.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Bat_Wing_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Bat_Wing_icon.png"
   },
   {
     "id": 119,
@@ -1819,7 +1819,7 @@
     "wiki_description": "Category:Modified in Repentance Heals Isaac for a Half Red Heart upon traveling to the next floor. Category:Modified in Repentance Heals 50% of Isaac's empty Red Heart containers upon traveling to the next floor.",
     "wiki_page": "Stem Cell",
     "image": "images/trinket/119.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Stem_Cell_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Stem_Cell_icon.png"
   },
   {
     "id": 120,
@@ -2452,7 +2452,7 @@
     "wiki_description": "Spawns a Grab Bag upon traveling to the next floor.",
     "wiki_page": "Lucky Sack",
     "image": "images/trinket/160.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/trinket_Lucky_Sack_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Lucky_Sack_icon.png"
   },
   {
     "id": 161,
@@ -2719,7 +2719,7 @@
     "wiki_description": "Drops a Chest after clearing a Challenge Room, or an extra Boss item after clearing a Boss Challenge Room.",
     "wiki_page": "Temporary Tattoo",
     "image": "images/trinket/177.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/trinket_Temporary_Tattoo_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Trinket_Temporary_Tattoo_icon.png"
   },
   {
     "id": 178,

@@ -91,7 +91,7 @@
     "wiki_description": "Increases Damage by 0.5, and increases damage multiplier by ×1.5.",
     "wiki_page": "Cricket's Head",
     "image": "images/collectible/4.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cricket%27s_Head_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cricket%27s_Head_icon.png"
   },
   {
     "id": 5,
@@ -186,7 +186,7 @@
     "wiki_description": "Spawns a familiar who follows Isaac around and fires normal tears Category:Modified in Repentance once per second / Category:Modified in Repentance 1.88 times a second that each do 3.5 damage.",
     "wiki_page": "Brother Bobby",
     "image": "images/collectible/8.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Brother_Bobby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Brother_Bobby_icon.png"
   },
   {
     "id": 9,
@@ -212,7 +212,7 @@
     "wiki_description": "Flies become harmless or less dangerous depending on the type.",
     "wiki_page": "Skatole",
     "image": "images/collectible/9.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Skatole_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Skatole_icon.png"
   },
   {
     "id": 10,
@@ -236,7 +236,7 @@
     "wiki_description": "Spawns two Pretty Flies that block enemy shots and deal contact damage to flies.",
     "wiki_page": "Halo of Flies",
     "image": "images/collectible/10.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Halo_of_Flies_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Halo_of_Flies_icon.png"
   },
   {
     "id": 11,
@@ -354,7 +354,7 @@
     "wiki_description": "Grants Isaac one Red Heart container and fully restores Isaac's health.",
     "wiki_page": "Less Than Three",
     "image": "images/collectible/15.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Less_Than_Three_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Less_Than_Three_icon.png"
   },
   {
     "id": 16,
@@ -399,7 +399,7 @@
     "wiki_description": "Gives Isaac 99 Keys.",
     "wiki_page": "Skeleton Key",
     "image": "images/collectible/17.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Skeleton_Key_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Skeleton_Key_icon.png"
   },
   {
     "id": 18,
@@ -492,7 +492,7 @@
     "wiki_description": "Reveals the locations and types of all special rooms on the map, except Secret Rooms and Super Secret Rooms.",
     "wiki_page": "The Compass",
     "image": "images/collectible/21.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Compass_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Compass_icon.png"
   },
   {
     "id": 22,
@@ -658,7 +658,7 @@
     "wiki_description": "+0.3 speed.",
     "wiki_page": "The Belt",
     "image": "images/collectible/28.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Belt_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Belt_icon.png"
   },
   {
     "id": 29,
@@ -1052,7 +1052,7 @@
     "wiki_description": "+1 luck. Improves Isaac's chances at various random events (independent from the luck stat). Category:Modified in Repentance Converts all bad pills into good pills, without identifying them.",
     "wiki_page": "Lucky Foot",
     "image": "images/collectible/46.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lucky_Foot_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lucky_Foot_icon.png"
   },
   {
     "id": 47,
@@ -1097,7 +1097,7 @@
     "wiki_description": "Grants Isaac triangular piercing tears that travel through enemies (but not obstacles) instead of breaking on impact with them.",
     "wiki_page": "Cupid's Arrow",
     "image": "images/collectible/48.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cupid%27s_Arrow_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cupid%27s_Arrow_icon.png"
   },
   {
     "id": 49,
@@ -1142,7 +1142,7 @@
     "wiki_description": "+1 damage.",
     "wiki_page": "Steven (Item)",
     "image": "images/collectible/50.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Steven_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Steven_icon.png"
   },
   {
     "id": 51,
@@ -1167,7 +1167,7 @@
     "wiki_description": "+1 damage, increases Devil Room / Angel Room chance by 10%.",
     "wiki_page": "Pentagram",
     "image": "images/collectible/51.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pentagram_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pentagram_icon.png"
   },
   {
     "id": 52,
@@ -1190,7 +1190,7 @@
     "wiki_description": "Tears are replaced by Bombs that benefit from bomb-enhancing effects and slide for a fixed time after being fired.",
     "wiki_page": "Dr. Fetus",
     "image": "images/collectible/52.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dr._Fetus_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dr._Fetus_icon.png"
   },
   {
     "id": 53,
@@ -1212,7 +1212,7 @@
     "wiki_description": "Pulls pickups towards Isaac.",
     "wiki_page": "Magneto",
     "image": "images/collectible/53.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magneto_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magneto_icon.png"
   },
   {
     "id": 54,
@@ -1261,7 +1261,7 @@
     "wiki_description": "Gives Isaac a chance to fire tears from the back of his head.",
     "wiki_page": "Mom's Eye",
     "image": "images/collectible/55.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Eye_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Eye_icon.png"
   },
   {
     "id": 56,
@@ -1308,7 +1308,7 @@
     "wiki_description": "Spawns an attack fly that circles further out than Halo of Flies , but closer than Forever alone , dealing 75 damage per second.",
     "wiki_page": "Distant Admiration",
     "image": "images/collectible/57.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Distant_Admiration_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Distant_Admiration_icon.png"
   },
   {
     "id": 58,
@@ -1471,7 +1471,7 @@
     "wiki_description": "All enemies in the room are slowed for 8 seconds.",
     "wiki_page": "The Hourglass",
     "image": "images/collectible/66.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Hourglass_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Hourglass_icon.png"
   },
   {
     "id": 67,
@@ -1496,7 +1496,7 @@
     "wiki_description": "Spawns a familiar who follows Isaac around and fires normal tears Category:Modified in Repentance once per second that each do 3.5 damage / Category:Modified in Repentance 1.36 times per second that each do 6 damage .",
     "wiki_page": "Sister Maggy",
     "image": "images/collectible/67.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sister_Maggy_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sister_Maggy_icon.png"
   },
   {
     "id": 68,
@@ -1543,7 +1543,7 @@
     "wiki_description": "Grants charged tears that deal greater damage when fully charged.",
     "wiki_page": "Chocolate Milk",
     "image": "images/collectible/69.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Chocolate_Milk_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Chocolate_Milk_icon.png"
   },
   {
     "id": 70,
@@ -1854,7 +1854,7 @@
     "wiki_description": "Grants flight and +0.3 speed.",
     "wiki_page": "Lord of the Pit",
     "image": "images/collectible/82.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lord_of_the_Pit_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lord_of_the_Pit_icon.png"
   },
   {
     "id": 83,
@@ -1898,7 +1898,7 @@
     "wiki_description": "Creates a trapdoor to go to the next floor. Category:Modified in Repentance Once per floor, using it on tiles with special graphics will instead create a Crawl Space.",
     "wiki_page": "We Need To Go Deeper!",
     "image": "images/collectible/84.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_We_Need_To_Go_Deeper%21_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_We_Need_To_Go_Deeper%21_icon.png"
   },
   {
     "id": 85,
@@ -2106,7 +2106,7 @@
     "wiki_description": "Transforms Isaac into a rainbow-colored chomping creature for 6.5 seconds. Grants invulnerability, inflicts fear on all enemies, and has a chance of replenishing a Half Red Heart every time an enemy is killed.",
     "wiki_page": "The Gamekid",
     "image": "images/collectible/93.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Gamekid_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Gamekid_icon.png"
   },
   {
     "id": 94,
@@ -2156,7 +2156,7 @@
     "wiki_description": "Spawns a familiar that shoots Technology lasers.",
     "wiki_page": "Robo-Baby",
     "image": "images/collectible/95.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Robo-Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Robo-Baby_icon.png"
   },
   {
     "id": 96,
@@ -2227,7 +2227,7 @@
     "wiki_description": "Spawns a cross familiar that drops a Soul Heart after clearing enough rooms.",
     "wiki_page": "The Relic",
     "image": "images/collectible/98.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Relic_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Relic_icon.png"
   },
   {
     "id": 99,
@@ -2251,7 +2251,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and fires slowing tears, impeding enemies' speed.",
     "wiki_page": "Little Gish",
     "image": "images/collectible/99.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Little_Gish_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Little_Gish_icon.png"
   },
   {
     "id": 100,
@@ -2505,7 +2505,7 @@
     "wiki_description": "Adds a chance to shoot petrifying tears. Category:Modified in Repentance +0.25 range. Category:Modified in Repentance +1.5 range.",
     "wiki_page": "Mom's Contacts",
     "image": "images/collectible/110.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Contacts_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Contacts_icon.png"
   },
   {
     "id": 111,
@@ -2551,7 +2551,7 @@
     "wiki_description": "Spawns an orbital familiar that blocks enemy shots, deals 7 damage per tick on contact, and increases the speed of all orbital familiars.",
     "wiki_page": "Guardian Angel",
     "image": "images/collectible/112.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Guardian_Angel_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Guardian_Angel_icon.png"
   },
   {
     "id": 113,
@@ -2576,7 +2576,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and automatically fires at enemies within its range.",
     "wiki_page": "Demon Baby",
     "image": "images/collectible/113.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Demon_Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Demon_Baby_icon.png"
   },
   {
     "id": 114,
@@ -2600,7 +2600,7 @@
     "wiki_description": "Isaac's tears are replaced by a knife that pierces enemies, can travel through obstacles, and can hurt enemies while Isaac is holding it. Holding down the fire button before firing increases its range and power.",
     "wiki_page": "Mom's Knife",
     "image": "images/collectible/114.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Knife_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mom%27s_Knife_icon.png"
   },
   {
     "id": 115,
@@ -2698,7 +2698,7 @@
     "wiki_description": "Tears are replaced with a blood laser beam that pierces through all enemies and obstacles in its path and deals high damage. Can only be fired after a short charge-up period.",
     "wiki_page": "Brimstone",
     "image": "images/collectible/118.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Brimstone_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Brimstone_icon.png"
   },
   {
     "id": 119,
@@ -2720,7 +2720,7 @@
     "wiki_description": "Grants one filled Red Heart container, restores Category:Modified in Repentance 4 / Category:Modified in Repentance 5 Red Hearts, and increases speed by 0.3.",
     "wiki_page": "Blood Bag",
     "image": "images/collectible/119.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Blood_Bag_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Blood_Bag_icon.png"
   },
   {
     "id": 120,
@@ -2792,7 +2792,7 @@
     "wiki_description": "Grants +1.5 Damage and +0.3 Speed whenever Isaac has a Half Red Heart or less.",
     "wiki_page": "Whore of Babylon",
     "image": "images/collectible/122.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Whore_of_Babylon_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Whore_of_Babylon_icon.png"
   },
   {
     "id": 123,
@@ -2883,7 +2883,7 @@
     "wiki_description": "Damages Isaac for one heart and grants +1.2 damage for the current room. Category:Modified in Repentance Subsequent uses in the same room only take half a heart.",
     "wiki_page": "Razor Blade",
     "image": "images/collectible/126.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Razor_Blade_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Razor_Blade_icon.png"
   },
   {
     "id": 127,
@@ -2931,7 +2931,7 @@
     "wiki_description": "Spawns an attack fly that orbits a long distance from Isaac, dealing 30 damage per second.",
     "wiki_page": "Forever alone",
     "image": "images/collectible/128.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Forever_alone_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Forever_alone_icon.png"
   },
   {
     "id": 129,
@@ -3093,7 +3093,7 @@
     "wiki_description": "Damages Isaac and spawns a random amount of coins, similar to a Blood Donation Machine.",
     "wiki_page": "IV Bag",
     "image": "images/collectible/135.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_IV_Bag_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_IV_Bag_icon.png"
   },
   {
     "id": 136,
@@ -3210,7 +3210,7 @@
     "wiki_description": "+5 Bombs. Grants Isaac's bombs a poison effect. Category:Modified in Repentance They also leave a lingering poison cloud, and Isaac becomes immune to poison.",
     "wiki_page": "Bob's Curse",
     "image": "images/collectible/140.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Bob%27s_Curse_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Bob%27s_Curse_icon.png"
   },
   {
     "id": 141,
@@ -3232,7 +3232,7 @@
     "wiki_description": "Spawns seven random coins around Isaac Category:Modified in Repentance+ and a random penny trinket.",
     "wiki_page": "Pageant Boy",
     "image": "images/collectible/141.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pageant_Boy_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pageant_Boy_icon.png"
   },
   {
     "id": 142,
@@ -3280,7 +3280,7 @@
     "wiki_description": "+0.3 speed, +0.2 shot speed.",
     "wiki_page": "Speed Ball",
     "image": "images/collectible/143.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Speed_Ball_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Speed_Ball_icon.png"
   },
   {
     "id": 144,
@@ -3303,7 +3303,7 @@
     "wiki_description": "Spawns a familiar that picks up coins for himself, giving random pickups in return. Category:Modified in Repentance Can spawn items from the Beggar item pool.",
     "wiki_page": "Bum Friend",
     "image": "images/collectible/144.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Bum_Friend_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Bum_Friend_icon.png"
   },
   {
     "id": 145,
@@ -3396,7 +3396,7 @@
     "wiki_description": "Category:Modified in Repentance 1-3 Blue Flies randomly spawn every time Isaac gets hit. Category:Modified in Repentance 2-6 Blue Flies randomly spawn every time Isaac gets hit.",
     "wiki_page": "Infestation",
     "image": "images/collectible/148.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Infestation_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Infestation_icon.png"
   },
   {
     "id": 149,
@@ -3443,7 +3443,7 @@
     "wiki_description": "Adds a chance to shoot a tooth instead of a tear, which deals x3.2 Isaac's damage.",
     "wiki_page": "Tough Love",
     "image": "images/collectible/150.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Tough_Love_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Tough_Love_icon.png"
   },
   {
     "id": 151,
@@ -3467,7 +3467,7 @@
     "wiki_description": "Tears have a 16.67% chance of spawning allied Blue Flies when they hit an enemy.",
     "wiki_page": "The Mulligan",
     "image": "images/collectible/151.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Mulligan_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Mulligan_icon.png"
   },
   {
     "id": 152,
@@ -3562,7 +3562,7 @@
     "wiki_description": "Spawns a familiar that slowly floats around the room in a zig-zag pattern, damaging enemies it passes through. Category:Modified in Repentance Increases the damage of tears from Isaac's left eye by 35%.",
     "wiki_page": "The Peeper",
     "image": "images/collectible/155.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Peeper_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Peeper_icon.png"
   },
   {
     "id": 156,
@@ -3586,7 +3586,7 @@
     "wiki_description": "When Isaac is hit, his active item gains 1 room's worth of charge.",
     "wiki_page": "Habit",
     "image": "images/collectible/156.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Habit_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Habit_icon.png"
   },
   {
     "id": 157,
@@ -3658,7 +3658,7 @@
     "wiki_description": "Grants spectral tears and flight.",
     "wiki_page": "Spirit of the Night",
     "image": "images/collectible/159.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spirit_of_the_Night_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spirit_of_the_Night_icon.png"
   },
   {
     "id": 160,
@@ -3728,7 +3728,7 @@
     "wiki_description": "Grants a chance to trigger the Book of Shadows effect upon taking damage, creating a shield that nullifies all types of damage for 7 seconds.",
     "wiki_page": "Celtic Cross",
     "image": "images/collectible/162.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Celtic_Cross_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Celtic_Cross_icon.png"
   },
   {
     "id": 163,
@@ -3753,7 +3753,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and fires spectral tears.",
     "wiki_page": "Ghost Baby",
     "image": "images/collectible/163.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ghost_Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ghost_Baby_icon.png"
   },
   {
     "id": 164,
@@ -3820,7 +3820,7 @@
     "wiki_description": "Re-rolls all pickups, chests, and trinkets in the current room.",
     "wiki_page": "D20",
     "image": "images/collectible/166.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D20_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D20_icon.png"
   },
   {
     "id": 167,
@@ -3845,7 +3845,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and fires two tears at once in a V-pattern.",
     "wiki_page": "Harlequin Baby",
     "image": "images/collectible/167.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Harlequin_Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Harlequin_Baby_icon.png"
   },
   {
     "id": 168,
@@ -3868,7 +3868,7 @@
     "wiki_description": "Instead of tears, firing creates a crosshair which can be moved freely. A missile is dropped in the location after 1.5 seconds, exploding for high damage.",
     "wiki_page": "Epic Fetus",
     "image": "images/collectible/168.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Epic_Fetus_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Epic_Fetus_icon.png"
   },
   {
     "id": 169,
@@ -3891,7 +3891,7 @@
     "wiki_description": "Isaac fires huge tears that deal massive damage, but fire rate is greatly decreased. If a tear kills an enemy, it travels on with any leftover damage.",
     "wiki_page": "Polyphemus",
     "image": "images/collectible/169.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Polyphemus_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Polyphemus_icon.png"
   },
   {
     "id": 170,
@@ -3916,7 +3916,7 @@
     "wiki_description": "Daddy Long Legs' shadow follows Isaac and occasionally stomps enemies for 40 damage total.",
     "wiki_page": "Daddy Longlegs",
     "image": "images/collectible/170.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Daddy_Longlegs_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Daddy_Longlegs_icon.png"
   },
   {
     "id": 171,
@@ -3961,7 +3961,7 @@
     "wiki_description": "Spawns a dagger orbital familiar, blocking enemy shots and dealing a high amount of damage to enemies in contact.",
     "wiki_page": "Sacrificial Dagger",
     "image": "images/collectible/172.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sacrificial_Dagger_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sacrificial_Dagger_icon.png"
   },
   {
     "id": 173,
@@ -3984,7 +3984,7 @@
     "wiki_description": "Grants a chance of converting any Red Heart pickups that spawn into Soul Hearts instead.",
     "wiki_page": "Mitre",
     "image": "images/collectible/173.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mitre_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mitre_icon.png"
   },
   {
     "id": 174,
@@ -4009,7 +4009,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and fires tears with random effects.",
     "wiki_page": "Rainbow Baby",
     "image": "images/collectible/174.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Rainbow_Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Rainbow_Baby_icon.png"
   },
   {
     "id": 175,
@@ -4098,7 +4098,7 @@
     "wiki_description": "Category:Modified in Repentance Spawns a bottle familiar that breaks when Isaac takes damage, leaving a puddle of blue creep. Category:Modified in Repentance A bottle familiar that flies forward when Isaac shoots. It breaks upon hitting an enemy, leaving a puddle of blue creep that petrifies enemies.",
     "wiki_page": "Holy Water",
     "image": "images/collectible/178.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Holy_Water_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Holy_Water_icon.png"
   },
   {
     "id": 179,
@@ -4309,7 +4309,7 @@
     "wiki_description": "Spawns a familiar that loosely follows behind Isaac, which blocks shots and can be swung like a flail to damage enemies. Grows bigger by killing enemies.",
     "wiki_page": "Guppy's Hairball",
     "image": "images/collectible/187.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Guppy%27s_Hairball_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Guppy%27s_Hairball_icon.png"
   },
   {
     "id": 188,
@@ -4358,7 +4358,7 @@
     "wiki_description": "Category:Modified in Repentance +1 Red Heart container, +0.3 damage, +0.2 tears, +0.2 speed, +0.5 range, +1 tear falling speed. Fully restores all red hearts. Category:Modified in Repentance +1 Red Heart container, +0.3 damage, +0.2 tears, +0.2 speed, +2.5 range. Fully restores all red hearts.",
     "wiki_page": "SMB Super Fan",
     "image": "images/collectible/189.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_SMB_Super_Fan_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_SMB_Super_Fan_icon.png"
   },
   {
     "id": 190,
@@ -4381,7 +4381,7 @@
     "wiki_description": "Grants 99 Bombs.",
     "wiki_page": "Pyro",
     "image": "images/collectible/190.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pyro_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Pyro_icon.png"
   },
   {
     "id": 191,
@@ -4475,7 +4475,7 @@
     "wiki_description": "+0.16 shot speed, spawns a random tarot card. Category:Modified in Repentance Increases the chance of finding a Planetarium.",
     "wiki_page": "Magic 8 Ball",
     "image": "images/collectible/194.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magic_8_Ball_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magic_8_Ball_icon.png"
   },
   {
     "id": 195,
@@ -4568,7 +4568,7 @@
     "wiki_description": "Spawns various pickups: 1 coin, 1 Key, 1 Bomb, 1 Heart, 1 card/rune, 1 pill and 1 trinket.",
     "wiki_page": "Box",
     "image": "images/collectible/198.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Box_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Box_icon.png"
   },
   {
     "id": 199,
@@ -4873,7 +4873,7 @@
     "wiki_description": "Spawns Category:Modified in Repentance 1-2 / Category:Modified in Repentance 3-5 Blue Spiders when Isaac takes damage.",
     "wiki_page": "Spiderbaby",
     "image": "images/collectible/211.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spiderbaby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spiderbaby_icon.png"
   },
   {
     "id": 212,
@@ -4918,7 +4918,7 @@
     "wiki_description": "Isaac's tears can hit and destroy enemy projectiles. -0.15 shot speed.",
     "wiki_page": "Lost Contact",
     "image": "images/collectible/213.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lost_Contact_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lost_Contact_icon.png"
   },
   {
     "id": 214,
@@ -4941,7 +4941,7 @@
     "wiki_description": "After Isaac is damaged, a trail of red creep will be left behind him until he leaves the current room. Category:Modified in Repentance +5 range. Category:Modified in Repentance +1.5 range.",
     "wiki_page": "Anemic",
     "image": "images/collectible/214.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Anemic_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Anemic_icon.png"
   },
   {
     "id": 215,
@@ -4966,7 +4966,7 @@
     "wiki_description": "A Devil Room / Angel Room will always spawn after every boss fight, excluding the first floor and floors after Chapter 4.",
     "wiki_page": "Goat Head",
     "image": "images/collectible/215.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Goat_Head_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Goat_Head_icon.png"
   },
   {
     "id": 216,
@@ -5080,7 +5080,7 @@
     "wiki_description": "+5 Bombs. Upon exploding, bombs shoot 10 tears around them, affected by tear modifiers.",
     "wiki_page": "Sad Bombs",
     "image": "images/collectible/220.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sad_Bombs_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sad_Bombs_icon.png"
   },
   {
     "id": 221,
@@ -5220,7 +5220,7 @@
     "wiki_description": "Grants one Red Heart Container, one Soul Heart, and one Black Heart.",
     "wiki_page": "Black Lotus",
     "image": "images/collectible/226.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Black_Lotus_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Black_Lotus_icon.png"
   },
   {
     "id": 227,
@@ -5243,7 +5243,7 @@
     "wiki_description": "Gives 3 Pennies on pick-up. Every time Isaac is damaged, he will drop one or two additional pennies.",
     "wiki_page": "Piggy Bank",
     "image": "images/collectible/227.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Piggy_Bank_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Piggy_Bank_icon.png"
   },
   {
     "id": 228,
@@ -5315,7 +5315,7 @@
     "wiki_description": "Category:Modified in Repentance +1.5 damage, +0.2 speed. Removes all Red Heart containers, grants six Black Hearts, and adds a chance to shoot fear tears. Category:Modified in Repentance +1.5 damage, +0.2 speed. Grants two Black Hearts, converts all Red Heart Containers into Black Hearts, and adds a chance to shoot fear tears.",
     "wiki_page": "Abaddon",
     "image": "images/collectible/230.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Abaddon_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Abaddon_icon.png"
   },
   {
     "id": 231,
@@ -5508,7 +5508,7 @@
     "wiki_description": "Combined with Key Piece 1 , unlocks the golden gate in the starting room of Chest and Dark Room to fight Mega Satan.",
     "wiki_page": "Key Piece 2",
     "image": "images/collectible/239.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Key_Piece_2_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Key_Piece_2_icon.png"
   },
   {
     "id": 240,
@@ -5623,7 +5623,7 @@
     "wiki_description": "Isaac occasionally fires an unlimited range piercing laser alongside his normal tears. The laser can glitch, mimicking the effects of certain items and trinkets.",
     "wiki_page": "Tech.5",
     "image": "images/collectible/244.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Tech.5_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Tech.5_icon.png"
   },
   {
     "id": 245,
@@ -5646,7 +5646,7 @@
     "wiki_description": "Isaac fires two tears at once, one from each eye. Category:Modified in Repentance 0.8× damage multiplier.",
     "wiki_page": "20/20",
     "image": "images/collectible/245.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_20_20_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_20_20_icon.png"
   },
   {
     "id": 246,
@@ -5744,7 +5744,7 @@
     "wiki_description": "Two items appear after defeating a Boss. Only one can be taken; the other will disappear.",
     "wiki_page": "There's Options",
     "image": "images/collectible/249.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_There%27s_Options_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_There%27s_Options_icon.png"
   },
   {
     "id": 250,
@@ -6025,7 +6025,7 @@
     "wiki_description": "Tears start out massive with high damage, and then shrink down and become weaker over a short range.",
     "wiki_page": "Proptosis",
     "image": "images/collectible/261.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Proptosis_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Proptosis_icon.png"
   },
   {
     "id": 262,
@@ -6119,7 +6119,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and blocks enemy projectiles. Upon blocking a shot, it has a chance of triggering The Necronomicon effect.",
     "wiki_page": "Dry Baby",
     "image": "images/collectible/265.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dry_Baby_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dry_Baby_icon.png"
   },
   {
     "id": 266,
@@ -6170,7 +6170,7 @@
     "wiki_description": "Spawns a familiar that fires lasers at any enemy in its line of sight and moves based on the direction Isaac is firing tears.",
     "wiki_page": "Robo-Baby 2.0",
     "image": "images/collectible/267.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Robo-Baby_2.0_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Robo-Baby_2.0_icon.png"
   },
   {
     "id": 268,
@@ -6341,7 +6341,7 @@
     "wiki_description": "When hit, spawns a quickly orbiting attack fly similar to Forever alone for the current room that deals high damage.",
     "wiki_page": "Best Bud",
     "image": "images/collectible/274.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Best_Bud_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Best_Bud_icon.png"
   },
   {
     "id": 275,
@@ -6366,7 +6366,7 @@
     "wiki_description": "Spawns a familiar who follows Isaac around and fires a thin Brimstone beam that charges while holding the fire button and shoots when released.",
     "wiki_page": "Lil Brimstone",
     "image": "images/collectible/275.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Brimstone_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Brimstone_icon.png"
   },
   {
     "id": 276,
@@ -6437,7 +6437,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac around and collects Red Hearts. For every 1½ Red Hearts collected, Dark Bum will give a reward.",
     "wiki_page": "Dark Bum",
     "image": "images/collectible/278.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dark_Bum_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dark_Bum_icon.png"
   },
   {
     "id": 279,
@@ -6601,7 +6601,7 @@
     "wiki_description": "Category:Modified in Repentance Rerolls all monsters in the room. Category:Modified in Repentance Replaces all monsters in the room with weaker monsters.",
     "wiki_page": "D10",
     "image": "images/collectible/285.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D10_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D10_icon.png"
   },
   {
     "id": 286,
@@ -6670,7 +6670,7 @@
     "wiki_description": "Spawns Category:Modified in Repentance1-4 / Category:Modified in Repentance 4-8 Blue Spiders where Isaac is standing.",
     "wiki_page": "Box of Spiders",
     "image": "images/collectible/288.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Box_of_Spiders_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Box_of_Spiders_icon.png"
   },
   {
     "id": 289,
@@ -6715,7 +6715,7 @@
     "wiki_description": "When at full health, up to 4 extra Red Hearts can be stored in The Jar. Activating drops the stored hearts on the ground.",
     "wiki_page": "The Jar",
     "image": "images/collectible/290.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Jar_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Jar_icon.png"
   },
   {
     "id": 291,
@@ -6828,7 +6828,7 @@
     "wiki_description": "Consumes one Penny to deal damage to all enemies in the room.",
     "wiki_page": "Magic Fingers",
     "image": "images/collectible/295.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magic_Fingers_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Magic_Fingers_icon.png"
   },
   {
     "id": 296,
@@ -6850,7 +6850,7 @@
     "wiki_description": "Category:Modified in Repentance Converts two Soul Hearts or Black Hearts into one filled Red Heart Container. Category:Modified in Repentance Converts one Soul Heart or Black Heart into one filled Red Heart Container.",
     "wiki_page": "Converter",
     "image": "images/collectible/296.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Converter_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Converter_icon.png"
   },
   {
     "id": 297,
@@ -6916,7 +6916,7 @@
     "wiki_description": "-0.3 Speed. Isaac builds speed while in a room with enemies. At max speed, he gains the My Little Unicorn effect for 5 seconds.",
     "wiki_page": "Taurus",
     "image": "images/collectible/299.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Taurus_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Taurus_icon.png"
   },
   {
     "id": 300,
@@ -6964,7 +6964,7 @@
     "wiki_description": "Adds 3 Soul Hearts. Grants The Wafer effect for the current room after taking damage.",
     "wiki_page": "Cancer",
     "image": "images/collectible/301.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cancer_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cancer_icon.png"
   },
   {
     "id": 302,
@@ -7082,7 +7082,7 @@
     "wiki_description": "Increases speed by +0.2 and grants piercing tears.",
     "wiki_page": "Sagittarius",
     "image": "images/collectible/306.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sagittarius_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Sagittarius_icon.png"
   },
   {
     "id": 307,
@@ -7131,7 +7131,7 @@
     "wiki_description": "A trail of blue creep is left behind Isaac, which damages enemies. Category:Modified in Repentance The creep scales with damage and inherits most tear effects.",
     "wiki_page": "Aquarius",
     "image": "images/collectible/308.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Aquarius_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Aquarius_icon.png"
   },
   {
     "id": 309,
@@ -7295,7 +7295,7 @@
     "wiki_description": "Pickups, trinkets, and monsters are magnetically attracted to Isaac's tears.",
     "wiki_page": "Strange Attractor",
     "image": "images/collectible/315.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Strange_Attractor_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Strange_Attractor_icon.png"
   },
   {
     "id": 316,
@@ -7341,7 +7341,7 @@
     "wiki_description": "Tears leave a small, short lasting pool of creep on impact or when their range is depleted.",
     "wiki_page": "Mysterious Liquid",
     "image": "images/collectible/317.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mysterious_Liquid_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mysterious_Liquid_icon.png"
   },
   {
     "id": 318,
@@ -7366,7 +7366,7 @@
     "wiki_description": "Spawns a conjoined familiar which chases enemies close to Isaac, dealing ~6.43 damage per second.",
     "wiki_page": "Gemini (Item)",
     "image": "images/collectible/318.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Gemini_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Gemini_icon.png"
   },
   {
     "id": 319,
@@ -7483,7 +7483,7 @@
     "wiki_description": "Fires 8 tears around Isaac, which use his damage, range, shot speed, and tear effects. Shooting charges this item. Category:Modified in Repentance Tears from this item have a +5 flat damage.",
     "wiki_page": "Isaac's Tears",
     "image": "images/collectible/323.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Isaac%27s_Tears_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Isaac%27s_Tears_icon.png"
   },
   {
     "id": 324,
@@ -7550,7 +7550,7 @@
     "wiki_description": "Grants a brief moment of invincibility when the charge bar hits zero. Isaac begins taking damage if the item is held any longer. Category:Modified in Repentance Isaac creates beams of light when touching enemies while invulnerable, and creates a powerful 4-way beam if blocking damage exactly as the invincibility starts.",
     "wiki_page": "Breath of Life",
     "image": "images/collectible/326.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Breath_of_Life_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Breath_of_Life_icon.png"
   },
   {
     "id": 327,
@@ -7647,7 +7647,7 @@
     "wiki_description": "Tears are smaller and do much less damage, but fire in very rapid succession.",
     "wiki_page": "Soy Milk",
     "image": "images/collectible/330.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Soy_Milk_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Soy_Milk_icon.png"
   },
   {
     "id": 331,
@@ -7832,7 +7832,7 @@
     "wiki_description": "Throws a boomerang which retrieves pickups, as well as damages and petrifies enemies hit for 2 seconds. Category:Modified in Repentance Pierces through enemies.",
     "wiki_page": "The Boomerang",
     "image": "images/collectible/338.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Boomerang_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_The_Boomerang_icon.png"
   },
   {
     "id": 339,
@@ -7878,7 +7878,7 @@
     "wiki_description": "Grants +0.3 speed, reduces Isaac's size, and gives a random pill.",
     "wiki_page": "Caffeine Pill",
     "image": "images/collectible/340.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Caffeine_Pill_Rebirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Caffeine_Pill_icon.png"
   },
   {
     "id": 341,
@@ -8153,7 +8153,7 @@
     "wiki_description": "Category:Modified in Repentance Fires a high-damage piercing spectral tear, but lowers Isaac's health to half a heart. Category:Modified in Repentance Fires a high-damage piercing spectral tear. If Isaac takes damage while holding this, he takes extra damage and it becomes Broken Glass Cannon .",
     "wiki_page": "Glass Cannon",
     "image": "images/collectible/352.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Glass_Cannon_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Glass_Cannon_icon.png"
   },
   {
     "id": 353,
@@ -8198,7 +8198,7 @@
     "wiki_description": "Grants one full Red Heart container and drops a random trinket. Category:Modified in Repentance Heals 1 additional Red Heart.",
     "wiki_page": "Crack Jacks",
     "image": "images/collectible/354.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Crack_Jacks_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Crack_Jacks_icon.png"
   },
   {
     "id": 355,
@@ -8315,7 +8315,7 @@
     "wiki_description": "+1.5 damage. Replaces Isaac's tears with nails, which have increased knockback.",
     "wiki_page": "8 Inch Nails",
     "image": "images/collectible/359.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_8_Inch_Nails_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_8_Inch_Nails_icon.png"
   },
   {
     "id": 360,
@@ -8340,7 +8340,7 @@
     "wiki_description": "Spawns a familiar who follows Isaac around and fires copies of Isaac's tears with reduced size (or width for some special attacks).",
     "wiki_page": "Incubus",
     "image": "images/collectible/360.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Incubus_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Incubus_icon.png"
   },
   {
     "id": 361,
@@ -8436,7 +8436,7 @@
     "wiki_description": "Spawns a white attack fly that orbits somewhere between Distant Admiration and Forever alone , dealing 45 damage per second.",
     "wiki_page": "Friend Zone",
     "image": "images/collectible/364.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Friend_Zone_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Friend_Zone_icon.png"
   },
   {
     "id": 365,
@@ -8461,7 +8461,7 @@
     "wiki_description": "Spawns a fly familiar that moves in a straight line and circles around the first wall or obstacle it hits. Category:Modified in Repentance It deals 105 damage per second on contact. Category:Modified in Repentance It deals 56 damage per second and forces nearby enemies to attack it.",
     "wiki_page": "Lost Fly",
     "image": "images/collectible/365.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lost_Fly_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lost_Fly_icon.png"
   },
   {
     "id": 366,
@@ -8555,7 +8555,7 @@
     "wiki_description": "Grants spectral tears and increases range. Tears travel through walls and appear at the opposite side of the room.",
     "wiki_page": "Continuum",
     "image": "images/collectible/369.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Continuum_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Continuum_icon.png"
   },
   {
     "id": 370,
@@ -8999,7 +8999,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac and collects Keys for himself, giving random Chests in return.",
     "wiki_page": "Key Bum",
     "image": "images/collectible/388.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Key_Bum_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Key_Bum_icon.png"
   },
   {
     "id": 389,
@@ -9096,7 +9096,7 @@
     "wiki_description": "Gives Isaac a random zodiac item effect that changes every floor.",
     "wiki_page": "Zodiac",
     "image": "images/collectible/392.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Zodiac_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Zodiac_icon.png"
   },
   {
     "id": 393,
@@ -9143,7 +9143,7 @@
     "wiki_description": "Isaac will automatically fire tears directed at a red target on the ground. The target can be moved with tear controls. +0.7 tears, increases range.",
     "wiki_page": "Marked",
     "image": "images/collectible/394.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Marked_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Marked_icon.png"
   },
   {
     "id": 395,
@@ -9190,7 +9190,7 @@
     "wiki_description": "Creates up to two portals that remain even if Isaac leaves the room. Upon entering a portal, Isaac is teleported to the other portal.",
     "wiki_page": "Ventricle Razor",
     "image": "images/collectible/396.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ventricle_Razor_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ventricle_Razor_icon.png"
   },
   {
     "id": 397,
@@ -9262,7 +9262,7 @@
     "wiki_description": "While firing, Isaac can charge and unleash a black ring that rapidly deals damage around him. Category:Modified in Repentance The ring can cause enemies to drop Black Hearts. +1 damage.",
     "wiki_page": "Maw Of The Void",
     "image": "images/collectible/399.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Maw_Of_The_Void_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Maw_Of_The_Void_icon.png"
   },
   {
     "id": 400,
@@ -9285,7 +9285,7 @@
     "wiki_description": "In addition to tears, Isaac holds a spear in front of him which deals contact damage equal to 2× his tear damage, and occasionally inflicts fear.",
     "wiki_page": "Spear Of Destiny",
     "image": "images/collectible/400.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spear_Of_Destiny_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Spear_Of_Destiny_icon.png"
   },
   {
     "id": 401,
@@ -9332,7 +9332,7 @@
     "wiki_description": "Drops 1-6 random pickups on the floor. Causes items to be chosen from random item pools.",
     "wiki_page": "Chaos",
     "image": "images/collectible/402.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Chaos_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Chaos_icon.png"
   },
   {
     "id": 403,
@@ -9380,7 +9380,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac and blocks enemy shots. If a shot hits Farting Baby, it has a chance to fart, which charms, poisons, or knocks back nearby enemies.",
     "wiki_page": "Farting Baby",
     "image": "images/collectible/404.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Farting_Baby_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Farting_Baby_icon.png"
   },
   {
     "id": 405,
@@ -9517,7 +9517,7 @@
     "wiki_description": "Adds a chance to fire a slow-moving eye that fires tears in the same direction as Isaac. The eye is destroyed when it hits an enemy or obstacle.",
     "wiki_page": "Evil Eye",
     "image": "images/collectible/410.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Evil_Eye_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Evil_Eye_icon.png"
   },
   {
     "id": 411,
@@ -9563,7 +9563,7 @@
     "wiki_description": "After taking damage a certain amount of times, a permanent demonic familiar spawns.",
     "wiki_page": "Cambion Conception",
     "image": "images/collectible/412.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cambion_Conception_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cambion_Conception_icon.png"
   },
   {
     "id": 413,
@@ -9634,7 +9634,7 @@
     "wiki_description": "+2 Soul Hearts. While Isaac has no empty red hearts, grants 2x damage, -0.3 shot speed, Category:Modified in Repentance and increased range. Regardless of health, the crown deactivates for the current room when Isaac takes damage.",
     "wiki_page": "Crown Of Light",
     "image": "images/collectible/415.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Crown_Of_Light_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Crown_Of_Light_icon.png"
   },
   {
     "id": 416,
@@ -9773,7 +9773,7 @@
     "wiki_description": "Isaac farts, charming all nearby enemies.",
     "wiki_page": "Kidney Bean",
     "image": "images/collectible/421.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Kidney_Bean_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Kidney_Bean_icon.png"
   },
   {
     "id": 422,
@@ -9910,7 +9910,7 @@
     "wiki_description": "Places a Movable TNT barrel that can be pushed and used to destroy rocks or damage enemies. If used again in the same room while the previous TNT barrel is still intact, remotely detonates the TNT.",
     "wiki_page": "Mine Crafter",
     "image": "images/collectible/427.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mine_Crafter_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mine_Crafter_icon.png"
   },
   {
     "id": 428,
@@ -10005,7 +10005,7 @@
     "wiki_description": "Spawns a familiar that will follow Isaac's movements on a 2.5-second delay. Tears that pass through the baby will be doubled and increase in speed.",
     "wiki_page": "Multidimensional Baby",
     "image": "images/collectible/431.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Multidimensional_Baby_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Multidimensional_Baby_icon.png"
   },
   {
     "id": 432,
@@ -10075,7 +10075,7 @@
     "wiki_description": "Killing an enemy adds a fly to the jar, up to a maximum of 20. On use, releases Blue Flies equal to the number of flies in the jar.",
     "wiki_page": "Jar of Flies",
     "image": "images/collectible/434.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Jar_of_Flies_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Jar_of_Flies_icon.png"
   },
   {
     "id": 435,
@@ -10100,7 +10100,7 @@
     "wiki_description": "Spawns a Loki familiar that follows Isaac and fires 4 tears in a cross pattern.",
     "wiki_page": "Lil Loki",
     "image": "images/collectible/435.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Loki_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Loki_icon.png"
   },
   {
     "id": 436,
@@ -10125,7 +10125,7 @@
     "wiki_description": "Category:Modified in AfterbirthCategory:Modified in Repentance+ Spawns a glass familiar that follows Isaac. After Isaac takes damage, the milk spills, and he gains -2 tear delay (Category:Modified in Repentance +1.0 fire rate) until leaving the room Category:Modified in Repentance+ Spawns a glass familiar that follows Isaac. The milk will block projectiles, and upon blocking 10, the milk spills, giving Isaac +1.0 fire rate for the rest of the floor.",
     "wiki_page": "Milk!",
     "image": "images/collectible/436.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Milk%21_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Milk%21_icon.png"
   },
   {
     "id": 437,
@@ -10148,7 +10148,7 @@
     "wiki_description": "Restarts the current room and respawns all monsters, allowing more rewards to be acquired by completing the room.",
     "wiki_page": "D7",
     "image": "images/collectible/437.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D7_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D7_icon.png"
   },
   {
     "id": 438,
@@ -10240,7 +10240,7 @@
     "wiki_description": "Isaac fires a giant blood laser for approximately 15 seconds. This laser deals massive damage, pushes Isaac backwards, and persists between rooms and floors.",
     "wiki_page": "Mega Blast",
     "image": "images/collectible/441.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mega_Blast_Afterbirth_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mega_Blast_icon.png"
   },
   {
     "id": 442,
@@ -10264,7 +10264,7 @@
     "wiki_description": "Category:Modified in Repentance When at exactly one Red Heart, +0.75 tears, +1.5 range, and +0.2 shot speed. Category:Modified in Repentance When at exactly one Red Heart, +2 fire rate, +1.5 range, and +0.2 shot speed.",
     "wiki_page": "Dark Prince's Crown",
     "image": "images/collectible/442.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dark_Prince%27s_Crown_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dark_Prince%27s_Crown_icon.png"
   },
   {
     "id": 443,
@@ -10311,7 +10311,7 @@
     "wiki_description": "After every 15 tears fired, Isaac will fire a high-damage cluster of tears.",
     "wiki_page": "Lead Pencil",
     "image": "images/collectible/444.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lead_Pencil_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lead_Pencil_icon.png"
   },
   {
     "id": 445,
@@ -10334,7 +10334,7 @@
     "wiki_description": "+0.3 damage, +0.1 speed. Plays a howl or bark sound when entering a room with undiscovered Secret Rooms or Crawl Spaces.",
     "wiki_page": "Dog Tooth",
     "image": "images/collectible/445.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dog_Tooth_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dog_Tooth_icon.png"
   },
   {
     "id": 446,
@@ -10357,7 +10357,7 @@
     "wiki_description": "While firing, Isaac gains a green aura that poisons nearby enemies.",
     "wiki_page": "Dead Tooth",
     "image": "images/collectible/446.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dead_Tooth_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Dead_Tooth_icon.png"
   },
   {
     "id": 447,
@@ -10403,7 +10403,7 @@
     "wiki_description": "Category:Modified in Repentance Upon taking damage, Isaac has a chance to drop a full red heart, gain 5 range, and leave a trail of damaging red creep for the current room. Category:Modified in Repentance Taking damage causes Isaac to bleed, spraying a volley of blood in the direction he fires. Bleeding will eventually damage him, but it can be stopped by picking up a Red Heart.",
     "wiki_page": "Shard of Glass",
     "image": "images/collectible/448.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Shard_of_Glass_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Shard_of_Glass_icon.png"
   },
   {
     "id": 449,
@@ -10425,7 +10425,7 @@
     "wiki_description": "Grants one Soul Heart. Enemy shots have a chance to be reflected at the shooter as confusing tears.",
     "wiki_page": "Metal Plate",
     "image": "images/collectible/449.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Metal_Plate_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Metal_Plate_icon.png"
   },
   {
     "id": 450,
@@ -10518,7 +10518,7 @@
     "wiki_description": "Increases Range. Tears turn into bones, which shatter into 1-3 bone shards upon hitting an enemy or obstacle.",
     "wiki_page": "Compound Fracture",
     "image": "images/collectible/453.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Compound_Fracture_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Compound_Fracture_icon.png"
   },
   {
     "id": 454,
@@ -10609,7 +10609,7 @@
     "wiki_description": "Grants a Soul Heart. Gives Isaac a chance to ignore any damage taken.",
     "wiki_page": "Cone Head",
     "image": "images/collectible/457.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cone_Head_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Cone_Head_icon.png"
   },
   {
     "id": 458,
@@ -10961,7 +10961,7 @@
     "wiki_description": "Spawns a familiar that follows Isaac and makes other familiars follow it. While firing tears, other familiars stop moving.",
     "wiki_page": "King Baby",
     "image": "images/collectible/472.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_King_Baby_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_King_Baby_icon.png"
   },
   {
     "id": 473,
@@ -11051,7 +11051,7 @@
     "wiki_description": "Duplicates a random pickup in the room. Category:Modified in Repentance The new pickup may be different than the original (i.e. a different card, etc).",
     "wiki_page": "D1",
     "image": "images/collectible/476.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D1_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D1_icon.png"
   },
   {
     "id": 477,
@@ -11074,7 +11074,7 @@
     "wiki_description": "Consumes all pedestal items in the room. Activated items will have their effects added to Void, and passive items will grant random stat upgrades.",
     "wiki_page": "Void",
     "image": "images/collectible/477.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Void_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Void_icon.png"
   },
   {
     "id": 478,
@@ -11118,7 +11118,7 @@
     "wiki_description": "Consumes Isaac's currently held trinket and applies its effects permanently.",
     "wiki_page": "Smelter",
     "image": "images/collectible/479.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Smelter_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Smelter_icon.png"
   },
   {
     "id": 480,
@@ -11186,7 +11186,7 @@
     "wiki_description": "Transforms Isaac into another random character and has Category:Modified in AfterbirthCategory:Modified in Repentance+ 100% / Category:Modified in Repentance 50% chance to remove the last item collected.",
     "wiki_page": "Clicker",
     "image": "images/collectible/482.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Clicker_Booster_Pack_5_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Clicker_icon.png"
   },
   {
     "id": 483,
@@ -11208,7 +11208,7 @@
     "wiki_description": "Deals immense damage to all enemies, opens all bombable doors, and destroys all obstacles in the room. The effect occurs every time a new room is entered for the rest of the floor.",
     "wiki_page": "Mama Mega!",
     "image": "images/collectible/483.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mama_Mega%21_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Mama_Mega%21_icon.png"
   },
   {
     "id": 484,
@@ -11338,7 +11338,7 @@
     "wiki_description": "Category:Modified in Repentance Has the effect of a random die item that changes each use. Category:Modified in Repentance Replicates the effect of a selected die item (except Spindown Dice), and can be cycled through by pressing the drop key.",
     "wiki_page": "D infinity",
     "image": "images/collectible/489.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D_infinity_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_D_infinity_icon.png"
   },
   {
     "id": 490,
@@ -11360,7 +11360,7 @@
     "wiki_description": "Spawns two random items from the current room's Item Pool and then disappears. Starts with no charges.",
     "wiki_page": "Eden's Soul",
     "image": "images/collectible/490.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Eden%27s_Soul_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Eden%27s_Soul_icon.png"
   },
   {
     "id": 491,
@@ -11455,7 +11455,7 @@
     "wiki_description": "Tears fire sparks of electricity in random directions upon hitting an obstacle or enemy.",
     "wiki_page": "Jacob's Ladder",
     "image": "images/collectible/494.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Jacob%27s_Ladder_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Jacob%27s_Ladder_icon.png"
   },
   {
     "id": 495,
@@ -11478,7 +11478,7 @@
     "wiki_description": "Category:Modified in RepentanceGives a chance to shoot fires alongside tears that block enemy shots and deal damage to enemies that touch them. Category:Modified in RepentanceGives a chance to shoot blue fires alongside tears that become smaller as they travel.",
     "wiki_page": "Ghost Pepper",
     "image": "images/collectible/495.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ghost_Pepper_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Ghost_Pepper_icon.png"
   },
   {
     "id": 496,
@@ -11502,7 +11502,7 @@
     "wiki_description": "Adds a luck-based chance to fire needles that instantly kill basic enemies and deal triple damage to bosses. If a needle kills an enemy, it bursts into more tears/needles.",
     "wiki_page": "Euthanasia",
     "image": "images/collectible/496.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Euthanasia_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Euthanasia_icon.png"
   },
   {
     "id": 497,
@@ -11549,7 +11549,7 @@
     "wiki_description": "Whenever a Devil Room or Angel Room would spawn after defeating a boss, both rooms spawn. Only one can be entered.",
     "wiki_page": "Duality",
     "image": "images/collectible/498.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Duality_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Duality_icon.png"
   },
   {
     "id": 499,
@@ -11573,7 +11573,7 @@
     "wiki_description": "An Angel Room will always spawn after every boss fight, excluding the first floor and floors after Chapter 4.",
     "wiki_page": "Eucharist",
     "image": "images/collectible/499.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Eucharist_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Eucharist_icon.png"
   },
   {
     "id": 500,
@@ -11713,7 +11713,7 @@
     "wiki_description": "Upon entering a room with enemies in it, has a chance to spawn a random friendly enemy that persists across rooms.",
     "wiki_page": "Poke Go",
     "image": "images/collectible/505.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Poke_Go_Afterbirth%2B_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Poke_Go_icon.png"
   },
   {
     "id": 506,
@@ -12011,7 +12011,7 @@
     "wiki_description": "Spawns a familiar with a random tear effect. The familiar is randomized at the start of each floor.",
     "wiki_page": "Buddy in a Box",
     "image": "images/collectible/518.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Buddy_in_a_Box_Booster_Pack_1_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Buddy_in_a_Box_icon.png"
   },
   {
     "id": 519,
@@ -12036,7 +12036,7 @@
     "wiki_description": "Grants a familiar that transforms into another random familiar every 10 seconds.",
     "wiki_page": "Lil Delirium",
     "image": "images/collectible/519.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Delirium_Booster_Pack_1_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Lil_Delirium_icon.png"
   },
   {
     "id": 520,
@@ -12758,7 +12758,7 @@
     "quality": null,
     "type": "passive",
     "tags": [],
-    "recharge": "",
+    "recharge": "4",
     "shop_price": "",
     "devil_price": "",
     "unlocked_by": "",
@@ -16406,7 +16406,7 @@
     "wiki_description": "Retrieves the Forgotten's body from any distance. Only available as the Birthright effect for Tainted Forgotten.",
     "wiki_page": "Recall",
     "image": "images/collectible/714.png",
-    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/collectible_Recall_icon.png"
+    "image_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Special:FilePath/Collectible_Recall_icon.png"
   },
   {
     "id": 715,

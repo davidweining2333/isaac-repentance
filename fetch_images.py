@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """按 image_manifest.json 把 wiki 图片下载到本地 images/（离线查看用）。
-   限速 + 429 退避重试，可断点续传（跳过已存在的有效图片）。"""
+   限速 + 429 退避重试，可断点续传（跳过已存在的有效图片）。
+   --refresh：全部重新下载并与本地比对，只替换内容有变化的（更新 wiki 图标用）。"""
 import json, os, sys, time, urllib.parse, subprocess, threading
 from concurrent.futures import ThreadPoolExecutor
 
@@ -20,6 +21,7 @@ def prio(item):
     return PRIORITY.index(cat) if cat in PRIORITY else 99
 
 only = None
+refresh = "--refresh" in sys.argv
 for i, a in enumerate(sys.argv):
     if a == "--only" and i + 1 < len(sys.argv):
         only = [x.strip() for x in sys.argv[i + 1].split(",")]
@@ -40,12 +42,12 @@ def valid(p):
     return any(h.startswith(m) for m in MAGIC)
 
 
-# 只下载缺失的
+# 只下载缺失的；--refresh 时全部重下比对
 todo = []
 for rel, fn in jobs:
-    if not valid(os.path.join(ROOT, rel)):
+    if refresh or not valid(os.path.join(ROOT, rel)):
         todo.append((rel, fn))
-print(f"共 {len(jobs)} 张，需下载 {len(todo)} 张", flush=True)
+print(f"共 {len(jobs)} 张，需下载 {len(todo)} 张{'（refresh 全量比对）' if refresh else ''}", flush=True)
 
 # 全局限速：控制请求启动间隔
 lock = threading.Lock()
@@ -63,40 +65,52 @@ def throttle():
 
 
 def fetch(item):
+    """返回 (成功, 内容更新)。refresh 时先下到 .part，校验后再比对替换。"""
     rel, fn = item
     p = os.path.join(ROOT, rel)
     os.makedirs(os.path.dirname(p), exist_ok=True)
     url = API + urllib.parse.quote(fn.replace(" ", "_"))
+    dst = p + ".part" if refresh else p
     for attempt in range(6):
         throttle()
         r = subprocess.run(
             ["curl", "-sSL", "--max-time", "45", "-H", f"User-Agent: {UA}",
-             "-o", p, "-w", "%{http_code}", url],
+             "-o", dst, "-w", "%{http_code}", url],
             capture_output=True, text=True)
         code = (r.stdout or "").strip()[-3:]
-        if code == "200" and valid(p):
-            return 1
+        if code == "200" and valid(dst):
+            changed = 0
+            if refresh:
+                old = open(p, "rb").read() if os.path.exists(p) else None
+                new = open(dst, "rb").read()
+                if old != new:
+                    os.replace(dst, p)
+                    changed = 1
+                else:
+                    os.remove(dst)
+            return 1, changed
         if code == "429" or code.startswith("5"):
             time.sleep(8 * (attempt + 1))     # 退避
             continue
         # 其它错误：稍等再试
         time.sleep(2)
     try:
-        if os.path.exists(p):
-            os.remove(p)
+        if os.path.exists(dst):
+            os.remove(dst)
     except OSError:
         pass
-    return 0
+    return 0, 0
 
 
-ok = 0
+ok = changed = 0
 with ThreadPoolExecutor(max_workers=2) as ex:
     for n, res in enumerate(ex.map(fetch, todo), 1):
-        ok += res
+        ok += res[0]
+        changed += res[1]
         if n % 25 == 0 or n == len(todo):
-            print(f"  进度 {n}/{len(todo)}（成功 {ok}）", flush=True)
+            print(f"  进度 {n}/{len(todo)}（成功 {ok}，更新 {changed}）", flush=True)
 
-print(f"完成：成功 {ok} / {len(todo)}", flush=True)
+print(f"完成：成功 {ok} / {len(todo)}，内容更新 {changed} 张", flush=True)
 tot = sum(os.path.getsize(os.path.join(d, f))
           for d, _, fs in os.walk(os.path.join(ROOT, "images")) for f in fs)
 print(f"images/ 大小：{tot/1024/1024:.1f} MB", flush=True)

@@ -159,7 +159,7 @@ python3 build.py
 
 ## 七、图鉴 App（网页版 / PWA）
 
-`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端；默认使用免模型的像素模板，也可选 OpenCV ORB 或端侧 DINOv2 向量识别。搜索栏和分类栏吸顶，结果一次全部显示、不再分页；桌面端图标保持原大小，手机端缩小到约四分之一面积。卡片只显示图标，类型用边框颜色区分；道具图标右上角显示品质等级，主动道具左下角显示充能（如 `4房`=4 房间，`自动4s`=每 4 秒自动充能），点开详情会写明充能数和充能方式。「全部」只混合道具 / 饰品 / 卡牌，药丸在独立分类中显示为文字卡片。
+`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端；默认使用免模型的像素模板，也可选拍屏小模型（CNN）、OpenCV ORB 或端侧 DINOv2 向量识别。搜索栏和分类栏吸顶，结果一次全部显示、不再分页；桌面端图标保持原大小，手机端缩小到约四分之一面积。卡片只显示图标，类型用边框颜色区分；道具图标右上角显示品质等级，主动道具左下角显示充能（如 `4房`=4 房间，`自动4s`=每 4 秒自动充能），点开详情会写明充能数和充能方式。「全部」只混合道具 / 饰品 / 卡牌，药丸在独立分类中显示为文字卡片。
 
 ### 全资料查看器 `viewer.html`
 
@@ -242,16 +242,17 @@ npx wrangler deploy
 
 `git push` 后 Cloudflare Worker 会重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（当前 `isaac-guide-v18`），强制老用户换新外壳；替换图标时把 `IMG` 加一；改 ORB 特征库、DINOv2 模型或运行库时把 `ENGINE` 加一（当前 `isaac-engine-v1`），否则老的引擎缓存会继续命中。仅新增 `ort-wasm.wasm` 这类按需加载的缺失文件时不需要清空 `ENGINE`，Service Worker 会自动补下载。
 
-### 四个识别后端
+### 五个识别后端
 
 | 后端 | 首次加载 | 说明 |
 |---|---|---|
 | ① 像素模板 | 0（默认） | 24×24 彩色模板 + alpha 掩码（腐蚀 1px）；先做前景/背景分离，再去掉与边缘连通的背景，保留中央前景块；原图高分辨率裁切 + 新/旧两套自动前景框 + 中心/多圈裁切 + 5 旋转 × 9 平移，偏色照片再生成按通道标准化副本，最多约 1800–1900 候选；桌面单次约 0.8–1.4s |
-| ② OpenCV ORB | 约 15MB | OpenCV.js 4.13 + 1000 个图标预计算 ORB 描述子（约 10 万点，192×192，nfeatures=100）；查询图先刷白背景，只在图标前景 mask 内提特征；BFMatcher Hamming + ratio test，按模板投票；匹配点少于 3 个时自动回退像素模板。单次约 0.2s |
-| ③ 端侧 DINOv2 | 约 35–37MB | Transformers.js 2.17 + DINOv2-small int8（Apache 2.0）+ 本地向量库；查询图先做前景分离并刷白背景；CLS 384 维 + 颜色 512 + Sobel 边缘 256 + 灰度 256，分块 int8 量化后按权重算余弦；再用像素模板对前 24 个候选复核。桌面单次约 1.3s（非 SIMD；支持 SIMD 会更快） |
-| ④ 自定义模板 | 用户文件 | 加载与 `recognition.js` 同格式的 JSON，用于替换 / 扩充图标库 |
+| ② 拍屏 CNN | 模型约 4MB；首次含运行库约 14MB | 96×96 小型 CNN（约 0.98M 参数），合成拍屏数据训练；先取场景过滤后的前 64 个候选，再只对这 64 个算像素模板距离，`综合 = 模板×0.65 + CNN×0.35`。桌面单次约 0.16–0.2s（exact 选框） |
+| ③ OpenCV ORB | 约 15MB | OpenCV.js 4.13 + 1000 个图标预计算 ORB 描述子（约 10 万点，192×192，nfeatures=100）；查询图先刷白背景，只在图标前景 mask 内提特征；BFMatcher Hamming + ratio test，按模板投票；匹配点少于 3 个时自动回退像素模板。单次约 0.2s |
+| ④ 端侧 DINOv2 | 约 35–37MB | Transformers.js 2.17 + DINOv2-small int8（Apache 2.0）+ 本地向量库；查询图先做前景分离并刷白背景；CLS 384 维 + 颜色 512 + Sobel 边缘 256 + 灰度 256，分块 int8 量化后按权重算余弦；再用像素模板对前 24 个候选复核。桌面单次约 1.3s（非 SIMD；支持 SIMD 会更快） |
+| ⑤ 自定义模板 | 用户文件 | 加载与 `recognition.js` 同格式的 JSON，用于替换 / 扩充图标库 |
 
-> ②③ 的引擎和模型只在切换到对应后端时按需下载，并保存在 Service Worker 的 `isaac-engine-v1` 缓存中；之后离线可用。默认 ① 不需要任何额外下载。不支持 WASM SIMD 的浏览器会额外使用 `app/web/vendor/transformers/ort-wasm.wasm`，避免 ORT 报 `no available backend found`。药丸外观随机，所有后端都不识别药丸。
+> ②③④ 的引擎和模型只在切换到对应后端时按需下载，并保存在 Service Worker 的 `isaac-engine-v1` 缓存中；之后离线可用。默认 ① 不需要任何额外下载。拍屏 CNN 的模型文件在 `app/web/vendor/models/phone-cnn/`，由 `app/eval/export_web_model.py` 生成。不支持 WASM SIMD 的浏览器会额外使用 `app/web/vendor/transformers/ort-wasm.wasm`，避免 ORT 报 `no available backend found`。药丸外观随机，所有后端都不识别药丸。
 
 ### 场景先验与拍摄质量门禁（v18）
 

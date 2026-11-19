@@ -344,7 +344,7 @@
 
   /* 识别时不要用屏幕上缩小后的 640px 画布，而是从原图重新裁切。
      手机照片里道具可能只有几十像素，直接缩到 640 会先丢掉细节。 */
-  function sourceFor(region) {
+  function sourceFor(region, padFrac = 0.18) {
     const c = document.createElement("canvas");
     const cc = c.getContext("2d", { willReadFrequently: true });
     const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
@@ -353,8 +353,9 @@
       const kx = iw / recCanvas.width, ky = ih / recCanvas.height;
       sx = region.x * kx; sy = region.y * ky;
       sw = region.w * kx; sh = region.h * ky;
-      /* 选框稍微往外扩一点：手机上容易把图标边缘切掉，留出兜底空间 */
-      const padX = sw * 0.18, padY = sh * 0.18;
+      /* 选框稍微往外扩一点：手机上容易把图标边缘切掉，留出兜底空间。
+         「贴合前景」会用 padFrac=0，避免外扩影响反推坐标。 */
+      const padX = sw * padFrac, padY = sh * padFrac;
       sx = Math.max(0, sx - padX); sy = Math.max(0, sy - padY);
       sw = Math.min(iw - sx, sw + padX * 2);
       sh = Math.min(ih - sy, sh + padY * 2);
@@ -750,8 +751,12 @@
     }
     if (region && fg && fg.bbox) {
       const b = fg.bbox;
-      if (b.x <= 1 || b.y <= 1 || b.x + b.w >= src.width - 1 || b.y + b.h >= src.height - 1) {
-        issues.push("选区可能切到道具，建议框大一点");
+      const touches = b.x <= 1 || b.y <= 1 || b.x + b.w >= src.width - 1 || b.y + b.h >= src.height - 1;
+      /* 前景几乎铺满整个外扩选区时，多半是背景分割失败，不是用户切到了道具；
+         只在“前景贴边且面积不大”时提示，减少松框/复杂背景下的误报。 */
+      const areaFrac = (b.w * b.h) / Math.max(1, src.width * src.height);
+      if (touches && areaFrac < 0.78) {
+        issues.push("选区贴边，建议确认框住了完整道具");
       }
     }
     if (!region && fg && fg.bbox) {
@@ -943,9 +948,9 @@
     return bd;
   }
 
-  function recognizeTemplate(region) {
-    if (!MODEL.length) { $("#recCnt").textContent = "模型未加载。"; return; }
-    const src = sourceFor(region);
+  function templateResults(region, limit = 8, srcOverride = null) {
+    if (!MODEL.length) return null;
+    const src = srcOverride || sourceFor(region);
     const C = candidates(src), t0 = performance.now();
     /* 场景过滤：只跳过不在当前道具池里的“道具”，饰品/卡牌始终参与。 */
     const allIdx = [];
@@ -958,7 +963,7 @@
     }
     const best = new Float32Array(idxs.length);
     for (let i = 0; i < idxs.length; i++) best[i] = templateDistance(MODEL[idxs[i]], C);
-    const order = idxs.map((k, i) => ({ k, d: best[i] })).sort((a, b) => a.d - b.d).slice(0, 8);
+    const order = idxs.map((k, i) => ({ k, d: best[i] })).sort((a, b) => a.d - b.d).slice(0, limit);
     const ms = Math.round(performance.now() - t0);
     const gap = order.length > 1 ? order[1].d - order[0].d : 1;
     const near = gap < 0.025;
@@ -966,10 +971,22 @@
     const note = near ? " · 候选很接近，请点开确认" : (low ? " · 匹配度偏低，请确认" : "");
     const items = order.map(({ k, d }, rank) => {
       const e = MODEL[k];
-      const conf = Math.max(0, Math.min(100, Math.round((1 - d / 1.5) * 100)));
-      return { ...e, _badge: rank === 0 ? `<span class="badge" style="background:${near ? "#8a5a24" : "#2e6b46"}">${near ? "最接近" : "最佳"}</span>` : "", _scoreText: `匹配度 ${conf}%` };
+      const tpl = Math.max(0, Math.min(1, 1 - d / 1.5));
+      const conf = Math.round(tpl * 100);
+      return { ...e, _tpl: tpl, _badge: rank === 0 ? `<span class="badge" style="background:${near ? "#8a5a24" : "#2e6b46"}">${near ? "最接近" : "最佳"}</span>` : "", _scoreText: `匹配度 ${conf}%` };
     });
-    renderRecResults(items, `识别结果（像素模板${poolNote} · ${idxs.length} 个模板 · ${ms}ms）${note} · 点击查看详情`);
+    return {
+      items, ms, near, low,
+      modelCount: idxs.length,
+      cropCount: C.length,
+      title: `识别结果（像素模板${poolNote} · ${idxs.length} 个模板 · ${ms}ms）${note} · 点击查看详情`
+    };
+  }
+
+  function recognizeTemplate(region) {
+    const r = templateResults(region, 8);
+    if (!r) { $("#recCnt").textContent = "模型未加载。"; return; }
+    renderRecResults(r.items, r.title);
   }
 
   async function recognize(region) {
@@ -989,15 +1006,26 @@
     try {
       await prepareEngine(activeEngine);
     } catch (e) {
+      if (activeEngine === "phone") {
+        setEngineStatus(`拍屏模型加载失败：${e && e.message ? e.message : e}；已回退像素模板。`);
+        recognizeTemplate(region);
+        return;
+      }
       $("#recCnt").textContent = `引擎加载失败：${e && e.message ? e.message : e}`;
       $("#engineStatus").style.display = "";
-      $("#engineStatus").textContent = "可以切回「像素模板」立即识别；ORB / 端侧向量需要联网加载一次资源。";
+      $("#engineStatus").textContent = "可以切回「像素模板」立即识别；拍屏模型 / ORB / 端侧向量首次需要联网加载一次资源。";
       return;
     }
     try {
       if (activeEngine === "orb") recognizeOrb(region);
       else if (activeEngine === "embed") await recognizeEmbed(region);
+      else if (activeEngine === "phone") await recognizePhone(region);
     } catch (e) {
+      if (activeEngine === "phone") {
+        setEngineStatus(`拍屏模型加载失败：${e && e.message ? e.message : e}；已回退像素模板。`);
+        recognizeTemplate(region);
+        return;
+      }
       $("#recCnt").textContent = `识别失败：${e && e.message ? e.message : e}`;
     }
   }
@@ -1289,6 +1317,11 @@
   /* ---------- ③ Transformers.js + DINOv2：CLS 向量 + 颜色/边缘/灰度特征 ---------- */
   const embedState = { ready: false, promise: null, pipe: null, rawImage: null, entries: null, meta: null };
 
+  /* ---------- ④ 拍屏 CNN：手机照片专用小模型 ----------
+     训练数据是“拍屏幕”合成图（透视、摩尔纹、反光、模糊、JPEG、杂乱背景），
+     输入 96×96，输出 1000 类。清晰截图仍建议用像素模板。 */
+  const phoneState = { ready: false, promise: null, model: null, processor: null, rawImage: null, labels: null, recs: null };
+
   async function ensureEmbed() {
     if (embedState.ready) return embedState;
     if (embedState.promise) return embedState.promise;
@@ -1318,6 +1351,41 @@
     })();
     try { return await embedState.promise; }
     catch (e) { embedState.promise = null; throw e; }
+  }
+
+  async function ensurePhone() {
+    if (phoneState.ready) return phoneState;
+    if (phoneState.promise) return phoneState.promise;
+    phoneState.promise = (async () => {
+      setEngineStatus("正在加载拍屏小模型（约 4MB，首次需下载并缓存）…");
+      const mod = await import(new URL("vendor/transformers/transformers.min.js", location.href).href);
+      const env = mod.env;
+      env.allowRemoteModels = false;
+      env.localModelPath = new URL("vendor/models/", location.href).href;
+      env.backends.onnx.wasm.wasmPaths = new URL("vendor/transformers/", location.href).href;
+      env.backends.onnx.wasm.numThreads = 1;
+      env.backends.onnx.wasm.simd = true;
+      const model = await mod.AutoModelForImageClassification.from_pretrained("phone-cnn", {
+        local_files_only: true,
+        quantized: false
+      });
+      const processor = await mod.AutoProcessor.from_pretrained("phone-cnn", { local_files_only: true });
+      const labels = await (await fetch(
+        new URL("vendor/models/phone-cnn/labels.json", location.href).href,
+        { cache: "no-cache" }
+      )).json();
+      const recs = (labels.classes || []).map(c => recFor(c.kind, c.id));
+      phoneState.model = model;
+      phoneState.processor = processor;
+      phoneState.rawImage = mod.RawImage;
+      phoneState.labels = labels;
+      phoneState.recs = recs;
+      phoneState.ready = true;
+      setEngineStatus(`拍屏小模型已就绪：96×96 / ${recs.filter(Boolean).length} 类 / 本地推理。`);
+      return phoneState;
+    })();
+    try { return await phoneState.promise; }
+    catch (e) { phoneState.promise = null; throw e; }
   }
 
   function normalizeFloat(a) {
@@ -1447,9 +1515,95 @@
     renderRecResults(items, `识别结果（DINOv2 + 像素模板复核${poolNote} · ${ms}ms）${note} · 点击查看详情`);
   }
 
+  async function recognizePhone(region, candidateN = 64) {
+    const state = phoneState;
+    if (!state.ready) { $("#recCnt").textContent = "拍屏小模型尚未就绪。"; return; }
+    const t0 = performance.now();
+    const src = sourceFor(region);
+
+    const canvas = document.createElement("canvas");
+    canvas.width = 96; canvas.height = 96;
+    const g = canvas.getContext("2d", { willReadFrequently: true });
+    g.imageSmoothingEnabled = true;
+    g.imageSmoothingQuality = "high";
+    g.drawImage(src, 0, 0, src.width, src.height, 0, 0, 96, 96);
+
+    let out;
+    try {
+      const id = g.getImageData(0, 0, 96, 96);
+      const raw = new state.rawImage(id.data, 96, 96, 4);
+      const inputs = await state.processor(raw);
+      out = await state.model(inputs);
+    } catch (e) {
+      const tr = templateResults(region, 8, src);
+      if (tr && tr.items.length) {
+        renderRecResults(tr.items, `${tr.title} · 拍屏模型失败，已回退像素模板`);
+        return tr.items;
+      }
+      $("#recCnt").textContent = "拍屏模型推理失败：" + (e.message || e);
+      return;
+    }
+    const logits = out && out.logits && out.logits.data;
+    if (!logits) {
+      const tr = templateResults(region, 8, src);
+      if (tr && tr.items.length) {
+        renderRecResults(tr.items, `${tr.title} · 拍屏模型无输出，已回退像素模板`);
+        return tr.items;
+      }
+      $("#recCnt").textContent = "拍屏模型没有返回 logits。";
+      return;
+    }
+
+    /* 场景过滤只作用于道具；饰品/卡牌始终保留。 */
+    const allowed = [];
+    for (let i = 0; i < state.recs.length; i++) {
+      const rec = state.recs[i];
+      if (rec && inScene(rec)) allowed.push(i);
+    }
+    if (!allowed.length) {
+      setEngineStatus("当前场景池没有可用候选，已回退像素模板。");
+      recognizeTemplate(region);
+      return;
+    }
+
+    let max = -Infinity;
+    for (const i of allowed) if (logits[i] > max) max = logits[i];
+    let sum = 0;
+    for (const i of allowed) sum += Math.exp(logits[i] - max);
+    const prob = i => Math.exp(logits[i] - max) / (sum || 1);
+
+    /* 反向混合：CNN 先提出候选（取前 64，召回足够高），像素模板只对这
+       64 个候选算距离。这样既保留模板对局部颜色/轮廓的精度，又只做几十
+       次模板距离，而不是对 1000 类全扫一遍。 */
+    allowed.sort((a, b) => logits[b] - logits[a]);
+    const C = candidates(src);
+    const W_MODEL = 0.35;
+    const ranked = allowed.slice(0, candidateN).map(i => {
+      const rec = state.recs[i];
+      const m = BUILTIN_MODEL_BY_KEY.get(rec.kind + ":" + rec.id);
+      const d = m ? templateDistance(m, C) : 1.5;
+      const tpl = Math.max(0, Math.min(1, 1 - d / 1.5));
+      const p = prob(i);
+      return { rec, tpl, p, combined: tpl * (1 - W_MODEL) + p * W_MODEL };
+    }).sort((a, b) => b.combined - a.combined);
+    const gap = ranked.length > 1 ? ranked[0].combined - ranked[1].combined : 1;
+    const items = ranked.slice(0, 8).map((x, rank) => ({
+      ...x.rec,
+      _badge: rank === 0 ? `<span class="badge" style="background:${gap < 0.04 ? "#8a5a24" : "#2e6b46"}">${gap < 0.04 ? "最接近" : "最佳"}</span>` : "",
+      _scoreText: `综合 ${Math.round(x.combined * 100)}% · 模板 ${Math.round(x.tpl * 100)}% · 拍屏 ${Math.round(x.p * 100)}%`
+    }));
+    const note = gap < 0.04 ? " · 候选很接近，请点开确认" : "";
+    const poolNote = activeSceneIds ? ` · ${sceneShort()}` : "";
+    const ms = Math.round(performance.now() - t0);
+    renderRecResults(items, `识别结果（拍屏 CNN + 像素模板复核${poolNote} · ${ms}ms）${note} · 点击查看详情`);
+    if (out.logits && typeof out.logits.dispose === "function") out.logits.dispose();
+    return items;
+  }
+
   async function prepareEngine(name) {
     if (name === "orb") return ensureOrb();
     if (name === "embed") return ensureEmbed();
+    if (name === "phone") return ensurePhone();
     return null;
   }
 
@@ -1467,6 +1621,9 @@
     } else if (v === "custom") {
       $("#backendHint").textContent = "当前：自定义模板。请选择与 recognition.js 同格式的 JSON。";
       $("#modelFile").click();
+    } else if (v === "phone") {
+      $("#backendHint").textContent = "当前：拍屏 CNN 小模型（手机照片专用，道具/饰品/卡牌，约 4MB）。首次使用会加载并缓存，之后离线可用；清晰截图仍建议像素模板。";
+      prepareEngine("phone").catch(e => setEngineStatus("拍屏模型加载失败：" + e.message + "。可切回像素模板。"));
     } else if (v === "orb") {
       $("#backendHint").textContent = "当前：OpenCV.js ORB 特征点匹配（道具/饰品/卡牌，不含药丸）。首次使用会加载约 11MB 引擎和 4MB 特征库。";
       prepareEngine("orb").catch(e => setEngineStatus("ORB 加载失败：" + e.message + "。可切回像素模板。"));
@@ -1509,6 +1666,25 @@
     fr.readAsText(f);
   };
   $("#reset").onclick = () => { if (img) draw(img); lastResults = []; $("#recResults").innerHTML = ""; $("#recCnt").textContent = ""; };
+
+  /* ---------- 评测钩子（仅 ?bench=1 时暴露，正常用户不可见） ---------- */
+  if (new URLSearchParams(location.search).has("bench")) {
+    window.__RECOG_TEST = {
+      draw: (im) => draw(im),
+      size: () => ({
+        w: recCanvas.width, h: recCanvas.height,
+        iw: img ? (img.naturalWidth || img.width) : 0,
+        ih: img ? (img.naturalHeight || img.height) : 0
+      }),
+      sel: (s) => { sel = s; redraw(); },
+      getSel: () => sel ? { ...sel } : null,
+      rank: (region, limit = 8) => templateResults(region, limit),
+      phone: async (region, n = 64) => { await ensurePhone(); return recognizePhone(region, n); },
+      quality: (region) => assessQuality(region),
+      scene: (v) => { activeScene = v; rebuildSceneFilter(); return activeSceneIds ? activeSceneIds.size : null; },
+      sceneIds: () => activeSceneIds ? [...activeSceneIds] : null
+    };
+  }
 
   /* ---------- PWA：Service Worker + 一键离线缓存 ---------- */
   const httpMode = location.protocol.startsWith("http");

@@ -208,12 +208,20 @@ imgs = json.load(open(os.path.join(RAW, "wiki_images.json"), encoding="utf-8"))
 
 
 def imgmap(rows, key):
+    """同一物品在 wiki 有多个 DLC 时代的图标变体（Rebirth/Afterbirth 旧版带后缀，
+    当前版无后缀），取 dlc 掩码最大的一行 = 最新版本。"""
     d = {}
     for r in rows or []:
         k, f = r.get(key, ""), r.get("file", "")
-        if k and f and k not in d:
-            d[k] = f
-    return d
+        if not (k and f):
+            continue
+        try:
+            ver = int(r.get("dlc") or 0)
+        except ValueError:
+            ver = 0
+        if k not in d or ver > d[k][0]:
+            d[k] = (ver, f)
+    return {k: f for k, (_, f) in d.items()}
 
 
 IMG = {

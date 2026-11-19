@@ -1,0 +1,1 @@
+{"do_convert_rgb": true, "do_resize": false, "do_center_crop": false, "do_rescale": true, "rescale_factor": 0.00392156862745098, "do_normalize": true, "image_mean": [0.5, 0.5, 0.5], "image_std": [0.5, 0.5, 0.5], "image_processor_type": "BitImageProcessor", "size": {"height": 96, "width": 96}, "crop_size": {"height": 96, "width": 96}}
