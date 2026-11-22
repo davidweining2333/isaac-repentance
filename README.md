@@ -159,7 +159,7 @@ python3 build.py
 
 ## 七、图鉴 App（网页版 / PWA）
 
-`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端；默认使用免模型的像素模板，也可选拍屏小模型（CNN）、OpenCV ORB 或端侧 DINOv2 向量识别。搜索栏和分类栏吸顶，结果一次全部显示、不再分页；桌面端图标保持原大小，手机端缩小到约四分之一面积。卡片只显示图标，类型用边框颜色区分；道具图标右上角显示品质等级，主动道具左上角显示电池角标、中间数字为充能数量（房间数；绿色电池表示随时间自动充能，数字为秒数，如 `4s`=每 4 秒自动充能），点开详情会写明充能数、充能方式和解锁条件（成就名与达成条件，中英文均有），并附「以撒 Wiki」跳转链接（灰机中文维基 isaac.huijiwiki.com，按中文名定位页面）。「全部」只混合道具 / 饰品 / 卡牌，药丸和房间在独立分类中显示为文字卡片（房间含 27 条中文机制说明）。
+`app/web/` 是可直接使用的图鉴应用：模糊搜索 + 拍照识别，纯前端；默认使用免模型的像素模板，也可选拍屏小模型（CNN）、OpenCV ORB 或端侧 DINOv2 向量识别。搜索栏和分类栏吸顶，结果一次全部显示、不再分页；桌面端图标保持原大小，手机端缩小到约四分之一面积。卡片只显示图标，类型用边框颜色区分；道具图标右上角显示品质等级，主动道具左上角显示电池角标、中间数字为充能数量（房间数；绿色电池表示随时间自动充能，数字为秒数，如 `4s`=每 4 秒自动充能），点开详情会写明充能数、充能方式和解锁条件（成就名与达成条件，中英文均有），并附「以撒 Wiki」跳转链接（灰机中文维基 isaac.huijiwiki.com，按中文名定位页面）。「全部」只混合道具 / 饰品 / 卡牌，药丸和房间在独立分类中显示为文字卡片（房间含 27 条中文机制说明）。搜索页支持按房间道具池筛选道具（普通/贪婪模式合并；选中房间会自动切到「道具」，切到其他分类会清空筛选）。图标颜色标签从图标内部像素提取，忽略透明边缘和黑色描边，只有成片黑色主体才标「黑色」，每个图标最多取两个主色。
 
 ### 全资料查看器 `viewer.html`
 
@@ -233,14 +233,14 @@ npx wrangler deploy
 - `/manifest.json`、`/sw.js` 都返回 200
 - `/app/web/vendor/transformers/ort-wasm.wasm` 返回 200，响应头 `Content-Type: application/wasm`
 - 控制台没有 `no available backend found` / `both async and sync fetching of the wasm failed`
-- 桌面浏览器 DevTools → Application：Manifest 显示可安装，Service Worker 为 activated；缓存里能看到 `isaac-guide-v17`
+- 桌面浏览器 DevTools → Application：Manifest 显示可安装，Service Worker 为 activated；缓存里能看到 `isaac-guide-v20`
 - 手机「添加到主屏幕」后开飞行模式：搜索、识别仍可用
 
 > 必须 HTTPS 才能启用 Service Worker / 离线缓存。本地预览用 `python3 -m http.server 8765`。`_headers` 负责 WASM MIME 和 `app.js` / `sw.js` 的缓存头；如果托管平台不支持 `_headers`，至少确保服务器把 `.wasm` 返回为 `application/wasm`。
 
 ### 更新
 
-`git push` 后 Cloudflare Worker 会重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（当前 `isaac-guide-v18`），强制老用户换新外壳；替换图标时把 `IMG` 加一；改 ORB 特征库、DINOv2 模型或运行库时把 `ENGINE` 加一（当前 `isaac-engine-v1`），否则老的引擎缓存会继续命中。仅新增 `ort-wasm.wasm` 这类按需加载的缺失文件时不需要清空 `ENGINE`，Service Worker 会自动补下载。
+`git push` 后 Cloudflare Worker 会重新部署。改过 HTML/JS 后，把 `sw.js` 顶部的 `V` 加一（当前 `isaac-guide-v20`），强制老用户换新外壳；替换图标时把 `IMG` 加一；改 ORB 特征库、DINOv2 模型或运行库时把 `ENGINE` 加一（当前 `isaac-engine-v1`），否则老的引擎缓存会继续命中。仅新增 `ort-wasm.wasm` 这类按需加载的缺失文件时不需要清空 `ENGINE`，Service Worker 会自动补下载。
 
 ### 五个识别后端
 

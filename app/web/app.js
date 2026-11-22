@@ -65,10 +65,25 @@
   /* 「全部」只混合道具/饰品/卡牌；药丸和房间只有切到各自分类才显示 */
   const ALL_KINDS = SEARCH_KINDS.filter(g => g.key !== "pills" && g.key !== "rooms");
   let kind = "all", query = "";
+  let activeRoom = "all", activeRoomIds = null, activeRoomLabel = "";
+
+  function syncRoomRow() {
+    const row = $("#roomRow");
+    if (row) row.style.display = (kind === "all" || kind === "items") ? "" : "none";
+  }
 
   function setKind(k) {
     kind = k;
+    /* 房间筛选只属于道具；切到其他分类（含「全部」）时清掉，避免隐藏的筛选条件继续生效。 */
+    if (k !== "items") {
+      activeRoom = "all";
+      activeRoomIds = null;
+      activeRoomLabel = "";
+      const rs = $("#roomFilter");
+      if (rs) rs.value = "all";
+    }
     $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
+    syncRoomRow();
     render();
   }
   $$("#kindTabs .tab").forEach(t => t.onclick = () => setKind(t.dataset.kind));
@@ -77,7 +92,7 @@
     query = e.target.value.trim().toLowerCase();
     /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制；
        药丸/房间分类除外，否则输入会立刻跳到不含它们的「全部」。 */
-    if (query && !had && (kind === "items" || kind === "trinkets" || kind === "cards")) setKind("all");
+    if (query && !had && activeRoom === "all" && (kind === "items" || kind === "trinkets" || kind === "cards")) setKind("all");
     else render();
   });
 
@@ -133,9 +148,10 @@
 
     for (const g of groups) {
       const all = G[g.key] || [];
-      const rows = all.map(r => ({ r, k: g.key, s: score(r, query) }))
-        .filter(x => x.s > 0)
-        .sort((a, b) => b.s - a.s);
+      let rows = all.map(r => ({ r, k: g.key, s: score(r, query) }))
+        .filter(x => x.s > 0);
+      if (g.key === "items" && activeRoomIds) rows = rows.filter(x => activeRoomIds.has(x.r.id));
+      rows.sort((a, b) => b.s - a.s);
       buckets.push(rows);
     }
 
@@ -156,8 +172,12 @@
     let txt = `${picked.length} 条`;
     if (query) txt += ` · “${query}”`;
     else if (kind === "all") txt += " · 全部类型（不含药丸、房间）";
+    if (activeRoom !== "all") txt += ` · ${activeRoomLabel}道具池`;
     $("#searchCnt").textContent = txt;
-    $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">没找到，换个俗称/拼音/长相试试</div>`;
+    const empty = activeRoom !== "all"
+      ? "该房间道具池没有匹配结果，换个房间或清空搜索试试"
+      : "没找到，换个俗称/拼音/长相试试";
+    $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">${empty}</div>`;
   }
 
   /* 卡片详情弹层 */
@@ -327,6 +347,36 @@
     boss: "Boss 房", secret: "秘密房", library: "图书馆",
     planetarium: "星球房", curse: "诅咒房"
   };
+
+  /* 搜索页按房间道具池筛选道具。复用识别页的场景池映射，普通/贪婪模式合并。 */
+  function setRoom(room) {
+    activeRoom = room;
+    activeRoomIds = null;
+    activeRoomLabel = "";
+    const sel = $("#roomFilter");
+    if (sel) {
+      sel.value = room;
+      const opt = sel.selectedOptions && sel.selectedOptions[0];
+      activeRoomLabel = opt ? opt.textContent : "";
+    }
+    if (room !== "all") {
+      const ids = new Set();
+      for (const n of (SCENE_POOLS[room] || [])) for (const id of (POOLS[n] || [])) ids.add(id);
+      activeRoomIds = ids;
+      if (kind !== "items") {
+        kind = "items";
+        $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === "items"));
+      }
+    }
+    syncRoomRow();
+    render();
+  }
+  const roomSel = $("#roomFilter");
+  if (roomSel) {
+    roomSel.onchange = () => setRoom(roomSel.value);
+    syncRoomRow();
+  }
+
   let activeScene = "auto";
   let activeSceneIds = null;
   function rebuildSceneFilter() {

@@ -5,7 +5,7 @@
 别名/象形三层：
   1. curated：开发期 AI 手写的俗称 + 象形（按英文/中文名匹配）
   2. auto-look：从中文名提取「像什么」名词标签
-  3. color：用 Pillow 从图标提取主色标签
+  3. color：用 Pillow 从图标内部提取主色标签（去掉透明边缘和描边）
 再加拼音。全部合并进 search 串供前端模糊搜索。
 """
 import json, os, re, glob
@@ -19,6 +19,7 @@ os.makedirs(OUT, exist_ok=True)
 
 from pypinyin import lazy_pinyin
 from PIL import Image
+import numpy as np
 
 def pinyin(s):
     return "".join(lazy_pinyin(s or ""))
@@ -90,6 +91,14 @@ def color_name(r, g, b):
     if h < 290: return "紫色"
     return "粉色"
 
+def _erode(mask, n):
+    """向内腐蚀 alpha 掩码，去掉图标最外圈的描边/抗锯齿。"""
+    for _ in range(n):
+        p = np.pad(mask, 1, constant_values=False)
+        mask = (p[:-2, 1:-1] & p[2:, 1:-1] & p[1:-1, :-2] & p[1:-1, 2:] & p[1:-1, 1:-1])
+    return mask
+
+
 def icon_colors(image_rel, n=2):
     p = os.path.join(ROOT, image_rel)
     if not image_rel or not os.path.exists(p):
@@ -98,15 +107,52 @@ def icon_colors(image_rel, n=2):
         im = Image.open(p).convert("RGBA")
     except Exception:
         return []
-    im = im.resize((24, 24))
+
+    a = np.asarray(im)
+    alpha = a[:, :, 3]
+    if (alpha < 200).any():
+        # 图标带透明背景：按尺寸腐蚀 1–2px（大图按比例），避开黑色描边。
+        er = max(1, min(12, int(min(im.size) * 0.05 + 0.5)))
+        mask = _erode(alpha >= 200, er)
+        if int(mask.sum()) < 20:
+            mask = alpha >= 200
+    else:
+        # 卡牌是整块不透明图，最外圈是深色边框；裁掉 1px 再取色。
+        a = a[1:-1, 1:-1]
+        mask = np.ones(a.shape[:2], dtype=bool)
+    if not mask.any():
+        return []
+
     counts = {}
-    for px in im.getdata():
-        rr, gg, bb, aa = px
-        if aa < 40:
+    for px in a[mask][:, :3]:
+        c = color_name(int(px[0]), int(px[1]), int(px[2]))
+        counts[c] = counts.get(c, 0) + 1
+    total = sum(counts.values()) or 1
+    ranked = sorted(counts.items(), key=lambda x: -x[1])
+
+    # 黑色要同时满足「占比高」和「成片」：描边/细线腐蚀 1px 后就没了，
+    # 真正的黑色主体（黑球、黑影、黑衣）会留下明显的黑色核心。
+    rgb = a[:, :, :3].astype(np.float32) / 255
+    lum = (rgb.max(axis=2) + rgb.min(axis=2)) / 2
+    black_mask = (lum < 0.18) & mask
+    black_px = int(black_mask.sum())
+    black_core = int(_erode(black_mask, 1).sum()) if black_px else 0
+    black_solid = black_px > 0 and black_core / black_px >= 0.2
+
+    out = []
+    for c, v in ranked:
+        share = v / total
+        # 黑色大多是图标外描边：只有黑色是主色、占内部一半以上、且有成片黑色才保留。
+        if c == "黑色" and (ranked[0][0] != "黑色" or share < 0.5 or not black_solid):
             continue
-        counts[color_name(rr, gg, bb)] = counts.get(color_name(rr, gg, bb), 0) + 1
-    top = sorted(counts.items(), key=lambda x: -x[1])
-    return [c for c, _ in top[:n] if _ >= im.size[0]*im.size[1]*0.06]
+        if share < 0.06:
+            continue
+        out.append(c)
+        if len(out) >= n:
+            break
+    if not out and ranked:
+        out = [ranked[0][0]]
+    return out
 
 def build_entry(kind, rec):
     cur = cur_map.get((kind, norm(rec.get("name")))) or cur_map.get((kind, norm(rec.get("name_zh")))) or {}
