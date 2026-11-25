@@ -66,24 +66,47 @@
   const ALL_KINDS = SEARCH_KINDS.filter(g => g.key !== "pills" && g.key !== "rooms");
   let kind = "all", query = "";
   let activeRoom = "all", activeRoomIds = null, activeRoomLabel = "";
+  const activeQualities = new Set();
+  const qualityKey = (q) => q == null ? "none" : String(q);
 
-  function syncRoomRow() {
-    const row = $("#roomRow");
-    if (row) row.style.display = (kind === "all" || kind === "items") ? "" : "none";
+  function syncFilterRows() {
+    const show = kind === "all" || kind === "items";
+    ["#roomRow", "#qualityRow"].forEach(s => {
+      const row = $(s);
+      if (row) row.style.display = show ? "" : "none";
+    });
+  }
+
+  function syncQualityChips() {
+    $$("#qualityFilter .qopt").forEach(btn => {
+      const q = btn.dataset.q;
+      const on = q === "all" ? activeQualities.size === 0 : activeQualities.has(q);
+      btn.classList.toggle("on", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+
+  function qualitySummary() {
+    const nums = [...activeQualities].filter(q => q !== "none").sort((a, b) => +b - +a);
+    let out = nums.length ? "品质 " + nums.join("/") : "";
+    if (activeQualities.has("none")) out += (out ? " + " : "") + "无品质";
+    return out;
   }
 
   function setKind(k) {
     kind = k;
-    /* 房间筛选只属于道具；切到其他分类（含「全部」）时清掉，避免隐藏的筛选条件继续生效。 */
+    /* 房间/品质筛选只属于道具；切到其他分类（含「全部」）时清掉，避免隐藏的筛选条件继续生效。 */
     if (k !== "items") {
       activeRoom = "all";
       activeRoomIds = null;
       activeRoomLabel = "";
+      activeQualities.clear();
+      syncQualityChips();
       const rs = $("#roomFilter");
       if (rs) rs.value = "all";
     }
     $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === k));
-    syncRoomRow();
+    syncFilterRows();
     render();
   }
   $$("#kindTabs .tab").forEach(t => t.onclick = () => setKind(t.dataset.kind));
@@ -92,7 +115,7 @@
     query = e.target.value.trim().toLowerCase();
     /* 开始一次新搜索时自动回到「全部」，不被上次选中的分类限制；
        药丸/房间分类除外，否则输入会立刻跳到不含它们的「全部」。 */
-    if (query && !had && activeRoom === "all" && (kind === "items" || kind === "trinkets" || kind === "cards")) setKind("all");
+    if (query && !had && activeRoom === "all" && !activeQualities.size && (kind === "items" || kind === "trinkets" || kind === "cards")) setKind("all");
     else render();
   });
 
@@ -150,7 +173,10 @@
       const all = G[g.key] || [];
       let rows = all.map(r => ({ r, k: g.key, s: score(r, query) }))
         .filter(x => x.s > 0);
-      if (g.key === "items" && activeRoomIds) rows = rows.filter(x => activeRoomIds.has(x.r.id));
+      if (g.key === "items") {
+        if (activeRoomIds) rows = rows.filter(x => activeRoomIds.has(x.r.id));
+        if (activeQualities.size) rows = rows.filter(x => activeQualities.has(qualityKey(x.r.quality)));
+      }
       rows.sort((a, b) => b.s - a.s);
       buckets.push(rows);
     }
@@ -173,9 +199,10 @@
     if (query) txt += ` · “${query}”`;
     else if (kind === "all") txt += " · 全部类型（不含药丸、房间）";
     if (activeRoom !== "all") txt += ` · ${activeRoomLabel}道具池`;
+    if (activeQualities.size) txt += ` · ${qualitySummary()}`;
     $("#searchCnt").textContent = txt;
-    const empty = activeRoom !== "all"
-      ? "该房间道具池没有匹配结果，换个房间或清空搜索试试"
+    const empty = (activeRoom !== "all" || activeQualities.size)
+      ? "当前筛选条件没有匹配结果，换个房间/品质或清空搜索试试"
       : "没找到，换个俗称/拼音/长相试试";
     $("#results").innerHTML = lastList.map((x, i) => cardHTML(x.r, i, x.k)).join("") || `<div class="empty">${empty}</div>`;
   }
@@ -368,13 +395,34 @@
         $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === "items"));
       }
     }
-    syncRoomRow();
+    syncFilterRows();
     render();
   }
   const roomSel = $("#roomFilter");
   if (roomSel) {
     roomSel.onchange = () => setRoom(roomSel.value);
-    syncRoomRow();
+    syncFilterRows();
+  }
+
+  /* 搜索页按品质筛选道具，可多选；点「全部」清空。与房间道具池筛选叠加生效。 */
+  const qualitySel = $("#qualityFilter");
+  if (qualitySel) {
+    qualitySel.addEventListener("click", e => {
+      const btn = e.target.closest(".qopt");
+      if (!btn) return;
+      const q = btn.dataset.q;
+      if (q === "all") activeQualities.clear();
+      else if (activeQualities.has(q)) activeQualities.delete(q);
+      else activeQualities.add(q);
+      if (activeQualities.size && kind !== "items") {
+        kind = "items";
+        $$("#kindTabs .tab").forEach(x => x.classList.toggle("on", x.dataset.kind === "items"));
+      }
+      syncQualityChips();
+      syncFilterRows();
+      render();
+    });
+    syncQualityChips();
   }
 
   let activeScene = "auto";
